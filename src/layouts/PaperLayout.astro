@@ -1,0 +1,775 @@
+---
+import Layout from './Layout.astro';
+import ExploreWithAI from '../components/ExploreWithAI.astro';
+import '../styles/global.css';
+
+interface Props {
+  frontmatter: {
+    title: string;
+    slug: string;
+    date: string;
+    readingTime: number;
+    abstract: string;
+    journalUrl?: string;
+    topic?: string;
+  };
+}
+
+const { frontmatter } = Astro.props;
+
+// Format date for display
+const formattedDate = new Date(frontmatter.date).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
+
+// Build the paper URL for the AI prompt
+const siteUrl = import.meta.env.SITE || 'https://yoursite.com';
+const paperUrl = frontmatter.journalUrl || `${siteUrl}/papers/${frontmatter.slug}`;
+const topic = frontmatter.topic || 'research paper';
+---
+
+<Layout title={frontmatter.title} description={frontmatter.abstract}>
+  <!-- Reading Progress Bar -->
+  <div class="progress-bar" id="progress"></div>
+
+  <article class="paper-container">
+    <!-- Paper Header -->
+    <header class="paper-header">
+      <div class="max-w-5xl mx-auto px-4 py-12">
+        <a href="/" class="back-link">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+          Back to Papers
+        </a>
+
+        <h1 class="paper-title">{frontmatter.title}</h1>
+
+        <div class="paper-meta">
+          <time datetime={frontmatter.date}>{formattedDate}</time>
+          <span class="meta-separator">|</span>
+          <span>{frontmatter.readingTime} min read</span>
+          {frontmatter.journalUrl && (
+            <>
+              <span class="meta-separator">|</span>
+              <a href={frontmatter.journalUrl} target="_blank" rel="noopener noreferrer" class="journal-link">
+                <svg class="journal-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                </svg>
+                Read in Journal
+              </a>
+            </>
+          )}
+        </div>
+
+        <!-- Text Size Controls -->
+        <div class="text-size-controls">
+          <span class="text-size-label">Text size:</span>
+          <button id="text-smaller" class="text-size-btn" aria-label="Decrease text size">A-</button>
+          <button id="text-larger" class="text-size-btn" aria-label="Increase text size">A+</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Abstract Section -->
+    {frontmatter.abstract && frontmatter.abstract !== 'Abstract not found.' && (
+      <section class="abstract-section">
+        <div class="max-w-5xl mx-auto px-4">
+          <div class="abstract-box">
+            <h2 class="abstract-heading">Abstract</h2>
+            <p class="abstract-text">{frontmatter.abstract}</p>
+          </div>
+        </div>
+      </section>
+    )}
+
+    <!-- Paper Content with TOC -->
+    <div class="paper-content">
+      <div class="paper-layout">
+        <!-- Table of Contents -->
+        <nav class="toc" id="toc" aria-label="Table of Contents">
+          <h2 class="toc-heading">Contents</h2>
+          <ol class="toc-list" id="toc-list">
+            <!-- Links populated by JavaScript -->
+          </ol>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="content prose" id="paper-body">
+          <slot />
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top">
+    <svg class="scroll-top-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+    </svg>
+  </button>
+
+  <!-- Explore with AI Button -->
+  <ExploreWithAI
+    paperTitle={frontmatter.title}
+    paperUrl={paperUrl}
+    topic={topic}
+  />
+</Layout>
+
+<style>
+  /* Reading Progress Bar */
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: var(--border);
+    z-index: 100;
+  }
+
+  .progress-bar::after {
+    content: '';
+    display: block;
+    height: 100%;
+    width: var(--progress, 0%);
+    background: var(--accent);
+    transition: width 0.1s;
+  }
+
+  .paper-container {
+    min-height: 100vh;
+  }
+
+  .paper-header {
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-elevated);
+  }
+
+  .back-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    margin-bottom: 1.5rem;
+    transition: color 0.2s;
+  }
+
+  .back-link:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .paper-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+
+  @media (min-width: 768px) {
+    .paper-title {
+      font-size: 2.75rem;
+    }
+  }
+
+  .paper-meta {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+
+  .meta-separator {
+    color: var(--border);
+  }
+
+  .journal-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    color: var(--accent);
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+
+  .journal-link:hover {
+    opacity: 0.8;
+    text-decoration: none;
+  }
+
+  .journal-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  /* Text Size Controls */
+  .text-size-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .text-size-label {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+  }
+
+  .text-size-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0.5rem 0.75rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+
+  .text-size-btn:hover {
+    border-color: var(--accent);
+  }
+
+  .text-size-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  .text-size-btn.active {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: white;
+  }
+
+  .text-size-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .abstract-section {
+    padding: 2rem 0;
+    background: var(--bg);
+  }
+
+  .abstract-box {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+  }
+
+  .abstract-heading {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+    margin-top: 0;
+  }
+
+  .abstract-text {
+    color: var(--text-muted);
+    line-height: 1.7;
+    margin: 0;
+  }
+
+  .paper-content {
+    padding: 3rem 0;
+  }
+
+  /* Prose styling for paper content */
+  .prose {
+    color: var(--text);
+    line-height: 1.8;
+    font-size: calc(1rem * var(--text-scale, 1));
+  }
+
+  .prose :global(h1),
+  .prose :global(h2),
+  .prose :global(h3),
+  .prose :global(h4),
+  .prose :global(h5),
+  .prose :global(h6) {
+    color: var(--text);
+    font-weight: 600;
+    margin-top: 2em;
+    margin-bottom: 0.75em;
+  }
+
+  .prose :global(h1) {
+    font-size: 1.75rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+  }
+
+  .prose :global(h2) {
+    font-size: 1.5rem;
+  }
+
+  .prose :global(h3) {
+    font-size: 1.25rem;
+  }
+
+  .prose :global(p) {
+    margin-bottom: 1.25em;
+  }
+
+  .prose :global(strong) {
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .prose :global(a) {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .prose :global(a:hover) {
+    text-decoration: underline;
+  }
+
+  .prose :global(ul),
+  .prose :global(ol) {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25em;
+  }
+
+  .prose :global(li) {
+    margin-bottom: 0.5em;
+  }
+
+  .prose :global(blockquote) {
+    border-left: 4px solid var(--accent);
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: var(--text-muted);
+    font-style: italic;
+  }
+
+  .prose :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+
+  .prose :global(th),
+  .prose :global(td) {
+    border: 1px solid var(--border);
+    padding: 0.75rem;
+    text-align: left;
+  }
+
+  .prose :global(th) {
+    background: var(--bg-elevated);
+    font-weight: 600;
+  }
+
+  .prose :global(code) {
+    background: var(--bg-elevated);
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  }
+
+  .prose :global(pre) {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+  }
+
+  .prose :global(pre code) {
+    background: none;
+    padding: 0;
+  }
+
+  .prose :global(hr) {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2rem 0;
+  }
+
+  .prose :global(img) {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+  }
+
+  /* Paper Layout with TOC */
+  .paper-layout {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  /* Table of Contents */
+  .toc {
+    display: none;
+    padding: 1rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+
+  .toc.has-headings {
+    display: block;
+  }
+
+  .toc-heading {
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-muted);
+    margin: 0 0 0.75rem 0;
+  }
+
+  .toc-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .toc-item {
+    margin: 0;
+  }
+
+  .toc-item-h3 {
+    padding-left: 1rem;
+  }
+
+  .toc-link {
+    display: block;
+    padding: 0.375rem 0;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    line-height: 1.4;
+    text-decoration: none;
+    border-left: 2px solid transparent;
+    padding-left: 0.75rem;
+    margin-left: -0.75rem;
+    transition: color 0.2s, border-color 0.2s;
+    min-height: auto;
+    min-width: auto;
+  }
+
+  .toc-link:hover {
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .toc-link.active {
+    color: var(--accent);
+    font-weight: 600;
+    border-left-color: var(--accent);
+  }
+
+  /* Desktop: Sidebar TOC */
+  @media (min-width: 1024px) {
+    .paper-layout {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 3rem;
+      max-width: 1200px;
+      padding: 0 2rem;
+    }
+
+    .toc {
+      position: sticky;
+      top: 1rem;
+      align-self: start;
+      max-height: calc(100vh - 2rem);
+      overflow-y: auto;
+      margin-bottom: 0;
+    }
+
+    .paper-layout .content {
+      max-width: 800px;
+      padding: 0;
+    }
+  }
+
+  /* Scroll to Top Button */
+  .scroll-top-btn {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    color: var(--text);
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s, border-color 0.2s, background-color 0.2s;
+    z-index: 50;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .scroll-top-btn.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .scroll-top-btn:hover {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: white;
+  }
+
+  .scroll-top-btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  .scroll-top-icon {
+    width: 20px;
+    height: 20px;
+  }
+</style>
+
+<script>
+  const progress = document.getElementById('progress');
+  let ticking = false;
+
+  function updateProgress() {
+    const scrollHeight = document.body.scrollHeight - window.innerHeight;
+    if (scrollHeight > 0) {
+      const pct = Math.min(100, (window.scrollY / scrollHeight) * 100);
+      progress?.style.setProperty('--progress', pct + '%');
+    }
+    ticking = false;
+  }
+
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(updateProgress);
+  });
+
+  // Initialize on page load
+  updateProgress();
+</script>
+
+<script>
+  // Table of Contents Generator and Scroll Spy
+  (function initTOC() {
+    const tocList = document.getElementById('toc-list');
+    const tocNav = document.getElementById('toc');
+    const paperBody = document.getElementById('paper-body');
+
+    if (!tocList || !paperBody || !tocNav) return;
+
+    // Extract h2 and h3 headings from paper content
+    const headings = paperBody.querySelectorAll('h2, h3');
+
+    // If no headings, keep TOC hidden
+    if (headings.length === 0) {
+      return;
+    }
+
+    // Show TOC since we have headings
+    tocNav.classList.add('has-headings');
+
+    // Generate IDs for headings that don't have them
+    headings.forEach((heading, index) => {
+      if (!heading.id) {
+        // Create slug from heading text
+        const text = heading.textContent || '';
+        const slug = text
+          .toLowerCase()
+          .trim()
+          .replace(/[^\w\s-]/g, '')
+          .replace(/\s+/g, '-')
+          .substring(0, 50) || `section-${index}`;
+        heading.id = slug;
+      }
+    });
+
+    // Build TOC HTML
+    let tocHTML = '';
+    headings.forEach((heading) => {
+      const level = heading.tagName.toLowerCase();
+      const isH3 = level === 'h3';
+      const text = (heading.textContent || '').trim();
+      const href = `#${heading.id}`;
+
+      tocHTML += `
+        <li class="toc-item ${isH3 ? 'toc-item-h3' : ''}">
+          <a href="${href}" class="toc-link" data-target="${heading.id}">
+            ${text}
+          </a>
+        </li>
+      `;
+    });
+
+    tocList.innerHTML = tocHTML;
+
+    // Scroll Spy Implementation
+    const links = document.querySelectorAll('.toc-link');
+    let scrollTicking = false;
+
+    function updateActiveLink() {
+      let current = null;
+      const scrollPos = window.scrollY;
+
+      headings.forEach((heading) => {
+        const rect = heading.getBoundingClientRect();
+        const offsetTop = rect.top + scrollPos;
+
+        // Heading is considered "current" if it's above the viewport threshold
+        if (offsetTop <= scrollPos + 150) {
+          current = heading;
+        }
+      });
+
+      links.forEach((link) => {
+        const target = link.getAttribute('data-target');
+        const isActive = current && target === current.id;
+        link.classList.toggle('active', isActive);
+      });
+    }
+
+    // Initial update
+    updateActiveLink();
+
+    // Throttled scroll handler using requestAnimationFrame
+    window.addEventListener('scroll', () => {
+      if (scrollTicking) return;
+      scrollTicking = true;
+
+      requestAnimationFrame(() => {
+        updateActiveLink();
+        scrollTicking = false;
+      });
+    });
+
+    // Smooth scroll on click
+    links.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        const target = link.getAttribute('data-target');
+        if (target) {
+          const heading = document.getElementById(target);
+          if (heading) {
+            e.preventDefault();
+            heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // Update URL hash without jumping
+            history.pushState(null, '', `#${target}`);
+          }
+        }
+      });
+    });
+  })();
+</script>
+
+<script>
+  // Text Size Controls
+  (function initTextSize() {
+    const root = document.documentElement;
+    const smallerBtn = document.getElementById('text-smaller');
+    const largerBtn = document.getElementById('text-larger');
+
+    if (!smallerBtn || !largerBtn) return;
+
+    const sizes = [0.9, 1, 1.1, 1.2]; // 90%, 100%, 110%, 120%
+    const storageKey = 'paper-text-size';
+
+    // Load saved preference
+    let currentIndex = 1; // Default to 100%
+    const saved = localStorage.getItem(storageKey);
+    if (saved !== null) {
+      const savedIndex = parseInt(saved, 10);
+      if (savedIndex >= 0 && savedIndex < sizes.length) {
+        currentIndex = savedIndex;
+      }
+    }
+
+    function updateTextSize() {
+      root.style.setProperty('--text-scale', sizes[currentIndex].toString());
+      localStorage.setItem(storageKey, currentIndex.toString());
+
+      // Update button states
+      smallerBtn.disabled = currentIndex === 0;
+      largerBtn.disabled = currentIndex === sizes.length - 1;
+    }
+
+    // Initialize
+    updateTextSize();
+
+    smallerBtn.addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateTextSize();
+      }
+    });
+
+    largerBtn.addEventListener('click', () => {
+      if (currentIndex < sizes.length - 1) {
+        currentIndex++;
+        updateTextSize();
+      }
+    });
+  })();
+</script>
+
+<script>
+  // Scroll to Top Button
+  (function initScrollTop() {
+    const scrollBtn = document.getElementById('scroll-top');
+    if (!scrollBtn) return;
+
+    let scrollTicking = false;
+    const threshold = 400;
+
+    function updateScrollButton() {
+      const shouldShow = window.scrollY > threshold;
+      scrollBtn.classList.toggle('visible', shouldShow);
+    }
+
+    // Initialize
+    updateScrollButton();
+
+    window.addEventListener('scroll', () => {
+      if (scrollTicking) return;
+      scrollTicking = true;
+
+      requestAnimationFrame(() => {
+        updateScrollButton();
+        scrollTicking = false;
+      });
+    });
+
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  })();
+</script>

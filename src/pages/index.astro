@@ -1,0 +1,58 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/global.css';
+import { getCollection } from 'astro:content';
+
+// Get papers from content collection
+const allPapers = await getCollection('papers');
+
+const papers = allPapers.map((paper) => {
+  const { title, slug, abstract, readingTime } = paper.data;
+
+  // Clean up abstract - remove "Abstract not found." and trim whitespace
+  const cleanAbstract = abstract && abstract.trim() !== 'Abstract not found.'
+    ? abstract.trim()
+    : '';
+
+  // Create a short excerpt from abstract (first 200 chars)
+  const excerpt = cleanAbstract
+    ? cleanAbstract.slice(0, 200) + (cleanAbstract.length > 200 ? '...' : '')
+    : 'Research paper on pharmacoepidemiology and clinical outcomes.';
+
+  return {
+    slug,
+    title,
+    abstract: excerpt,
+    readingTime
+  };
+}).sort((a, b) => a.title.localeCompare(b.title));
+---
+
+<Layout title="Research Papers">
+  <section class="content py-12">
+    <div class="mb-12">
+      <h1 class="text-3xl font-bold mb-4">Research Portfolio</h1>
+      <p class="text-text-muted text-lg">
+        Academic papers and research on medical topics.
+        Use the chat widget to ask questions about my research.
+      </p>
+    </div>
+
+    <section id="papers">
+      <h2 class="text-2xl font-semibold mb-6">Papers</h2>
+      <ul class="space-y-6">
+        {papers.map(paper => (
+          <li class="bg-bg-elevated border border-border rounded-lg p-6 hover:border-accent transition-colors">
+            <a href={`/papers/${paper.slug}`} class="block">
+              <h3 class="text-xl font-semibold mb-2 text-text hover:text-accent transition-colors">
+                {paper.title}
+              </h3>
+              <p class="text-text-muted mb-3">{paper.abstract}</p>
+              <span class="text-sm text-text-muted">{paper.readingTime} min read</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  </section>
+</Layout>
