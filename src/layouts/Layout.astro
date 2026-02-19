@@ -7,6 +7,7 @@ interface Props {
 const { title, description = 'Research blog and academic papers' } = Astro.props;
 
 const currentYear = new Date().getFullYear();
+const base = import.meta.env.BASE_URL || '/';
 ---
 
 <!doctype html>
@@ -17,15 +18,10 @@ const currentYear = new Date().getFullYear();
     <meta name="description" content={description} />
     <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    
-    <!-- Preconnect to external domains -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
     
     <title>{title}</title>
     
-    <!-- Prevent theme flash -->
     <script is:inline>
       (function() {
         const theme = localStorage.getItem('theme') || 
@@ -35,15 +31,14 @@ const currentYear = new Date().getFullYear();
     </script>
   </head>
   <body>
-    <!-- Reading progress bar -->
     <div class="reading-progress" id="reading-progress"></div>
     
     <header class="site-header">
       <div class="container">
-        <a href="/" class="site-title">Minh-Ha Nguyen</a>
+        <a href={base} class="site-title">Minh-Ha Nguyen</a>
         <nav class="site-nav">
-          <a href="/">Blog</a>
-          <a href="/about">About</a>
+          <a href={base}>Blog</a>
+          <a href={`${base}about`}>About</a>
           <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
             <svg class="sun" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <circle cx="12" cy="12" r="5"></circle>
@@ -82,7 +77,6 @@ const currentYear = new Date().getFullYear();
     </footer>
 
     <script>
-      // Theme toggle
       const themeToggle = document.getElementById('theme-toggle');
       const html = document.documentElement;
       
@@ -93,7 +87,6 @@ const currentYear = new Date().getFullYear();
         localStorage.setItem('theme', newTheme);
       });
 
-      // Reading progress
       const progressBar = document.getElementById('reading-progress');
       let ticking = false;
 

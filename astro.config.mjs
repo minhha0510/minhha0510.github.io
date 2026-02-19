@@ -1,11 +1,13 @@
 import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
-// This is a username.github.io repository, so we serve from root
-// No base path needed for username.github.io sites
+// IMPORTANT: Repository is minhha0510/minhha0510
+// Site URL: https://minhha0510.github.io/minhha0510/
+// Must include base path for subdirectory deployment
 
 export default defineConfig({
   output: 'static',
+  base: '/minhha0510',
   integrations: [
     tailwind()
   ],
@@ -14,6 +16,5 @@ export default defineConfig({
       theme: 'github-dark'
     }
   },
-  // Your site URL
   site: 'https://minhha0510.github.io',
 });

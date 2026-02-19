@@ -2,7 +2,6 @@
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
 
-// Get all posts sorted by date (newest first)
 const allPosts = await getCollection('posts');
 const posts = allPosts
   .map((post) => ({
@@ -15,7 +14,6 @@ const posts = allPosts
   }))
   .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
-// Format date
 function formatDate(dateString: string) {
   return new Date(dateString).toLocaleDateString('en-US', {
     year: 'numeric',
@@ -23,6 +21,8 @@ function formatDate(dateString: string) {
     day: 'numeric',
   });
 }
+
+const base = import.meta.env.BASE_URL || '/';
 ---
 
 <Layout title="Minh-Ha Nguyen | Research Blog">
@@ -46,7 +46,7 @@ function formatDate(dateString: string) {
               {post.category && <span class="post-category">{post.category}</span>}
             </div>
             <h3 class="post-title">
-              <a href={`/posts/${post.slug}`}>{post.title}</a>
+              <a href={`${base}posts/${post.slug}`}>{post.title}</a>
             </h3>
             <p class="post-excerpt">{post.excerpt}</p>
             <span class="reading-time">{post.readingTime} min read</span>

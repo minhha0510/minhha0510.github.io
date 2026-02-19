@@ -27,18 +27,16 @@ const {
   doi 
 } = post.data;
 
-// Format date
 const formattedDate = new Date(date).toLocaleDateString('en-US', {
   year: 'numeric',
   month: 'long',
   day: 'numeric',
 });
 
-// Build URLs and prompts
-const siteUrl = 'https://minhha0510.github.io';
+const base = import.meta.env.BASE_URL || '/';
+const siteUrl = 'https://minhha0510.github.io/minhha0510';
 const postUrl = `${siteUrl}/posts/${post.data.slug}`;
 
-// Create LLM prompts
 const blogPrompt = `I'd like to discuss this blog post about pharmacoepidemiology research:
 
 Title: "${title}"
@@ -70,7 +68,7 @@ Please provide:
 ---
 
 <Layout title={title} description={excerpt}>
-  <a href="/" class="back-link">
+  <a href={base} class="back-link">
     <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
       <path d="M15 19l-7-7 7-7"></path>
     </svg>
@@ -169,7 +167,6 @@ Please provide:
         button.classList.remove('show');
       }, 2000);
     } catch (err) {
-      // Fallback
       const textArea = document.createElement('textarea');
       textArea.value = prompt;
       textArea.style.position = 'fixed';
@@ -335,7 +332,6 @@ Please provide:
     color: white;
   }
 
-  /* Tooltip */
   .tooltip {
     position: relative;
   }
