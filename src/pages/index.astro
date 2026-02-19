@@ -22,7 +22,7 @@ function formatDate(dateString: string) {
   });
 }
 
-const base = import.meta.env.BASE_URL || '/';
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 ---
 
 <Layout title="Minh-Ha Nguyen | Research Blog">

@@ -33,7 +33,7 @@ const formattedDate = new Date(date).toLocaleDateString('en-US', {
   day: 'numeric',
 });
 
-const base = import.meta.env.BASE_URL || '/';
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 const siteUrl = 'https://minhha0510.github.io/minhha0510';
 const postUrl = `${siteUrl}/posts/${post.data.slug}`;
 
