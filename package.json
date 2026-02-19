@@ -1,18 +1,17 @@
 {
   "name": "personal-website",
   "type": "module",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "description": "Research blog built with Astro - Chalk-inspired design",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "extract": "node scripts/extract-paper.js"
   },
   "dependencies": {
-    "@astrojs/react": "^4.0.0",
-    "astro": "^5.0.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "astro": "^5.0.0"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.1.0",

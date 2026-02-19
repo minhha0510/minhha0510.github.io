@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(pandoc:*)",
+      "Bash(node scripts/convert-papers.mjs:*)",
+      "Bash(node scripts/chunk-papers.mjs:*)",
+      "Bash(xxd:*)",
+      "Bash(bd list:*)",
+      "Bash(bd stats:*)",
+      "Bash(node scripts/build-index.mjs:*)",
+      "Bash(du:*)",
+      "Bash(wc:*)",
+      "Bash(npm run preview:*)",
+      "Bash(curl:*)",
+      "Bash(bd sync:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: Personal academic website\n\nFeatures:\n- Astro 5.x static site with Tailwind CSS\n- Three research papers with markdown content\n- Paper reading experience with TOC, progress bar, text size controls\n- \"Explore with AI\" button for ChatGPT prompts\n- Dark/light theme toggle\n- Netlify functions for RAG chat \\(optional\\)\n- Mobile responsive design\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)"
+    ]
+  }
+}

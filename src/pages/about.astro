@@ -1,0 +1,188 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="About | Minh-Ha Nguyen" description="About Minh-Ha Nguyen, pharmacoepidemiologist and researcher">
+  <div class="about-page">
+    <h1>About</h1>
+    
+    <div class="about-content">
+      <section class="intro">
+        <p class="lead">
+          I'm a pharmacoepidemiologist researching medication safety, clinical outcomes, and 
+          the real-world effectiveness of pharmaceutical interventions. My work focuses on 
+          translating complex evidence into actionable insights for patients and clinicians.
+        </p>
+      </section>
+
+      <section class="research">
+        <h2>Research Focus</h2>
+        <p>
+          My research sits at the intersection of pharmacology, epidemiology, and clinical medicine. 
+          I specialize in:
+        </p>
+        <ul>
+          <li><strong>Drug safety surveillance</strong> — identifying and quantifying adverse effects of commonly prescribed medications</li>
+          <li><strong>Comparative effectiveness research</strong> — evaluating which treatments work best in real-world settings</li>
+          <li><strong>Methodological innovation</strong> — developing and applying rigorous epidemiologic methods to healthcare data</li>
+          <li><strong>Evidence synthesis</strong> — systematic reviews and meta-analyses to integrate findings across studies</li>
+        </ul>
+        <p>
+          Much of my recent work has focused on 5-alpha reductase inhibitors (finasteride and dutasteride), 
+          widely used medications for benign prostatic hyperplasia and male pattern baldness. I've investigated 
+          their potential effects on depression, diabetes risk, and glycemic control using large-scale 
+          observational data from the United States, South Korea, and New Zealand.
+        </p>
+      </section>
+
+      <section class="philosophy">
+        <h2>Research Philosophy</h2>
+        <p>
+          I believe that good epidemiology requires both methodological rigor and clear communication. 
+          A study can be statistically sophisticated, but if its implications aren't understood by 
+          clinicians and patients, its impact is limited.
+        </p>
+        <p>
+          In my work, I emphasize:
+        </p>
+        <ul>
+          <li><strong>Appropriate comparator selection</strong> — the control group matters enormously in observational research</li>
+          <li><strong>Transparency</strong> — open data, open code, and clear reporting of limitations</li>
+          <li><strong>Clinical relevance</strong> — focusing on questions that matter for patient care</li>
+          <li><strong>Nuanced interpretation</strong> — avoiding both alarmism and false reassurance</li>
+        </ul>
+      </section>
+
+      <section class="background">
+        <h2>Background</h2>
+        <p>
+          I hold a Master of Pharmacy (MPharm) and am currently pursuing doctoral studies in Epidemiology 
+          at Vanderbilt University. My training spans clinical pharmacy, epidemiologic methods, and 
+          biostatistics.
+        </p>
+        <p>
+          I've had the privilege of collaborating with researchers across multiple institutions and 
+          countries, including:
+        </p>
+        <ul>
+          <li>Vanderbilt University Medical Center</li>
+          <li>Yonsei University College of Medicine</li>
+          <li>University of Auckland</li>
+          <li>University of British Columbia</li>
+        </ul>
+      </section>
+
+      <section class="about-blog">
+        <h2>About This Blog</h2>
+        <p>
+          This blog serves as a bridge between academic research and broader understanding. Each post 
+          explains one of my studies in accessible terms, exploring:
+        </p>
+        <ul>
+          <li>Why the research question matters</li>
+          <li>How we designed the study and why</li>
+          <li>What we found and what it means</li>
+          <li>The limitations and unanswered questions</li>
+        </ul>
+        <p>
+          I also provide AI prompts for readers who want to explore the research more deeply with 
+          tools like ChatGPT or Claude. These prompts are designed to facilitate nuanced discussions 
+          about the methodology, findings, and implications.
+        </p>
+      </section>
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>
+          I'm always interested in connecting with fellow researchers, clinicians, students, or anyone 
+          interested in pharmacoepidemiology. You can reach me at:
+        </p>
+        <ul class="contact-list">
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:ha.m.nguyen@vanderbilt.edu">ha.m.nguyen@vanderbilt.edu</a>
+          </li>
+          <li>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">github.com/yourusername</a>
+          </li>
+          <li>
+            <strong>Twitter:</strong>
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">@yourusername</a>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .about-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 1rem 0 3rem;
+  }
+
+  .about-page h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 2rem 0;
+    text-align: center;
+  }
+
+  .about-content section {
+    margin-bottom: 2.5rem;
+  }
+
+  .about-content h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .lead {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--text-muted);
+    text-align: center;
+    margin: 0;
+  }
+
+  .about-content p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+
+  .about-content ul {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .about-content li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+  }
+
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .contact-list li {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  @media (max-width: 640px) {
+    .about-page h1 {
+      font-size: 2rem;
+    }
+
+    .lead {
+      font-size: 1.1rem;
+    }
+  }
+</style>
