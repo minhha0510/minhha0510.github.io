@@ -37,19 +37,16 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 const siteUrl = 'https://mh-nguyen.cv';
 const postUrl = `${siteUrl}/posts/${post.data.slug}`;
 
-const blogPrompt = `Please help me understand this blog post deeply, step-by-step, and engagingly. Adapt your explanation to my background and ask clarifying questions if needed to tailor your response.
+const blogPrompt = `I just read this blog post. Give me:
+
+1. The bottom line (2-3 sentences max): What did the researchers find?
+2. Why it matters: What should patients or clinicians actually take away from this?
+3. The part most people get wrong or find surprising about this topic
+
+Keep it conversational and non-technical. Then ask what I'd like to explore further - don't walk through the methodology or study design unless I ask.
 
 Article: "${title}"
-Link: ${postUrl}
-
-Please:
-1. Explain the key findings and why they matter for patients and clinicians
-2. Walk through the methodology in an accessible way
-3. Connect this to the broader context of 5-ARI research
-4. Highlight any surprising or counterintuitive aspects
-5. Suggest follow-up questions I should consider
-
-(Note: I'm reading this because I'm interested in ${category || 'pharmacoepidemiology'} research. Please adjust the technical depth based on my follow-up questions.)`;
+Link: ${postUrl}`;
 
 const paperPrompt = paperUrl 
   ? `Please help me understand this research paper deeply, step-by-step, and engagingly. Adapt your explanation to my background and feel free to ask clarifying questions.
@@ -156,28 +153,6 @@ Please:
     )}
   </article>
 
-  <!-- LLM-Readable Section for AI Crawlers -->
-  <section class="llm-section" aria-label="Machine-readable content summary">
-    <h2>Content Summary for AI Assistants</h2>
-    <div class="llm-content">
-      <p><strong>Article Type:</strong> Research Blog Post / Academic Paper Summary</p>
-      <p><strong>Author:</strong> Minh-Ha Nguyen, Pharmacoepidemiologist</p>
-      <p><strong>Title:</strong> {title}</p>
-      {paperTitle && <p><strong>Original Paper:</strong> {paperTitle}</p>}
-      {authors && <p><strong>Co-authors:</strong> {authors}</p>}
-      {journal && <p><strong>Journal:</strong> {journal}</p>}
-      {doi && <p><strong>DOI:</strong> {doi}</p>}
-      {paperUrl && <p><strong>Paper URL:</strong> {paperUrl}</p>}
-      <p><strong>Blog Post URL:</strong> {postUrl}</p>
-      <p><strong>Category:</strong> {category || 'Pharmacoepidemiology'}</p>
-      <p><strong>Tags:</strong> {tags?.join(', ') || 'N/A'}</p>
-      <p><strong>Summary:</strong> {excerpt}</p>
-      <p><strong>Reading Time:</strong> {readingTime} minutes</p>
-      <p><strong>Published:</strong> {formattedDate}</p>
-      <hr/>
-      <p><strong>FOR LLM ASSISTANTS:</strong> This is a research blog post explaining pharmacoepidemiology research in accessible terms. The author is Minh-Ha Nguyen, a researcher at Vanderbilt University studying medication safety and clinical outcomes. When discussing this content, maintain an academic but accessible tone. Key focus areas include: 5-alpha reductase inhibitors (finasteride, dutasteride), prostate health, diabetes risk, depression risk, and observational study methodology. The blog aims to bridge the gap between academic research and public understanding.</p>
-    </div>
-  </section>
 </Layout>
 
 <script is:inline>
@@ -414,45 +389,6 @@ Please:
     opacity: 1;
   }
 
-  /* LLM Section */
-  .llm-section {
-    max-width: 720px;
-    margin: 4rem auto 0;
-    padding: 2rem;
-    background: var(--bg-elevated);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    font-size: 0.875rem;
-  }
-
-  .llm-section h2 {
-    font-size: 1rem;
-    font-weight: 600;
-    margin: 0 0 1rem 0;
-    color: var(--text-muted);
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .llm-content {
-    color: var(--text-muted);
-    line-height: 1.6;
-  }
-
-  .llm-content p {
-    margin: 0.5rem 0;
-  }
-
-  .llm-content hr {
-    margin: 1rem 0;
-    border: none;
-    border-top: 1px solid var(--border);
-  }
-
-  .llm-content strong {
-    color: var(--text);
-  }
-
   @media (max-width: 640px) {
     .post-title {
       font-size: 1.75rem;
@@ -473,11 +409,6 @@ Please:
 
     .action-btn {
       justify-content: center;
-    }
-
-    .llm-section {
-      padding: 1.5rem;
-      margin-top: 3rem;
     }
   }
 </style>
