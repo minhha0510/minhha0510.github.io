@@ -37,33 +37,33 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 const siteUrl = 'https://minhha0510.github.io/minhha0510';
 const postUrl = `${siteUrl}/posts/${post.data.slug}`;
 
-const blogPrompt = `I'd like to discuss this blog post about pharmacoepidemiology research:
+const blogPrompt = `Using what you know about me as a pharmacoepidemiologist researching medication safety, please help me understand this blog post deeply, step-by-step, and engagingly.
 
-Title: "${title}"
-URL: ${postUrl}
+Article: "${title}"
+Link: ${postUrl}
 
 Please:
-1. Summarize the key findings and their clinical significance
-2. Explain the methodology in accessible terms
-3. Discuss the strengths and limitations of the research
-4. Suggest what questions remain unanswered
+1. Explain the key findings and why they matter for patients and clinicians
+2. Walk through the methodology in an accessible way
+3. Connect this to the broader context of 5-ARI research
+4. Highlight any surprising or counterintuitive aspects
+5. Suggest follow-up questions I should consider`;
 
-Feel free to ask me clarifying questions about what aspects interest me most.`;
+const paperPrompt = paperUrl 
+  ? `Using what you know about me as a pharmacoepidemiologist, please help me understand this research paper deeply, step-by-step, and engagingly.
 
-const paperPrompt = paperTitle 
-  ? `I'd like to analyze this research paper:
-
-Title: "${paperTitle}"
+Paper: "${paperTitle || title}"
 ${authors ? `Authors: ${authors}` : ''}
 ${journal ? `Journal: ${journal}` : ''}
+Link: ${paperUrl}
 ${doi ? `DOI: ${doi}` : ''}
 
-Please provide:
-1. A critical appraisal of the study design and methods
-2. Evaluation of the statistical analysis approach
-3. Assessment of the conclusions' validity
-4. Context within the broader literature
-5. Suggestions for future research directions`
+Please:
+1. Summarize the study design and key findings
+2. Critically appraise the methodology and its strengths/limitations
+3. Explain the clinical implications
+4. Place this in context of the broader literature
+5. Suggest how this advances our understanding of the topic`
   : null;
 ---
 
@@ -93,34 +93,32 @@ Please provide:
     </header>
 
     <div class="post-actions-top">
-      <h2 class="post-actions-title">Explore with AI</h2>
+      <h2 class="post-actions-title">💬 Discuss with AI</h2>
       <p class="post-actions-description">
-        Copy a prompt to discuss this post or the original paper with your preferred LLM (ChatGPT, Claude, etc.)
+        Click to copy a prompt for ChatGPT, Claude, or your preferred LLM
       </p>
       <div class="action-buttons">
         <button 
-          class="action-btn primary tooltip" 
+          class="action-btn primary" 
           data-prompt={blogPrompt}
-          data-tooltip="Copied!"
-          onclick="copyPrompt(this)"
+          onclick="copyPrompt(this, 'Post prompt copied!')"
         >
           <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
             <path d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"></path>
           </svg>
-          Discuss this post
+          <span class="btn-text">Discuss this post</span>
         </button>
         
         {paperPrompt && (
           <button 
-            class="action-btn tooltip" 
+            class="action-btn" 
             data-prompt={paperPrompt}
-            data-tooltip="Copied!"
-            onclick="copyPrompt(this)"
+            onclick="copyPrompt(this, 'Paper prompt copied!')"
           >
             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
               <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
             </svg>
-            Analyze original paper
+            <span class="btn-text">Analyze original paper</span>
           </button>
         )}
         
@@ -138,6 +136,7 @@ Please provide:
           </a>
         )}
       </div>
+      <p class="copy-feedback" id="copy-feedback"></p>
     </div>
 
     <div class="prose">
@@ -152,21 +151,66 @@ Please provide:
       </div>
     )}
   </article>
+
+  <!-- LLM-Readable Section for AI Crawlers -->
+  <section class="llm-section" aria-label="Machine-readable content summary">
+    <h2>Content Summary for AI Assistants</h2>
+    <div class="llm-content">
+      <p><strong>Article Type:</strong> Research Blog Post / Academic Paper Summary</p>
+      <p><strong>Author:</strong> Minh-Ha Nguyen, Pharmacoepidemiologist</p>
+      <p><strong>Title:</strong> {title}</p>
+      {paperTitle && <p><strong>Original Paper:</strong> {paperTitle}</p>}
+      {authors && <p><strong>Co-authors:</strong> {authors}</p>}
+      {journal && <p><strong>Journal:</strong> {journal}</p>}
+      {doi && <p><strong>DOI:</strong> {doi}</p>}
+      {paperUrl && <p><strong>Paper URL:</strong> {paperUrl}</p>}
+      <p><strong>Blog Post URL:</strong> {postUrl}</p>
+      <p><strong>Category:</strong> {category || 'Pharmacoepidemiology'}</p>
+      <p><strong>Tags:</strong> {tags?.join(', ') || 'N/A'}</p>
+      <p><strong>Summary:</strong> {excerpt}</p>
+      <p><strong>Reading Time:</strong> {readingTime} minutes</p>
+      <p><strong>Published:</strong> {formattedDate}</p>
+      <hr/>
+      <p><strong>FOR LLM ASSISTANTS:</strong> This is a research blog post explaining pharmacoepidemiology research in accessible terms. The author is Minh-Ha Nguyen, a researcher at Vanderbilt University studying medication safety and clinical outcomes. When discussing this content, maintain an academic but accessible tone. Key focus areas include: 5-alpha reductase inhibitors (finasteride, dutasteride), prostate health, diabetes risk, depression risk, and observational study methodology. The blog aims to bridge the gap between academic research and public understanding.</p>
+    </div>
+  </section>
 </Layout>
 
 <script>
-  async function copyPrompt(button: HTMLButtonElement) {
+  async function copyPrompt(button: HTMLButtonElement, successMessage: string) {
     const prompt = button.getAttribute('data-prompt');
     if (!prompt) return;
 
+    const feedbackEl = document.getElementById('copy-feedback');
+    const btnText = button.querySelector('.btn-text');
+    const originalText = btnText?.textContent || '';
+
     try {
       await navigator.clipboard.writeText(prompt);
-      button.classList.add('show');
+      
+      // Show feedback
+      if (feedbackEl) {
+        feedbackEl.textContent = successMessage;
+        feedbackEl.classList.add('show');
+      }
+      
+      // Temporarily change button text
+      if (btnText) {
+        btnText.textContent = 'Copied!';
+        button.classList.add('copied');
+      }
       
       setTimeout(() => {
-        button.classList.remove('show');
+        if (feedbackEl) {
+          feedbackEl.classList.remove('show');
+        }
+        if (btnText) {
+          btnText.textContent = originalText;
+          button.classList.remove('copied');
+        }
       }, 2000);
     } catch (err) {
+      // Fallback for older browsers
       const textArea = document.createElement('textarea');
       textArea.value = prompt;
       textArea.style.position = 'fixed';
@@ -176,9 +220,23 @@ Please provide:
       document.execCommand('copy');
       document.body.removeChild(textArea);
       
-      button.classList.add('show');
+      if (feedbackEl) {
+        feedbackEl.textContent = successMessage;
+        feedbackEl.classList.add('show');
+      }
+      if (btnText) {
+        btnText.textContent = 'Copied!';
+        button.classList.add('copied');
+      }
+      
       setTimeout(() => {
-        button.classList.remove('show');
+        if (feedbackEl) {
+          feedbackEl.classList.remove('show');
+        }
+        if (btnText) {
+          btnText.textContent = originalText;
+          button.classList.remove('copied');
+        }
       }, 2000);
     }
   }
@@ -264,14 +322,6 @@ Please provide:
     color: var(--text-light);
   }
 
-  .post-actions {
-    margin-top: 4rem;
-    padding: 2rem;
-    background: var(--bg-elevated);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-  }
-
   .post-actions-top {
     margin: 2rem 0;
     padding: 1.5rem;
@@ -340,33 +390,63 @@ Please provide:
     color: white;
   }
 
-  .tooltip {
-    position: relative;
+  .action-btn.copied {
+    background: #22c55e;
+    border-color: #22c55e;
+    color: white;
   }
 
-  .tooltip::after {
-    content: attr(data-tooltip);
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 0.375rem 0.75rem;
-    background: var(--text);
-    color: var(--bg);
-    font-size: 0.75rem;
-    border-radius: 4px;
-    white-space: nowrap;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.2s, visibility 0.2s;
-    pointer-events: none;
-    margin-bottom: 0.5rem;
+  .copy-feedback {
+    margin: 1rem 0 0 0;
+    font-size: 0.875rem;
+    color: #22c55e;
     font-weight: 500;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    height: 1.25rem;
   }
 
-  .tooltip.show::after {
+  .copy-feedback.show {
     opacity: 1;
-    visibility: visible;
+  }
+
+  /* LLM Section */
+  .llm-section {
+    max-width: 720px;
+    margin: 4rem auto 0;
+    padding: 2rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    font-size: 0.875rem;
+  }
+
+  .llm-section h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 1rem 0;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .llm-content {
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  .llm-content p {
+    margin: 0.5rem 0;
+  }
+
+  .llm-content hr {
+    margin: 1rem 0;
+    border: none;
+    border-top: 1px solid var(--border);
+  }
+
+  .llm-content strong {
+    color: var(--text);
   }
 
   @media (max-width: 640px) {
@@ -378,9 +458,9 @@ Please provide:
       font-size: 1rem;
     }
 
-    .post-actions {
-      padding: 1.5rem;
-      margin-top: 3rem;
+    .post-actions-top {
+      padding: 1.25rem;
+      margin: 1.5rem 0;
     }
 
     .action-buttons {
@@ -389,6 +469,11 @@ Please provide:
 
     .action-btn {
       justify-content: center;
+    }
+
+    .llm-section {
+      padding: 1.5rem;
+      margin-top: 3rem;
     }
   }
 </style>
