@@ -4,6 +4,7 @@ import { getCollection } from 'astro:content';
 
 const allPosts = await getCollection('posts');
 const posts = allPosts
+  .filter(post => !post.data.slug.endsWith('-vi'))
   .map((post) => ({
     slug: post.data.slug,
     title: post.data.title,

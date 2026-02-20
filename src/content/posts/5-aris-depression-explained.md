@@ -34,7 +34,7 @@ Before diving into the analysis, let me explain why this question is so importan
 
 How could a prostate medication affect mood? The theory involves neurosteroids.
 
-5-ARIs don't just affect the prostate — they also inhibit the conversion of progesterone to allopregnanolone in the brain. Allopregnanolone is a neurosteroid that acts as a positive allosteric modulator of GABA-A receptors, producing calming, anxiolytic effects. The hypothesis is that by reducing allopregnanolone levels, 5-ARIs could potentially increase vulnerability to depression.
+5-ARIs don't just affect the prostate - they also block a chemical in the brain called allopregnanolone. This chemical acts like a natural calming agent, helping regulate mood and anxiety. The hypothesis is that by reducing allopregnanolone levels, 5-ARIs could potentially increase vulnerability to depression.
 
 It's a biologically plausible mechanism. But **plausible doesn't mean proven**.
 
@@ -48,7 +48,7 @@ This is what we call **selection bias** — and it's a fundamental problem in ob
 
 ## My Approach: A Meta-Analysis with a Twist
 
-For my meta-analysis, I didn't just want to pool the existing studies. I wanted to understand **why** they disagreed so much. Some studies found large increases in depression risk; others found decreases. The heterogeneity was enormous (I² = 95.5%), suggesting something systematic was driving the differences.
+For my meta-analysis, I didn't just want to pool the existing studies. I wanted to understand **why** they disagreed so much. Some studies found large increases in depression risk; others found decreases. The heterogeneity was enormous (I² = 95.5% - basically as scattered as results could possibly be), suggesting something systematic was driving the differences.
 
 I hypothesized that the key factor was **control group selection**.
 
@@ -62,7 +62,7 @@ Compare 5-ARI users to men with BPH who aren't taking any medication for it.
 **Option 2: Compare to active comparators**  
 Compare 5-ARI users to men with BPH taking a different medication — typically alpha-blockers like tamsulosin.
 
-Here's why this matters: Men who need treatment for BPH are fundamentally different from men who don't. They have more severe symptoms, may be more health-conscious (if they're seeking treatment), and have different baseline health status. Comparing treated patients to untreated patients introduces what we call **confounding by indication**.
+Here's why this matters: Men who need treatment for BPH are fundamentally different from men who don't. They have more severe symptoms, may be more health-conscious (if they're seeking treatment), and have different baseline health status. Comparing treated patients to untreated patients introduces what we call **confounding by indication** - essentially, we can't tell if differences come from the drug or from the fact that sicker people are more likely to seek treatment.
 
 ## What I Found
 
@@ -88,7 +88,7 @@ When comparing to non-users, we're comparing men who sought and received treatme
 1. **Disease severity**: Men taking medications have more severe symptoms
 2. **Healthcare utilization**: Men on medications see doctors more frequently, increasing depression detection
 3. **Baseline health**: Men not seeking treatment may be healthier overall
-4. **Protopathic bias**: Depression might precede BPH diagnosis or influence treatment decisions
+4. **Reverse causation**: Depression might already be developing before BPH is diagnosed - so what looks like a drug side effect could actually be a pre-existing condition
 
 ### Why Active Comparators Make Sense
 
@@ -99,7 +99,7 @@ Alpha-blockers like tamsulosin treat the same condition (BPH) in a similar patie
 
 The only meaningful difference is the specific medication. This design isolates the drug effect from the disease effect.
 
-Interestingly, the active-comparator studies showed not just no increased risk, but a **10% decrease** in depression with 5-ARIs. While this could reflect residual confounding (alpha-blocker users might have more acute symptoms requiring more frequent doctor visits, increasing depression detection), it strongly suggests that any true pharmacological effect is minimal.
+Interestingly, the active-comparator studies showed not just no increased risk, but a **10% decrease** in depression with 5-ARIs. This small decrease is likely a statistical artifact rather than a real protective effect: alpha-blocker users may need more frequent doctor visits for symptom management, making their depression more likely to be caught and diagnosed. But the key point remains - even accounting for this, the medication itself appears to have minimal effect on mood.
 
 ## The RCT Evidence
 
@@ -140,7 +140,7 @@ This analysis illustrates several important principles in pharmacoepidemiology:
 
 ### 1. Confounding by Indication Is Real
 
-When studying treatments for active diseases, comparing to non-users almost always introduces bias. The "healthy user effect" and disease severity differences can create spurious associations or mask real ones.
+When studying treatments for active diseases, comparing to non-users almost always introduces bias. The "healthy user effect" and disease severity differences can create misleading patterns or mask real ones.
 
 ### 2. Active Comparator Designs Are Essential
 

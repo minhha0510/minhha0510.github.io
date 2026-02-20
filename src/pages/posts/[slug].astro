@@ -4,14 +4,21 @@ import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
-  return posts.map((post) => ({
-    params: { slug: post.data.slug },
-    props: { post },
-  }));
+  const englishPosts = posts.filter(p => !p.data.slug.endsWith('-vi'));
+
+  return englishPosts.map((post) => {
+    const viPost = posts.find(p => p.data.slug === post.data.slug + '-vi');
+    return {
+      params: { slug: post.data.slug },
+      props: { post, viPost },
+    };
+  });
 }
 
-const { post } = Astro.props;
+const { post, viPost } = Astro.props;
 const { Content } = await render(post);
+const viRender = viPost ? await render(viPost) : null;
+const ViContent = viRender?.Content;
 
 const { 
   title, 
@@ -91,6 +98,15 @@ Please:
       </div>
       <h1 class="post-title">{title}</h1>
       {excerpt && <p class="post-subtitle">{excerpt}</p>}
+
+      {viPost && (
+        <div class="lang-toggle-wrapper">
+          <div class="lang-toggle" id="lang-toggle">
+            <button class="active" data-lang="en">EN</button>
+            <button data-lang="vi">VI</button>
+          </div>
+        </div>
+      )}
     </header>
 
     <div class="post-actions-top">
@@ -140,9 +156,19 @@ Please:
       <p class="copy-feedback" id="copy-feedback"></p>
     </div>
 
-    <div class="prose">
-      <Content />
+    <div class="lang-content" data-lang="en">
+      <div class="prose">
+        <Content />
+      </div>
     </div>
+
+    {ViContent && (
+      <div class="lang-content" data-lang="vi" style="display: none;">
+        <div class="prose">
+          <ViContent />
+        </div>
+      </div>
+    )}
 
     {tags && tags.length > 0 && (
       <div class="post-tags">
@@ -219,6 +245,35 @@ Please:
       }, 2000);
     }
   }
+
+  // Language toggle
+  (function() {
+    const toggle = document.getElementById('lang-toggle');
+    if (!toggle) return;
+
+    const buttons = toggle.querySelectorAll('button');
+    const langSections = document.querySelectorAll('.lang-content');
+
+    function setLang(lang) {
+      buttons.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.lang === lang);
+      });
+      langSections.forEach(section => {
+        section.style.display = section.dataset.lang === lang ? '' : 'none';
+      });
+      try { localStorage.setItem('preferred-lang', lang); } catch(e) {}
+    }
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => setLang(btn.dataset.lang));
+    });
+
+    // Restore preference
+    try {
+      const saved = localStorage.getItem('preferred-lang');
+      if (saved === 'vi') setLang('vi');
+    } catch(e) {}
+  })();
 </script>
 
 <style>
@@ -285,6 +340,40 @@ Please:
     color: var(--text-muted);
     line-height: 1.6;
     margin: 0;
+  }
+
+  .lang-toggle-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+  }
+
+  .lang-toggle {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    font-size: 0.8rem;
+  }
+
+  .lang-toggle button {
+    padding: 0.35rem 0.75rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: var(--text-muted);
+    font-weight: 500;
+    font-family: inherit;
+    transition: all 0.2s ease;
+  }
+
+  .lang-toggle button:hover {
+    color: var(--text);
+  }
+
+  .lang-toggle button.active {
+    background: var(--accent);
+    color: white;
   }
 
   .post-tags {

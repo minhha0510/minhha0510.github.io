@@ -17,19 +17,15 @@ doi: "10.3349/ymj.2025.0056"
 
 5-alpha reductase inhibitors (5-ARIs) — finasteride and dutasteride — are among the most commonly prescribed medications for benign prostatic hyperplasia (BPH). In the UK alone, there are approximately 3.6 million finasteride prescriptions annually. These medications are typically taken for years, even decades.
 
-Given this widespread, long-term use, understanding their full safety profile is critical. One emerging concern has been metabolic effects, particularly the risk of type 2 diabetes (T2DM). 
+Given this widespread, long-term use, understanding their full safety profile is critical. One emerging concern has been metabolic effects, particularly the risk of type 2 diabetes (T2DM).
+
+But here's the puzzle: does long-term use of these medications actually increase diabetes risk? Previous research has given conflicting answers - some studies suggested protection, others warned of danger. That kind of disagreement demanded a closer look.
 
 ## The Biological Hypothesis
 
-The potential link between 5-ARIs and diabetes isn't arbitrary — it has a biological basis:
+The potential link between 5-ARIs and diabetes isn't arbitrary - it has a biological basis. These medications work by reducing a hormone called dihydrotestosterone (DHT). When DHT levels drop, several things might happen in sequence: fatty tissue may accumulate more easily because of altered cortisol metabolism in adipose tissue. That shift in body fat, in turn, can impair the body's sensitivity to insulin - partly through changes in non-esterified fatty acid levels. On top of that, animal studies suggest 5-ARIs could affect the liver directly, potentially inducing steatotic liver disease and hepatic insulin resistance, which makes the liver less efficient at processing glucose.
 
-**1. Adipose tissue effects**: Inhibition of 5-alpha reductase may promote body fat accumulation by altering cortisol metabolism in adipose tissue.
-
-**2. Insulin sensitivity**: Reduced levels of dihydrotestosterone (DHT) might impair insulin sensitivity in adipose tissue through suppression of non-esterified fatty acids.
-
-**3. Hepatic effects**: Animal studies suggest 5-ARIs could induce steatotic liver disease and hepatic insulin resistance.
-
-These mechanisms suggest a plausible pathway by which 5-ARIs could increase diabetes risk.
+Together, these cascading changes - more fat accumulation, reduced insulin sensitivity, impaired liver function - could theoretically push someone toward diabetes. The biological story is plausible, but whether it actually plays out at a clinically meaningful level in real patients is exactly what the epidemiological evidence needs to answer.
 
 ## The Conflicting Evidence
 
@@ -38,7 +34,7 @@ Previous studies on this question have produced inconsistent results:
 - **Lee et al. (Taiwan)**: Found a **28% decrease** in diabetes risk (HR 0.72) when comparing 5-ARI users to non-users
 - **Wei et al. (Taiwan + UK)**: Found a **49% increase** in diabetes risk (HR 1.49) when comparing to tamsulosin users
 
-Why such dramatically different results? The key difference lies in the **comparator selection**.
+These results don't just disagree - they go in opposite directions. That kind of contradiction is a red flag in science and suggests something is wrong with how one or both studies was designed. So why such dramatically different results? The key difference lies in the **comparator selection**.
 
 ### The Non-User Problem
 
@@ -54,6 +50,8 @@ Tamsulosin is an alpha-blocker used for the same condition (BPH) in a similar pa
 
 However, the Wei et al. study had a methodological limitation: it didn't specify a washout period, meaning some "new users" might actually have been prevalent users with prior exposure. If diabetes risk is dose-dependent or cumulative, including prevalent users could inflate the observed risk.
 
+So how did we design our study to avoid these pitfalls?
+
 ## Our Study Design
 
 With my colleagues Dr. Juyeon Ko and Dr. Jaelim Cho at Yonsei University, I conducted a new study using South Korea's National Health Insurance Service (NHIS) database — one of the largest and most comprehensive healthcare databases in the world.
@@ -66,9 +64,9 @@ With my colleagues Dr. Juyeon Ko and Dr. Jaelim Cho at Yonsei University, I cond
 
 **3. 90-day exposure requirement**: Patients needed at least 90 days of medication supply, ensuring we studied sustained use rather than brief trials.
 
-**4. Inverse probability weighting**: We balanced the cohorts on age, insurance status, index year, comorbidities, and co-medications to minimize confounding.
+**4. Advanced statistical balancing (inverse probability weighting)**: We used mathematical techniques to adjust for differences between the two groups - age, insurance status, index year, comorbidities, and co-medications - so we were comparing apples to apples. In essence, inverse probability weighting re-weights each patient so that the treatment groups look as similar as possible on all measured characteristics, mimicking what a randomized trial would achieve.
 
-**5. Cox proportional hazards models**: We estimated hazard ratios accounting for censoring due to treatment discontinuation, switching, death, or end of enrollment.
+**5. Time-to-event analysis (Cox proportional hazards models)**: We tracked how long it took for diabetes to develop in each group and estimated the relative risk while properly accounting for patients who stopped treatment, switched medications, died, or left the insurance system before the study ended. Cox models are the standard tool for this kind of "time until something happens" question because they handle these incomplete follow-up periods correctly.
 
 ## What We Found
 
@@ -92,7 +90,7 @@ For dutasteride, the hazard ratio of 0.97 (95% CI 0.92–1.02) indicates **no di
 
 We conducted several sensitivity analyses to test the robustness of these findings:
 
-**1. Lag-time analyses**: Excluding events in the first 6-12 months to address protopathic bias (where early symptoms might influence prescribing). Results were consistent.
+**1. Lag-time analyses**: Excluding events in the first 6-12 months to address protopathic bias - the risk that disease symptoms trigger treatment decisions rather than the other way around. For example, a man might visit his doctor for early diabetes symptoms (fatigue, frequent urination) and, during that same visit, also get diagnosed with BPH and started on a 5-ARI. If he's later diagnosed with diabetes, it could look like the medication caused it, when in reality the diabetes was already developing before treatment began. By excluding early events, we tested whether this kind of reverse causation was distorting our results. It wasn't - the findings were consistent.
 
 **2. Good compliance analyses**: Restricting to patients with high medication adherence. The finasteride association attenuated further, suggesting some residual confounding.
 
