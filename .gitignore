@@ -4,6 +4,12 @@ node_modules/
 # Build output
 dist/
 
+# Astro generated files
+.astro/
+
+# Generated content
+content/
+
 # Environment variables
 .env
 .env.local
@@ -32,3 +38,21 @@ API_KEYS.txt
 # Temporary files
 *.tmp
 *.temp
+
+# Old/backup files
+.netlify/
+
+# Development files - not needed for deployment
+AGENTS.md
+GITHUB_SETUP.md
+docs/
+papers/
+scripts/
+GCC-Manager/
+.claude/
+
+# Screenshot/dev tools
+screenshot.mjs
+view-site.mjs
+homepage-*.png
+post-*.png
