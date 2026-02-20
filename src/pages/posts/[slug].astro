@@ -176,14 +176,14 @@ Please:
   </section>
 </Layout>
 
-<script>
-  async function copyPrompt(button: HTMLButtonElement, successMessage: string) {
+<script is:inline>
+  async function copyPrompt(button, successMessage) {
     const prompt = button.getAttribute('data-prompt');
     if (!prompt) return;
 
     const feedbackEl = document.getElementById('copy-feedback');
     const btnText = button.querySelector('.btn-text');
-    const originalText = btnText?.textContent || '';
+    const originalText = btnText ? btnText.textContent : '';
 
     try {
       await navigator.clipboard.writeText(prompt);

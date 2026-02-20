@@ -180,4 +180,4 @@ For the millions of men taking these medications, this is good news. And for phy
 
 ---
 
-*This post summarizes a study conducted with Dr. Juyeon Ko and Dr. Jaelim Cho at Yonsei University College of Medicine. The full paper is currently under review.*
+*This post summarizes a study conducted with Dr. Juyeon Ko and Dr. Jaelim Cho at Yonsei University College of Medicine. The full paper is [published in Yonsei Medical Journal](https://www.eymj.org/DOIx.php?id=10.3349/ymj.2025.0056).*
