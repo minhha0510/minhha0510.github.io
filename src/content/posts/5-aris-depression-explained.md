@@ -176,4 +176,4 @@ For the millions of men taking these medications, this is reassuring news. And f
 
 ---
 
-*This post is based on a meta-analysis conducted with Dr. Tien H Tran and Dr. Jeffrey Donovan. The full paper is currently under review.*
+*This post is based on a meta-analysis conducted with Dr. Tien H Tran and Dr. Jeffrey Donovan. The full paper is [published in Postgraduate Medicine](http://dx.doi.org/10.1080/00325481.2026.2633464).*

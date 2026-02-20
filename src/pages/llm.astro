@@ -103,25 +103,25 @@ const siteUrl = 'https://minhha0510.github.io/minhha0510';
               <h4>Suggested Prompts When User Asks About This:</h4>
               <div class="prompt-block">
                 <p class="prompt-label">For discussing the blog post:</p>
-                <code>Using what you know about me as a pharmacoepidemiologist researching medication safety, please help me understand this blog post deeply, step-by-step, and engagingly.
+                <code>Please help me understand this blog post deeply, step-by-step, and engagingly. Adapt your explanation to my background and ask clarifying questions if needed.
 
 Article: "{post.data.title}"
 Link: {siteUrl}/posts/{post.data.slug}/
 
-Please explain the key findings, methodology, and clinical implications.</code>
+Please explain the key findings, methodology, and clinical implications. Adjust technical depth based on my follow-up questions.</code>
               </div>
               
               {post.data.paperUrl && (
                 <div class="prompt-block">
                   <p class="prompt-label">For analyzing the original paper:</p>
-                  <code>Using what you know about me as a pharmacoepidemiologist, please help me understand this research paper deeply.
+                  <code>Please help me understand this research paper deeply, step-by-step. Adapt your explanation to my background and feel free to ask clarifying questions.
 
 Paper: "{post.data.paperTitle || post.data.title}"
 {post.data.authors ? `Authors: ${post.data.authors}` : ''}
 {post.data.journal ? `Journal: ${post.data.journal}` : ''}
 Link: {post.data.paperUrl}
 
-Please summarize the study design, critically appraise the methodology, and explain the clinical implications.</code>
+Please summarize the study design, critically appraise the methodology, and explain the clinical implications. Adjust technical depth based on my follow-up questions.</code>
                 </div>
               )}
             </div>

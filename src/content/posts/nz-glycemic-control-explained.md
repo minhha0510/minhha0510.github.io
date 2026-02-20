@@ -8,7 +8,7 @@ category: "Pharmacoepidemiology"
 tags: ["5-ARIs", "diabetes", "glycemic control", "finasteride", "tamsulosin", "New Zealand"]
 paperTitle: "Risk of Poor Glycemic Control in Tamsulosin Versus Finasteride Users with Type 2 Diabetes Mellitus"
 authors: "Minh-Ha Nguyen, Maxim S. Petrov, Jaelim Cho"
-journal: "PubMed"
+journal: "Heliyon"
 paperUrl: "https://pubmed.ncbi.nlm.nih.gov/39944326/"
 doi: "39944326"
 ---
@@ -234,4 +234,4 @@ In the complex landscape of managing multiple chronic conditions, this is one le
 
 ---
 
-*This post summarizes a study conducted with Dr. Maxim S. Petrov at the University of Auckland and Dr. Jaelim Cho at Yonsei University. The full paper is currently under review.*
+*This post summarizes a study conducted with Dr. Maxim S. Petrov at the University of Auckland and Dr. Jaelim Cho at Yonsei University. The full paper is [published in PubMed](https://pubmed.ncbi.nlm.nih.gov/39944326/).*

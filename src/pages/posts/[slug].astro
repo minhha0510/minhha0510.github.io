@@ -37,7 +37,7 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 const siteUrl = 'https://minhha0510.github.io/minhha0510';
 const postUrl = `${siteUrl}/posts/${post.data.slug}`;
 
-const blogPrompt = `Using what you know about me as a pharmacoepidemiologist researching medication safety, please help me understand this blog post deeply, step-by-step, and engagingly.
+const blogPrompt = `Please help me understand this blog post deeply, step-by-step, and engagingly. Adapt your explanation to my background and ask clarifying questions if needed to tailor your response.
 
 Article: "${title}"
 Link: ${postUrl}
@@ -47,10 +47,12 @@ Please:
 2. Walk through the methodology in an accessible way
 3. Connect this to the broader context of 5-ARI research
 4. Highlight any surprising or counterintuitive aspects
-5. Suggest follow-up questions I should consider`;
+5. Suggest follow-up questions I should consider
+
+(Note: I'm reading this because I'm interested in ${category || 'pharmacoepidemiology'} research. Please adjust the technical depth based on my follow-up questions.)`;
 
 const paperPrompt = paperUrl 
-  ? `Using what you know about me as a pharmacoepidemiologist, please help me understand this research paper deeply, step-by-step, and engagingly.
+  ? `Please help me understand this research paper deeply, step-by-step, and engagingly. Adapt your explanation to my background and feel free to ask clarifying questions.
 
 Paper: "${paperTitle || title}"
 ${authors ? `Authors: ${authors}` : ''}
@@ -63,7 +65,9 @@ Please:
 2. Critically appraise the methodology and its strengths/limitations
 3. Explain the clinical implications
 4. Place this in context of the broader literature
-5. Suggest how this advances our understanding of the topic`
+5. Suggest how this advances our understanding of the topic
+
+(Note: I'm reading this because I'm interested in ${category || 'medication safety research'}. Please adjust the technical depth based on my follow-up questions.)`
   : null;
 ---
 
