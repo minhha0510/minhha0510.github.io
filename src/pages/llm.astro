@@ -5,7 +5,7 @@ import { getCollection } from 'astro:content';
 const posts = await getCollection('posts');
 const sortedPosts = posts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
 
-const siteUrl = 'https://minhha0510.github.io/minhha0510';
+const siteUrl = 'https://mh-nguyen.cv';
 ---
 
 <Layout 
