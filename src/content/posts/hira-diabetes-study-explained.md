@@ -8,7 +8,9 @@ category: "Pharmacoepidemiology"
 tags: ["5-ARIs", "diabetes", "Korea", "finasteride", "dutasteride", "tamsulosin"]
 paperTitle: "Risk of type 2 diabetes in new users of 5-alpha reductase inhibitors: A nationwide historical cohort study"
 authors: "Minh-Ha Nguyen, Juyeon Ko, Jaelim Cho"
-journal: "[Forthcoming]"
+journal: "Yonsei Medical Journal"
+paperUrl: "https://www.eymj.org/DOIx.php?id=10.3349/ymj.2025.0056"
+doi: "10.3349/ymj.2025.0056"
 ---
 
 ## A Question of Metabolic Safety

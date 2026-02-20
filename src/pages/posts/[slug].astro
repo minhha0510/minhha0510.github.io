@@ -92,19 +92,7 @@ Please provide:
       {excerpt && <p class="post-subtitle">{excerpt}</p>}
     </header>
 
-    <div class="prose">
-      <Content />
-    </div>
-
-    {tags && tags.length > 0 && (
-      <div class="post-tags">
-        {tags.map((tag) => (
-          <span class="tag">#{tag}</span>
-        ))}
-      </div>
-    )}
-
-    <footer class="post-actions">
+    <div class="post-actions-top">
       <h2 class="post-actions-title">Explore with AI</h2>
       <p class="post-actions-description">
         Copy a prompt to discuss this post or the original paper with your preferred LLM (ChatGPT, Claude, etc.)
@@ -150,7 +138,19 @@ Please provide:
           </a>
         )}
       </div>
-    </footer>
+    </div>
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    {tags && tags.length > 0 && (
+      <div class="post-tags">
+        {tags.map((tag) => (
+          <span class="tag">#{tag}</span>
+        ))}
+      </div>
+    )}
   </article>
 </Layout>
 
@@ -267,6 +267,14 @@ Please provide:
   .post-actions {
     margin-top: 4rem;
     padding: 2rem;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+
+  .post-actions-top {
+    margin: 2rem 0;
+    padding: 1.5rem;
     background: var(--bg-elevated);
     border: 1px solid var(--border);
     border-radius: 8px;

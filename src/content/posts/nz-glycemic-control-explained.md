@@ -8,7 +8,9 @@ category: "Pharmacoepidemiology"
 tags: ["5-ARIs", "diabetes", "glycemic control", "finasteride", "tamsulosin", "New Zealand"]
 paperTitle: "Risk of Poor Glycemic Control in Tamsulosin Versus Finasteride Users with Type 2 Diabetes Mellitus"
 authors: "Minh-Ha Nguyen, Maxim S. Petrov, Jaelim Cho"
-journal: "[Forthcoming]"
+journal: "PubMed"
+paperUrl: "https://pubmed.ncbi.nlm.nih.gov/39944326/"
+doi: "39944326"
 ---
 
 ## The Overlap Between Prostate and Metabolic Health

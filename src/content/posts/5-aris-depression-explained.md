@@ -8,7 +8,9 @@ category: "Pharmacoepidemiology"
 tags: ["5-ARIs", "depression", "meta-analysis", "finasteride", "dutasteride", "BPH"]
 paperTitle: "Depression risk of 5-alpha reductase inhibitors: Impact of Active-Comparator vs. Non-Drug User Control Groups on risk measurement"
 authors: "Minh-Ha Nguyen, Tien H Tran, Jeffrey Donovan"
-journal: "[Forthcoming]"
+journal: "Postgraduate Medicine"
+paperUrl: "http://dx.doi.org/10.1080/00325481.2026.2633464"
+doi: "10.1080/00325481.2026.2633464"
 ---
 
 ## The Question That Started It All
