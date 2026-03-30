@@ -11,6 +11,10 @@ authors: "Minh-Ha Nguyen, Tien H Tran, Jeffrey Donovan"
 journal: "Postgraduate Medicine"
 paperUrl: "http://dx.doi.org/10.1080/00325481.2026.2633464"
 doi: "10.1080/00325481.2026.2633464"
+keyFinding:
+  stat: "200%"
+  label: "overestimated risk"
+  context: "Studies using non-drug user comparators inflated the apparent depression risk of 5-ARIs by up to 200%, while active-comparator studies showed no increased risk."
 ---
 
 ## The Question That Started It All

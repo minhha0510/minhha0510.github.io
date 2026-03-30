@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
+    "@chenglou/pretext": "^0.0.3",
     "astro": "^5.0.0"
   },
   "devDependencies": {

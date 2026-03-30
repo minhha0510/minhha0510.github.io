@@ -1,0 +1,166 @@
+---
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Less Boring — Minh-Ha Nguyen</title>
+  <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+  <style>
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 100 900;
+      font-display: swap;
+      src: url('/fonts/inter-var-latin.woff2') format('woff2');
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      width: 100%;
+      background: #87CEEB;
+    }
+    .canvas-section {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      -webkit-user-select: none;
+      user-select: none;
+    }
+    canvas {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      touch-action: none;
+    }
+    .nav-overlay {
+      position: fixed;
+      top: 16px;
+      left: 16px;
+      z-index: 10;
+      pointer-events: none;
+    }
+    .nav-overlay a {
+      pointer-events: auto;
+      font-family: 'Inter', sans-serif;
+      font-size: 13px;
+      color: rgba(42, 26, 10, 0.6);
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.5);
+      padding: 6px 12px;
+      border-radius: 16px;
+      backdrop-filter: blur(4px);
+      margin-right: 8px;
+    }
+    .nav-overlay a:hover {
+      color: rgba(42, 26, 10, 0.9);
+      background: rgba(255, 255, 255, 0.7);
+    }
+    .hint {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-size: 12px;
+      color: rgba(42, 26, 10, 0.4);
+      z-index: 10;
+      pointer-events: none;
+      transition: opacity 1s;
+    }
+    .scroll-hint {
+      position: absolute;
+      bottom: 40px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-family: 'Inter', sans-serif;
+      font-size: 11px;
+      color: rgba(42, 26, 10, 0.3);
+      z-index: 10;
+      pointer-events: none;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+    .music-section {
+      background: linear-gradient(180deg, #3a8a3a 0%, #1a1a2e 30%);
+      padding: 3rem 1rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .music-header {
+      font-family: 'Inter', sans-serif;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .music-header h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #e0e0e0;
+      margin-bottom: 0.5rem;
+    }
+    .music-header p {
+      font-size: 0.9rem;
+      color: #999;
+    }
+    .vibeplayer-frame {
+      width: 100%;
+      max-width: 900px;
+      height: 700px;
+      border: none;
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    }
+    @media (max-width: 640px) {
+      .vibeplayer-frame {
+        height: 500px;
+        border-radius: 8px;
+      }
+      .music-section {
+        padding: 2rem 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Section 1: Interactive Canvas with Buddy -->
+  <section class="canvas-section">
+    <canvas id="canvas" role="img" aria-label="Interactive illustration: a golden retriever in a green landscape with flowing text. Click the dog to take him for a walk."></canvas>
+    <div class="nav-overlay">
+      <a href={base}>&larr; Back to blog</a>
+    </div>
+    <div class="hint" id="hint" role="status" aria-live="polite">Click Buddy to take him for a walk!</div>
+    <div class="scroll-hint">&darr; Scroll for music</div>
+  </section>
+
+  <!-- Section 2: Vibe Player -->
+  <section class="music-section">
+    <div class="music-header">
+      <h2>My Music Shelf</h2>
+      <p>A vinyl collection player, because why not</p>
+    </div>
+    <iframe
+      class="vibeplayer-frame"
+      src="https://vibeplayer0510.netlify.app/"
+      title="Vibe Player — Vinyl Collection"
+      loading="lazy"
+      allow="autoplay"
+    ></iframe>
+  </section>
+
+  <script>
+    import '../scripts/interactive-canvas';
+  </script>
+</body>
+</html>

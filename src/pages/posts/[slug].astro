@@ -1,6 +1,8 @@
 ---
 import { getCollection, render } from 'astro:content';
 import Layout from '../../layouts/Layout.astro';
+import KeyFinding from '../../components/KeyFinding.astro';
+
 
 export async function getStaticPaths() {
   const posts = await getCollection('posts');
@@ -20,18 +22,19 @@ const { Content } = await render(post);
 const viRender = viPost ? await render(viPost) : null;
 const ViContent = viRender?.Content;
 
-const { 
-  title, 
-  date, 
-  readingTime, 
-  excerpt, 
-  category, 
+const {
+  title,
+  date,
+  readingTime,
+  excerpt,
+  category,
   tags,
   paperTitle,
   paperUrl,
   journal,
   authors,
-  doi 
+  doi,
+  keyFinding,
 } = post.data;
 
 const formattedDate = new Date(date).toLocaleDateString('en-US', {
@@ -55,7 +58,7 @@ Keep it conversational and non-technical. Then ask what I'd like to explore furt
 Article: "${title}"
 Link: ${postUrl}`;
 
-const paperPrompt = paperUrl 
+const paperPrompt = paperUrl
   ? `Please help me understand this research paper deeply, step-by-step, and engagingly. Adapt your explanation to my background and feel free to ask clarifying questions.
 
 Paper: "${paperTitle || title}"
@@ -96,7 +99,7 @@ Please:
         <span class="meta-separator">·</span>
         <span>{readingTime} min read</span>
       </div>
-      <h1 class="post-title">{title}</h1>
+      <h1 class="post-title" id="post-title">{title}</h1>
       {excerpt && <p class="post-subtitle">{excerpt}</p>}
 
       {viPost && (
@@ -110,13 +113,13 @@ Please:
     </header>
 
     <div class="post-actions-top">
-      <h2 class="post-actions-title">💬 Discuss with AI</h2>
+      <h2 class="post-actions-title">Discuss with AI</h2>
       <p class="post-actions-description">
         Click to copy a prompt for ChatGPT, Claude, or your preferred LLM
       </p>
       <div class="action-buttons">
-        <button 
-          class="action-btn primary" 
+        <button
+          class="action-btn primary"
           data-prompt={blogPrompt}
           onclick="copyPrompt(this, 'Post prompt copied!')"
         >
@@ -125,10 +128,10 @@ Please:
           </svg>
           <span class="btn-text">Discuss this post</span>
         </button>
-        
+
         {paperPrompt && (
-          <button 
-            class="action-btn" 
+          <button
+            class="action-btn"
             data-prompt={paperPrompt}
             onclick="copyPrompt(this, 'Paper prompt copied!')"
           >
@@ -138,11 +141,11 @@ Please:
             <span class="btn-text">Analyze original paper</span>
           </button>
         )}
-        
+
         {paperUrl && (
-          <a 
-            href={paperUrl} 
-            target="_blank" 
+          <a
+            href={paperUrl}
+            target="_blank"
             rel="noopener noreferrer"
             class="action-btn"
           >
@@ -158,6 +161,13 @@ Please:
 
     <div class="lang-content" data-lang="en">
       <div class="prose">
+        {keyFinding && (
+          <KeyFinding
+            stat={keyFinding.stat}
+            label={keyFinding.label}
+            context={keyFinding.context}
+          />
+        )}
         <Content />
       </div>
     </div>
@@ -178,44 +188,27 @@ Please:
       </div>
     )}
   </article>
-
 </Layout>
 
+<!-- Feature scripts (Astro-bundled, client-side only) -->
+<script>
+  import '../../scripts/features/balanced-titles';
+  import '../../scripts/features/section-progress';
+  import '../../scripts/features/pull-quotes';
+  import '../../scripts/features/accordions';
+</script>
+
+<!-- Clipboard copy + Language toggle -->
 <script is:inline>
   async function copyPrompt(button, successMessage) {
     const prompt = button.getAttribute('data-prompt');
     if (!prompt) return;
-
     const feedbackEl = document.getElementById('copy-feedback');
     const btnText = button.querySelector('.btn-text');
     const originalText = btnText ? btnText.textContent : '';
-
     try {
       await navigator.clipboard.writeText(prompt);
-      
-      // Show feedback
-      if (feedbackEl) {
-        feedbackEl.textContent = successMessage;
-        feedbackEl.classList.add('show');
-      }
-      
-      // Temporarily change button text
-      if (btnText) {
-        btnText.textContent = 'Copied!';
-        button.classList.add('copied');
-      }
-      
-      setTimeout(() => {
-        if (feedbackEl) {
-          feedbackEl.classList.remove('show');
-        }
-        if (btnText) {
-          btnText.textContent = originalText;
-          button.classList.remove('copied');
-        }
-      }, 2000);
     } catch (err) {
-      // Fallback for older browsers
       const textArea = document.createElement('textarea');
       textArea.value = prompt;
       textArea.style.position = 'fixed';
@@ -224,29 +217,15 @@ Please:
       textArea.select();
       document.execCommand('copy');
       document.body.removeChild(textArea);
-      
-      if (feedbackEl) {
-        feedbackEl.textContent = successMessage;
-        feedbackEl.classList.add('show');
-      }
-      if (btnText) {
-        btnText.textContent = 'Copied!';
-        button.classList.add('copied');
-      }
-      
-      setTimeout(() => {
-        if (feedbackEl) {
-          feedbackEl.classList.remove('show');
-        }
-        if (btnText) {
-          btnText.textContent = originalText;
-          button.classList.remove('copied');
-        }
-      }, 2000);
     }
+    if (feedbackEl) { feedbackEl.textContent = successMessage; feedbackEl.classList.add('show'); }
+    if (btnText) { btnText.textContent = 'Copied!'; button.classList.add('copied'); }
+    setTimeout(() => {
+      if (feedbackEl) feedbackEl.classList.remove('show');
+      if (btnText) { btnText.textContent = originalText; button.classList.remove('copied'); }
+    }, 2000);
   }
 
-  // Language toggle
   (function() {
     const toggle = document.getElementById('lang-toggle');
     if (!toggle) return;
@@ -441,10 +420,7 @@ Please:
     color: var(--text);
   }
 
-  .action-btn svg {
-    width: 18px;
-    height: 18px;
-  }
+  .action-btn svg { width: 18px; height: 18px; }
 
   .action-btn.primary {
     background: var(--accent);
@@ -465,8 +441,8 @@ Please:
   }
 
   .copy-feedback {
-    margin: 1rem 0 0 0;
-    font-size: 0.875rem;
+    margin: 0.75rem 0 0 0;
+    font-size: 0.8rem;
     color: #22c55e;
     font-weight: 500;
     opacity: 0;
@@ -485,19 +461,6 @@ Please:
 
     .post-subtitle {
       font-size: 1rem;
-    }
-
-    .post-actions-top {
-      padding: 1.25rem;
-      margin: 1.5rem 0;
-    }
-
-    .action-buttons {
-      flex-direction: column;
-    }
-
-    .action-btn {
-      justify-content: center;
     }
   }
 </style>

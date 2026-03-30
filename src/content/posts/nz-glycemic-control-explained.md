@@ -11,6 +11,10 @@ authors: "Minh-Ha Nguyen, Maxim S. Petrov, Jaelim Cho"
 journal: "Heliyon"
 paperUrl: "https://pubmed.ncbi.nlm.nih.gov/39944326/"
 doi: "39944326"
+keyFinding:
+  stat: "No effect"
+  label: "on blood sugar"
+  context: "Finasteride showed no meaningful difference in glycemic control compared to tamsulosin over long-term follow-up in men with type 2 diabetes."
 ---
 
 ## The Overlap Between Prostate and Metabolic Health

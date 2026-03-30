@@ -11,6 +11,10 @@ authors: "Minh-Ha Nguyen, Juyeon Ko, Jaelim Cho"
 journal: "Yonsei Medical Journal"
 paperUrl: "https://www.eymj.org/DOIx.php?id=10.3349/ymj.2025.0056"
 doi: "10.3349/ymj.2025.0056"
+keyFinding:
+  stat: "2.6M"
+  label: "patients analyzed"
+  context: "In a nationwide Korean cohort of 2.6 million BPH patients, 5-ARIs showed minimal to no increased risk of type 2 diabetes compared to alpha-blocker users."
 ---
 
 ## A Question of Metabolic Safety

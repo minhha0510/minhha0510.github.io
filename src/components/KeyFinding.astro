@@ -1,0 +1,15 @@
+---
+interface Props {
+  stat: string;
+  label: string;
+  context: string;
+}
+
+const { stat, label, context } = Astro.props;
+---
+
+<aside class="key-finding" data-pretext-text={context}>
+  <div class="key-finding-stat">{stat}</div>
+  <div class="key-finding-label">{label}</div>
+  <p class="key-finding-context">{context}</p>
+</aside>

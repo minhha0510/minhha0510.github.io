@@ -47,7 +47,7 @@ AGENTS.md
 GITHUB_SETUP.md
 docs/
 papers/
-scripts/
+/scripts/
 GCC-Manager/
 .claude/
 
@@ -56,3 +56,14 @@ screenshot.mjs
 view-site.mjs
 homepage-*.png
 post-*.png
+Screenshots/
+
+# Archived dead code
+archive/
+
+# Test files
+tests/
+playwright.config.ts
+
+# Reflection blog (internal dev notes)
+Reflection_blog/

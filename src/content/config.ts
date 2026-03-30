@@ -18,6 +18,12 @@ const posts = defineCollection({
     journal: z.string().optional(),
     authors: z.string().optional(),
     doi: z.string().optional(),
+    // Key finding callout for pull quote display
+    keyFinding: z.object({
+      stat: z.string(),
+      label: z.string(),
+      context: z.string(),
+    }).optional(),
   }),
 });
 
