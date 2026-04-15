@@ -335,18 +335,6 @@
   box-shadow: 0 18px 48px rgba(0,0,0,0.35);
 }
 
-.video-stage:fullscreen .video-actions,
-.video-stage:-webkit-full-screen .video-actions {
-  margin-top: 0;
-}
-
-.video-stage:fullscreen .video-action-btn,
-.video-stage:-webkit-full-screen .video-action-btn,
-.video-stage:fullscreen .video-speed-wrap,
-.video-stage:-webkit-full-screen .video-speed-wrap {
-  background: rgba(255,255,255,0.09);
-}
-
 .play-button {
   width: 80px;
   height: 80px;
@@ -380,34 +368,12 @@
   color: rgba(255,255,255,0.6);
 }
 
-.video-actions {
-  display: flex;
-  justify-content: center;
-  gap: 0.75rem;
-  margin-top: 1rem;
-  flex-wrap: wrap;
-}
-
 .video-controls {
   margin-top: 0.45rem;
   display: grid;
   gap: 0.7rem;
   position: relative;
   z-index: 3;
-}
-
-.video-timeline {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
-  gap: 0.9rem;
-  align-items: center;
-}
-
-.video-time {
-  font-variant-numeric: tabular-nums;
-  font-size: 0.86rem;
-  color: rgba(255,255,255,0.72);
-  min-width: 3.25rem;
 }
 
 .video-scrubber {
@@ -447,49 +413,105 @@
   outline: none;
 }
 
-.video-speed-wrap {
+/* OVERLAY BAR (scrubber + play/pause + fullscreen docked on video) */
+.video-overlay-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 1rem 0.85rem;
+  background: linear-gradient(to top, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0) 100%);
+  z-index: 6;
+  color: var(--cream);
+  opacity: 1;
+  transition: opacity 0.2s ease;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.video-overlay-bar[hidden] { display: none; }
+
+/* Desktop hover-fade: overlay hides until the user mouses over the video */
+@media (hover: hover) and (pointer: fine) {
+  .video-overlay-bar {
+    opacity: 0;
+  }
+  .video-stage:hover .video-overlay-bar,
+  .video-stage:focus-within .video-overlay-bar {
+    opacity: 1;
+  }
+}
+
+.video-overlay-bar .video-scrubber {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+}
+
+.video-overlay-time {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.88);
+  min-width: 2.8rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.video-overlay-icon-btn {
+  appearance: none;
+  -webkit-appearance: none;
+  background: rgba(255,255,255,0.16);
+  border: 1px solid rgba(255,255,255,0.28);
+  color: var(--cream);
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 0.55rem;
-  border: 1px solid rgba(255,255,255,0.2);
-  background: rgba(255,255,255,0.06);
-  color: var(--cream);
-  border-radius: 999px;
-  padding: 0.55rem 0.9rem;
-  font-size: 0.9rem;
-}
-
-.video-speed-select {
-  border: none;
-  background: transparent;
-  color: var(--cream);
-  font: inherit;
-  cursor: pointer;
-}
-
-.video-speed-select:focus {
-  outline: none;
-}
-
-.video-action-btn {
-  border: 1px solid rgba(255,255,255,0.2);
-  background: rgba(255,255,255,0.06);
-  color: var(--cream);
-  border-radius: 999px;
-  padding: 0.7rem 1rem;
-  font-size: 0.9rem;
-  cursor: pointer;
+  justify-content: center;
+  padding: 0;
+  flex-shrink: 0;
   transition: background 0.2s ease, transform 0.2s ease;
 }
 
-.video-action-btn:hover {
-  background: rgba(255,255,255,0.12);
+.video-overlay-icon-btn:hover,
+.video-overlay-icon-btn:focus-visible {
+  background: rgba(255,255,255,0.3);
   transform: translateY(-1px);
+  outline: none;
 }
 
-.video-action-btn:focus-visible {
-  outline: 2px solid var(--amber);
-  outline-offset: 2px;
+.video-overlay-icon-btn svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: currentColor;
+}
+
+/* In fullscreen, overlay becomes a floating dock at the bottom of the stage */
+.video-stage:fullscreen .video-overlay-bar,
+.video-stage:-webkit-full-screen .video-overlay-bar {
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 16px;
+  background: rgba(9,19,18,0.88);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.14);
+  opacity: 1;
+}
+
+/* Mobile: hide the secondary dock entirely — overlay is self-sufficient */
+@media (max-width: 640px) {
+  .video-controls {
+    display: none;
+  }
+  .video-overlay-bar {
+    opacity: 1;
+  }
 }
 
 /* HOW IT WORKS */
@@ -725,15 +747,6 @@
   }
 }
 
-@media (max-width: 640px) {
-  .video-timeline {
-    grid-template-columns: 1fr;
-  }
-
-  .video-time {
-    min-width: 0;
-  }
-}
 </style>
 
 <div class="page">
@@ -792,28 +805,20 @@
             <p>Drop a sanitized `.cast` into <code>recordings/public/</code>. This prototype will render it with the bundled asciinema player.</p>
           </div>
         </div>
+        <div class="video-overlay-bar" id="demo-overlay" hidden>
+          <button class="video-overlay-icon-btn" id="demo-overlay-playpause" type="button" aria-label="Play">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          </button>
+          <span class="video-overlay-time" id="demo-current-time">0:00</span>
+          <input class="video-scrubber" id="demo-scrubber" type="range" min="0" max="100" step="0.1" value="0" aria-label="Terminal demo timeline">
+          <span class="video-overlay-time" id="demo-duration">0:00</span>
+          <button class="video-overlay-icon-btn" id="demo-overlay-fullscreen" type="button" aria-label="Enter fullscreen">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
+          </button>
+        </div>
         <div class="video-controls" id="demo-controls" hidden>
-          <div class="video-timeline">
-            <span class="video-time" id="demo-current-time">0:00</span>
-            <input class="video-scrubber" id="demo-scrubber" type="range" min="0" max="100" step="0.1" value="0" aria-label="Terminal demo timeline">
-            <span class="video-time" id="demo-duration">0:00</span>
-          </div>
-	          <div class="video-chapters" id="demo-chapters"></div>
-	          <div class="video-actions">
-	            <button class="video-action-btn" id="demo-restart" type="button">Clip start</button>
-	            <button class="video-action-btn" id="demo-playpause" type="button">Pause</button>
-	            <button class="video-action-btn" id="demo-fullscreen" type="button">Full screen</button>
-	            <label class="video-speed-wrap" for="demo-speed">
-	              <span>Speed</span>
-	              <select class="video-speed-select" id="demo-speed">
-	                <option value="0.8">0.8x</option>
-	                <option value="1" selected>1.0x</option>
-                <option value="1.25">1.25x</option>
-                <option value="1.5">1.5x</option>
-              </select>
-	            </label>
-	          </div>
-	        </div>
+          <div class="video-chapters" id="demo-chapters"></div>
+        </div>
         <p class="video-caption">Side-by-side: Claude Code and Codex walking through a real case (~4 min).</p>
 	      </div>
 	    </div>
@@ -915,32 +920,39 @@
     const mount = document.getElementById('demo-player');
     const stage = document.getElementById('demo-stage');
     const controls = document.getElementById('demo-controls');
-    const fullscreenButton = document.getElementById('demo-fullscreen');
-	    const scrubber = document.getElementById('demo-scrubber');
-	    const currentTimeLabel = document.getElementById('demo-current-time');
-	    const durationLabel = document.getElementById('demo-duration');
-	    const restartButton = document.getElementById('demo-restart');
-	    const playPauseButton = document.getElementById('demo-playpause');
-	    const speedSelect = document.getElementById('demo-speed');
-	    const chaptersMount = document.getElementById('demo-chapters');
+    const overlay = document.getElementById('demo-overlay');
+    const overlayFullscreen = document.getElementById('demo-overlay-fullscreen');
+    const overlayPlayPause = document.getElementById('demo-overlay-playpause');
+    const scrubber = document.getElementById('demo-scrubber');
+    const currentTimeLabel = document.getElementById('demo-current-time');
+    const durationLabel = document.getElementById('demo-duration');
+    const chaptersMount = document.getElementById('demo-chapters');
 	    const chapterMarkers = [
 	      [27.88, 'First tool'],
 	      [68.52, 'Reflective pause II'],
 	      [205.22, 'Final answer']
 	    ];
-    if (fullscreenButton && mount) {
-      fullscreenButton.addEventListener('click', async function () {
-        const fullscreenTarget = stage || mount;
-        if (!document.fullscreenElement) {
-          try {
-            await fullscreenTarget.requestFullscreen();
-          } catch (error) {
-            console.error('miniOdyssey fullscreen failed', error);
+    async function toggleFullscreen() {
+      const fullscreenTarget = stage || mount;
+      if (!fullscreenTarget) return;
+      if (!document.fullscreenElement) {
+        try {
+          await fullscreenTarget.requestFullscreen();
+          if (screen.orientation && typeof screen.orientation.lock === 'function') {
+            try { await screen.orientation.lock('landscape'); } catch (e) { /* iOS rejects - ignore */ }
           }
-        } else if (document.fullscreenElement === fullscreenTarget) {
-          await document.exitFullscreen();
+        } catch (error) {
+          console.error('miniOdyssey fullscreen failed', error);
         }
-      });
+      } else if (document.fullscreenElement === fullscreenTarget) {
+        try { await document.exitFullscreen(); } catch (e) { /* ignore */ }
+        if (screen.orientation && typeof screen.orientation.unlock === 'function') {
+          try { screen.orientation.unlock(); } catch (e) { /* ignore */ }
+        }
+      }
+    }
+    if (overlayFullscreen) {
+      overlayFullscreen.addEventListener('click', toggleFullscreen);
     }
     if (!mount || !window.AsciinemaPlayer) return;
     const params = new URLSearchParams(window.location.search);
@@ -972,9 +984,6 @@
         mount.style.setProperty('--player-zoom', String(zoomValue));
       }
     }
-    if (speedSelect && !Number.isNaN(playbackSpeed) && playbackSpeed > 0) {
-      speedSelect.value = String(playbackSpeed);
-    }
 
     function formatTime(seconds) {
       const safeSeconds = Math.max(0, Math.floor(Number(seconds) || 0));
@@ -987,9 +996,13 @@
       return Math.min(Math.max(value, min), max);
     }
 
+    const PLAY_ICON_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
+    const PAUSE_ICON_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
+
     function setPlayPauseLabel() {
-      if (playPauseButton) {
-        playPauseButton.textContent = isPlaying ? 'Pause' : 'Play';
+      if (overlayPlayPause) {
+        overlayPlayPause.innerHTML = isPlaying ? PAUSE_ICON_SVG : PLAY_ICON_SVG;
+        overlayPlayPause.setAttribute('aria-label', isPlaying ? 'Pause' : 'Play');
       }
     }
 
@@ -1041,7 +1054,7 @@
       player = window.AsciinemaPlayer.create(castSrc, mount, {
         autoPlay: !!options.autoPlay,
         loop: false,
-        controls: true,
+        controls: false,
         fit: 'width',
         startAt: options.startAt,
         speed: playbackSpeed,
@@ -1051,6 +1064,7 @@
 
       player.addEventListener('ready', function () {
         if (controls) controls.hidden = false;
+        if (overlay) overlay.hidden = false;
         syncTimeline().catch(function (error) {
           console.error('miniOdyssey ready sync failed', error);
         });
@@ -1132,36 +1146,17 @@
       });
     }
 
-    if (restartButton) {
-      restartButton.addEventListener('click', function () {
-        seekTo(clipStartAt).catch(function (error) {
-          console.error('miniOdyssey restart failed', error);
-        });
-      });
+    async function togglePlayback() {
+      if (!player) return;
+      if (isPlaying) {
+        await player.pause();
+      } else {
+        await player.play();
+      }
     }
-
-	    if (playPauseButton) {
-	      setPlayPauseLabel();
-	      playPauseButton.addEventListener('click', async function () {
-	        if (!player) return;
-        if (isPlaying) {
-          await player.pause();
-        } else {
-          await player.play();
-        }
-      });
-    }
-
-	    if (speedSelect) {
-	      speedSelect.addEventListener('change', async function () {
-	        playbackSpeed = Number(speedSelect.value) || 1;
-        const currentTime = player ? await player.getCurrentTime() : clipStartAt;
-        const resumePlaying = isPlaying;
-        stopSyncLoop();
-        remountPlayer({ startAt: currentTime, autoPlay: resumePlaying }).catch(function (error) {
-          console.error('miniOdyssey speed remount failed', error);
-        });
-      });
+    if (overlayPlayPause) {
+      setPlayPauseLabel();
+      overlayPlayPause.addEventListener('click', togglePlayback);
     }
 
     remountPlayer({ startAt: clipStartAt, autoPlay: params.get('autoplay') === '1' }).catch(handleEmbedError);
