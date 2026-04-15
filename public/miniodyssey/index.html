@@ -335,6 +335,48 @@
   box-shadow: 0 18px 48px rgba(0,0,0,0.35);
 }
 
+/* iOS Safari fallback: pseudo-fullscreen via CSS class.
+   iPhone Safari does not expose Element.requestFullscreen() on non-video elements,
+   so we pin .video-stage to the viewport with a class instead. */
+.video-stage.pseudo-fullscreen {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  z-index: 9999;
+  margin: 0;
+  padding: 1rem;
+  background:
+    radial-gradient(circle at top, rgba(239,159,39,0.16), transparent 42%),
+    linear-gradient(180deg, #10211d 0%, #0a1312 100%);
+  overflow: hidden;
+  display: block;
+}
+
+.video-stage.pseudo-fullscreen .video-placeholder {
+  margin-top: 0;
+  height: calc(100% - 1rem);
+  max-height: none;
+  aspect-ratio: auto;
+}
+
+.video-stage.pseudo-fullscreen .video-caption,
+.video-stage.pseudo-fullscreen .video-controls {
+  display: none;
+}
+
+.video-stage.pseudo-fullscreen .video-overlay-bar {
+  left: 1rem;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 16px;
+  background: rgba(9,19,18,0.88);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255,255,255,0.14);
+  opacity: 1;
+}
+
 .play-button {
   width: 80px;
   height: 80px;
@@ -932,12 +974,35 @@
 	      [68.52, 'Reflective pause II'],
 	      [205.22, 'Final answer']
 	    ];
+    const FULLSCREEN_ENTER_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>';
+    const FULLSCREEN_EXIT_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/></svg>';
+
+    function setFullscreenLabel(isFs) {
+      if (overlayFullscreen) {
+        overlayFullscreen.innerHTML = isFs ? FULLSCREEN_EXIT_ICON : FULLSCREEN_ENTER_ICON;
+        overlayFullscreen.setAttribute('aria-label', isFs ? 'Exit fullscreen' : 'Enter fullscreen');
+      }
+    }
+
     async function toggleFullscreen() {
       const fullscreenTarget = stage || mount;
       if (!fullscreenTarget) return;
+
+      const canNativeFullscreen = typeof fullscreenTarget.requestFullscreen === 'function';
+
+      if (!canNativeFullscreen) {
+        // iPhone Safari path: no Element.requestFullscreen on <div>, use CSS class.
+        const willEnter = !fullscreenTarget.classList.contains('pseudo-fullscreen');
+        fullscreenTarget.classList.toggle('pseudo-fullscreen', willEnter);
+        document.body.style.overflow = willEnter ? 'hidden' : '';
+        setFullscreenLabel(willEnter);
+        return;
+      }
+
       if (!document.fullscreenElement) {
         try {
           await fullscreenTarget.requestFullscreen();
+          setFullscreenLabel(true);
           if (screen.orientation && typeof screen.orientation.lock === 'function') {
             try { await screen.orientation.lock('landscape'); } catch (e) { /* iOS rejects - ignore */ }
           }
@@ -946,11 +1011,19 @@
         }
       } else if (document.fullscreenElement === fullscreenTarget) {
         try { await document.exitFullscreen(); } catch (e) { /* ignore */ }
+        setFullscreenLabel(false);
         if (screen.orientation && typeof screen.orientation.unlock === 'function') {
           try { screen.orientation.unlock(); } catch (e) { /* ignore */ }
         }
       }
     }
+
+    // Keep the icon in sync when the user exits via ESC or system gesture
+    document.addEventListener('fullscreenchange', function () {
+      const target = stage || mount;
+      setFullscreenLabel(document.fullscreenElement === target);
+    });
+
     if (overlayFullscreen) {
       overlayFullscreen.addEventListener('click', toggleFullscreen);
     }
