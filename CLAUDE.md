@@ -57,3 +57,16 @@ Required frontmatter: `title`, `slug` (unique), `date` (YYYY-MM-DD), `readingTim
 - Keep JS bundle minimal - use native browser features over libraries
 - `Reflection_blog/` directory documents development lessons and design decisions
 - `AGENTS.md` contains detailed project guide (excluded from git via `.gitignore`)
+
+## Standalone Demo Pages (`public/`)
+
+Self-contained HTML demos live under `public/<slug>/`. Astro copies the entire `public/` tree verbatim into `dist/` — no templating, no Astro components. The slug becomes the URL path (`/<slug>/` serves `public/<slug>/index.html`).
+
+**Current demos:**
+- `public/liteodyssey/` — rare-disease diagnostic system landing page. The edit-source-of-truth lives outside this repo at `/home/ha/projects/v7_reflective_demo_package/liteodyssey_website_mockup_v1.html` (single-file HTML, ~1500 lines). Copy that file over `public/liteodyssey/index.html` when updating. Sibling dirs `assets/vendor/asciinema-player/` and `recordings/public/*.cast` are local-relative asset roots the page expects.
+
+**Redirects on GitHub Pages.** GH Pages has no server-side redirect config (no `_redirects`, no `.htaccess`, and the `netlify.toml` at the repo root is NOT honored on GH Pages). To redirect `/old-path/` → `/new-path/`, write an HTML stub at `public/old-path/index.html` with `<meta http-equiv="refresh" content="0; url=/new-path/">` + a `<script>window.location.replace(...)</script>` fallback + `<link rel="canonical">` pointing at the new URL. Template: `public/miniodyssey/index.html`.
+
+**Netlify files are legacy.** `netlify.toml`, `.netlify/`, and `netlify/functions/` predate the GH Pages migration. `[[redirects]]` and `[[headers]]` blocks there do not apply to the live site — do not add redirect rules there.
+
+**Deploy cadence.** Push to `main` triggers `.github/workflows/deploy.yml` (Node 20, `npm ci && npm run build`), uploads `dist/` as a Pages artifact, then `actions/deploy-pages@v4` publishes. Typical propagation: 1–2 minutes. Check the Actions tab if it looks stuck.

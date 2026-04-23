@@ -3,16 +3,6 @@
   publish = "dist"
   functions = "netlify/functions"
 
-[[redirects]]
-  from = "/miniodyssey"
-  to = "/liteodyssey/"
-  status = 301
-
-[[redirects]]
-  from = "/miniodyssey/*"
-  to = "/liteodyssey/:splat"
-  status = 301
-
 [[headers]]
   for = "/*"
   [headers.values]
