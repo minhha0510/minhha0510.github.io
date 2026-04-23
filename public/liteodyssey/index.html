@@ -335,46 +335,16 @@
   box-shadow: 0 18px 48px rgba(0,0,0,0.35);
 }
 
-/* iOS Safari fallback: pseudo-fullscreen via CSS class.
-   iPhone Safari does not expose Element.requestFullscreen() on non-video elements,
-   so we pin .video-stage to the viewport with a class instead. */
-.video-stage.pseudo-fullscreen {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  height: 100dvh;
-  z-index: 9999;
-  margin: 0;
-  padding: 1rem;
-  background:
-    radial-gradient(circle at top, rgba(239,159,39,0.16), transparent 42%),
-    linear-gradient(180deg, #10211d 0%, #0a1312 100%);
-  overflow: hidden;
-  display: block;
-}
-
-.video-stage.pseudo-fullscreen .video-placeholder {
+.video-stage:fullscreen .video-actions,
+.video-stage:-webkit-full-screen .video-actions {
   margin-top: 0;
-  height: calc(100% - 1rem);
-  max-height: none;
-  aspect-ratio: auto;
 }
 
-.video-stage.pseudo-fullscreen .video-caption,
-.video-stage.pseudo-fullscreen .video-controls {
-  display: none;
-}
-
-.video-stage.pseudo-fullscreen .video-overlay-bar {
-  left: 1rem;
-  right: 1rem;
-  bottom: 1rem;
-  border-radius: 16px;
-  background: rgba(9,19,18,0.88);
-  backdrop-filter: blur(14px);
-  border: 1px solid rgba(255,255,255,0.14);
-  opacity: 1;
+.video-stage:fullscreen .video-action-btn,
+.video-stage:-webkit-full-screen .video-action-btn,
+.video-stage:fullscreen .video-speed-wrap,
+.video-stage:-webkit-full-screen .video-speed-wrap {
+  background: rgba(255,255,255,0.09);
 }
 
 .play-button {
@@ -410,12 +380,34 @@
   color: rgba(255,255,255,0.6);
 }
 
+.video-actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
 .video-controls {
   margin-top: 0.45rem;
   display: grid;
   gap: 0.7rem;
   position: relative;
   z-index: 3;
+}
+
+.video-timeline {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.video-time {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.86rem;
+  color: rgba(255,255,255,0.72);
+  min-width: 3.25rem;
 }
 
 .video-scrubber {
@@ -455,105 +447,49 @@
   outline: none;
 }
 
-/* OVERLAY BAR (scrubber + play/pause + fullscreen docked on video) */
-.video-overlay-bar {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.7rem 1rem 0.85rem;
-  background: linear-gradient(to top, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0) 100%);
-  z-index: 6;
-  color: var(--cream);
-  opacity: 1;
-  transition: opacity 0.2s ease;
-  border-bottom-left-radius: 16px;
-  border-bottom-right-radius: 16px;
-}
-
-.video-overlay-bar[hidden] { display: none; }
-
-/* Desktop hover-fade: overlay hides until the user mouses over the video */
-@media (hover: hover) and (pointer: fine) {
-  .video-overlay-bar {
-    opacity: 0;
-  }
-  .video-stage:hover .video-overlay-bar,
-  .video-stage:focus-within .video-overlay-bar {
-    opacity: 1;
-  }
-}
-
-.video-overlay-bar .video-scrubber {
-  flex: 1 1 auto;
-  min-width: 0;
-  margin: 0;
-}
-
-.video-overlay-time {
-  font-variant-numeric: tabular-nums;
-  font-size: 0.82rem;
-  color: rgba(255,255,255,0.88);
-  min-width: 2.8rem;
-  text-align: center;
-  flex-shrink: 0;
-}
-
-.video-overlay-icon-btn {
-  appearance: none;
-  -webkit-appearance: none;
-  background: rgba(255,255,255,0.16);
-  border: 1px solid rgba(255,255,255,0.28);
-  color: var(--cream);
-  width: 2.4rem;
-  height: 2.4rem;
-  border-radius: 999px;
-  cursor: pointer;
+.video-speed-wrap {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 0;
-  flex-shrink: 0;
-  transition: background 0.2s ease, transform 0.2s ease;
+  gap: 0.55rem;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.06);
+  color: var(--cream);
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  font-size: 0.9rem;
 }
 
-.video-overlay-icon-btn:hover,
-.video-overlay-icon-btn:focus-visible {
-  background: rgba(255,255,255,0.3);
-  transform: translateY(-1px);
+.video-speed-select {
+  border: none;
+  background: transparent;
+  color: var(--cream);
+  font: inherit;
+  cursor: pointer;
+}
+
+.video-speed-select:focus {
   outline: none;
 }
 
-.video-overlay-icon-btn svg {
-  width: 1.15rem;
-  height: 1.15rem;
-  fill: currentColor;
+.video-action-btn {
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.06);
+  color: var(--cream);
+  border-radius: 999px;
+  padding: 0.7rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
-/* In fullscreen, overlay becomes a floating dock at the bottom of the stage */
-.video-stage:fullscreen .video-overlay-bar,
-.video-stage:-webkit-full-screen .video-overlay-bar {
-  left: 1rem;
-  right: 1rem;
-  bottom: 1rem;
-  border-radius: 16px;
-  background: rgba(9,19,18,0.88);
-  backdrop-filter: blur(14px);
-  border: 1px solid rgba(255,255,255,0.14);
-  opacity: 1;
+.video-action-btn:hover {
+  background: rgba(255,255,255,0.12);
+  transform: translateY(-1px);
 }
 
-/* Mobile: hide the secondary dock entirely — overlay is self-sufficient */
-@media (max-width: 640px) {
-  .video-controls {
-    display: none;
-  }
-  .video-overlay-bar {
-    opacity: 1;
-  }
+.video-action-btn:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
 }
 
 /* HOW IT WORKS */
@@ -612,6 +548,13 @@
   margin: 3rem auto;
   max-width: 900px;
   border: 1px solid var(--border);
+}
+
+.results-lede {
+  color: var(--gray);
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  max-width: 560px;
 }
 
 .results-grid {
@@ -782,6 +725,228 @@
   text-decoration: none;
 }
 
+/* BACKBONE RELIABILITY (2-bar mini) */
+.backbone-block {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.backbone-block h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.backbone-block .backbone-lede {
+  color: var(--gray);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  max-width: 640px;
+}
+
+.backbone-block .backbone-lede strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.bar-row {
+  display: grid;
+  grid-template-columns: 100px 1fr 60px;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.65rem;
+}
+
+.bar-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.bar-track {
+  background: var(--cream);
+  border-radius: 100px;
+  height: 22px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 100px;
+  transition: width 0.6s ease;
+}
+
+.bar-fill.teal { background: var(--teal); }
+.bar-fill.purple { background: var(--purple); }
+
+.bar-value {
+  font-family: 'Fraunces', serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--ink);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.bar-caption {
+  font-size: 0.78rem;
+  color: var(--gray);
+  margin-top: 0.75rem;
+  font-style: italic;
+}
+
+/* DOCENT MODAL */
+dialog.docent-modal {
+  border: none;
+  border-radius: 20px;
+  padding: 0;
+  max-width: 720px;
+  width: calc(100% - 2rem);
+  max-height: 88vh;
+  margin: auto;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: 'DM Sans', sans-serif;
+  box-shadow: 0 40px 80px rgba(0,0,0,0.25);
+}
+
+dialog.docent-modal[open] {
+  inset: 0;
+}
+
+dialog.docent-modal::backdrop {
+  background: rgba(26,26,24,0.55);
+  backdrop-filter: blur(4px);
+}
+
+.docent-inner {
+  padding: 2rem 2rem 1.5rem;
+  max-height: 88vh;
+  overflow-y: auto;
+}
+
+.docent-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.docent-head h3 {
+  font-family: 'Fraunces', serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.docent-head h3 em {
+  font-style: italic;
+  color: var(--amber-dark);
+}
+
+.docent-close {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  color: var(--gray);
+  cursor: pointer;
+  line-height: 1;
+  padding: 0.25rem 0.5rem;
+}
+
+.docent-close:hover { color: var(--ink); }
+
+.docent-intro {
+  font-size: 0.95rem;
+  color: var(--gray);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+.docent-steps {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.docent-step {
+  background: var(--amber-light);
+  color: var(--amber-dark);
+  padding: 0.35rem 0.7rem;
+  border-radius: 100px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.docent-prompt-wrap {
+  position: relative;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1rem 1rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.docent-prompt {
+  width: 100%;
+  min-height: 260px;
+  max-height: 40vh;
+  border: none;
+  resize: vertical;
+  font-family: 'SF Mono', 'Menlo', 'Consolas', monospace;
+  font-size: 0.82rem;
+  line-height: 1.55;
+  color: var(--ink);
+  background: transparent;
+  white-space: pre-wrap;
+}
+
+.docent-prompt:focus { outline: none; }
+
+.docent-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.docent-copy {
+  background: var(--ink);
+  color: var(--cream);
+  border: none;
+  border-radius: 100px;
+  padding: 0.7rem 1.3rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.docent-copy:hover {
+  background: var(--purple);
+  transform: translateY(-1px);
+}
+
+.docent-copy.copied { background: var(--teal); }
+
+.docent-hint {
+  font-size: 0.82rem;
+  color: var(--gray);
+}
+
+.docent-hint a {
+  color: var(--purple);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--purple);
+}
+
 /* RESPONSIVE */
 @media (min-width: 640px) {
   .how-grid {
@@ -789,6 +954,19 @@
   }
 }
 
+@media (max-width: 540px) {
+  .bar-row { grid-template-columns: 80px 1fr 52px; gap: 0.6rem; }
+}
+
+@media (max-width: 640px) {
+  .video-timeline {
+    grid-template-columns: 1fr;
+  }
+
+  .video-time {
+    min-width: 0;
+  }
+}
 </style>
 
 <div class="page">
@@ -805,13 +983,13 @@
         <path d="M10 74 Q35 70, 60 74 Q85 78, 95 74" fill="none" stroke="#5DCAA5" stroke-width="1.5" stroke-linecap="round" opacity="0.3"/>
       </svg>
       
-      <h1>miniOdyssey<br><em>shortening the journey to diagnosis</em></h1>
-      
+      <h1>liteOdyssey<br><em>a beacon at the end of the journey</em></h1>
+
       <p class="hero-subtitle">A single reasoning LLM, guided by clinical expertise, matches state-of-the-art rare disease diagnosis — with no GPUs, no fine-tuning, no case database.</p>
-      
+
       <div class="cta-group">
         <button class="btn btn-primary" onclick="document.querySelector('.video-section').scrollIntoView({behavior:'smooth'})">Watch the demo</button>
-        <a href="#" class="btn btn-secondary">Read the paper →</a>
+        <button class="btn btn-secondary" type="button" onclick="openDocent()">Walk me through the paper →</button>
       </div>
       
       <div class="stats-strip">
@@ -824,8 +1002,8 @@
           <div class="stat-label">R@1 on PhenoPacket</div>
         </div>
         <div class="stat">
-          <div class="stat-number">+4.0pp</div>
-          <div class="stat-label">from reflective pause</div>
+          <div class="stat-number">1,000×</div>
+          <div class="stat-label">lighter than published systems</div>
         </div>
       </div>
     </div>
@@ -847,21 +1025,29 @@
             <p>Drop a sanitized `.cast` into <code>recordings/public/</code>. This prototype will render it with the bundled asciinema player.</p>
           </div>
         </div>
-        <div class="video-overlay-bar" id="demo-overlay" hidden>
-          <button class="video-overlay-icon-btn" id="demo-overlay-playpause" type="button" aria-label="Play">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
-          </button>
-          <span class="video-overlay-time" id="demo-current-time">0:00</span>
-          <input class="video-scrubber" id="demo-scrubber" type="range" min="0" max="100" step="0.1" value="0" aria-label="Terminal demo timeline">
-          <span class="video-overlay-time" id="demo-duration">0:00</span>
-          <button class="video-overlay-icon-btn" id="demo-overlay-fullscreen" type="button" aria-label="Enter fullscreen">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>
-          </button>
-        </div>
         <div class="video-controls" id="demo-controls" hidden>
-          <div class="video-chapters" id="demo-chapters"></div>
-        </div>
-        <p class="video-caption">Side-by-side: Claude Code and Codex walking through a real case (~4 min).</p>
+          <div class="video-timeline">
+            <span class="video-time" id="demo-current-time">0:00</span>
+            <input class="video-scrubber" id="demo-scrubber" type="range" min="0" max="100" step="0.1" value="0" aria-label="Terminal demo timeline">
+            <span class="video-time" id="demo-duration">0:00</span>
+          </div>
+	          <div class="video-chapters" id="demo-chapters"></div>
+	          <div class="video-actions">
+	            <button class="video-action-btn" id="demo-restart" type="button">Clip start</button>
+	            <button class="video-action-btn" id="demo-playpause" type="button">Pause</button>
+	            <button class="video-action-btn" id="demo-fullscreen" type="button">Full screen</button>
+	            <label class="video-speed-wrap" for="demo-speed">
+	              <span>Speed</span>
+	              <select class="video-speed-select" id="demo-speed">
+	                <option value="0.8">0.8x</option>
+	                <option value="1" selected>1.0x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+              </select>
+	            </label>
+	          </div>
+	        </div>
+        <p class="video-caption">A reasoning LLM working through a real case with liteOdyssey tools (~4 min).</p>
 	      </div>
 	    </div>
 	  </section>
@@ -895,12 +1081,13 @@
   <!-- RESULTS -->
   <div class="results-section">
     <span class="section-label">Results</span>
-    <h2>Matching state-of-the-art with less</h2>
-    
+    <h2>SOTA results without SOTA burdens</h2>
+    <p class="results-lede">Deployable anywhere — a laptop, a clinic workstation, or a server.</p>
+
     <div class="results-grid">
       <div class="result-card highlight">
         <div class="result-number">58.6%</div>
-        <div class="result-label">LIRICAL benchmark<br>(370 cases)</div>
+        <div class="result-label">LIRICAL benchmark<br>(370 cases, 29.3% ultra-rare)</div>
         <div class="result-baseline">vs. 30-40% standalone LLMs</div>
       </div>
       
@@ -910,15 +1097,26 @@
         <div class="result-baseline">vs. 15-21% standalone LLMs</div>
       </div>
       
-      <div class="result-card">
-        <div class="result-number">0</div>
-        <div class="result-label">GPUs required</div>
+      <div class="result-card highlight">
+        <div class="result-number">&lt;100 MB</div>
+        <div class="result-label">Deploys on a laptop</div>
       </div>
-      
-      <div class="result-card">
-        <div class="result-number">0</div>
-        <div class="result-label">Fine-tuning needed</div>
+    </div>
+
+    <div class="backbone-block">
+      <h3>Works across reasoning backbones</h3>
+      <p class="backbone-lede">Swap the underlying model and the system behaves the same. Claude and ChatGPT reach the same diagnosis on <strong>86%</strong> of 710 benchmark cases.</p>
+      <div class="bar-row">
+        <div class="bar-label">Claude</div>
+        <div class="bar-track"><div class="bar-fill teal" style="width: 59.7%"></div></div>
+        <div class="bar-value">59.7%</div>
       </div>
+      <div class="bar-row">
+        <div class="bar-label">ChatGPT</div>
+        <div class="bar-track"><div class="bar-fill purple" style="width: 60.7%"></div></div>
+        <div class="bar-value">60.7%</div>
+      </div>
+      <p class="bar-caption">Recall@1 across 710 cases pooled from LIRICAL, PhenoPacket Store, and MME. Informal tests on DeepSeek show the same pattern.</p>
     </div>
   </div>
 
@@ -927,11 +1125,11 @@
     <div class="try-content">
       <span class="section-label" style="color: rgba(255,255,255,0.7)">Try it yourself</span>
       <h2>Enter HPO terms, see the reasoning</h2>
-      <p>Paste phenotype terms and watch miniOdyssey work through a diagnosis. This is a demonstration — not for clinical use.</p>
-      
+      <p>Paste phenotype terms and watch liteOdyssey work through a diagnosis. This is a demonstration — not for clinical use.</p>
+
       <div class="try-input-group">
         <input type="text" class="try-input" placeholder="e.g., HP:0001250 (seizures), HP:0001263 (developmental delay)...">
-        <button class="btn btn-try">Run miniOdyssey →</button>
+        <button class="btn btn-try">Run liteOdyssey →</button>
       </div>
     </div>
   </section>
@@ -941,20 +1139,108 @@
     <span class="section-label">The team</span>
     <h2>Built with expertise and craft</h2>
     
-    <p class="team-intro">miniOdyssey was built by combining <strong>clinical genetics expertise</strong> with <strong>careful AI engineering</strong>. We didn't add complexity — we designed the environment. The result is a system that reasons like a geneticist, powered by a single foundation model.</p>
-    
-    <a href="#" class="paper-cta">
+    <p class="team-intro">liteOdyssey was built by combining <strong>clinical genetics expertise</strong> with <strong>careful AI engineering</strong>.</p>
+
+    <button type="button" class="paper-cta" onclick="openDocent()">
       <span>📄</span>
-      <span>Read the full paper on medRxiv</span>
-    </a>
+      <span>Walk me through the paper with your LLM</span>
+    </button>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p>miniOdyssey · Built with care at <a href="#">Vanderbilt University</a></p>
+    <p>liteOdyssey · Built with care at <a href="#">Vanderbilt University</a></p>
     <p style="margin-top: 0.5rem"><a href="#">Paper</a> · <a href="#">GitHub</a> · <a href="#">Contact</a></p>
   </footer>
+
+  <!-- DOCENT MODAL -->
+  <dialog id="docent-modal" class="docent-modal" aria-label="Walk through the paper with your LLM">
+    <div class="docent-inner">
+      <div class="docent-head">
+        <h3>Walk through the paper<br><em>with your favorite LLM</em></h3>
+        <button type="button" class="docent-close" aria-label="Close" onclick="document.getElementById('docent-modal').close()">✕</button>
+      </div>
+      <p class="docent-intro">Copy the prompt below, paste it into Claude, ChatGPT, DeepSeek, or any reasoning model, then ask your questions. The prompt grounds the model in the paper's verified numbers so it won't invent findings.</p>
+      <div class="docent-steps">
+        <span class="docent-step">1. Copy</span>
+        <span class="docent-step">2. Paste into an LLM</span>
+        <span class="docent-step">3. Ask anything</span>
+      </div>
+      <div class="docent-prompt-wrap">
+        <textarea id="docent-prompt" class="docent-prompt" readonly spellcheck="false">You are going to help me understand a research paper titled "liteOdyssey: a lightweight AI system for rare-disease differential diagnosis."
+
+Treat the facts below as ground truth. Do not invent numbers, add claims, or speculate beyond what is stated here. If I ask something the paper does not cover, say "the paper does not specify" rather than guessing.
+
+## The problem
+Rare-disease patients experience a diagnostic odyssey averaging 5 to 7 years. The bottleneck is interpretation: matching a patient's phenotype profile against thousands of rare conditions and an evolving literature. This work does not scale with expert labor alone.
+
+## What liteOdyssey is
+A single reasoning LLM placed in a designed environment of three components:
+  1. Eight small CLI tools (the "dx-*" suite) that query free public databases — Monarch, OMIM, ClinGen, PubMed, gnomAD.
+  2. An 8-phase clinical workflow modeled on how a clinical geneticist reasons.
+  3. A reflective pause in phase 6 that triggers honest self-assessment before committing to a diagnosis.
+
+There is no GPU cluster, no fine-tuning, no proprietary case database, and no retrieval-augmented knowledge graph. The full system ships at under 100 MB of code plus reference data — roughly 1,000 times lighter than published SOTA systems like DeepRare (which requires 100+ GB of disk per its README) or classical phenotype matchers like Exomiser (64 GB). It deploys on a laptop, a clinic workstation, or a server.
+
+## Headline results
+- LIRICAL benchmark (370 cases, 29.3% ultra-rare diseases): 58.6% Recall@1, 73.2% Recall@5.
+- PhenoPacket Store (300 cases, 52.8% ultra-rare): 62.0% Recall@1, 78.3% Recall@5.
+- Same-model prompt-only baselines (no tools, no workflow): 37.3% on LIRICAL, 25.0% on PhenoPacket.
+- Reflective pause ablation contributes roughly +4 percentage points.
+- Backbone reliability across 710 matched cases: Claude Opus reaches 59.7% R@1 and ChatGPT (GPT-5.4) reaches 60.7% R@1. The two backbones agree on the same verdict for 86.1% of cases. Informal tests on DeepSeek show the same pattern.
+
+## Context for comparisons
+liteOdyssey outperforms a published hybrid agentic system (DeepRare's LLM + tool-calling + reflection) on LIRICAL while using more primitive tools: no prebuilt diagnostic APIs, no web search, no HPO extraction module, no rare-vs-common classifier. The performance comes from the reasoning architecture, not from more knowledge.
+
+## Limitations the paper states honestly
+These are retrospective benchmarks on published cases. Prospective clinical validation is pending. The system is a demonstration, not a clinical tool.
+
+## How I want you to help me
+- Keep answers short: 3 to 5 sentences unless I ask for depth.
+- When I ask "why does this matter", frame it around the 5-to-7-year diagnostic odyssey and what a clinician's real decision process looks like.
+- When I ask about comparisons, contextualize using the DeepRare and prompt-only baseline numbers above.
+- If I ask about something not in this brief, say so plainly.
+- Do not use emojis. Do not flatter me. Be a helpful docent, not a cheerleader.
+
+Begin by asking me:
+"What part of the paper would you like to walk through first — the clinical problem, the system design, the benchmarks, or the implications?"</textarea>
+      </div>
+      <div class="docent-actions">
+        <button type="button" class="docent-copy" id="docent-copy-btn" onclick="copyDocent()">Copy prompt</button>
+        <span class="docent-hint">Works in <a href="https://claude.ai" target="_blank" rel="noopener">Claude</a>, <a href="https://chatgpt.com" target="_blank" rel="noopener">ChatGPT</a>, <a href="https://chat.deepseek.com" target="_blank" rel="noopener">DeepSeek</a>, or any reasoning model.</span>
+      </div>
+    </div>
+  </dialog>
 </div>
+
+<script>
+  function openDocent() {
+    const dialog = document.getElementById('docent-modal');
+    if (typeof dialog.showModal === 'function') {
+      dialog.showModal();
+    } else {
+      dialog.setAttribute('open', '');
+    }
+  }
+
+  async function copyDocent() {
+    const textarea = document.getElementById('docent-prompt');
+    const button = document.getElementById('docent-copy-btn');
+    try {
+      await navigator.clipboard.writeText(textarea.value);
+    } catch (error) {
+      textarea.select();
+      document.execCommand('copy');
+    }
+    const original = button.textContent;
+    button.textContent = 'Copied ✓';
+    button.classList.add('copied');
+    setTimeout(() => {
+      button.textContent = original;
+      button.classList.remove('copied');
+    }, 2000);
+  }
+</script>
 
 <script src="./assets/vendor/asciinema-player/asciinema-player.min.js"></script>
 <script>
@@ -962,70 +1248,32 @@
     const mount = document.getElementById('demo-player');
     const stage = document.getElementById('demo-stage');
     const controls = document.getElementById('demo-controls');
-    const overlay = document.getElementById('demo-overlay');
-    const overlayFullscreen = document.getElementById('demo-overlay-fullscreen');
-    const overlayPlayPause = document.getElementById('demo-overlay-playpause');
-    const scrubber = document.getElementById('demo-scrubber');
-    const currentTimeLabel = document.getElementById('demo-current-time');
-    const durationLabel = document.getElementById('demo-duration');
-    const chaptersMount = document.getElementById('demo-chapters');
+    const fullscreenButton = document.getElementById('demo-fullscreen');
+	    const scrubber = document.getElementById('demo-scrubber');
+	    const currentTimeLabel = document.getElementById('demo-current-time');
+	    const durationLabel = document.getElementById('demo-duration');
+	    const restartButton = document.getElementById('demo-restart');
+	    const playPauseButton = document.getElementById('demo-playpause');
+	    const speedSelect = document.getElementById('demo-speed');
+	    const chaptersMount = document.getElementById('demo-chapters');
 	    const chapterMarkers = [
 	      [27.88, 'First tool'],
 	      [68.52, 'Reflective pause II'],
 	      [205.22, 'Final answer']
 	    ];
-    const FULLSCREEN_ENTER_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/></svg>';
-    const FULLSCREEN_EXIT_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z"/></svg>';
-
-    function setFullscreenLabel(isFs) {
-      if (overlayFullscreen) {
-        overlayFullscreen.innerHTML = isFs ? FULLSCREEN_EXIT_ICON : FULLSCREEN_ENTER_ICON;
-        overlayFullscreen.setAttribute('aria-label', isFs ? 'Exit fullscreen' : 'Enter fullscreen');
-      }
-    }
-
-    async function toggleFullscreen() {
-      const fullscreenTarget = stage || mount;
-      if (!fullscreenTarget) return;
-
-      const canNativeFullscreen = typeof fullscreenTarget.requestFullscreen === 'function';
-
-      if (!canNativeFullscreen) {
-        // iPhone Safari path: no Element.requestFullscreen on <div>, use CSS class.
-        const willEnter = !fullscreenTarget.classList.contains('pseudo-fullscreen');
-        fullscreenTarget.classList.toggle('pseudo-fullscreen', willEnter);
-        document.body.style.overflow = willEnter ? 'hidden' : '';
-        setFullscreenLabel(willEnter);
-        return;
-      }
-
-      if (!document.fullscreenElement) {
-        try {
-          await fullscreenTarget.requestFullscreen();
-          setFullscreenLabel(true);
-          if (screen.orientation && typeof screen.orientation.lock === 'function') {
-            try { await screen.orientation.lock('landscape'); } catch (e) { /* iOS rejects - ignore */ }
+    if (fullscreenButton && mount) {
+      fullscreenButton.addEventListener('click', async function () {
+        const fullscreenTarget = stage || mount;
+        if (!document.fullscreenElement) {
+          try {
+            await fullscreenTarget.requestFullscreen();
+          } catch (error) {
+            console.error('liteOdyssey fullscreen failed', error);
           }
-        } catch (error) {
-          console.error('miniOdyssey fullscreen failed', error);
+        } else if (document.fullscreenElement === fullscreenTarget) {
+          await document.exitFullscreen();
         }
-      } else if (document.fullscreenElement === fullscreenTarget) {
-        try { await document.exitFullscreen(); } catch (e) { /* ignore */ }
-        setFullscreenLabel(false);
-        if (screen.orientation && typeof screen.orientation.unlock === 'function') {
-          try { screen.orientation.unlock(); } catch (e) { /* ignore */ }
-        }
-      }
-    }
-
-    // Keep the icon in sync when the user exits via ESC or system gesture
-    document.addEventListener('fullscreenchange', function () {
-      const target = stage || mount;
-      setFullscreenLabel(document.fullscreenElement === target);
-    });
-
-    if (overlayFullscreen) {
-      overlayFullscreen.addEventListener('click', toggleFullscreen);
+      });
     }
     if (!mount || !window.AsciinemaPlayer) return;
     const params = new URLSearchParams(window.location.search);
@@ -1057,6 +1305,9 @@
         mount.style.setProperty('--player-zoom', String(zoomValue));
       }
     }
+    if (speedSelect && !Number.isNaN(playbackSpeed) && playbackSpeed > 0) {
+      speedSelect.value = String(playbackSpeed);
+    }
 
     function formatTime(seconds) {
       const safeSeconds = Math.max(0, Math.floor(Number(seconds) || 0));
@@ -1069,13 +1320,9 @@
       return Math.min(Math.max(value, min), max);
     }
 
-    const PLAY_ICON_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>';
-    const PAUSE_ICON_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg>';
-
     function setPlayPauseLabel() {
-      if (overlayPlayPause) {
-        overlayPlayPause.innerHTML = isPlaying ? PAUSE_ICON_SVG : PLAY_ICON_SVG;
-        overlayPlayPause.setAttribute('aria-label', isPlaying ? 'Pause' : 'Play');
+      if (playPauseButton) {
+        playPauseButton.textContent = isPlaying ? 'Pause' : 'Play';
       }
     }
 
@@ -1090,7 +1337,7 @@
       stopSyncLoop();
       syncTimer = window.setInterval(function () {
         syncTimeline().catch(function (error) {
-          console.error('miniOdyssey timeline sync failed', error);
+          console.error('liteOdyssey timeline sync failed', error);
         });
       }, 250);
     }
@@ -1127,7 +1374,7 @@
       player = window.AsciinemaPlayer.create(castSrc, mount, {
         autoPlay: !!options.autoPlay,
         loop: false,
-        controls: false,
+        controls: true,
         fit: 'width',
         startAt: options.startAt,
         speed: playbackSpeed,
@@ -1137,9 +1384,8 @@
 
       player.addEventListener('ready', function () {
         if (controls) controls.hidden = false;
-        if (overlay) overlay.hidden = false;
         syncTimeline().catch(function (error) {
-          console.error('miniOdyssey ready sync failed', error);
+          console.error('liteOdyssey ready sync failed', error);
         });
       });
       player.addEventListener('play', function () {
@@ -1156,7 +1402,7 @@
         setPlayPauseLabel();
         stopSyncLoop();
         syncTimeline().catch(function (error) {
-          console.error('miniOdyssey pause sync failed', error);
+          console.error('liteOdyssey pause sync failed', error);
         });
       });
       player.addEventListener('ended', function () {
@@ -1164,17 +1410,17 @@
         setPlayPauseLabel();
         stopSyncLoop();
         syncTimeline().catch(function (error) {
-          console.error('miniOdyssey ended sync failed', error);
+          console.error('liteOdyssey ended sync failed', error);
         });
       });
       player.addEventListener('seeked', function () {
         syncTimeline().catch(function (error) {
-          console.error('miniOdyssey seek sync failed', error);
+          console.error('liteOdyssey seek sync failed', error);
         });
       });
       player.addEventListener('metadata', function () {
         syncTimeline().catch(function (error) {
-          console.error('miniOdyssey metadata sync failed', error);
+          console.error('liteOdyssey metadata sync failed', error);
         });
       });
     }
@@ -1186,7 +1432,7 @@
         '</p>',
         '<br><br><strong>Embed error:</strong> ' + String(error.message || error) + '</p>'
       );
-      console.error('miniOdyssey embed failed', error);
+      console.error('liteOdyssey embed failed', error);
     }
 
     if (scrubber) {
@@ -1198,7 +1444,7 @@
       scrubber.addEventListener('change', function () {
         isScrubbing = false;
         seekTo(Number(scrubber.value)).catch(function (error) {
-          console.error('miniOdyssey scrub failed', error);
+          console.error('liteOdyssey scrub failed', error);
         });
       });
     }
@@ -1212,24 +1458,43 @@
         button.textContent = marker[1];
         button.addEventListener('click', function () {
           seekTo(marker[0]).catch(function (error) {
-            console.error('miniOdyssey chapter seek failed', error);
+            console.error('liteOdyssey chapter seek failed', error);
           });
         });
         chaptersMount.appendChild(button);
       });
     }
 
-    async function togglePlayback() {
-      if (!player) return;
-      if (isPlaying) {
-        await player.pause();
-      } else {
-        await player.play();
-      }
+    if (restartButton) {
+      restartButton.addEventListener('click', function () {
+        seekTo(clipStartAt).catch(function (error) {
+          console.error('liteOdyssey restart failed', error);
+        });
+      });
     }
-    if (overlayPlayPause) {
-      setPlayPauseLabel();
-      overlayPlayPause.addEventListener('click', togglePlayback);
+
+	    if (playPauseButton) {
+	      setPlayPauseLabel();
+	      playPauseButton.addEventListener('click', async function () {
+	        if (!player) return;
+        if (isPlaying) {
+          await player.pause();
+        } else {
+          await player.play();
+        }
+      });
+    }
+
+	    if (speedSelect) {
+	      speedSelect.addEventListener('change', async function () {
+	        playbackSpeed = Number(speedSelect.value) || 1;
+        const currentTime = player ? await player.getCurrentTime() : clipStartAt;
+        const resumePlaying = isPlaying;
+        stopSyncLoop();
+        remountPlayer({ startAt: currentTime, autoPlay: resumePlaying }).catch(function (error) {
+          console.error('liteOdyssey speed remount failed', error);
+        });
+      });
     }
 
     remountPlayer({ startAt: clipStartAt, autoPlay: params.get('autoplay') === '1' }).catch(handleEmbedError);
