@@ -26,15 +26,47 @@ function formatDate(dateString: string) {
 const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 ---
 
-<Layout title="Minh-Ha Nguyen | Research Blog">
+<Layout title="Minh-Ha Nguyen">
   <div class="intro">
-    <h1 class="intro-title">Research Blog</h1>
+    <h1 class="intro-title">Minh-Ha Nguyen</h1>
     <p class="intro-text">
-      I'm a pharmacoepidemiologist researching medication safety and clinical outcomes.
-      This blog explains my research in clear, accessible terms — exploring what the evidence
-      really means for patients and clinicians.
+      I'm a PhD candidate in Epidemiology at Vanderbilt, studying how to construct valid
+      inference from data. My interests are medication safety and large-language-model
+      capability. Currently, I'm funded by NASA to study the association between low-dose
+      radiation exposure and Parkinson's disease to prepare for a potential Mars mission.
     </p>
   </div>
+
+  <section class="research-section">
+    <h2 class="section-title">Research</h2>
+    <div class="threads">
+      <div class="thread">
+        <h3>Medication safety in the real world</h3>
+        <p>
+          Which drug-safety signals in large healthcare databases are real, and which are
+          artifacts of study design. Recent work: the depression warning on 5-alpha reductase
+          inhibitors, and their metabolic effects across national databases.
+        </p>
+      </div>
+      <div class="thread">
+        <h3>liteOdyssey — AI that diagnoses like a clinician</h3>
+        <p>
+          A system that reasons from a patient's symptoms toward a ranked rare-disease diagnosis
+          — disease and causal gene — the way a geneticist would, judged against curated ground
+          truth and blinded physician adjudication.
+        </p>
+        <span class="thread-tag">// manuscript in preparation</span>
+      </div>
+      <div class="thread">
+        <h3>Evaluating models as experiments</h3>
+        <p>
+          The method that connects the two: treat a benchmark like an experiment — the model is a
+          population, the prompt a treatment you assign, the score an estimator with error, not a
+          fact. Is it powered? Representative? Measured against a reliable standard?
+        </p>
+      </div>
+    </div>
+  </section>
 
   <section class="posts-section">
     <h2 class="section-title">Latest Posts</h2>
@@ -79,6 +111,47 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
     line-height: 1.7;
     text-align: center;
     margin: 0;
+  }
+
+  .research-section {
+    padding: 1rem 0 0;
+    margin-bottom: 1.5rem;
+  }
+
+  .threads {
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .thread {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .thread h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .thread p {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .thread-tag {
+    display: inline-block;
+    margin-top: 0.6rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--text-light);
   }
 
   .posts-section {
