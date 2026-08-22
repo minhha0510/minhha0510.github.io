@@ -64,6 +64,7 @@ Self-contained HTML demos live under `public/<slug>/`. Astro copies the entire `
 
 **Current demos:**
 - `public/liteodyssey/` — rare-disease diagnostic system landing page. The edit-source-of-truth lives outside this repo at `/home/ha/projects/v7_reflective_demo_package/liteodyssey_website_mockup_v1.html` (single-file HTML, ~1500 lines). Copy that file over `public/liteodyssey/index.html` when updating. Sibling dirs `assets/vendor/asciinema-player/` and `recordings/public/*.cast` are local-relative asset roots the page expects.
+- `public/PhD-scheduler/` — built React app (PhD proposal defense availability poll, October 2026). Source of truth is the separate repo at `~/Desktop/phd-scheduler/`; rebuild there (`VITE_API_URL=https://phd-defense-scheduler.netlify.app npm run build`) and copy `dist/*` over this folder when updating. Its API (tRPC + Netlify Blobs storage) lives on the Netlify site `phd-defense-scheduler` — do NOT rename that site, the frontend calls it by URL.
 
 **Redirects on GitHub Pages.** GH Pages has no server-side redirect config (no `_redirects`, no `.htaccess`, and the `netlify.toml` at the repo root is NOT honored on GH Pages). To redirect `/old-path/` → `/new-path/`, write an HTML stub at `public/old-path/index.html` with `<meta http-equiv="refresh" content="0; url=/new-path/">` + a `<script>window.location.replace(...)</script>` fallback + `<link rel="canonical">` pointing at the new URL. Template: `public/miniodyssey/index.html`.
 
