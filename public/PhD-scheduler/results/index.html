@@ -4,8 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PhD Proposal Defense — Time Poll</title>
-    <script type="module" crossorigin src="/PhD-scheduler/assets/index-C1DNsDft.js"></script>
-    <link rel="stylesheet" crossorigin href="/PhD-scheduler/assets/index-FIK6Ij3n.css">
+    <script>
+      // Apply the saved (or OS-preferred) theme before first paint.
+      (function () {
+        var t = null;
+        try {
+          t = localStorage.getItem("phd-poll-theme");
+        } catch (e) {}
+        if (t !== "dark" && t !== "light") {
+          t = window.matchMedia("(prefers-color-scheme: dark)").matches
+            ? "dark"
+            : "light";
+        }
+        if (t === "dark") document.documentElement.classList.add("dark");
+        document.documentElement.style.colorScheme = t;
+      })();
+    </script>
+    <script type="module" crossorigin src="/PhD-scheduler/assets/index-DzJ74M7o.js"></script>
+    <link rel="stylesheet" crossorigin href="/PhD-scheduler/assets/index-DxjbAFQq.css">
   </head>
   <body>
     <div id="root"></div>
