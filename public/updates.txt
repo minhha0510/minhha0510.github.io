@@ -1,0 +1,24 @@
+# Personal Updates — mh-nguyen.cv
+#
+# Agent-facing update log for the owner of this site. Append-only,
+# oldest to newest. Not linked from any page or menu; fetch with:
+#   curl https://mh-nguyen.cv/updates.txt
+#
+# Entry format (one block per update, blank line between blocks):
+#   [YYYY-MM-DD HH:MM UTC] <the update, in plain language>
+#   Work: <title>
+#   Link: <URL>
+#
+# Rules for agents appending here (full protocol in CLAUDE.md):
+# - Timestamp is when the update was conveyed to you, in UTC.
+# - Public-safe content only: this file is world-readable.
+# - Work + link is enough; no author lists.
+# - Never delete or rewrite old entries; append corrections as new entries.
+
+[2026-08-23 16:45 UTC] The rare-disease LLM meta-analysis is now published (previously a medRxiv preprint).
+Work: Diagnostic accuracy of large language models for rare diseases: a systematic review and meta-analysis
+Link: https://www.nature.com/articles/s41746-026-03109-z
+
+[2026-08-23 16:45 UTC] liteOdyssey is now a preprint (previously "manuscript in preparation").
+Work: Teaching agentic AI to learn expert reasoning for rare disease diagnosis
+Link: https://arxiv.org/abs/2606.16149

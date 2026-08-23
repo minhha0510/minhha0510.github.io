@@ -74,63 +74,6 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
       pointer-events: none;
       transition: opacity 1s;
     }
-    .scroll-hint {
-      position: absolute;
-      bottom: 40px;
-      left: 0;
-      right: 0;
-      text-align: center;
-      font-family: 'Inter', sans-serif;
-      font-size: 11px;
-      color: rgba(42, 26, 10, 0.3);
-      z-index: 10;
-      pointer-events: none;
-      animation: bounce 2s infinite;
-    }
-    @keyframes bounce {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-6px); }
-    }
-    .music-section {
-      background: linear-gradient(180deg, #3a8a3a 0%, #1a1a2e 30%);
-      padding: 3rem 1rem;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .music-header {
-      font-family: 'Inter', sans-serif;
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-    .music-header h2 {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #e0e0e0;
-      margin-bottom: 0.5rem;
-    }
-    .music-header p {
-      font-size: 0.9rem;
-      color: #999;
-    }
-    .vibeplayer-frame {
-      width: 100%;
-      max-width: 900px;
-      height: 700px;
-      border: none;
-      border-radius: 12px;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    }
-    @media (max-width: 640px) {
-      .vibeplayer-frame {
-        height: 500px;
-        border-radius: 8px;
-      }
-      .music-section {
-        padding: 2rem 0.5rem;
-      }
-    }
   </style>
 </head>
 <body>
@@ -141,22 +84,6 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
       <a href={base}>&larr; Back to blog</a>
     </div>
     <div class="hint" id="hint" role="status" aria-live="polite">Click Buddy to take him for a walk!</div>
-    <div class="scroll-hint">&darr; Scroll for music</div>
-  </section>
-
-  <!-- Section 2: Vibe Player -->
-  <section class="music-section">
-    <div class="music-header">
-      <h2>My Music Shelf</h2>
-      <p>A vinyl collection player, because why not</p>
-    </div>
-    <iframe
-      class="vibeplayer-frame"
-      src="https://vibeplayer0510.netlify.app/"
-      title="Vibe Player — Vinyl Collection"
-      loading="lazy"
-      allow="autoplay"
-    ></iframe>
   </section>
 
   <script>

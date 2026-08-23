@@ -44,6 +44,7 @@ API_KEYS.txt
 
 # Development files - not needed for deployment
 AGENTS.md
+CLAUDE.md
 GITHUB_SETUP.md
 docs/
 papers/

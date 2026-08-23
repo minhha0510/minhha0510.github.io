@@ -30,10 +30,10 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
   <div class="intro">
     <h1 class="intro-title">Minh-Ha Nguyen</h1>
     <p class="intro-text">
-      I'm a PhD candidate in Epidemiology at Vanderbilt, studying how to construct valid
-      inference from data. My interests are medication safety and large-language-model
-      capability. Currently, I'm funded by NASA to study the association between low-dose
-      radiation exposure and Parkinson's disease to prepare for a potential Mars mission.
+      I'm a PhD candidate in Epidemiology at Vanderbilt, working in two worlds that keep
+      turning out to be the same one: medication safety, and the evaluation of large language
+      models. Right now NASA funds me to ask whether chronic low-dose radiation raises the risk
+      of Parkinson's disease, in preparation for a future Mars mission.
     </p>
   </div>
 
@@ -55,7 +55,8 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
           — disease and causal gene — the way a geneticist would, judged against curated ground
           truth and blinded physician adjudication.
         </p>
-        <span class="thread-tag">// manuscript in preparation</span>
+        <a class="thread-tag" href="https://liteodyssey.org" target="_blank" rel="noopener noreferrer">// liteodyssey.org</a>
+        <a class="thread-tag" href="https://arxiv.org/abs/2606.16149" target="_blank" rel="noopener noreferrer">// preprint on arXiv</a>
       </div>
       <div class="thread">
         <h3>Evaluating models as experiments</h3>
@@ -64,6 +65,7 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
           population, the prompt a treatment you assign, the score an estimator with error, not a
           fact. Is it powered? Representative? Measured against a reliable standard?
         </p>
+        <a class="thread-tag" href="https://www.nature.com/articles/s41746-026-03109-z" target="_blank" rel="noopener noreferrer">// meta-analysis published in npj Digital Medicine</a>
       </div>
     </div>
   </section>
@@ -152,6 +154,11 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
     font-family: var(--font-mono);
     font-size: 0.72rem;
     color: var(--text-light);
+    text-decoration: none;
+  }
+
+  a.thread-tag:hover {
+    color: var(--accent);
   }
 
   .posts-section {
