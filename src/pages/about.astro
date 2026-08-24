@@ -10,59 +10,24 @@ import ParticleHero from '../components/ParticleHero.astro';
     <div class="about-content">
       <section class="intro">
         <p class="lead">
-          I'm a PhD candidate in Epidemiology at Vanderbilt, working in two worlds that keep
-          turning out to be the same one: medication safety, and the evaluation of large
-          language models. Right now NASA funds me to ask whether chronic low-dose radiation
-          raises the risk of Parkinson's disease, in the sailors who lived closest to that
-          question.
+          My work is about one question: when can you trust a conclusion drawn from messy
+          data?
         </p>
       </section>
 
       <section class="body">
         <p>
-          Those two worlds sound unrelated, but to me they are one problem in different clothes:
-          how do you draw a conclusion you can actually trust from messy, observational data?
-          With a medication, the data are millions of patient records, and the question is
-          whether a drug is truly harmful or whether the signal is an artifact of how the study
-          was built. With a language model, the data are its answers to test cases, and the
-          question is whether a benchmark score means what people say it means. Either way, the
-          hard part is knowing whether to believe the number.
+          In pharmacoepidemiology, that means asking whether an apparent drug risk is real or
+          an artifact of how the study was designed. In AI, it means asking whether a benchmark
+          score actually measures what we think it does. Different domains, same problem: when
+          should you believe the number?
         </p>
         <p>
-          My doctoral work is that problem at its hardest. I study Navy submariners, men who
-          spent years under chronic low-dose radiation in a sealed hull, about the closest thing
-          on Earth to a long mission in space. Does that exposure raise the risk of Parkinson's?
-          The catch is that everything accumulates together: the men who served longest absorbed
-          the most dose, and were the healthiest to begin with, a self-selection that can make a
-          real hazard look protective. The craft is in designing an analysis where the radiation
-          signal survives it.
-        </p>
-        <p>
-          The other half of my work brings the same craft to AI, with one liberating difference:
-          here I can run the experiment the radiation study never allows. I build systems that
-          reason from a patient's symptoms toward a rare-disease diagnosis, and I evaluate them
-          the way an epidemiologist would: a model is a population you sample from, a prompt is
-          a treatment you assign, and a benchmark is an experiment that can be designed well or
-          badly. The latest of these systems is
-          <a href="https://arxiv.org/abs/2606.16149" target="_blank" rel="noopener noreferrer">liteOdyssey</a>,
-          which learns a diagnostic policy from clinician corrections. On 1,243 benchmark cases
-          spanning 722 rare diseases, it ranked the correct disease first in 59.3% of cases,
-          against 26.5% without the policy, and the gains held in 515 real patients from the
-          Undiagnosed Diseases Network.
-        </p>
-        <p>
-          Before building, I mapped the field. My
-          <a href="https://www.nature.com/articles/s41746-026-03109-z" target="_blank" rel="noopener noreferrer">systematic
-          review and meta-analysis in npj Digital Medicine</a>
-          pooled every evaluation of LLMs for rare-disease diagnosis: across 15 studies and
-          nearly 40,000 cases, the correct diagnosis comes first only 43% of the time, and
-          systems augmented with retrieval, tools, or fine-tuning clearly beat standalone
-          models. That paper is the map; liteOdyssey is one attempt at the territory.
-        </p>
-        <p>
-          Underneath both halves, I think research should be legible to the people it's about:
-          open access, methods you can check, and as much honesty about uncertainty as about
-          findings.
+          My doctoral work tackles this in Navy submariners exposed to chronic low-dose
+          radiation. I study whether that exposure increases Parkinson's disease risk. The
+          challenge is that the men with the highest exposure also served the longest and were
+          often the healthiest to begin with, exactly the kind of selection that can hide a
+          real hazard.
         </p>
       </section>
 
@@ -73,7 +38,7 @@ import ParticleHero from '../components/ParticleHero.astro';
           pursuing doctoral studies in Epidemiology at Vanderbilt University, with training
           across clinical pharmacy, epidemiology, and biostatistics. Off the clock I read about
           deep learning, algorithm design, and reinforcement learning, partly for fun, mostly
-          because that is where my field is heading.
+          because I've always been obsessed with optimizing things in general.
         </p>
       </section>
 
