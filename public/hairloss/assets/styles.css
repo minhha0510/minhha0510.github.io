@@ -187,17 +187,41 @@ a {
   transform-origin: left;
 }
 
-.site-nav .language-link {
-  padding: 7px 11px 6px;
+.language-toggle {
+  display: inline-flex;
+  gap: 2px;
+  width: max-content;
+  padding: 2px;
   border: 1px solid var(--line-strong);
   border-radius: 999px;
-  color: var(--ink);
-  font-size: 11px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  background: rgba(248, 246, 240, 0.55);
 }
 
-.site-nav .language-link::after {
+.language-option {
+  min-width: 31px;
+  padding: 4px 8px 3px;
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 10px;
+  font-weight: 650;
+  line-height: 1.5;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-decoration: none;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.language-option:hover,
+.language-option:focus-visible {
+  background: var(--paper-warm);
+}
+
+.language-option.is-active {
+  color: var(--paper-light);
+  background: var(--ink);
+}
+
+.site-nav .language-option::after {
   display: none;
 }
 
@@ -973,6 +997,29 @@ html[lang="vi"] .hero h1 {
   font-size: 13px;
 }
 
+.footer-grid .language-toggle {
+  margin-top: 6px;
+  border-color: var(--line-light);
+  background: rgba(248, 246, 240, 0.06);
+}
+
+.footer-grid .language-option {
+  margin-bottom: 0;
+  color: #ccd6cd;
+  font-size: 10px;
+}
+
+.footer-grid .language-option:hover,
+.footer-grid .language-option:focus-visible {
+  color: var(--forest-deep);
+  background: var(--paper-warm);
+}
+
+.footer-grid .language-option.is-active {
+  color: var(--forest-deep);
+  background: var(--paper-light);
+}
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -1126,14 +1173,18 @@ html[lang="vi"] .hero h1 {
     font-size: 14px;
   }
 
-  .site-nav .language-link {
-    padding: 13px 2px;
-    border-width: 0 0 1px;
-    border-color: var(--line);
-    border-radius: 0;
-    font-size: 14px;
-    letter-spacing: 0;
-    text-transform: none;
+  .site-nav .language-toggle {
+    align-self: flex-start;
+    margin-top: 12px;
+  }
+
+  .site-nav .language-option {
+    min-width: 42px;
+    padding: 7px 12px 6px;
+    border: 0;
+    border-radius: 999px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
   }
 
   .site-nav a::after {
