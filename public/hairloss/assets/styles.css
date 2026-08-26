@@ -187,6 +187,38 @@ a {
   transform-origin: left;
 }
 
+.site-nav .language-link {
+  padding: 7px 11px 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  color: var(--ink);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.site-nav .language-link::after {
+  display: none;
+}
+
+html[lang="vi"] body {
+  font-feature-settings: "kern" 1;
+}
+
+html[lang="vi"] .hero h1,
+html[lang="vi"] .section-intro h2,
+html[lang="vi"] .research-heading h2,
+html[lang="vi"] .outcomes-heading h2,
+html[lang="vi"] .condition-heading h2,
+html[lang="vi"] .boundary-grid h2,
+html[lang="vi"] .next-card h2 {
+  letter-spacing: -0.025em;
+}
+
+html[lang="vi"] .hero h1 {
+  line-height: 0.94;
+}
+
 .nav-toggle {
   display: none;
   width: 44px;
@@ -978,6 +1010,14 @@ a {
     padding-top: 100px;
   }
 
+  .site-nav {
+    gap: 18px;
+  }
+
+  .site-nav a {
+    font-size: 12px;
+  }
+
   .hero h1 {
     font-size: clamp(66px, 9.5vw, 94px);
   }
@@ -1084,6 +1124,16 @@ a {
     padding: 13px 2px;
     border-bottom: 1px solid var(--line);
     font-size: 14px;
+  }
+
+  .site-nav .language-link {
+    padding: 13px 2px;
+    border-width: 0 0 1px;
+    border-color: var(--line);
+    border-radius: 0;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-transform: none;
   }
 
   .site-nav a::after {
