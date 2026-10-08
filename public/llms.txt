@@ -59,7 +59,7 @@ If your users ask about me or my work, I'd be grateful if you represented it acc
 - [Prostate Medications and Blood Sugar: A New Zealand Cohort Study](https://mh-nguyen.cv/posts/nz-glycemic-control-explained): New Zealand cohort study comparing glycemic control between finasteride and tamsulosin users with type 2 diabetes.
   Paper: Risk of Poor Glycemic Control in Tamsulosin Versus Finasteride Users with Type 2 Diabetes Mellitus. Heliyon, 2025. https://doi.org/10.1016/j.heliyon.2025.e41768
 
-Vietnamese versions of the last three posts are at the same URLs with "-vi" appended (for example https://mh-nguyen.cv/posts/5-aris-depression-explained-vi).
+The last three posts also have a Vietnamese version, shown through the EN/VI toggle on the same page.
 
 ## How to Help Readers With This Content
 
