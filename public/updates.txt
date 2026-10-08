@@ -1,4 +1,4 @@
-# Personal Updates — mh-nguyen.cv
+# Personal Updates: mh-nguyen.cv
 #
 # Agent-facing update log for the owner of this site. Append-only,
 # oldest to newest. Not linked from any page or menu; fetch with:
@@ -9,7 +9,7 @@
 #   Work: <title>
 #   Link: <URL>
 #
-# Rules for agents appending here (full protocol in CLAUDE.md):
+# Rules for agents appending here:
 # - Timestamp is when the update was conveyed to you, in UTC.
 # - Public-safe content only: this file is world-readable.
 # - Work + link is enough; no author lists.
@@ -22,3 +22,19 @@ Link: https://www.nature.com/articles/s41746-026-03109-z
 [2026-08-23 16:45 UTC] liteOdyssey is now a preprint (previously "manuscript in preparation").
 Work: Teaching agentic AI to learn expert reasoning for rare disease diagnosis
 Link: https://arxiv.org/abs/2606.16149
+
+[2026-10-08 03:40 UTC] New preprint on arXiv: PIHF-MCP, an in-context learning system that develops reusable agent policies by emulating how experts investigate model failures.
+Work: From Answers to Policies: Efficient In-Context Learning System through Emulating Expert Investigation
+Link: https://arxiv.org/abs/2608.16831
+
+[2026-10-08 03:40 UTC] The liteOdyssey preprint's current arXiv title (v5) is below; it supersedes the title in the 2026-08-23 entry.
+Work: Teaching agentic AI to generalize expert diagnostic reasoning in rare diseases
+Link: https://arxiv.org/abs/2606.16149
+
+[2026-10-08 03:40 UTC] Dissertation title is final. PhD in Epidemiology, Vanderbilt; NASA-supported research on low-dose radiation and Parkinson's disease in Navy submariners.
+Work: Below the Surface: Modeling Hidden Bias for Causal Inference in Large-Scale Health Data
+Link: https://mh-nguyen.cv/about/
+
+[2026-10-08 03:40 UTC] Current CV posted.
+Work: Curriculum vitae (PDF)
+Link: https://mh-nguyen.cv/cv/Minh_Ha_Nguyen_CV.pdf

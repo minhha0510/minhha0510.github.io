@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Inter variable font — self-hosted for pretext accuracy */
+/* Inter variable font, self-hosted for pretext accuracy */
 @font-face {
   font-family: 'Inter';
   font-style: normal;
@@ -158,6 +158,13 @@ p {
 .site-nav a:hover {
   color: var(--text);
   text-decoration: none;
+}
+
+/* Narrow screens keep the original header; the CV stays reachable from Home and About. */
+@media (max-width: 480px) {
+  .site-nav .nav-cv {
+    display: none;
+  }
 }
 
 /* Theme toggle button */

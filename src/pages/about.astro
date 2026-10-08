@@ -1,9 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import ParticleHero from '../components/ParticleHero.astro';
+
+const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
 ---
 
-<Layout title="About | Minh-Ha Nguyen" description="About Minh-Ha Nguyen — PhD candidate in Epidemiology at Vanderbilt, working on medication safety and large-language-model evaluation">
+<Layout title="About | Minh-Ha Nguyen" description="About Minh-Ha Nguyen, PhD candidate in Epidemiology at Vanderbilt, building and evaluating agentic AI systems with the tools of causal inference and experimental design">
   <div class="about-page">
     <ParticleHero name="Minh-Ha Nguyen" subtitle="About" />
 
@@ -19,26 +21,58 @@ import ParticleHero from '../components/ParticleHero.astro';
         <p>
           In pharmacoepidemiology, that means asking whether an apparent drug risk is real or
           an artifact of how the study was designed. In AI, it means asking whether a benchmark
-          score actually measures what we think it does. Different domains, same problem: when
-          should you believe the number?
+          score measures what we think it does, and whether an agent's conclusion would survive
+          the same scrutiny. Different domains, same problem: when should you believe the number?
+        </p>
+      </section>
+
+      <section class="dissertation">
+        <h2>Dissertation</h2>
+        <p class="dissertation-title">
+          Below the Surface: Modeling Hidden Bias for Causal Inference in Large-Scale Health Data
         </p>
         <p>
-          My doctoral work tackles this in Navy submariners exposed to chronic low-dose
-          radiation. I study whether that exposure increases Parkinson's disease risk. The
-          challenge is that the men with the highest exposure also served the longest and were
-          often the healthiest to begin with, exactly the kind of selection that can hide a
-          real hazard.
+          My NASA-supported doctoral research asks whether chronic low-dose radiation raises the
+          risk of Parkinson's disease among Navy submariners, an earthbound analog for a
+          long-duration mission to Mars. The men with the highest exposure also served the
+          longest and were often the healthiest to begin with, exactly the kind of selection that
+          can hide a real hazard.
+        </p>
+        <p>
+          The three aims bring those hidden assumptions to the surface. The first compares
+          non-equivalent ways of defining Parkinson's disease in claims data. The second
+          estimates the dose association while separating it from selection into Medicare
+          follow-up. The third asks how far an unmeasured confounder, smoking, could move the
+          estimate. Throughout, reconstructed radiation dose is treated as a measurement with
+          its own error.
+        </p>
+        <p>
+          Language models learn from observational data too: the internet is one enormous
+          observational study. The same biases appear when we evaluate them. A test set can be
+          selected or leaked, a grader is a reference standard with its own reliability, and a
+          score change between two runs can come from the harness as easily as from the model.
+          That is the lens I bring to the agents I build,
+          <a href="https://arxiv.org/abs/2608.16831" target="_blank" rel="noopener noreferrer">PIHF-MCP</a>
+          and <a href="https://liteodyssey.org" target="_blank" rel="noopener noreferrer">liteOdyssey</a>.
         </p>
       </section>
 
       <section class="background">
         <h2>Background</h2>
         <p>
-          I came to epidemiology through pharmacy. I hold a Master of Pharmacy (MPharm) and am
-          pursuing doctoral studies in Epidemiology at Vanderbilt University, with training
-          across clinical pharmacy, epidemiology, and biostatistics. Off the clock I read about
-          deep learning, algorithm design, and reinforcement learning, partly for fun, mostly
-          because I've always been obsessed with optimizing things in general.
+          I came to epidemiology through pharmacy. I trained in pharmacology and clinical
+          pharmacy at Queen's University Belfast (BSc, MPharm), then taught pharmacy practice and
+          ran machine-learning research on antibiotic stewardship at the University of Medicine
+          and Pharmacy at Ho Chi Minh City. As a visiting research fellow in Big Data Epidemiology
+          at Yonsei University College of Medicine, I designed nationwide new-user studies of
+          prostate drugs and diabetes outcomes.
+        </p>
+        <p>
+          At Vanderbilt my training centers on experimental design, statistical and causal
+          inference for observational data, and the scientific computing (Python, R, SAS) that
+          large health databases demand. Off the clock I study deep learning, representation
+          learning, and reinforcement learning, mostly because I've always been obsessed with
+          optimizing things.
         </p>
       </section>
 
@@ -48,6 +82,10 @@ import ParticleHero from '../components/ParticleHero.astro';
           <li>
             <strong>Email:</strong>
             <a href="mailto:ha.m.nguyen@vanderbilt.edu">ha.m.nguyen@vanderbilt.edu</a>
+          </li>
+          <li>
+            <strong>CV:</strong>
+            <a href={`${base}cv/Minh_Ha_Nguyen_CV.pdf`}>Minh_Ha_Nguyen_CV.pdf</a>
           </li>
           <li>
             <strong>GitHub:</strong>
@@ -96,6 +134,12 @@ import ParticleHero from '../components/ParticleHero.astro';
   .about-content p {
     margin-bottom: 1rem;
     line-height: 1.7;
+  }
+
+  .dissertation-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: italic;
   }
 
   .about-content ul {

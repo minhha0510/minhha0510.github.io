@@ -30,42 +30,67 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
   <div class="intro">
     <h1 class="intro-title">Minh-Ha Nguyen</h1>
     <p class="intro-text">
-      I'm a PhD candidate in Epidemiology at Vanderbilt, working in two worlds that keep
-      turning out to be the same one: medication safety, and the evaluation of large language
-      models. Right now NASA funds me to ask whether chronic low-dose radiation raises the risk
-      of Parkinson's disease, in preparation for a future Mars mission.
+      I'm a PhD candidate in Epidemiology at Vanderbilt. I build agentic AI systems and
+      evaluate them the way an epidemiologist reads evidence: a score is an estimate, and the
+      work is finding the hidden biases that decide whether to believe it.
     </p>
+    <p class="intro-text intro-training">
+      Training: experimental design, statistical and causal inference for observational data,
+      and scientific computing for large-scale health data.
+    </p>
+    <a class="intro-cv" href={`${base}cv/Minh_Ha_Nguyen_CV.pdf`}>CV (PDF)</a>
   </div>
 
   <section class="research-section">
     <h2 class="section-title">Research</h2>
     <div class="threads">
       <div class="thread">
-        <h3>Medication safety in the real world</h3>
+        <h3>Evaluating models as experiments</h3>
         <p>
-          Which drug-safety signals in large healthcare databases are real, and which are
-          artifacts of study design. Recent work: the depression warning on 5-alpha reductase
-          inhibitors, and their metabolic effects across national databases.
+          A benchmark is an experiment. The model is a population, the prompt is a treatment you
+          assign, and the score is an estimator with sampling error and measurement error. So I
+          ask what epidemiology asks of any study: is the sample representative, is the comparison
+          powered and fair, is the reference standard reliable, and could selection or leakage
+          explain the result?
         </p>
+        <a class="thread-tag" href="https://www.nature.com/articles/s41746-026-03109-z" target="_blank" rel="noopener noreferrer">// meta-analysis published in npj Digital Medicine</a>
       </div>
       <div class="thread">
-        <h3>liteOdyssey — AI that diagnoses like a clinician</h3>
+        <h3>PIHF-MCP: agents that learn from expert investigation</h3>
         <p>
-          A system that reasons from a patient's symptoms toward a ranked rare-disease diagnosis
-          — disease and causal gene — the way a geneticist would, judged against curated ground
-          truth and blinded physician adjudication.
+          Policy Iteration with Human Feedback turns the way experts investigate model failures
+          into a reusable, recorded policy. An agent executes that policy while the model weights
+          stay fixed. PIHF-MCP automates the loop; in the preprint, policies developed from a few
+          labelled examples improved performance on unseen cases and across models.
+        </p>
+        <a class="thread-tag" href="https://arxiv.org/abs/2608.16831" target="_blank" rel="noopener noreferrer">// preprint on arXiv</a>
+      </div>
+      <div class="thread">
+        <h3>liteOdyssey: rare-disease diagnosis you can inspect</h3>
+        <p>
+          liteOdyssey consolidates model failures and expert corrections into a clinician-gated
+          natural-language policy for rare-disease diagnosis. The system is evaluated on held-out
+          cases across benchmarks and model families and, after adaptation, in the Undiagnosed
+          Diseases Network with blinded physician adjudication. Reviewers can run it in a live
+          workbench: question the system, inspect its tool trace and reasoning, and test where the
+          policy holds or fails.
         </p>
         <a class="thread-tag" href="https://liteodyssey.org" target="_blank" rel="noopener noreferrer">// liteodyssey.org</a>
+        <a class="thread-tag" href="https://liteodyssey.org/#trace" target="_blank" rel="noopener noreferrer">// demo video</a>
+        <a class="thread-tag" href="https://liteodyssey.org/odysseus" target="_blank" rel="noopener noreferrer">// live workbench (request access)</a>
         <a class="thread-tag" href="https://arxiv.org/abs/2606.16149" target="_blank" rel="noopener noreferrer">// preprint on arXiv</a>
       </div>
       <div class="thread">
-        <h3>Evaluating models as experiments</h3>
+        <h3>Below the Surface: hidden bias in large-scale health data</h3>
         <p>
-          The method that connects the two: treat a benchmark like an experiment — the model is a
-          population, the prompt a treatment you assign, the score an estimator with error, not a
-          fact. Is it powered? Representative? Measured against a reliable standard?
+          My dissertation models the biases that sit below an estimate: how outcomes and
+          exposures are measured, who gets selected into a cohort, and how far an unmeasured
+          confounder could move the answer. The setting is NASA-supported research on low-dose
+          radiation and Parkinson's disease in Navy submariners. The same habits run through my
+          medication-safety work, from nationwide new-user cohorts to depression risk with
+          5-alpha reductase inhibitors.
         </p>
-        <a class="thread-tag" href="https://www.nature.com/articles/s41746-026-03109-z" target="_blank" rel="noopener noreferrer">// meta-analysis published in npj Digital Medicine</a>
+        <a class="thread-tag" href={`${base}about`}>// about the dissertation</a>
       </div>
     </div>
   </section>
@@ -115,6 +140,28 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
     margin: 0;
   }
 
+  .intro-training {
+    margin-top: 0.75rem;
+    font-size: 0.95rem;
+    color: var(--text-light);
+  }
+
+  .intro-cv {
+    display: inline-block;
+    margin-top: 1rem;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    padding: 0.3rem 0.75rem;
+  }
+
+  .intro-cv:hover {
+    border-color: var(--accent);
+  }
+
   .research-section {
     padding: 1rem 0 0;
     margin-bottom: 1.5rem;
@@ -151,6 +198,7 @@ const base = (import.meta.env.BASE_URL || '/').replace(/\/$/, '') + '/';
   .thread-tag {
     display: inline-block;
     margin-top: 0.6rem;
+    margin-right: 0.6rem;
     font-family: var(--font-mono);
     font-size: 0.72rem;
     color: var(--text-light);
