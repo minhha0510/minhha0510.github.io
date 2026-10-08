@@ -21,7 +21,7 @@ keyFinding:
 
 If you're a man managing both an enlarged prostate and type 2 diabetes, you face a common scenario: which medication should you take? Both finasteride and tamsulosin are first-line treatments for prostate problems, but they work completely differently. Does it matter which one you choose for your blood sugar?
 
-The question isn't hypothetical. Benign prostatic hyperplasia (BPH) and type 2 diabetes mellitus (T2DM) frequently coexist - both conditions become more common with age. And research has shown real biological links between prostate enlargement and glucose metabolism:
+The question isn't hypothetical. Benign prostatic hyperplasia (BPH) and type 2 diabetes mellitus (T2DM) frequently coexist: both conditions become more common with age. And research has shown real biological links between prostate enlargement and glucose metabolism:
 
 - **Sex steroid metabolism**: Androgens influence both prostate growth and insulin sensitivity
 - **Inflammation**: Chronic inflammation is implicated in both BPH progression and insulin resistance
@@ -56,7 +56,7 @@ Previous research on BPH medications and glucose metabolism has produced contrad
 - Clinical trial showing doxazosin improved glycemic control in hypertensive diabetics
 - Potential mechanisms involving improved insulin sensitivity
 
-**But there's a critical gap**: No one had directly asked the simple question - in men who already have diabetes and need BPH treatment, does it matter which medication they choose? That's what we set out to answer.
+**But there's a critical gap**: No one had directly asked the simple question. In men who already have diabetes and need BPH treatment, does it matter which medication they choose? That's what we set out to answer.
 
 ## Our Study
 
@@ -80,7 +80,7 @@ I collaborated with Dr. Maxim S. Petrov at the University of Auckland and Dr. Ja
 ### Key Methodological Features
 
 **1. Lag period**: We excluded outcomes in the first 6 months to address:
-- **Protopathic bias** - the risk that disease symptoms trigger treatment decisions. We addressed this by excluding the first 6 months of follow-up. Why? If someone's blood sugar started worsening before they began finasteride, that wouldn't be the drug's fault. The lag period prevents us from mistaking existing disease for a drug effect.
+- **Protopathic bias**: the risk that disease symptoms trigger treatment decisions. We addressed this by excluding the first 6 months of follow-up. Why? If someone's blood sugar started worsening before they began finasteride, that wouldn't be the drug's fault. The lag period prevents us from mistaking existing disease for a drug effect.
 - **Treatment stabilization**: Allowed time for medication effects to manifest
 
 **2. Multiple definitions**: We tested various HbA1c thresholds and outcome definitions to ensure robustness
@@ -160,7 +160,7 @@ Our findings differ from some smaller studies that suggested either medication c
 1. **Study population**: We focused on patients with established T2DM, not patients at risk of developing diabetes
 2. **Sample size**: Our larger sample provided more statistical power to detect true differences (or confirm their absence)
 3. **Real-world setting**: Database studies capture routine clinical practice, not selected clinical trial populations
-4. **Active comparator design**: Instead of comparing to people taking no BPH medication, we compared finasteride users to tamsulosin users. Both groups have the same disease and both are visiting doctors regularly - so we isolate the effect of one medication versus another.
+4. **Active comparator design**: Instead of comparing to people taking no BPH medication, we compared finasteride users to tamsulosin users. Both groups have the same disease and both are visiting doctors regularly, so we isolate the effect of one medication versus another.
 
 ## Strengths and Limitations
 
@@ -236,7 +236,7 @@ For men navigating both benign prostatic hyperplasia and type 2 diabetes, medica
 
 The null finding is good news. It means clinicians can focus on the factors that really matter (symptom relief, side effect profiles, and patient preferences) without worrying about differential metabolic effects.
 
-In the complex landscape of managing multiple chronic conditions, this is one less thing to worry about. Your doctor can now choose the medication based purely on what works best for your urinary symptoms and which side effects you can tolerate - without second-guessing its impact on your blood sugar.
+In the complex landscape of managing multiple chronic conditions, this is one less thing to worry about. Your doctor can now choose the medication based purely on what works best for your urinary symptoms and which side effects you can tolerate, without second-guessing its impact on your blood sugar.
 
 ---
 

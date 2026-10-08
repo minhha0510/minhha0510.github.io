@@ -97,7 +97,7 @@ The clinical situations stemmed from the current warnings merit consideration al
 
 For older patients taking finasteride for BPH, the evidence converges on a clear answer. The meta-analysis shows no increase in depression risk when active comparators are used (HR 0.89) [4]. Neither VigiBase nor FAERS detects a signal at the 5 mg dose [5, 6]. The MR study, whose UK Biobank cohort predominantly comprises older men prescribed finasteride for BPH (mean age 62.9 years), finds virtually identical depression incidence between finasteride users and controls (2.89 vs 2.90 per 1,000 per year) [7]. Dutasteride, which suppresses the same neurosteroid pathway more completely, produces no signal across 17 years of FAERS data [5]. For this population, the available evidence does not support the current warning language, which should be substantially softened or dropped.
 
-For younger patients taking finasteride for alopecia, the question remains open. A small pharmacological effect cannot be excluded; the PCPT secondary analysis suggests approximately 10% [14], not the 200% increase implied by the studies that informed current warnings. Neither VigiBase nor FAERS can distinguish a genuine vulnerability in this population from stimulated reporting, confounding by the psychological burden of alopecia itself, and nocebo effects amplified by widespread media coverage of "post-finasteride syndrome." Patients with a personal history of depression warrant a clinical conversation before starting treatment, and this guidance should remain.
+For younger patients taking finasteride for alopecia, the question remains open. A small pharmacological effect cannot be excluded; the PCPT secondary analysis suggests approximately 10% [14], not the near-doubling implied by the studies that informed current warnings. Neither VigiBase nor FAERS can distinguish a genuine vulnerability in this population from stimulated reporting, confounding by the psychological burden of alopecia itself, and nocebo effects amplified by widespread media coverage of "post-finasteride syndrome." Patients with a personal history of depression warrant a clinical conversation before starting treatment, and this guidance should remain.
 
 ---
 
@@ -119,7 +119,7 @@ Until that evidence arrives, the patient alert card should contextualise the ris
 
 ## References
 
-[1] Medicines and Healthcare products Regulatory Agency. Safety review of Finasteride - Public Assessment Report. 2024.
+[1] Medicines and Healthcare products Regulatory Agency. Safety review of Finasteride: Public Assessment Report. 2024.
 
 [2] Welk B, McArthur E, Ordon M, et al. Association of Suicidality and Depression With 5α-Reductase Inhibitors. *JAMA Intern Med* 2017;177:683. [doi:10.1001/jamainternmed.2017.0089](https://doi.org/10.1001/jamainternmed.2017.0089)
 

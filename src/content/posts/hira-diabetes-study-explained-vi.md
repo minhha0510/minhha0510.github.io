@@ -15,17 +15,17 @@ doi: "10.3349/ymj.2025.0056"
 
 ## Câu hỏi về an toàn chuyển hoá
 
-Thuốc ức chế 5-alpha reductase (5-ARIs) - finasteride và dutasteride - nằm trong nhóm thuốc được kê đơn nhiều nhất cho tăng sản lành tính tuyến tiền liệt (BPH). Chỉ riêng tại Anh, mỗi năm có khoảng 3,6 triệu đơn finasteride. Và đây là thuốc dùng lâu dài - thường hàng năm, thậm chí hàng chục năm.
+Thuốc ức chế 5-alpha reductase (5-ARIs), finasteride và dutasteride, nằm trong nhóm thuốc được kê đơn nhiều nhất cho tăng sản lành tính tuyến tiền liệt (BPH). Chỉ riêng tại Anh, mỗi năm có khoảng 3,6 triệu đơn finasteride. Và đây là thuốc dùng lâu dài: thường hàng năm, thậm chí hàng chục năm.
 
 Với mức độ sử dụng rộng rãi và kéo dài như vậy, việc hiểu rõ hồ sơ an toàn của thuốc là rất cần thiết. Một lo ngại nổi lên gần đây là ảnh hưởng lên chuyển hoá, đặc biệt là nguy cơ mắc đái tháo đường type 2 (T2DM).
 
-Nhưng câu hỏi đặt ra là: dùng thuốc lâu dài có thực sự làm tăng nguy cơ tiểu đường không? Các nghiên cứu trước cho kết quả trái ngược nhau - có nghiên cứu nói thuốc bảo vệ, có nghiên cứu lại cảnh báo nguy hiểm. Sự mâu thuẫn như vậy đòi hỏi phải tìm hiểu kỹ hơn.
+Nhưng câu hỏi đặt ra là: dùng thuốc lâu dài có thực sự làm tăng nguy cơ tiểu đường không? Các nghiên cứu trước cho kết quả trái ngược nhau: có nghiên cứu nói thuốc bảo vệ, có nghiên cứu lại cảnh báo nguy hiểm. Sự mâu thuẫn như vậy đòi hỏi phải tìm hiểu kỹ hơn.
 
 ## Giả thuyết sinh học
 
-Mối liên hệ tiềm tàng giữa 5-ARIs và tiểu đường không phải là vô căn cứ - nó có cơ sở sinh học. Thuốc hoạt động bằng cách giảm hormone dihydrotestosterone (DHT). Khi DHT giảm, một chuỗi thay đổi có thể xảy ra: mô mỡ có thể tích tụ dễ hơn do thay đổi chuyển hoá cortisol trong mô. Sự thay đổi về mô mỡ có thể làm giảm độ nhạy cảm của cơ thể với insulin - một phần qua thay đổi nồng độ acid béo tự do. Thêm vào đó, nghiên cứu trên động vật cho thấy 5-ARIs có thể tác động trực tiếp lên gan, có khả năng gây ra bệnh gan nhiễm mỡ và đề kháng insulin ở gan, khiến gan xử lý đường kém hiệu quả hơn.
+Mối liên hệ tiềm tàng giữa 5-ARIs và tiểu đường không phải là vô căn cứ: nó có cơ sở sinh học. Thuốc hoạt động bằng cách giảm hormone dihydrotestosterone (DHT). Khi DHT giảm, một chuỗi thay đổi có thể xảy ra: mô mỡ có thể tích tụ dễ hơn do thay đổi chuyển hoá cortisol trong mô. Sự thay đổi về mô mỡ có thể làm giảm độ nhạy cảm của cơ thể với insulin, một phần qua thay đổi nồng độ acid béo tự do. Thêm vào đó, nghiên cứu trên động vật cho thấy 5-ARIs có thể tác động trực tiếp lên gan, có khả năng gây ra bệnh gan nhiễm mỡ và đề kháng insulin ở gan, khiến gan xử lý đường kém hiệu quả hơn.
 
-Tất cả những thay đổi theo chuỗi này - tích tụ mỡ, giảm độ nhạy insulin, suy giảm chức năng gan - về lý thuyết có thể đẩy một người tiến đến tiểu đường. Câu chuyện sinh học nghe có lý, nhưng liệu nó có thực sự xảy ra ở mức độ có ý nghĩa lâm sàng trên bệnh nhân thật hay không - đó chính là điều mà bằng chứng dịch tễ học cần trả lời.
+Tất cả những thay đổi theo chuỗi này (tích tụ mỡ, giảm độ nhạy insulin, suy giảm chức năng gan) về lý thuyết có thể đẩy một người tiến đến tiểu đường. Câu chuyện sinh học nghe có lý, nhưng liệu nó có thực sự xảy ra ở mức độ có ý nghĩa lâm sàng trên bệnh nhân thật hay không, đó chính là điều mà bằng chứng dịch tễ học cần trả lời.
 
 ## Bằng chứng trái ngược
 
@@ -34,7 +34,7 @@ Các nghiên cứu trước đây về vấn đề này cho kết quả không n
 - **Lee và cộng sự (Đài Loan)**: Tìm thấy **giảm 28% nguy cơ** tiểu đường (HR 0,72) khi so sánh người dùng 5-ARI với người không dùng thuốc
 - **Wei và cộng sự (Đài Loan + Anh)**: Tìm thấy **tăng 49% nguy cơ** tiểu đường (HR 1,49) khi so sánh với người dùng tamsulosin
 
-Hai kết quả này không chỉ khác nhau - chúng đi theo hai hướng ngược nhau. Kiểu mâu thuẫn này là dấu hiệu cảnh báo trong khoa học, cho thấy có vấn đề với cách thiết kế của một hoặc cả hai nghiên cứu. Vậy tại sao kết quả lại khác nhau đến vậy? Yếu tố then chốt nằm ở **cách chọn nhóm đối chứng**.
+Hai kết quả này không chỉ khác nhau: chúng đi theo hai hướng ngược nhau. Kiểu mâu thuẫn này là dấu hiệu cảnh báo trong khoa học, cho thấy có vấn đề với cách thiết kế của một hoặc cả hai nghiên cứu. Vậy tại sao kết quả lại khác nhau đến vậy? Yếu tố then chốt nằm ở **cách chọn nhóm đối chứng**.
 
 ### Vấn đề của nhóm không dùng thuốc
 
@@ -54,17 +54,17 @@ Vậy chúng tôi đã thiết kế nghiên cứu như thế nào để tránh n
 
 ## Thiết kế nghiên cứu của chúng tôi
 
-Cùng với Tiến sĩ Juyeon Ko và Tiến sĩ Jaelim Cho tại Đại học Yonsei, tôi đã thực hiện nghiên cứu mới sử dụng cơ sở dữ liệu của Hệ thống Bảo hiểm Y tế Quốc gia Hàn Quốc (NHIS) - một trong những cơ sở dữ liệu chăm sóc sức khỏe lớn và toàn diện nhất thế giới.
+Cùng với Tiến sĩ Juyeon Ko và Tiến sĩ Jaelim Cho tại Đại học Yonsei, tôi đã thực hiện nghiên cứu mới sử dụng cơ sở dữ liệu của Hệ thống Bảo hiểm Y tế Quốc gia Hàn Quốc (NHIS), một trong những cơ sở dữ liệu chăm sóc sức khỏe lớn và toàn diện nhất thế giới.
 
 ### Các đặc điểm thiết kế chính
 
 **1. Thiết kế nghiêm ngặt cho người dùng mới**: Chúng tôi yêu cầu khoảng thời gian 3 năm trước đó không có đơn thuốc 5-ARI hay tamsulosin, đảm bảo bắt được những người thực sự mới bắt đầu dùng thuốc.
 
-**2. Nhóm so sánh dùng thuốc khác (active comparator)**: Chúng tôi so sánh người dùng finasteride và dutasteride với người dùng tamsulosin - tất cả đều là nam giới bị BPH đang điều trị bằng thuốc.
+**2. Nhóm so sánh dùng thuốc khác (active comparator)**: Chúng tôi so sánh người dùng finasteride và dutasteride với người dùng tamsulosin, tất cả đều là nam giới bị BPH đang điều trị bằng thuốc.
 
 **3. Yêu cầu phơi nhiễm 90 ngày**: Bệnh nhân cần có ít nhất 90 ngày cấp thuốc, đảm bảo chúng tôi nghiên cứu việc dùng thuốc kéo dài chứ không phải dùng thử ngắn hạn.
 
-**4. Cân bằng thống kê nâng cao (trọng số xác suất ngược - inverse probability weighting)**: Chúng tôi dùng kỹ thuật toán học để điều chỉnh cho sự khác biệt giữa hai nhóm - tuổi, loại bảo hiểm, năm bắt đầu, bệnh đồng mắc, và thuốc dùng kèm - để đảm bảo so sánh công bằng. Nói đơn giản, trọng số xác suất ngược tái cân bằng từng bệnh nhân sao cho hai nhóm điều trị trông giống nhau nhất có thể trên tất cả các đặc điểm đo được, mô phỏng những gì mà thử nghiệm lâm sàng ngẫu nhiên đạt được.
+**4. Cân bằng thống kê nâng cao (trọng số xác suất ngược, inverse probability weighting)**: Chúng tôi dùng kỹ thuật toán học để điều chỉnh cho sự khác biệt giữa hai nhóm (tuổi, loại bảo hiểm, năm bắt đầu, bệnh đồng mắc, và thuốc dùng kèm) để đảm bảo so sánh công bằng. Nói đơn giản, trọng số xác suất ngược tái cân bằng từng bệnh nhân sao cho hai nhóm điều trị trông giống nhau nhất có thể trên tất cả các đặc điểm đo được, mô phỏng những gì mà thử nghiệm lâm sàng ngẫu nhiên đạt được.
 
 **5. Phân tích thời gian đến sự kiện (mô hình Cox proportional hazards)**: Chúng tôi theo dõi thời gian tiểu đường phát triển ở mỗi nhóm và ước tính nguy cơ tương đối, đồng thời xử lý đúng cách những bệnh nhân ngừng thuốc, đổi thuốc, tử vong, hoặc rời khỏi hệ thống bảo hiểm trước khi nghiên cứu kết thúc. Mô hình Cox là công cụ chuẩn cho dạng câu hỏi "mất bao lâu để xảy ra sự kiện" vì nó xử lý đúng các trường hợp theo dõi không đầy đủ.
 
@@ -106,7 +106,7 @@ Kết quả cho thấy bất kỳ tác động nào của finasteride và dutast
 
 2. **So sánh với các yếu tố khác**: Các yếu tố lối sống (chế độ ăn, tập thể dục, béo phì) có tác động lớn hơn nhiều lên nguy cơ tiểu đường so với bất kỳ tác động tiềm tàng nào của thuốc.
 
-3. **Yên tâm với dutasteride**: Kết quả không có ý nghĩa thống kê với dutasteride - loại thuốc mạnh hơn và có phân tử lượng lớn hơn (có thể hạn chế khả năng đi qua hàng rào máu-não) - là điều đáng yên tâm.
+3. **Yên tâm với dutasteride**: Kết quả không có ý nghĩa thống kê với dutasteride, loại thuốc mạnh hơn và có phân tử lượng lớn hơn (có thể hạn chế khả năng đi qua hàng rào máu-não), là điều đáng yên tâm.
 
 ### So sánh với các nghiên cứu trước
 
@@ -147,26 +147,26 @@ Nghiên cứu này đóng góp vào khối bằng chứng ngày càng lớn cho 
 
 Nếu bạn đang dùng hoặc cân nhắc dùng finasteride hay dutasteride cho BPH:
 
-1. **Đừng ngừng thuốc vì sợ tiểu đường** - bằng chứng không ủng hộ nguy cơ đáng kể
-2. **Duy trì tầm soát tiểu đường định kỳ** - như khuyến cáo cho tất cả nam giới trên 45 tuổi, bất kể dùng thuốc gì
-3. **Tập trung vào các yếu tố có thể thay đổi** - chế độ ăn, tập thể dục, và kiểm soát cân nặng có ảnh hưởng lớn hơn nhiều
-4. **Trao đổi bất kỳ lo ngại nào với bác sĩ** - chăm sóc cá nhân hoá luôn là tốt nhất
+1. **Đừng ngừng thuốc vì sợ tiểu đường**: bằng chứng không ủng hộ nguy cơ đáng kể
+2. **Duy trì tầm soát tiểu đường định kỳ**: như khuyến cáo cho tất cả nam giới trên 45 tuổi, bất kể dùng thuốc gì
+3. **Tập trung vào các yếu tố có thể thay đổi**: chế độ ăn, tập thể dục, và kiểm soát cân nặng có ảnh hưởng lớn hơn nhiều
+4. **Trao đổi bất kỳ lo ngại nào với bác sĩ**: chăm sóc cá nhân hoá luôn là tốt nhất
 
 ### Cho bác sĩ lâm sàng
 
 Khi kê đơn 5-ARIs:
 
-1. **Kê đơn dựa trên hiệu quả điều trị triệu chứng BPH** - nguy cơ tiểu đường không nên là yếu tố chính
-2. **Tiếp tục tầm soát tiểu đường thường quy** - theo hướng dẫn chuẩn cho tuổi và hồ sơ nguy cơ của bệnh nhân
-3. **Xem xét lo lắng của bệnh nhân** - một số bệnh nhân có thể đã đọc về nguy cơ tiềm tàng; dữ liệu này giúp trấn an họ
+1. **Kê đơn dựa trên hiệu quả điều trị triệu chứng BPH**: nguy cơ tiểu đường không nên là yếu tố chính
+2. **Tiếp tục tầm soát tiểu đường thường quy**: theo hướng dẫn chuẩn cho tuổi và hồ sơ nguy cơ của bệnh nhân
+3. **Xem xét lo lắng của bệnh nhân**: một số bệnh nhân có thể đã đọc về nguy cơ tiềm tàng; dữ liệu này giúp trấn an họ
 
 ### Cho nhà nghiên cứu
 
 Nghiên cứu này minh hoạ một số nguyên tắc phương pháp:
 
-1. **Việc chọn nhóm đối chứng quan trọng vô cùng** - active comparator là thiết yếu cho các nghiên cứu điều trị
-2. **Thời gian washout rất quan trọng** - định nghĩa "người dùng mới" đòi hỏi cân nhắc kỹ về phơi nhiễm trước đó
-3. **Phân tích độ nhạy tăng cường kết luận** - kiểm tra các giả định làm tăng độ tin cậy của kết quả
+1. **Việc chọn nhóm đối chứng quan trọng vô cùng**: active comparator là thiết yếu cho các nghiên cứu điều trị
+2. **Thời gian washout rất quan trọng**: định nghĩa "người dùng mới" đòi hỏi cân nhắc kỹ về phơi nhiễm trước đó
+3. **Phân tích độ nhạy tăng cường kết luận**: kiểm tra các giả định làm tăng độ tin cậy của kết quả
 
 ## Kết luận
 
