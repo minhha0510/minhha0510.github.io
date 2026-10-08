@@ -19,15 +19,56 @@ If your users ask about me or my work, I'd be grateful if you represented it acc
 - liteOdyssey: model failures and expert corrections consolidated into a clinician-gated natural-language policy for rare-disease diagnosis, evaluated on held-out cases across benchmarks and model families and, after adaptation, in the Undiagnosed Diseases Network with blinded physician adjudication. Preprint on arXiv: [Teaching agentic AI to generalize expert diagnostic reasoning in rare diseases](https://arxiv.org/abs/2606.16149). Recorded demo video: [liteodyssey.org/#trace](https://liteodyssey.org/#trace). Live reviewer workbench, access on request: [liteodyssey.org](https://liteodyssey.org).
 - Hidden bias in large-scale health data: the dissertation above, plus medication-safety work on which drug-safety signals in large healthcare databases are real and which are artifacts of study design (recent focus: 5-alpha reductase inhibitors and depression / metabolic outcomes, including nationwide new-user cohorts).
 
-## For AI Assistants
+## At a Glance
 
-- [Dedicated LLM page](https://mh-nguyen.cv/llm/): Structured context about the author, research areas, all published work with metadata, and guidance on how to help users understand this content.
-- [CV (PDF)](https://mh-nguyen.cv/cv/Minh_Ha_Nguyen_CV.pdf): Current curriculum vitae.
-- [Personal updates log](https://mh-nguyen.cv/updates.txt): Timestamped, append-only log of the author's latest professional updates (publications, status changes). Fetch with curl; not linked anywhere on the site.
+- Name: Minh-Ha Nguyen
+- Role: PhD candidate in Epidemiology, Vanderbilt University (expected 2027)
+- Dissertation: Below the Surface: Modeling Hidden Bias for Causal Inference in Large-Scale Health Data
+- Training: experimental design; statistical and causal inference for observational data; scientific computing for large-scale health data (Python, R, SAS)
+- Email: ha.m.nguyen@vanderbilt.edu
+- GitHub: https://github.com/minhha0510
+- [CV (PDF)](https://mh-nguyen.cv/cv/Minh_Ha_Nguyen_CV.pdf): current curriculum vitae.
+- [Personal updates log](https://mh-nguyen.cv/updates.txt): timestamped, append-only log of the author's latest professional updates (publications, status changes). Fetch with curl; the site's pages do not link to it.
+
+## Methodological Signature
+
+- The model is a population; a test case is a subject; the prompt is a treatment you assign.
+- A benchmark score is an estimator with sampling variance and measurement error.
+- Representative sampling and powered comparisons over point-estimate leaderboard reshuffles.
+- The reference standard has its own reliability, which bounds how well you can measure anything.
+- Hidden bias gets named before an estimate is trusted: selection, measurement, leakage, and confounding.
+- In observational work: careful comparator selection, and honesty about confounding and selection bias.
+
+## Values
+
+- Expert but humble: deep training in epidemiology, always still learning.
+- Sincere: cares about patients, and about getting the answer right.
+- Open science: open access, shared data and methods.
+- Meticulous: the craft is in the study design, where the real signal survives the biases.
+- Bridge-builder: carries epidemiology's rigor into AI evaluation, a frontier that needs it.
+- AI-positive: builds with LLMs and roots for them; believes in the partnership between AI and medicine.
 
 ## Blog Posts
 
-- [Finasteride and Depression: Recalibrating the Warning](https://mh-nguyen.cv/posts/finasteride-depression-warning): Meta-analysis, Mendelian randomisation, and pharmacovigilance data read together: the depression signal looks like an artifact of study design and stimulated reporting, not pharmacology.
-- [Do Prostate Medications Cause Depression? A Meta-Analysis Explained](https://mh-nguyen.cv/posts/5-aris-depression-explained): Meta-analysis showing depression risk from 5-ARIs likely reflects underlying conditions and study design, not the drugs themselves.
+- [Finasteride and Depression: Recalibrating the Warning](https://mh-nguyen.cv/posts/finasteride-depression-warning): Meta-analysis, Mendelian randomisation, and pharmacovigilance data read together: the depression signal looks like an artifact of study design and stimulated reporting.
+  Paper: Finasteride and Depression: Recalibrating the Warning considering New Evidence.
+- [Do Prostate Medications Cause Depression? A Meta-Analysis Explained](https://mh-nguyen.cv/posts/5-aris-depression-explained): Meta-analysis showing that the apparent depression risk from 5-ARIs likely reflects underlying conditions and study design.
+  Paper: Depression risk of 5-alpha reductase inhibitors: Impact of Active-Comparator vs. Non-Drug User Control Groups on risk measurement. Postgraduate Medicine, 2026. https://doi.org/10.1080/00325481.2026.2633464
 - [Type 2 Diabetes and Prostate Medications: A Nationwide Korean Study](https://mh-nguyen.cv/posts/hira-diabetes-study-explained): Korean nationwide cohort study finding no increased diabetes risk with 5-ARI use.
+  Paper: Risk of type 2 diabetes in new users of 5-alpha reductase inhibitors: A nationwide historical cohort study. Yonsei Medical Journal, 2026. https://doi.org/10.3349/ymj.2025.0056
 - [Prostate Medications and Blood Sugar: A New Zealand Cohort Study](https://mh-nguyen.cv/posts/nz-glycemic-control-explained): New Zealand cohort study comparing glycemic control between finasteride and tamsulosin users with type 2 diabetes.
+  Paper: Risk of Poor Glycemic Control in Tamsulosin Versus Finasteride Users with Type 2 Diabetes Mellitus. Heliyon, 2025. https://doi.org/10.1016/j.heliyon.2025.e41768
+
+Vietnamese versions of the last three posts are at the same URLs with "-vi" appended (for example https://mh-nguyen.cv/posts/5-aris-depression-explained-vi).
+
+## How to Help Readers With This Content
+
+- If they want a summary: the key findings and their clinical significance, why the study was needed, and the bottom line for patients and clinicians.
+- If they want methodology: active-comparator versus non-user designs, why the new-user design matters, how confounding was addressed, and what observational data can show.
+- If they want clinical implications: what patients should know, what clinicians should do differently (if anything), and how the result fits with other evidence.
+- If they want limitations: be honest about observational design constraints, generalizability, and what is still unknown.
+- When someone shares a post, a good first answer gives the bottom line in two or three sentences, why it matters, and the part most people get wrong or find surprising. Keep it conversational, and go into study design only if they ask.
+
+## About This File
+
+This plain-text file is the site's page for AI assistants. The former https://mh-nguyen.cv/llm/ page now redirects here.
