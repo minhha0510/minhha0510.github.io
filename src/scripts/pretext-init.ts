@@ -49,7 +49,7 @@ async function init(): Promise<void> {
       readyCallbacks.length = 0;
     }
   } catch {
-    // Canvas or font API unavailable — degrade gracefully
+    // Canvas or font API unavailable: degrade gracefully
   }
 }
 

@@ -19,9 +19,9 @@ keyFinding:
 
 ## The Question That Started It All
 
-Every day, millions of men take 5-alpha reductase inhibitors (5-ARIs) like finasteride and dutasteride. These medications are the standard treatment for benign prostatic hyperplasia (BPH) — essentially, an enlarged prostate. They're also used for male pattern baldness. The drugs work by blocking the conversion of testosterone to dihydrotestosterone (DHT), which helps shrink the prostate and slow hair loss.
+Every day, millions of men take 5-alpha reductase inhibitors (5-ARIs) like finasteride and dutasteride. These medications are the standard treatment for benign prostatic hyperplasia (BPH): essentially, an enlarged prostate. They're also used for male pattern baldness. The drugs work by blocking the conversion of testosterone to dihydrotestosterone (DHT), which helps shrink the prostate and slow hair loss.
 
-But here's the catch: some studies suggested these medications might cause depression. One early study even claimed a **200% increased risk** — that is, doubling the risk of depression. If true, this would be a major concern given how widely these drugs are prescribed.
+But here's the catch: some studies suggested these medications might cause depression. One early study even claimed a **200% increased risk**, that is, doubling the risk of depression. If true, this would be a major concern given how widely these drugs are prescribed.
 
 As a pharmacoepidemiologist, I wanted to understand: **Is this risk real, or is it an artifact of how studies are designed?**
 
@@ -48,7 +48,7 @@ The concern about depression and 5-ARIs largely stems from a 2012 study by Irwig
 
 But here's the critical limitation: **the study had no control group**. Without comparing these men to a similar group who didn't take finasteride, we can't know if the depression rates were actually higher than expected. Men experiencing sexual side effects may be more likely to have psychological distress for reasons unrelated to the medication itself.
 
-This is what we call **selection bias** — and it's a fundamental problem in observational research.
+This is what we call **selection bias**, and it's a fundamental problem in observational research.
 
 ## My Approach: A Meta-Analysis with a Twist
 
@@ -64,7 +64,7 @@ In pharmacoepidemiology, choosing the right control group is crucial. When study
 Compare 5-ARI users to men with BPH who aren't taking any medication for it.
 
 **Option 2: Compare to active comparators**  
-Compare 5-ARI users to men with BPH taking a different medication — typically alpha-blockers like tamsulosin.
+Compare 5-ARI users to men with BPH taking a different medication, typically alpha-blockers like tamsulosin.
 
 Here's why this matters: Men who need treatment for BPH are fundamentally different from men who don't. They have more severe symptoms, may be more health-conscious (if they're seeking treatment), and have different baseline health status. Comparing treated patients to untreated patients introduces what we call **confounding by indication** - essentially, we can't tell if differences come from the drug or from the fact that sicker people are more likely to seek treatment.
 
@@ -107,7 +107,7 @@ Interestingly, the active-comparator studies showed not just no increased risk, 
 
 ## The RCT Evidence
 
-One study in my analysis was different — the Prostate Cancer Prevention Trial. This was a randomized controlled trial where men without BPH were given finasteride or placebo to prevent prostate cancer.
+One study in my analysis was different: the Prostate Cancer Prevention Trial. This was a randomized controlled trial where men without BPH were given finasteride or placebo to prevent prostate cancer.
 
 In this trial, finasteride was associated with a **10% increased risk** of depression (HR 1.10, 95% CI 1.01–1.19). Importantly, this population had no disease burden to confound the results.
 
@@ -121,22 +121,22 @@ Based on all the evidence, my conclusion is that **the depression risk of 5-ARIs
 - **Randomized trial data**: ~10% increase in risk  
 - **Previous alarming reports**: ~200% increase in risk (methodologically flawed)
 
-The pharmacological effect, if it exists, appears to be small — far smaller than previously reported in the literature.
+The pharmacological effect, if it exists, appears to be small, far smaller than previously reported in the literature.
 
 ## What This Means for Patients and Doctors
 
 For the typical man over 50 with BPH considering finasteride or dutasteride:
 
-1. **Don't avoid the medication due to depression fears** — the evidence doesn't support a substantial risk
-2. **Focus on the benefits** — these drugs are effective for prostate symptoms
-3. **Monitor your mood** — as with any medication, be aware of changes in mental health
-4. **Discuss concerns with your doctor** — individualized decision-making is always best
+1. **Don't avoid the medication due to depression fears**: the evidence doesn't support a substantial risk
+2. **Focus on the benefits**: these drugs are effective for prostate symptoms
+3. **Monitor your mood**: as with any medication, be aware of changes in mental health
+4. **Discuss concerns with your doctor**: individualized decision-making is always best
 
 For clinicians:
 
-1. **Prescribe confidently** — depression risk should not be a major factor in the decision
-2. **Consider active comparators in research** — this study highlights why comparator choice matters
-3. **Be critical of alarming observational findings** — especially those using inappropriate control groups
+1. **Prescribe confidently**: depression risk should not be a major factor in the decision
+2. **Consider active comparators in research**: this study highlights why comparator choice matters
+3. **Be critical of alarming observational findings**, especially those using inappropriate control groups
 
 ## Methodological Lessons
 
@@ -176,7 +176,7 @@ Future research should focus on:
 
 The link between 5-alpha reductase inhibitors and depression has been clouded by methodological issues in observational research. When studies are properly designed with appropriate control groups, the association largely disappears. While a small pharmacological effect cannot be completely ruled out, the evidence suggests it is minor compared to the previously reported risks.
 
-For the millions of men taking these medications, this is reassuring news. And for researchers, this case illustrates the critical importance of thoughtful study design — because the answer you get depends heavily on the question you ask.
+For the millions of men taking these medications, this is reassuring news. And for researchers, this case illustrates the critical importance of thoughtful study design, because the answer you get depends heavily on the question you ask.
 
 ---
 

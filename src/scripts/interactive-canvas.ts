@@ -1,5 +1,5 @@
 /**
- * Interactive Canvas — Green Scenery, Running Dog, Steve Jobs Quote
+ * Interactive Canvas: Green Scenery, Running Dog, Steve Jobs Quote
  *
  * - Background: Ghibli-style illustration loaded as image
  * - Dog: Starts idle in corner. Click on dog to "take him for a walk"
@@ -45,7 +45,7 @@ bgImage.onload = () => { bgLoaded = true; };
 
 function drawBackground(): void {
   if (bgLoaded) {
-    // Draw image in "cover" mode — fill canvas, crop to fit
+    // Draw image in "cover" mode: fill canvas, crop to fit
     const imgRatio = bgImage.width / bgImage.height;
     const canvasRatio = W / H;
     let drawW: number, drawH: number, drawX: number, drawY: number;
@@ -561,7 +561,7 @@ function frame(now: number): void {
   ctx.fillStyle = 'rgba(42, 26, 10, 0.4)';
   ctx.textAlign = 'center';
   ctx.textBaseline = 'bottom';
-  ctx.fillText('— Steve Jobs', W / 2, pageY + pageHeight - 8);
+  ctx.fillText('Steve Jobs', W / 2, pageY + pageHeight - 8);
   ctx.textAlign = 'left';
   ctx.textBaseline = 'top';
 

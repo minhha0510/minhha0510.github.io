@@ -1,7 +1,7 @@
 /**
  * Feature 4: Smooth Collapsible Sections
  * Wraps each H2 section in the prose content into collapsible accordions.
- * Uses DOM scrollHeight for height measurement (not pretext — rich HTML content).
+ * Uses DOM scrollHeight for height measurement (not pretext; rich HTML content).
  */
 
 interface AccordionSection {

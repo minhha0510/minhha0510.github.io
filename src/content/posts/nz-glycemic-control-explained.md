@@ -115,7 +115,7 @@ The hazard ratio of 1.27 suggests a possible 27% higher risk of poor glycemic co
 
 We conducted multiple sensitivity analyses:
 
-**1. Different HbA1c thresholds** (8.0%, 9.0%, 9.5%): Results were consistent — no significant difference
+**1. Different HbA1c thresholds** (8.0%, 9.0%, 9.5%): Results were consistent (no significant difference)
 
 **2. Extended lag periods** (9 months, 12 months): Results remained consistent
 
@@ -139,7 +139,7 @@ What does it mean when a study finds no difference between two medications?
    - Patient preferences
    - Cost and availability
    
-   — without concern for differential effects on diabetes control
+   (without concern for differential effects on diabetes control)
 
 3. **Patient reassurance**: Men with diabetes can take either medication without worrying about adverse effects on their blood sugar management
 
@@ -167,7 +167,7 @@ Our findings differ from some smaller studies that suggested either medication c
 ### Strengths
 
 1. **National data**: New Zealand's pharmaceutical dispensing data is comprehensive and accurately tracked
-2. **Relevant population**: We studied the exact population of clinical interest — men with both BPH and T2DM
+2. **Relevant population**: We studied the exact population of clinical interest, men with both BPH and T2DM
 3. **Clinical outcome**: Poor glycemic control is a meaningful endpoint that affects quality of life and complication risk
 4. **Rigorous methods**: New-user, active-comparator design with careful confounding control
 
@@ -185,17 +185,17 @@ Our findings differ from some smaller studies that suggested either medication c
 
 If you have both conditions and are considering treatment:
 
-1. **Either medication is reasonable** — choose based on symptom relief and side effects
-2. **Monitor your diabetes** — continue regular HbA1c testing as recommended by your doctor
+1. **Either medication is reasonable**: choose based on symptom relief and side effects
+2. **Monitor your diabetes**: continue regular HbA1c testing as recommended by your doctor
 3. **Don't switch medications** for glycemic control reasons alone
-4. **Discuss urinary symptoms** with your doctor — both medications are effective, but individual responses vary
+4. **Discuss urinary symptoms** with your doctor: both medications are effective, but individual responses vary
 
 ### For Primary Care Physicians and Urologists
 
 When managing patients with BPH and diabetes:
 
-1. **Prescribe confidently** — neither medication appears to worsen glycemic control
-2. **Coordinate care** — ensure diabetes management remains optimized regardless of BPH treatment
+1. **Prescribe confidently**: neither medication appears to worsen glycemic control
+2. **Coordinate care**: ensure diabetes management remains optimized regardless of BPH treatment
 3. **Consider other factors**:
    - Sexual side effects (more common with 5-ARIs)
    - Orthostatic hypotension (more common with alpha-blockers)
@@ -207,14 +207,14 @@ When managing patients with BPH and diabetes:
 When reviewing diabetes management:
 
 1. **BPH medications are unlikely culprits** if glycemic control worsens
-2. **Focus on other factors** — diet, exercise, medication adherence, other medications
+2. **Focus on other factors**: diet, exercise, medication adherence, other medications
 3. **Collaborate with urology** when both conditions require attention
 
 ## The Broader Context
 
 This study contributes to our understanding of polypharmacy in older adults. As people age, they often accumulate multiple conditions requiring multiple medications. Understanding drug-disease and drug-drug interactions becomes increasingly important.
 
-The reassuring finding from this study is that two commonly co-prescribed medication classes — 5-ARIs and alpha-blockers — don't appear to interfere with diabetes management. This simplifies clinical decision-making and reduces concerns about therapeutic conflicts.
+The reassuring finding from this study is that two commonly co-prescribed medication classes (5-ARIs and alpha-blockers) don't appear to interfere with diabetes management. This simplifies clinical decision-making and reduces concerns about therapeutic conflicts.
 
 ## Future Research Directions
 
@@ -234,7 +234,7 @@ While this study provides important reassurance, several questions remain:
 
 For men navigating both benign prostatic hyperplasia and type 2 diabetes, medication choices can feel overwhelming. This study provides clarity: **finasteride and tamsulosin appear equivalent in their effects on glycemic control**.
 
-The null finding is good news. It means clinicians can focus on the factors that really matter — symptom relief, side effect profiles, and patient preferences — without worrying about differential metabolic effects.
+The null finding is good news. It means clinicians can focus on the factors that really matter (symptom relief, side effect profiles, and patient preferences) without worrying about differential metabolic effects.
 
 In the complex landscape of managing multiple chronic conditions, this is one less thing to worry about. Your doctor can now choose the medication based purely on what works best for your urinary symptoms and which side effects you can tolerate - without second-guessing its impact on your blood sugar.
 

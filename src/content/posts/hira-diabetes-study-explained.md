@@ -19,7 +19,7 @@ keyFinding:
 
 ## A Question of Metabolic Safety
 
-5-alpha reductase inhibitors (5-ARIs) — finasteride and dutasteride — are among the most commonly prescribed medications for benign prostatic hyperplasia (BPH). In the UK alone, there are approximately 3.6 million finasteride prescriptions annually. These medications are typically taken for years, even decades.
+5-alpha reductase inhibitors (5-ARIs), finasteride and dutasteride, are among the most commonly prescribed medications for benign prostatic hyperplasia (BPH). In the UK alone, there are approximately 3.6 million finasteride prescriptions annually. These medications are typically taken for years, even decades.
 
 Given this widespread, long-term use, understanding their full safety profile is critical. One emerging concern has been metabolic effects, particularly the risk of type 2 diabetes (T2DM).
 
@@ -58,13 +58,13 @@ So how did we design our study to avoid these pitfalls?
 
 ## Our Study Design
 
-With my colleagues Dr. Juyeon Ko and Dr. Jaelim Cho at Yonsei University, I conducted a new study using South Korea's National Health Insurance Service (NHIS) database — one of the largest and most comprehensive healthcare databases in the world.
+With my colleagues Dr. Juyeon Ko and Dr. Jaelim Cho at Yonsei University, I conducted a new study using South Korea's National Health Insurance Service (NHIS) database, one of the largest and most comprehensive healthcare databases in the world.
 
 ### Key Design Features
 
 **1. Strict new-user design**: We required a 3-year lookback period with no prescriptions for 5-ARIs or tamsulosin, ensuring we captured truly new users.
 
-**2. Active comparator**: We compared finasteride and dutasteride users to tamsulosin users — all men with BPH receiving pharmacologic treatment.
+**2. Active comparator**: We compared finasteride and dutasteride users to tamsulosin users, all men with BPH receiving pharmacologic treatment.
 
 **3. 90-day exposure requirement**: Patients needed at least 90 days of medication supply, ensuring we studied sustained use rather than brief trials.
 
@@ -151,26 +151,26 @@ This study contributes to a growing body of evidence that **5-ARIs have minimal 
 
 If you're taking or considering finasteride or dutasteride for BPH:
 
-1. **Don't stop your medication due to diabetes fears** — the evidence doesn't support a substantial risk
-2. **Maintain regular diabetes screening** — as recommended for all men over 45, regardless of medication use
-3. **Focus on modifiable risk factors** — diet, exercise, and weight management have much larger impacts
-4. **Discuss any concerns with your physician** — individualized care is always best
+1. **Don't stop your medication due to diabetes fears**: the evidence doesn't support a substantial risk
+2. **Maintain regular diabetes screening**: as recommended for all men over 45, regardless of medication use
+3. **Focus on modifiable risk factors**: diet, exercise, and weight management have much larger impacts
+4. **Discuss any concerns with your physician**: individualized care is always best
 
 ### For Clinicians
 
 When prescribing 5-ARIs:
 
-1. **Prescribe based on efficacy for BPH symptoms** — diabetes risk should not be a major factor
-2. **Continue routine diabetes screening** — follow standard guidelines for the patient's age and risk profile
-3. **Consider patient anxiety** — some patients may have read about potential risks; this data provides reassurance
+1. **Prescribe based on efficacy for BPH symptoms**: diabetes risk should not be a major factor
+2. **Continue routine diabetes screening**: follow standard guidelines for the patient's age and risk profile
+3. **Consider patient anxiety**: some patients may have read about potential risks; this data provides reassurance
 
 ### For Researchers
 
 This study illustrates several methodological principles:
 
-1. **Comparator selection matters enormously** — active comparators are essential for treatment studies
-2. **Washout periods are crucial** — defining "new users" requires careful consideration of prior exposure
-3. **Sensitivity analyses strengthen conclusions** — testing assumptions increases confidence in findings
+1. **Comparator selection matters enormously**: active comparators are essential for treatment studies
+2. **Washout periods are crucial**: defining "new users" requires careful consideration of prior exposure
+3. **Sensitivity analyses strengthen conclusions**: testing assumptions increases confidence in findings
 
 ## Conclusion
 
