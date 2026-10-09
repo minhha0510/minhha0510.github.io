@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LiteOdyssey | Minh-Ha Nguyen</title>
+  <link rel="stylesheet" href="/portfolio/styles.css">
+  <style>
+    /* Page-scoped; mirrors the PIHF-MCP case study. Blue = LiteOdyssey, grey = matched baseline, amber = expert gate. */
+    :root {
+      --sys: #2f5f8f; --sys-soft: #e3eaf1; --sys-ink: #1f4469; --base: #b6b0a5;
+      --expert: #7d5f1f; --expert-soft: #f1e4c8; --ok: #3b6e3f;
+    }
+    .lede-short { font-family: var(--display); font-size: clamp(1.2rem, 1.8vw, 1.5rem); line-height: 1.25; margin: 0.6rem 0 2rem; max-width: 46ch; }
+    .xsection, .nsection { border-top: 1px solid var(--rule); margin-top: 2.4rem; padding-top: 1.1rem; max-width: 76rem; }
+    .xsection h2, .nsection h2 { font-size: clamp(1.55rem, 3vw, 2.25rem); margin-bottom: 0.6rem; }
+
+    .xfig { border: 1px solid var(--rule); background: #fbf8f2; }
+    .xpanels { display: grid; grid-template-columns: minmax(0, 2.3fr) minmax(0, 1fr); }
+    .xp { padding: 1rem 1.1rem 1.2rem; }
+    .xa { border-right: 1px solid var(--rule); }
+    .xc { grid-column: 1 / -1; border-top: 1px solid var(--rule); }
+    .xhead { display: flex; gap: 0.55rem; align-items: baseline; margin: 0 0 0.15rem; }
+    .xhead b { display: inline-grid; place-items: center; width: 1.45rem; height: 1.45rem; border-radius: 50%; background: var(--sys); color: var(--paper); font: bold 0.8rem var(--body); flex: none; }
+    .xb .xhead b { background: var(--expert); }
+    .xhead h3 { font-family: var(--display); font-weight: normal; font-size: 1.35rem; margin: 0; letter-spacing: -0.01em; }
+    .xsub { color: var(--muted); font-size: 0.92rem; margin: 0 0 0.9rem; }
+
+    /* A: one case */
+    .flow { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1.25fr) auto minmax(0, 1fr); gap: 0.6rem; align-items: center; }
+    .node { border: 1px solid var(--rule); border-radius: 10px; padding: 0.6rem 0.75rem; background: var(--paper); font-size: 0.84rem; line-height: 1.35; }
+    .node b { display: block; font-size: 0.95rem; margin-bottom: 0.15rem; }
+    .node.core { background: var(--sys); color: #f4f7fa; border-color: var(--sys); box-shadow: 0 0 0 5px var(--sys-soft); text-align: center; }
+    .node.core b { font-family: var(--display); font-weight: normal; font-size: 1.2rem; }
+    .node.core span { color: #d6e3f0; }
+    .node.out { border-color: var(--sys); }
+    .arw { color: var(--muted); font-size: 1.1rem; }
+    .tools { margin: 0.9rem 0 0; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.5fr); gap: 0.8rem; }
+    .tgroup p { font: 600 0.74rem var(--body); letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.35rem; }
+    .tchips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+    .tchip { border: 1px solid var(--sys); background: var(--sys-soft); border-radius: 8px; padding: 0.3rem 0.55rem; font-size: 0.8rem; line-height: 1.3; }
+    .tchip code { display: block; background: none; border: 0; padding: 0; font-size: 0.78rem; color: var(--sys-ink); }
+    .tchip.cond { border-style: dashed; background: var(--paper); }
+    .phases { margin: 1rem 0 0; display: flex; flex-wrap: wrap; gap: 0.3rem 0; font-size: 0.76rem; color: var(--muted); }
+    .phases span { padding: 0.15rem 0.5rem; border-right: 1px solid var(--rule); }
+    .phases span:last-child { border-right: 0; color: var(--sys-ink); font-weight: 600; }
+    .phases span:first-child { padding-left: 0; }
+
+    /* B: learning loop */
+    .loop { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.45rem; counter-reset: s; }
+    .loop li { border: 1px solid #cfae6c; background: var(--expert-soft); border-radius: 10px; padding: 0.4rem 0.7rem 0.4rem 2.3rem; font-size: 0.86rem; position: relative; }
+    .loop li::before { counter-increment: s; content: "0" counter(s); position: absolute; left: 0.65rem; top: 0.42rem; font: 0.74rem var(--mono); color: var(--expert); }
+    .loop li b { color: var(--expert); }
+    .loopback { text-align: center; color: var(--expert); font-size: 0.8rem; font-style: italic; margin: 0.35rem 0 0.6rem; }
+    .frozen { border-top: 1px dashed var(--rule); padding-top: 0.6rem; font-size: 0.84rem; }
+    .frozen a { display: inline-block; margin-top: 0.3rem; }
+
+    /* C: performance */
+    .legend { display: flex; gap: 1rem; font-size: 0.82rem; color: var(--muted); margin: 0 0 0.8rem; }
+    .legend i { display: inline-block; width: 1.4rem; height: 0.6rem; border-radius: 99px; vertical-align: 0.05rem; margin-right: 0.35rem; }
+    .prows { display: grid; gap: 0.9rem; max-width: 52rem; }
+    .prow { display: grid; grid-template-columns: 12rem minmax(0, 1fr); gap: 1rem; align-items: center; }
+    .plabel b { display: block; font-size: 0.95rem; }
+    .plabel small { color: var(--muted); font-size: 0.78rem; }
+    .pbars { display: grid; gap: 0.25rem; }
+    .pb { display: grid; grid-template-columns: minmax(0, 1fr) 3.4rem; gap: 0.5rem; align-items: center; font-size: 0.82rem; font-variant-numeric: tabular-nums; }
+    .pb .track { display: block; }
+    .pb .bar { height: 0.85rem; display: block; }
+    .pb.g .bar { background: var(--base); } .pb.s .bar { background: var(--sys); }
+    .pb.s .v { color: var(--sys); font-weight: 600; }
+    .paxis { display: grid; grid-template-columns: 12rem minmax(0, 1fr); gap: 1rem; max-width: 52rem; font-size: 0.72rem; color: var(--muted); margin-top: 0.3rem; }
+    .paxis .ax { display: grid; grid-template-columns: minmax(0, 1fr) 3.4rem; gap: 0.5rem; }
+    .paxis .ticks { display: flex; justify-content: space-between; border-top: 1px solid var(--rule); padding-top: 0.2rem; }
+    .pnote { font-size: 0.86rem; margin: 1rem 0 0; max-width: 64ch; }
+    .cnote { font-size: 0.76rem; color: var(--muted); margin: 0.35rem 0 0; max-width: 70ch; }
+    .notes { max-width: 44rem; }
+    .notes p { margin: 0 0 1rem; }
+
+
+    .pf-link { text-align: center; color: var(--sys); font-size: 0.8rem; margin: 0.4rem 0 0.2rem; }
+    .pframe { border: 1.5px dashed var(--sys); border-radius: 12px; padding: 0.7rem 0.8rem 0.8rem; background: rgba(227, 234, 241, 0.35); }
+    .pf-title { margin: 0 0 0.5rem; display: flex; flex-wrap: wrap; gap: 0.2rem 0.7rem; align-items: baseline; }
+    .pf-title > .tip { font-family: var(--display); font-size: 1.1rem; color: var(--sys-ink); }
+    .pf-title small { color: var(--muted); font-size: 0.8rem; }
+    .tools-title { margin: 0.8rem 0 0.35rem; font: 600 0.8rem var(--body); letter-spacing: 0.04em; text-transform: uppercase; color: var(--sys-ink); }
+    .pframe .phases { margin: 0; }
+    .pframe .tools { margin: 0; }
+    /* hover notes (same component as the PIHF-MCP page) */
+    .tip { position: relative; cursor: help; }
+    .tip:focus { outline: none; }
+    .tip:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+    .tip-label { text-decoration: underline dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .tip-i { font-size: 0.78em; margin-left: 0.25em; opacity: 0; transition: opacity 0.15s; }
+    .tip:hover .tip-i, .tip:focus .tip-i, .tip.open .tip-i { opacity: 0.85; }
+    .bubble { position: absolute; z-index: 30; top: calc(100% + 9px); left: 0; width: max-content; max-width: min(21rem, 78vw);
+      background: var(--ink); color: var(--paper); font: normal 0.82rem/1.5 var(--body); letter-spacing: 0; text-transform: none;
+      text-align: left; padding: 0.6rem 0.75rem; box-shadow: 0 6px 18px rgba(23, 32, 29, 0.22);
+      opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity 0.15s, transform 0.15s, visibility 0.15s; pointer-events: none; }
+    .bubble::before { content: ""; position: absolute; top: -6px; left: 1rem; border: 6px solid transparent; border-top: 0; border-bottom-color: var(--ink); }
+    .tip:hover .bubble, .tip:focus .bubble, .tip.open .bubble { opacity: 1; visibility: visible; transform: none; }
+    @media (prefers-reduced-motion: reduce) { .bubble, .tip-i { transition: none; } }
+    @media (max-width: 900px) {
+      .xpanels { grid-template-columns: 1fr; }
+      .xa { border-right: 0; border-bottom: 1px solid var(--rule); }
+      .flow { grid-template-columns: 1fr; }
+      .arw { transform: rotate(90deg); text-align: center; }
+      .tools { grid-template-columns: 1fr; }
+      .prow, .paxis { grid-template-columns: 1fr; gap: 0.3rem; }
+      .paxis > span { display: none; }
+    }
+  </style>
+  <meta name="description" content="An agentic system for phenotype-first rare disease diagnosis, designed and implemented by Minh-Ha Nguyen.">
+  <link rel="canonical" href="https://mh-nguyen.cv/portfolio/liteodyssey/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="LiteOdyssey | Minh-Ha Nguyen">
+  <meta property="og:description" content="An agentic system for phenotype-first rare disease diagnosis, designed and implemented by Minh-Ha Nguyen.">
+  <meta property="og:url" content="https://mh-nguyen.cv/portfolio/liteodyssey/">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to case study</a>
+  <div class="shell">
+    <nav class="site-nav" aria-label="Portfolio navigation">
+      <a class="wordmark" href="/portfolio/">Minh-Ha Nguyen</a>
+      <div class="nav-links">
+        <a href="/portfolio/">Overview</a>
+        <a href="/portfolio/liteodyssey/" aria-current="page">LiteOdyssey</a>
+        <a href="/portfolio/pihf-mcp/">PIHF-MCP</a>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <header class="case-header">
+        <p class="eyebrow">Case study · agentic diagnostic system</p>
+        <h1>LiteOdyssey: an agentic system for rare disease diagnosis</h1>
+      </header>
+
+      <section class="xsection" aria-labelledby="h-fig">
+        <h2 id="h-fig">How it works</h2>
+        <div class="xfig">
+          <div class="xpanels">
+            <div class="xp xa">
+              <div class="xhead"><b>A</b><h3>Diagnose one case</h3></div>
+              <p class="xsub">The policy decides which evidence to gather and when.</p>
+              <div class="flow">
+                <div class="node"><b>Patient case</b>HPO-coded phenotype, with or without genetic findings</div>
+                <div class="arw" aria-hidden="true">→</div>
+                <div class="node core"><b>Reasoning model</b><span>executes the diagnostic policy</span></div>
+                <div class="arw" aria-hidden="true">→</div>
+                <div class="node out"><b>Ranked differential</b>diseases and genes, with the evidence and tool calls behind each rank</div>
+              </div>
+              <p class="pf-link" aria-hidden="true">↑ executes</p>
+              <div class="pframe">
+                <p class="pf-title"><span class="tip" tabindex="0" aria-describedby="tip-a1"><span class="tip-label">Diagnostic policy</span><span class="tip-i" aria-hidden="true">ⓘ</span><span class="bubble" role="tooltip" id="tip-a1">The policy is a natural-language document that integrates expert diagnostic reasoning principles, specialized biomedical tools and the rules for using them, organized as an eight-phase workflow. Development updates the policy; model weights stay fixed.</span></span><small>natural language · workflow, tools and the rules for using them</small></p>
+                <div class="phases" aria-label="Eight-phase workflow">
+                  <span>Pattern recognition</span><span>Phenotype-based candidate genes</span><span>Evidence triage</span><span>Disease-level investigation</span><span>Confidence assessment</span><span>Corrective search</span><span>Reflective adjudication</span><span>Ranked final output</span>
+                </div>
+                <p class="tools-title"><span class="tip" tabindex="0" aria-describedby="tip-a2"><span class="tip-label">Tools</span><span class="tip-i" aria-hidden="true">ⓘ</span><span class="bubble" role="tooltip" id="tip-a2">The tools are part of the policy, and each phase specifies which ones it draws on. When a failure traced to the evidence a tool returned, its specification was revised, so the workflow, phase criteria and tools co-evolved.</span></span></p>
+                <div class="tools">
+                  <div class="tgroup">
+                    <p>Main path</p>
+                    <div class="tchips">
+                      <span class="tchip"><code>dx-monarch</code>phenotype to gene candidates</span>
+                      <span class="tchip"><code>dx-omim</code>disease and family review</span>
+                    </div>
+                  </div>
+                  <div class="tgroup">
+                    <p>Called when the answer could change the ranking</p>
+                    <div class="tchips">
+                      <span class="tchip cond"><code>dx-clingen</code>curated calibration</span>
+                      <span class="tchip cond"><code>dx-gene-evidence</code>constraint tiebreak</span>
+                      <span class="tchip cond"><code>dx-pubmed</code>targeted literature</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="xp xb">
+              <div class="xhead"><b>B</b><h3>How the policy learned</h3></div>
+              <p class="xsub">Policy Iteration with Human Feedback</p>
+              <ol class="loop">
+                <li><b>Run</b> the current policy on the 50-case development set</li>
+                <li><b>Locate</b> recurrent failures by reasoning stage</li>
+                <li><b>Gate</b> revisions clinically</li>
+                <li><b>Persist</b> the improved policy</li>
+              </ol>
+              <p class="loopback">↺ next evaluation round</p>
+              <p class="frozen"><strong>Model weights stay frozen.</strong> The written policy transfers across models.<br><a href="/portfolio/pihf-mcp/">The harness that automates this loop: PIHF-MCP</a></p>
+            </div>
+
+            <div class="xp xc">
+              <div class="xhead"><b>C</b><h3>Performance</h3></div>
+              <p class="xsub">Disease Recall@1, matched baseline vs LiteOdyssey (GPT-5.4)</p>
+              <div class="legend"><span><i style="background:var(--base)"></i>Matched baseline</span><span><i style="background:var(--sys)"></i>LiteOdyssey</span></div>
+              <div class="prows"><div class="prow" role="group" aria-label="Public benchmarks: baseline 26.5%, LiteOdyssey 59.3%"><div class="plabel"><b>Public benchmarks</b><small>1,243 cases · 722 diseases</small></div><div class="pbars"><div class="pb g"><span class="track"><span class="bar" style="width:44.2%"></span></span><span class="v">26.5%</span></div><div class="pb s"><span class="track"><span class="bar" style="width:98.8%"></span></span><span class="v">59.3%</span></div></div></div><div class="prow" role="group" aria-label="LIRICAL: baseline 35.1%, LiteOdyssey 58.6%"><div class="plabel"><b>LIRICAL</b></div><div class="pbars"><div class="pb g"><span class="track"><span class="bar" style="width:58.5%"></span></span><span class="v">35.1%</span></div><div class="pb s"><span class="track"><span class="bar" style="width:97.7%"></span></span><span class="v">58.6%</span></div></div></div><div class="prow" role="group" aria-label="PhenoPacket Store: baseline 22.9%, LiteOdyssey 59.6%"><div class="plabel"><b>PhenoPacket Store</b></div><div class="pbars"><div class="pb g"><span class="track"><span class="bar" style="width:38.2%"></span></span><span class="v">22.9%</span></div><div class="pb s"><span class="track"><span class="bar" style="width:99.3%"></span></span><span class="v">59.6%</span></div></div></div><div class="prow" role="group" aria-label="UDN clinical cohort: baseline 16.7%, LiteOdyssey 20.4%"><div class="plabel"><b>UDN clinical cohort</b><small>515 patients</small></div><div class="pbars"><div class="pb g"><span class="track"><span class="bar" style="width:27.8%"></span></span><span class="v">16.7%</span></div><div class="pb s"><span class="track"><span class="bar" style="width:34.0%"></span></span><span class="v">20.4%</span></div></div></div></div>
+              <div class="paxis" aria-hidden="true"><span></span><div class="ax"><div class="ticks"><span>0%</span><span>20%</span><span>40%</span><span>60%</span></div><span></span></div></div>
+              <p class="pnote">1,193 of the public cases, covering 679 diseases, were never used in policy development. Four reasoning models each improved over their matched baselines (baselines 18.7% to 26.5%). In the UDN cohort, blinded physician review corroborated the gain.</p>
+              <p class="cnote">Matched baseline: the same model and clinical features without the policy or tools. Public-benchmark scores use a judge from a different model family than the one evaluated; exact-OMIM sensitivity analyses are in the preprint.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="nsection notes" aria-labelledby="h-notes">
+        <h2 id="h-notes">Notes</h2>
+        <p><strong>Contribution.</strong> I designed and implemented LiteOdyssey and am first author of its preprint.</p>
+        <p><strong>Go deeper.</strong> <a href="https://liteodyssey.org">liteodyssey.org</a> has the method, the full evidence and a reviewer workspace. The preprint: <a href="https://arxiv.org/abs/2606.16149">arXiv 2606.16149</a>.</p>
+      </section>
+
+    </main>
+    <footer>Minh-Ha Nguyen · <a href="/">Home</a> · <a href="/cv/Minh_Ha_Nguyen_CV.pdf">CV</a> · <a href="mailto:ha.m.nguyen@vanderbilt.edu">Contact</a></footer>
+  </div>
+  <script>
+  (function () {
+    var tips = document.querySelectorAll('.tip');
+    function closeTips(except) { tips.forEach(function (x) { if (x !== except) x.classList.remove('open'); }); }
+    tips.forEach(function (el) {
+      el.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var wasOpen = el.classList.contains('open');
+        closeTips(el);
+        if (wasOpen) { el.classList.remove('open'); el.blur(); } else { el.classList.add('open'); }
+      });
+    });
+    document.addEventListener('click', function () { closeTips(null); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeTips(null); if (document.activeElement && document.activeElement.classList.contains('tip')) document.activeElement.blur(); } });
+  })();
+  </script>
+</body>
+</html>

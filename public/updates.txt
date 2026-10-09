@@ -38,3 +38,7 @@ Link: https://mh-nguyen.cv/about/
 [2026-10-08 03:40 UTC] Current CV posted.
 Work: Curriculum vitae (PDF)
 Link: https://mh-nguyen.cv/cv/Minh_Ha_Nguyen_CV.pdf
+
+[2026-10-09 21:07 UTC] Published research portfolio with LiteOdyssey and PIHF-MCP case studies.
+Work: Scientific agents research portfolio
+Link: https://mh-nguyen.cv/portfolio/

@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PIHF-MCP | Minh-Ha Nguyen</title>
+  <link rel="stylesheet" href="/portfolio/styles.css">
+  <style>
+    /* Page-scoped. Shared tokens and chrome come from portfolio_review.css.
+       Inside the figure, colour follows the paper's teaser: blue = PIHF-MCP, grey = GEPA, red = failure. */
+    :root {
+      --pihf: #2f5f8f; --pihf-soft: #e3eaf1; --pihf-ink: #1f4469;
+      --gepa: #b6b0a5; --fail-soft: #f2ddd7; --ok: #3b6e3f; --ok-soft: #e1eadc;
+      --expert: #7d5f1f; --expert-soft: #f1e4c8; --review: #5f4f80; --review-soft: #e9e3ef;
+      --cur: #46704a; --cur-soft: #e2ebdf; --code-ink: #efe8dc; --code-bg: #1d2421;
+    }
+    .lede-short { font-family: var(--display); font-size: clamp(1.2rem, 1.8vw, 1.5rem); line-height: 1.25; margin: 0.6rem 0 2rem; max-width: 46ch; }
+    .xsection, .psection, .nsection { border-top: 1px solid var(--rule); margin-top: 2.4rem; padding-top: 1.1rem; max-width: 76rem; }
+    .xsection h2, .psection h2, .nsection h2 { font-size: clamp(1.55rem, 3vw, 2.25rem); margin-bottom: 0.4rem; }
+    .sub { color: var(--muted); margin: 0 0 1.2rem; max-width: 60ch; }
+
+    /* ---------- explorable figure ---------- */
+    .xfig { border: 1px solid var(--rule); background: #fbf8f2; }
+    .xpanels { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 2.4fr); }
+    .xp { padding: 1rem 1.1rem 1.2rem; transition: opacity 0.35s ease; }
+    .xa { border-right: 1px solid var(--rule); }
+    .xc { grid-column: 1 / -1; border-top: 1px solid var(--rule); }
+    .xhead { display: flex; gap: 0.55rem; align-items: baseline; margin: 0 0 0.15rem; }
+    .xhead b { display: inline-grid; place-items: center; width: 1.45rem; height: 1.45rem; border-radius: 50%; background: var(--ink); color: var(--paper); font: bold 0.8rem var(--body); flex: none; }
+    .xb .xhead b { background: var(--pihf); }
+    .xhead h3 { font-family: var(--display); font-weight: normal; font-size: 1.35rem; margin: 0; letter-spacing: -0.01em; }
+    .xsub { color: var(--muted); font-size: 0.92rem; margin: 0 0 0.9rem; }
+    .xsub em { color: var(--ink); font-style: normal; }
+
+    /* A: the cycle */
+    .ringwrap { position: relative; width: min(15rem, 100%); aspect-ratio: 1; margin: 0.6rem auto 0.4rem; }
+    .ring { position: absolute; inset: 0; border-radius: 50%;
+      -webkit-mask: radial-gradient(circle, transparent 46%, #000 47%); mask: radial-gradient(circle, transparent 46%, #000 47%); }
+    .ring { background: conic-gradient(from -45deg, #d9d3c8 0 24.4%, var(--paper) 0 25%, #d9d3c8 0 49.4%, var(--paper) 0 50%, #d9d3c8 0 74.4%, var(--paper) 0 75%, #d9d3c8 0 99.4%, var(--paper) 0); }
+    .rlabel { position: absolute; font: 600 0.82rem var(--body); color: var(--ink); transform: translate(-50%, -50%); }
+    .rcenter { position: absolute; inset: 31%; border-radius: 50%; display: grid; place-items: center; text-align: center; font: 600 0.86rem/1.15 var(--body); color: var(--muted); }
+    .acap { text-align: center; color: var(--muted); font-size: 0.82rem; font-style: italic; margin: 0.3rem 0 0; }
+
+    /* B: PIHF-MCP */
+    .expert { display: flex; gap: 0.6rem; align-items: center; border: 1px solid #cfae6c; background: var(--expert-soft); border-radius: 999px; padding: 0.35rem 0.9rem; width: fit-content; margin: 0 0 0.25rem auto; font-size: 0.86rem; }
+    .expert b { color: var(--expert); }
+    .emul { text-align: right; color: var(--expert); font-size: 0.78rem; font-style: italic; margin: 0 2.2rem 0.5rem 0; }
+    .bflow { display: grid; grid-template-columns: auto auto minmax(9.5rem, 1fr) minmax(9rem, 1fr); gap: 0.9rem; align-items: center; }
+    .blabel { font: 600 0.76rem var(--body); letter-spacing: 0.04em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.4rem; }
+    .dots { display: grid; grid-template-columns: repeat(6, 1.15rem); gap: 0.28rem; }
+    .dot { width: 1.15rem; height: 1.15rem; border-radius: 50%; display: grid; place-items: center; font-size: 0.66rem; font-weight: bold; transition: background 0.3s, color 0.3s, transform 0.3s; }
+    .dot.bad { background: var(--fail-soft); color: var(--red); border: 1px solid #d9a99f; }
+    .dot.ok { background: var(--ok-soft); color: var(--ok); border: 1px solid #a9c2a2; }
+    .dot.flip { transform: scale(1.18); }
+    .dotnote { font-size: 0.72rem; color: var(--muted); margin: 0.35rem 0 0; }
+    .count { font: 600 0.84rem var(--body); margin: 0.4rem 0 0; font-variant-numeric: tabular-nums; }
+    .modes { display: grid; gap: 0.4rem; min-width: 11.5rem; }
+    .mode { border: 1.5px solid var(--rule); border-radius: 999px; padding: 0.25rem 0.75rem; font-size: 0.86rem; background: var(--paper); display: flex; justify-content: space-between; gap: 0.5rem; }
+    .mode small { color: var(--muted); font-style: italic; }
+    .mode.target { border-color: var(--red); background: var(--fail-soft); }
+    .mode.bound { border-style: dashed; color: var(--muted); }
+    .ci { background: var(--pihf); color: #f4f7fa; border-radius: 10px; padding: 0.9rem 0.8rem; text-align: center; box-shadow: 0 0 0 5px var(--pihf-soft); position: relative; }
+    .ci strong { display: block; font-family: var(--display); font-weight: normal; font-size: 1.3rem; line-height: 1.1; }
+    .ci span { display: block; font-size: 0.8rem; margin-top: 0.35rem; color: #d6e3f0; }
+    .ci .model { font-family: var(--mono); font-size: 0.7rem; margin-top: 0.45rem; color: #c3d4e6; }
+    .helpers { display: grid; gap: 0.4rem; }
+    .helper { border-radius: 10px; padding: 0.35rem 0.7rem; font-size: 0.82rem; line-height: 1.3; border: 1px solid; transition: transform 0.25s, box-shadow 0.25s; }
+    .helper b { display: block; font-size: 0.9rem; }
+    .h-tools { background: var(--fail-soft); border-color: #d9a99f; } .h-tools b { color: #7f251f; }
+    .h-rev { background: var(--review-soft); border-color: #b9aacd; } .h-rev b { color: var(--review); }
+    .h-cur { background: var(--cur-soft); border-color: #a9c2a2; } .h-cur b { color: var(--cur); }
+    .asneeded { font-size: 0.76rem; color: var(--pihf); font-style: italic; text-align: center; margin: 0.1rem 0 0; }
+    .helper.ping { transform: translateX(-3px); box-shadow: -4px 0 0 var(--pihf); }
+    .arrow { color: var(--muted); font-size: 1.1rem; text-align: center; }
+    .pkey[hidden] { display: none; }
+    .col-modes, .col-ci, .col-help { position: relative; }
+    .col-modes::before, .col-ci::before, .col-help::before { position: absolute; left: -0.45rem; top: 50%; transform: translate(-50%, -50%); color: var(--muted); font-size: 1rem; }
+    .col-modes::before, .col-ci::before { content: "\2192"; }
+    .col-help::before { content: "\21C4"; color: var(--pihf); }
+    .effort { margin: 1rem 0 0; border: 1px solid #a9c2a2; background: var(--ok-soft); border-radius: 999px; padding: 0.35rem 0.4rem 0.35rem 0.9rem; display: grid; grid-template-columns: auto 1fr auto; gap: 0.8rem; align-items: center; font-size: 0.86rem; }
+    .effort b { color: var(--ok); }
+    .ebar { height: 0.55rem; border-radius: 99px; background: rgba(59,110,63,0.15); overflow: hidden; }
+    .ebar i { display: block; height: 100%; width: 0; background: var(--ok);  }
+    .effort .n { font-variant-numeric: tabular-nums; color: var(--ok); font-weight: 600; padding-right: 0.5rem; }
+    .ebar i { width: var(--used); }
+
+    .wcase { margin: 1rem 0 0; border-top: 1px dashed var(--rule); padding-top: 0.8rem; display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 0.9rem; }
+    .wcase .q { font-family: var(--mono); font-size: 0.8rem; margin: 0; color: var(--ink); }
+    .wcase .qlabel { font: 600 0.72rem var(--body); letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); margin: 0 0 0.25rem; }
+    .outs { display: grid; gap: 0.4rem; }
+    .out { border-radius: 8px; padding: 0.35rem 0.6rem; font-size: 0.8rem; border: 1px solid; }
+    .out .lab { display: block; font: 600 0.7rem var(--body); letter-spacing: 0.04em; text-transform: uppercase; }
+    .out .ans { font-family: var(--mono); }
+    .out .rsn { display: block; font-family: var(--mono); font-size: 0.76rem; line-height: 1.45; margin-top: 0.15rem; }
+    .trace { margin: 0.5rem 0 0; padding: 0.5rem 0.6rem; background: var(--paper-deep); border: 1px solid var(--rule); font: 0.76rem/1.5 var(--mono); white-space: pre-wrap; }
+    .fullcase { margin: 0.4rem 0 0; padding: 0; border: 0; max-width: none; }
+    .fullcase summary { font-size: 0.72rem; }
+    .fullcase pre { margin: 0.4rem 0 0; max-height: 14rem; overflow: auto; font: 0.72rem/1.45 var(--mono); white-space: pre-wrap; background: var(--paper-deep); border: 1px solid var(--rule); padding: 0.5rem 0.6rem; }
+    .out.bad { border-color: #d9a99f; background: var(--fail-soft); } .out.bad .lab { color: var(--red); }
+    .out.ok { border-color: #a9c2a2; background: var(--ok-soft); } .out.ok .lab { color: var(--ok); }
+    .out.rule { border-color: var(--pihf); background: var(--pihf-soft); } .out.rule .lab { color: var(--pihf-ink); }
+
+    /* C: cost */
+    .xc .xhead h3 span { color: var(--pihf); }
+    .clegend { display: flex; gap: 1rem; font-size: 0.82rem; color: var(--muted); margin: -1.6rem 0 0.8rem auto; width: fit-content; }
+    .clegend i { display: inline-block; width: 1.4rem; height: 0.6rem; border-radius: 99px; vertical-align: 0.05rem; margin-right: 0.35rem; }
+    .metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .metric { padding: 0 1rem; border-left: 1px solid var(--rule); }
+    .metric:first-child { border-left: 0; padding-left: 0; }
+    .mtop { display: flex; justify-content: space-between; align-items: baseline; }
+    .mtop b { font-size: 0.95rem; } .mtop small { color: var(--muted); font-size: 0.74rem; }
+    .ratio { font-family: var(--display); font-size: 2.2rem; color: var(--pihf); line-height: 1; font-variant-numeric: tabular-nums; }
+    .bars { display: grid; gap: 0.35rem; margin-top: 0.5rem; }
+    .brow { display: grid; grid-template-columns: 1fr; gap: 0.1rem; font-size: 0.8rem; font-variant-numeric: tabular-nums; }
+    .brow .track { display: flex; align-items: center; gap: 0.45rem; }
+    .brow .bar { height: 0.85rem; width: 0;  }
+    .brow.g .bar { background: var(--gepa); } .brow.p .bar { background: var(--pihf); }
+    .brow.p .v { color: var(--pihf); font-weight: 600; }
+    .brow .bar { width: var(--w); }
+    .scoreline { margin: 1rem 0 0; font-size: 0.86rem; }
+    .scoreline b { color: var(--pihf); }
+    .cnote { font-size: 0.76rem; color: var(--muted); margin: 0.35rem 0 0; max-width: 70ch; }
+
+
+
+    /* ---------- policy comparison ---------- */
+    .pctl { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; margin: 0 0 0.8rem; }
+    .pctl button { font: 0.8rem var(--mono); letter-spacing: 0.03em; text-transform: uppercase; background: none; border: 0; border-bottom: 2px solid transparent; color: var(--red-dark); padding: 0.2rem 0; cursor: pointer; }
+    .pctl button[aria-pressed="true"] { color: var(--ink); border-bottom-color: var(--red); }
+    .pctl button:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+    .pgrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.6fr); gap: 1rem; align-items: start; }
+    .pbox { background: var(--code-bg); color: var(--code-ink); border: 1px solid #000; }
+    .pbox header { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(239,232,220,0.14); }
+    .pbox header b { display: block; font: 0.78rem var(--mono); letter-spacing: 0.06em; text-transform: uppercase; color: #f3d8a8; }
+    .pbox header span { font-size: 0.76rem; color: #b9b1a3; }
+    .pbox pre { margin: 0; padding: 0.9rem 0.9rem 1rem; font: 0.8rem/1.6 var(--mono); white-space: pre-wrap; word-break: break-word; max-height: 30rem; overflow: auto; }
+    .pbox ins { text-decoration: none; background: rgba(152, 201, 141, 0.28); color: #fff; border-radius: 2px; }
+    .pbox del { color: #e4a39a; text-decoration: line-through; text-decoration-color: rgba(228,163,154,0.8); }
+    .pkey { display: flex; gap: 1.2rem; font-size: 0.8rem; color: var(--muted); margin: 0.6rem 0 0; }
+    .pkey .ki { background: rgba(59,110,63,0.18); padding: 0 0.3rem; } .pkey .kd { text-decoration: line-through; color: var(--red); }
+
+    /* ---------- results + notes ---------- */
+    .results { border-collapse: collapse; margin: 0.4rem 0 0; width: 100%; max-width: 40rem; font-variant-numeric: tabular-nums; }
+    .results th, .results td { border-bottom: 1px solid var(--rule); padding: 0.45rem 0.6rem 0.45rem 0; text-align: left; }
+    .results th { color: var(--red-dark); font: normal 0.78rem var(--mono); letter-spacing: 0.06em; text-transform: uppercase; }
+    .results td.n, .results th.n { text-align: right; white-space: nowrap; }
+    .notes { max-width: 44rem; }
+    .notes p { margin: 0 0 1rem; }
+
+
+    /* hover notes (approved list) */
+    .tip { position: relative; cursor: help; }
+    .tip:focus { outline: none; }
+    .tip:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+    .tip-label { text-decoration: underline dotted; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .tip-i { font-size: 0.78em; margin-left: 0.25em; opacity: 0; transition: opacity 0.15s; }
+    .tip:hover .tip-i, .tip:focus .tip-i, .tip.open .tip-i { opacity: 0.85; }
+    .bubble { position: absolute; z-index: 30; top: calc(100% + 9px); left: 0; width: max-content; max-width: min(21rem, 78vw);
+      background: var(--ink); color: var(--paper); font: normal 0.82rem/1.5 var(--body); letter-spacing: 0; text-transform: none;
+      text-align: left; padding: 0.6rem 0.75rem; box-shadow: 0 6px 18px rgba(23, 32, 29, 0.22);
+      opacity: 0; visibility: hidden; transform: translateY(-4px); transition: opacity 0.15s, transform 0.15s, visibility 0.15s; pointer-events: none; }
+    .bubble::before { content: ""; position: absolute; top: -6px; left: 1rem; border: 6px solid transparent; border-top: 0; border-bottom-color: var(--ink); }
+    .bubble.r { left: auto; right: 0; } .bubble.r::before { left: auto; right: 1rem; }
+    .bubble.c { left: 50%; transform: translate(-50%, -4px); } .bubble.c::before { left: 50%; margin-left: -6px; }
+    .tip:hover .bubble, .tip:focus .bubble, .tip.open .bubble { opacity: 1; visibility: visible; transform: none; }
+    .tip:hover .bubble.c, .tip:focus .bubble.c, .tip.open .bubble.c { transform: translate(-50%, 0); }
+    .ci .bubble { font-size: 0.82rem; color: var(--paper); margin: 0; display: block; }
+    .ci .tip-label, .ci .tip-i { display: inline; margin: 0; color: inherit; }
+    .ci .tip-i { font-size: 0.6em; }
+    .xp, .xpanels, .xfig { overflow: visible; }
+    @media (max-width: 900px) {
+      .bubble, .bubble.r, .bubble.c { left: 0; right: auto; transform: translateY(-4px); }
+      .bubble::before, .bubble.r::before, .bubble.c::before { left: 1rem; right: auto; margin-left: 0; }
+      .tip:hover .bubble, .tip:focus .bubble, .tip.open .bubble, .tip:hover .bubble.c, .tip:focus .bubble.c, .tip.open .bubble.c { transform: none; }
+    }
+    @media (prefers-reduced-motion: reduce) { .bubble, .tip-i { transition: none; } }
+    @media (max-width: 900px) {
+      .xpanels { grid-template-columns: 1fr; }
+      .xa { border-right: 0; border-bottom: 1px solid var(--rule); }
+      .bflow { grid-template-columns: 1fr; }
+      .bflow .arrow { transform: rotate(90deg); }
+      .metrics { grid-template-columns: repeat(2, minmax(0, 1fr)); row-gap: 1.2rem; }
+      .metric:nth-child(3) { border-left: 0; padding-left: 0; }
+      .wcase, .pgrid { grid-template-columns: 1fr; }
+      .clegend { margin: 0 0 0.8rem; }
+      .emul { margin-right: 0; }
+      .expert { margin-left: 0; border-radius: 12px; }
+      .col-modes::before, .col-ci::before, .col-help::before { position: static; display: block; transform: none; text-align: center; margin: 0 0 0.4rem; }
+      .col-modes::before, .col-ci::before { content: "\2193"; }
+      .col-help::before { content: "\21C5"; }
+    }
+    @media (max-width: 480px) {
+      .metrics { grid-template-columns: 1fr; }
+      .metric { border-left: 0; padding-left: 0; }
+      .effort { grid-template-columns: 1fr; border-radius: 12px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .xp, .xb [data-s], .dot, .ebar i, .brow .bar, .helper { transition: none !important; }
+      .xfig[data-step="1"] .ring-hi { animation: none; }
+    }
+  </style>
+  <meta name="description" content="An in-context self-improving harness that investigates model failures and develops written policies while model weights stay fixed.">
+  <link rel="canonical" href="https://mh-nguyen.cv/portfolio/pihf-mcp/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PIHF-MCP | Minh-Ha Nguyen">
+  <meta property="og:description" content="An in-context self-improving harness that investigates model failures and develops written policies while model weights stay fixed.">
+  <meta property="og:url" content="https://mh-nguyen.cv/portfolio/pihf-mcp/">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to case study</a>
+  <div class="shell">
+    <nav class="site-nav" aria-label="Portfolio navigation">
+      <a class="wordmark" href="/portfolio/">Minh-Ha Nguyen</a>
+      <div class="nav-links">
+        <a href="/portfolio/">Overview</a>
+        <a href="/portfolio/liteodyssey/">LiteOdyssey</a>
+        <a href="/portfolio/pihf-mcp/" aria-current="page">PIHF-MCP</a>
+      </div>
+    </nav>
+
+    <main id="main-content">
+      <header class="case-header">
+        <p class="eyebrow">Case study · environment design for models</p>
+        <h1>PIHF-MCP: an in-context self-improving harness</h1>
+        <p class="lede-short">An investigating model studies a fixed model’s failures and rewrites its instructions; the harness makes each change earn its place.</p>
+      </header>
+
+      <section class="xsection" aria-labelledby="h-fig">
+        <h2 id="h-fig">How it works</h2>
+        <div class="xfig" id="xfig" data-step="all">
+          <div class="xpanels">
+            <div class="xp xa">
+              <div class="xhead"><b>A</b><h3>Prompt optimizers</h3></div>
+              <p class="xsub">The same small batches, cycled until the budget runs out</p>
+              <div class="ringwrap" aria-hidden="true">
+                <div class="ring"></div>
+                <span class="rlabel" style="left:50%;top:13%">Run</span>
+                <span class="rlabel" style="left:87%;top:50%">Reflect</span>
+                <span class="rlabel" style="left:50%;top:87%">Rewrite</span>
+                <span class="rlabel" style="left:13%;top:50%">Validate</span>
+                <div class="rcenter">× many<br>rounds</div>
+              </div>
+              <p class="acap">repeated passes · full re-scoring on validation</p>
+            </div>
+
+            <div class="xp xb">
+              <div class="xhead"><b>B</b><h3>PIHF-MCP</h3></div>
+              <p class="xsub"><em>Failure modes set the agenda; the Causal Investigator drives the work</em></p>
+              <div data-s="3">
+                <div class="expert tip" tabindex="0" aria-describedby="tip-b1"><b class="tip-label">Expert scientific method</b><span class="tip-i" aria-hidden="true">ⓘ</span> distilled from feedback on a rare-disease diagnostic agent<span class="bubble r" role="tooltip" id="tip-b1">The investigator&#x27;s procedure was distilled from expert feedback on a rare-disease diagnostic agent: 82 feedback episodes across 9 development sessions, reduced to six moves: review trajectories, explain the failure, probe before revising, scope the change, gate it on tests, roll back regressions.</span></div>
+                <p class="emul"><span class="tip" tabindex="0" aria-describedby="tip-b2">↓ <span class="tip-label">emulated by the pretrained model</span><span class="tip-i" aria-hidden="true">ⓘ</span><span class="bubble r" role="tooltip" id="tip-b2">No training: the procedure is a written guide the investigator reads in context. With a generic prompt instead, on the same model, the investigator found no improvement and stopped after 102 of 600 calls.</span></span></p>
+              </div>
+              <div class="bflow">
+                <div data-s="2 4">
+                  <p class="blabel">Development cases</p>
+                  <div class="dots" id="dots"><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot ok" data-p0="1" data-v2="0" aria-hidden="true">✓</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot ok" data-p0="1" data-v2="0" aria-hidden="true">✓</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot ok" data-p0="1" data-v2="0" aria-hidden="true">✓</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="0" aria-hidden="true">✗</span><span class="dot bad" data-p0="0" data-v2="1" aria-hidden="true">✗</span></div>
+                  <p class="count" id="count">Correct: 3 of 23 under the starting policy, 12 of 23 under the selected one</p>
+                  <p class="dotnote">Counts from the run; dot positions illustrative.</p>
+                </div>
+                <div data-s="2 3" class="col-modes">
+                  <p class="blabel" style="color:var(--red)">Failure modes</p>
+                  <div class="modes">
+                    <div class="mode target">Procedural under-execution <small>target</small></div>
+                    <div class="mode target" id="mode-h2">Exact-answer pollution <small>target</small></div>
+                    <div class="mode bound">Missing knowledge <small>bound</small></div>
+                  </div>
+                </div>
+                <div data-s="3" class="col-ci">
+                  <div class="ci tip" tabindex="0" aria-describedby="tip-b5"><span class="bubble c" role="tooltip" id="tip-b5">A model (here GPT-5.6-Sol) that runs the inquiry: it weighs competing explanations, picks one informative change, runs it, compares measurements and decides. It works through the harness&#x27;s 32 MCP tools, which record each step.</span><strong><span class="tip-label">Causal Investigator</span><span class="tip-i" aria-hidden="true">ⓘ</span></strong><span>propose · test · review · decide</span><span class="model">GPT-5.6-Sol</span></div>
+                </div>
+                <div data-s="3" class="col-help">
+                  <div class="helpers">
+                    <div class="helper h-tools tip" data-h="0" tabindex="0" aria-describedby="tip-b6"><b><span class="tip-label">Tools</span><span class="tip-i" aria-hidden="true">ⓘ</span></b>run and probe cases<span class="bubble r" role="tooltip" id="tip-b6">Typed actions to inspect evidence, probe a hypothesis, propose a change, execute cases on an isolated worker, compare measurements and select. The worker never sees reference answers or research history.</span></div>
+                    <div class="helper h-rev" data-h="1"><b>Reviewers</b>critic + verifiers</div>
+                    <div class="helper h-cur" data-h="2"><b>Curator</b>evidence memory</div>
+                  </div>
+                  <p class="asneeded">called as needed</p>
+                </div>
+              </div>
+              <div class="effort" data-s="3" style="--used: 22.3%">
+                <span><b>✓</b> Effort follows the evidence</span>
+                <span class="ebar" aria-hidden="true"><i></i></span>
+                <span class="n">134 of 600 calls, then stop</span>
+              </div>
+              <div class="wcase" data-s="4">
+                <div>
+                  <p class="qlabel">One held-out case the investigator never saw · Dyck languages</p>
+                  <p class="q">Find the first mistaken step in a 52-step bracket-matching trace.<br>Input: ( [ ( ) ] &lt; [ [ ] ] &gt; ( …</p>
+                  <pre class="trace">Thought 4: [ ; stack: ( [
+Thought 5: ( ; stack: ( [ (
+Thought 6: ) ; stack: ( [
+Thought 7: ] ; stack: empty
+…  through Thought 52</pre>
+                  <details class="fullcase"><summary>Full case, verbatim</summary><pre>You are an expert in a language called dyck where you must complete the language sequence of unclosed brackets of all types (e.g., [], {}, &lt;&gt;). You are given an initial initial dyck language sequence and the steps, provided as
+thoughts, that were used to arrive at the closing bracket sequence in the dyck language. Your job is to identify the first step that was a mistake in reasoning about the closing bracket sequence in dyck language, if any.
+This can be forgetting to close a bracket or closing with the wrong bracket or incorrectly copying the prior subsequence of closing brackets to the next step.
+Task: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( [ ( ) ] &lt; [ [ ] ] &gt; ( { { [ [ ( [ ] [ ] ) ] ] { [ ( [ ] ) ] } } ( &lt; &lt; { [ &lt; &gt; ] } &gt; &gt; ) } { { [ { { } } ] } } ) &lt; &gt;
+Thought 1: We should process each input one by one and keep track of the stack configuration.
+Thought 2: stack: empty
+Thought 3: ( ; stack: (
+Thought 4: [ ; stack: ( [
+Thought 5: ( ; stack: ( [ (
+Thought 6: ) ; stack: ( [
+Thought 7: ] ; stack: empty
+Thought 8: &lt; ; stack: &lt;
+Thought 9: [ ; stack: &lt; [
+Thought 10: [ ; stack: &lt; [ [
+Thought 11: ] ; stack: &lt; [
+Thought 12: ] ; stack: &lt;
+Thought 13: &gt; ; stack: empty
+Thought 14: ( ; stack: (
+Thought 15: { ; stack: ( {
+Thought 16: { ; stack: ( { {
+Thought 17: [ ; stack: ( { { [
+Thought 18: [ ; stack: ( { { [ [
+Thought 19: ( ; stack: ( { { [ [ (
+Thought 20: [ ; stack: ( { { [ [ ( [
+Thought 21: ] ; stack: ( { { [ [ (
+Thought 22: ] ; stack: ( { { [ [
+Thought 23: ] ; stack: ( { { [
+Thought 24: { ; stack: ( { {
+Thought 25: [ ; stack: ( { { [
+Thought 26: ( ; stack: ( { { [ (
+Thought 27: [ ; stack: ( { { [ ( [
+Thought 28: ] ; stack: ( { { [ (
+Thought 29: ] ; stack: ( { { [
+Thought 30: } ; stack: ( {
+Thought 31: ( ; stack: (
+Thought 32: &lt; ; stack: ( &lt;
+Thought 33: &lt; ; stack: ( &lt; &lt;
+Thought 34: { ; stack: ( &lt; &lt; {
+Thought 35: [ ; stack: ( &lt; &lt; { [
+Thought 36: &lt; ; stack: ( &lt; &lt; { [ &lt;
+Thought 37: &gt; ; stack: ( &lt; &lt; { [
+Thought 38: &gt; ; stack: ( &lt; &lt; {
+Thought 39: } ; stack: ( &lt;
+Thought 40: } ; stack: (
+Thought 41: { ; stack: {
+Thought 42: { ; stack: { {
+Thought 43: [ ; stack: { { [
+Thought 44: { ; stack: { { [ {
+Thought 45: } ; stack: { { [
+Thought 46: } ; stack: { {
+Thought 47: } ; stack: {
+Thought 48: ) ; stack: empty
+Thought 49: &lt; ; stack: &lt;
+Thought 50: &gt; ; stack: empty
+Thought 51: Now, we have reached the end. The final stack is &quot;&lt;&quot;.
+Thought 52: We will need to pop out &quot;&lt;&quot;. So the answer is &gt;
+Q: Is there a mistake in this sequence? Write &quot;No&quot; if there are no mistakes, or the number N if there is a mistake in Thought N.</pre></details>
+                </div>
+                <div class="outs">
+                  <div class="out bad"><span class="lab">✗ Starting policy · answer 22</span><span class="rsn">“At Thought 21, the top of the stack is `(` after closing the `[` opened at Thought 20. Thought 22 closes with `]`, which mismatches the top `(`. Thus Thought 22 is the first mistake.”</span></div>
+                  <div class="out rule"><span class="lab">Policy line the investigator wrote</span><span class="ans">If judging a supplied chain of thoughts/steps, independently recompute each step in order and compare it with the immediately preceding valid state. Return the earliest wrong step, not a later consequence.</span></div>
+                  <div class="out ok"><span class="lab">✓ Selected policy · answer 7 · 3 of 3 runs</span><span class="rsn">“After Thought 6, the stack is `( [`. Processing `]` closes only `[`, leaving `(` on the stack. Thought 7 incorrectly states the stack is empty, so it is the first mistake.”</span></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="xp xc">
+              <div class="xhead"><b>C</b><h3>Comparable or better scores <span>at a fraction of the cost</span></h3></div>
+              <p class="xsub">PIHF-MCP vs GEPA with the same GPT-4.1-mini executor, pooled over HoVer and LiveBench-Math</p>
+              <div class="clegend"><span><i style="background:var(--gepa)"></i>GEPA</span><span><i style="background:var(--pihf)"></i>PIHF-MCP</span></div>
+              <div class="metrics" id="metrics"><div class="metric" role="group" aria-label="Examples: GEPA 692, PIHF-MCP 143, ratio 1/5"><div class="mtop"><b>Examples</b></div><div class="ratio">1/5</div><div class="bars"><div class="brow g"><span class="track"><span class="bar" style="--w:80.0%"></span><span class="v">692</span></span></div><div class="brow p"><span class="track"><span class="bar" style="--w:16.5%"></span><span class="v">143</span></span></div></div></div><div class="metric" role="group" aria-label="Rollouts: GEPA 8,890, PIHF-MCP 355, ratio 1/25"><div class="mtop"><b>Rollouts</b></div><div class="ratio">1/25</div><div class="bars"><div class="brow g"><span class="track"><span class="bar" style="--w:80.0%"></span><span class="v">8,890</span></span></div><div class="brow p"><span class="track"><span class="bar" style="--w:3.2%"></span><span class="v">355</span></span></div></div></div><div class="metric" role="group" aria-label="Time: GEPA 18.3 h, PIHF-MCP 2.0 h, ratio 1/9"><div class="mtop"><b>Time</b><small>GEPA est.</small></div><div class="ratio">1/9</div><div class="bars"><div class="brow g"><span class="track"><span class="bar" style="--w:80.0%"></span><span class="v">18.3 h</span></span></div><div class="brow p"><span class="track"><span class="bar" style="--w:8.8%"></span><span class="v">2.0 h</span></span></div></div></div><div class="metric" role="group" aria-label="Cost: GEPA $38.45, PIHF-MCP $11.98, ratio 1/3"><div class="mtop"><b>Cost</b><small>GEPA est.</small></div><div class="ratio">1/3</div><div class="bars"><div class="brow g"><span class="track"><span class="bar" style="--w:80.0%"></span><span class="v">$38.45</span></span></div><div class="brow p"><span class="track"><span class="bar" style="--w:24.9%"></span><span class="v">$11.98</span></span></div></div></div></div>
+              <p class="scoreline"><span class="tip" tabindex="0" aria-describedby="tip-c4"><span class="tip-label">Held-out score</span><span class="tip-i" aria-hidden="true">ⓘ</span><span class="bubble" role="tooltip" id="tip-c4">Same GPT-4.1-mini executor. PIHF-MCP: mean ± SD over three test runs; GEPA: published single scores.</span></span>: HoVer <b>59.9 ± 0.4</b> vs 51.7 · LiveBench-Math <b>63.8 ± 2.9</b> vs 64.1</p>
+              <p class="cnote">GEPA examples, rollouts and scores are its published values. GEPA time and cost are estimates that apply PIHF-MCP’s measured per-rollout cost and latency to GEPA’s reported rollouts. PIHF-MCP scores are means ± SD over three test runs.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="psection" aria-labelledby="h-pol">
+        <h2 id="h-pol">What the harness wrote</h2>
+        <p class="sub">The executor’s instructions, verbatim. Step through the rounds to see what the investigator changed and what each version scored.</p>
+        <div class="pctl" role="group" aria-label="Policy versions">
+          <button type="button" data-view="final" aria-pressed="true">Starting → selected</button>
+          <button type="button" data-view="r1" aria-pressed="false">Round 1 changes</button>
+          <button type="button" data-view="r3" aria-pressed="false">Round 3 changes</button>
+        </div>
+        <div class="pgrid">
+          <article class="pbox"><header><b id="plt">Starting policy</b><span id="plm"></span></header><pre id="pl">Please solve the following questions</pre></article>
+          <article class="pbox"><header><b id="prt">Selected policy (v2)</b><span id="prm"></span></header><pre id="pr">Solve the benchmark problem carefully and completely. Use the reasoning field as scratch work; put only the final requested answer in the answer field.
+
+Core procedure
+1. Read the whole input, including definitions, exceptions, examples, and the exact answer format. Identify the task and the precise object requested.
+2. Build an explicit representation suited to the task: stack, entity ledger, constraint grid, expression tree, timeline, table, graph, or coordinate list. Do not solve from a quick impression.
+3. Execute all relevant steps. Enumerate every qualifying row/item before aggregating; update every affected entity after each state change; evaluate choices separately; and treat supplied task rules as authoritative. Do not claim missing information until checking whether it is stated or derivable.
+4. Audit independently. Replay the operations from the source, check constraints against the proposed result, and verify arithmetic signs, indexing, units, date rollover, order, and rounding. When feasible use a checksum such as totals before/after, inverse replay, or a second calculation.
+
+Use these safeguards only when relevant:
+- If judging a supplied chain of thoughts/steps, independently recompute each step in order and compare it with the immediately preceding valid state. Return the earliest wrong step, not a later consequence. Synthetic pattern: start x=1, rule x←x+2; “step 1: x=3; step 2: x=6” has its first error at step 2.
+- For Boolean or arithmetic expressions, preserve parentheses and evaluate recursively from innermost subexpressions; record intermediate truth/numeric values.
+- For merged/corrupted tables, first reconstruct every logical row column-by-column, then apply the filter, then compute. Keep separate lists of included values for each statistic.
+- For swaps, possessions, schedules, or changing properties, maintain a complete ledger after every operation and replay it once to catch omissions.
+- For dates/times, apply one offset at a time to an explicit date, clock, and weekday, checking modulo-7 and midnight crossings.
+- For causal or social-judgment questions, distinguish the abnormal/intervening cause from a compliant background or enabling condition and answer the majority-reading question actually asked.
+
+Finally, format exactly as requested. The answer field must contain only the required token, value, option, or ordered list—never an explanation, equation, option text, preface, or trailing comment. Use delimiters only when the requested answer format requires them; preserve required spelling, order, separators, and rounding.</pre></article>
+        </div>
+        <p class="pkey" id="pkey" hidden><span><span class="ki">added</span> in this round</span><span><span class="kd">removed</span> in this round</span></p>
+      </section>
+
+      <section class="nsection" aria-labelledby="h-res">
+        <h2 id="h-res">Gains over the starting policy</h2>
+        <p class="sub">Fixed GPT-5.6-Luna executor at low effort, GPT-5.6-Sol investigator; mean ± SD of three held-out runs.</p>
+        <table class="results">
+          <thead><tr><th>Benchmark</th><th class="n">Cases</th><th class="n">Starting</th><th class="n">Selected</th></tr></thead>
+          <tbody>
+            <tr><td>HoVer</td><td class="n">300</td><td class="n">46.0%</td><td class="n">68.2% ± 2.2</td></tr>
+            <tr><td>BIG-Bench Extra Hard Mini</td><td class="n">177</td><td class="n">25.4%</td><td class="n">42.4% ± 2.5</td></tr>
+            <tr><td>LiveBench-Math</td><td class="n">126</td><td class="n">73.9%</td><td class="n">78.6% ± 1.0</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="nsection notes" aria-labelledby="h-notes">
+        <h2 id="h-notes">Notes</h2>
+        <p><strong>Contribution.</strong> I designed PIHF and implemented PIHF-MCP.</p>
+        <p><strong>Go deeper.</strong> Read the paper, <a href="https://arxiv.org/abs/2608.16831">From Answers to Policies: Efficient In-Context Learning System through Emulating Expert Investigation</a>.</p>
+      </section>
+
+    </main>
+    <footer>Minh-Ha Nguyen · <a href="/">Home</a> · <a href="/cv/Minh_Ha_Nguyen_CV.pdf">CV</a> · <a href="mailto:ha.m.nguyen@vanderbilt.edu">Contact</a><p>Dyck task excerpt: <a href="https://github.com/google-deepmind/bbeh/tree/80d12ca916b7158f22293fcf3144f4d3d854d4be">BIG-Bench Extra Hard contributors</a>, <a href="/portfolio/benchmark-LICENSE.txt">Apache 2.0 licence</a>.</p></footer>
+  </div>
+
+  <script id="pdata" type="application/json">{"cost": [{"metric": "Examples", "note": "", "gepa": 692.0, "pihf": 143.0, "gl": "692", "pl": "143", "ratio": "1/5"}, {"metric": "Rollouts", "note": "", "gepa": 8890.0, "pihf": 355.0, "gl": "8,890", "pl": "355", "ratio": "1/25"}, {"metric": "Time", "note": "GEPA est.", "gepa": 18.281837699606996, "pihf": 2.0059421780555553, "gl": "18.3 h", "pl": "2.0 h", "ratio": "1/9"}, {"metric": "Cost", "note": "GEPA est.", "gepa": 38.44775310171756, "pihf": 11.982083, "gl": "$38.45", "pl": "$11.98", "ratio": "1/3"}], "scores": {"hover_gepa": "51.7", "hover_pihf": "59.9", "hover_sd": "0.4", "lb_gepa": "64.1", "lb_pihf": "63.8", "lb_sd": "2.9"}, "views": {"final": {"lt": "Starting policy", "lm": "36 characters · dev 3/23 · validation 8/23", "rt": "Selected policy (v2)", "rm": "2,595 characters · dev 12/23 · validation 11/23 · verifier: keep", "l": "Please solve the following questions", "r": "Solve the benchmark problem carefully and completely. Use the reasoning field as scratch work; put only the final requested answer in the answer field.\n\nCore procedure\n1. Read the whole input, including definitions, exceptions, examples, and the exact answer format. Identify the task and the precise object requested.\n2. Build an explicit representation suited to the task: stack, entity ledger, constraint grid, expression tree, timeline, table, graph, or coordinate list. Do not solve from a quick impression.\n3. Execute all relevant steps. Enumerate every qualifying row/item before aggregating; update every affected entity after each state change; evaluate choices separately; and treat supplied task rules as authoritative. Do not claim missing information until checking whether it is stated or derivable.\n4. Audit independently. Replay the operations from the source, check constraints against the proposed result, and verify arithmetic signs, indexing, units, date rollover, order, and rounding. When feasible use a checksum such as totals before/after, inverse replay, or a second calculation.\n\nUse these safeguards only when relevant:\n- If judging a supplied chain of thoughts/steps, independently recompute each step in order and compare it with the immediately preceding valid state. Return the earliest wrong step, not a later consequence. Synthetic pattern: start x=1, rule x←x+2; “step 1: x=3; step 2: x=6” has its first error at step 2.\n- For Boolean or arithmetic expressions, preserve parentheses and evaluate recursively from innermost subexpressions; record intermediate truth/numeric values.\n- For merged/corrupted tables, first reconstruct every logical row column-by-column, then apply the filter, then compute. Keep separate lists of included values for each statistic.\n- For swaps, possessions, schedules, or changing properties, maintain a complete ledger after every operation and replay it once to catch omissions.\n- For dates/times, apply one offset at a time to an explicit date, clock, and weekday, checking modulo-7 and midnight crossings.\n- For causal or social-judgment questions, distinguish the abnormal/intervening cause from a compliant background or enabling condition and answer the majority-reading question actually asked.\n\nFinally, format exactly as requested. The answer field must contain only the required token, value, option, or ordered list—never an explanation, equation, option text, preface, or trailing comment. Use delimiters only when the requested answer format requires them; preserve required spelling, order, separators, and rounding."}, "r1": {"lt": "Starting policy", "lm": "36 characters · dev 3/23", "rt": "After round 1 (v1)", "rm": "1,638 characters · dev 9/23", "l": "<del>Please solve<\/del> the <del>following<\/del> <del>questions<\/del>", "r": "<ins>Solve<\/ins> the <ins>benchmark<\/ins> <ins>problem carefully and completely. Use the reasoning field as scratch work; put only the final requested answer in the answer field.\n\nProcedure:\n1. Read the entire input, especially its answer format, definitions, exceptions, and stopping conditions. Identify the task type and the exact object to return.\n2. Translate the problem into an explicit representation suited to it (for example: a stack for brackets, a ledger/table for changing objects or schedules, a constraint grid for logic, an expression tree for Boolean/arithmetic work, or a graph/coordinate list for spatial tasks). Do not rely on a quick impression.\n3. Execute every relevant step. For long data, enumerate all qualifying rows/items before computing. For chained state changes, update the ledger after each change. For choices, evaluate candidates separately rather than guessing from plausibility. Treat supplied facts and task-specific rules as authoritative; do not claim information is missing until checking whether it is stated or derivable.\n4. Check the result independently: retrace constraints/operations, test the chosen option and nearby alternatives, and verify arithmetic, signs, indexing, units, and requested ordering. If the input includes proposed thoughts or steps, find the first actual error rather than merely the first suspicious-looking step.\n5. Format exactly as requested. The answer field must contain only the answer token/value/list required by the question—no explanation, option text, equation, label, preface, or trailing commentary. Preserve required parentheses, brackets, spelling, order, separators, and rounding.<\/ins>"}, "r3": {"lt": "v1", "lm": "1,638 characters · dev 9/23", "rt": "After round 3 (v2, selected)", "rm": "2,595 characters · dev 12/23 · validation 11/23", "l": "Solve the benchmark problem carefully and completely. Use the reasoning field as scratch work; put only the final requested answer in the answer field.\n\n<del>Procedure:<\/del>\n1. Read the <del>entire<\/del> input, <del>especially its answer format,<\/del> definitions, exceptions, and <del>stopping<\/del> <del>conditions.<\/del> Identify the task <del>type <\/del>and the <del>exact<\/del> object <del>to return.<\/del>\n2. <del>Translate the problem into<\/del> an explicit representation suited to <del>it<\/del> <del>(for<\/del> <del>example:<\/del> <del>a<\/del> <del>stack<\/del> <del>for<\/del> <del>brackets,<\/del> <del>a<\/del> <del>ledger/table<\/del> <del>for<\/del> <del>changing<\/del> <del>objects<\/del> or <del>schedules,<\/del> <del>a constraint grid for logic, an expression tree for Boolean/arithmetic work, or a graph/coordinate list for spatial tasks).<\/del> Do not <del>rely<\/del> <del>on<\/del> a quick impression.\n3. Execute <del>every<\/del> relevant <del>step.<\/del> <del>For<\/del> <del>long data, enumerate all<\/del> qualifying <del>rows/items<\/del> before <del>computing. For chained state changes,<\/del> update <del>the<\/del> <del>ledger<\/del> after each <del>change.<\/del> <del>For choices,<\/del> evaluate <del>candidates<\/del> <del>separately<\/del> <del>rather<\/del> <del>than guessing from plausibility. Treat<\/del> supplied <del>facts and task-specific<\/del> rules as <del>authoritative;<\/del> <del>do<\/del> not claim information<del> is missing<\/del> until checking whether it is stated or derivable.\n4. <del>Check<\/del> the <del>result<\/del> <del>independently: retrace constraints/operations, test<\/del> the <del>chosen<\/del> <del>option<\/del> <del>and<\/del> <del>nearby<\/del> <del>alternatives,<\/del> and verify <del>arithmetic,<\/del> signs, indexing, units, and <del>requested<\/del> <del>ordering.<\/del> If the <del>input<\/del> <del>includes<\/del> <del>proposed<\/del> <del>thoughts<\/del> or <del>steps,<\/del> <del>find<\/del> the <del>first<\/del> <del>actual<\/del> <del>error<\/del> <del>rather<\/del> <del>than<\/del> <del>merely<\/del> the <del>first<\/del> <del>suspicious-looking<\/del> <del>step.\n5.<\/del> <del>Format<\/del> exactly as requested. The answer field must contain only the <del>answer token/value/list <\/del>required <del>by<\/del> <del>the<\/del> <del>question—no<\/del> explanation, option text,<del> equation, label,<\/del> preface, or trailing <del>commentary.<\/del> <del>Preserve<\/del> required<del> parentheses, brackets,<\/del> spelling, order, separators, and rounding.", "r": "Solve the benchmark problem carefully and completely. Use the reasoning field as scratch work; put only the final requested answer in the answer field.\n\n<ins>Core procedure<\/ins>\n1. Read the <ins>whole<\/ins> input, <ins>including<\/ins> definitions, exceptions, <ins>examples, <\/ins>and <ins>the<\/ins> <ins>exact answer format.<\/ins> Identify the task and the <ins>precise<\/ins> object <ins>requested.<\/ins>\n2. <ins>Build<\/ins> an explicit representation suited to <ins>the<\/ins> <ins>task:<\/ins> <ins>stack,<\/ins> <ins>entity<\/ins> <ins>ledger,<\/ins> <ins>constraint<\/ins> <ins>grid,<\/ins> <ins>expression<\/ins> <ins>tree,<\/ins> <ins>timeline,<\/ins> <ins>table,<\/ins> <ins>graph,<\/ins> or <ins>coordinate<\/ins> <ins>list.<\/ins> Do not <ins>solve<\/ins> <ins>from<\/ins> a quick impression.\n3. Execute <ins>all<\/ins> relevant <ins>steps.<\/ins> <ins>Enumerate<\/ins> <ins>every<\/ins> qualifying <ins>row/item<\/ins> before <ins>aggregating;<\/ins> update <ins>every<\/ins> <ins>affected entity<\/ins> after each <ins>state<\/ins> <ins>change;<\/ins> evaluate <ins>choices<\/ins> <ins>separately;<\/ins> <ins>and<\/ins> <ins>treat<\/ins> supplied <ins>task<\/ins> rules as <ins>authoritative.<\/ins> <ins>Do<\/ins> not claim <ins>missing <\/ins>information until checking whether it is stated or derivable.\n4. <ins>Audit independently. Replay<\/ins> the <ins>operations<\/ins> <ins>from<\/ins> the <ins>source,<\/ins> <ins>check<\/ins> <ins>constraints<\/ins> <ins>against<\/ins> <ins>the proposed result,<\/ins> and verify <ins>arithmetic<\/ins> signs, indexing, units, <ins>date rollover, order, <\/ins>and <ins>rounding.<\/ins> <ins>When feasible use a checksum such as totals before/after, inverse replay, or a second calculation.\n\nUse these safeguards only when relevant:\n-<\/ins> If <ins>judging a supplied chain of thoughts/steps, independently recompute each step in order and compare it with <\/ins>the <ins>immediately<\/ins> <ins>preceding<\/ins> <ins>valid<\/ins> <ins>state. Return the earliest wrong step, not a later consequence. Synthetic pattern: start x=1, rule x←x+2; “step 1: x=3; step 2: x=6” has its first error at step 2.\n- For Boolean<\/ins> or <ins>arithmetic<\/ins> <ins>expressions, preserve parentheses and evaluate recursively from innermost subexpressions; record intermediate truth/numeric values.\n- For merged/corrupted tables, first reconstruct every logical row column-by-column, then apply<\/ins> the <ins>filter,<\/ins> <ins>then<\/ins> <ins>compute.<\/ins> <ins>Keep<\/ins> <ins>separate<\/ins> <ins>lists of included values for each statistic.\n- For swaps, possessions, schedules, or changing properties, maintain a complete ledger after every operation and replay it once to catch omissions.\n- For dates/times, apply one offset at a time to an explicit date, clock, and weekday, checking modulo-7 and midnight crossings.\n- For causal or social-judgment questions, distinguish<\/ins> the <ins>abnormal/intervening<\/ins> <ins>cause<\/ins> <ins>from<\/ins> <ins>a compliant background or enabling condition and answer the majority-reading question actually asked.\n\nFinally, format<\/ins> exactly as requested. The answer field must contain only the required <ins>token,<\/ins> <ins>value,<\/ins> <ins>option, or ordered list—never an<\/ins> explanation,<ins> equation,<\/ins> option text, preface, or trailing <ins>comment.<\/ins> <ins>Use delimiters only when the requested answer format requires them; preserve<\/ins> required spelling, order, separators, and rounding."}}, "budget": 134, "cap": 600, "case": {"p0_ans": "22", "v2_ans": "7"}}</script>
+  <script>
+  (function () {
+    var D = JSON.parse(document.getElementById('pdata').textContent);
+    // hover notes: tap/click toggles for touch; Esc or outside tap closes
+    var tips = document.querySelectorAll('.tip');
+    function closeTips(except) { tips.forEach(function (x) { if (x !== except) { x.classList.remove('open'); } }); }
+    tips.forEach(function (el) {
+      el.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var wasOpen = el.classList.contains('open');
+        closeTips(el);
+        if (wasOpen) { el.classList.remove('open'); el.blur(); } else { el.classList.add('open'); }
+      });
+    });
+    document.addEventListener('click', function () { closeTips(null); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeTips(null); if (document.activeElement && document.activeElement.classList.contains('tip')) document.activeElement.blur(); } });
+
+    // policy comparison
+    var V = D.views;
+    function view(k) {
+      var v = V[k];
+      document.getElementById('plt').textContent = v.lt; document.getElementById('plm').textContent = v.lm;
+      document.getElementById('prt').textContent = v.rt; document.getElementById('prm').textContent = v.rm;
+      document.getElementById('pl').innerHTML = v.l; document.getElementById('pr').innerHTML = v.r;
+      document.getElementById('pkey').hidden = (k === 'final');
+      document.querySelectorAll('.pctl button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.view === k)); });
+    }
+    document.querySelectorAll('.pctl button').forEach(function (b) { b.addEventListener('click', function () { view(b.dataset.view); }); });
+    view('final');
+  })();
+  </script>
+</body>
+</html>
