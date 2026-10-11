@@ -42,3 +42,7 @@ Link: https://mh-nguyen.cv/cv/Minh_Ha_Nguyen_CV.pdf
 [2026-10-09 21:07 UTC] Published research portfolio with LiteOdyssey and PIHF-MCP case studies.
 Work: Scientific agents research portfolio
 Link: https://mh-nguyen.cv/portfolio/
+
+[2026-10-11 00:49 UTC] Current CV updated: corrected degree year, removed an unsupported degree entry and corrected peer-review venues.
+Work: Curriculum vitae (PDF)
+Link: https://mh-nguyen.cv/cv/Minh_Ha_Nguyen_CV.pdf
