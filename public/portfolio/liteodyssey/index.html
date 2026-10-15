@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/theme.js"></script>
   <title>LiteOdyssey | Minh-Ha Nguyen</title>
   <link rel="stylesheet" href="/portfolio/styles.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <style>
     /* Page-scoped; mirrors the PIHF-MCP case study. Blue = LiteOdyssey, grey = matched baseline, amber = expert gate. */
     :root {
@@ -115,28 +117,30 @@
   <meta property="og:title" content="LiteOdyssey | Minh-Ha Nguyen">
   <meta property="og:description" content="An agentic system for phenotype-first rare disease diagnosis, designed and implemented by Minh-Ha Nguyen.">
   <meta property="og:url" content="https://mh-nguyen.cv/portfolio/liteodyssey/">
+<link rel="stylesheet" href="/portfolio/refinements.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to case study</a>
   <div class="shell">
     <nav class="site-nav" aria-label="Portfolio navigation">
-      <a class="wordmark" href="/portfolio/">Minh-Ha Nguyen</a>
+      <a class="wordmark" href="/">← Minh-Ha Nguyen</a>
       <div class="nav-links">
         <a href="/portfolio/">Overview</a>
-        <a href="/portfolio/liteodyssey/" aria-current="page">LiteOdyssey</a>
+        <a href="/portfolio/liteodyssey/" aria-current="page">liteOdyssey</a>
         <a href="/portfolio/pihf-mcp/">PIHF-MCP</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
     </nav>
 
-    <main id="main-content">
+    <main id="main-content" class="case-page">
       <header class="case-header">
         <p class="eyebrow">Case study · agentic diagnostic system</p>
-        <h1>LiteOdyssey: an agentic system for rare disease diagnosis</h1>
+        <h1>liteOdyssey</h1><p class="lede-short">Rare-disease diagnosis with a reasoning process you can inspect.</p><div class="project-links"><a href="https://liteodyssey.org">Project ↗</a><a href="https://liteodyssey.org/#trace">Demo ↗</a><a href="https://liteodyssey.org/odysseus">Workbench (request access) ↗</a><a href="https://arxiv.org/abs/2606.16149">Preprint ↗</a></div>
       </header>
 
       <section class="xsection" aria-labelledby="h-fig">
         <h2 id="h-fig">How it works</h2>
-        <div class="xfig">
+        <ol class="method-flow"><li><span>01 / Input</span><strong>Patient phenotype</strong><p>HPO-coded features, with or without genetic findings.</p></li><li><span>02 / Investigation</span><strong>Policy + biomedical tools</strong><p>A reasoning model gathers and checks evidence under a written diagnostic policy.</p></li><li><span>03 / Output</span><strong>Ranked differential</strong><p>Diseases and genes, with the evidence and tool calls behind each rank.</p></li></ol><p class="method-note"><strong>The learning happens in the policy.</strong> Expert review gates revisions; model weights stay fixed.</p><details class="technical-details"><summary>Explore the diagnostic workflow and policy-development loop</summary><div class="xfig">
           <div class="xpanels">
             <div class="xp xa">
               <div class="xhead"><b>A</b><h3>Diagnose one case</h3></div>
@@ -188,19 +192,20 @@
               <p class="frozen"><strong>Model weights stay frozen.</strong> The written policy transfers across models.<br><a href="/portfolio/pihf-mcp/">The harness that automates this loop: PIHF-MCP</a></p>
             </div>
 
-            <div class="xp xc">
-              <div class="xhead"><b>C</b><h3>Performance</h3></div>
+
+          </div>
+        </div></details>
+      </section>
+
+<section class="evidence-section" aria-labelledby="evidence-title"><div class="xp xc">
+              <h2 id="evidence-title">Performance</h2>
               <p class="xsub">Disease Recall@1, matched baseline vs LiteOdyssey (GPT-5.4)</p>
               <div class="legend"><span><i style="background:var(--base)"></i>Matched baseline</span><span><i style="background:var(--sys)"></i>LiteOdyssey</span></div>
               <div class="prows"><div class="prow" role="group" aria-label="Public benchmarks: baseline 26.5%, LiteOdyssey 59.3%"><div class="plabel"><b>Public benchmarks</b><small>1,243 cases · 722 diseases</small></div><div class="pbars"><div class="pb g"><span class="track"><span class="bar" style="width:44.2%"></span></span><span class="v">26.5%</span></div><div class="pb s"><span class="track"><span class="bar" style="width:98.8%"></span></span><span class="v">59.3%</span></div></div></div><div class="prow" role="group" aria-label="LIRICAL: baseline 35.1%, LiteOdyssey 58.6%"><div class="plabel"><b>LIRICAL</b></div><div class="pbars"><div class="pb g"><span class="track"><span class="bar" style="width:58.5%"></span></span><span class="v">35.1%</span></div><div class="pb s"><span class="track"><span class="bar" style="width:97.7%"></span></span><span class="v">58.6%</span></div></div></div><div class="prow" role="group" aria-label="PhenoPacket Store: baseline 22.9%, LiteOdyssey 59.6%"><div class="plabel"><b>PhenoPacket Store</b></div><div class="pbars"><div class="pb g"><span class="track"><span class="bar" style="width:38.2%"></span></span><span class="v">22.9%</span></div><div class="pb s"><span class="track"><span class="bar" style="width:99.3%"></span></span><span class="v">59.6%</span></div></div></div><div class="prow" role="group" aria-label="UDN clinical cohort: baseline 16.7%, LiteOdyssey 20.4%"><div class="plabel"><b>UDN clinical cohort</b><small>515 patients</small></div><div class="pbars"><div class="pb g"><span class="track"><span class="bar" style="width:27.8%"></span></span><span class="v">16.7%</span></div><div class="pb s"><span class="track"><span class="bar" style="width:34.0%"></span></span><span class="v">20.4%</span></div></div></div></div>
               <div class="paxis" aria-hidden="true"><span></span><div class="ax"><div class="ticks"><span>0%</span><span>20%</span><span>40%</span><span>60%</span></div><span></span></div></div>
               <p class="pnote">1,193 of the public cases, covering 679 diseases, were never used in policy development. Four reasoning models each improved over their matched baselines (baselines 18.7% to 26.5%). In the UDN cohort, blinded physician review corroborated the gain.</p>
               <p class="cnote">Matched baseline: the same model and clinical features without the policy or tools. Public-benchmark scores use a judge from a different model family than the one evaluated; exact-OMIM sensitivity analyses are in the preprint.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
+            </div></section>
       <section class="nsection notes" aria-labelledby="h-notes">
         <h2 id="h-notes">Notes</h2>
         <p><strong>Contribution.</strong> I designed and implemented LiteOdyssey and am first author of its preprint.</p>
@@ -215,15 +220,19 @@
     var tips = document.querySelectorAll('.tip');
     function closeTips(except) { tips.forEach(function (x) { if (x !== except) x.classList.remove('open'); }); }
     tips.forEach(function (el) {
+      el.setAttribute('role', 'button');
+      el.setAttribute('aria-label', el.querySelector('.tip-label')?.textContent || 'More detail');
+      el.addEventListener('keydown', function(e) { if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); } });
+      ['mouseenter', 'focus'].forEach(function (event) { el.addEventListener(event, function () { el.classList.remove('tip-dismissed'); }); });
       el.addEventListener('click', function (e) {
         e.stopPropagation();
         var wasOpen = el.classList.contains('open');
         closeTips(el);
-        if (wasOpen) { el.classList.remove('open'); el.blur(); } else { el.classList.add('open'); }
+        if (wasOpen) { el.classList.remove('open'); el.classList.add('tip-dismissed'); el.blur(); } else { el.classList.remove('tip-dismissed'); el.classList.add('open'); }
       });
     });
     document.addEventListener('click', function () { closeTips(null); });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeTips(null); if (document.activeElement && document.activeElement.classList.contains('tip')) document.activeElement.blur(); } });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeTips(null); document.querySelectorAll('.tip').forEach(function (tip) { tip.classList.add('tip-dismissed'); }); if (document.activeElement && document.activeElement.classList.contains('tip')) document.activeElement.blur(); } });
   })();
   </script>
 </body>

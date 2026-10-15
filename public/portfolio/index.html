@@ -3,67 +3,39 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/theme.js"></script>
   <title>Research portfolio | Minh-Ha Nguyen</title>
   <link rel="stylesheet" href="/portfolio/styles.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <meta name="description" content="Scientific agents, biomedical AI evaluation and policy learning by Minh-Ha Nguyen.">
   <link rel="canonical" href="https://mh-nguyen.cv/portfolio/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Research portfolio | Minh-Ha Nguyen">
   <meta property="og:description" content="Scientific agents, biomedical AI evaluation and policy learning by Minh-Ha Nguyen.">
   <meta property="og:url" content="https://mh-nguyen.cv/portfolio/">
+<link rel="stylesheet" href="/portfolio/refinements.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to portfolio content</a>
   <div class="shell">
     <nav class="site-nav" aria-label="Portfolio navigation">
-      <a class="wordmark" href="/portfolio/" aria-current="page">Minh-Ha Nguyen</a>
+      <a class="wordmark" href="/">← Minh-Ha Nguyen</a>
       <div class="nav-links">
         <a href="/portfolio/" aria-current="page">Overview</a>
-        <a href="/portfolio/liteodyssey/">LiteOdyssey</a>
+        <a href="/portfolio/liteodyssey/">liteOdyssey</a>
         <a href="/portfolio/pihf-mcp/">PIHF-MCP</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
     </nav>
 
-    <main class="editorial-grid" id="main-content">
-      <section>
-        <p class="eyebrow">Scientific agents · evaluation · policy learning</p>
-        <h1>Biomedical AI for inspectable scientific reasoning.</h1>
-        <p class="lede">I build scientific agents and evaluate the reliability of their conclusions, with experimental design shaping what each result can mean.</p>
-
-        <div class="project-list" aria-label="Portfolio projects">
-          <article class="project">
-            <div class="project-index">01</div>
-            <div>
-              <h2><a href="/portfolio/liteodyssey/">LiteOdyssey</a></h2>
-              <dl class="project-facts">
-                <div><dt>Role</dt><dd>Design and implementation of an agentic diagnostic system for phenotype-first rare disease diagnosis.</dd></div>
-                <div><dt>Evidence</dt><dd>A scoped tool runtime and an evaluation design that separates diagnostic work from assessment.</dd></div>
-                <div><dt>Inspect</dt><dd><a href="/portfolio/liteodyssey/">Read the LiteOdyssey case study</a></dd></div>
-              </dl>
-            </div>
-          </article>
-          <article class="project">
-            <div class="project-index">02</div>
-            <div>
-              <h2><a href="/portfolio/pihf-mcp/">PIHF-MCP</a></h2>
-              <dl class="project-facts">
-                <div><dt>Role</dt><dd>Implementation and environment design for models in an in-context self-improving harness, where written policy changes while model weights remain fixed.</dd></div>
-                <div><dt>Evidence</dt><dd>Recorded policy-development runs, retained model answers, and pinned benchmark scorers.</dd></div>
-                <div><dt>Inspect</dt><dd><a href="/portfolio/pihf-mcp/">Read the PIHF-MCP case study</a></dd></div>
-              </dl>
-            </div>
-          </article>
-        </div>
-
+    <main id="main-content">
+      <header class="portfolio-intro"><p class="eyebrow">Research portfolio</p><h1>Build the system.<br>Inspect the evidence.</h1><p class="lede">Scientific agents, written policies, and experiments that test when their answers hold up.</p><p class="intro-note">I design and implement agent workflows, tool environments, and the controls that keep evaluation interpretable.</p></header>
+      <section class="project-list" aria-label="Selected projects">
+        <article class="project"><span class="project-index">01 / Diagnosis</span><div class="project-copy"><h2><a href="/portfolio/liteodyssey/">liteOdyssey</a></h2><p>A rare-disease diagnostic system whose reasoning and tool use can be inspected.</p><p class="evidence-line">Clinician-gated policy · held-out evaluation · blinded physician review</p><div class="project-links"><a href="/portfolio/liteodyssey/">Case study ↗</a><a href="https://liteodyssey.org">Project ↗</a><a href="https://arxiv.org/abs/2606.16149">Preprint ↗</a></div></div><div class="mini-flow" aria-label="Diagnostic workflow"><span>Patient phenotype</span><span class="flow-next">↓</span><strong>Policy + tools</strong><span class="flow-next">↓</span><span>Ranked differential</span></div></article>
+        <article class="project"><span class="project-index">02 / Learning</span><div class="project-copy"><h2><a href="/portfolio/pihf-mcp/">PIHF-MCP</a></h2><p>An agent that investigates model failures and tests changes to a written policy.</p><p class="evidence-line">Fixed model weights · recorded development runs · pinned benchmark scorers</p><div class="project-links"><a href="/portfolio/pihf-mcp/">Case study ↗</a><a href="https://arxiv.org/abs/2608.16831">Preprint ↗</a></div></div><div class="mini-flow" aria-label="Policy development workflow"><span>Investigate failures</span><span class="flow-next">↓</span><strong>Revise + test policy</strong><span class="flow-next">↓</span><span>Keep or roll back</span></div></article>
+        <article class="project"><span class="project-index">03 / Public evidence</span><div class="project-copy"><h2><a href="/hairloss/">Hair-loss evidence + access</a></h2><p>A bilingual project bringing together medication-safety research and selected individual hair-loss outcomes.</p><p class="evidence-line">Population evidence and individual observations, with their limits kept explicit</p><div class="project-links"><a href="/hairloss/">Explore project ↗</a><a href="/hairloss/vi/" lang="vi">Tiếng Việt ↗</a></div></div><div class="mini-flow" aria-label="Project contents"><strong>Research</strong><span>Selected outcomes</span><span>English + Tiếng Việt</span></div></article>
       </section>
-      <aside class="role-summary" aria-label="Minh-Ha Nguyen's role summary">
-        <p class="eyebrow">Role summary</p>
-        <dl>
-          <div><dt>Design</dt><dd>Scientific-agent workflows and their evidence boundaries.</dd></div>
-          <div><dt>Implementation</dt><dd>Tool environments and written policy for model use.</dd></div>
-          <div><dt>Evaluation</dt><dd>Experimental controls that keep results interpretable.</dd></div>
-        </dl>
-      </aside>
+      <section class="portfolio-background"><h2>The common thread</h2><p>A score is an estimate. I bring experimental design and epidemiology to the question of whether a result deserves our confidence.</p><a href="/research/">Research background ↗</a></section>
     </main>
     <footer>Minh-Ha Nguyen · <a href="/">Home</a> · <a href="/cv/Minh_Ha_Nguyen_CV.pdf">CV</a> · <a href="mailto:ha.m.nguyen@vanderbilt.edu">Contact</a></footer>
   </div>

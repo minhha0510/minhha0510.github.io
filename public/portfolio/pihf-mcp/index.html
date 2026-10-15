@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/theme.js"></script>
   <title>PIHF-MCP | Minh-Ha Nguyen</title>
   <link rel="stylesheet" href="/portfolio/styles.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <style>
     /* Page-scoped. Shared tokens and chrome come from portfolio_review.css.
        Inside the figure, colour follows the paper's teaser: blue = PIHF-MCP, grey = GEPA, red = failure. */
@@ -205,29 +207,31 @@
   <meta property="og:title" content="PIHF-MCP | Minh-Ha Nguyen">
   <meta property="og:description" content="An in-context self-improving harness that investigates model failures and develops written policies while model weights stay fixed.">
   <meta property="og:url" content="https://mh-nguyen.cv/portfolio/pihf-mcp/">
+<link rel="stylesheet" href="/portfolio/refinements.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to case study</a>
   <div class="shell">
     <nav class="site-nav" aria-label="Portfolio navigation">
-      <a class="wordmark" href="/portfolio/">Minh-Ha Nguyen</a>
+      <a class="wordmark" href="/">← Minh-Ha Nguyen</a>
       <div class="nav-links">
         <a href="/portfolio/">Overview</a>
-        <a href="/portfolio/liteodyssey/">LiteOdyssey</a>
+        <a href="/portfolio/liteodyssey/">liteOdyssey</a>
         <a href="/portfolio/pihf-mcp/" aria-current="page">PIHF-MCP</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">☾</button>
       </div>
     </nav>
 
-    <main id="main-content">
+    <main id="main-content" class="case-page">
       <header class="case-header">
         <p class="eyebrow">Case study · environment design for models</p>
-        <h1>PIHF-MCP: an in-context self-improving harness</h1>
-        <p class="lede-short">An investigating model studies a fixed model’s failures and rewrites its instructions; the harness makes each change earn its place.</p>
+        <h1>PIHF-MCP</h1>
+        <p class="lede-short">An investigating model studies a fixed model’s failures and rewrites its instructions; the harness tests each change before keeping it.</p>
       </header>
 
       <section class="xsection" aria-labelledby="h-fig">
         <h2 id="h-fig">How it works</h2>
-        <div class="xfig" id="xfig" data-step="all">
+        <ol class="method-flow"><li><span>01 / Investigate</span><strong>Explain the failure</strong><p>Inspect model trajectories and probe competing explanations.</p></li><li><span>02 / Revise</span><strong>Change the policy</strong><p>Scope a written instruction change. The executor’s weights stay fixed.</p></li><li><span>03 / Test</span><strong>Keep or roll back</strong><p>Compare measurements, check regressions, and record the decision.</p></li></ol><p class="method-note"><strong>Expert investigation, written as a procedure.</strong> An investigating model carries it out using tools, reviewers, and evidence memory.</p><details class="technical-details"><summary>Explore the full harness, baseline comparison, and worked example</summary><div class="xfig" id="xfig" data-step="all">
           <div class="xpanels">
             <div class="xp xa">
               <div class="xhead"><b>A</b><h3>Prompt optimizers</h3></div>
@@ -357,19 +361,20 @@ Q: Is there a mistake in this sequence? Write &quot;No&quot; if there are no mis
               </div>
             </div>
 
-            <div class="xp xc">
-              <div class="xhead"><b>C</b><h3>Comparable or better scores <span>at a fraction of the cost</span></h3></div>
+
+          </div>
+        </div></details>
+      </section>
+
+<section class="evidence-section" aria-labelledby="evidence-title"><div class="xp xc">
+              <h2 id="evidence-title">Comparable or better scores <span>at a fraction of the cost</span></h2>
               <p class="xsub">PIHF-MCP vs GEPA with the same GPT-4.1-mini executor, pooled over HoVer and LiveBench-Math</p>
               <div class="clegend"><span><i style="background:var(--gepa)"></i>GEPA</span><span><i style="background:var(--pihf)"></i>PIHF-MCP</span></div>
               <div class="metrics" id="metrics"><div class="metric" role="group" aria-label="Examples: GEPA 692, PIHF-MCP 143, ratio 1/5"><div class="mtop"><b>Examples</b></div><div class="ratio">1/5</div><div class="bars"><div class="brow g"><span class="track"><span class="bar" style="--w:80.0%"></span><span class="v">692</span></span></div><div class="brow p"><span class="track"><span class="bar" style="--w:16.5%"></span><span class="v">143</span></span></div></div></div><div class="metric" role="group" aria-label="Rollouts: GEPA 8,890, PIHF-MCP 355, ratio 1/25"><div class="mtop"><b>Rollouts</b></div><div class="ratio">1/25</div><div class="bars"><div class="brow g"><span class="track"><span class="bar" style="--w:80.0%"></span><span class="v">8,890</span></span></div><div class="brow p"><span class="track"><span class="bar" style="--w:3.2%"></span><span class="v">355</span></span></div></div></div><div class="metric" role="group" aria-label="Time: GEPA 18.3 h, PIHF-MCP 2.0 h, ratio 1/9"><div class="mtop"><b>Time</b><small>GEPA est.</small></div><div class="ratio">1/9</div><div class="bars"><div class="brow g"><span class="track"><span class="bar" style="--w:80.0%"></span><span class="v">18.3 h</span></span></div><div class="brow p"><span class="track"><span class="bar" style="--w:8.8%"></span><span class="v">2.0 h</span></span></div></div></div><div class="metric" role="group" aria-label="Cost: GEPA $38.45, PIHF-MCP $11.98, ratio 1/3"><div class="mtop"><b>Cost</b><small>GEPA est.</small></div><div class="ratio">1/3</div><div class="bars"><div class="brow g"><span class="track"><span class="bar" style="--w:80.0%"></span><span class="v">$38.45</span></span></div><div class="brow p"><span class="track"><span class="bar" style="--w:24.9%"></span><span class="v">$11.98</span></span></div></div></div></div>
               <p class="scoreline"><span class="tip" tabindex="0" aria-describedby="tip-c4"><span class="tip-label">Held-out score</span><span class="tip-i" aria-hidden="true">ⓘ</span><span class="bubble" role="tooltip" id="tip-c4">Same GPT-4.1-mini executor. PIHF-MCP: mean ± SD over three test runs; GEPA: published single scores.</span></span>: HoVer <b>59.9 ± 0.4</b> vs 51.7 · LiveBench-Math <b>63.8 ± 2.9</b> vs 64.1</p>
               <p class="cnote">GEPA examples, rollouts and scores are its published values. GEPA time and cost are estimates that apply PIHF-MCP’s measured per-rollout cost and latency to GEPA’s reported rollouts. PIHF-MCP scores are means ± SD over three test runs.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="psection" aria-labelledby="h-pol">
+            </div></section>
+      <details class="technical-details" id="policy-details"><summary>Read the policies and compare development rounds</summary><section class="psection" aria-labelledby="h-pol">
         <h2 id="h-pol">What the harness wrote</h2>
         <p class="sub">The executor’s instructions, verbatim. Step through the rounds to see what the investigator changed and what each version scored.</p>
         <div class="pctl" role="group" aria-label="Policy versions">
@@ -398,19 +403,19 @@ Use these safeguards only when relevant:
 Finally, format exactly as requested. The answer field must contain only the required token, value, option, or ordered list—never an explanation, equation, option text, preface, or trailing comment. Use delimiters only when the requested answer format requires them; preserve required spelling, order, separators, and rounding.</pre></article>
         </div>
         <p class="pkey" id="pkey" hidden><span><span class="ki">added</span> in this round</span><span><span class="kd">removed</span> in this round</span></p>
-      </section>
+      </section></details>
 
       <section class="nsection" aria-labelledby="h-res">
         <h2 id="h-res">Gains over the starting policy</h2>
         <p class="sub">Fixed GPT-5.6-Luna executor at low effort, GPT-5.6-Sol investigator; mean ± SD of three held-out runs.</p>
-        <table class="results">
+        <div class="table-scroll" role="region" aria-label="Held-out benchmark results" tabindex="0"><table class="results">
           <thead><tr><th>Benchmark</th><th class="n">Cases</th><th class="n">Starting</th><th class="n">Selected</th></tr></thead>
           <tbody>
             <tr><td>HoVer</td><td class="n">300</td><td class="n">46.0%</td><td class="n">68.2% ± 2.2</td></tr>
             <tr><td>BIG-Bench Extra Hard Mini</td><td class="n">177</td><td class="n">25.4%</td><td class="n">42.4% ± 2.5</td></tr>
             <tr><td>LiveBench-Math</td><td class="n">126</td><td class="n">73.9%</td><td class="n">78.6% ± 1.0</td></tr>
           </tbody>
-        </table>
+        </table></div>
       </section>
 
       <section class="nsection notes" aria-labelledby="h-notes">
@@ -431,15 +436,19 @@ Finally, format exactly as requested. The answer field must contain only the req
     var tips = document.querySelectorAll('.tip');
     function closeTips(except) { tips.forEach(function (x) { if (x !== except) { x.classList.remove('open'); } }); }
     tips.forEach(function (el) {
+      el.setAttribute('role', 'button');
+      el.setAttribute('aria-label', el.querySelector('.tip-label')?.textContent || 'More detail');
+      el.addEventListener('keydown', function(e) { if(e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); } });
+      ['mouseenter', 'focus'].forEach(function (event) { el.addEventListener(event, function () { el.classList.remove('tip-dismissed'); }); });
       el.addEventListener('click', function (e) {
         e.stopPropagation();
         var wasOpen = el.classList.contains('open');
         closeTips(el);
-        if (wasOpen) { el.classList.remove('open'); el.blur(); } else { el.classList.add('open'); }
+        if (wasOpen) { el.classList.remove('open'); el.classList.add('tip-dismissed'); el.blur(); } else { el.classList.remove('tip-dismissed'); el.classList.add('open'); }
       });
     });
     document.addEventListener('click', function () { closeTips(null); });
-    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeTips(null); if (document.activeElement && document.activeElement.classList.contains('tip')) document.activeElement.blur(); } });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { closeTips(null); document.querySelectorAll('.tip').forEach(function (tip) { tip.classList.add('tip-dismissed'); }); if (document.activeElement && document.activeElement.classList.contains('tip')) document.activeElement.blur(); } });
 
     // policy comparison
     var V = D.views;

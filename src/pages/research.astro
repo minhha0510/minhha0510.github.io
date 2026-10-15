@@ -1,0 +1,59 @@
+---
+import Layout from "../layouts/Layout.astro";
+const base = "/";
+---
+<Layout title="Research | Minh-Ha Nguyen"><header class="research-intro"><p class="section-label">Research background</p><h1>How I approach evidence</h1><p>Experimental design, statistical and causal inference for observational data, and scientific computing for large-scale health data.</p></header>  <section class="research-section">
+    <h2 class="section-title">Research</h2>
+    <div class="threads">
+      <div class="thread">
+        <h3>Evaluating models as experiments</h3>
+        <p>
+          A benchmark is an experiment. The model is a population, the prompt is a treatment you
+          assign, and the score is an estimator with sampling error and measurement error. So I
+          ask what epidemiology asks of any study: is the sample representative, is the comparison
+          powered and fair, is the reference standard reliable, and could selection or leakage
+          explain the result?
+        </p>
+        <a class="thread-tag" href="https://www.nature.com/articles/s41746-026-03109-z" target="_blank" rel="noopener noreferrer">// meta-analysis published in npj Digital Medicine</a>
+      </div>
+      <div class="thread">
+        <h3>PIHF-MCP: agents that learn from expert investigation</h3>
+        <p>
+          Policy Iteration with Human Feedback turns the way experts investigate model failures
+          into a reusable, recorded policy. An agent executes that policy while the model weights
+          stay fixed. PIHF-MCP automates the loop; in the preprint, policies developed from a few
+          labelled examples improved performance on unseen cases and across models.
+        </p>
+        <a class="thread-tag" href="https://arxiv.org/abs/2608.16831" target="_blank" rel="noopener noreferrer">// preprint on arXiv</a>
+      </div>
+      <div class="thread">
+        <h3>liteOdyssey: rare-disease diagnosis you can inspect</h3>
+        <p>
+          liteOdyssey consolidates model failures and expert corrections into a clinician-gated
+          natural-language policy for rare-disease diagnosis. The system is evaluated on held-out
+          cases across benchmarks and model families and, after adaptation, in the Undiagnosed
+          Diseases Network with blinded physician adjudication. Reviewers can run it in a live
+          workbench: question the system, inspect its tool trace and reasoning, and test where the
+          policy holds or fails.
+        </p>
+        <a class="thread-tag" href="https://liteodyssey.org" target="_blank" rel="noopener noreferrer">// liteodyssey.org</a>
+        <a class="thread-tag" href="https://liteodyssey.org/#trace" target="_blank" rel="noopener noreferrer">// demo video</a>
+        <a class="thread-tag" href="https://liteodyssey.org/odysseus" target="_blank" rel="noopener noreferrer">// live workbench (request access)</a>
+        <a class="thread-tag" href="https://arxiv.org/abs/2606.16149" target="_blank" rel="noopener noreferrer">// preprint on arXiv</a>
+      </div>
+      <div class="thread">
+        <h3>Below the Surface: hidden bias in large-scale health data</h3>
+        <p>
+          My dissertation models the biases that sit below an estimate: how outcomes and
+          exposures are measured, who gets selected into a cohort, and how far an unmeasured
+          confounder could move the answer. The setting is NASA-supported research on low-dose
+          radiation and Parkinson's disease in Navy submariners. The same habits run through my
+          medication-safety work, from nationwide new-user cohorts to depression risk with
+          5-alpha reductase inhibitors.
+        </p>
+      </div>
+    </div>
+  </section>
+
+</Layout>
+<style>.research-intro{padding:1rem 0 2rem}.thread{padding:1.4rem 0;border-top:1px solid var(--border)}.thread h3{margin:0 0 .5rem}.thread p{margin:0 0 .6rem}.thread-tag{display:inline-block;margin:.25rem 1rem .25rem 0;font-size:.9rem}.section-title{font-size:1rem}</style>
