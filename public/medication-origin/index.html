@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="canonical" href="https://mh-nguyen.cv/medication-origin/">
+  <meta name="theme-color" content="#0d1117">
+  <meta name="description" content="Follow the observations, experiments and design behind commonly used medicine classes. An interactive atlas with original accounts and source-linked histories.">
+  <title>Where Medicines Begin — The Medicine Origins Atlas</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='32' width='64' height='64' fill='%23234035'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23f4f1e8' stroke-width='2'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23d39c71'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/medication-origin/styles.css">
+  <script src="/medication-origin/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#explore">Skip to the atlas</a>
+  <header class="site-header wrap">
+    <a href="#" class="brand" aria-label="Medicine Origins Atlas home"><span class="brand-mark" aria-hidden="true"><i></i></span><span>MEDICINE<br>ORIGINS ATLAS</span></a>
+    <nav aria-label="Main navigation"><a href="#explore">Explore the atlas</a><a href="#approach">The approach</a><a class="personal-link" href="https://mh-nguyen.cv/" target="_blank" rel="noopener">Ha Nguyen <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="atlas-home">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> A FIELD GUIDE TO DISCOVERY</p>
+        <h1 id="hero-title">Where<br>medicines<br><em>begin.</em></h1>
+        <p class="hero-dek">An observed clue? A molecule designed from scratch?<br> Look into the observations, experiments and design<br class="desktop-break"> behind the medicines we use every day.</p>
+        <a class="button button-dark" href="#explore">Explore their origins <span aria-hidden="true">↘</span></a>
+      </div>
+      <figure class="atlas-plate">
+        <div class="plate-head"><span>PLATE 01 / A WORKING ATLAS</span><span aria-hidden="true">+ &nbsp; +</span></div>
+        <div class="plate-title">Every class, <em>a question.</em></div>
+        <div id="class-map" class="class-map" aria-label="All 115 drug classes. Select a point to open its history."></div>
+        <div class="map-legend"><span><i class="legend-point filled"></i> 115 source-linked histories</span><span>Three starting stories below ↘</span></div>
+        <div class="specimen-links" aria-label="Three starting stories">
+          <button data-class="STATINS"><span class="specimen-index">01</span><span>A fungus<small>Statins</small></span><span aria-hidden="true">↗</span></button>
+          <button data-class="GLP1_AGONISTS"><span class="specimen-index">02</span><span>A hormone<small>GLP-1 agonists</small></span><span aria-hidden="true">↗</span></button>
+          <button data-class="PENICILLINS"><span class="specimen-index">03</span><span>A surprise<small>Penicillins · then follow-up</small></span><span aria-hidden="true">↗</span></button>
+        </div>
+        <figcaption>Choose a point or start with one of these stories.</figcaption>
+      </figure>
+    </section>
+
+    <section class="scope-strip wrap" aria-label="Research scope and progress">
+      <div><strong>115</strong><span>drug classes<br>in the atlas</span></div>
+      <div><strong>226</strong><span>medication groups<br>across two countries</span></div>
+      <div><strong id="checked-stat">—</strong><span>linked source<br>records</span></div>
+      <p><span class="eyebrow">COMPLETE CLASS INVENTORY</span><span id="snapshot-caption">Loading the research snapshot…</span><a href="#methods">See the scope &amp; method ↗</a></p>
+    </section>
+
+    <section id="explore" class="explorer wrap" aria-labelledby="explore-title">
+      <div class="section-heading"><div><p class="eyebrow">THE DISCOVERY INDEX</p><h2 id="explore-title">Find a medicine.<br><em>Follow its story.</em></h2></div><p>Search a medicine or explore a class.<br> Then go back to the observations,<br> the experiments and the original accounts.</p></div>
+      <div class="search-line"><label class="search-field"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m15.5 15.5 5 5"></path></svg><span class="sr-only">Search by medicine, class or clue</span><input id="search" type="search" placeholder="Try semaglutide, statins, or a clue…" autocomplete="off"><kbd aria-hidden="true">/</kbd></label><span class="search-hint">Search uses generic names.<br>Medicines open their class history.</span></div>
+      <form class="filters" id="filters" aria-label="Filter the discovery index">
+        <label>What opened the path?<select id="basis"><option value="all">All starting points</option><option value="observation_led">Observed clue</option><option value="design_from_scratch">Design from scratch</option><option value="mixed">Mixed pathways</option><option value="unclear">Not established</option></select></label>
+        <label>Starting clue<select id="clue"><option value="all">All kinds of clues</option><option value="natural_substance">Natural substances</option><option value="endogenous_molecule">Endogenous molecules</option><option value="biological_physiological_observation">Biology &amp; physiology</option><option value="clinical_veterinary_effect">Clinical &amp; veterinary effects</option><option value="genetic_population_observation">Genetic &amp; population clues</option><option value="synthetic_compound_effect">Observed synthetic activity</option><option value="theoretical_design">Theoretical design</option><option value="other">Other clue</option><option value="not_reported">Not reported</option></select></label>
+        <label>Discovery circumstances<select id="circumstances"><option value="all">Planned &amp; unexpected</option><option value="planned">Planned</option><option value="unexpected">Unexpected</option><option value="both">Both</option><option value="unclear">Unclear / not reported</option></select></label>
+        <label>Cohort<select id="country"><option value="all">US &amp; England</option><option value="US">United States</option><option value="England">England</option></select></label>
+        <label>Evidence support<select id="status"><option value="all">All 115 classes</option><option value="documented">Documented · 110</option><option value="inferred_from_source_observation">Inferred · 4</option><option value="not_reported">Starting point unclear · 1</option></select></label>
+        <button type="reset" class="reset-button">Reset <span aria-hidden="true">↺</span></button>
+      </form>
+      <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite">Loading classes…</p><div class="view-switch" aria-label="Results layout"><button id="view-cards" class="active" aria-pressed="true" title="Card view"><svg aria-hidden="true" viewBox="0 0 20 20"><rect x="2" y="2" width="6" height="6"></rect><rect x="12" y="2" width="6" height="6"></rect><rect x="2" y="12" width="6" height="6"></rect><rect x="12" y="12" width="6" height="6"></rect></svg><span class="sr-only">Cards</span></button><button id="view-index" aria-pressed="false" title="Compact index"><svg aria-hidden="true" viewBox="0 0 20 20"><path d="M2 4h16M2 10h16M2 16h16"></path></svg><span class="sr-only">Index</span></button></div></div>
+      <p class="excluded-note" id="excluded-note" hidden></p>
+      <div id="results" class="results" aria-label="Drug class results"></div>
+      <div class="more-row"><button class="button button-outline" id="show-more" hidden>Show more classes <span aria-hidden="true">↓</span></button><p id="shown-count"></p></div>
+      <p class="filter-note">Starting clues can overlap. “Planned” and “unexpected” describe the discovery circumstances, separately from the origin of the clue.</p>
+    </section>
+
+    <section id="approach" class="approach-section">
+      <div class="wrap approach-grid"><div><p class="eyebrow">WHY LOOK BACK?</p><h2>Good questions<br>often begin with<br><em>something noticed.</em></h2></div><div class="approach-copy"><p class="large-copy">An effect in a culture dish. A signal in the body. A pattern in patients. What did researchers notice, and what did they make of it?</p><p>This atlas follows those starting points through to established medicine classes. It looks at the observation and the human design that followed: new structures, altered activity, better selectivity, and ways to turn a lead into a treatment.</p><p>It is part of a broader interest in learning from biological and clinical observations, and in judging the evidence well. These histories invite that investigation; they do not, on their own, measure the success rate of a discovery strategy.</p><a class="text-link" href="https://mh-nguyen.cv/portfolio/" target="_blank" rel="noopener">More of Ha’s research <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+
+    <section id="methods" class="methods wrap" aria-labelledby="method-title">
+      <div class="section-heading"><div><p class="eyebrow">BEHIND THE ATLAS</p><h2 id="method-title">A history you can<br><em>look into.</em></h2></div><a href="/medication-origin/atlas.json" download="medicine-origins-snapshot.json" class="text-link download-link">Download the complete inventory <span aria-hidden="true">↓</span></a></div>
+      <div class="method-columns"><article><span class="method-number">01 / DEFINE</span><h3>Start with everyday medicines.</h3><p>The top 150 eligible prescribed medication groups in each of two cohorts: United States, 2024; England, 2025/26. After deduplication, 226 groups map to 115 research classes. Combination products can map to more than one class; supportive sodium chloride and sodium bicarbonate components stay within the macrogol formulation.</p></article><article><span class="method-number">02 / RECONSTRUCT</span><h3>Follow the founding clue.</h3><p>We trace established class lineages using original experiments, discoverer accounts and historical sources. Each account separates the starting observation, the development steps and the later design work. A class can contain distinct branches.</p></article><article><span class="method-number">03 / MAKE VISIBLE</span><h3>Show what the evidence says.</h3><p>Histories link claims to sources, identify how much of a source was read, and retain disagreements and gaps. All 115 histories have author source checks. Final independent review covered metadata and numbers for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every cited passage.</p></article></div>
+      <details class="scope-details"><summary>Complete medicine inventory · 226 groups <span aria-hidden="true">+</span></summary><div id="cohort-inventory" class="scope-details-content"></div></details>
+      <details class="scope-details"><summary>How to read the classifications <span aria-hidden="true">+</span></summary><div class="scope-details-content"><p><strong>Nature-inspired biological inspiration / observation-led</strong> means a specific observed functional clue opened the traced development path. The clue may come from nature, human biology, patients, or an already working synthetic compound. Knowing that a biological target exists is not sufficient on its own.</p><p><strong>Design from scratch</strong> requires positive historical evidence that the relevant functional form was rationally designed without such a working precedent. A synthetic manufacturing route does not establish that origin. Planned screening can still be observation-led.</p><p><strong>Documented</strong> and <strong>inferred</strong> distinguish direct historical support from a bounded interpretation. Observation-led discovery and serendipity are separate dimensions. Later substantial chemical design stays visible in both.</p><p>These are class histories, not individual histories for every later medicine. The cohort is selected, all 115 class records are collected, and shared lineages are not independent discovery events. Prescription versions are included with OTC overlap recorded where assessed; the site is not prescribing guidance.</p><div id="cohort-sources" class="cohort-sources"></div></div></details>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><a class="footer-title" href="#">Where medicines begin.</a><p>An open question. A traceable history.<br><span id="footer-snapshot">Complete class inventory.</span></p><a href="https://mh-nguyen.cv/" target="_blank" rel="noopener">A project by Ha Nguyen ↗</a></footer>
+  <section id="history-page" class="reading-page" aria-labelledby="history-title" hidden><div class="dialog-toolbar"><button id="close-history" class="back-button">← Back to the atlas</button><div><span class="reading-label">CLASS HISTORY</span><button id="copy-link" class="small-button">Copy link ↗</button></div></div><article id="history-content"></article></section>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript-note">Enable JavaScript to search the atlas and open its histories. The complete research snapshot is also available as <a href="/medication-origin/atlas.json">JSON data</a>.</div></noscript>
+</body>
+</html>
