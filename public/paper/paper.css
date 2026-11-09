@@ -24,7 +24,8 @@ a{text-decoration:none;transition:color .2s ease}
   --rule:rgba(127,170,245,.11);--head-rule:rgba(127,180,245,.4);--mline:rgba(127,170,245,.3);
   --tape:rgba(243,232,205,.17);--hole:#050a18;--line-soft:rgba(127,170,245,.16);
   --sheet-shadow:0 40px 90px -40px rgba(0,0,0,.9),0 0 0 1px rgba(255,255,255,.04);
-  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .85 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --paper-under:#0c1631;--sheet-shadow-under:0 40px 90px -40px rgba(0,0,0,.9),0 0 0 1px rgba(199,199,199,.04);
+  --grain:image-set(url("/paper/grain-dark.png") 1x,url("/paper/grain-dark@2x.png") 2x);
 }
 :root[data-theme="light"]{color-scheme:light;
   --desk:#d8d1c1;--paper:#fbf6ea;--card:#fffdf7;
@@ -33,7 +34,8 @@ a{text-decoration:none;transition:color .2s ease}
   --rule:rgba(39,71,168,.17);--head-rule:rgba(39,71,168,.45);--mline:rgba(39,71,168,.3);
   --tape:rgba(226,206,140,.62);--hole:#d8d1c1;--line-soft:rgba(0,0,0,.09);
   --sheet-shadow:0 30px 70px -36px rgba(60,48,20,.45),0 0 0 1px rgba(0,0,0,.05);
-  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .15 0 0 0 .11 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --paper-under:#c4c0b7;--sheet-shadow-under:0 30px 70px -36px rgba(47,37,16,.45),0 0 0 1px rgba(0,0,0,.05);
+  --grain:image-set(url("/paper/grain-light.png") 1x,url("/paper/grain-light@2x.png") 2x);
 }
 body{background:var(--desk);color:var(--text)}
 a{color:var(--text)}
@@ -45,7 +47,10 @@ a{color:var(--text)}
   background-color:var(--paper);
   background-image:var(--grain),repeating-linear-gradient(180deg,transparent 0 20px,var(--rule) 20px 21px,transparent 21px var(--R));
   border-radius:2px 5px 5px 2px;box-shadow:var(--sheet-shadow)}
-.sheet::after{content:'';position:absolute;inset:7px -6px -7px 5px;z-index:-1;background:var(--paper);filter:brightness(.78);border-radius:inherit;box-shadow:var(--sheet-shadow)}
+/* The sheet beneath is the paper at brightness(.78), precomputed, and the grain is a bitmap of an
+   feTurbulence tile: WebKit repaints a filter over the page's whole length on the CPU, and Safari
+   scrolled and loaded with lag. */
+.sheet::after{content:'';position:absolute;inset:7px -6px -7px 5px;z-index:-1;background:var(--paper-under);border-radius:inherit;box-shadow:var(--sheet-shadow-under)}
 .sheet a{text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:4px}
 .sheet a:hover{color:var(--gold)}
 .holes{position:absolute;left:0;top:0;bottom:0;width:40px;pointer-events:none;
@@ -248,35 +253,29 @@ html.static .circ path,html.static .ul path{animation:none;stroke-dashoffset:0}
 :root.js:not([data-volume]):active-view-transition-type(paper-back) .sheet,
 :root.js:not([data-volume]):active-view-transition-type(paper-forward) .sheet,
 :root:not([data-volume])[data-paper-motion] .sheet{view-transition-name:paper-front}
-/* Inside a volume the page before and the page after carry separate names, so each snapshot keeps
-   its own place: a catalogue scrolled far down and an entry at its top are different geometries. */
-:root[data-volume="tome"][data-paper-local][data-paper-phase="old"] .sheet{view-transition-name:paper-turn-old}
-:root[data-volume="tome"][data-paper-local][data-paper-phase="new"] .sheet{view-transition-name:paper-turn-new}
+/* A captured sheet is its own stacking context, where the sheet beneath (z-index -1) would paint
+   over the paper and dim the whole page as it turns. */
+:root.js:not([data-volume]):active-view-transition-type(paper-back) .sheet::after,
+:root.js:not([data-volume]):active-view-transition-type(paper-forward) .sheet::after,
+:root:not([data-volume])[data-paper-motion] .sheet::after{display:none}
 ::view-transition{pointer-events:none}
 ::view-transition-group(root){animation:none;transform:none}
 ::view-transition-old(root),::view-transition-new(root){animation:none;transform:none;mix-blend-mode:normal}
 ::view-transition-old(root){opacity:0}
 ::view-transition-new(root){opacity:1}
 ::view-transition-group(paper-front){animation:none;z-index:10}
-/* The still page lies under the trailing leaves (z-index 5); the turning page lies over them. */
-::view-transition-group(paper-turn-old),::view-transition-group(paper-turn-new){animation:none;z-index:1}
-:root[data-paper-motion="forward"]::view-transition-group(paper-turn-old),
-:root[data-paper-motion="back"]::view-transition-group(paper-turn-new){z-index:10}
 ::view-transition-image-pair(paper-front){isolation:auto}
-::view-transition-old(paper-front),::view-transition-new(paper-front),
-::view-transition-old(paper-turn-old),::view-transition-new(paper-turn-new){
+::view-transition-old(paper-front),::view-transition-new(paper-front){
   animation:none;mix-blend-mode:normal;transform-origin:0 50%;backface-visibility:hidden;
 }
-::view-transition-old(paper-front),::view-transition-old(paper-turn-old){transform-origin:0 var(--paper-old-hinge,50%)}
-::view-transition-new(paper-front),::view-transition-new(paper-turn-new){transform-origin:0 var(--paper-new-hinge,50%)}
+::view-transition-old(paper-front){transform-origin:0 var(--paper-old-hinge,50%)}
+::view-transition-new(paper-front){transform-origin:0 var(--paper-new-hinge,50%)}
 :root:active-view-transition-type(paper-forward)::view-transition-old(paper-front),
-:root[data-paper-motion="forward"]::view-transition-old(paper-front),
-:root[data-paper-motion="forward"]::view-transition-old(paper-turn-old){
+:root[data-paper-motion="forward"]::view-transition-old(paper-front){
   z-index:2;animation:paper-turn-away var(--paper-duration) var(--paper-ease) both;
 }
 :root:active-view-transition-type(paper-back)::view-transition-new(paper-front),
-:root[data-paper-motion="back"]::view-transition-new(paper-front),
-:root[data-paper-motion="back"]::view-transition-new(paper-turn-new){
+:root[data-paper-motion="back"]::view-transition-new(paper-front){
   z-index:2;animation:paper-turn-in var(--paper-duration) var(--paper-ease) both;
 }
 /* Only the front sheet turns over a volume. Its photographs remain in root. */
@@ -284,7 +283,22 @@ html.static .circ path,html.static .ul path{animation:none;stroke-dashoffset:0}
 :root[data-paper-motion="back"]::view-transition-new(root){opacity:0}
 :root.js:not([data-volume]):active-view-transition-type(paper-back)::view-transition-old(root){opacity:1}
 :root.js:not([data-volume]):active-view-transition-type(paper-back)::view-transition-new(root){opacity:0}
-:root[data-volume="tome"][data-paper-motion="back"]::view-transition-new(root){opacity:1}
+/* Inside a volume the page turns as the root snapshots, one viewport each, whatever the page's
+   length: a whole catalogue as one snapshot passes WebKit's 16,384-device-pixel texture limit and
+   stalls. The turning snapshot is cropped to the sheet's column and hinged at its spine, so a
+   catalogue scrolled far down and an entry at its top each turn where they were seen. The still
+   page lies under the trailing leaves (z-index 5); the turning page lies over them. */
+:root[data-paper-local]::view-transition-image-pair(root){isolation:auto}
+:root[data-paper-local]::view-transition-old(root),
+:root[data-paper-local]::view-transition-new(root){opacity:1;z-index:1}
+:root[data-paper-local][data-paper-motion="forward"]::view-transition-old(root){
+  z-index:10;clip-path:var(--paper-old-page);transform-origin:var(--paper-old-spine);backface-visibility:hidden;
+  animation:paper-turn-away var(--paper-duration) var(--paper-ease) both;
+}
+:root[data-paper-local][data-paper-motion="back"]::view-transition-new(root){
+  z-index:10;clip-path:var(--paper-new-page);transform-origin:var(--paper-new-spine);backface-visibility:hidden;
+  animation:paper-turn-in var(--paper-duration) var(--paper-ease) both;
+}
 /* Language editions occupy the same plane, with no geometric interpolation. */
 :root[data-paper-motion="language"]::view-transition-old(root){opacity:1;animation:paper-fade-out 220ms ease both}
 :root[data-paper-motion="language"]::view-transition-new(root){opacity:1;animation:paper-fade-in 220ms ease both}

@@ -160,12 +160,23 @@
     delete root.dataset.paperMotion;
     delete root.dataset.paperWeight;
     delete root.dataset.paperLocal;
-    delete root.dataset.paperPhase;
-    root.style.removeProperty('--paper-old-hinge');
-    root.style.removeProperty('--paper-new-hinge');
+    for (const name of ['--paper-old-hinge', '--paper-new-hinge', '--paper-old-page', '--paper-new-page', '--paper-old-spine', '--paper-new-spine'])
+      root.style.removeProperty(name);
     leaves?.remove(); leaves = null;
   }
   const hinge = () => `${innerHeight / 2 - (sheet()?.getBoundingClientRect().top || 0)}px`;
+  // The sheet as seen in the viewport: the crop and spine of a root snapshot turning as a page.
+  function column(phase) {
+    const bounds = sheet()?.getBoundingClientRect();
+    if (!bounds) return;
+    const left = Math.max(0, bounds.left);
+    root.style.setProperty(`--paper-${phase}-page`,
+      `inset(${Math.max(0, bounds.top)}px max(0px, calc(100% - ${bounds.right}px)) max(0px, calc(100% - ${bounds.bottom}px)) ${left}px)`);
+    root.style.setProperty(`--paper-${phase}-spine`, `${left}px ${innerHeight / 2}px`);
+  }
+  // The front sheet turns between pages as one snapshot. Past WebKit's 16,384-device-pixel texture
+  // limit (shadow included) that turn would stall, so the page changes plainly and a volume opens its cover.
+  const tooTall = () => (sheet()?.offsetHeight || 0) + 200 > 16384 / devicePixelRatio;
   // The page under a turn is already printed: what is in view shows at once, without the reveal fade.
   function printed() {
     for (const element of document.querySelectorAll('.reveal:not(.in)')) {
@@ -304,7 +315,7 @@
       from: location.href, to: event.activation.entry.url, info, oldHinge: hinge(), time: Date.now()
     }));
     if (!event.viewTransition) return;
-    if (!info || still()) { event.viewTransition.skipTransition(); return; }
+    if (!info || still() || (info.direction === 'forward' && tooTall())) { event.viewTransition.skipTransition(); return; }
     root.style.setProperty('--paper-old-hinge', hinge());
     watch(event.viewTransition, info);
   });
@@ -317,7 +328,7 @@
     if (event.viewTransition) {
       removeCover();
       if (volume) write(seenKey, '1');
-      if (!info || still()) { event.viewTransition.skipTransition(); return; }
+      if (!info || still() || (info.direction === 'back' && tooTall())) { event.viewTransition.skipTransition(); return; }
       root.style.setProperty('--paper-old-hinge', arrival?.oldHinge || hinge());
       root.style.setProperty('--paper-new-hinge', hinge());
       watch(event.viewTransition, info);
@@ -355,14 +366,12 @@
       }
       const info = { direction: direction === 'back' ? 'back' : 'forward', weight: volume || 'tome' };
       setMotion(info, true);
-      root.dataset.paperPhase = 'old';
-      root.style.setProperty('--paper-old-hinge', hinge());
+      column('old');
       let updated = false;
       const apply = () => { if (!updated) { updated = true; update(); } };
       try {
         const transition = document.startViewTransition(() => {
-          apply(); root.dataset.paperPhase = 'new';
-          root.style.setProperty('--paper-new-hinge', hinge()); printed(); makeLeaves();
+          apply(); column('new'); printed(); makeLeaves();
         });
         watch(transition, info, true);
         // No caller waits for ready/finished; update, focus and scroll occur in
