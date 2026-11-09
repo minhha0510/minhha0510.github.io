@@ -845,3 +845,8 @@ main {
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 
 main { padding: 2rem 0; }
+
+/* Display serif shared with the Medication Origins Atlas. */
+@font-face{font-family:'Instrument Serif';font-style:normal;font-weight:400;font-display:swap;src:url('/fonts/instrument-serif-regular.ttf') format('truetype')}
+@font-face{font-family:'Instrument Serif';font-style:italic;font-weight:400;font-display:swap;src:url('/fonts/instrument-serif-italic.ttf') format('truetype')}
+:root{--font-display:'Instrument Serif',Georgia,'Times New Roman',serif}
