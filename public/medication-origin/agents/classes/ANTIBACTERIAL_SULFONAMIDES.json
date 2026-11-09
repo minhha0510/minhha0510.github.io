@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ANTIBACTERIAL_SULFONAMIDES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ANTIBACTERIAL_SULFONAMIDES",
+    "name": "Antibacterial sulfonamides",
+    "medicines": [
+      "sulfamethoxazole"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "sulfamethoxazole + trimethoprim",
+        "components": [
+          "sulfamethoxazole",
+          "trimethoprim"
+        ],
+        "usRank": 130,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A planned search for antistreptococcal agents yielded the observation that Prontosil, a synthetic sulfonamide-containing azo dye, protected experimentally infected animals. Domagk's 1935 indexed abstract reports mouse survival after treatment; Bickel's history says its publication prompted the Pasteur group's investigations of related compounds. The antibacterial intention preceded the result, but the observed in-vivo effect supplied a working lead for subsequent development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E6",
+        "E4",
+        "E1",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "The relevant observations were protection of infected animals by the synthetic dye Prontosil and subsequent therapeutic activity of the colorless compound sulfanilamide. Under Ha's broad definition, observing and developing these biological effects counts as nature-inspired biological inspiration; it does not imply that the molecules or their scaffold were isolated from nature.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E6",
+        "E7",
+        "E10",
+        "E11"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Bickel describes a planned antistreptococcal screen of dyes and heavy-metal compounds. The reported protective effect of Prontosil in infected mice was an observed result of that search, not the same event as deciding to screen; Domagk's indexed 1935 abstract also reports survival of treated infected mice.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Bickel says Domagk's publication prompted the Pasteur group's work on related compounds. The reproduced opening and closing fragments of their 1935 report connect that work with the therapeutic activity of a simple colorless non-dye compound; Domagk retrospectively credits the group with the first publication of sulfanilamide's therapeutic activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E10",
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Bickel, citing Bovet, says the Pasteur group proposed metabolic cleavage after demonstrating sulfanilamide activity. He attributes later analytical identification of conjugated sulfanilamide in urine from Prontosil-treated patients and mice to Fuller in 1937; that analytical original was not read here. The 1935 proposal and the later analytical evidence are distinct.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Gray, Buttle and Stephenson explicitly state in 1937 that the prior sulfanilamide mouse-protection finding led them to investigate related compounds. They report qualifications on measured differences and toxicity, so their study is evidence of derivative research, not universal superiority.",
+        "support": "documented",
+        "evidence_ids": [
+          "E11",
+          "E12"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Further chemistry included heterocyclic substitution and compounds with different antibacterial properties, as Domagk retrospectively describes. Such changes could affect activity or spectrum and are not necessarily mere formulation or delivery optimization.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "Bickel places the Woods and Fildes account of antagonism involving para-aminobenzoic acid in 1940, after the founding observations and early derivative work. The later mechanism should not be presented as the original design rationale.",
+        "support": "documented",
+        "evidence_ids": [
+          "E15"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers planned and performed biological screens, investigated dye-related structures and the simpler active sulfanilamide, and made and compared later derivatives, including heterocyclic substitutions. These are deliberate experimental and chemical contributions following or testing observed activity; structural changes can alter antibacterial properties and are not confined to delivery. The sources here do not establish the particular design route of sulfamethoxazole.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E7",
+        "E10",
+        "E11",
+        "E12",
+        "E3"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "This value is scoped to the founding antistreptococcal screening program described by Bickel, not to every later experiment. For the separate Pasteur sulfanilamide test, Bickel attributes a deliberate primary aim to Bovet, whereas Christensen describes an accidental test and surprise; the available fragments do not resolve that disagreement. A surprising result can coexist with a planned test, but that possibility does not resolve why this test was performed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E8",
+        "E13"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Domagk G. Further progress in chemotherapy of bacterial infections. Nobel Lecture, 12 December 1947. Opening unnumbered PDF page before printed p. 491; printed pp. 492–493.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/domagk-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Bickel MH. The Development of Sulfonamides (1932–1938) as a Focal Point in the History of Chemotherapy. Gesnerus. 1988;45:67–86. DOI 10.1163/22977953-04501006; archive DOI 10.5169/seals-520997; PMID 3042521. Relevant sections read in indexed PDF OCR.",
+        "url": "https://brill.com/downloadpdf/journals/ges/45/1/article-p67_6.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Gray WH, Buttle GAH, Stephenson D. Derivatives of p-aminobenzenesulphonamide in the treatment of streptococcal infection in mice. Biochem J. 1937;31(5):724–730. DOI 10.1042/bj0310724; PMID 16746391. Relevant sections read in indexed primary text.",
+        "url": "https://portlandpress.com/biochemj/article-pdf/31/5/724/793027/bj0310724.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Domagk G. Ein Beitrag zur Chemotherapie der bakteriellen Infektionen. Dtsch Med Wochenschr. 1935;61(7):250–253. DOI 10.1055/s-0028-1129486. Abstract as indexed by OpenAlex.",
+        "url": "https://doi.org/10.1055/s-0028-1129486",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Tréfouël J, Mme J Tréfouël, Nitti F, Bovet D. Activité du p-aminophénylsulfamide sur les infections streptococciques expérimentales de la souris et du lapin. C R Séances Soc Biol. 1935;120:756–758. Only the heading and first and last paragraphs as reproduced in Bickel 1988, Fig. 1, p. 73, were read in indexed OCR.",
+        "url": "https://brill.com/downloadpdf/journals/ges/45/1/article-p67_6.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Christensen SB. Drugs That Changed Society: History and Current Status of the Early Antibiotics: Salvarsan, Sulfonamides, and β-Lactams. Molecules. 2021;26(19):6057. DOI 10.3390/molecules26196057; PMCID PMC8512414.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8512414/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "PDF page 1, unnumbered page immediately before printed p. 491, opening curative-action paragraph."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "PDF page 3, printed p. 492, second paragraph, colorless compound."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "PDF page 4, printed p. 493, opening paragraph, heterocyclic derivatives."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "1935 German abstract reconstructed from the preserved OpenAlex inverted index, second sentence."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Printed pp. 68–69, section II, first paragraph."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Printed p. 69, section II, numbered summary point 3."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "Printed pp. 70–71, section III, first paragraphs."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S2",
+        "locator": "Printed pp. 73–74, section IV, opening paragraph."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S2",
+        "locator": "Printed p. 74, section IV, paragraphs on Colebrook, Kellner, Fuller, and Domagk."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "Bickel 1988, Fig. 1, printed p. 73: first and last paragraphs of the 1935 original, indexed OCR only."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S3",
+        "locator": "Printed p. 724, opening paragraph."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S3",
+        "locator": "Printed pp. 724–725, results discussion and Table II footnote."
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S6",
+        "locator": "Section 3.1, paragraph immediately after Fig. 2; local full-text XML."
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S2",
+        "locator": "Printed p. 70, final paragraph of section II, on independent follow-up."
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S2",
+        "locator": "Printed pp. 75–76, paragraph on mechanism of action."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/domagk-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://portlandpress.com/biochemj/article-pdf/31/5/724/793027/bj0310724.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1055/s-0028-1129486",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://brill.com/downloadpdf/journals/ges/45/1/article-p67_6.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "This is the founding history of antibacterial sulfonamides, the established class containing cohort member sulfamethoxazole; it does not reconstruct every later analogue or assert the precise discovery history of sulfamethoxazole. Glucose-lowering sulfonylureas are outside the assigned boundary.",
+      "S4 is an indexed abstract, not the complete 1935 Domagk original. For S5, the schema's access_status 'read' and relevant_full_text_sections mean only the first and last original paragraphs reproduced in Bickel's figure and read as indexed OCR; the experimental middle and entire standalone paper were not read.",
+      "S2 and S5 are not independent observations of the Pasteur fragments: S5 is reproduced within S2. The later N-substituted examples demonstrate diverse chemical development but do not establish a separate design-from-scratch founding branch."
+    ],
+    "conflicts": [
+      "For the later Pasteur sulfanilamide test, Christensen reports accidental testing and surprise; Bickel attributes a deliberate aim to demonstrate its activity to Bovet's personal communication. The available original fragments do not adjudicate test motivation or the precise order of the metabolic hypothesis.",
+      "Domagk retrospectively credits the Pasteur group with first publication of therapeutic activity for the colorless compound while describing independent German experiments then unpublished. This report of unpublished work does not by itself establish a competing prior therapeutic discovery. Bickel also reports a later dispute about metabolic conversion; the relevant original reports were not read here.",
+      "Bickel reports that French follow-up teams found strain-dependent and variable Prontosil effects, unlike aspects of the initial account, and reports later criticism of follow-up and early clinical data. Their primary reports were not read here; the discrepancy does not erase the documented observation that prompted development."
+    ],
+    "gaps": [
+      "The full 1935 Domagk article, the experimental middle and full text of the 1935 Pasteur report, the underlying Bovet personal communication and relevant contemporary laboratory records were not read; these gaps limit reconstruction of the test's motivation and priority.",
+      "Fuller's 1937 analytical paper was not read directly; the described urine findings and their timing are attributed to Bickel. The specific later development of sulfamethoxazole was not traced, consistent with the class-level scope."
+    ]
+  },
+  "nameAliases": [
+    "Bactrim",
+    "Sulfatrim"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ANTIBACTERIAL_SULFONAMIDES",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E5",
+        "citation": "Bickel MH. The Development of Sulfonamides (1932–1938) as a Focal Point in the History of Chemotherapy. Gesnerus. 1988;45:67–86. DOI 10.1163/22977953-04501006; archive DOI 10.5169/seals-520997; PMID 3042521. Relevant sections read in indexed PDF OCR.",
+        "url": "https://brill.com/downloadpdf/journals/ges/45/1/article-p67_6.pdf",
+        "locator": "Printed pp. 68–69, section II, first paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Bickel MH. The Development of Sulfonamides (1932–1938) as a Focal Point in the History of Chemotherapy. Gesnerus. 1988;45:67–86. DOI 10.1163/22977953-04501006; archive DOI 10.5169/seals-520997; PMID 3042521. Relevant sections read in indexed PDF OCR.",
+        "url": "https://brill.com/downloadpdf/journals/ges/45/1/article-p67_6.pdf",
+        "locator": "Printed p. 69, section II, numbered summary point 3.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Domagk G. Ein Beitrag zur Chemotherapie der bakteriellen Infektionen. Dtsch Med Wochenschr. 1935;61(7):250–253. DOI 10.1055/s-0028-1129486. Abstract as indexed by OpenAlex.",
+        "url": "https://doi.org/10.1055/s-0028-1129486",
+        "locator": "1935 German abstract reconstructed from the preserved OpenAlex inverted index, second sentence.",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E1",
+        "citation": "Domagk G. Further progress in chemotherapy of bacterial infections. Nobel Lecture, 12 December 1947. Opening unnumbered PDF page before printed p. 491; printed pp. 492–493.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/domagk-lecture.pdf",
+        "locator": "PDF page 1, unnumbered page immediately before printed p. 491, opening curative-action paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Bickel MH. The Development of Sulfonamides (1932–1938) as a Focal Point in the History of Chemotherapy. Gesnerus. 1988;45:67–86. DOI 10.1163/22977953-04501006; archive DOI 10.5169/seals-520997; PMID 3042521. Relevant sections read in indexed PDF OCR.",
+        "url": "https://brill.com/downloadpdf/journals/ges/45/1/article-p67_6.pdf",
+        "locator": "Printed pp. 70–71, section III, first paragraphs.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

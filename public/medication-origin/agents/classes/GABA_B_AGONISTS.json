@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/GABA_B_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "GABA_B_AGONISTS",
+    "name": "GABA-B receptor agonists",
+    "medicines": [
+      "baclofen"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "baclofen",
+        "components": [
+          "baclofen"
+        ],
+        "usRank": 106,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Before the reported 1962 synthesis, GABA had been observed to depress spinal-neuron excitability. Retrospective accounts describe the synthesis of a GABA derivative intended for central inhibition and improved brain access, and explicitly link later antispastic introduction to expected mimicry of endogenous GABA; a contemporary clinical paper discusses GABA's spinal inhibitory effects when introducing baclofen. These observations support an inferred development from GABA's known inhibitory biology; they do not identify the particular experiment or conference content that triggered Keberle's synthesis.",
+      "support": "inferred_from_source_observation",
+      "evidence_ids": [
+        "E1",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "inferred_from_source_observation",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Endogenous GABA and its observed inhibitory physiological effects; the specific experiment and conference content that informed Keberle remain unestablished.",
+      "support": "inferred_from_source_observation",
+      "evidence_ids": [
+        "E1",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Curtis recalls that experiments beginning in 1958 found that applied GABA depressed spinal-neuron excitability, although its role as a spinal inhibitory transmitter was then uncertain.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Retrospective accounts describe synthesis of a GABA analogue intended to access the brain and exert inhibitory action; the inventor's exact initiating observation is not identified.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The 1969 inventor patent describes the chlorophenyl-substituted amino acid family and centrally inhibitory and muscle-relaxant activity; the history also recounts development toward antispastic use.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Clinical investigators discussed GABA's inhibitory effects on spinal neurons and reflexes when introducing baclofen; a 1971 placebo-controlled crossover trial reported greater improvement with the derivative.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E10"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Subsequent physiological testing associated baclofen with a bicuculline-insensitive GABA response, and the group named the receptor GABA-B in 1981.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Chemists synthesized a beta-para-chlorophenyl derivative of GABA with the aim of enabling central activity; the realized extent of brain penetration is separate from that aim.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The described deliberate stage is the synthesis of GABA derivatives intended for central inhibitory activity, not a claim that all subsequent findings were planned.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Carai MAM. Historical Overview on Baclofen, the Only GABAB Receptor Agonist Approved and Available for Clinical Use. In: Colombo G, ed. GABAB Receptor. 2024:61–87. doi:10.1007/978-3-031-67148-7_3.",
+        "url": "https://pure.amsterdamumc.nl/files/141582078/Baclofen-for-the-treatment-of-spasticity-and-dystonia-in-cerebral-palsy.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Keberle H, Faigle JW, Wilhelm M. Gamma-amino-beta-(para-halophenyl)-butyric acids and their esters. US patent US3471548A; issued 1969.",
+        "url": "https://patents.google.com/patent/US3471548A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Bowery NG. Historical perspective and emergence of the GABAB receptor. Adv Pharmacol. 2010;58:1–18. doi:10.1016/S1054-3589(10)58001-3. PMID:20655476.",
+        "url": "https://doi.org/10.1016/S1054-3589(10)58001-3",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Florey E, McLennan H. The effects of Factor I and of gamma-aminobutyric acid on smooth muscle preparations. J Physiol. 1959;145(1):66–76. doi:10.1113/jphysiol.1959.sp006127. PMID:13621421.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1356940/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Hudgson P, Weightman D. Baclofen in the treatment of spasticity. Br Med J. 1971;4(5778):15–17. doi:10.1136/bmj.4.5778.15. PMID:4938243.",
+        "url": "https://doi.org/10.1136/bmj.4.5778.15",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Bowery NG. GABAB receptors. In: Pangalos MN, Davies CH, eds. Understanding G Protein-Coupled Receptors and Their Role in the CNS. Oxford University Press; 2002:561–585. doi:10.1093/oso/9780198509165.003.0028.",
+        "url": "https://academic.oup.com/book/52876/chapter-abstract/421909693",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Curtis DR. David R. Curtis. In: Squire LR, ed. The History of Neuroscience in Autobiography. Vol 5. Society for Neuroscience; 2006:170–225. doi:10.1016/S1874-6055(06)80027-7.",
+        "url": "https://www.sfn.org/-/media/SfN/Documents/TheHistoryofNeuroscience/Volume-5/c4.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Faigle JW, Keberle H. The chemistry and kinetics of Lioresal. Postgrad Med J. 1972;48 Suppl 5:9–13. PMID:4668367.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4668367/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Bowery NG, Hill DR, Hudson AL, Doble A, Middlemiss DN, Shaw J, Turnbull M. (−)Baclofen decreases neurotransmitter release in the mammalian CNS by an action at a novel GABA receptor. Nature. 1980;283:92–94. doi:10.1038/283092a0. PMID:6243177.",
+        "url": "https://doi.org/10.1038/283092a0",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S10",
+        "citation": "Curtis DR, Phillis JW, Watkins JC. The depression of spinal neurones by gamma-amino-n-butyric acid and beta-alanine. J Physiol. 1959;146(1):185–203. doi:10.1113/jphysiol.1959.sp006188. PMID:13655226.",
+        "url": "https://doi.org/10.1113/jphysiol.1959.sp006188",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 61–62, introduction and historical background; p. 64, footnote 2"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "abstract and description; Example 1"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 66, historical account of experimental and therapeutic development"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "pp. 3–4, Introduction"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "pp. 67 and 74, opening paragraph and Summary point 2"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "pp. 74–75, Discussion and Summary point 5"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "pp. 15–16, Summary, Double-blind Trial and Results"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S6",
+        "locator": "chapter abstract, final sentence"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S7",
+        "locator": "pp. 183–184, account of experiments begun in March 1958; p. 200, Baclofen"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "p. 15, Introduction, paragraph 2"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US3471548A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1016/S1054-3589(10)58001-3",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1356940/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1136/bmj.4.5778.15",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://academic.oup.com/book/52876/chapter-abstract/421909693",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://www.sfn.org/-/media/SfN/Documents/TheHistoryofNeuroscience/Volume-5/c4.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4668367/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://doi.org/10.1038/283092a0",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S10",
+        "url": "https://doi.org/10.1113/jphysiol.1959.sp006188",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This record addresses baclofen, the sole assigned cohort member. The GABA-B receptor was distinguished after the analogue's synthesis and clinical development; later receptor-directed ligands are not separate founding branches for this cohort."
+    ],
+    "conflicts": [
+      "S1 highlights similarity between Factor I and GABA in a 1959 experiment; S4 also reports important differences and rejects explaining all extract activity by GABA content. Similarity is not established identity. The issue does not establish which observations inspired Keberle."
+    ],
+    "gaps": [
+      "The precise observation, experiment, or conference content that prompted Keberle's original 1962 program has not been identified from a direct inventor account. The 1972 inventor article on the chemistry and kinetics of Lioresal (S8) was located by bibliographic metadata but not read; the separate Keberle–Faigle 1972 chapter cited by Bowery was not read either.",
+      "The original 1980 Nature receptor experiment (S9) and 1959 Curtis–Phillis–Watkins spinal-neuron report (S10) were located but not read; their findings are attributed instead to the relevant discoverer retrospectives. S6 is abstract only and S1 was available only in the accessed historical passages."
+    ]
+  },
+  "nameAliases": [
+    "Fleqsuvy",
+    "Gablofen",
+    "Lioresal",
+    "Lyvispah",
+    "Ozobax"
+  ],
+  "humanContributionInterpretation": {
+    "id": "GABA_B_AGONISTS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Carai MAM. Historical Overview on Baclofen, the Only GABAB Receptor Agonist Approved and Available for Clinical Use. In: Colombo G, ed. GABAB Receptor. 2024:61–87. doi:10.1007/978-3-031-67148-7_3.",
+        "url": "https://pure.amsterdamumc.nl/files/141582078/Baclofen-for-the-treatment-of-spasticity-and-dystonia-in-cerebral-palsy.pdf",
+        "locator": "pp. 61–62, introduction and historical background; p. 64, footnote 2",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Bowery NG. GABAB receptors. In: Pangalos MN, Davies CH, eds. Understanding G Protein-Coupled Receptors and Their Role in the CNS. Oxford University Press; 2002:561–585. doi:10.1093/oso/9780198509165.003.0028.",
+        "url": "https://academic.oup.com/book/52876/chapter-abstract/421909693",
+        "locator": "chapter abstract, final sentence",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E9",
+        "citation": "Curtis DR. David R. Curtis. In: Squire LR, ed. The History of Neuroscience in Autobiography. Vol 5. Society for Neuroscience; 2006:170–225. doi:10.1016/S1874-6055(06)80027-7.",
+        "url": "https://www.sfn.org/-/media/SfN/Documents/TheHistoryofNeuroscience/Volume-5/c4.pdf",
+        "locator": "pp. 183–184, account of experiments begun in March 1958; p. 200, Baclofen",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E10",
+        "citation": "Hudgson P, Weightman D. Baclofen in the treatment of spasticity. Br Med J. 1971;4(5778):15–17. doi:10.1136/bmj.4.5778.15. PMID:4938243.",
+        "url": "https://doi.org/10.1136/bmj.4.5778.15",
+        "locator": "p. 15, Introduction, paragraph 2",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

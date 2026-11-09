@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/TRICYCLIC_MUSCLE_RELAXANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "TRICYCLIC_MUSCLE_RELAXANTS",
+    "name": "Tricyclic skeletal muscle relaxants",
+    "medicines": [
+      "cyclobenzaprine"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "cyclobenzaprine",
+        "components": [
+          "cyclobenzaprine"
+        ],
+        "usRank": 49,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Reports of muscle-relaxant effects of existing tricyclic drugs, together with Merck's amitriptyline screening result, prompted screening chemically related compounds; cyclobenzaprine was among those selected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed muscle-relaxant effects or screening results for the synthetic compounds amitriptyline and chlorpromazine led to testing related compounds. Veratramine served as an assay challenge, not a demonstrated therapeutic lead.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Merck initially synthesized and tested cyclobenzaprine for possible mental-health uses, before the muscle-relaxant program.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Observations involving amitriptyline and chlorpromazine prompted testing tricyclic compounds for muscle relaxation; cyclobenzaprine emerged as a lead and was tested in additional animal models.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Share's 1975 patent described muscle-disorder use and formulations of the existing compound, invoking animal comparisons and a selective-action objective; a published report described tests in several animal models. Broad no-behavioral-effects claims were later challenged in litigation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The court reports that US approval followed in 1977, limited to adjunctive treatment of muscle spasm associated with acute painful musculoskeletal conditions.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized a tricyclic compound for a different program, then designed a selective-muscle-relaxant screening strategy, selected the existing compound, performed follow-up animal testing and developed formulations for the new use.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The later screen deliberately sought skeletal muscle-relaxant activity; the court does not establish whether the earlier unrelated pharmacological effects were first found unexpectedly.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Merck & Co., Inc. v. Danbury Pharmacal, Inc., 694 F. Supp. 1 (D. Del. 1988), findings of fact sections I.B–I.G.",
+        "url": "https://law.justia.com/cases/federal/district-courts/FSupp/694/1/1874712/",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Sinha JN, Jaju BP, Srimal RC. Further evidence of central muscle relaxant activity of imipramine, desmethylimipramine and amitriptyline. Jpn J Pharmacol. 1966;16(3):250–256. DOI 10.1254/jjp.16.250; PMID 5298305.",
+        "url": "https://www.jstage.jst.go.jp/article/jphs1951/16/3/16_3_250/_article",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Share NN, inventor. Treatment of skeletal muscle disorders with cyclobenzaprine. US patent 3,882,246, issued May 6, 1975; application filed April 9, 1974, continuation-in-part of earlier applications.",
+        "url": "https://patents.google.com/patent/US3882246A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Merck & Co., Inc. v. Danbury Pharmacal, Inc., 873 F.2d 1418 (Fed. Cir. 1989), appeal decision on inequitable conduct.",
+        "url": "https://www.neochart.com/catalog/cases/f2d/volume_873/1418_01/index.html",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Share NN, McFarlane CS. Cyclobenzaprine: A novel centrally acting skeletal muscle relaxant. Neuropharmacology. 1975;14(9):675–684. DOI 10.1016/0028-3908(75)90091-X; PMID 1178121.",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/002839087590091X",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Findings of fact I.D.1(i), pp. 9–10 and note 14, including Gleason's Jan. 25 sample request, DX 48, and selected compounds, DX 49–50."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Findings of fact I.E.1, pp. 12–14; Share trial testimony and DX 36, 43–50."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Findings of fact I.E.1, pp. 13–15; DX 50 and PX 218–220."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Findings of fact I.B and I.E.1, pp. 6–8 and 12–13."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 255–256, Discussion and Summary; pp. 250–251, Introduction and Methods."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "Cols. 1–2 and 4–5; claims and example 1, patent pp. 2–4."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "Opinion, sections 1(b) and 2, 873 F.2d at 1421–1422."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "Publisher's indexed abstract; full report unread."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S1",
+        "locator": "Introduction and findings of fact I.F and I.H, pp. 4, 17–19 and 23; FDA approval and label, DX 9, 10 and 104."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://www.jstage.jst.go.jp/article/jphs1951/16/3/16_3_250/_pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US3882246A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/002839087590091X",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The assigned class has one cohort member; do not treat all tricyclic antidepressants as muscle relaxants.",
+      "Merck's program and subsequent approval concern this existing cyclobenzaprine lead; do not extrapolate the cited animal activity or acute-spasm indication to every tricyclic, all forms of spasticity, or all patients."
+    ],
+    "conflicts": [
+      "Share testified that he had disregarded Sinha, but the court found the Gleason memo and other contemporaneous documents showed that the Sinha report influenced Merck personnel.",
+      "The memo itself was dated January 25, 1966, but the court reports Merck conceded this was a typographical error and treats the year as 1967.",
+      "The reproduced memo cites the Sinha article as 16:250, 1965, whereas the journal and PubMed identify the paper at 16:250 as 1966. The opinion also cites 1966 elsewhere; the reason for the error is not established.",
+      "The court reports that amitriptyline was active in the initial veratramine test but was rated inactive in the subsequent 23-compound screen; it says the discrepancy is unexplained in the record.",
+      "The patent claims an absence of behavioral effects at its proposed spasm-treatment doses, whereas the court opinions record drowsiness and litigation about the representation of selectivity. The courts did not adjudicate a modern clinical effect size.",
+      "The court reports that Share and McFarlane's 1975 paper omitted amitriptyline data included in the prior underlying comparison. This attribution is from the court, not independently confirmed by reading the full article or laboratory records."
+    ],
+    "gaps": [
+      "The original 1967 screening memoranda and underlying exhibits were read only as quoted or described in the court opinion, not as standalone originals.",
+      "Share and McFarlane's full 1975 paper was inaccessible; only its publisher's search-indexed abstract was read. The original regulatory documents and clinical reports were not independently read.",
+      "The full identity and original text of the Smith publication described in Share's testimony were not established. The exact observation that first caused Share personally to start the program is not resolved beyond his testimony about chlorpromazine; no causal claim is assigned to his personal acceptance of Sinha."
+    ]
+  },
+  "nameAliases": [
+    "Amrix",
+    "Fexmid",
+    "Tonmya"
+  ],
+  "humanContributionInterpretation": {
+    "id": "TRICYCLIC_MUSCLE_RELAXANTS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Merck & Co., Inc. v. Danbury Pharmacal, Inc., 694 F. Supp. 1 (D. Del. 1988), findings of fact sections I.B–I.G.",
+        "url": "https://law.justia.com/cases/federal/district-courts/FSupp/694/1/1874712/",
+        "locator": "Findings of fact I.D.1(i), pp. 9–10 and note 14, including Gleason's Jan. 25 sample request, DX 48, and selected compounds, DX 49–50.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Merck & Co., Inc. v. Danbury Pharmacal, Inc., 694 F. Supp. 1 (D. Del. 1988), findings of fact sections I.B–I.G.",
+        "url": "https://law.justia.com/cases/federal/district-courts/FSupp/694/1/1874712/",
+        "locator": "Findings of fact I.E.1, pp. 12–14; Share trial testimony and DX 36, 43–50.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Sinha JN, Jaju BP, Srimal RC. Further evidence of central muscle relaxant activity of imipramine, desmethylimipramine and amitriptyline. Jpn J Pharmacol. 1966;16(3):250–256. DOI 10.1254/jjp.16.250; PMID 5298305.",
+        "url": "https://www.jstage.jst.go.jp/article/jphs1951/16/3/16_3_250/_article",
+        "locator": "pp. 255–256, Discussion and Summary; pp. 250–251, Introduction and Methods.",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

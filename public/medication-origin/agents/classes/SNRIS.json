@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/SNRIS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "SNRIS",
+    "name": "Serotonin-norepinephrine reuptake inhibitors",
+    "medicines": [
+      "desvenlafaxine",
+      "duloxetine",
+      "venlafaxine"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "desvenlafaxine",
+        "components": [
+          "desvenlafaxine"
+        ],
+        "usRank": 141,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "duloxetine",
+        "components": [
+          "duloxetine"
+        ],
+        "usRank": 34,
+        "englandRank": 48,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "venlafaxine",
+        "components": [
+          "venlafaxine"
+        ],
+        "usRank": 40,
+        "englandRank": 43,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "Basis scope: venlafaxine; Lilly's initiating molecular clue unestablished.",
+    "starting": {
+      "description": "In the venlafaxine branch, the active synthetic analgesic ciramadol provided a structural starting point, and animal screening identified antidepressant-like activity. Documented observation-led support is bounded to this branch. Lilly's selective-inhibitor background and later dual-activity/isomer measurements do not establish that separate program's initiating clue or immediate molecular precursor.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "The documented founding inspiration is the venlafaxine branch's active analgesic scaffold, resemblance to an antidepressant and observed animal activity. Lilly's prior selective inhibitors supply context; its racemate/isomer measurements describe later development rather than a demonstrated initiating clue. Desvenlafaxine is an active metabolite. The immediate Lilly molecular lead remains unestablished.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Wyeth researchers simplified the previously active opioid analgesic ciramadol to a scaffold resembling the antidepressant gamfexine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Venlafaxine showed antidepressant-like activity in animal screens and was developed; the inventors reported dual-uptake activity and comparison with tricyclic antidepressants. The exact assay sequence remains disputed.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E4",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In a parallel Lilly program, inventors described previously investigated selective monoamine-uptake blockers and a novel dual-uptake-inhibiting propanamine series; the Lilly team reported the dual activity of racemic LY227942 in 1988.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Investigators studied the racemate's positive enantiomer LY248686, which inhibited both uptake processes; the later review relates this line of investigation to duloxetine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A subsequent branch developed venlafaxine's active O-desmethyl metabolite as desvenlafaxine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers simplified a chiral analgesic scaffold, synthesized and screened a distinct antidepressant series, and characterized monoamine uptake. In the Lilly branch, chemists made a new aryloxypropanamine series aimed at dual inhibition and pharmacologists studied an active racemate and its individual enantiomers. Development of an active metabolite made a further compound. These are substantive structural and pharmacological choices, not evidence of a natural-product isolate or merely a delivery change.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Scaffold simplification and subsequent chemical/assay work were deliberate stages. The Lilly patent describes the dual uptake effect as unexpected; this reported patent characterization does not establish the first experimental sequence or independently prove an accidental discovery. The later historical review instead describes rational, non-serendipitous development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E11"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Childers WE, Elokely KM, Abou-Gharbia M. 2020. The Resurrection of Phenotypic Drug Discovery. ACS Med Chem Lett 11:1820-1828. DOI 10.1021/acsmedchemlett.0c00006; PMID 33062159.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7549108/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Husbands GEM, Yardley JP, Muth EA. 1985. 2-Phenyl-2-(1-hydroxycycloalkyl or 1-hydroxycycloalk-2-enyl)ethylamine derivatives. US patent 4,535,186; filed 1983-10-26, issued 1985-08-13.",
+        "url": "https://patents.google.com/patent/US4535186A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Yardley JP, Husbands GEM, Stack G, et al. 1990. 2-Phenyl-2-(1-hydroxycycloalkyl)ethylamine derivatives: synthesis and antidepressant activity. J Med Chem 33:2899-2905. DOI 10.1021/jm00172a035; PMID 1976813.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1976813/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Robertson DW, Wong DT, Krushinski JH Jr. 3-Aryloxy-3-substituted propanamines. US Patent 4,956,388, issued 1990; continuation of application filed 1986-12-22.",
+        "url": "https://patents.google.com/patent/US4956388A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Wong DT, Robertson DW, Bymaster FP, Krushinski JH, Reid LR. 1988. LY227942, an inhibitor of serotonin and norepinephrine uptake: biochemical pharmacology of a potential antidepressant drug. Life Sci 43:2049-2057. DOI 10.1016/0024-3205(88)90579-6; PMID 2850421.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2850421/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Wong DT, Bymaster FP, Mayle DA, Reid LR, Krushinski JH, Robertson DW. 1993. LY248686, a new inhibitor of serotonin and norepinephrine uptake. Neuropsychopharmacology 8:23-33. DOI 10.1038/npp.1993.4; PMID 8424846.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8424846/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "López-Muñoz F, D'Ocón P, Romero A, De Berardis D, Álamo C. 2025. Did Serendipity Contribute to the Discovery of New Antidepressant Drugs? Historical Analysis Using Operational Criteria. Alpha Psychiatry 26:40037. DOI 10.31083/AP40037; PMID 40352067.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12059740/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Yardley JP, Fletcher H III, Russell PB. 1978. A potent benzylamine analgesic: (-)cis-2(alpha-dimethylamino-m-hydroxybenzyl)cyclohexanol. Experientia 34:1124-1125. DOI 10.1007/BF01922905; PMID 720500.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/720500/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Venlafaxine paragraph immediately before Figure 1, structural-origin sentences."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Venlafaxine paragraph immediately before Figure 1, animal screening and mechanism sentences."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Biological activity description, uptake-inhibition table, and Example 3, compound A."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "PubMed abstract, full paragraph."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "Background of the Invention and Summary of the Invention, first paragraph of each."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "PubMed and publisher-indexed abstract, first and second sentences and concluding sentence."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "PubMed abstract, first three sentences."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "Section 3.3, PDF p. 5, venlafaxine/desvenlafaxine/duloxetine paragraph."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S7",
+        "locator": "Section 3.3, PDF p. 5, venlafaxine paragraph and immediately following paragraph."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S1",
+        "locator": "Venlafaxine paragraph immediately before Figure 1, final sentences."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "Description, paragraph defining pharmaceutically effective amount, immediately before physiologic-functions paragraph and uptake experiments"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US4535186A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1976813/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/US4956388A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2850421/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8424846/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/720500/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "Venlafaxine's founding history is supported by a retrospective and the inventors' contemporary patent; the 1990 article was read as an abstract only.",
+      "The Lilly patent and original abstracts establish a distinct dual-inhibitor series and racemate/enantiomer experiments. The patent frames their work with previously investigated selective inhibitors but does not identify the immediate molecular precursor or the exact creative sequence.",
+      "Desvenlafaxine's metabolite-development link is from a retrospective review, not a full contemporary development account; do not extend the finding to unstudied SNRIs or claim comparative clinical advantages."
+    ],
+    "conflicts": [
+      "S1 says venlafaxine's uptake mechanism was identified retrospectively after its animal antidepressant activity; S7 describes it as designed to inhibit both uptake processes. S2 and S3 report both assay types without dating their sequence. The exact discovery order remains unresolved, although both accounts describe an observation-led analgesic scaffold.",
+      "S1's suggestion that venlafaxine's favorable patient profile prompted the discovery of duloxetine is not established for the Lilly founding work: the Lilly compound patent's earlier application is dated 1986 and the racemate's dual activity was reported in 1988, before venlafaxine's 1993 approval. This chronology alone does not exclude preapproval clinical observations or settle later development influences.",
+      "S4 calls its compounds’ dual uptake inhibition unexpected, whereas S7 categorizes this family as rational and non-serendipitous. The patent does not reconstruct the initial discovery sequence; reported unexpected activity and planned development can coexist. Actual circumstances of the first Lilly hit remain incompletely reconstructed (E11, E9)."
+    ],
+    "gaps": [
+      "Yardley 1990 and Wong 1988/1993 full articles were inaccessible; their abstracts were read. The exact experimental sequence, early Lilly lead-selection rationale, and detailed desvenlafaxine development decision are not established by the accessible sources.",
+      "The 1978 ciramadol analgesic report and 1967 gamfexine review cited by S1 were located but not read; their details are not independent corroboration."
+    ]
+  },
+  "nameAliases": [
+    "Cymbalta",
+    "Drizalma",
+    "Effexor",
+    "Irenka",
+    "Khedezla",
+    "Pristiq"
+  ],
+  "humanContributionInterpretation": {
+    "id": "SNRIS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "The class continues the clinically motivated antidepressant reuptake programme: the Wyeth patent compares TCAs and their undesirable properties; the Lilly patent explicitly builds on selective uptake inhibitors under clinical investigation.",
+    "scope": "Included through documented inherited therapeutic rationale. Venlafaxine and duloxetine have distinct molecular routes; this classification does not establish a new patient-discovery event for each successor or universal chemical descent from SSRIs.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Husbands GEM, Yardley JP, Muth EA. 1985. 2-Phenyl-2-(1-hydroxycycloalkyl or 1-hydroxycycloalk-2-enyl)ethylamine derivatives. US patent 4,535,186; filed 1983-10-26, issued 1985-08-13.",
+        "url": "https://patents.google.com/patent/US4535186A/en",
+        "locator": "Biological activity description, uptake-inhibition table, and Example 3, compound A.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Robertson DW, Wong DT, Krushinski JH Jr. 3-Aryloxy-3-substituted propanamines. US Patent 4,956,388, issued 1990; continuation of application filed 1986-12-22.",
+        "url": "https://patents.google.com/patent/US4956388A/en",
+        "locator": "Background of the Invention and Summary of the Invention, first paragraph of each.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "R6",
+        "citation": "Husbands GEM, Yardley JP, Muth EA. 1985. 2-Phenyl-2-(1-hydroxycycloalkyl or 1-hydroxycycloalk-2-enyl)ethylamine derivatives. US patent 4,535,186; filed 1983-10-26, issued 1985-08-13.",
+        "url": "https://patents.google.com/patent/US4535186A/en",
+        "locator": "US4535186A, description, biological activity and comparator discussion, paragraphs corresponding to Google Patents HTML lines 383-411",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

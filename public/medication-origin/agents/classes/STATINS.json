@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/STATINS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "STATINS",
+    "name": "Statins (HMG-CoA reductase inhibitors)",
+    "medicines": [
+      "atorvastatin",
+      "pravastatin",
+      "rosuvastatin",
+      "simvastatin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "atorvastatin",
+        "components": [
+          "atorvastatin"
+        ],
+        "usRank": 1,
+        "englandRank": 1,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "pravastatin",
+        "components": [
+          "pravastatin"
+        ],
+        "usRank": 61,
+        "englandRank": 120,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "rosuvastatin",
+        "components": [
+          "rosuvastatin"
+        ],
+        "usRank": 9,
+        "englandRank": 38,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "simvastatin",
+        "components": [
+          "simvastatin"
+        ],
+        "usRank": 26,
+        "englandRank": 23,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Cholesterol/disease biology motivated a deliberate microbial-inhibitor search. Observed inhibition of cholesterol synthesis by fungal ML-236 metabolites supplied the working lead from which the statin class developed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Fungal metabolites with observed cholesterol-synthesis inhibition, within a pathway/disease-motivated investigation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The investigators sought microbial substances that specifically inhibited cholesterol synthesis.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The search yielded ML-236 metabolites from Penicillium citrinum, opening the fungal statin lineage.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The class later included semisynthetic and synthetic members, preserving its founding natural-product ancestry at class level.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Endo identifies lovastatin's 1987 approval as the first commercial statin, followed by the later members summarized in the conclusion.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E3",
+          "E4"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Development established natural, semisynthetic and wholly synthetic later statins. Those chemical routes are later contributions within the observation-led class; this bounded record does not reconstruct each analogue's modifications.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The documented microbial search deliberately sought inhibitors of cholesterol synthesis. The selected passages do not establish an accidental class-founding finding.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Endo A, Kuroda M, Tsujita Y. 1976. ML-236A, ML-236B, and ML-236C, new inhibitors of cholesterogenesis produced by Penicillium citrinum. DOI 10.7164/antibiotics.29.1346; PMID 1010803.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1010803/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Endo A. 2010. A historical perspective on the discovery of statins. DOI 10.2183/pjab.86.484.",
+        "url": "https://doi.org/10.2183/pjab.86.484",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Alberts AW et al. 1980. Mevinolin: a highly potent competitive inhibitor of hydroxymethylglutaryl-coenzyme A reductase and a cholesterol-lowering agent. DOI 10.1073/pnas.77.7.3957; PMID 6933445.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6933445/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p.1346, opening paragraph; line wrap normalized"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p.1346, opening paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p.490, conclusion; line-wrap hyphenation normalized"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p.490, conclusion"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p.490, clinical development, immediately before conclusion"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1010803/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.2183/pjab.86.484",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6933445/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The founding fungal activity/lead is the class-history unit. This is not a claim that every later statin was isolated from a fungus or shares an unchanged natural structure.",
+      "The disease/pathway rationale is contextual; no historical epidemiological effect estimate is independently evaluated here.",
+      "Multiple synthetic/semisynthetic manufacturing and medicinal-chemistry routes do not by themselves make the discovery basis mixed."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The mevinolin1980 original was read at abstract extent only. This bounded reconciliation does not adjudicate every early priority claim or individual analogue chemistry."
+    ]
+  },
+  "nameAliases": [
+    "Atorvaliq",
+    "Crestor",
+    "Ezallor",
+    "Flolipid",
+    "Lipitor",
+    "Pravachol",
+    "Zocor"
+  ],
+  "humanContributionInterpretation": {
+    "id": "STATINS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Human cholesterol-disease evidence supplied a therapeutic rationale for cholesterol lowering; Endo explicitly names Framingham and describes the resulting search for inhibitors.",
+    "scope": "Population evidence supplied the rationale; fungal screening supplied the molecular lead. Framingham was a contributor, not the sole discovery event.",
+    "references": [
+      {
+        "id": "R3",
+        "citation": "Endo A, Kuroda M, Tsujita Y. 1976. ML-236A, ML-236B, and ML-236C, new inhibitors of cholesterogenesis produced by Penicillium citrinum. DOI 10.7164/antibiotics.29.1346; PMID 1010803.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1010803/",
+        "locator": "Endo, Kuroda and Tsujita 1976, p. 1346, first two opening paragraphs",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "R4",
+        "citation": "Endo A. 2010. A historical perspective on the discovery of statins. DOI 10.2183/pjab.86.484.",
+        "url": "https://doi.org/10.2183/pjab.86.484",
+        "locator": "Endo 2010, Milestones on the road to the development of the statins, Epidemiologic studies; and Searching for cholesterol synthesis inhibitors",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E1",
+        "citation": "Endo A, Kuroda M, Tsujita Y. 1976. ML-236A, ML-236B, and ML-236C, new inhibitors of cholesterogenesis produced by Penicillium citrinum. DOI 10.7164/antibiotics.29.1346; PMID 1010803.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1010803/",
+        "locator": "p.1346, opening paragraph; line wrap normalized",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

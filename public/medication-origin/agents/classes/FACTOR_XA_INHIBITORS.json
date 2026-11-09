@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/FACTOR_XA_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "FACTOR_XA_INHIBITORS",
+    "name": "Direct factor Xa inhibitors",
+    "medicines": [
+      "apixaban",
+      "edoxaban",
+      "rivaroxaban"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "apixaban",
+        "components": [
+          "apixaban"
+        ],
+        "usRank": 25,
+        "englandRank": 22,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "edoxaban",
+        "components": [
+          "edoxaban"
+        ],
+        "usRank": null,
+        "englandRank": 71,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "rivaroxaban",
+        "components": [
+          "rivaroxaban"
+        ],
+        "usRank": 94,
+        "englandRank": 64,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "There was no single documented start for every program. Natural inhibitors, including antistasin, showed factor Xa inhibition and anticoagulant activity; discoverers describe natural-inhibitor studies as preceding the later focus on small-molecule inhibitors. Rivaroxaban arose from a targeted screen with active synthetic hits. Separately, a recognized biological sequence similarity prompted the apixaban team's screening of a platelet-inhibitor library; active isoxazolines became its leads. In the Daiichi branch, a working synthetic inhibitor, DX-9065a, prompted later non-amidine research, although the original clue for that earlier program remains unestablished.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E8",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Natural-factor studies supplied target-feasibility evidence; recognition of factor Xa's biological substrate relationship helped motivate one library screen. Observed activities of synthetic screening hits and of the DX-9065a prototype provided later starting points for medicinal-chemistry programs. These are distinct links, not a claim that all oral inhibitors derive structurally from antistasin.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E8",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "In 1987 antistasin, purified from a leech salivary gland extract in antimetastatic research, was observed to inhibit factor Xa and coagulation; the authors hypothesized an Xa-mediated anticoagulant mechanism.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Discoverer retrospectives describe natural-inhibitor studies as evidence for the target and a subsequent focus on small-molecule direct inhibitors; they do not claim a shared natural chemical scaffold.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E10"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In the rivaroxaban branch, factor Xa assays of a chemical collection yielded active hits, which were optimized into the candidate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In the apixaban branch, recognized sequence similarity motivated screening of an antiplatelet library; active isoxazolines underwent modeling and multiple structural revisions into the bicyclic oral candidate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "In a separate Daiichi program, reported to have started in 1979, the active but poorly orally absorbed DX-9065a prototype preceded structure–activity research and screening of non-amidine compounds; this led to the later oral candidate DU-176b, edoxaban.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately screened and redesigned active compounds for inhibition, selectivity, antithrombotic activity and oral availability. In the apixaban branch, structure-based redesign changed the lead architecture into a bicyclic candidate; in the Daiichi branch, replacing basic amidine groups and screening non-amidine compounds led to an oral candidate with measured changes in potency and selectivity as well as absorption.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E8",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The specific events classified as planned are the factor Xa-directed chemical screens and subsequent optimization, including the apixaban library screen and Daiichi non-amidine research; this is not a claim that every earlier observation was anticipated.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E8"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Kubitza D, Perzborn E, Berkowitz SD. 2013. The discovery of rivaroxaban: translating preclinical assessments into clinical practice. Front Pharmacol 4:145. DOI 10.3389/fphar.2013.00145; PMID 24324436.",
+        "url": "https://doi.org/10.3389/fphar.2013.00145",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Wong PC, Pinto DJP, Zhang D. 2011. Preclinical discovery of apixaban, a direct and orally bioavailable factor Xa inhibitor. J Thromb Thrombolysis 31:478-492. DOI 10.1007/s11239-011-0551-3; PMID 21318583.",
+        "url": "https://doi.org/10.1007/s11239-011-0551-3",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Tuszynski GP, Gasic TB, Gasic GJ. 1987. Isolation and characterization of antistasin. An inhibitor of metastasis and coagulation. J Biol Chem 262:9718-9723. DOI 10.1016/S0021-9258(18)47993-8; PMID 3689495.",
+        "url": "https://doi.org/10.1016/S0021-9258(18)47993-8",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Daiichi Sankyo. 2014. Edoxaban from Japan to the World. Daiichi Sankyo Group Value Report 2014, pp. 26-28, especially p. 27.",
+        "url": "https://www.daiichisankyo.com/files/investors/library/annual_report/index/pdf/ds_value2014_Eng.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Furugohri T, Isobe K, Honda Y, Kamisato-Matsumoto C, Sugiyama N, Nagahara T, Morishima Y, Shibano T. 2008. DU-176b, a potent and orally active factor Xa inhibitor: in vitro and in vivo pharmacological profiles. J Thromb Haemost 6:1542-1549. DOI 10.1111/j.1538-7836.2008.03064.x; PMID 18624979.",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1538-7836.2008.03064.x",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Perzborn E, Roehrig S, Straub A, Kubitza D, Misselwitz F. 2011. The discovery and development of rivaroxaban, an oral, direct factor Xa inhibitor. Nat Rev Drug Discov 10:61-75. DOI 10.1038/nrd3185; PMID 21164526.",
+        "url": "https://doi.org/10.1038/nrd3185",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Introduction, paragraph after Figure 1; Frontiers HTML line 338."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Preclinical pharmacodynamic profile, opening paragraph; Frontiers HTML line 344."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 479, Discovery of apixaban, first paragraph, continuing on p. 480."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "pp. 480-481, Discovery of apixaban, lead evolution and final paragraphs."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 9718, abstract; Results, anticoagulant activity and factor Xa assays."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "p. 27, The Long Road of Research to Discovery of Edoxaban, timeline and adjacent text."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 27, DX-9065a timeline caption and text."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "Introduction, paragraphs 2-3; Discussion, opening paragraph."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "Abstract, Results; Results, anti-FXa activity and oral pharmacology; Discussion, paragraphs 1-2."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "Abstract, sentences 2-3; full text not read."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.3389/fphar.2013.00145",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1007/s11239-011-0551-3",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1016/S0021-9258(18)47993-8",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1538-7836.2008.03064.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1038/nrd3185",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The documented class-level judgment rests on natural-factor studies and on observation-led development of active synthetic hits or prototypes; it does not establish that every company began from the same observation.",
+      "Daiichi's reported 1979 program start predates the 1987 antistasin report. The source evidence does not establish that antistasin initiated that program or was the chemical scaffold for any cohort drug.",
+      "The observed DX-9065a prototype supports the later Daiichi development sequence, while the founding 1979 clue and earliest chemical lead remain unestablished. The 2011 rivaroxaban historical account was read in abstract only; contemporaneous initial screening papers were not read."
+    ],
+    "conflicts": [
+      "S4 calls DX-9065a the first direct factor Xa inhibitor without qualification, whereas S3 reports factor Xa inhibition by the natural protein antistasin in 1987; the intended scope of the priority claim is not explicit.",
+      "S4 dates the Daiichi program to 1979; a publisher-indexed snippet from a 2009 Daiichi research paper appears to date an investigation to 1981, but the full text could not be opened and the potentially different project boundaries were not verified. See receipt."
+    ],
+    "gaps": [
+      "The initiating clue and first chemical lead of Daiichi's program are not reported in S4 or S5; the evidence links DX-9065a to later non-amidine development but not every intermediate chemical step.",
+      "The original apixaban and rivaroxaban lead-screening reports and the 2009 article's full text were not read; the possible 1979-versus-1981 discrepancy remains unresolved. S6 was read in abstract only."
+    ]
+  },
+  "nameAliases": [
+    "Eliquis",
+    "Savaysa",
+    "Xarelto"
+  ],
+  "humanContributionInterpretation": {
+    "id": "FACTOR_XA_INHIBITORS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Kubitza D, Perzborn E, Berkowitz SD. 2013. The discovery of rivaroxaban: translating preclinical assessments into clinical practice. Front Pharmacol 4:145. DOI 10.3389/fphar.2013.00145; PMID 24324436.",
+        "url": "https://doi.org/10.3389/fphar.2013.00145",
+        "locator": "Introduction, paragraph after Figure 1; Frontiers HTML line 338.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Kubitza D, Perzborn E, Berkowitz SD. 2013. The discovery of rivaroxaban: translating preclinical assessments into clinical practice. Front Pharmacol 4:145. DOI 10.3389/fphar.2013.00145; PMID 24324436.",
+        "url": "https://doi.org/10.3389/fphar.2013.00145",
+        "locator": "Preclinical pharmacodynamic profile, opening paragraph; Frontiers HTML line 344.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Wong PC, Pinto DJP, Zhang D. 2011. Preclinical discovery of apixaban, a direct and orally bioavailable factor Xa inhibitor. J Thromb Thrombolysis 31:478-492. DOI 10.1007/s11239-011-0551-3; PMID 21318583.",
+        "url": "https://doi.org/10.1007/s11239-011-0551-3",
+        "locator": "p. 479, Discovery of apixaban, first paragraph, continuing on p. 480.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Tuszynski GP, Gasic TB, Gasic GJ. 1987. Isolation and characterization of antistasin. An inhibitor of metastasis and coagulation. J Biol Chem 262:9718-9723. DOI 10.1016/S0021-9258(18)47993-8; PMID 3689495.",
+        "url": "https://doi.org/10.1016/S0021-9258(18)47993-8",
+        "locator": "p. 9718, abstract; Results, anticoagulant activity and factor Xa assays.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Furugohri T, Isobe K, Honda Y, Kamisato-Matsumoto C, Sugiyama N, Nagahara T, Morishima Y, Shibano T. 2008. DU-176b, a potent and orally active factor Xa inhibitor: in vitro and in vivo pharmacological profiles. J Thromb Haemost 6:1542-1549. DOI 10.1111/j.1538-7836.2008.03064.x; PMID 18624979.",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1538-7836.2008.03064.x",
+        "locator": "Introduction, paragraphs 2-3; Discussion, opening paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E10",
+        "citation": "Perzborn E, Roehrig S, Straub A, Kubitza D, Misselwitz F. 2011. The discovery and development of rivaroxaban, an oral, direct factor Xa inhibitor. Nat Rev Drug Discov 10:61-75. DOI 10.1038/nrd3185; PMID 21164526.",
+        "url": "https://doi.org/10.1038/nrd3185",
+        "locator": "Abstract, sentences 2-3; full text not read.",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/BETA3_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "BETA3_AGONISTS",
+    "name": "Beta3-adrenoceptor agonists",
+    "medicines": [
+      "mirabegron"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "mirabegron",
+        "components": [
+          "mirabegron"
+        ],
+        "usRank": null,
+        "englandRank": 95,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The early metabolic programs sought to retain the already observed thermogenic and antiobesity effects of nonselective sympathomimetics in rodents while avoiding other beta-mediated effects. Adipocyte studies exposed an atypical receptor later identified with beta3. Separately, sympathetic stimulation was known to relax bladder muscle; human bladder experiments implicated beta3, motivating the overactive-bladder application. For the specific Astellas chemical series, the chemist reports starting from a different, already human-beta3-active Merck compound after unsuccessful work on early rodent-active leads.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E6",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed sympathomimetic effects and adipocyte pharmacology supplied the metabolic clue; the bladder clue was a sympathetic physiological relationship involving endogenous noradrenaline and later beta3-active compounds in human tissue. The eventual Astellas lead was an already human-beta3-active synthetic compound. These descriptions do not claim mirabegron was isolated from a natural source or that its scaffold was copied from noradrenaline.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E6",
+        "E9",
+        "E12"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "In the late 1970s and early 1980s, companies deliberately sought to retain rodent thermogenic and antiobesity effects of nonselective sympathomimetics while reducing cardiac and tremor effects.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Beecham identified agonists acting on atypical rodent adipocyte receptors; subsequent receptor work established the beta3 context for metabolic research. The contemporary 1984 report's abstract describes selective brown-adipocyte lipolysis.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E12"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The Astellas program aimed to find a type 2 diabetes treatment. After early rodent-active compounds proved difficult to improve for human use, it initiated a new series from a Merck-disclosed human-beta3 agonist and designed an active phenylacetanilide lead.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E9"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The team modified the acetanilide and then substantially changed the phenoxy-containing portion to a phenylethanolamine series, measuring human subtype potency and selectivity and optimizing further. The discoverer traces the series to a 2-aminothiazole analogue selected as mirabegron.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8",
+          "E10"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Independently, bladder physiology and 1999 experiments on human detrusor implicated beta3 in relaxation. The Astellas pharmacologists explicitly say this physiological evidence prompted research into beta3 agonism for overactive bladder; this step is not asserted to have occurred after every chemical step above.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E6"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "The chemist reports inadequate effectiveness in a type 2 diabetes trial and continued development for overactive bladder. The pharmacologists report animal and human bladder experiments followed by clinical studies; the 2007 original report's abstract independently describes YM178 testing in bladder strips.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E11",
+          "E13"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately sought improved subtype selectivity and human activity, designed a phenylacetanilide based on an already active synthetic agonist, replaced a phenoxy-containing portion with phenylethanolamine architecture, and modified heterocyclic and other groups. They assessed potency, beta1/beta2 selectivity, pharmacokinetics and physical properties when advancing the series to mirabegron. These were substantive changes in structure and activity, not just delivery optimization or a design without an observed functional starting point.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The selective metabolic-drug search, human-active lead development and subsequent investigation of beta3 agonism for bladder treatment were planned research stages. This does not assert that all individual experimental results were anticipated or exclude unreported chance events.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Arch JRS. 2011. Challenges in β3-Adrenoceptor Agonist Drug Development. Ther Adv Endocrinol Metab 2(2):59–64. DOI 10.1177/2042018811398517; PMID 23148171.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3474627/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Ueshima K, Ukai M. 2018. Contribution of pharmacological research to the discovery of a first-in-class drug, mirabegron, for the treatment of overactive bladder. Nihon Yakurigaku Zasshi 152(3):111–118. DOI 10.1254/fpj.152.111; PMID 30185728. Japanese, with English abstract.",
+        "url": "https://www.jstage.jst.go.jp/article/fpj/152/3/152_111/_pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Igawa Y, Yamazaki Y, Takeda H, Hayakawa K, Akahane M, Ajisawa Y, Yoneyama T, Nishizawa O, Andersson KE. 1999. Functional and molecular biological evidence for a possible β3-adrenoceptor in the human detrusor muscle. Br J Pharmacol 126(3):819–825. DOI 10.1038/sj.bjp.0702358; PMID 10188996.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1038/sj.bjp.0702358",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Maruyama T, Onda K, Hayakawa M, Suzuki T, Kimizuka T, Matsui T, Takasu T, Nagase I, Hamada N, Ohta M. 2010. Synthesis and Evaluation of Novel Phenylethanolamine Derivatives containing Acetanilides as Potent and Selective β3-Adrenergic Receptor Agonists. Chem Pharm Bull 58(4):533–545. DOI 10.1248/cpb.58.533; PMID 20410638.",
+        "url": "https://www.jstage.jst.go.jp/article/cpb/58/4/58_4_533/_pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Maruyama T. 2014. β3アドレナリン受容体作動薬ミラベグロンの創製 [Discovery of the β3-adrenoceptor agonist mirabegron]. Farumashia 50(6):533–537. DOI 10.14894/faruawpsj.50.6_533. Japanese.",
+        "url": "https://www.jstage.jst.go.jp/article/faruawpsj/50/6/50_533/_pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Arch JR, Ainsworth AT, Cawthorne MA, Piercy V, Sennitt MV, Thody VE, Wilson C, Wilson S. 1984. Atypical beta-adrenoceptor on brown adipocytes as target for anti-obesity drugs. Nature 309:163–165. DOI 10.1038/309163a0; PMID 6325935.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6325935/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Takasu T, Ukai M, Sato S, Matsui T, Nagase I, Maruyama T, Sasamata M, Miyata K, Uchida H, Yamaguchi O. 2007. Effect of (R)-2-(2-aminothiazol-4-yl)-4'-{2-[(2-hydroxy-2-phenylethyl)amino]ethyl} acetanilide (YM178), a novel selective beta3-adrenoceptor agonist, on bladder function. J Pharmacol Exp Ther 321(2):642–647. DOI 10.1124/jpet.106.115840; PMID 17293563.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17293563/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Historical setting, first paragraph, first two sentences"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Historical setting, first paragraph, following the company list"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 118, English abstract, sentences 3–5; see also pp. 112, 116–117, research background and discussion"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 112, section 2 research background, second paragraph and Figure 1; Japanese original interpreted in translation"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 118, English abstract, following the account of target selection"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "Results, Relaxation responses to β-AR agonists; Discussion, first and third paragraphs"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 533, final introductory paragraph and Figure 2"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "p. 536, Results and Discussion; see also pp. 538–540"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "pp. 533–534, section 3, lead search; Japanese original interpreted in translation"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "pp. 534–536, sections 4–5, structure optimization and discovery; Japanese original interpreted in translation"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "p. 536, sections on discovery and pharmacological action; Japanese original interpreted in translation"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S6",
+        "locator": "PubMed abstract, findings and final sentences; full article not read"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S7",
+        "locator": "PubMed abstract, first and second paragraphs; full article not read"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3474627/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.jstage.jst.go.jp/article/fpj/152/3/152_111/_pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1038/sj.bjp.0702358",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.jstage.jst.go.jp/article/cpb/58/4/58_4_533/_pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.jstage.jst.go.jp/article/faruawpsj/50/6/50_533/_pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6325935/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17293563/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The metabolic and bladder strands have distinct motivating observations, but both are observation-led; their existence alone does not make the class mixed.",
+      "The early Beecham rodent agonists informed the field and were initially investigated by the Astellas team, but the chemist reports a new lead series from a Merck-disclosed human-active compound. Do not infer uninterrupted chemical descent from Beecham's compounds.",
+      "Igawa's human-tissue experiment supports a probable major beta3 contribution, not exclusive mediation or clinical efficacy; the early adipocyte evidence is rodent-based and receptor pharmacology differs across species.",
+      "The frozen class has one cohort member, mirabegron. These sources establish its class and program context, not the independent founding route of every later or chemically unrelated beta3 agonist. Beta2 bronchodilators are outside the boundary.",
+      "The 2018 and 2014 Japanese retrospectives were read in translation; the 2010 chemistry publication date is not the discovery date, and relative timing of all chemical and bladder findings is not reconstructed."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The 1984 Nature original was located but only its abstract was read; the full experimental report was not accessed.",
+      "The original 2007 YM178 bladder study was located and its abstract read, but full text was inaccessible; the account of later experiments also draws on a discoverer retrospective.",
+      "The type 2 diabetes clinical trial report and the precise internal decision date for changing indications were not independently located or reviewed; the clinical outcome and indication change are attributed to the 2014 discoverer account.",
+      "The Merck patent and all proposed synthetic intermediates were not independently reconstructed from original patent or laboratory records; S5 directly reports the lead and chemistry trajectory."
+    ]
+  },
+  "nameAliases": [
+    "Myrbetriq"
+  ],
+  "humanContributionInterpretation": {
+    "id": "BETA3_AGONISTS",
+    "group": "not_established",
+    "contribution": "context_only",
+    "summary": "A failed human metabolic trial preceded bladder development.",
+    "scope": "The positive bladder clue in the dossier involved human tissue experiments, not patient observation.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Arch JRS. 2011. Challenges in β3-Adrenoceptor Agonist Drug Development. Ther Adv Endocrinol Metab 2(2):59–64. DOI 10.1177/2042018811398517; PMID 23148171.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3474627/",
+        "locator": "Historical setting, first paragraph, first two sentences",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Arch JRS. 2011. Challenges in β3-Adrenoceptor Agonist Drug Development. Ther Adv Endocrinol Metab 2(2):59–64. DOI 10.1177/2042018811398517; PMID 23148171.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3474627/",
+        "locator": "Historical setting, first paragraph, following the company list",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Ueshima K, Ukai M. 2018. Contribution of pharmacological research to the discovery of a first-in-class drug, mirabegron, for the treatment of overactive bladder. Nihon Yakurigaku Zasshi 152(3):111–118. DOI 10.1254/fpj.152.111; PMID 30185728. Japanese, with English abstract.",
+        "url": "https://www.jstage.jst.go.jp/article/fpj/152/3/152_111/_pdf",
+        "locator": "p. 118, English abstract, sentences 3–5; see also pp. 112, 116–117, research background and discussion",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Igawa Y, Yamazaki Y, Takeda H, Hayakawa K, Akahane M, Ajisawa Y, Yoneyama T, Nishizawa O, Andersson KE. 1999. Functional and molecular biological evidence for a possible β3-adrenoceptor in the human detrusor muscle. Br J Pharmacol 126(3):819–825. DOI 10.1038/sj.bjp.0702358; PMID 10188996.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1038/sj.bjp.0702358",
+        "locator": "Results, Relaxation responses to β-AR agonists; Discussion, first and third paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Maruyama T. 2014. β3アドレナリン受容体作動薬ミラベグロンの創製 [Discovery of the β3-adrenoceptor agonist mirabegron]. Farumashia 50(6):533–537. DOI 10.14894/faruawpsj.50.6_533. Japanese.",
+        "url": "https://www.jstage.jst.go.jp/article/faruawpsj/50/6/50_533/_pdf",
+        "locator": "pp. 533–534, section 3, lead search; Japanese original interpreted in translation",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/BETA_BLOCKERS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "BETA_BLOCKERS",
+    "name": "Beta-adrenoceptor blockers",
+    "medicines": [
+      "atenolol",
+      "bisoprolol",
+      "carvedilol",
+      "metoprolol",
+      "propranolol"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "atenolol",
+        "components": [
+          "atenolol"
+        ],
+        "usRank": 69,
+        "englandRank": 82,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "bisoprolol",
+        "components": [
+          "bisoprolol"
+        ],
+        "usRank": null,
+        "englandRank": 7,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "carvedilol",
+        "components": [
+          "carvedilol"
+        ],
+        "usRank": 36,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "metoprolol",
+        "components": [
+          "metoprolol"
+        ],
+        "usRank": 8,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "propranolol",
+        "components": [
+          "propranolol"
+        ],
+        "usRank": 67,
+        "englandRank": 30,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Clinical and physiological observations suggested reducing adrenaline-driven cardiac demand. Known endogenous catecholamine effects and the selective agonist isoprenaline supplied the functional/structural clue, followed by informative DCI observations and deliberate antagonist development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect",
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "synthetic_compound_effect",
+      "theoretical_design"
+    ],
+    "inspiration": {
+      "description": "Clinical angina/adrenaline relationships, cardiac-demand physiology, noradrenaline-related isoprenaline activity, receptor reasoning and DCI findings supplied complementary inspirations. Rational antagonist design is preserved as a contribution.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Clinical/physiological problems and adrenergic responses motivated the beta-blockade goal.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The isoprenaline structure was the starting chemical clue for planned agonist-to-antagonist analogue exploration.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "DCI findings and improved assays revealed useful antagonist/partial-agonist behavior and motivated pronethalol.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Further deliberate chemistry sought improved safety/activity and produced propranolol, helping establish the class.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators deliberately sought a new pharmacological action, changing an agonist-related structure into an antagonist and improving the assay, potency and safety. These are substantial design/function changes, not merely delivery modifications, within an observation-inspired programme.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The project and chemical changes were planned; DCI's tissue-dependent activity and its reassessment supplied a named unexpected contribution.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Black J.1988. Drugs from Emasculated Hormones: The Principles of Syntopic Antagonism. Nobel Lecture,8December1988, beta-blocker section pp.418–425. Read through a public transcript access copy; official PDF remained403.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/black-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "POWELL CE, SLATER IH. 1958. Blocking of inhibitory adrenergic receptors by a dichloro analog of isoproterenol. PMID13539775.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13539775/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "BLACK JW, CROWTHER AF, SHANKS RG, SMITH LH, DORNHORST AC. 1964. A NEW ADRENERGIC BETARECEPTOR ANTAGONIST. PMID14132613.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14132613/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Stapleton MP. 1997. Sir James Black and propranolol. The role of the basic sciences in the history of cardiovascular pharmacology. PMID9456487.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9456487/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Printed pp.418–419, clinical/therapeutic/physiological rationale"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Printed p.419, isoprenaline and receptor pharmacology paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Printed p.419, starting chemical programme"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Printed pp.420–422, DCI experiments and reassessment"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S1",
+        "locator": "Printed p.424, development from prototype pronethalol"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/black-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13539775/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14132613/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The primary classification uses Ha's broad biological-observation criterion. Black's cold-started search for an antagonist retained explicit clinical/physiological and working-agonist clues.",
+      "Agonist-to-antagonist design changed function; it is not described as merely improving delivery or as a natural antagonist isolated unchanged.",
+      "The class is the unit; no separate histories of later cohort beta blockers or universal scaffold inheritance are asserted."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "Official Nobel PDF remained403; the relevant original lecture was read through its identified transcript access copy. The copy's typography/OCR is not a substitute for figure-level inspection.",
+      "Original Powell/Slater1958 and Black1964 reports were located at metadata extent only, with no abstract/full-text reading claimed.",
+      "Stapleton1997 was read at abstract extent; no independent full-class priority adjudication or later-agent biographies were undertaken."
+    ]
+  },
+  "nameAliases": [
+    "Coreg",
+    "Hemangeol",
+    "Inderal",
+    "InnoPran",
+    "Kapspargo",
+    "Lopressor",
+    "Tenormin",
+    "Toprol"
+  ],
+  "humanContributionInterpretation": {
+    "id": "BETA_BLOCKERS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Angina provoked by emotion or adrenaline, thyroidectomy benefit and ineffective coronary vasodilators helped Black formulate beta blockade.",
+    "scope": "A synthesis of clinical, physiological and pharmacological evidence, not a single cohort study or exclusively clinical origin.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Black J.1988. Drugs from Emasculated Hormones: The Principles of Syntopic Antagonism. Nobel Lecture,8December1988, beta-blocker section pp.418–425. Read through a public transcript access copy; official PDF remained403.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/black-lecture.pdf",
+        "locator": "Printed pp.418–419, clinical/therapeutic/physiological rationale",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

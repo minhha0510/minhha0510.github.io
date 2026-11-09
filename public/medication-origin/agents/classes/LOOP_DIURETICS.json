@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/LOOP_DIURETICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "LOOP_DIURETICS",
+    "name": "Loop diuretics",
+    "medicines": [
+      "bumetanide",
+      "furosemide"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "bumetanide",
+        "components": [
+          "bumetanide"
+        ],
+        "usRank": null,
+        "englandRank": 125,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "furosemide",
+        "components": [
+          "furosemide"
+        ],
+        "usRank": 29,
+        "englandRank": 21,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In the sulfamoyl line, sulfanilamide treatment was observed to produce metabolic acidosis and alkaline urine, followed by recognition of mild diuresis and development of related active sulfonamide diuretics; a retrospective history links modification of that active series to furosemide. In the distinct ethacrynic-acid line, already active mercurial diuretics, including merbaphen and mersalyl, supplied functional and structural models for nonmercurial compounds. Wilson recounts a clinical rise in urine output with merbaphen. These are distinct observed drug-effect starting points, not one shared chemical scaffold.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E6",
+        "E4",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Clinical effects of synthetic sulfanilamide and mercurial diuretics initiated or informed distinct precursor lines; subsequently active sulfonamide compounds and furosemide were working drug leads. This counts as biological inspiration under the approved broad observation-led definition, not as a claim that the final drugs were isolated from nature.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E6",
+        "E1",
+        "E4",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A clinical sulfanilamide side effect and subsequent recognition of mild diuresis preceded development of related sulfamoyl diuretics, including later high-ceiling agents in Feit's retrospective.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "After sulfonamide-related compounds were studied for chloride excretion, Sneader links an acidic-group substitution in the dichlorphenamide-related series to furosemide. The Hoechst patent describes synthesis of the furfurylamino compound associated with furosemide and compares diuretic effects in rats with a benzothiadiazine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Using established furosemide and related active compounds as reference points, Feit and colleagues moved an amino substituent and screened variants in dogs; Feit then altered the 4-position and selected compound 111, bumetanide, for further study.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a separate branch, observed diuresis with the mercurial merbaphen preceded established mercury diuretics; a later account coauthored by a discoverer identifies mercurial phenoxyacetic-acid diuretics as models leading to the nonmercurial ethacrynic-acid series.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E7"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "After ethacrynic acid existed, human physiological experiments suggested an important action in the ascending loop of Henle; this localization supports its class connection and must not be projected back as the initial design inspiration.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and tested new sulfamoyl structures, with a carboxyl substitution described in the furosemide history; Feit and colleagues moved an amino group, modified the 4-position and selected bumetanide from active variants. A different program used mercurial drug models to develop nonmercurial phenoxyacetic-acid structures including ethacrynic acid. These changed chemistry and pharmacologic activity, not only delivery; the read sources do not establish an initial loop-target design.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E9",
+        "E1",
+        "E2",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Feit's retrospective describes the antecedent sulfanilamide clinical side effect as chance; Wilson identifies metabolic acidosis and alkaline urine among the initial observations. The later Hoechst comparative testing and Feit team's structure–activity synthesis and dog screening were planned investigations. This does not assert that the individual syntheses or every observed result were accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E1",
+        "E2",
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Feit PW, Bruun H, Nielsen CK. Aminobenzoic acid diuretics. 1. 4-Halogeno-5-sulfamylmetanilic acid derivatives. J Med Chem. 1970;13:1071-1075. DOI: 10.1021/jm00300a012; PMID: 5479843.",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20Medicinal%20Chemistry/1970%20Volume%2013/13/6/jm00300a012.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Feit PW. Aminobenzoic acid diuretics. 2. 4-Substituted-3-amino-5-sulfamylbenzoic acid derivatives. J Med Chem. 1971;14:432-439. DOI: 10.1021/jm00287a014; PMID: 5117690.",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20Medicinal%20Chemistry/1971%20Volume%2014/14/5/jm00287a014.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Feit PW. Bumetanide--the way to its chemical structure. J Clin Pharmacol. 1981;21(11):531-536. DOI: 10.1002/j.1552-4604.1981.tb05661.x; PMID: 7338562.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7338562/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Wilson GM. Diuretics. Br Med J. 1963;1(5326):285-292. DOI: 10.1136/bmj.1.5326.285; PMID: 14001022.",
+        "url": "https://www.bmj.com/content/bmj/1/5326/285.full.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Sneader W. Drug Discovery: A History. Wiley; 2005:390-392. DOI: 10.1002/0470015535.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/91184/1/Drug%20Discovery%20A%20History-Walter%20Sneader-John%20Wiley%20%26%20Sons%20Ltd-2005-1.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Hoffman WF, Woltersdorf OW Jr, Novello FC, Cragoe EJ Jr, Springer JP, Watson LS, Fanelli GM Jr. (Acylaryloxy)acetic acid diuretics. 3. 2,3-Dihydro-5-acyl-2-benzofurancarboxylic acids, a new class of uricosuric diuretics. J Med Chem. 1981;24(7):865-873. DOI: 10.1021/jm00139a019; PMID: 7277395.",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20Medicinal%20Chemistry/1981%20Volume%2024/24/7/jm00139a019.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Schultz EM, Cragoe EJ Jr, Bicking JB, Bolhofer WA, Sprague JM. Alpha, beta-unsaturated ketone derivatives of aryloxyacetic acids, a new class of diuretics. J Med Pharm Chem. 1962;5:660-662. DOI: 10.1021/jm01238a030; PMID: 14056400.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14056400/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Goldberg M, McCurdy DK, Foltz EL, Bluemle LW Jr. Effects of ethacrynic acid (a new saluretic agent) on renal diluting and concentrating mechanisms: evidence for site of action in the loop of Henle. J Clin Invest. 1964;43(2):201-216. DOI: 10.1172/JCI104905; PMID: 14162529.",
+        "url": "https://www.jci.org/articles/view/104905/files/pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Stürm K, Siedel W, Weyer R. N'-substituted-3-carboxy-6-halo-sulfanilamide and derivatives thereof. US patent 3,058,882, issued October 16, 1962.",
+        "url": "https://patents.google.com/patent/US3058882A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 1071, abstract, introductory rationale and Diuretic Effect and Structure–Activity Relationships"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "pp. 432 and 434, abstract, introductory rationale, and Diuretic Effect and Structure–Activity Relationships"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "PubMed abstract, opening and next sentences"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "p. 285, Introduction of Modern Diuretics, merbaphen paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "p. 285, Introduction of Modern Diuretics, sulphanilamide paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "pp. 391-392, sulfonamide-derived diuretics section"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "p. 865, opening historical paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S8",
+        "locator": "pp. 214-215, Summary; pp. 212-214, Discussion"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S9",
+        "locator": "description, comparative animal tests and Example 2"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1021/jm00300a012",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1021/jm00287a014",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1002/j.1552-4604.1981.tb05661.x",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1021/jm00139a019",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1021/jm01238a030",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://doi.org/10.1172/JCI104905",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://patents.google.com/patent/US3058882A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The direct cohort history concerns the sulfamoyl line culminating in furosemide and bumetanide. Ethacrynic acid is a class-level, nonmercurial branch developed from prior mercurial drug models; it is not asserted to be an ancestor or analogue of the cohort compounds.",
+      "The 1964 ethacrynic-acid localization was subsequent physiology and does not establish the original synthetic rationale or prove the same renal mechanism for its mercurial models.",
+      "No claim is made that all other loop-diuretic scaffolds or later analogues share either exact development pathway."
+    ],
+    "conflicts": [
+      "Feit's 1971 paper, p. 432 footnote 1, corrects the 1970 paper's use of 'metanilic acid' for 3-aminobenzoic acid; the 1970 citation retains its official published title.",
+      "The browser-indexed 1971 abstract renders compound 111 as 'bumetamide', while p. 434 renders 'bumetanide'. The PDF scan could not be visually checked, so an OCR artifact cannot be distinguished from a printed discrepancy."
+    ],
+    "gaps": [
+      "Feit's 1981 discoverer retrospective was read only as an abstract; full pp. 531-536 were inaccessible.",
+      "The Schultz and colleagues 1962 ethacrynic-acid original was located by exact DOI and PMID but not read; its title is not used as proof of inspiration.",
+      "The Hoechst patent describes synthesis and comparative testing but not the complete choice-of-lead narrative; the particular dichlorphenamide bridge relies on Sneader's secondary history. Other contemporary Hoechst records and precise discovery or introduction priority were not established.",
+      "The early sulfanilamide and mercurial clinical originals were not read; Wilson's lecture is a retrospective account. Browser-indexed text for Feit's papers and Hoffman was not visually checked against local PDF images."
+    ]
+  },
+  "nameAliases": [
+    "Bumex",
+    "Disal",
+    "Enbumyst",
+    "Furoscix",
+    "Lasix",
+    "Salix - substance"
+  ],
+  "humanContributionInterpretation": {
+    "id": "LOOP_DIURETICS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Diuresis with earlier agents, including sulfonamide and mercurial predecessors, supplied therapeutic precedents for later diuretics.",
+    "scope": "The precise human-observation-to-furosemide bridge is qualified; the immediate discovery depended heavily on experimental pharmacology.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Feit PW. Bumetanide--the way to its chemical structure. J Clin Pharmacol. 1981;21(11):531-536. DOI: 10.1002/j.1552-4604.1981.tb05661.x; PMID: 7338562.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7338562/",
+        "locator": "PubMed abstract, opening and next sentences",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E4",
+        "citation": "Wilson GM. Diuretics. Br Med J. 1963;1(5326):285-292. DOI: 10.1136/bmj.1.5326.285; PMID: 14001022.",
+        "url": "https://www.bmj.com/content/bmj/1/5326/285.full.pdf",
+        "locator": "p. 285, Introduction of Modern Diuretics, merbaphen paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Wilson GM. Diuretics. Br Med J. 1963;1(5326):285-292. DOI: 10.1136/bmj.1.5326.285; PMID: 14001022.",
+        "url": "https://www.bmj.com/content/bmj/1/5326/285.full.pdf",
+        "locator": "p. 285, Introduction of Modern Diuretics, sulphanilamide paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

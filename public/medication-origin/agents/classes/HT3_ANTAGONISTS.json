@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/HT3_ANTAGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "HT3_ANTAGONISTS",
+    "name": "5-HT3 receptor antagonists",
+    "medicines": [
+      "ondansetron"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "ondansetron",
+        "components": [
+          "ondansetron"
+        ],
+        "usRank": 48,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Clinical and experimental antiemetic effects of metoclopramide, and ferret responses to renzapride versus a dopamine antagonist, prompted investigation of a non-dopaminergic mechanism. Separately, a Glaxo migraine pilot's reported nausea relief and metoclopramide's high-dose effectiveness prompted work on ondansetron as an antiemetic.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E6",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect",
+      "biological_physiological_observation",
+      "synthetic_compound_effect",
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "Observed antiemetic effects of synthetic metoclopramide and renzapride, reported nausea relief with ondansetron in a migraine pilot, serotonin-related responses, and cocaine as a separate pharmacological and chemical starting point for the MDL72222 experimental tool; no cocaine-to-ondansetron molecular ancestry is established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "High-dose metoclopramide reduced chemotherapy-associated emesis, motivating investigation beyond dopamine antagonism.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "In a separate chemical and pharmacological branch, cocaine and related molecules supplied a starting point for MDL72222, made for a migraine research program rather than initially as an antiemetic.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Renzapride suppressed cisplatin vomiting without D2 antagonism; researchers used MDL72222 to test whether a selective serotonin-receptor antagonist was antiemetic. In the 1986 test it reduced cisplatin-induced vomiting in ferrets.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In Glaxo's parallel route, an uncontrolled 1985 ondansetron migraine pilot reportedly relieved nausea and vomiting in some patients; together with metoclopramide evidence this led Tyers to pursue a 5-HT3 antiemetic hypothesis, followed by animal and clinical development.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Glaxo's 1988 pharmacological experiments characterized ondansetron (GR38032F) as a selective 5-HT3 antagonist, and the retrospective reports subsequent U.S. registration in 1991.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E11"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized the selective MDL72222 antagonist using a cocaine template and deliberately tested it after antiemetic observations. Separately, Glaxo synthesized ondansetron, characterized its selective receptor antagonism and developed it for antiemetic use. The MDL72222 template is not a proven chemical lineage for ondansetron, whose detailed design route is not established here.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E6",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The follow-up experiment with the selective antagonist was planned to probe competing mechanisms; this does not characterize every earlier discovery as planned or unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Sanger GJ, Andrews PLR. 2018. A History of Drug Discovery for Treatment of Nausea and Vomiting and the Implications for Future Research. Front Pharmacol 9:913. DOI 10.3389/fphar.2018.00913; PMID 30233361.",
+        "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2018.00913/full",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Miner WD, Sanger GJ. 1986. Inhibition of cisplatin-induced vomiting by selective 5-hydroxytryptamine M-receptor antagonism. Br J Pharmacol 88:497–499. DOI 10.1111/j.1476-5381.1986.tb10228.x; PMID 3742146.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1916988/?page=0",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "United States District Court, District of Delaware. 2004. Glaxo Group Limited and SmithKline Beecham Corporation v. Teva Pharmaceuticals USA, Inc. and Teva Pharmaceuticals Industries, Ltd., C.A. No. 02-219 GMS, opinion dated August 20, 2004.",
+        "url": "https://www.ded.uscourts.gov/sites/ded/files/opinions/02-219.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Butler A, Hill JM, Ireland SJ, Jordan CC, Tyers MB. 1988. Pharmacological properties of GR38032F, a novel antagonist at 5-HT3 receptors. Br J Pharmacol 94:397–412. DOI 10.1111/j.1476-5381.1988.tb11542.x; PMID 2969267.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1854010/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Section '5-hydroxytryptamine3 receptor antagonists', paragraphs on metoclopramide and renzapride"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Section '5-hydroxytryptamine3 receptor antagonists', paragraph on follow-up with MDL72222"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Section '5-hydroxytryptamine3 receptor antagonists', paragraph on neuronal serotonin actions and MDL72222"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 497, Introduction, final two paragraphs"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 497–498, Results and Table 1"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "Printed pp. 12–14, findings of fact 48–59"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Printed pp. 14–17, findings of fact 60, 64 and 72–75"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "Printed pp. 18–20, findings of fact 88–94"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. 397, abstract paragraphs 2 and 5; p. 410, Discussion summary"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S3",
+        "locator": "Printed pp. 22–23, Conclusions of Law, analysis of Fozard and MDL72222"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S1",
+        "locator": "Section '5-hydroxytryptamine3 receptor antagonists', paragraphs on competing compounds and registration"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.3389/fphar.2018.00913",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1916988/?page=0",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1854010/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The cocaine-to-MDL72222 branch is not established as the chemical ancestry of ondansetron.",
+      "The Beecham and Glaxo lines both used observations, but sources do not establish that either company initiated the other's work. The 1985 Glaxo migraine pilot was uncontrolled."
+    ],
+    "conflicts": [
+      "Sanger and Andrews emphasize Beecham's antiemetic discovery and its ondansetron-related patent; the 2004 court opinion describes a Glaxo pilot-based route and Glaxo's priority in a particular U.S. patent interference. These concern different activities and legal rights; this collection does not resolve all patent or scientific priority claims.",
+      "In the litigation, Teva argued that Fozard's earlier migraine publication disclosed a relevant antiemetic 5-HT3 link; the court rejected that interpretation. The underlying publication and testimony were not independently read to resolve that disclosure dispute.",
+      "The retrospective describes complete suppression in a passage citing a separate Miner, Sanger and Turner 1986 conference abstract; the read Miner and Sanger 1986 paper reports protection in three of four high-dose animals. The abstract was not read and the reports are not assumed to be the same experiment."
+    ],
+    "gaps": [
+      "The trial exhibits, underlying 1985 migraine report, laboratory notebooks and complete patent file cited by the court were not separately examined.",
+      "The exact medicinal-chemistry route to ondansetron and precise priority among all early investigators were not established; the early Fozard migraine publication and underlying testimony in the litigation dispute were not read."
+    ]
+  },
+  "nameAliases": [],
+  "humanContributionInterpretation": {
+    "id": "HT3_ANTAGONISTS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Nausea relief during an ondansetron migraine pilot helped redirect attention to antiemesis.",
+    "scope": "The account is preserved in a court record; metoclopramide precedent and ferret studies also contributed.",
+    "references": [
+      {
+        "id": "E6",
+        "citation": "United States District Court, District of Delaware. 2004. Glaxo Group Limited and SmithKline Beecham Corporation v. Teva Pharmaceuticals USA, Inc. and Teva Pharmaceuticals Industries, Ltd., C.A. No. 02-219 GMS, opinion dated August 20, 2004.",
+        "url": "https://www.ded.uscourts.gov/sites/ded/files/opinions/02-219.pdf",
+        "locator": "Printed pp. 12–14, findings of fact 48–59",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "United States District Court, District of Delaware. 2004. Glaxo Group Limited and SmithKline Beecham Corporation v. Teva Pharmaceuticals USA, Inc. and Teva Pharmaceuticals Industries, Ltd., C.A. No. 02-219 GMS, opinion dated August 20, 2004.",
+        "url": "https://www.ded.uscourts.gov/sites/ded/files/opinions/02-219.pdf",
+        "locator": "Printed pp. 14–17, findings of fact 60, 64 and 72–75",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

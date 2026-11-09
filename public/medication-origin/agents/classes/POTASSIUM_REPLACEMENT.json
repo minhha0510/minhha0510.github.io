@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/POTASSIUM_REPLACEMENT",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "POTASSIUM_REPLACEMENT",
+    "name": "Potassium replacement salts",
+    "medicines": [
+      "potassium chloride"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "potassium chloride",
+        "components": [
+          "potassium chloride"
+        ],
+        "usRank": 42,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "For Darrow's pediatric potassium-replacement branch, experimental loss and restoration of cellular potassium in rats and the clinical potassium losses and response observed in a patient with congenital alkalosis and diarrhea led him to anticipate deficits in infants with diarrhea and to consider potassium administration beneficial.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Observed cellular potassium depletion and response to potassium chloride in animal experiments, together with electrolyte losses and clinical observations in a patient, informed Darrow's pediatric replacement work.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Miller and Darrow observed abnormal muscle electrolytes in potassium-depleted rats and an increase in muscle potassium after potassium chloride; Darrow acknowledged Heppel's independently reported earlier similar findings.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "In a patient with congenital alkalosis and diarrhea, Darrow recorded potassium loss and improvement during treatment that included potassium chloride in feeds and saline; the 1945 original report's indexed summary describes the same patient and both salts.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E8"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Darrow later explained that this patient and the preceding physiological work made him expect potassium deficits in infants with diarrhea and supported use of potassium in their treatment, conditional on the expected deficits being present.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Govan and Darrow's 1946 report described incorporating potassium chloride into electrolyte solutions for dehydrated infants with diarrhea, applying replacement within a multi-component regimen.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "In a separate earlier context, Watson attributed potassium-salt therapy for periodic paralysis to 1901–1902; by 1938 a report described potassium chloride. Later work associated attacks with redistribution and did not establish a chronic whole-body potassium deficit.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Clinicians measured and interpreted potassium losses, incorporated potassium chloride into feeds and later multi-electrolyte fluid regimens, and extended potassium administration to infants with diarrheal deficits; this was application of an existing salt, not a documented creation of a new molecule.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Darrow's contemplated use of potassium in infant diarrhea was a planned application based on prior observations and an explicit expectation of potassium deficit. The account does not establish whether the original observations themselves were unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Pudenz RH, McIntosh JF, McEachern D. The Role of Potassium in the Mechanism of Family Periodic Paralysis. Proceedings of the Thirtieth Annual Meeting. J Clin Invest. 1938;17:530–531. DOI for proceedings 10.1172/JCI100977.",
+        "url": "https://www.jci.org/articles/view/100977/files/pdf",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Danowski TS, Elkinton JR, Burrows BA, Winkler AW. Exchanges of sodium and potassium in familial periodic paralysis. J Clin Invest. 1948;27(1):65–73. DOI 10.1172/JCI101925; PMID 18897627.",
+        "url": "https://www.jci.org/articles/view/101925/files/pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Darrow DC. The rôle of the patient in clinical research of a physiological problem. Yale J Biol Med. 1957;30(1):1–15. PMID 13468560; PMCID PMC2603756.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2603756/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Govan CD Jr, Darrow DC. The use of potassium chloride in the treatment of the dehydration of diarrhea in infants. J Pediatr. 1946;28:541–549. DOI 10.1016/S0022-3476(46)80214-2; PMID 21028291.",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022347646802142",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Watson CW. Familial periodic paralysis: report of a case showing no changes in serum potassium level with a description of electroencephalographic findings. Yale J Biol Med. 1946;19(1):127–135. PMID 20275726; PMCID PMC2602040.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2602040/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Miller HC, Darrow DC. Relation of muscle electrolyte to alterations in serum potassium and to the toxic effects of injected potassium chloride. Am J Physiol. 1940;130(4):747–758. DOI 10.1152/ajplegacy.1940.130.4.747.",
+        "url": "https://doi.org/10.1152/ajplegacy.1940.130.4.747",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Darrow DC. Congenital alkalosis with diarrhea. J Pediatr. 1945;26(6):519–532. DOI 10.1016/S0022-3476(45)80079-3.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022347645800793",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Proceedings pp. 530–531, Pudenz and colleagues' complete conference abstract"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "pp. 65–66, introduction, methods and results; pp. 70–71, discussion and summary"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "p. 7, text following Figure 3"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "pp. 8–9, Table 2 and first two paragraphs of p. 9"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 10, paragraph beginning 'At this time we knew'"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "Publisher's indexed Summary, first two paragraphs; full article and methods not accessed"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "p. 127, third paragraph; p. 134, references 4 and 19"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "Publisher's indexed Summary, first and second paragraphs; full report not accessed"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.jci.org/articles/view/100977/files/pdf",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.jci.org/articles/view/101925/files/pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2603756/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022347646802142",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1152/ajplegacy.1940.130.4.747",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022347645800793",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The documented causal starting clue applies to Darrow's pediatric diarrhea/depletion branch; it does not establish the first-ever use of potassium salts or a single origin for every subsequent replacement indication.",
+      "A separate periodic-paralysis context predates Darrow's reported clinical work; Watson attributes use of potassium salts to 1901–1902. The underlying original rationale and specific salts were not verified. Redistribution physiology must not be treated as proof of a total-body potassium deficit."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The full methods and results of Govan and Darrow's 1946 report were not accessible; its publisher-provided indexed summary was read.",
+      "Miller and Darrow's 1940 animal-experiment original was located by metadata only; the physiological findings and their causal role are attributed to Darrow's later retrospective, not the unread original.",
+      "Only the indexed summary, not the full 1945 congenital-diarrhea report, was read; the original early reports of potassium salts in periodic paralysis remain unread, so no universal priority is inferred."
+    ]
+  },
+  "nameAliases": [
+    "K-Tab",
+    "Klor-Con",
+    "Pokonza"
+  ],
+  "humanContributionInterpretation": {
+    "id": "POTASSIUM_REPLACEMENT",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "A child with diarrheal illness and alkalosis showed potassium depletion and a response to replacement, informing pediatric treatment.",
+    "scope": "A clinical co-treatment case with supporting animal work, not a controlled proof of efficacy or all potassium-use origins.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Darrow DC. The rôle of the patient in clinical research of a physiological problem. Yale J Biol Med. 1957;30(1):1–15. PMID 13468560; PMCID PMC2603756.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2603756/",
+        "locator": "pp. 8–9, Table 2 and first two paragraphs of p. 9",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Darrow DC. The rôle of the patient in clinical research of a physiological problem. Yale J Biol Med. 1957;30(1):1–15. PMID 13468560; PMCID PMC2603756.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2603756/",
+        "locator": "p. 10, paragraph beginning 'At this time we knew'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Darrow DC. Congenital alkalosis with diarrhea. J Pediatr. 1945;26(6):519–532. DOI 10.1016/S0022-3476(45)80079-3.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022347645800793",
+        "locator": "Publisher's indexed Summary, first and second paragraphs; full report not accessed",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

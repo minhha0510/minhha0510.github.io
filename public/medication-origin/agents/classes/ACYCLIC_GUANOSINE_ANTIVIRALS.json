@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ACYCLIC_GUANOSINE_ANTIVIRALS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ACYCLIC_GUANOSINE_ANTIVIRALS",
+    "name": "Acyclic guanosine-analogue antivirals",
+    "medicines": [
+      "valaciclovir"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "valaciclovir",
+        "components": [
+          "valaciclovir"
+        ],
+        "usRank": 99,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Antiviral activity of purine analogues anchored the existing program. Elion and Vince recount that Schaeffer's acyclic adenine analogue was observed to be an adenosine-deaminase substrate, suggesting recognition by other enzymes; its observed antiherpes activity led to development of acyclic antivirals. Other accounts describe a different initial inhibitor intention; see conflicts.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The precursor chemistry modified adenosine, the enzyme's normal substrate; observed enzyme recognition of an acyclic analogue and antiviral activity of related synthetic compounds supplied the aciclovir program's clues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Existing antiviral findings motivated a purine-arabinoside research program, in which diaminopurine arabinoside had measurable antiviral activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A substrate observation on an acyclic adenine analogue suggested other enzymes might recognize the non-ring side chain, and an antiviral screen then revealed antiherpes activity and redirected the program toward acyclic analogues.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E9",
+          "E12"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The guanine analogue aciclovir was unexpectedly much more active than the corresponding diaminopurine analogue.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The existing antiviral aciclovir was adapted into amino-acid esters. A later deliberate oral-prodrug program compared them in rats and selected the L-valyl ester, 256U87, which became valaciclovir; its absorption advantage was not predicted by the first solubility observations.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers intentionally designed modified adenosine sugar analogues, synthesized and screened purine arabinosides and acyclic nucleoside analogues, compared base substitutions, and investigated selectivity. Later amino-acid esterification of existing aciclovir and comparative animal testing yielded the L-valine prodrug valaciclovir.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Acyclic analogues were deliberately synthesized and tested, whereas the much greater activity of the guanine analogue was unexpected. Vince describes hypothesis-directed submission of the adenine precursor for antiviral testing, while Biron calls the aciclovir screen random. The later oral-prodrug comparison was planned; the earlier ester group's initial solubility observations did not predict its oral-absorption advantage.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E11"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Elion GB. 1988. The Purine Path to Chemotherapy. Nobel Lecture, 8 December 1988, pp. 447–468.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/elion-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "De Clercq E. 2015. An Odyssey in antiviral drug development—50 years at the Rega Institute: 1964–2014. Acta Pharm Sin B 5:520–543. DOI 10.1016/j.apsb.2015.09.001; PMID 26713268.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675811/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Beauchamp LM, Orr GF, de Miranda P, Burnette T, Krenitsky TA. 1992. Amino acid ester prodrugs of acyclovir. Antiviral Chem Chemother 3:157–164. DOI 10.1177/095632029200300305.",
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/095632029200300305?download=true",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Vince R. Acyclovir to Ziagen: A Journey. Presentation abstract, Center for Drug Design, University of Minnesota; date not reported.",
+        "url": "https://drugdesign.umn.edu/research-archives",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Biron KK. 2007. Candidate anti-herpesviral drugs; mechanisms of action and resistance. In: Arvin A et al., eds. Human Herpesviruses: Biology, Therapy, and Immunoprophylaxis. Cambridge University Press, chapter 68. PMID 21348087.",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK47396/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Elion GB, Furman PA, Fyfe JA, de Miranda P, Beauchamp L, Schaeffer HJ. 1977. Selectivity of action of an antiherpetic agent, 9-(2-hydroxyethoxymethyl) guanine. Proc Natl Acad Sci U S A 74:5716–5720. DOI 10.1073/pnas.74.12.5716; PMID 202961; PMCID PMC431864.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC431864/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Schaeffer HJ, Gurwara S, Vince R, Bittner S. 1971. Novel substrate of adenosine deaminase. J Med Chem 14:367–369. DOI 10.1021/jm00286a024; PMID 5553754.",
+        "url": "https://doi.org/10.1021/jm00286a024",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Antiviral Drugs, printed pp. 456–458, paragraphs on adenine arabinoside and diaminopurine arabinoside."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Antiviral Drugs, printed p. 458, paragraph beginning 'In 1970 our laboratories moved'."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Antiviral Drugs, printed p. 458, next paragraph on the acyclic adenosine analogue and program shift."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Antiviral Drugs, printed p. 458, paragraph comparing diaminopurine and guanine analogues."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Section I, paragraph summarizing aminoacyl esters; Section 2.1, Acyclovir, discussion of early glycyl/alanyl esters and later valaciclovir."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Section 2.1, Acyclovir, paragraph on later oral absorption of valaciclovir."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 157, Introduction, paragraphs describing limited aciclovir oral bioavailability and the deliberate oral-prodrug program; p. 158, comparison with prior simple esters."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "pp. 157–158, Summary and Table 1; pp. 160–162, Bioavailability and Biological procedures."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "Presentation abstract, opening three substantive paragraphs, especially the acycloadenosine comparison and antiviral test."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S2",
+        "locator": "Final discussion, 'My comments', paragraph beginning 'Highlights in antiviral drug research'."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "Chapter 68, introductory discussion of anti-infective screening, paragraph on aciclovir."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S6",
+        "locator": "p. 5716, introduction, beginning with prior nucleoside analogues and continuing through the acyclic series; abstract for the selectivity findings."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/elion-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4675811/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/095632029200300305?download=true",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://drugdesign.umn.edu/research-archives",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC431864/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1021/jm00286a024",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This lineage is anchored in aciclovir and its valaciclovir prodrug. The 1992 prodrug selection was assessed in rats; its urinary-recovery comparison is not a human clinical result."
+    ],
+    "conflicts": [
+      "E10/S2 says aciclovir was initially intended as an adenosine-deaminase inhibitor to potentiate vidarabine; E11/S5 names cytosine arabinoside instead. E2/S1 and E9/S4 describe acycloadenosine as a substrate whose observed enzyme recognition suggested antiviral testing. S5 calls the aciclovir screening random, while S4 describes submitting the adenine precursor on the basis of its enzyme-substrate observation. Whether these accounts conflate compounds or distinct intentions is not resolved. Their reported antiviral effects nevertheless supply observation-led starting points."
+    ],
+    "gaps": [
+      "The original 1971 Schaeffer et al. enzyme paper is located but its full text was inaccessible; its precise experimental context and the competing initial-intent accounts cannot be resolved from the title.",
+      "The 1978 Nature antiviral report was located but not read in full; the 1977 original aciclovir paper and 1992 original rat prodrug report were read in relevant sections, with access details in the receipt.",
+      "Vince's presentation was available as an abstract only; no full presentation was read."
+    ]
+  },
+  "nameAliases": [
+    "Valtrex",
+    "valacyclovir"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ACYCLIC_GUANOSINE_ANTIVIRALS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Inadequate oral aciclovir bioavailability motivated development of a better-absorbed oral prodrug, including valaciclovir.",
+    "scope": "The original antiviral lead was laboratory-based and selection of the valyl ester used rat urinary recovery.",
+    "references": [
+      {
+        "id": "E7",
+        "citation": "Beauchamp LM, Orr GF, de Miranda P, Burnette T, Krenitsky TA. 1992. Amino acid ester prodrugs of acyclovir. Antiviral Chem Chemother 3:157–164. DOI 10.1177/095632029200300305.",
+        "url": "https://journals.sagepub.com/doi/pdf/10.1177/095632029200300305?download=true",
+        "locator": "p. 157, Introduction, paragraphs describing limited aciclovir oral bioavailability and the deliberate oral-prodrug program; p. 158, comparison with prior simple esters.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/DOPAMINE_PRECURSORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "DOPAMINE_PRECURSORS",
+    "name": "Dopamine precursors",
+    "medicines": [
+      "levodopa"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "carbidopa + levodopa",
+        "components": [
+          "carbidopa",
+          "levodopa"
+        ],
+        "usRank": null,
+        "englandRank": 146,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "DOPA reversed the reserpine-induced animal syndrome and restored brain dopamine; after the discovery of severe striatal dopamine deficit in human Parkinsonian brains, Hornykiewicz explicitly conceived L-DOPA as a means to replace the missing dopamine. A later clinical-development branch also investigated observed pigment loss and its possible relation to biogenic-amine loss.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E6",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule"
+    ],
+    "inspiration": {
+      "description": "Reserpine-induced depletion and its reversal in animals and deficient striatal dopamine in Parkinsonian human brains; dopamine was the endogenous target and L-DOPA its precursor. The later Cotzias branch involved neuromelanin loss, its possible relation to amines, and proposed restoration.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E6",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A precursor reversed reserpine-induced motor suppression in animals; its effect was correlated with restoration of dopamine in brain. A second retrospective also credits Holtz with an antireserpine DOPA report in 1957.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E13"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Carlsson's group linked these results and basal-ganglia dopamine distribution to the idea of dopamine replacement for parkinsonism.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Hornykiewicz and Ehringer detected severe striatal dopamine loss in Parkinsonian autopsy samples, which Hornykiewicz identifies as the basis for proposing L-DOPA replacement.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Hornykiewicz and neurologist Birkmayer translated the idea into an acute intravenous L-DOPA trial in 1961, observing rapid relief of akinesia.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Carlsson also describes early Japanese work by Sano on low brain dopamine and intravenous DL-DOPA, and Canadian work involving oral L-DOPA; these reports should not be collapsed into an exclusively Vienna history.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "Cotzias and coauthors' accessible 1967 opening linked pigment and amine deficits through a shared DOPA precursor. A later review characterizes the program as investigating neuromelanin restoration and describes use of DL-DOPA among other agents.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E10"
+        ]
+      },
+      {
+        "step": 7,
+        "description": "The 1969 report described gradual oral L-DOPA escalation and improvement in a series of 28 patients; a historical review places this after the earlier DL-DOPA work and describes the change to the L form.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E12"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately selected a catecholamine precursor to reach brain, tested replacement intravenously, and later developed a gradual oral regimen and treatment with the L form rather than the racemic mixture. These are clinical and stereochemical choices, not a claim of de novo molecular design.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E5",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The animal precursor experiment and the clinical replacement test were planned stages; this is not a blanket account of every finding.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Carlsson A. A Half-Century of Neurotransmitter Research: Impact on Neurology and Psychiatry. Nobel Lecture, 8 December 2000; relevant pp. 305–307, 314–315.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/carlsson-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Hornykiewicz O. Oleh Hornykiewicz. In: Squire LR, ed. The History of Neuroscience in Autobiography. Vol 4. Society for Neuroscience; 2004:240–281. doi:10.1016/S1874-6055(04)80019-7.",
+        "url": "https://www.brainfacts.org/-/media/SfN/Documents/TheHistoryofNeuroscience/Volume-4/c7.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Kempster P, Ma A. Parkinson's disease, dopaminergic drugs and the plant world. Front Pharmacol. 2022;13:970714. doi:10.3389/fphar.2022.970714.",
+        "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.970714/full",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Cotzias GC, Van Woert MH, Schiffer LM. Aromatic amino acids and modification of parkinsonism. N Engl J Med. 1967;276:374–379. doi:10.1056/NEJM196702162760703. PMID:5334614.",
+        "url": "https://www.nejm.org/doi/abs/10.1056/NEJM196702162760703",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "McGeer PL, Zeldowicz LR. Administration of dihydroxyphenylalanine to parkinsonian patients. Can Med Assoc J. 1964;90:463–466. PMID:14120951; PMCID:PMC1922247.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14120951/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Cotzias GC, Papavasiliou PS, Gellene R. Modification of Parkinsonism—chronic treatment with L-dopa. N Engl J Med. 1969;280:337–345. doi:10.1056/NEJM196902132800701. PMID:4178641.",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJM196902132800701",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 305–306, A Rosetta Stone?"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "pp. 306–307, A Rosetta Stone?"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "pp. 254–256, The Emergence of the Dopamine/Parkinson's Disease Idea; The Study"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 257, On Conceiving an Idea"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 258–259, It Is Impossible to Suppress an Idea; The Dopamine/L-Dopa Miracle"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 6, George Cotzias and practical oral levodopa therapy, first paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 6, George Cotzias and practical oral levodopa therapy, second paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 6, Early use of levodopa, second paragraph"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S1",
+        "locator": "p. 314, discussion of Japanese and Canadian work"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "p. 374, publisher's opening excerpt labeled Abstract"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "PubMed abstract, results and conclusion"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S6",
+        "locator": "Publisher's abstract, first and second sentences"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S2",
+        "locator": "pp. 253–254, Focus on Brain Dopamine"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/carlsson-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.brainfacts.org/-/media/SfN/Documents/TheHistoryofNeuroscience/Volume-4/c7.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.nejm.org/doi/abs/10.1056/NEJM196702162760703",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14120951/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJM196902132800701",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The animal experiment illustrated in the Carlsson account used DL-DOPA; the human Vienna trial used L-DOPA. Hornykiewicz also credits Holtz with an antireserpine DOPA report in 1957; that original has not been read.",
+      "Carlsson reports early Sano and Canadian contributions as well as Vienna work; primary reports and precise priority are not adjudicated here.",
+      "A later neuromelanin-oriented DL-DOPA program contributed to oral development; this does not make it a separate modern drug class.",
+      "The 1964 trial abstract does not specify stereoisomer; later summaries differ on at least the oral preparation and are not resolved here."
+    ],
+    "conflicts": [
+      "The Vienna collaborators reported striking acute responses (E5), whereas McGeer and Zeldowicz reported objective improvement in only two of ten patients and insufficient benefit in their study (E11); the historical review describes little active–placebo difference in controlled trials (E8). Dose and duration are possible explanations, not established causes of the divergence here.",
+      "The later review emphasizes Cotzias's neuromelanin-restoration hypothesis (E6), while his 1967 opening explicitly discusses both pigment and biogenic-amine deficits (E10). Neither establishes that he ignored dopamine or that the two rationales were mutually exclusive."
+    ],
+    "gaps": [
+      "The full methods and results of the 1967 and 1969 NEJM clinical papers were not read; the 1967 report was available as an opening excerpt and the 1969 report as the publisher's abstract.",
+      "The 1957 animal experiment, 1960 human-brain reports, Sano's 1960 Japanese paper, and the 1961 Vienna clinical paper were not read in full; the observations are supported by retrospective sources as identified.",
+      "The 1964 McGeer study was read as an abstract only, so the conflicting secondary descriptions of its stereochemistry could not be settled."
+    ]
+  },
+  "nameAliases": [
+    "Crexont",
+    "Dhivy",
+    "Duopa",
+    "Rytary",
+    "Sinemet",
+    "Vyalev"
+  ],
+  "humanContributionInterpretation": {
+    "id": "DOPAMINE_PRECURSORS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Cotzias used gradual dose escalation to address observed side effects and establish a practical oral levodopa regimen.",
+    "scope": "The earlier replacement hypothesis also depended on animal studies and human postmortem biochemistry.",
+    "references": [
+      {
+        "id": "E7",
+        "citation": "Kempster P, Ma A. Parkinson's disease, dopaminergic drugs and the plant world. Front Pharmacol. 2022;13:970714. doi:10.3389/fphar.2022.970714.",
+        "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.970714/full",
+        "locator": "p. 6, George Cotzias and practical oral levodopa therapy, second paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

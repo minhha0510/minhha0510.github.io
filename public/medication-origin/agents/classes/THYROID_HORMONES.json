@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/THYROID_HORMONES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "THYROID_HORMONES",
+    "name": "Thyroid hormone preparations",
+    "medicines": [
+      "levothyroxine"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "levothyroxine",
+        "components": [
+          "levothyroxine"
+        ],
+        "usRank": 2,
+        "englandRank": 6,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Myxoedema-like symptoms after thyroid loss and reported effects of animal and human thyroid grafts supplied the rationale for replacing the missing gland's function with thyroid extract; both the Portuguese graft authors' proposal and Murray's later account express the graft-to-injection reasoning.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E6",
+        "E7",
+        "E16"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "natural_substance",
+      "endogenous_molecule"
+    ],
+    "inspiration": {
+      "description": "Observed clinical effects of thyroid loss and animal and human graft outcomes led to the proposal to replace missing function with natural sheep thyroid extract. Thyroxine, the endogenous substance later isolated and chemically studied, was not yet identified at the original intervention.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E6",
+        "E7",
+        "E14",
+        "E16"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Clinical comparisons linked thyroid loss with myxoedema-like illness; animal thyroid-region graft experiments were reported to lessen consequences of removal, although some early grafts included parathyroid tissue.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E17"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "After reporting rapid improvement from a human sheep-thyroid graft, Bettencourt and Serrano proposed that absorbed gland juice explained the effect and suggested injections in another patient; the translated excerpt records the proposal, not an injection's completion.",
+        "support": "documented",
+        "evidence_ids": [
+          "E16"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "After discussing thyroid grafts and the proposed absorption of gland juice, Murray reasoned that injections of sheep thyroid extract could replace the missing function, and reported an improved patient. Priority for human injections is contested.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Other clinicians reported oral use of sheep thyroid or extract, and Murray later moved to oral extract administration.",
+        "support": "documented",
+        "evidence_ids": [
+          "E18"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A thyroid substance was later crystallized. Harington and Barger described synthesis of thyroxine and compared it chemically with gland-derived material; an appended note reported physiological observations in two patients.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E10",
+          "E11",
+          "E12"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "In 1928 Harington described synthetic dl-thyroxine and work toward separating optical forms. In 1930 Harington and Salter obtained thyroid-derived thyroxine by enzyme treatment and found that its optical rotation agreed with synthetic l-thyroxine. A historical review discusses subsequent therapeutic use of L-thyroxine, without establishing the exact chronology of commercial products here.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E13",
+          "E14",
+          "E15"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators grafted thyroid tissue, prepared thyroid extracts and adapted administration from injection to oral use; later they isolated a crystalline thyroid substance, synthesized thyroxine, tested its properties, separated optical forms and used enzyme treatment and optical comparisons to clarify the natural L form. The initial synthesis must not be assumed to be stereochemically pure L-thyroxine.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E7",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E18"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Bettencourt and Serrano's proposed injection and Murray's trial of sheep-thyroid extract were deliberate applications of graft and gland-replacement observations; this does not characterize all earlier findings.",
+      "support": "documented",
+      "evidence_ids": [
+        "E7",
+        "E16"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Lindholm J, Laurberg P. 2011. Hypothyroidism and Thyroid Substitution: Historical Aspects. J Thyroid Res 2011:809341. DOI 10.4061/2011/809341; PMID 21760981.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3134382/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Murray GR. 1891. Note on the Treatment of Myxœdema by Hypodermic Injections of an Extract of the Thyroid Gland of a Sheep. Br Med J 2(1606):796–797. DOI 10.1136/bmj.2.1606.796; PMID 20753415.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2273741/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Slater SD. 2010. The discovery of thyroid replacement therapy. James Lind Library. Relevant material republished as Part 3: A complete transformation, J R Soc Med 2011;104:100–106, DOI 10.1258/jrsm.2010.10k052; PMID 21357978.",
+        "url": "https://www.jameslindlibrary.org/articles/the-discovery-of-thyroid-replacement-therapy/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Harington CR, Barger G. 1927. Chemistry of Thyroxine: Constitution and Synthesis of Thyroxine. Biochem J 21(1):169–183. DOI 10.1042/bj0210169; PMID 16743801.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1251886/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Harington CR, Salter WT. 1930. The isolation of l-thyroxine from the thyroid gland by the action of proteolytic enzymes. Biochem J 24(2):456–471. DOI 10.1042/bj0240456; PMID 16744386.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1254445/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Harington CR. 1928. Resolution of dl-thyroxine. Biochem J 22(6):1429–1435. DOI 10.1042/bj0221429; PMID 16744160.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1252278/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Bettencourt R, Serrano J-A. 1891. Un cas de myxœdème (cachexie pachydermique) traité par la greffe hypodermique du corps thyroïde d’un mouton. Compte rendu de la 19eme session de l’Association française pour l’avancement des sciences, Limoges, 1890, pp. 683–690. English translation of selected passage by Ulrich Tröhler, James Lind Library.",
+        "url": "https://www.jameslindlibrary.org/bettencourt-r-serrano-j-a-1891/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Section 3, first two paragraphs, Kocher's 1883 follow-up after thyroid operations."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Section 8, second paragraph, retrospective account quoting Schiff's animal graft experiments."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Section 8, third and eighth paragraphs, thyroid grafts and earlier work behind extract treatment."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Section 8, last three paragraphs, crystallization and subsequent therapeutic use."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 796, right column, opening paragraph and continuation to p. 797, left column."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 797, left column, opening paragraph, recounting Bettencourt and Serrano's human graft."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "p. 797, left column, paragraphs beginning 'Now it appears reasonable' and 'If we consider'."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S2",
+        "locator": "p. 797, right column, paragraphs reporting the patient's response after treatment."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "The Portuguese contribution, paragraphs 1–4, earlier injection report and its recovery by Sawin."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S3",
+        "locator": "The advent of thyroxine and modern times, opening paragraph."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "p. 169, opening paragraphs, 1926 framework and purpose of the 1927 work; p. 180, concluding chemical comparison."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S4",
+        "locator": "pp. 181–183, D. Murray Lyon, 'Note on Physiological Test of Synthetic Thyroxine', including concluding comparison on p. 183."
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "p. 456, second paragraph, reasons for enzymatic isolation and reference to the previously resolved dl compound."
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S5",
+        "locator": "pp. 470–471, final paragraph of p. 470 and Table IV on p. 471."
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S6",
+        "locator": "p. 1429, first two paragraphs, and p. 1430, second paragraph."
+      },
+      {
+        "evidence_id": "E16",
+        "source_id": "S7",
+        "locator": "Translated selected passage, final paragraph; original page within pp. 683–690 not specified by the host."
+      },
+      {
+        "evidence_id": "E17",
+        "source_id": "S1",
+        "locator": "Section 8, third paragraph, and section 9, opening paragraph, historical account of grafts and postoperative tetany."
+      },
+      {
+        "evidence_id": "E18",
+        "source_id": "S3",
+        "locator": "Oral thyroid replacement therapy, opening discussion and paragraph beginning 'After these reports'."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2273741/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1251886/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1254445/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1252278/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://www.jameslindlibrary.org/bettencourt-r-serrano-j-a-1891/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The supported founding class history is thyroid replacement after observation of thyroid loss and graft effects; extracted animal gland and later isolated or synthesized thyroxine are stages of that replacement history, not separate design-from-scratch origins.",
+      "Some historical grafts included parathyroid tissue and early postoperative tetany was attributed to the thyroid; the animal results cannot all be assigned specifically to thyroxine (E17).",
+      "The 1930 optical comparison establishes a bridge to the L form relevant to the assigned cohort, but this collection does not establish the full development, regulatory, or manufacturing history of every subsequent preparation."
+    ],
+    "conflicts": [
+      "S1 calls Murray's 1891 report the first human thyroid-extract substitution account, whereas S3 reports an earlier beneficial injection presented by Bettencourt in November 1890. Murray himself stated only that he knew of no earlier human trial. The 1890 proceedings have not been read; avoid a sole-priority claim."
+    ],
+    "gaps": [
+      "The primary November 1890 Portuguese meeting report on injections has not been read; the translated Bettencourt and Serrano graft-report excerpt records a proposal, not completion of an injection, and its full French original was not read. Only relevant sections of the 1927, 1928 and 1930 chemistry papers were read. The original Kocher, Schiff and Kendall reports were not examined directly, and the exact commercial L-thyroxine chronology was not investigated."
+    ]
+  },
+  "nameAliases": [
+    "Ermeza",
+    "Euthyrox",
+    "Levo-T",
+    "Levoxyl",
+    "Synthroid",
+    "Thyquidity",
+    "Thyro-Tabs",
+    "Thyrocryn",
+    "ThyroKare",
+    "Tirosint",
+    "Unithroid"
+  ],
+  "humanContributionInterpretation": {
+    "id": "THYROID_HORMONES",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "The syndrome following thyroid removal and early graft or extract responses helped establish thyroid replacement.",
+    "scope": "Deliberate surgery and therapeutic intervention are part of this history; not a pure observational epidemiologic study.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Lindholm J, Laurberg P. 2011. Hypothyroidism and Thyroid Substitution: Historical Aspects. J Thyroid Res 2011:809341. DOI 10.4061/2011/809341; PMID 21760981.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3134382/",
+        "locator": "Section 3, first two paragraphs, Kocher's 1883 follow-up after thyroid operations.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Murray GR. 1891. Note on the Treatment of Myxœdema by Hypodermic Injections of an Extract of the Thyroid Gland of a Sheep. Br Med J 2(1606):796–797. DOI 10.1136/bmj.2.1606.796; PMID 20753415.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2273741/",
+        "locator": "p. 796, right column, opening paragraph and continuation to p. 797, left column.",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E6",
+        "citation": "Murray GR. 1891. Note on the Treatment of Myxœdema by Hypodermic Injections of an Extract of the Thyroid Gland of a Sheep. Br Med J 2(1606):796–797. DOI 10.1136/bmj.2.1606.796; PMID 20753415.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2273741/",
+        "locator": "p. 797, left column, opening paragraph, recounting Bettencourt and Serrano's human graft.",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E7",
+        "citation": "Murray GR. 1891. Note on the Treatment of Myxœdema by Hypodermic Injections of an Extract of the Thyroid Gland of a Sheep. Br Med J 2(1606):796–797. DOI 10.1136/bmj.2.1606.796; PMID 20753415.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2273741/",
+        "locator": "p. 797, left column, paragraphs beginning 'Now it appears reasonable' and 'If we consider'.",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E8",
+        "citation": "Murray GR. 1891. Note on the Treatment of Myxœdema by Hypodermic Injections of an Extract of the Thyroid Gland of a Sheep. Br Med J 2(1606):796–797. DOI 10.1136/bmj.2.1606.796; PMID 20753415.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2273741/",
+        "locator": "p. 797, right column, paragraphs reporting the patient's response after treatment.",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E16",
+        "citation": "Bettencourt R, Serrano J-A. 1891. Un cas de myxœdème (cachexie pachydermique) traité par la greffe hypodermique du corps thyroïde d’un mouton. Compte rendu de la 19eme session de l’Association française pour l’avancement des sciences, Limoges, 1890, pp. 683–690. English translation of selected passage by Ulrich Tröhler, James Lind Library.",
+        "url": "https://www.jameslindlibrary.org/bettencourt-r-serrano-j-a-1891/",
+        "locator": "Translated selected passage, final paragraph; original page within pp. 683–690 not specified by the host.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

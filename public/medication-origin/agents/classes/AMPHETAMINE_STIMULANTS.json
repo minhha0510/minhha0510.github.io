@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/AMPHETAMINE_STIMULANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "AMPHETAMINE_STIMULANTS",
+    "name": "Amphetamine-type CNS stimulants",
+    "medicines": [
+      "amphetamine",
+      "dexamfetamine",
+      "lisdexamfetamine"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "amphetamine + dexamfetamine",
+        "components": [
+          "amphetamine",
+          "dexamfetamine"
+        ],
+        "usRank": 15,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "lisdexamfetamine",
+        "components": [
+          "lisdexamfetamine"
+        ],
+        "usRank": 70,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Known oral and clinical effects of the Ephedra alkaloid ephedrine motivated an ephedrine-substitute program. Subsequently observed amphetamine-related wakefulness became a clue for stimulant clinical use; the historian also considers prior ephedrine experience a possible influence on narcolepsy testing.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "A naturally occurring ephedrine lead and its observed physiological and clinical effects guided the substitute search; subsequent amphetamine observations informed stimulant use.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The Ephedra alkaloid ephedrine produced circulatory and bronchial effects in animal studies. Clinically useful oral ephedrine effects and constrained supply motivated a search for a substitute.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Alles prepared ephedrine-related candidates; amphetamine sulfate had oral and pressor activity in animals and produced wakefulness in his self-test.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Alles supplied amphetamine for narcolepsy trials; the historian identifies observed wakefulness and ephedrine experience as clues. The 1935 clinical authors explicitly cite awakening animals and insomnia in humans as reasons to explore stimulant use.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a distinct pediatric behavioral application, Bradley reported observations during Benzedrine treatment in 1937 and suggested medically supervised use for behavior disorders; the historical diagnostic group is not assumed identical to modern ADHD.",
+        "support": "documented",
+        "evidence_ids": [
+          "E12"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "After comparative observations showed stronger central activity of the dextro isomer, Prinzmetal and Alles investigated it clinically in conditions responsive to the racemate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "The later L-lysine-d-amphetamine prodrug conjugated the established active dextro drug to lysine to alter its delivery; the patent describes synthesis and preclinical comparison. An FDA review identifies its dimethanesulfonate salt as lisdexamfetamine dimesylate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10",
+          "E11"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Alles prepared and tested ephedrine-related synthetic compounds, including phenylisopropylamine sulfate. Investigators resolved amphetamine into optical isomers and compared the dextro form clinically. Later, inventors conjugated active d-amphetamine to L-lysine in a prodrug intended to modify delivery and reduce abuse liability; the FDA identified its salt as lisdexamfetamine dimesylate and advised that labeling reflect high abuse liability.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E8",
+        "E9",
+        "E10",
+        "E11"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The ephedrine-substitute search and testing of the candidate were planned; whether its particular initial stimulant effects were unexpected is not established by this account.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Rasmussen N. 2006. Making the First Anti-Depressant: Amphetamine in American Medicine, 1929–1950. J Hist Med Allied Sci 61:288–323. DOI 10.1093/jhmas/jrj039; PMID 16492800.",
+        "url": "https://www.researchgate.net/publication/7284074_Making_the_First_Anti-Depressant_Amphetamine_in_American_Medicine_1929-1950",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Chen KK, Schmidt CF. 1924. The action of ephedrine, an alkaloid from Ma Huang. Proc Soc Exp Biol Med 21:351–354. DOI 10.3181/00379727-21-180.",
+        "url": "https://www.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-21-180/pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Prinzmetal M, Bloomberg W. 1935. The Use of Benzedrine for the Treatment of Narcolepsy. JAMA 105:2051–2054. DOI 10.1001/jama.1935.02760510023006.",
+        "url": "https://jamanetwork.com/journals/jama/article-abstract/1155134",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Prinzmetal M, Alles GA. 1939. The Central Nervous System Stimulant Effects of Dextro-Amphetamine Sulfate. Proc Soc Exp Biol Med 42:206–207. DOI 10.3181/00379727-42-10848P.",
+        "url": "https://journals.sagepub.com/doi/10.3181/00379727-42-10848P",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Mickle T, Krishnan S, Moncrief JS, Lauderback C, Bishop B, Oberlender R, Piccariello T. Abuse resistant lysine amphetamine compounds. US patent 7,223,735 B2, granted 2007-05-29; filed 2004-06-01, priority 2003-05-29.",
+        "url": "https://patents.google.com/patent/US7223735B2/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Bonson K; US Food and Drug Administration, Controlled Substance Staff. 2006. Abuse Liability of NRP-104 (Lisdexamfetamine dimesylate; L-lysine-d-amphetamine dimethanesulfonate): Labeling Recommendations, NDA 21-977. Memorandum, 12 September 2006.",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2007/021977s000_AdminCorres.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Bradley C. 1937. The Behavior of Children Receiving Benzedrine. Am J Psychiatry 94:577–585. DOI 10.1176/ajp.94.3.577.",
+        "url": "https://psychiatryonline.org/doi/10.1176/ajp.94.3.577",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Author-copy p. 8 of 36, ephedrine's clinical effects, oral activity, supply, and impetus for a substitute."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Author-copy p. 10 of 36, paragraph beginning with Alles's allergy research."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Author-copy p. 10 of 36, paragraph on Alles's June 1929 self-test and early clinical use."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Author-copy p. 11 of 36, paragraph on informal clinical research in 1933."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Pp. 351–352, plant source and preliminary animal investigation."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Pp. 352–353, physiological actions and bronchial spasm."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Publisher's accessible opening/abstract, first paragraph on rationale for clinical testing."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Publisher's accessible opening/abstract, paragraphs on isomer comparisons and clinical rationale."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "Background and Summary of Invention; Example 2 and claim 3."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "Example 6, pharmacokinetics in rats, methods and first results paragraph."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S6",
+        "locator": "2006 FDA Controlled Substance Staff memorandum, subject line and sections I and III–IV, memorandum pp. 1–3."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S7",
+        "locator": "Publisher's search-indexed abstract, complete accessible paragraph."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://www.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-21-180/pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://jamanetwork.com/journals/jama/article-abstract/1155134",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://journals.sagepub.com/doi/10.3181/00379727-42-10848P",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://patents.google.com/patent/US7223735B2/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://psychiatryonline.org/doi/10.1176/ajp.94.3.577",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The evidence supports the common amphetamine lineage, separate narcolepsy and pediatric behavioral applications, a later dextro-isomer comparison and the lysine–d-amphetamine prodrug; it does not assert a separate founding for each later analogue.",
+      "Bradley's 1937 behavior-disorder population is not automatically equivalent to modern ADHD; his full report and subsequent research were not read.",
+      "The separate anorectic class is outside this assignment."
+    ],
+    "conflicts": [
+      "Rasmussen cites Chen and Schmidt's volume 21, pp. 351–354 report as 1923; the publisher dates that same report March 1924.",
+      "The patent emphasizes reduced-abuse design objectives and favorable preclinical comparisons; an FDA reviewer later advised high-abuse-liability labeling for lisdexamfetamine on the basis of a wider body of evidence. The two sources differ in context and do not establish the product is abuse-proof."
+    ],
+    "gaps": [
+      "The full 1935 and 1939 clinical reports and their results are inaccessible beyond publisher previews; Bradley's 1937 report is likewise accessible only as an indexed abstract.",
+      "Alles's archival notebooks and the later manuscript cited by Rasmussen have not been directly accessed.",
+      "Alles's separate 1939 primary isomer comparison, cited by S4, has not been read directly.",
+      "The precise initial circumstances of Bradley's clinical observation and the later evidentiary transition to present-day ADHD treatment were not established from the original reports read here."
+    ]
+  },
+  "nameAliases": [
+    "Arynta",
+    "Vyvanse"
+  ],
+  "humanContributionInterpretation": {
+    "id": "AMPHETAMINE_STIMULANTS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Wakefulness and insomnia during self-testing and asthma treatment led toward narcolepsy; later child behavior observations supplied another clinical direction.",
+    "scope": "Includes self-experimentation and treatment series; the Bradley report was accessible only at abstract level.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Rasmussen N. 2006. Making the First Anti-Depressant: Amphetamine in American Medicine, 1929–1950. J Hist Med Allied Sci 61:288–323. DOI 10.1093/jhmas/jrj039; PMID 16492800.",
+        "url": "https://www.researchgate.net/publication/7284074_Making_the_First_Anti-Depressant_Amphetamine_in_American_Medicine_1929-1950",
+        "locator": "Author-copy p. 10 of 36, paragraph on Alles's June 1929 self-test and early clinical use.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Rasmussen N. 2006. Making the First Anti-Depressant: Amphetamine in American Medicine, 1929–1950. J Hist Med Allied Sci 61:288–323. DOI 10.1093/jhmas/jrj039; PMID 16492800.",
+        "url": "https://www.researchgate.net/publication/7284074_Making_the_First_Anti-Depressant_Amphetamine_in_American_Medicine_1929-1950",
+        "locator": "Author-copy p. 11 of 36, paragraph on informal clinical research in 1933.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Prinzmetal M, Bloomberg W. 1935. The Use of Benzedrine for the Treatment of Narcolepsy. JAMA 105:2051–2054. DOI 10.1001/jama.1935.02760510023006.",
+        "url": "https://jamanetwork.com/journals/jama/article-abstract/1155134",
+        "locator": "Publisher's accessible opening/abstract, first paragraph on rationale for clinical testing.",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E12",
+        "citation": "Bradley C. 1937. The Behavior of Children Receiving Benzedrine. Am J Psychiatry 94:577–585. DOI 10.1176/ajp.94.3.577.",
+        "url": "https://psychiatryonline.org/doi/10.1176/ajp.94.3.577",
+        "locator": "Publisher's search-indexed abstract, complete accessible paragraph.",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

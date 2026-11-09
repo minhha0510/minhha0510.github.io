@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/AZOLE_ANTIFUNGALS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "AZOLE_ANTIFUNGALS",
+    "name": "Azole antifungals",
+    "medicines": [
+      "clotrimazole",
+      "ketoconazole"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "clotrimazole",
+        "components": [
+          "clotrimazole"
+        ],
+        "usRank": null,
+        "englandRank": 141,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "ketoconazole",
+        "components": [
+          "ketoconazole"
+        ],
+        "usRank": 127,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Observed effects of synthetic benzimidazole included yeast-growth inhibition, followed by reports that motivated screening for useful antifungals. Janssen cited prior chlormidazole activity and developed phenethylimidazole antifungal effects; separately, Bayer screened active tritylimidazoles and selected clotrimazole.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Observed benzimidazole and chlormidazole effects, and phenethylimidazole and tritylimidazole antifungal screening, supplied starting evidence. A resemblance between animal effects and biotin deficiency and the occurrence of imidazole in histamine also informed the research programs.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E6",
+        "E7",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Woolley investigated biological effects of benzimidazole and observed growth inhibition of yeast, reversible by purines rather than biotin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Substituted benzimidazole activity encouraged subsequent screening, with chlormidazole developed as a topical antifungal.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Bayer researchers synthesized and tested substituted tritylimidazoles; after observing antifungal activity in a number of compounds, they selected a chlorinated analogue, clotrimazole.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a distinct program, Janssen researchers screened phenethylimidazoles and explored structure–activity relationships, producing miconazole and analogues.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6",
+          "E10"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Unexpected antifungal activity in dioxolane protecting-group derivatives drove additional synthesis leading to ketoconazole. The 1979 original describes the synthesized drug and oral antifungal activity in experimental animal infections.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and screened azole series, selected a chlorinated tritylimidazole, varied phenethylimidazole structures, and developed active dioxolane analogues into a substantially different antifungal, ketoconazole, with demonstrated oral activity in animal infections.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Bayer's tritylimidazole search and Janssen's subsequent structural exploration were planned; antifungal activity in the Janssen dioxolane protecting-group derivatives was described as surprising.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E7",
+        "E8"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Fromtling RA. 1988. Overview of medically important antifungal azole derivatives. Clinical Microbiology Reviews 1:187–217. DOI 10.1128/CMR.1.2.187; PMID 3069196.",
+        "url": "https://doi.org/10.1128/CMR.1.2.187",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Woolley DW. 1944. Some biological effects produced by benzimidazole and their reversal by purines. Journal of Biological Chemistry 152:225–232. DOI 10.1016/S0021-9258(18)72045-0.",
+        "url": "https://doi.org/10.1016/S0021-9258(18)72045-0",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Heeres J, Meerpoel L, Lewi P. 2010. Conazoles. Molecules 15:4129–4188. DOI 10.3390/molecules15064129; PMID 20657432.",
+        "url": "https://doi.org/10.3390/molecules15064129",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Holt RJ. 1976. Topical pharmacology of imidazole antifungals. Journal of Cutaneous Pathology 3:45–59. DOI 10.1111/j.1600-0560.1976.tb00846.x; PMID 945306.",
+        "url": "https://doi.org/10.1111/j.1600-0560.1976.tb00846.x",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Heeres J, Backx LJJ, Mostmans JH, Van Cutsem J. 1979. Antimycotic imidazoles. Part 4. Synthesis and antifungal activity of ketoconazole, a new potent orally active broad-spectrum antifungal agent. Journal of Medicinal Chemistry 22:1003–1005. DOI 10.1021/jm00194a023; PMID 490531.",
+        "url": "https://doi.org/10.1021/jm00194a023",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Godefroi EF, Heeres J, Van Cutsem J, Janssen PAJ. 1969. The preparation and antimycotic properties of derivatives of 1-phenethylimidazole. Journal of Medicinal Chemistry 12:784–791. DOI 10.1021/jm00305a014; PMID 4897900.",
+        "url": "https://doi.org/10.1021/jm00305a014",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Büchel KH, Draber W, Regel E, Plempel M. 1972. Synthesen und Eigenschaften von Clotrimazol und weiteren antimykotischen 1-Triphenylmethylimidazolen. Arzneimittel-Forschung 22:1260–1272. PMID 4564742.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4564742/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S2",
+        "locator": "p. 225, opening rationale"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "pp. 225, 228–230, introduction and experimental yeast-growth and reversal sections"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 189, History of Antifungal Azoles, second paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "p. 189, History of Antifungal Azoles, fourth paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 4130, Introduction, opening paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 4131, Syntheses and Structure-Activity-Relationship, first paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "pp. 4135–4136, final paragraph before Scheme 2"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "pp. 48–49, paragraph beginning at bottom of p. 48 and continuing in left column of p. 49"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "pp. 1003–1004, introduction and Biological Data"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "Eindhoven University of Technology research portal, abstract"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "pp. 54–55, concluding discussion"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S3",
+        "locator": "p. 4136, discussion of dioxolane exploration"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://www.researchgate.net/publication/232309696_Some_biological_effects_produced_by_benzimidazole_and_their_reversal_by_purines",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.mdpi.com/1420-3049/15/6/4129/pdf?version=1403112794",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://awarticles.s3.amazonaws.com/490531.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://research.tue.nl/en/publications/preparation-and-antimycotic-properties-of-derivatives-of-1-phenet/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4564742/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "Bayer clotrimazole and Janssen miconazole–ketoconazole are separate laboratory and structural branches; the available accounts do not establish a direct molecular derivation of clotrimazole from the Janssen lead.",
+      "Holt describes a prior Dow plant-fungicide patent but does not establish that it guided Bayer's initial selection of tritylimidazoles. The class-level label does not assign the same founding experiment to every azole drug."
+    ],
+    "conflicts": [
+      "S3 calls ketoconazole the first orally active broad-spectrum antifungal (E12), whereas S4 describes earlier systemic trials and oral administration of clotrimazole and miconazole (E11); S5 notes limited body-fluid levels after oral doses of those older agents (E9). Different thresholds of practical systemic activity may matter, but the sources do not resolve the priority claim. This record asserts only the specifically observed animal oral activity.",
+      "A contextual 2018 review gives chlormidazole and clotrimazole earlier marketing dates than the clinical-development timeline in S1 and S4; dates, milestone definitions, and jurisdictions were not adjudicated. The source and comparison are detailed in the receipt."
+    ],
+    "gaps": [
+      "The 1972 German Bayer synthesis report was located by PMID but not read; Holt instead summarizes an English-language 1972 report by the same four authors. Their exact initial choice of tritylimidazole series remains unresolved.",
+      "The 1969 Janssen phenethylimidazole original was accessible only as an indexed abstract, not full text. The 1979 ketoconazole original and its discoverer's later historical account were read."
+    ]
+  },
+  "nameAliases": [
+    "Aardora Anti-Fungal Maximum Strength",
+    "Alevazol",
+    "Clotic",
+    "Cruex Antifungal",
+    "Dermatin",
+    "Fungicure Solution",
+    "Fungistat",
+    "Jock-Eze",
+    "Ketodan",
+    "Kuric",
+    "Lasolex Liquid",
+    "Lotrimin",
+    "Nizoral",
+    "Recorlev",
+    "T8 Keto Flush",
+    "Trimazole",
+    "Xolegel"
+  ],
+  "humanContributionInterpretation": {
+    "id": "AZOLE_ANTIFUNGALS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Poor oral exposure of prior azoles and their clinical limitations supplied a rationale for developing an orally useful successor.",
+    "scope": "The initial lead chemistry was laboratory-based; the reported ketoconazole tests in the primary chemistry paper were animal studies.",
+    "references": [
+      {
+        "id": "E9",
+        "citation": "Heeres J, Backx LJJ, Mostmans JH, Van Cutsem J. 1979. Antimycotic imidazoles. Part 4. Synthesis and antifungal activity of ketoconazole, a new potent orally active broad-spectrum antifungal agent. Journal of Medicinal Chemistry 22:1003–1005. DOI 10.1021/jm00194a023; PMID 490531.",
+        "url": "https://doi.org/10.1021/jm00194a023",
+        "locator": "pp. 1003–1004, introduction and Biological Data",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E11",
+        "citation": "Holt RJ. 1976. Topical pharmacology of imidazole antifungals. Journal of Cutaneous Pathology 3:45–59. DOI 10.1111/j.1600-0560.1976.tb00846.x; PMID 945306.",
+        "url": "https://doi.org/10.1111/j.1600-0560.1976.tb00846.x",
+        "locator": "pp. 54–55, concluding discussion",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

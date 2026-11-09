@@ -1,0 +1,304 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/SARI_ANTIDEPRESSANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "SARI_ANTIDEPRESSANTS",
+    "name": "Serotonin antagonist and reuptake inhibitors",
+    "medicines": [
+      "trazodone"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "trazodone",
+        "components": [
+          "trazodone"
+        ],
+        "usRank": 20,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Developers described an observed clinical picture of depression including mental pain, which prompted the hypothesis that raising the threshold for unpleasant experience could have antidepressant effects. They used animal models accordingly and later described antinociception as critical to trazodone's discovery.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E5",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "A clinical observation of mental pain among depressed patients led to the hypothesis about threshold for unpleasant experiences, as reconstructed retrospectively by the developer; its validity as a disease mechanism is a separate question.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Retrospective developer accounts connect the observed mental-pain clinical picture to a hypothesis about unpleasant experiences and hypothesis-directed animal models.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E6"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Researchers synthesized a triazolopyridinone and reported pain-related, behavioral and peripheral antiserotonin assays. A developer later described antinociception as critical to discovery; Ban recounts subsequent clinical investigations.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E7"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Later characterization described serotonin reuptake inhibition and high 5-HT2 affinity for trazodone.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A later related phenoxyethyl-triazolone development combined new chemistry with receptor-binding selection. The 1982 patent's preferred compound was subsequently identified as nefazodone; company researchers describe initial 5-HT2A blocking and reduced alpha-1 potency followed by in-vitro uptake characterization.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers translated a clinical idea into animal tests and synthesized the trazodone triazolopyridinone; the patent does not state why that structure was first selected. A later phenoxyethyl-triazolone series, including nefazodone, used a different architecture and serotonin/alpha-receptor binding profile in the search for antidepressants with fewer side effects. That is later medicinal chemistry and pharmacology, not evidence that the original class was designed from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The use of animal models to pursue the mental-pain hypothesis was purposeful; this does not establish whether discovering the particular compound or any other effect was expected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Silvestrini B. 1989. Trazodone: from the mental pain to the 'dys-stress' hypothesis of depression. Clin Neuropharmacol 12 Suppl 1:S4-S10. DOI 10.1097/00002826-198901001-00002; PMID 2568177.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2568177/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Ban TA. 2014. Ban & Silvestrini's Trazodone. International Network for the History of Neuropsychopharmacology, editor's statement, February 27.",
+        "url": "https://inhn.org/inhn-projects/books/books/ban-silvestrinis-trazodone",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Palazzo G, Silvestrini B. 1968. Triazole-(4,3-a)-pyridines. US patent 3381009A, granted April 30, 1968; filed October 28, 1966.",
+        "url": "https://patents.google.com/patent/US3381009A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Silvestrini B, Valeri P. 1984. Trazodone, a new avenue in the treatment of depression. Psychopathology 17 Suppl 2:3-14. DOI 10.1159/000284086; PMID 6144138.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6144138/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Silvestrini B, Valeri P. 1985. Trazodone - A Distinctive Pharmacological Profile. In: Pichot P, Berner P, Wolf R, Thau K, eds. Psychiatry the State of the Art, Vol. 3. Plenum Press, pp. 167-171. DOI 10.1007/978-1-4613-2363-1_27.",
+        "url": "https://link.springer.com/chapter/10.1007/978-1-4613-2363-1_27",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Temple DL Jr, Lobeck WG Jr. 1982. Phenoxyethyl-1,2,4,-triazol-3-one antidepressants. US patent 4338317A, granted July 6, 1982.",
+        "url": "https://patents.google.com/patent/US4338317A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Taylor DP, Carter RB, Eison AS, Mullins UL, Smith HL, Torrente JR, Wright RN, Yocca FD. 1995. Pharmacology and neurochemistry of nefazodone, a novel antidepressant drug. J Clin Psychiatry 56 Suppl 6:3-11. PMID 7649970.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7649970/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Gammans RE, Smith DW, Yevich JP. 1986. Antidepressant 1,2,4-triazolone compounds. US patent 4613600A, granted September 23, 1986.",
+        "url": "https://patents.google.com/patent/US4613600A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "PubMed abstract, first sentence"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Editor's statement, first two paragraphs"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Description, pharmacology subsection (c), and Example 1"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "Description, pharmacology subsection (a)"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "PubMed abstract, sentences 5-7"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "p. 167, complete Introduction"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "Background of the invention; summary, animal and receptor-binding assay descriptions"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "PubMed abstract, sentences 1-3"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S8",
+        "locator": "Description, Background of the Invention, paragraphs on structure (3)"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "pp. 167-168, Pharmacological and Biochemical Profile"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S3",
+        "locator": "Patent heading, claimed Italian priorities"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2568177/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US3381009A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6144138/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://link.springer.com/chapter/10.1007/978-1-4613-2363-1_27",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://patents.google.com/patent/US4338317A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The observation-led finding is established for the trazodone founding program and applies directly to the frozen cohort member. The clinical observation and mental-pain hypothesis are a developer's retrospective, not independently verified original patient evidence.",
+      "Nefazodone is a later chemical descendant and a receptor-focused development branch, not evidence that the entire class was designed de novo. The later pharmacological aims and ring architecture differ; the full chemical decision chain and independent sources for its earliest selection have not been reconstructed.",
+      "The scope is the declared trazodone/nefazodone family, not the wider set of all drugs sometimes called serotonin antagonists or SSRIs. No cohort-membership change is proposed."
+    ],
+    "conflicts": [
+      "Ban retrospectively dates trazodone synthesis to 1966 (E2), whereas the US patent for the compound series claims Italian priorities in both 1965 and 1966 (E11). This is an apparent chronology question, not a demonstrated contradiction: the specific contents of each priority filing were not examined."
+    ],
+    "gaps": [
+      "The original clinical observations and contemporaneous notes explaining the selection of the first trazodone structure were not located. The 1968 patent describes assays and preparations but does not explicitly attribute structure choice to the mental-pain hypothesis.",
+      "The complete 1984 and 1989 Silvestrini papers were not accessible; only their abstracts were read. The 1985 chapter's complete Introduction and first two pages were read, not the full five-page chapter.",
+      "The full 1995 Taylor et al. review and original internal nefazodone discovery records were not read; the documented receptor-focused branch rests on its abstract and the 1982 and 1986 patent passages."
+    ]
+  },
+  "nameAliases": [
+    "Raldesy"
+  ],
+  "humanContributionInterpretation": {
+    "id": "SARI_ANTIDEPRESSANTS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Developers attributed trazodone's mental-pain hypothesis to the observed clinical picture of depressed patients.",
+    "scope": "Developer retrospectives, without a contemporary patient series; this is a qualitative patient-pattern rationale, not an observed treatment effect.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Silvestrini B. 1989. Trazodone: from the mental pain to the 'dys-stress' hypothesis of depression. Clin Neuropharmacol 12 Suppl 1:S4-S10. DOI 10.1097/00002826-198901001-00002; PMID 2568177.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2568177/",
+        "locator": "PubMed abstract, first sentence",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E6",
+        "citation": "Silvestrini B, Valeri P. 1985. Trazodone - A Distinctive Pharmacological Profile. In: Pichot P, Berner P, Wolf R, Thau K, eds. Psychiatry the State of the Art, Vol. 3. Plenum Press, pp. 167-171. DOI 10.1007/978-1-4613-2363-1_27.",
+        "url": "https://link.springer.com/chapter/10.1007/978-1-4613-2363-1_27",
+        "locator": "p. 167, complete Introduction",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

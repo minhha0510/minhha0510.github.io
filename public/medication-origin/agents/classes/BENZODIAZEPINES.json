@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/BENZODIAZEPINES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "BENZODIAZEPINES",
+    "name": "Benzodiazepines",
+    "medicines": [
+      "alprazolam",
+      "clonazepam",
+      "diazepam",
+      "lorazepam"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "alprazolam",
+        "components": [
+          "alprazolam"
+        ],
+        "usRank": 56,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "clonazepam",
+        "components": [
+          "clonazepam"
+        ],
+        "usRank": 59,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "diazepam",
+        "components": [
+          "diazepam"
+        ],
+        "usRank": null,
+        "englandRank": 80,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "lorazepam",
+        "components": [
+          "lorazepam"
+        ],
+        "usRank": 75,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "An empirical tranquilizer search yielded an unexpected animal pharmacology profile for the synthetic compound later named chlordiazepoxide; its promising effects prompted synthesis of related benzodiazepines.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E6",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "Unexpected sedative, muscle-relaxant and anticonvulsant animal effects of the synthetic chlordiazepoxide lead prompted further development. Upstream, natural alkaloids were among the examples behind a broad basic-amine design heuristic, alongside synthetic drugs; they were not identified as natural molecular precursors of the benzodiazepine lead.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The group pursued a deliberate empirical chemical search for a new tranquilizer, selecting chemistry familiar from earlier dyestuff work.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "An untested synthetic sample was submitted for pharmacological screening in 1957 and showed an unexpectedly promising animal-test profile; this effect motivated synthesis of analogues.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Structural investigation revealed that an unexpected chemical rearrangement had formed the 1,4-benzodiazepine ring; the active lead became chlordiazepoxide.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E16"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "An active decomposition product and subsequent molecular modifications yielded diazepam, selected for higher potency in tests.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E7"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Upjohn researchers subsequently developed triazolobenzodiazepines by modifying the established 1,4-benzodiazepine system and testing the new compounds against diazepam analogues; the 1971 series included the compound later named alprazolam.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10",
+          "E11",
+          "E12",
+          "E13"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and screened the initial compound, elucidated and modified the active chemical series, and selected a more potent 1-methyl derivative for development as diazepam.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The search for a tranquilizer and the 1957 animal screening were planned; the positive pharmacological result for the stored compound was unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Sternbach LH. 1979. The Benzodiazepine Story. J Med Chem 22(1):1–7. DOI 10.1021/jm00187a001; PMID 34039.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=7977ae4d4f4be540d3b6288a4d6219b7d0b33f51&repid=rep1&type=pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Sternbach LH, interview by Koeppel TA. 1986-03-12. Oral history interview with Leo H. Sternbach. Science History Institute Digital Collections.",
+        "url": "https://digital.sciencehistory.org/works/v405sb56q",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Randall LO, Schallek W, Heise GA, Keith EF, Bagdon RE. 1960. The psychosedative properties of methaminodiazepoxide. J Pharmacol Exp Ther 129(2):163–171. PMID 14436141; DOI 10.1016/S0022-3565(25)25804-9.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022356525258049",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Hester JB Jr, Rudzik AD, Kamdar BV. 1971. 6-Phenyl-4H-s-triazolo[4,3-a][1,4]benzodiazepines which have central nervous system depressant activity. J Med Chem 14(11):1078–1081. DOI 10.1021/jm00293a015; PMID 5165540.",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20Medicinal%20Chemistry/1971%20Volume%2014/14/11/jm00293a015.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Hester JB Jr, Von Voigtlander P. 1979. 6-Aryl-4H-s-triazolo[4,3-a][1,4]benzodiazepines. Influence of 1-substitution on pharmacological activity. J Med Chem 22(11):1390–1398. DOI 10.1021/jm00197a021; PMID 42799.",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20Medicinal%20Chemistry/1979%20Volume%2022/22/11/jm00197a021.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Hsi RSP, Stolle WT. 1981. Synthesis of carbon-14 labeled 1,4-benzodiazepines. IV. Carbon-13 and carbon-14 labeled 8-chloro-1-(2-dimethylamino)ethyl-6-phenyl-4H-s-triazolo[4,3-a][1,4]-benzodiazepine tosylate. J Label Compd Radiopharm 18(6):881–888. DOI 10.1002/jlcr.2580180613.",
+        "url": "https://analyticalsciencejournals.onlinelibrary.wiley.com/doi/abs/10.1002/jlcr.2580180613",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Alavijeh MS, Chishty M, Qaiser MZ, Palmer AM. 2005. Drug metabolism and pharmacokinetics, the blood-brain barrier, and central nervous system drug discovery. NeuroRx 2(4):554–571. DOI 10.1602/neurorx.2.4.554; PMID 16489365.",
+        "url": "https://link.springer.com/content/pdf/10.1602/neurorx.2.4.554.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 1, opening historical account, discussion of alternative research approaches"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 2, cleanup and preliminary pharmacological screening paragraphs"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 3, paragraph preceding synthesis of analogues, and p. 4, clinical introduction"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "pp. 4–5, molecular modification program and selection of diazepam"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "transcript 00:59–01:02, rationale for introducing side-chain amines"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "transcript 01:05–01:06, animal tests and request for analogues"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "transcript 01:14–01:18, chlordiazepoxide decomposition and diazepam selection"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S2",
+        "locator": "transcript 01:20–01:23, discussion of marketed analogues and competing companies"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "publisher abstract, first and third paragraphs"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "p. 1078, abstract and first two narrative paragraphs"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "p. 1078, paragraph beginning 'Our discovery'"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "p. 1390, opening paragraph"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S6",
+        "locator": "publisher abstract and footnote to compound 3"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S7",
+        "locator": "p. 560, CNS drug discovery, Anxiolytic drugs"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S2",
+        "locator": "transcript 00:56–00:58, transition from phenothiazines to the new program"
+      },
+      {
+        "evidence_id": "E16",
+        "source_id": "S1",
+        "locator": "pp. 2–3, structural elucidation and reaction mechanism"
+      },
+      {
+        "evidence_id": "E17",
+        "source_id": "S7",
+        "locator": "pp. 560–561, end of Anxiolytic drugs introduction"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1021/jm00187a001",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://digital.sciencehistory.org/works/v405sb56q",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022356525258049",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1021/jm00293a015",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1021/jm00197a021",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1002/jlcr.2580180613",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The two retrospectives are by the same discoverer and do not independently corroborate each other.",
+      "Sternbach distinguishes Roche's clonazepam from Wyeth's lorazepam as later analogues. Upjohn's alprazolam is a later triazolobenzodiazepine; its detailed internal research decisions are not reconstructed as a separate class founding.",
+      "The S7 review names all four assigned members as benzodiazepines (E17), but a shared class label does not establish each analogue's complete genealogy."
+    ],
+    "conflicts": [
+      "The 2005 review S7 describes chlordiazepoxide as emerging from side-chain work within chlorpromazine's structure (E14). Sternbach's oral history instead distinguishes an earlier unproductive phenothiazine effort from his later intention to seek a new group unrelated to Thorazine (E15). The extent of structural analogy or direct influence is unresolved; the supported observation-led judgment rests on the subsequent tested lead and its documented development, not on deciding this upstream disagreement."
+    ],
+    "gaps": [
+      "The 1960 original pharmacology report was read only as the publisher's abstract, not in full; the original 1957 screening records have not been located.",
+      "The specific internal decisions producing the Upjohn compound are not established by the later statement that its activity prompted additional analogues."
+    ]
+  },
+  "nameAliases": [
+    "Ativan",
+    "Diastat",
+    "Klonopin",
+    "Libervant",
+    "Loreev",
+    "Valium",
+    "Valtoco",
+    "Xanax"
+  ],
+  "humanContributionInterpretation": {
+    "id": "BENZODIAZEPINES",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Sternbach LH. 1979. The Benzodiazepine Story. J Med Chem 22(1):1–7. DOI 10.1021/jm00187a001; PMID 34039.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=7977ae4d4f4be540d3b6288a4d6219b7d0b33f51&repid=rep1&type=pdf",
+        "locator": "p. 1, opening historical account, discussion of alternative research approaches",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Sternbach LH. 1979. The Benzodiazepine Story. J Med Chem 22(1):1–7. DOI 10.1021/jm00187a001; PMID 34039.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=7977ae4d4f4be540d3b6288a4d6219b7d0b33f51&repid=rep1&type=pdf",
+        "locator": "p. 2, cleanup and preliminary pharmacological screening paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Sternbach LH. 1979. The Benzodiazepine Story. J Med Chem 22(1):1–7. DOI 10.1021/jm00187a001; PMID 34039.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=7977ae4d4f4be540d3b6288a4d6219b7d0b33f51&repid=rep1&type=pdf",
+        "locator": "p. 3, paragraph preceding synthesis of analogues, and p. 4, clinical introduction",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Sternbach LH, interview by Koeppel TA. 1986-03-12. Oral history interview with Leo H. Sternbach. Science History Institute Digital Collections.",
+        "url": "https://digital.sciencehistory.org/works/v405sb56q",
+        "locator": "transcript 01:05–01:06, animal tests and request for analogues",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Randall LO, Schallek W, Heise GA, Keith EF, Bagdon RE. 1960. The psychosedative properties of methaminodiazepoxide. J Pharmacol Exp Ther 129(2):163–171. PMID 14436141; DOI 10.1016/S0022-3565(25)25804-9.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0022356525258049",
+        "locator": "publisher abstract, first and third paragraphs",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

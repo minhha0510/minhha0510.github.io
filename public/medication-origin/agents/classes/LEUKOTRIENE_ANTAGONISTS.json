@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/LEUKOTRIENE_ANTAGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "LEUKOTRIENE_ANTAGONISTS",
+    "name": "Leukotriene receptor antagonists",
+    "medicines": [
+      "montelukast"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "montelukast",
+        "components": [
+          "montelukast"
+        ],
+        "usRank": 21,
+        "englandRank": 55,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Observed release of SRS-A during anaphylaxis and its smooth-muscle-contracting activity motivated an early antagonist screen. Later evidence of cysteinyl leukotriene bronchoconstriction supported therapeutic antagonist programs; in the Merck quinoline series, a measured antagonist effect in a broad compound screen supplied an additional lead.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E6",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule",
+      "other"
+    ],
+    "inspiration": {
+      "description": "Observed anaphylaxis-associated SRS-A activity motivated functional antagonist screening; the endogenous cysteinyl leukotrienes' airway effects supported further programs. Other: a compound's observed antagonist effect supplied a quinoline-series lead; the original preparation of that screen hit is not specified in the accessible original abstract.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E6",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "SRS-A release during anaphylaxis and its ability to contract smooth muscle supplied a biological starting clue for an antagonist screen.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The investigators screened their compounds against SRS-A in isolated guinea-pig ileum and used structure–activity relationships to develop antagonists including FPL 55712.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Identification and pharmacological study of cysteinyl leukotriene mediators and their bronchoconstricting effects led to a search for selective antagonists; the Merck Frosst program began by synthesizing leukotrienes and later pursued antagonists and, separately, biosynthesis inhibitors.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A separate Merck quinoline-series lead showed LTD4-antagonist activity in broad screening; researchers transformed its structure and developed an orally active antagonist, MK-571.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Medicinal-chemistry accounts trace the quinoline series through leukotriene-inspired structural modifications and development of MK-571, followed by work addressing peroxisomal enzyme induction and leading to montelukast.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10",
+          "E11",
+          "E12"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers developed the early SRS-A antagonist using structure–activity relationships. In the quinoline series they changed an aromatic ring and introduced or modified acidic groups, including leukotriene-inspired structural elements, to obtain a potent, orally active antagonist; subsequent work addressed peroxisomal enzyme induction. These are substantive changes in antagonist structure, activity and experimentally measured enzyme induction, not merely delivery optimization.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The SRS-A functional antagonist screen and subsequent structure–activity work were deliberate; the abstract does not establish whether every upstream observation was anticipated.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Augstein J, Farmer JB, Lee TB, Sheard P, Tattersall ML. Selective Inhibitor of Slow Reacting Substance of Anaphylaxis. Nature New Biology. 1973;245:215–217. DOI 10.1038/newbio245215a0; PMID 4147765.",
+        "url": "https://www.nature.com/articles/newbio245215a0",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Barnes PJ. Drugs for asthma. British Journal of Pharmacology. 2006;147(Suppl 1):S297–S303. DOI 10.1038/sj.bjp.0706437; PMID 16402117.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1038/sj.bjp.0706437",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Samuelsson B. From Studies of Biochemical Mechanisms to Novel Biological Mediators: Prostaglandin Endoperoxides, Thromboxanes and Leukotrienes. Nobel Lecture, 8 December 1982; pp. 129–133.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/samuelsson-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Young RN. Discovery of Singulair® and its impact on treatment of asthma in children and adults. Abstract MEDI 214, 234th American Chemical Society National Meeting, Boston, August 19–23, 2007; abstracts published July 25, 2007.",
+        "url": "https://www.acsmedchem.org/data/234th-National-ACS-Meeting-mediabstractf2007.pdf",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Zamboni R, Belley M, Champion E, Charette L, DeHaven R, Frenette R, Gauthier JY, Jones TR, Léger S, Masson P, et al. Development of a novel series of styrylquinoline compounds as high-affinity leukotriene D4 receptor antagonists: synthetic and structure-activity studies leading to the discovery of (±)-3-[[[3-[2-(7-chloro-2-quinolinyl)-(E)-ethenyl]phenyl][[3-(dimethylamino)-3-oxopropyl]thio]methyl]thio]propionic acid. Journal of Medicinal Chemistry. 1992;35(21):3832–3844. DOI 10.1021/jm00099a011; PMID 1331447.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1331447/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Bernstein PR. Chemistry and Structure–Activity Relationships of Leukotriene Receptor Antagonists. American Journal of Respiratory and Critical Care Medicine. 1998;157(6):S220–S226. DOI 10.1164/ajrccm.157.6.mar-3; PMID 9620943.",
+        "url": "https://academic.oup.com/ajrccm/article-abstract/157/6/S220/8531343",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Bell RL, Harris RR, Stewart AO. COX-2 Inhibitors and Leukotriene Modulators. In: Abraham DJ, ed. Burger’s Medicinal Chemistry and Drug Discovery. 6th ed. Vol. 4. Wiley; 2003. Section 6.1.3.4, pp. 223–224. DOI 10.1002/0471266949.bmc063.",
+        "url": "https://doi.org/10.1002/0471266949.bmc063",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Labelle M, Belley M, Gareau Y, Gauthier JY, Guay D, Gordon R, et al. Discovery of MK-0476, a potent and orally active leukotriene D4 receptor antagonist devoid of peroxisomal enxyme induction. Bioorganic & Medicinal Chemistry Letters. 1995;5(3):283–288. DOI 10.1016/0960-894X(95)00023-M.",
+        "url": "https://www.sciencedirect.com/science/article/pii/0960894X9500023M",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Publisher abstract, first two paragraphs"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Publisher abstract, final paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Page S301, Antagonists of inflammatory mediators, SRS-A paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Page S301, Antagonists of inflammatory mediators, cysteinyl-leukotriene paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "Printed pages 129–131, Slow Reacting Substance of Anaphylaxis"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "Abstract MEDI 214, first paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "PubMed abstract, first sentence"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "PubMed abstract, middle sentences"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S6",
+        "locator": "Publisher abstract, fourth and fifth sentences"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S7",
+        "locator": "Section 6.1.3.4, printed page 224, first and second paragraphs"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S7",
+        "locator": "Section 6.1.3.4, printed page 224, second paragraph"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S8",
+        "locator": "Publisher abstract, sentences 2–6"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nature.com/articles/newbio245215a0",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.nobelprize.org/uploads/2018/06/samuelsson-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.acsmedchem.org/data/234th-National-ACS-Meeting-mediabstractf2007.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1331447/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://www.sciencedirect.com/science/article/pii/0960894X9500023M",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The functional SRS-A antagonist FPL 55712 is an early prototype, not an established direct chemical ancestor of montelukast in these reads.",
+      "The 1992 Merck original documents a screened quinoline-to-MK-571 branch. A later review traces that chemical series through subsequent safety-oriented work to montelukast, but the 1995 original report has not been read in full.",
+      "Other class antagonists arose from additional chemistry approaches; the detailed development of each later analogue is outside this class-level collection. Biosynthesis inhibitors are a distinct strategy, not receptor antagonists."
+    ],
+    "conflicts": [
+      "Barnes compresses SRS-A structural identification into 1979; Samuelsson's firsthand account distinguishes the 1979 partial structure from subsequent complete identification and later observations of additional leukotrienes. The difference is treated as chronological compression, not as evidence of a distinct founding mechanism."
+    ],
+    "gaps": [
+      "The 1973, 1992 and 1995 antagonist reports and the comparative 1998 chemistry review were read at abstract extent only; the 1979 biochemical original was inspected at abstract extent only.",
+      "The transition from MK-571 to montelukast is supported at series level by a retrospective review; the 1995 original chemistry report was read only at abstract extent, and that abstract does not name its initial compound beyond the label 2. The original preparation of the screened quinoline hit and other companies' detailed timelines remain unresolved.",
+      "Young's 2007 discoverer account is a meeting abstract; his fuller 2001 and 2012 accounts were not read in full. Root will independently assess source attribution and review status."
+    ]
+  },
+  "nameAliases": [
+    "Singulair"
+  ],
+  "humanContributionInterpretation": {
+    "id": "LEUKOTRIENE_ANTAGONISTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Bronchoconstriction after inhaled cysteinyl leukotrienes in asthma patients supported antagonist development.",
+    "scope": "A deliberate human challenge experiment; lipid mediator discovery and receptor work were laboratory-based.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Barnes PJ. Drugs for asthma. British Journal of Pharmacology. 2006;147(Suppl 1):S297–S303. DOI 10.1038/sj.bjp.0706437; PMID 16402117.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1038/sj.bjp.0706437",
+        "locator": "Page S301, Antagonists of inflammatory mediators, cysteinyl-leukotriene paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

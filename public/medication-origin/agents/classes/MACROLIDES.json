@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/MACROLIDES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "MACROLIDES",
+    "name": "Macrolide antibiotics",
+    "medicines": [
+      "azithromycin",
+      "clarithromycin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "azithromycin",
+        "components": [
+          "azithromycin"
+        ],
+        "usRank": 60,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "clarithromycin",
+        "components": [
+          "clarithromycin"
+        ],
+        "usRank": null,
+        "englandRank": 129,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "Basis scope: erythromycin-derived lineage; first-screen chronology and macrolide priority unresolved.",
+    "starting": {
+      "description": "Within the erythromycin-derived lineage, active microbial erythromycin A supplied a working parent for deliberate derivative programs. The original patent reports active culture product and recovery; Bright 1988 explicitly states spectrum and pharmacokinetic objectives. The precise initial soil-screen sequence remains unestablished.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Antibacterial activity of the erythromycin-producing soil actinomycete and its natural product; later derivatives were made from the already active antibiotic.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A soil isolate produced measurable antibacterial material, which the inventors cultured and isolated as erythromycin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Erythromycin A was chemically modified into the cohort agents clarithromycin and azithromycin. Researchers sought changes in acid stability, pharmacokinetics and antibacterial spectrum; an erythromycin-derived aza-macrolide series added nitrogen to a 15-membered ring.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers cultivated and purified the natural antibiotic, then chemically modified erythromycin A to obtain semisynthetic derivatives. In the aza-macrolide series, inserting nitrogen and expanding the ring generated new structures with altered antibacterial spectra as well as pharmacokinetic aims.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The later search for chemically modified erythromycin derivatives with altered spectrum and improved properties was deliberate; the circumstances of first detection are not established by the patent sections read.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Bunch RL, McGuire JM. Erythromycin, its salts, and method of preparation. US patent 2,653,899; filed 1952-04-14, issued 1953-09-29.",
+        "url": "https://patents.google.com/patent/US2653899A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Dinos GP. The macrolide antibiotic renaissance. Br J Pharmacol. 2017;174(18):2967–2983. doi:10.1111/bph.13936; PMID:28664582.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5573421/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "McGuire JM, Bunch RL, Anderson RC, Boaz HE, Flynn EH, Powell HM, Smith JW. Ilotycin, a new antibiotic. Antibiot Chemother (Northfield). 1952;2(6):281–283. PMID:24541924.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24541924/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Brockmann H, Henkel W. Pikromycin, ein bitter schmeckendes Antibioticum aus Actinomyceten. Chem Ber. 1951;84(3):284–288. doi:10.1002/cber.19510840306.",
+        "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cber.19510840306",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Bright GM, Nagel AA, Bordner J, et al. Synthesis, in vitro and in vivo activity of novel 9-deoxo-9a-aza-9a-homoerythromycin A derivatives; a new class of macrolide antibiotics, the azalides. J Antibiot (Tokyo). 1988;41(8):1029–1047. doi:10.7164/antibiotics.41.1029; PMID:3139603.",
+        "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/41/8/41_8_1029/_pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Fair RJ, Tor Y. Antibiotics and bacterial resistance in the 21st century. Perspect Medicin Chem. 2014;6:25–64. doi:10.4137/PMC.S14459; PMID:25232278.",
+        "url": "https://journals.sagepub.com/doi/10.4137/PMC.S14459",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Morimoto S, Takahashi Y, Watanabe Y, Omura S. Chemical modification of erythromycins. I. Synthesis and antibacterial activity of 6-O-methylerythromycins A. J Antibiot (Tokyo). 1984;37(2):187–189. doi:10.7164/antibiotics.37.187; PMID:6706855.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6706855/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Patent description, printed column 3, first paragraph, and column 1, antibacterial spectrum and Table I."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Patent description, printed columns 7–9, especially column 8 on monitoring culture samples and recovery; Examples 1 and 7 in columns 13–17."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Isolation of natural macrolides and their chemical structure, first paragraph and Figure 1."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Antimicrobial activity and chemical derivatization, paragraphs 4–7 and Figure 1."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "Publisher abstract, first sentence."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "p. 1029, abstract and final introductory paragraph; p. 1035, Results and Discussion, In Vitro Studies."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "Macrolides section, first paragraph."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://patents.google.com/patent/US2653899A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24541924/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cber.19510840306",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/41/8/41_8_1029/_pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6706855/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The review describes pikromycin as the first isolated macrolide; the separately produced natural product is not asserted to be a direct precursor of azithromycin or clarithromycin, and its priority has not been independently adjudicated.",
+      "The record's cohort lineage is erythromycin A to its semisynthetic derivatives; it does not trace each other natural or later macrolide individually."
+    ],
+    "conflicts": [
+      "S2 identifies pikromycin as the first isolated macrolide in 1950; S6 identifies erythromycin as the first discovered macrolide in 1949. Whether the discrepancy reflects discovery versus isolation or other differences was not established; no priority winner is asserted."
+    ],
+    "gaps": [
+      "The 1952 Ilotycin original journal paper was located by verified metadata but not read; the exact first-screen chronology remains unestablished.",
+      "The 1950 pikromycin preliminary report and the full 1951 pikromycin paper were not read; sources do not establish which compound was discovered first.",
+      "The Morimoto et al. 1984 clarithromycin synthesis report was located but not read; the cohort parentage is supported by S2."
+    ]
+  },
+  "nameAliases": [
+    "AzaSite",
+    "Biaxin",
+    "Zithromax"
+  ],
+  "humanContributionInterpretation": {
+    "id": "MACROLIDES",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "Erythromycin came from a soil microorganism isolated by plating and culturing; later macrolides inherit this natural-product lead.",
+    "scope": "Natural-product ancestry qualifies under the broad observation definition, but the documented discovery required laboratory work and does not establish a human clinical or population contribution.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Bunch RL, McGuire JM. Erythromycin, its salts, and method of preparation. US patent 2,653,899; filed 1952-04-14, issued 1953-09-29.",
+        "url": "https://patents.google.com/patent/US2653899A/en",
+        "locator": "Patent description, printed column 3, first paragraph, and column 1, antibacterial spectrum and Table I.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Bunch RL, McGuire JM. Erythromycin, its salts, and method of preparation. US patent 2,653,899; filed 1952-04-14, issued 1953-09-29.",
+        "url": "https://patents.google.com/patent/US2653899A/en",
+        "locator": "Patent description, printed columns 7–9, especially column 8 on monitoring culture samples and recovery; Examples 1 and 7 in columns 13–17.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Dinos GP. The macrolide antibiotic renaissance. Br J Pharmacol. 2017;174(18):2967–2983. doi:10.1111/bph.13936; PMID:28664582.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5573421/",
+        "locator": "Antimicrobial activity and chemical derivatization, paragraphs 4–7 and Figure 1.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Bright GM, Nagel AA, Bordner J, et al. Synthesis, in vitro and in vivo activity of novel 9-deoxo-9a-aza-9a-homoerythromycin A derivatives; a new class of macrolide antibiotics, the azalides. J Antibiot (Tokyo). 1988;41(8):1029–1047. doi:10.7164/antibiotics.41.1029; PMID:3139603.",
+        "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/41/8/41_8_1029/_pdf",
+        "locator": "p. 1029, abstract and final introductory paragraph; p. 1035, Results and Discussion, In Vitro Studies.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

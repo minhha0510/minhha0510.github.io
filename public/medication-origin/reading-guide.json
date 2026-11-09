@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-09",
+  "selection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies.",
+  "papers": [
+    {
+      "id": "5ari-depression-comparators",
+      "title": "Depression risk of 5-alpha reductase inhibitors: impact of active-comparator versus non-drug user control groups on risk measurement",
+      "authors": ["Minh-Ha Nguyen", "Tien H Tran", "Jeffrey Donovan"],
+      "journal": "Postgraduate Medicine",
+      "year": 2026,
+      "doi": "10.1080/00325481.2026.2633464",
+      "url": "https://doi.org/10.1080/00325481.2026.2633464",
+      "abstractUrl": "https://pubmed.ncbi.nlm.nih.gov/41725117/",
+      "explainerUrl": "https://mh-nguyen.cv/posts/5-aris-depression-explained/",
+      "medicines": ["finasteride", "dutasteride"],
+      "topics": ["depression", "drug safety", "comparator selection"],
+      "design": "Systematic review and meta-analysis of longitudinal observational studies",
+      "whyRead": "Examines how depression associations differ when 5-ARI users are compared with non-drug users or alpha-blocker users.",
+      "methodologicalQuestions": [
+        "Do comparison groups have similar indications, disease burden and opportunities for depression diagnosis?",
+        "How much heterogeneity remains within each comparator group?",
+        "Could residual confounding affect either direction of association?"
+      ],
+      "interpretationLimit": "Comparator-sensitive observational findings do not by themselves establish causation or the absence of adverse effects. Check the population and indication before applying a finding to a different group."
+    },
+    {
+      "id": "5ari-diabetes-korea",
+      "title": "Risk of Type 2 Diabetes Mellitus in New Users of 5-Alpha Reductase Inhibitors: A Nationwide Historical Cohort Study",
+      "authors": ["Minh-Ha Nguyen", "Juyeon Ko", "Jaelim Cho"],
+      "journal": "Yonsei Medical Journal",
+      "year": 2026,
+      "doi": "10.3349/ymj.2025.0056",
+      "url": "https://doi.org/10.3349/ymj.2025.0056",
+      "abstractUrl": "https://pubmed.ncbi.nlm.nih.gov/41914321/",
+      "explainerUrl": "https://mh-nguyen.cv/posts/hira-diabetes-study-explained/",
+      "medicines": ["finasteride", "dutasteride", "tamsulosin"],
+      "topics": ["type 2 diabetes", "drug safety", "active comparators"],
+      "design": "Nationwide new-user observational cohort in South Korea, using tamsulosin as the active comparator",
+      "whyRead": "Investigates incident diabetes among people treated for benign prostatic hyperplasia, using weighting to balance measured baseline risk factors.",
+      "methodologicalQuestions": [
+        "Which confounders were measured, balanced by weighting or left unmeasured?",
+        "How do eligibility, lag periods and treatment discontinuation or switching affect follow-up?",
+        "Does the target population have the same indication and baseline diabetes status?"
+      ],
+      "interpretationLimit": "The comparisons concern incident diabetes in the studied BPH population. Weighting addresses measured confounders, and the study does not establish equivalent risks or eliminate residual confounding."
+    },
+    {
+      "id": "finasteride-tamsulosin-glycemia",
+      "title": "Risk of poor glycemic control in tamsulosin versus finasteride users with type 2 diabetes mellitus",
+      "authors": ["Minh-Ha Nguyen", "Maxim S Petrov", "Jaelim Cho"],
+      "journal": "Heliyon",
+      "year": 2025,
+      "doi": "10.1016/j.heliyon.2025.e41768",
+      "url": "https://doi.org/10.1016/j.heliyon.2025.e41768",
+      "abstractUrl": "https://pubmed.ncbi.nlm.nih.gov/39944326/",
+      "explainerUrl": "https://mh-nguyen.cv/posts/nz-glycemic-control-explained/",
+      "medicines": ["finasteride", "tamsulosin"],
+      "topics": ["glycemic control", "type 2 diabetes", "drug safety"],
+      "design": "Population-based observational cohort in New Zealand comparing tamsulosin and finasteride users with existing type 2 diabetes",
+      "whyRead": "Addresses glycemic control in people who already have diabetes, a different outcome and population from incident-diabetes research.",
+      "methodologicalQuestions": [
+        "Which medicine is the reference group for the reported effect estimate?",
+        "How was poor glycemic control defined and measured?",
+        "What range of effects remains compatible with the confidence interval?"
+      ],
+      "interpretationLimit": "Interpret the estimate and its uncertainty together. An imprecise or non-significant comparison does not establish equivalence or an absence of effect."
+    }
+  ]
+}

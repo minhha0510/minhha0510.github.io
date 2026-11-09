@@ -1,0 +1,330 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/TRICYCLIC_ANTIDEPRESSANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "TRICYCLIC_ANTIDEPRESSANTS",
+    "name": "Tricyclic antidepressants",
+    "medicines": [
+      "amitriptyline"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "amitriptyline",
+        "components": [
+          "amitriptyline"
+        ],
+        "usRank": 92,
+        "englandRank": 12,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In antipsychotic testing of synthetic G 22355, agitation or hypomania suggested a mood-elevating effect. A participant retrospectively links this mood change to a proposal to test depression; some patients with prominent depressive features also improved. Kuhn recalls that electroshock responses had encouraged his belief that a drug treatment was possible.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E7",
+        "E8"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed mood and depressive-symptom changes in patients receiving synthetic G 22355, followed by intentional testing in depression; Kuhn also recalled clinical response to electroshock as prior evidence of treatment potential. Ayd says Kuhn's reported imipramine effects and structural resemblance partly motivated his search for antidepressant activity of amitriptyline, and his own observations led him to test it in patients diagnosed with depression. No natural molecular template is asserted.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Geigy made iminodibenzyl derivatives during a search for novel antihistamines; after chlorpromazine's clinical success, the team tested G 22355 as a possible antipsychotic.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "According to a participant retrospective, hypomanic mood elevation during schizophrenia testing led to a proposal to test depression; some patients with depressive features also improved. Kuhn recalled that prior electroshock responses suggested to him that a drug treatment could exist, and agreed with a leading interview question about the role of mood elevation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Kuhn described antidepressant responses and differing effects on schizophrenic symptoms in his original 1958 clinical paper; the mechanism was not then known.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Ayd recalls that imipramine's reported antidepressant effect and structural resemblance prompted him to look for such effects with amitriptyline. His initial clinical observations were followed by a deliberate test in people diagnosed with depression. A review describes thioxanthene-based Merck work and separately describes Roche and Lundbeck modifying imipramine to synthesize amitriptyline; the complete development and priority sequence remains unresolved.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E9",
+          "E10",
+          "E11"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers prepared and screened iminodibenzyl derivatives, interpreted patient responses and deliberately tested depression. The review describes central-ring changes from thioxanthenes in one amitriptyline route and modifying imipramine in another; Ayd recalls using structural resemblance to guide his clinical search. The complete synthesis and company-priority sequence is not established here.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E6",
+        "E9",
+        "E10",
+        "E11"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The Geigy screen for antipsychotic activity was planned; the unexpected mood elevation supplied the clue for proposing a depression trial, while some patients with depressive features also improved. The subsequent depression tests, including Ayd's amitriptyline investigation following observed activity, were deliberate.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E7",
+        "E9",
+        "E10"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Broadhurst A. Participant remarks in Drugs in Psychiatric Practice. In: Tansey EM, Christie DA, eds. Wellcome Witnesses to Twentieth Century Medicine, volume 2. London: Wellcome Trust; 1998:137–142.",
+        "url": "https://discovery.ucl.ac.uk/2078/1/wit2.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "López-Muñoz F, D'Ocón P, Romero A, Guerra JA, Álamo C. Role of serendipity in the discovery of classical antidepressant drugs: Applying operational criteria and patterns of discovery. World J Psychiatry. 2022;12(4):588–602. DOI 10.5498/wjp.v12.i4.588; PMID 35582332.",
+        "url": "https://www.wjgnet.com/2220-3206/full/v12/i4/588.htm",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Kuhn R. The treatment of depressive states with G 22355 (imipramine hydrochloride). Am J Psychiatry. 1958;115(5):459–464. DOI 10.1176/ajp.115.5.459; PMID 13583250.",
+        "url": "https://depts.washington.edu/psychres/wordpress/wp-content/uploads/2017/07/100-Papers-in-Clinical-Psychiatry-Depressive-Disorders-The-treatment-of-depressive-states-with-G-22355-imipramine-hydrochloride.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Kuhn R. The discovery of antidepressants: from imipramine to levoprotiline. Interview in: Healy D, ed. The Psychopharmacologists. Vol 2. London: Arnold; 1998:93–118. Online transcript headed From imipramine to levoprotiline: the discovery of antidepressants.",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Kuhn.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Ayd FJ Jr. The discovery of antidepressants. Interview in: Healy D, ed. The Psychopharmacologists. Vol 1. London: Altman/Chapman and Hall; 1996:81–110. Online interview transcript.",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Ayd.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Ayd FJ Jr. Amitriptyline (Elavil) Therapy for Depressive Reactions. Psychosomatics. 1960;1(6):320–325. DOI 10.1016/S0033-3182(60)72942-6.",
+        "url": "https://doi.org/10.1016/S0033-3182(60)72942-6",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Kuhn R. [Treatment of depressive states with an iminodibenzyl derivative (G 22355)]. Schweiz Med Wochenschr. 1957;87(35–36):1135–1140. German. PMID 13467194; title given in English translation by PubMed.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13467194/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Printed pp. 138–140, Geigy antihistamine search, iminodibenzyl derivatives, and the shift to antipsychotic testing."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Printed p. 141, first paragraph, schizophrenia trial and response of patients with depressive features."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Printed p. 141, second and third paragraphs, the Geigy team's proposal followed by depression trial."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "Printed p. 462, left column, paragraph on schizophrenia and depressive symptoms."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "Printed p. 459, right column, introductory paragraph."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Section 'Discovery of the antidepressant properties of imipramine and TCAs', paragraph on amitriptyline."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "Interview transcript pp. 5–6, Kuhn on G 22355 after seeking a chlorpromazine-like neuroleptic, and reply to the interviewer's question about patients going high."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Interview transcript p. 6, immediately after the question on patients becoming high."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "Interview transcript p. 14, answer beginning with Merck's request to assess amitriptyline."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "Interview transcript p. 16, answer to a question about which patients he treated before the patent."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S2",
+        "locator": "Section 'Discovery of the antidepressant properties of imipramine and TCAs', paragraph immediately after the Merck and Ayd paragraph."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://discovery.ucl.ac.uk/2078/1/wit2.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1176/ajp.115.5.459",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Kuhn.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Ayd.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1016/S0033-3182(60)72942-6",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13467194/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The imipramine lead and the amitriptyline clinical development are supported by distinct participant accounts. Ayd describes the latter as informed by imipramine's effect and structural resemblance. The review reports both a thioxanthene-based route and a Roche/Lundbeck imipramine-modification route, but their detailed chronology and motivations are not established here.",
+      "The class boundary excludes tricyclic skeletal-muscle relaxants. No exhaustive analysis of every later antidepressant analogue is attempted."
+    ],
+    "conflicts": [
+      "The 2022 history says amitriptyline was initially investigated as an antipsychotic using thioxanthene-derived chemistry, separately attributes an imipramine-modification synthesis to Roche and Lundbeck, and also makes a blanket statement that all later tricyclics were developed specifically as antidepressants by modifying imipramine. The differing scopes or inconsistency are not resolved. Ayd recalls a Roche synthesis for possible antipsychotic use; its relationship to the review's chemistry narrative and the full company-priority sequence remain unverified."
+    ],
+    "gaps": [
+      "Kuhn's 1957 German report (PMID 13467194) and Ayd's 1960 Psychosomatics report (DOI 10.1016/S0033-3182(60)72942-6) were located as metadata but not read; the publisher page for Ayd returned HTTP 403 on direct access.",
+      "The participant retrospectives do not establish the precise priority of the depression-test proposal; Kuhn's agreement that high mood suggested the idea followed a leading interview question."
+    ]
+  },
+  "nameAliases": [
+    "Elavil"
+  ],
+  "humanContributionInterpretation": {
+    "id": "TRICYCLIC_ANTIDEPRESSANTS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Mood activation and improvement during psychiatric testing helped redirect imipramine toward depression.",
+    "scope": "Retrospective accounts; not every class member has a separately established patient-origin history.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Broadhurst A. Participant remarks in Drugs in Psychiatric Practice. In: Tansey EM, Christie DA, eds. Wellcome Witnesses to Twentieth Century Medicine, volume 2. London: Wellcome Trust; 1998:137–142.",
+        "url": "https://discovery.ucl.ac.uk/2078/1/wit2.pdf",
+        "locator": "Printed p. 141, first paragraph, schizophrenia trial and response of patients with depressive features.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Broadhurst A. Participant remarks in Drugs in Psychiatric Practice. In: Tansey EM, Christie DA, eds. Wellcome Witnesses to Twentieth Century Medicine, volume 2. London: Wellcome Trust; 1998:137–142.",
+        "url": "https://discovery.ucl.ac.uk/2078/1/wit2.pdf",
+        "locator": "Printed p. 141, second and third paragraphs, the Geigy team's proposal followed by depression trial.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Kuhn R. The treatment of depressive states with G 22355 (imipramine hydrochloride). Am J Psychiatry. 1958;115(5):459–464. DOI 10.1176/ajp.115.5.459; PMID 13583250.",
+        "url": "https://depts.washington.edu/psychres/wordpress/wp-content/uploads/2017/07/100-Papers-in-Clinical-Psychiatry-Depressive-Disorders-The-treatment-of-depressive-states-with-G-22355-imipramine-hydrochloride.pdf",
+        "locator": "Printed p. 462, left column, paragraph on schizophrenia and depressive symptoms.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Kuhn R. The discovery of antidepressants: from imipramine to levoprotiline. Interview in: Healy D, ed. The Psychopharmacologists. Vol 2. London: Arnold; 1998:93–118. Online transcript headed From imipramine to levoprotiline: the discovery of antidepressants.",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Kuhn.pdf",
+        "locator": "Interview transcript pp. 5–6, Kuhn on G 22355 after seeking a chlorpromazine-like neuroleptic, and reply to the interviewer's question about patients going high.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/CHOLESTEROL_ABSORPTION_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "CHOLESTEROL_ABSORPTION_INHIBITORS",
+    "name": "Cholesterol absorption inhibitors",
+    "medicines": [
+      "ezetimibe"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "ezetimibe",
+        "components": [
+          "ezetimibe"
+        ],
+        "usRank": 63,
+        "englandRank": 44,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In an ACAT-inhibitor program, synthetic azetidinone byproduct 6 and related compounds showed a reproducible cholesterol-lowering effect in cholesterol-fed hamsters despite weak or noncorrelating ACAT inhibition. The team followed that animal effect to create the SCH 48461 absorption-inhibitor prototype.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Known rodent cholesterol handling initially motivated ACAT testing. The class-opening lead was a synthetic azetidinone's observed hamster lipid effect, followed by observed activity of SCH 48461 metabolites.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A planned ACAT-inhibitor program made constrained compounds, including an azetidinone byproduct with weak ACAT activity but an in-vivo lipid effect.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The team optimized the animal effect rather than the enzyme assay and produced the prototype cholesterol absorption inhibitor SCH 48461. A later animal uptake comparison distinguished its effects from an ACAT inhibitor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E8"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Metabolite-bile experiments and synthesis of candidate metabolites informed the development of the more potent second-generation analogue ezetimibe.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Later genetic experiments implicated NPC1L1 in the ezetimibe-sensitive intestinal cholesterol absorption pathway; the protein was not the starting target used to discover the class.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Medicinal chemists optimized azetidinone analogues against animal activity and designed ezetimibe using favorable metabolite features and strategic fluorine substitutions to block unfavorable metabolic sites.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The ACAT program and subsequent analogue optimization were planned; the useful lipid effect of a weak-ACAT reaction byproduct and the assay disconnect supplied the serendipitous turn.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Clader JW. The discovery of ezetimibe: a view from outside the receptor. J Med Chem. 2004;47(1):1-9. DOI 10.1021/jm030283g; PMID 14695813.",
+        "url": "https://doi.org/10.1021/jm030283g",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Rosenblum SB, Huynh T, Afonso A, Davis HR Jr, Yumibe N, Clader JW, Burnett DA. Discovery of 1-(4-fluorophenyl)-(3R)-[3-(4-fluorophenyl)-(3S)-hydroxypropyl]-(4S)-(4-hydroxyphenyl)-2-azetidinone (SCH 58235): a designed, potent, orally active inhibitor of cholesterol absorption. J Med Chem. 1998;41(6):973-980. DOI 10.1021/jm970701f; PMID 9526571.",
+        "url": "https://doi.org/10.1021/jm970701f",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Van Heek M, France CF, Compton DS, McLeod RL, Yumibe NP, Alton KB, Sybertz EJ, Davis HR Jr. In vivo metabolism-based discovery of a potent cholesterol absorption inhibitor, SCH58235, in the rat and rhesus monkey through the identification of the active metabolites of SCH48461. J Pharmacol Exp Ther. 1997;283(1):157-163. PMID 9336320.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9336320/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Salisbury BG, Davis HR Jr, Burrier RE, Burnett DA, et al. Hypocholesterolemic activity of a novel inhibitor of cholesterol absorption, SCH 48461. Atherosclerosis. 1995;115(1):45-63. DOI 10.1016/0021-9150(94)05499-9; PMID 7669087.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7669087/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Altmann SW, Davis HR Jr, Zhu LJ, et al. Niemann-Pick C1 Like 1 protein is critical for intestinal cholesterol absorption. Science. 2004;303(5661):1201-1204. DOI 10.1126/science.1093131; PMID 14976318.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14976318/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Gu J, Zhu N, Li HF, Zhang CJ, Gong YZ, Liao DF, Qin L. Ezetimibe and cancer: is there a connection? Front Pharmacol. 2022;13:831657. DOI 10.3389/fphar.2022.831657; PMID 35924044.",
+        "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2022.831657/full",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Burnett DA, Caplen MA, Davis HR Jr, Burrier RE, Clader JW. 2-Azetidinones as inhibitors of cholesterol absorption. J Med Chem. 1994;37(12):1733-1736. DOI 10.1021/jm00038a001; PMID 8021912.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8021912/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 1-2, Discovery of SCH 48461, paragraphs on the ACAT program and initial azetidinones"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "pp. 2-3, Discovery of SCH 48461, follow-up of compound 6; Table 2 on p. 4"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "pp. 3-6, From Serendipity to Design, bile-duct-diverted rat experiments and metabolite studies"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "p. 6, From Serendipity to Design, design strategy and comparison in animal models"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 973-975, Introduction and Results and Discussion, especially Table 1"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "pp. 973-975, Abstract, Introduction, and Results and Discussion"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Abstract, rat metabolite-bile comparison and HPLC fraction identification"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Abstract, two-hour cholesterol uptake comparison in cholesterol-fed hamsters"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "Abstract, NPC1L1-deficient mice and response to ezetimibe"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "History of Ezetimibe section, opening paragraph"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S2",
+        "locator": "p. 973, Introduction, opening paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1021/jm030283g",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.scribd.com/document/999720729/Rosenblum-1998",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9336320/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7669087/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14976318/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8021912/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This record covers the azetidinone lineage represented by ezetimibe, not statins or every possible inhibitor of intestinal sterol absorption. S2 also names tiqueside as a cholesterol absorption inhibitor approach; its founding history and membership were not evaluated (E11)."
+    ],
+    "conflicts": [
+      "A 2022 secondary review (S6, E10) calls SCH 58235 itself a metabolite of SCH 48461 and attributes the metabolite-bile comparison to it. The S3 abstract (E7) instead compares parent with metabolite-containing bile and identifies a C4-phenol glucuronide as the most active fraction; the S2 original (E5-E6) describes the design of SCH 58235 from a putative-metabolite structure-activity analysis. The record follows those primary accounts for the narrower designed-analogue description, while noting S3 full text was not read."
+    ],
+    "gaps": [
+      "The initial compound-6 original, Burnett et al. 1994 (S7), was located but not read, and PubMed has no abstract; the founding chronology rests on the discoverer retrospective S1. Full 1995, 1997, and 2004 primary reports were not read, and those reports are represented at abstract extent, with the 1995 abstract truncated."
+    ]
+  },
+  "nameAliases": [
+    "Zetia"
+  ],
+  "humanContributionInterpretation": {
+    "id": "CHOLESTEROL_ABSORPTION_INHIBITORS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Clader JW. The discovery of ezetimibe: a view from outside the receptor. J Med Chem. 2004;47(1):1-9. DOI 10.1021/jm030283g; PMID 14695813.",
+        "url": "https://doi.org/10.1021/jm030283g",
+        "locator": "pp. 1-2, Discovery of SCH 48461, paragraphs on the ACAT program and initial azetidinones",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Clader JW. The discovery of ezetimibe: a view from outside the receptor. J Med Chem. 2004;47(1):1-9. DOI 10.1021/jm030283g; PMID 14695813.",
+        "url": "https://doi.org/10.1021/jm030283g",
+        "locator": "pp. 2-3, Discovery of SCH 48461, follow-up of compound 6; Table 2 on p. 4",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

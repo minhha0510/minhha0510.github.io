@@ -1,0 +1,426 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/BETA2_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "BETA2_AGONISTS",
+    "name": "Beta2-adrenoceptor agonists",
+    "medicines": [
+      "formoterol",
+      "salbutamol",
+      "salmeterol",
+      "vilanterol"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "beclometasone + formoterol",
+        "components": [
+          "beclometasone",
+          "formoterol"
+        ],
+        "usRank": null,
+        "englandRank": 27,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "beclometasone + formoterol + glycopyrronium",
+        "components": [
+          "beclometasone",
+          "formoterol",
+          "glycopyrronium"
+        ],
+        "usRank": null,
+        "englandRank": 83,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "budesonide + formoterol",
+        "components": [
+          "budesonide",
+          "formoterol"
+        ],
+        "usRank": 100,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "fluticasone + salmeterol",
+        "components": [
+          "fluticasone",
+          "salmeterol"
+        ],
+        "usRank": 76,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "fluticasone + umeclidinium + vilanterol",
+        "components": [
+          "fluticasone",
+          "umeclidinium",
+          "vilanterol"
+        ],
+        "usRank": 102,
+        "englandRank": 142,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "fluticasone + vilanterol",
+        "components": [
+          "fluticasone",
+          "vilanterol"
+        ],
+        "usRank": 144,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "ipratropium + salbutamol",
+        "components": [
+          "ipratropium",
+          "salbutamol"
+        ],
+        "usRank": 145,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "salbutamol",
+        "components": [
+          "salbutamol"
+        ],
+        "usRank": 6,
+        "englandRank": 13,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The salbutamol programme started from the observed bronchodilator action and short duration of isoprenaline, pursuing a longer-lasting analogue; unexpected tissue-selective activity in AH3021 helped establish the selective series. A separate formoterol-related chemistry programme likewise built on isoproterenol's known effects and established selective analogues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E8"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "In the broader history, observed bronchodilator effects of endogenous adrenaline preceded synthetic agonists; the Jack programme specifically worked from isoprenaline's known bronchodilator action and short duration and observed selective effects of AH3021 on bronchial versus cardiac preparations. The formoterol-related programme cited the effects and limitations of isoproterenol and established selective analogues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E6",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The team aimed to improve the duration of an existing effective inhaled bronchodilator, isoprenaline, by making non-catechol analogues.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Testing AH3021 revealed unexpected tissue selectivity; the subsequent analogue AH3365 was salbutamol.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The contemporary salbutamol report compared bronchial and cardiac responses and duration against earlier agonists in animal and tissue tests; selectivity was assay- and route-dependent.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a separate reported chemistry programme, researchers built on existing bronchodilators and tested modified catecholamine and terbutaline analogues, selecting BD-40-A, later identified as formoterol. A review reports that its prolonged action became apparent after inhalation in patients; a 1989 clinical paper summarizes prior studies of that effect.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9",
+          "E11",
+          "E7"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A later programme sought longer action by optimizing salbutamol analogues with extended non-polar substituents, producing salmeterol. A subsequent salmeterol-derived series used its observed metabolism as a design clue and yielded vilanterol, according to an abstract-only discoverer account.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Medicinal chemists altered the catechol functionality and developed analogue series around known working agonists, including a formylamino-substituted formoterol-related series; another programme extended non-polar substituents on salbutamol analogues to seek a longer-acting selective agonist. Vilanterol work additionally altered a salmeterol side chain in pursuit of metabolic and duration properties.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "A longer-acting isoprenaline analogue was sought deliberately; the marked bronchial-versus-heart selectivity of AH3021 was unexpectedly observed during testing, according to Jack. The separate formoterol-related chemistry paper explicitly describes a planned search for selective, potent bronchodilators.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E8",
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Jack D, remarks in Reynolds LA, Tansey EM, eds. Childhood Asthma and Beyond. Wellcome Witnesses to Twentieth Century Medicine, vol. 11, 2001, pp. 37–38; seminar 4 April 2000.",
+        "url": "https://discovery.ucl.ac.uk/2069/1/wit11.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Jack D. The 1990 Lilly Prize Lecture. A way of looking at agonism and antagonism: lessons from salbutamol, salmeterol and other beta-adrenoceptor agonists. Br J Clin Pharmacol. 1991;31:501–514. DOI 10.1111/j.1365-2125.1991.tb05571.x; PMID 1679656.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-2125.1991.tb05571.x",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Cullum VA, Farmer JB, Jack D, Levy GP. Salbutamol: a new, selective β-adrenoceptive receptor stimulant. Br J Pharmacol. 1969;35(1):141–151. DOI 10.1111/j.1476-5381.1969.tb07975.x; PMID 5762037.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1476-5381.1969.tb07975.x",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Barnes PJ. Drugs for asthma. Br J Pharmacol. 2006;147(Suppl 1):S297–S303. DOI 10.1038/sj.bjp.0706437; PMID 16402117.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1038/sj.bjp.0706437",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Murase K, Mase T, Ida H, Takahashi K, Murakami M. New β-adrenoreceptor stimulants. Studies on 3-acylamino-4-hydroxy-α-(N-substituted aminomethyl)benzyl alcohols. Chem Pharm Bull. 1977;25(6):1368–1377. DOI 10.1248/cpb.25.1368.",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/25/6/25_6_1368/_article/-char/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Procopiou PA. The discovery of vilanterol based on structure-activity relationships (SAR) and the antedrug approach. RDD Europe 2011. Vol. 1, pp. 11–20.",
+        "url": "https://rddonline.com/rdd/article.php?ArticleID=1572&id=0&return=1&sid=103",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Arvidsson P, Larsson S, Löfdahl CG, Melander B, Wåhlander L, Svedmyr N. Formoterol, a new long-acting bronchodilator for inhalation. Eur Respir J. 1989;2(4):325–330. DOI 10.1183/09031936.93.02040325; PMID 2737271.",
+        "url": "https://erj.ersjournals.com/content/erj/2/4/325.full.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 37–38, Jack's account of the isoprenaline programme and AH3021 tests"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 38, Jack's description of the laboratory testing of AH3021 and the next compound"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "pp. 504–506, Type 1 and Type 2 agonism; The discovery of salmeterol; Figure 4 and project team footnote"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "p. 141, introduction"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "pp. 141–143 and 148–150, introduction, methods and discussion"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "pp. S297 and S299, introduction and β-adrenoceptor agonists"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "β-adrenoceptor agonists section, paragraph on long-acting agonists"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "pp. 1368–1369, introduction"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "p. 1368, abstract"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "proceedings abstract"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S7",
+        "locator": "p. 325, introduction"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://discovery.ucl.ac.uk/2069/1/wit11.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1365-2125.1991.tb05571.x",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/pdf/10.1111/j.1476-5381.1969.tb07975.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/25/6/25_6_1368/_article/-char/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://rddonline.com/rdd/article.php?ArticleID=1572&id=0&return=1&sid=103",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://erj.ersjournals.com/content/erj/2/4/325.full.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The documented salbutamol-to-salmeterol chain and the separate formoterol-related chemical programme both build on prior working agonists; the latter is not asserted to descend directly from salbutamol. The published formoterol account does not establish every unpublished step; the initial inhaled-duration studies have not been read, and their chronology is described by a historical review and a later clinical paper's introduction. The later salmeterol-to-vilanterol relationship is supported by the discoverer's abstract, not a full original report read here."
+    ],
+    "conflicts": [
+      "Jack's retrospective describes the initial noncatechol programme as duration-oriented and AH3021's marked selectivity as unexpected; the 1969 paper cites earlier partial selectivity and treats very high selectivity as a possibility. The sources differ in emphasis and do not establish exactly when selectivity became an explicit programme aim."
+    ],
+    "gaps": [
+      "The earlier orciprenaline and Lands/Brown originals cited in the 1969 paper have not been read in full. The 1969 report does not independently establish the AH3021 selection narrative. The early formoterol patent, pharmacology tables and initial inhaled clinical report have not been read. The vilanterol conference article and original 2010 medicinal-chemistry paper were read in abstract only. Local downloads of the Jack 1991 and Cullum 1969 PDFs returned HTTP 403, though relevant sections were read through the web tool."
+    ]
+  },
+  "nameAliases": [
+    "Advair",
+    "AirDuo",
+    "Breo",
+    "Breyna",
+    "Combivent",
+    "ProAir",
+    "Proventil",
+    "Symbicort",
+    "Trelegy",
+    "Trimbow",
+    "Ventolin",
+    "Wixela",
+    "albuterol"
+  ],
+  "humanContributionInterpretation": {
+    "id": "BETA2_AGONISTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Clinical usefulness but short duration of isoprenaline motivated longer-acting inhaled bronchodilator work.",
+    "scope": "The molecular design and selection required laboratory pharmacology; not a new incidental clinical discovery.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Jack D, remarks in Reynolds LA, Tansey EM, eds. Childhood Asthma and Beyond. Wellcome Witnesses to Twentieth Century Medicine, vol. 11, 2001, pp. 37–38; seminar 4 April 2000.",
+        "url": "https://discovery.ucl.ac.uk/2069/1/wit11.pdf",
+        "locator": "pp. 37–38, Jack's account of the isoprenaline programme and AH3021 tests",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Barnes PJ. Drugs for asthma. Br J Pharmacol. 2006;147(Suppl 1):S297–S303. DOI 10.1038/sj.bjp.0706437; PMID 16402117.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1038/sj.bjp.0706437",
+        "locator": "β-adrenoceptor agonists section, paragraph on long-acting agonists",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ANTIFOLATE_ANTIMETABOLITES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ANTIFOLATE_ANTIMETABOLITES",
+    "name": "Antifolate antimetabolites",
+    "medicines": [
+      "methotrexate"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "methotrexate",
+        "components": [
+          "methotrexate"
+        ],
+        "usRank": 139,
+        "englandRank": 113,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Farber's interpretation of apparent leukemia acceleration after folate conjugates, experience with folate deficiency, and observed growth inhibition by a synthetic folate antagonist suggested testing more powerful antagonists. His 1947 report traces the earlier conjugate trials to mouse-tumor studies that Diamond later said could not be substantiated. These historical observations are not proof of a causal acceleration effect.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E6",
+        "E13"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The natural vitamin folate, interpreted clinical and physiological effects, and an observed synthetic folate antagonist's growth effects in experimental organisms supplied clues for the cancer program.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Prior mouse reports prompted folate-conjugate trials; folate-related clinical observations and measured biological antagonism suggested testing folate antagonists against rapidly growing malignancies. An early pteroylaspartic-acid observation helped motivate stronger antagonists.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E5",
+          "E6",
+          "E8",
+          "E13"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Chemists synthesized a potent 4-amino folate antagonist by 1947; aminopterin was tested in children with leukemia, with temporary improvements and important toxicity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E7",
+          "E11"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Amethopterin, later methotrexate, was developed and tested as another folate antagonist; Farber's 1949 abstract reports temporary remissions and toxicity with it. It is the N10-methyl analogue of aminopterin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Chemists synthesized folate analogues and measured antagonistic activity. Aminopterin has an amino substitution in place of the pteridine oxygen, and methotrexate has an additional N10-methyl group; these are changes in active structure, not merely formulation. Clinical investigators deliberately tested the antagonists against leukemia following biological and clinical clues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E5",
+        "E7",
+        "E11"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The testing of folate antagonists in children with leukemia was a deliberate therapeutic investigation; this does not classify every earlier observation as planned or accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Kohn KW. Drugs Against Cancer: Stories of Discovery and the Quest for a Cure. Chapter 5: The methotrexate story: folic acid analogs. National Cancer Institute; undated.",
+        "url": "https://discover.nci.nih.gov/kohn/book/drugs_against_cancer_chapter5_v220719dj3.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Diamond LK. This Week's Citation Classic: commentary on Farber et al. Current Contents. 1985 Apr 8;(14):16.",
+        "url": "https://garfield.library.upenn.edu/classics1985/A1985AEC4000001.pdf",
+        "role": "discoverer_account",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Farber S, Diamond LK, Mercer RD, Sylvester RF Jr, Wolff JA. Temporary remissions in acute leukemia in children produced by folic acid antagonist, 4-aminopteroyl-glutamic acid (aminopterin). N Engl J Med. 1948;238:787–793. doi:10.1056/NEJM194806032382301.",
+        "url": "https://doi.org/10.1056/NEJM194806032382301",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Hutchings BL, Mowat JH, Oleson JJ, Stokstad ELR, Boothe JH, Waller CW, Angier RB, Semb J, Subbarow Y. Pteroylaspartic acid, an antagonist for pteroylglutamic acid. J Biol Chem. 1947;170:323–328. doi:10.1016/S0021-9258(17)34960-8.",
+        "url": "https://doi.org/10.1016/S0021-9258(17)34960-8",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "DeVita VT Jr, Chu E. A history of cancer chemotherapy. Cancer Res. 2008;68:8643–8653. doi:10.1158/0008-5472.CAN-07-6611.",
+        "url": "https://doi.org/10.1158/0008-5472.CAN-07-6611",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Farber S. Some observations on the effect of folic acid antagonists on acute leukemia and other forms of incurable cancer. Blood. 1949;4:160–167. doi:10.1182/blood.V4.2.160.160; PMID 18107667.",
+        "url": "https://doi.org/10.1182/blood.V4.2.160.160",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Seeger DR, Smith JM Jr, Hultquist ME. Antagonist for pteroylglutamic acid. J Am Chem Soc. 1947;69:2567. doi:10.1021/ja01202a519; PMID 20268318.",
+        "url": "https://doi.org/10.1021/ja01202a519",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Seeger DR, Cosulich DB, Smith JM, Hultquist ME. Analogs of pteroylglutamic acid. III. 4-amino derivatives. J Am Chem Soc. 1949;71:1753–1758. doi:10.1021/ja01173a061.",
+        "url": "https://doi.org/10.1021/ja01173a061",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Farber S, Cutler EC, Hawkins JW, Harrison JH, Peirce EC 2nd, Lenz GG. The action of pteroylglutamic conjugates on man. Science. 1947;106:619–621. doi:10.1126/science.106.2764.619; PMID 17831847.",
+        "url": "https://doi.org/10.1126/science.106.2764.619",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S2",
+        "locator": "p. 16, left column, first paragraph, folate concentrate and clinical observations"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "p. 16, bottom of left column to top of right column, 1947 antagonist experiments"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 16, right column, patient treatment and amethopterin paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "pp. 4–5, therapy-versus-toxicity paragraph and Figure 5.3 caption"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 787, opening historical and clinical rationale, cached full-text exhibit"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 787, early pteroylaspartic-acid case and following paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "pp. 787–788 and 792–793, patient selection, discussion and summary"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "pp. 327–328, chick results, discussion and summary"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "pp. 8643–8644, folic-acid and leukemia paragraph"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "abstract only, sentences on amethopterin and toxicity"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S7",
+        "locator": "p. 2567, opening of October 1947 chemistry communication"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S1",
+        "locator": "p. 2, paragraph on the 1948 Heinle and Welch report"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S9",
+        "locator": "pp. 619–620, rationale for patient experiments and stated limitations"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://garfield.library.upenn.edu/classics1985/A1985AEC4000001.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1056/NEJM194806032382301",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1016/S0021-9258(17)34960-8",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1182/blood.V4.2.160.160",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1021/ja01202a519",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://doi.org/10.1021/ja01173a061",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://doi.org/10.1126/science.106.2764.619",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The documented founding sequence is the cytotoxic folate-antagonist lineage represented by methotrexate. Antibacterial DHFR inhibitors have a separate origin and are excluded.",
+      "Later immunomodulatory indications and the separate design histories of every later antifolate were not reconstructed; no separate from-scratch founding branch is established within this cohort."
+    ],
+    "conflicts": [
+      "Kohn describes a 1948 report as spurring synthesis of aminopterin, but Seeger et al. published its synthesis in October 1947 and Farber et al. state that aminopterin was administered from November 1947; the retrospective chronology cannot be the initial trigger as stated (E12, E11, E7).",
+      "DeVita and Chu later call the apparent folate-related leukemia acceleration spurious; Farber described it as his interpretation. The later review does not identify evidence for its refutation in that sentence, so neither causality nor refutation is established here (E5, E9)."
+    ],
+    "gaps": [
+      "The 1947 and 1948 clinical reports and 1947 chemical report were accessed as indexed text without page-image confirmation or full local copies. The 1949 Farber report was abstract-only, and the 1949 Seeger chemistry report was located but not read.",
+      "The later evidentiary basis for calling folate-induced leukemia acceleration spurious, the complete chronology and motivation of individual chemists' analogue design, and a controlled human safety comparison were not established."
+    ]
+  },
+  "nameAliases": [
+    "Jylamvo",
+    "Otrexup",
+    "Rasuvo",
+    "Reditrex",
+    "Trexall",
+    "Xatmep"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ANTIFOLATE_ANTIMETABOLITES",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Apparent acceleration of leukemia after folate-conjugate treatment helped motivate testing folate antagonists.",
+    "scope": "The uncontrolled deterioration is a reported inspiration, not proof that folate caused acceleration; animal testing also contributed.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Diamond LK. This Week's Citation Classic: commentary on Farber et al. Current Contents. 1985 Apr 8;(14):16.",
+        "url": "https://garfield.library.upenn.edu/classics1985/A1985AEC4000001.pdf",
+        "locator": "p. 16, left column, first paragraph, folate concentrate and clinical observations",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E5",
+        "citation": "Farber S, Diamond LK, Mercer RD, Sylvester RF Jr, Wolff JA. Temporary remissions in acute leukemia in children produced by folic acid antagonist, 4-aminopteroyl-glutamic acid (aminopterin). N Engl J Med. 1948;238:787–793. doi:10.1056/NEJM194806032382301.",
+        "url": "https://doi.org/10.1056/NEJM194806032382301",
+        "locator": "p. 787, opening historical and clinical rationale, cached full-text exhibit",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/BISPHOSPHONATES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "BISPHOSPHONATES",
+    "name": "Bisphosphonates",
+    "medicines": [
+      "alendronic acid"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "alendronic acid",
+        "components": [
+          "alendronic acid"
+        ],
+        "usRank": 84,
+        "englandRank": 51,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Biological fluids contained an inhibitor of calcium phosphate precipitation, partly identified as inorganic pyrophosphate; its effects on calcium phosphate crystals and its rapid breakdown motivated the search for stable analogues. Observation of inhibited crystal dissolution then led to tests of bone resorption.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E9",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Endogenous inorganic pyrophosphate and observations of inhibited calcium-phosphate crystal formation and dissolution; later the observed effect of synthetic bisphosphonates on crystal dissolution supported tests of bone resorption. Dental research on etidronate formed a convergent strand, with a reported unexpected effect of the synthetic compound on rat bone mineralization.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E7",
+        "E11",
+        "E12"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Studies of inhibitors in biological fluids identified pyrophosphate as a contributor to inhibition of calcium phosphate precipitation and showed effects on crystal formation and dissolution.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E10"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Researchers sought enzyme-stable analogues retaining pyrophosphate-like activity; previously known industrial bisphosphonates met these criteria. Francis's dental research formed a convergent strand; safety testing of etidronate also revealed an unexpected inhibition of rat bone mineralization, distinct from antiresorption.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E5",
+          "E7",
+          "E11",
+          "E12",
+          "E15"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The observed inhibition of hydroxyapatite dissolution by pyrophosphate and bisphosphonates prompted tests of bone resorption, a distinct biological endpoint; the 1969 abstract reports inhibition in tissue culture and rats.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5",
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Etidronate was used clinically for pathological ectopic calcification; subsequent medicinal chemistry and empirical biological tests produced more potent antiresorptive compounds, including amino-containing alendronate. Later work differentiated the intracellular mechanisms of nitrogen-containing agents from those of some earlier compounds.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E13",
+          "E14"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers sought hydrolysis-resistant analogues retaining pyrophosphate-like physicochemical activity and applied an existing synthetic chemical family to the biological problem. Later synthesis and empirical screening of side-chain variants produced more potent nitrogen-containing drugs, including alendronate; their intracellular enzyme target was identified later. This was more than a delivery adjustment, but not evidence that the class was designed from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E5",
+        "E6",
+        "E14",
+        "E15"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The search for hydrolysis-resistant pyrophosphate analogues was planned. Separately, a retrospective describes an unexpected inhibition of rat bone mineralization during etidronate toothpaste-safety tests; that finding was not itself the test of bone resorption.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E12"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Fleisch H. Bisphosphonates: Mechanisms of Action. Endocr Rev. 1998;19(1):80–100. doi:10.1210/edrv.19.1.0325. PMID 9494781.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=d07b571d6e5eedcbe91df1738b0995cd60c26ce8&repid=rep1&type=pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Russell RGG. Bisphosphonates: The first 40 years. Bone. 2011;49(1):2–19. doi:10.1016/j.bone.2011.04.022. PMID 21555003.",
+        "url": "https://docentes.fct.unl.pt/ana-faisca/files/ref11.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Fleisch H, Russell RGG, Francis MD. Diphosphonates inhibit hydroxyapatite dissolution in vitro and bone resorption in tissue culture and in vivo. Science. 1969;165(3899):1262–1264. doi:10.1126/science.165.3899.1262. PMID 5803538.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5803538/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Fleisch H, Bisaz S. Isolation from urine of pyrophosphate, a calcification inhibitor. Am J Physiol. 1962;203(4):671–675. doi:10.1152/ajplegacy.1962.203.4.671. PMID 13945462.",
+        "url": "https://journals.physiology.org/doi/10.1152/ajplegacy.1962.203.4.671",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Sedghizadeh PP, Sun S, Jones AC, et al. Bisphosphonates in dentistry: Historical perspectives, adverse effects, and novel applications. Bone. 2021;147:115933. doi:10.1016/j.bone.2021.115933. PMID 33757899; PMCID PMC8076070.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8076070/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Introduction, p. 80, paragraph beginning 'Our knowledge'"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Introduction, pp. 80–81, paragraph continuing from the preceding page"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Section III.B, 'Inhibition of bone resorption', p. 81"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 5, 'How studies on calcification mechanisms and the role of pyrophosphate led to the discovery of the bisphosphonates'"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 5–6, same section, paragraphs on analogue search and dissolution"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 9, 'Defining structure activity relationships'"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "p. 6, 'Dating the anniversary', paragraph on Francis collaboration"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "Abstract, PubMed PMID 5803538; also reproduced in Russell's presentation, PDF p. 5"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "Introduction excerpt reproduced in Russell's presentation, PDF p. 5; original article pp. 1262–1264, full text not accessed"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "Publisher's indexed abstract, DOI 10.1152/ajplegacy.1962.203.4.671"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "Historical Perspectives, paragraphs 2–5 and Figure 1 discussion"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "Historical Perspectives, paragraph beginning 'Years earlier' and the following two paragraphs"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "Historical Perspectives, paragraph following the discussion of animal safety studies"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S5",
+        "locator": "Adverse Effects, paragraphs discussing pharmacologic mechanisms and the mevalonate pathway"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S1",
+        "locator": "Introduction, p. 80, opening paragraph"
+      },
+      {
+        "evidence_id": "E16",
+        "source_id": "S1",
+        "locator": "Section III.A, p. 81, paragraph on human ectopic ossification"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://academic.oup.com/edrv/article-abstract/19/1/80/2530799",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://docentes.fct.unl.pt/ana-faisca/files/ref11.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5803538/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://journals.physiology.org/doi/10.1152/ajplegacy.1962.203.4.671",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The pyrophosphate-to-stable-analogue and antiresorption chain is supported at class level; this does not establish every later analogue's individual discovery history.",
+      "Francis's dental research was a convergent strand; the reported safety-test finding concerned impaired bone mineralization, not discovery of the antiresorption endpoint. The contemporaneous report behind the safety-test account was not read.",
+      "The original 1969 bone-resorption paper was accessible only as an abstract and reproduced introduction and conclusion fragments; its full experimental methods and results were not read."
+    ],
+    "conflicts": [
+      "S5 describes an early fibrodysplasia ossificans progressiva case series in strongly positive terms (E13), whereas S1 expressed caution in 1998 about the overall evidence for efficacy in ectopic ossification, including that condition (E16). Case-level impressions and a later assessment of the evidence are not necessarily contradictory; the underlying clinical report was not read and no efficacy conclusion is made here."
+    ],
+    "gaps": [
+      "Full text of the 1962 urinary-pyrophosphate report and the complete 1969 bone-resorption experiment was not accessed; their abstracts and the latter's reproduced fragments were read.",
+      "The primary paper cited for the etidronate dental-safety animal observation and the early clinical case report were not read; these details are attributed to the 2021 historical review.",
+      "Original discovery and clinical-development papers specific to alendronate were not reviewed; the class-level history and later structure–activity account do not establish its individual priority or chronology."
+    ]
+  },
+  "nameAliases": [
+    "Binosto",
+    "Fosamax",
+    "alendronate"
+  ],
+  "humanContributionInterpretation": {
+    "id": "BISPHOSPHONATES",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Fleisch H. Bisphosphonates: Mechanisms of Action. Endocr Rev. 1998;19(1):80–100. doi:10.1210/edrv.19.1.0325. PMID 9494781.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=d07b571d6e5eedcbe91df1738b0995cd60c26ce8&repid=rep1&type=pdf",
+        "locator": "Introduction, p. 80, paragraph beginning 'Our knowledge'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Fleisch H. Bisphosphonates: Mechanisms of Action. Endocr Rev. 1998;19(1):80–100. doi:10.1210/edrv.19.1.0325. PMID 9494781.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=d07b571d6e5eedcbe91df1738b0995cd60c26ce8&repid=rep1&type=pdf",
+        "locator": "Introduction, pp. 80–81, paragraph continuing from the preceding page",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Russell RGG. Bisphosphonates: The first 40 years. Bone. 2011;49(1):2–19. doi:10.1016/j.bone.2011.04.022. PMID 21555003.",
+        "url": "https://docentes.fct.unl.pt/ana-faisca/files/ref11.pdf",
+        "locator": "p. 5, 'How studies on calcification mechanisms and the role of pyrophosphate led to the discovery of the bisphosphonates'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Russell RGG. Bisphosphonates: The first 40 years. Bone. 2011;49(1):2–19. doi:10.1016/j.bone.2011.04.022. PMID 21555003.",
+        "url": "https://docentes.fct.unl.pt/ana-faisca/files/ref11.pdf",
+        "locator": "pp. 5–6, same section, paragraphs on analogue search and dissolution",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Fleisch H, Russell RGG, Francis MD. Diphosphonates inhibit hydroxyapatite dissolution in vitro and bone resorption in tissue culture and in vivo. Science. 1969;165(3899):1262–1264. doi:10.1126/science.165.3899.1262. PMID 5803538.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5803538/",
+        "locator": "Introduction excerpt reproduced in Russell's presentation, PDF p. 5; original article pp. 1262–1264, full text not accessed",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E10",
+        "citation": "Fleisch H, Bisaz S. Isolation from urine of pyrophosphate, a calcification inhibitor. Am J Physiol. 1962;203(4):671–675. doi:10.1152/ajplegacy.1962.203.4.671. PMID 13945462.",
+        "url": "https://journals.physiology.org/doi/10.1152/ajplegacy.1962.203.4.671",
+        "locator": "Publisher's indexed abstract, DOI 10.1152/ajplegacy.1962.203.4.671",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

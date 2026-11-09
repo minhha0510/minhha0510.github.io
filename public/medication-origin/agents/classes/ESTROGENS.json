@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ESTROGENS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ESTROGENS",
+    "name": "Estrogens",
+    "medicines": [
+      "estradiol",
+      "estriol",
+      "ethinylestradiol"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "estradiol",
+        "components": [
+          "estradiol"
+        ],
+        "usRank": 52,
+        "englandRank": 29,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "estradiol + norethisterone",
+        "components": [
+          "estradiol",
+          "norethisterone"
+        ],
+        "usRank": null,
+        "englandRank": 118,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "estriol",
+        "components": [
+          "estriol"
+        ],
+        "usRank": null,
+        "englandRank": 131,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "ethinylestradiol + levonorgestrel",
+        "components": [
+          "ethinylestradiol",
+          "levonorgestrel"
+        ],
+        "usRank": null,
+        "englandRank": 149,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "ethinylestradiol + norethisterone",
+        "components": [
+          "ethinylestradiol",
+          "norethisterone"
+        ],
+        "usRank": 66,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "ethinylestradiol + norgestimate",
+        "components": [
+          "ethinylestradiol",
+          "norgestimate"
+        ],
+        "usRank": 101,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Ovarian removal and grafting indicated an ovarian influence; pig follicular fluid induced estrus in ovariectomized rodents. The discoverers then extracted the active principle from the biological material.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule"
+    ],
+    "inspiration": {
+      "description": "Ovarian control of estrus and estrogenic activity in follicular fluid preceded later development of derivatives of identified ovarian steroids.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E7",
+        "E1"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "After observing that follicular fluid induced estrus in ovariectomized rodents, the investigators extracted and tested the biologically active principle.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Estrogenic substances were isolated from biological sources; by 1940 estradiol and estriol were among the natural hormones in clinical use.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A planned search for oral derivatives of known follicular hormones produced an ethynyl intermediate whose oral estrogenic activity was unexpectedly strong, according to retrospective accounts; a contemporary article reports the synthesis from estrone and testing in castrated rats.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers used an ethynyl substitution of an estrone-derived steroid to investigate orally active estrogen derivatives.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The program to make orally effective hormone derivatives was planned, while activity of the ethynyl intermediate was unexpected in the cited retrospective accounts.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Frobenius W. 2011. The Rabbits are Prepared ... The Development of Ethinylestradiol and Ethinyltestosterone. J Reproduktionsmed Endokrinol. 8(Special Issue 1):32–57.",
+        "url": "https://www.kup.at/kup/pdf/10165.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Doisy EA, Ralls JO, Allen E, Johnston CG. 1924. The extraction and some properties of an ovarian hormone. J Biol Chem. 61(3):711–727. DOI 10.1016/S0021-9258(18)85120-1.",
+        "url": "https://www.researchgate.net/publication/232306852_The_extraction_and_some_properties_of_an_ovarian_hormone",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Inhoffen HH, Logemann W, Hohlweg W, Serini A. 1938. Untersuchungen in der Sexualhormon-Reihe. Ber Dtsch Chem Ges. 71(5):1024–1032. DOI 10.1002/cber.19380710520.",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/C/Chemische%20Berichte%20DE/1938%20%28Volume%20071%29/Volume%20071%2C%20Issue%2005%20%28Pages%20923-1126%29/1024-1032.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Macpherson AIS. 1940. The Use of Œstrogens in Obstetrics and Gynæcology. Edinburgh Medical Journal. 47(6):406–424. PMID 29646930; PMC5306594.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5306594/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Allen E, Doisy EA. 1923. An ovarian hormone: preliminary report on its localization, extraction and partial purification, and action in test animals. JAMA. 81(10):819–821. DOI 10.1001/jama.1923.02650100027012.",
+        "url": "https://doi.org/10.1001/jama.1923.02650100027012",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Inhoffen HH, Hohlweg W. 1938. Neue per os-wirksame weibliche Keimdrüsenhormon-Derivate: 17-Aethinyl-oestradiol und Pregnen-in-on-3-ol-17. Naturwissenschaften. 26:96. DOI 10.1007/BF01681040.",
+        "url": "https://doi.org/10.1007/BF01681040",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 33, 37–40, synthesis and biological testing; discussion of 1938 communication"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "pp. 53–54, Discussion, patent priority and lost records"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 715, Experimental, first two paragraphs"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "pp. 717–719, assay and preparation of hormone from liquor folliculi"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 711, Historical, first paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "pp. 1024–1026, synthesis and biological testing; pp. 1029–1030, experimental procedures"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "pp. 406–407, opening historical summary and clinical preparations"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S2",
+        "locator": "pp. 713–714, historical discussion and introduction"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1016/S0021-9258(18)85120-1",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1002/cber.19380710520",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1001/jama.1923.02650100027012",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1007/BF01681040",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This record addresses natural steroidal estrogen preparations represented by estradiol and estriol and the hormone-derived ethinylestradiol branch. It does not establish the origin of all nonsteroidal estrogens.",
+      "The 1924 follicular-fluid material was a partially purified active extract, not identified pure estradiol or estriol. The source on their later clinical use does not reconstruct each molecule's first isolation.",
+      "Clinical use of ovarian preparations predates the 1923–1924 work; the 1924 authors cite controversy about those extracts, not evidence that they were pure identified estrogens."
+    ],
+    "conflicts": [
+      "Earlier patent specifications mention ethinylestradiol; possible later inclusion of examples and missing files leave priority unresolved."
+    ],
+    "gaps": [
+      "The 1923 ovarian hormone report was accessed only for its opening and metadata, and the distinct short 1938 communication only for metadata; neither is load-bearing.",
+      "The discoverers' underlying letter and lecture and the relevant patent prosecution records were not directly inspected; the intermediate's unexpected activity is attributed to the 2011 retrospective account.",
+      "The separate first-isolation reports for estradiol and estriol were not read, and exact compound-by-compound isolation priority is outside the founding-class scope."
+    ]
+  },
+  "nameAliases": [
+    "Alora",
+    "Climara",
+    "Combipatch",
+    "Delestrogen",
+    "Depo-estradiol",
+    "Divigel",
+    "Dotti",
+    "Elestrin",
+    "Estrace",
+    "Estring",
+    "Estrogel",
+    "Evamist",
+    "Femhrt",
+    "Femring",
+    "Fyavolv",
+    "Imvexxy",
+    "Incurin",
+    "Jevantique",
+    "Jinteli",
+    "Lyllana",
+    "Menostar",
+    "Minivelle",
+    "Twirla",
+    "Vagifem",
+    "Vivelle",
+    "Yuvafem"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ESTROGENS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Doisy EA, Ralls JO, Allen E, Johnston CG. 1924. The extraction and some properties of an ovarian hormone. J Biol Chem. 61(3):711–727. DOI 10.1016/S0021-9258(18)85120-1.",
+        "url": "https://www.researchgate.net/publication/232306852_The_extraction_and_some_properties_of_an_ovarian_hormone",
+        "locator": "p. 715, Experimental, first two paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Doisy EA, Ralls JO, Allen E, Johnston CG. 1924. The extraction and some properties of an ovarian hormone. J Biol Chem. 61(3):711–727. DOI 10.1016/S0021-9258(18)85120-1.",
+        "url": "https://www.researchgate.net/publication/232306852_The_extraction_and_some_properties_of_an_ovarian_hormone",
+        "locator": "p. 711, Historical, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

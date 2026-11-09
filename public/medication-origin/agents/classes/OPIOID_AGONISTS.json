@@ -1,0 +1,549 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/OPIOID_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "OPIOID_AGONISTS",
+    "name": "Opioid receptor agonists and partial agonists",
+    "medicines": [
+      "buprenorphine",
+      "codeine",
+      "hydrocodone",
+      "loperamide",
+      "methadone",
+      "morphine",
+      "oxycodone",
+      "tramadol"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "buprenorphine",
+        "components": [
+          "buprenorphine"
+        ],
+        "usRank": null,
+        "englandRank": 81,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "codeine",
+        "components": [
+          "codeine"
+        ],
+        "usRank": null,
+        "englandRank": 47,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "codeine + paracetamol",
+        "components": [
+          "codeine",
+          "paracetamol"
+        ],
+        "usRank": null,
+        "englandRank": 15,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "hydrocodone + paracetamol",
+        "components": [
+          "hydrocodone",
+          "paracetamol"
+        ],
+        "usRank": 31,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "loperamide",
+        "components": [
+          "loperamide"
+        ],
+        "usRank": null,
+        "englandRank": 139,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "methadone",
+        "components": [
+          "methadone"
+        ],
+        "usRank": null,
+        "englandRank": 133,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "morphine",
+        "components": [
+          "morphine"
+        ],
+        "usRank": null,
+        "englandRank": 54,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "oxycodone",
+        "components": [
+          "oxycodone"
+        ],
+        "usRank": 51,
+        "englandRank": 130,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "oxycodone + paracetamol",
+        "components": [
+          "oxycodone",
+          "paracetamol"
+        ],
+        "usRank": 88,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "tramadol",
+        "components": [
+          "tramadol"
+        ],
+        "usRank": 41,
+        "englandRank": 52,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The natural-opiate branch began with the recognized therapeutic effects of opium, followed by isolation and testing of morphine; the first observer is not established. In a distinct synthetic antispasmodic program, pethidine's morphine-like analgesia was unexpectedly observed, then developed. Methadone's series was pursued against the background of known morphine and pethidine effects and structural ideas; the peripheral branch drew on opioids' observed bowel effects.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E7",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "clinical_veterinary_effect",
+      "biological_physiological_observation",
+      "synthetic_compound_effect",
+      "theoretical_design"
+    ],
+    "inspiration": {
+      "description": "Opium and its observed effects preceded morphine isolation. A thebaine-derived program sought to improve on known codeine activity and selected candidates through biological tests. For peripheral action, the useful bowel effects of opium and morphine, and later observations with synthetic diphenoxylate, informed the search for a better-separated antidiarrheal. Pethidine's unexpected morphine-like analgesic effect was discovered in an antispasmodic program; the methadone series was connected with comparative morphine and pethidine activity and a structural hypothesis. Theoretical chemistry here builds on known active substances rather than establishing activity from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Opium preparations were used for analgesia before modern receptor concepts; the first observation and the identity of the original observer are not established by this retrospective.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Sertürner isolated morphine from opium and tested its opium-like effects; later opioid work included morphine analogues such as hydrocodone.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Seeking an improvement on the known analgesic codeine, Bentley and colleagues modified thebaine-derived chemistry; Lewis and colleagues used pharmacological observations and dependence testing to select buprenorphine, later characterized as a mu partial agonist.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a separate synthetic branch, pethidine's morphine-like analgesic effect was unexpectedly observed during an antispasmodic search and developed as an analgesic; diphenoxylate, chemically related to pethidine, later provided an antidiarrheal lead.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10",
+          "E8"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Bockmühl and Ehrhart described a separate synthetic-compound program in relation to the established morphine model and morphine-like pethidine, noting a shared carbon feature while emphasizing that their series did not simply copy a fragment of morphine. A later historical reconstruction connects that program and animal testing to Va 10820, later methadone.",
+        "support": "documented",
+        "evidence_ids": [
+          "E11",
+          "E12",
+          "E13",
+          "E14"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "Building on known bowel effects of opioids and subsequent tests of the synthetic antidiarrheal diphenoxylate, researchers screened for greater separation of antidiarrheal and central effects and identified loperamide in a new series.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Extraction and testing isolated an active principle. Medicinal chemists then made morphine analogues and thebaine-derived compounds with substantial structural changes; biological testing selected buprenorphine, subsequently characterized as a partial agonist. In the methadone series chemists devised new synthetic structures informed by comparisons with morphine and pethidine and tested their biological activity. A later antidiarrheal program sought a different distribution of activity, emphasizing intestinal effects over measured central effects. These were substantial changes in structure or pharmacology, not merely delivery changes.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E8",
+        "E9",
+        "E11",
+        "E12",
+        "E13",
+        "E14"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The buprenorphine precursor program deliberately sought an improvement on codeine, and the peripheral program deliberately screened for more selective antidiarrheals. By contrast, pethidine's analgesic effect was reported as unexpected during a planned antispasmodic search. These descriptions refer to those specific stages, not every member of the class.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E9",
+        "E10"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Fairbanks CA, Peterson CD. The opioid receptor: emergence through millennia of pharmaceutical sciences. Front Pain Res (Lausanne). 2023;4:960389. doi:10.3389/fpain.2023.960389. PMID:38028425.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10646403/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Lewis JW. In pursuit of the Holy Grail. Nathan B. Eddy Award Lecture, 1998; in Problems of Drug Dependence 1998: Proceedings of the 60th Annual Scientific Meeting. NIDA Research Monograph 179. 1999:7-13.",
+        "url": "https://doczz.net/doc/3230762/problems-of-drug-dependence-1998--proceedings-of-the-60th",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Niemegeers CJE, Colpaert FC, Awouters FHL. Pharmacology and antidiarrheal effect of loperamide. Drug Dev Res. 1981;1(1):1-20. doi:10.1002/ddr.430010102.",
+        "url": "https://pillbuys.com/research/Loperamide/6.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Mather LE, Tucker GT. On pethidine: the 'accidental' opioid that became a 'model' analgesic agent. Anaesth Intensive Care. Published online June 14, 2026. doi:10.1177/0310057X261442548. PMID:42290038.",
+        "url": "https://journals.sagepub.com/doi/full/10.1177/0310057X261442548",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Bockmühl M, Ehrhart G; pharmacological investigations by Schaumann O. Über eine neue Klasse von spasmolytisch und analgetisch wirkenden Verbindungen, I. Justus Liebigs Ann Chem. 1949;561:52-86. doi:10.1002/jlac.19495610107. Publisher metadata also gives first publication 8 November 1948.",
+        "url": "https://chemistry.mdma.ch/hiveboard/rhodium/pdf/bockmuhl-erhardt.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Defalque RJ, Wright AJ. The early history of methadone: myths and facts. Bull Anesth Hist. 2007;25(3):13-16. doi:10.1016/S1522-8649(07)50035-1. PMID:20506765.",
+        "url": "https://www.researchgate.net/publication/44634402_The_Early_History_of_Methadone_Myths_and_Facts",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Eisleb O, Schaumann O. Dolantin, ein neuartiges Spasmolytikum und Analgetikum. Dtsch Med Wochenschr. 1939;65(24):967-968. doi:10.1055/s-0028-1120563.",
+        "url": "https://doi.org/10.1055/s-0028-1120563",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Niemegeers CJE, Lenaerts FM, Janssen PAJ. Loperamide (R 18 553), a novel type of antidiarrheal agent. Part 1: in vivo oral pharmacology and acute toxicity. Comparison with morphine, codeine, diphenoxylate and difenoxine. Arzneimittelforschung. 1974;24(10):1633-1636. PMID:4479775.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4479775/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Abstract, first three sentences"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Opium and morphine history, paragraph beginning with Wren's intravenous opium experiment"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Morphine analogues and methadone history, paragraphs beginning 'It is also noteworthy' and 'Following the conclusion of World War II'"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Proceedings pp. 7-8, paragraphs on Bentley and the Reckitt codeine program"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Proceedings pp. 9-10, paragraphs on orvinol screening and candidate selection"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Proceedings pp. 10-11, paragraph on Martin's later receptor studies"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 2, Treatment of diarrhea: a historical perspective"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "pp. 2-4, Advent of antidiarrheal drugs: diphenoxylate"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "p. 4, Loperamide: achievement of full antidiarrheal specificity"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "Abstract and sections Pethidine: the accidental opioid and Pethidine: the backstory"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "p. 52, first paragraph of the original German article"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "p. 53, first two paragraphs"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S6",
+        "locator": "pp. 13-14, Hoechst's discovery of compound Va 10820"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S6",
+        "locator": "p. 14, Hoechst's discovery of compound Va 10820"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S6",
+        "locator": "p. 13, Hoechst's discovery of compound Va 10820"
+      },
+      {
+        "evidence_id": "E16",
+        "source_id": "S4",
+        "locator": "Pethidine: the backstory, first paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://doczz.net/doc/3230762/problems-of-drug-dependence-1998--proceedings-of-the-60th",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://chemistry.mdma.ch/hiveboard/rhodium/pdf/bockmuhl-erhardt.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1055/s-0028-1120563",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4479775/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The opium/morphine history is class-founding; the exact first discovery of opium's effect and its original observer are not established.",
+      "The partial-agonist account directly concerns the thebaine-derived buprenorphine program; not every semisynthetic analogue has been reconstructed individually.",
+      "The pethidine effect belongs to an earlier synthetic lead, not a listed cohort medicine. Methadone is covered through the original chemists' program and a historical reconstruction, but the precise chronological role of the proposed common-carbon hypothesis is less secure than the existence of known opioid models.",
+      "The peripheral branch concerns loperamide's antidiarrheal development; the 1981 authors' animal observations should not be interpreted as proof of absent central toxicity at every exposure.",
+      "No founding history was established separately for tramadol; neither the pethidine nor the morphine-analogue narrative should be assumed to describe its particular discovery pathway. Codeine, hydrocodone and oxycodone were not researched as separate biographies."
+    ],
+    "conflicts": [
+      "S4 states that pethidine came from the synthesis-and-testing system in 1932, whereas S6 dates its synthesis to July 1937. The 1932 statement's precise meaning is not resolved in the passages read; no single synthesis date is asserted here.",
+      "S6 retrospectively presents the shared carbon feature as a pre-synthesis explanatory hypothesis. S5's postwar opening notes that feature in the new series but does not, in the passages examined, by itself prove the exact time at which the idea arose. These differ in specificity, not necessarily in factual content.",
+      "For S5, publisher metadata gives pages 52-86 and first publication in 1948 but recommends the 1949 citation; the examined scan's added header gives pages 52-85. The identity is confirmed by title, authors and DOI; the last page/date discrepancy is not resolved.",
+      "S3's bibliography gives pages 1622-1636 for the 1974 loperamide study S8, while the PubMed record gives 1633-1636. The original pagination was not inspected; this bibliographic discrepancy is not used to decide the founding history."
+    ],
+    "gaps": [
+      "The original observation of opium's therapeutic effects and its observer were not located.",
+      "The 1939 Eisleb-Schaumann pethidine report was not read separately; S4 discusses and translates excerpts, and its characterization of chance remains a historical interpretation.",
+      "The original early loperamide pharmacology papers were not read; S3 is a retrospective account by researchers from the relevant laboratory.",
+      "The original prewar research notes clarifying the precise chronology of the methadone design hypothesis were not located; S6 reports missing exact-date documents.",
+      "An individual founding account for tramadol was not sought within this class-level scope."
+    ]
+  },
+  "nameAliases": [
+    "Belbuca",
+    "Brixadi",
+    "Buprenex",
+    "BuTrans",
+    "ConZip",
+    "Diamode",
+    "Diskets",
+    "Dolophine",
+    "Duramorph",
+    "Endocet",
+    "Hycet",
+    "Imodium",
+    "Infumorph",
+    "Kadian",
+    "Methadose",
+    "Mitigo",
+    "MS Contin",
+    "Nalocet",
+    "Norco",
+    "Oxaydo",
+    "Oxycontin",
+    "Percocet",
+    "Primlev",
+    "Prolate",
+    "Qdolo",
+    "Roxicodone",
+    "Roxybond",
+    "Simbadol",
+    "Sublocade",
+    "Tylenol with Codeine",
+    "Ultram",
+    "Verdrocet",
+    "Xtampza",
+    "Zorbium"
+  ],
+  "humanContributionInterpretation": {
+    "id": "OPIOID_AGONISTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Known opium and opioid benefits, limitations and bowel-slowing effects guided later analgesic and antidiarrheal optimization.",
+    "scope": "Several branches and unresolved first-observer histories; not an independent clinical discovery of every opioid.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Fairbanks CA, Peterson CD. The opioid receptor: emergence through millennia of pharmaceutical sciences. Front Pain Res (Lausanne). 2023;4:960389. doi:10.3389/fpain.2023.960389. PMID:38028425.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10646403/",
+        "locator": "Abstract, first three sentences",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Lewis JW. In pursuit of the Holy Grail. Nathan B. Eddy Award Lecture, 1998; in Problems of Drug Dependence 1998: Proceedings of the 60th Annual Scientific Meeting. NIDA Research Monograph 179. 1999:7-13.",
+        "url": "https://doczz.net/doc/3230762/problems-of-drug-dependence-1998--proceedings-of-the-60th",
+        "locator": "Proceedings pp. 7-8, paragraphs on Bentley and the Reckitt codeine program",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Niemegeers CJE, Colpaert FC, Awouters FHL. Pharmacology and antidiarrheal effect of loperamide. Drug Dev Res. 1981;1(1):1-20. doi:10.1002/ddr.430010102.",
+        "url": "https://pillbuys.com/research/Loperamide/6.pdf",
+        "locator": "p. 2, Treatment of diarrhea: a historical perspective",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Niemegeers CJE, Colpaert FC, Awouters FHL. Pharmacology and antidiarrheal effect of loperamide. Drug Dev Res. 1981;1(1):1-20. doi:10.1002/ddr.430010102.",
+        "url": "https://pillbuys.com/research/Loperamide/6.pdf",
+        "locator": "pp. 2-4, Advent of antidiarrheal drugs: diphenoxylate",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Niemegeers CJE, Colpaert FC, Awouters FHL. Pharmacology and antidiarrheal effect of loperamide. Drug Dev Res. 1981;1(1):1-20. doi:10.1002/ddr.430010102.",
+        "url": "https://pillbuys.com/research/Loperamide/6.pdf",
+        "locator": "p. 4, Loperamide: achievement of full antidiarrheal specificity",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

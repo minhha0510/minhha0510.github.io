@@ -1,0 +1,402 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/H1_ANTIHISTAMINES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "H1_ANTIHISTAMINES",
+    "name": "H1 antihistamines",
+    "medicines": [
+      "azelastine",
+      "cetirizine",
+      "fexofenadine",
+      "hydroxyzine",
+      "levocetirizine",
+      "promethazine"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "azelastine",
+        "components": [
+          "azelastine"
+        ],
+        "usRank": 121,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "cetirizine",
+        "components": [
+          "cetirizine"
+        ],
+        "usRank": 47,
+        "englandRank": 84,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "fexofenadine",
+        "components": [
+          "fexofenadine"
+        ],
+        "usRank": null,
+        "englandRank": 40,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "hydroxyzine",
+        "components": [
+          "hydroxyzine"
+        ],
+        "usRank": 43,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "levocetirizine",
+        "components": [
+          "levocetirizine"
+        ],
+        "usRank": 135,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "promethazine",
+        "components": [
+          "promethazine"
+        ],
+        "usRank": null,
+        "englandRank": 102,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Observed physiological activities of histamine, acetylcholine and adrenaline, together with known pharmacological antagonists of the latter two, motivated Bovet and Staub to test compounds for comparable antihistamine activity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The founding clue was the activity of histamine and the observed antagonism of other biologically active mediators, a functional biological analogy rather than a claim of histamine scaffold inheritance. Later, the phenothiazine branch also drew on observed antihistamine effects in screened synthetic compounds.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E6",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Bovet and Staub deliberately sought a histamine antagonist on the basis of prior mediator and antagonist observations and tested candidate compounds.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The early antihistamine was not clinically usable because of toxicity; later phenylethylenediamine research and Antergan established a useful class, followed by a variety of structural types.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The pre-existing phenothiazine-amine chemical series entered antihistamine screens; observed activity and toxicity guided selection of promethazine, a distinct structural branch. Halpern and Hamburger separately report experiments on its pharmacological effects.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E9",
+          "E11"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Second-generation work sought fewer adverse effects and produced more selective, less centrally penetrating drugs; metabolite and enantiomer relationships distinguish later branches without establishing each discovery decision.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E8",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and tested multiple structural families, selected active and less toxic phenothiazines, established clinically useful antihistamines and later made structural changes associated with greater selectivity, longer duration and reduced brain penetration.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5",
+        "E9",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Bovet and Staub's search and testing for a histamine antagonist were planned; this does not classify every subsequent branch discovery as planned.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Bovet D. The relationships between isosterism and competitive phenomena in the field of drug therapy of the autonomic nervous system and that of the neuromuscular transmission. Nobel Lecture, December 11, 1957, pp. 552–578.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/bovet-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Church MK, Church DS. Pharmacology of Antihistamines. Indian J Dermatol. 2013;58:219–224. DOI 10.4103/0019-5154.110832; PMID 23723474.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3667286/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Dale HH, Laidlaw PP. The physiological action of β-iminazolylethylamine. J Physiol. 1910;41:318–344. DOI 10.1113/jphysiol.1910.sp001406; PMID 16993030.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1113/jphysiol.1910.sp001406",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Tiligada E, Ennis M. Histamine pharmacology: from Sir Henry Dale to the 21st century. Br J Pharmacol. 2020;177:469–489. DOI 10.1111/bph.14524; PMID 30341770.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.14524",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Quirke V. Targeting the American Market for Medicines, ca. 1950s–1970s: ICI and Rhône-Poulenc Compared. Bull Hist Med. 2014;88:654–696. DOI 10.1353/bhm.2014.0075.",
+        "url": "https://www.researchgate.net/publication/270513344_Targeting_the_American_Market_for_Medicines_ca_1950s-1970s_ICI_and_Rhone-Poulenc_Compared",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Staub AM, Bovet D. Action de la thymoxyéthyldiéthylamine (929 F) et des éthers phénoliques sur le choc anaphylactique du cobaye. C R Soc Biol. 1937;125:818 onward. End page disputed in secondary references; original not read.",
+        "url": "https://historical.ha.com/itm/books/science-and-technology/-nobel-prize-in-science-excellent-collection-of-218-nobel-lectures-and-related-offprints-by-80-nobel-prize-laureates-175-sig/a/6100-36227.s",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Halpern BN, Hamburger J. A new synthetic anti-histamine substance derived from phenothiazine; phenergan, 3,277 R.P. Can Med Assoc J. 1948;59:322–326. PMID 18886695; PMCID PMC1591171.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1591171/?page=1",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Fourneau E, Bovet D. Recherches sur l'action sympathicolytique d'un nouveau dérivé du dioxane. Arch Int Pharmacodyn Thér. 1933;46:178–191. Citation from S4; original not read.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.14524",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Halpern BN, Ducrot R. Recherches expérimentales sur une nouvelle série chimique de corps doués de propriétés antihistaminiques puissantes: les dérivés de la thiodiphénylamine (T.D.A.). C R Soc Biol. 1946;140:361–363. Title as cited in a secondary reference list; original not read.",
+        "url": "https://ouci.dntb.gov.ua/en/works/lxk8LA34/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Printed p. 568, final paragraph; continued on p. 569."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Printed pp. 569–570, text following Table IX."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Printed pp. 570–571, discussion of the structural groupings."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Introduction, first two paragraphs, and references 1–3."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "The development of H1-antihistamines, paragraph beginning 'A major advance'."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "Printed pp. 335–337, The uterus; pp. 342–343, Discussion and summary."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "The emergence of antihistamines for the management of allergic disorders, paragraph 2; Table 1, promethazine and hydroxyzine entries."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "The development of second-generation H1 antihistamines, first and fifth paragraphs; Table 1, cetirizine, levocetirizine and fexofenadine entries."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "Printed pp. 682–683, Rhône-Poulenc antihistamines, and notes 110–115."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "The development of second-generation H1 antihistamines, first paragraph."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S7",
+        "locator": "Printed p. 323, first paragraph and Experimental findings."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S7",
+        "locator": "Printed p. 322, Historical survey, first paragraph."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/bovet-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1113/jphysiol.1910.sp001406",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://historical.ha.com/itm/books/science-and-technology/-nobel-prize-in-science-excellent-collection-of-218-nobel-lectures-and-related-offprints-by-80-nobel-prize-laureates-175-sig/a/6100-36227.s",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1591171/?page=1",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.14524",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://ouci.dntb.gov.ua/en/works/lxk8LA34/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The documented class founding is the Bovet–Staub physiological analogy and its experimental development; the H1 receptor was defined later, not known to those investigators as the modern subtype.",
+      "Promethazine represents a phenothiazine branch selected through observed activity in an antihistamine screen, with its earlier chemical series coming from an antimalarial program according to S5. S7 reports pharmacological studies but does not establish that earlier chemical-program context; the 1946 original and S5's upstream sources were not read.",
+      "Cetirizine and levocetirizine are related to hydroxyzine as metabolite and enantiomer, respectively; fexofenadine is a terfenadine metabolite. These relations do not by themselves prove the full research decisions for each later agent.",
+      "S4 lists azelastine as a later H1 agent but does not establish its individual starting clue or a direct chemical lineage to 929 F. The class-level label should not be misread as a separately evidenced biography of every member."
+    ],
+    "conflicts": [
+      "Bovet 1957, p. 568, dates first positive 929 F results to 1939, while his Table IX credits Bovet and Staub 1937. In a 1948 historical survey, Halpern and Hamburger attribute 929 F reports to Fourneau and Bovet 1933 and Staub and Bovet 1937. The 1933 and 1937 originals were not read, so the differing attribution and precise first date remain unresolved.",
+      "Secondary references disagree on the last page of the 1937 Staub–Bovet article (818–821 versus 818–823); the auction listing confirms the start page, not the disputed final page."
+    ],
+    "gaps": [
+      "The 1933 Fourneau–Bovet and 1937 Staub–Bovet original reports were not read; S6 links to a catalog description of the 1937 offprint, not the report itself.",
+      "The specific antimalarial-to-antihistamine-screen path for phenothiazines rests on historian S5 and its cited secondary sources; the 1946 Halpern–Ducrot original and S5's upstream sources were not read.",
+      "The sources do not establish the initial research rationale for azelastine or each individual later metabolite/enantiomer development decision; these are not inferred from their present structure."
+    ]
+  },
+  "nameAliases": [
+    "Allegra",
+    "Aller-Tec",
+    "Alleroff",
+    "Astepro",
+    "Phenadoz",
+    "Phenergan",
+    "Promethegan",
+    "Quzyttir",
+    "Vistaril",
+    "Wal Zyr 24 Hour Allergy",
+    "Wal-Fex",
+    "Wal-Zyr",
+    "Xyzal",
+    "Zerviate",
+    "Zyrtec"
+  ],
+  "humanContributionInterpretation": {
+    "id": "H1_ANTIHISTAMINES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Known adverse effects of classical antihistamines supplied a rationale for less centrally penetrating successor agents.",
+    "scope": "The dossier describes a broad development pattern, not the exact clinical decision history of every second-generation drug.",
+    "references": [
+      {
+        "id": "E10",
+        "citation": "Tiligada E, Ennis M. Histamine pharmacology: from Sir Henry Dale to the 21st century. Br J Pharmacol. 2020;177:469–489. DOI 10.1111/bph.14524; PMID 30341770.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.14524",
+        "locator": "The development of second-generation H1 antihistamines, first paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

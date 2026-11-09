@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NDRI",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NDRI",
+    "name": "Norepinephrine-dopamine reuptake inhibitors",
+    "medicines": [
+      "bupropion"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "bupropion",
+        "components": [
+          "bupropion"
+        ],
+        "usRank": 17,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A retrospective describes the program's goal of an antidepressant with a distinct pharmacologic profile and improved safety and tolerability; it does not establish the particular biological observation or design idea that prompted the program.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "basis": "unclear",
+    "basisSupport": "not_reported",
+    "inspirations": [
+      "not_reported"
+    ],
+    "inspiration": {
+      "description": "not_reported",
+      "support": "not_reported",
+      "evidence_ids": []
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A retrospective describes a targeted program seeking an antidepressant with a different pharmacological profile and improved tolerability; its initiating inspiration is unspecified.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The inventor's patent describes synthesis of the chlorine-substituted aminopropiophenone and reports antidepressant-screen activity relative to stimulation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The compound was investigated in a controlled healthy-volunteer comparison, and further clinical work was reported underway; the paper recounts earlier animal screening.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Subsequent laboratory experiments reported weak inhibition of dopamine and norepinephrine uptake in rat synaptosomes; the full study was not accessed.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A 2005 review described the later dual norepinephrine/dopamine reuptake inhibitor classification; earlier authors had been cautious about dopamine uptake alone explaining antidepressant activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The inventor synthesized a meta-chloro aminopropiophenone and described its fluoro analogue, in a development program retrospectively described as seeking a distinct antidepressant profile. The source passages do not establish the original target-based design rationale or a causal lead.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The retrospective characterizes the program's goal of developing an antidepressant as targeted; it does not say whether the specific active compound was anticipated or unexpectedly found.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Mehta NB. Meta chloro substituted-alpha-butylamino-propiophenones. US Patent 3,819,706; granted June 25, 1974; UK priority December 4, 1969.",
+        "url": "https://patents.google.com/patent/US3819706A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Fava M, Rush AJ, Thase ME, Clayton A, Stahl SM, Pradko JF, Johnston JA. 15 Years of Clinical Experience With Bupropion HCl: From Bupropion to Bupropion SR to Bupropion XL. Prim Care Companion J Clin Psychiatry. 2005;7(3):106–113. doi:10.4088/pcc.v07n0305. PMID:16027765.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1163271/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Peck AW, Bye CE, Clubley M, Henson T, Riddington C. A comparison of bupropion hydrochloride with dexamphetamine and amitriptyline in healthy subjects. Br J Clin Pharmacol. 1979;7(5):469–478. doi:10.1111/j.1365-2125.1979.tb00988.x. PMID:475943.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1429582/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Ferris RM, White HL, Cooper BR, Maxwell RA, Tang FLM, Beaman OJ, Russell A. Some neurochemical properties of a new antidepressant, bupropion hydrochloride (Wellbutrin). Drug Dev Res. 1981;1(1):21–35. doi:10.1002/ddr.430010103.",
+        "url": "https://doi.org/10.1002/ddr.430010103",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Ferris RM, Cooper BR, Maxwell RA. Studies of bupropion's mechanism of antidepressant activity. J Clin Psychiatry. 1983;44(5 Pt 2):74–78. PMID:6406468.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6406468/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "López-Muñoz F, D'Ocón P, Romero A, De Berardis D, Álamo C. Did Serendipity Contribute to the Discovery of New Antidepressant Drugs? Historical Analysis Using Operational Criteria. Alpha Psychiatry. 2025;26(2):40037. doi:10.31083/AP40037.",
+        "url": "https://doi.org/10.31083/AP40037",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Mehta NB. The chemistry of bupropion. J Clin Psychiatry. 1983;44(5 Pt 2):56–59. PMID:6406464.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6406464/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Soroko FE, Mehta NB, Maxwell RA, Ferris RM, Schroeder DH. Bupropion hydrochloride ((+/−) alpha-t-butylamino-3-chloropropiophenone HCl): a novel antidepressant agent. J Pharm Pharmacol. 1977;29(12):767–770. doi:10.1111/j.2042-7158.1977.tb11460.x. PMID:22628.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22628/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Wellcome Collection. Nariman Mehta oral history, interview 24–26 April 2002; archival reference WF/M/AV/O/03/36. Catalogue metadata only; interview not read.",
+        "url": "https://preview.wellcomecollection.org/works/g64dkyq6",
+        "role": "discoverer_account",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Patent column 1, paragraphs after the structural formula; columns 3–4, Example 1."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Background and History, first paragraph; Disclosures."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Page 469, Abstract items 1–6 and Introduction; page 478, References."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "Publisher abstract, methods and results sentences."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "PubMed abstract, second and last sentences."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Mechanism of Action, first paragraph."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "Section 3.3, bupropion paragraph; Table 2 bupropion row and legend; References 28–29."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://patents.google.com/patent/US3819706A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1429582/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1002/ddr.430010103",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6406464/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/22628/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://preview.wellcomecollection.org/works/g64dkyq6",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This collection addresses the bupropion branch representing the assigned NDRI class. It does not establish the origins of every other compound later classified as an NDRI or alter the frozen class boundary.",
+      "The animal response to bupropion is documented, but its role in selecting or initiating the research program is not; an observed synthetic-drug effect would count as observation-led if its causal role were established.",
+      "A planned antidepressant program and an NDRI label do not establish either an observation-led origin or de novo dual-target design. The exact antidepressant mechanism remains outside the scope of this historical collection."
+    ],
+    "conflicts": [
+      "S5's 1983 abstract considered dopamine uptake inhibition alone unlikely to explain antidepressant activity, whereas S2's 2005 retrospective attributed action to a combined norepinephrine/dopamine reuptake profile. These statements involve different periods and claims, so they are a historical interpretive tension rather than an established direct contradiction; this collection does not adjudicate mechanism.",
+      "S6 classifies bupropion as non-serendipitous and describes rational hypotheses for a larger drug group. That chance-versus-plan framework differs from the approved observation-led-versus-from-scratch framework; S6 does not supply the specific bupropion initiating rationale needed to map it decisively.",
+      "S2 presents 1989 as the US introduction, whereas S6 reports an initial 1985 introduction followed by withdrawal and 1989 reintroduction. Primary regulatory records were not checked for this ancillary chronology; no first-introduction date is asserted here."
+    ],
+    "gaps": [
+      "No accessible passage read establishes which specific observation, prior working compound, physiological relationship, or de novo design rationale initiated the bupropion program or caused the inventor to make the compound.",
+      "The 1977 Soroko et al. primary paper was located by verified metadata but not read; PubMed provides no abstract and a publisher PDF request failed. Its result is represented only through the explicit secondary summary in S3.",
+      "Only the abstract of Mehta's 1983 chemistry paper and of the 1981 and 1983 mechanistic articles were read; their full texts may contain additional relevant context.",
+      "The Wellcome catalogue reports a Mehta oral-history transcript restricted until 1 January 2053; neither that transcript nor its related papers were read. A cited 1970 meeting report was also not read.",
+      "The historical effect of the FDA's 1985 approval and the subsequent withdrawal and reintroduction was not independently checked against regulatory documents."
+    ]
+  },
+  "nameAliases": [
+    "Aplenzin",
+    "Forfivo",
+    "Wellbutrin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "NDRI",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Patient dosing inconvenience, peak-related adverse-effect concerns and reported nonadherence guided bupropion SR and XL formulation development.",
+    "scope": "The original molecular starting idea remains unclear; the clinical refinement contribution is reported in a company-supported retrospective and does not prove all proposed tolerability advantages.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Fava M, Rush AJ, Thase ME, Clayton A, Stahl SM, Pradko JF, Johnston JA. 15 Years of Clinical Experience With Bupropion HCl: From Bupropion to Bupropion SR to Bupropion XL. Prim Care Companion J Clin Psychiatry. 2005;7(3):106–113. doi:10.4088/pcc.v07n0305. PMID:16027765.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1163271/",
+        "locator": "Background and History, first paragraph; Disclosures.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "R2",
+        "citation": "Fava M, Rush AJ, Thase ME, Clayton A, Stahl SM, Pradko JF, Johnston JA. 15 Years of Clinical Experience With Bupropion HCl: From Bupropion to Bupropion SR to Bupropion XL. Prim Care Companion J Clin Psychiatry. 2005;7(3):106–113. doi:10.4088/pcc.v07n0305. PMID:16027765.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1163271/",
+        "locator": "Fava et al. 2005, Background and History, second and third paragraphs, from immediate release through SR and XL development",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

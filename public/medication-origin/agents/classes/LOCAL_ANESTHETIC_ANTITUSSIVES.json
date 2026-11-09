@@ -1,0 +1,270 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/LOCAL_ANESTHETIC_ANTITUSSIVES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "LOCAL_ANESTHETIC_ANTITUSSIVES",
+    "name": "Peripheral local-anesthetic antitussives",
+    "medicines": [
+      "benzonatate"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "benzonatate",
+        "components": [
+          "benzonatate"
+        ],
+        "usRank": 131,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Airway local anesthetics' cough-suppressing effects and experimental links between lung inflation and cough directed research toward an agent that would anesthetize pulmonary-distention-sensitive vagal fibers, according to contemporary clinical authors and a later review.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E1",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Observed suppression of cough during local anesthesia and experimental relationships between inspiratory lung distention and cough intensity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E1",
+        "E2"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Prior clinical effects of local anesthetics and experimental respiratory physiology directed research toward a peripheral antitussive, according to contemporary clinical authors and a later review.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Separately, a 1955 Matter patent described preparation of a p-butylaminobenzoate polyethoxy ester and pharmacological properties of the broader ester group. The patent does not document a cough rationale or establish whether this particular preparation followed the physiological observations.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Bucher investigated benzonatate's effects on lung stretch receptors, according to the review; 1958 clinical investigators tested Tessalon against induced cough and in patients.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Matter described preparing polyethoxy esters including the p-butylaminobenzoate member; the 1958 clinicians described polyethylene glycol replacing a diethylaminoethanol residue. Neither source establishes why the chemist first selected this exact structure for cough.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The contemporary clinical report describes research directed toward selective anesthesia of pulmonary-distention-sensitive vagal fibers. It does not specify whether the first observation of the compound's antitussive effect was unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Dicpinigaitis PV, Morice AH, Birring SS, McGarvey L, Smith JA, Canning BJ, Page CP. 2014. Antitussive drugs: past, present, and future. Pharmacol Rev 66:468-512. DOI 10.1124/pr.111.005116; PMID 24671376.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11060423/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Matter M. 1955. Polyethoxy esters of isocyclic organic carboxylic acids. US patent 2,714,608, issued 2 August 1955; Ciba Pharmaceutical Products Inc.",
+        "url": "https://patents.google.com/patent/US2714608A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Gregoire F, Thibaudeau Y, Comeau M. 1958. The treatment of cough by a non-narcotic antitussive. Can Med Assoc J 79:180-184. PMID 13561223; PMCID PMC1829788.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1829788/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Eddy NB, Friebel H, Hahn K-J, Halbach H. 1969. Codeine and its alternates for pain and cough relief: 4. Potential alternates for cough relief. Bull World Health Organ 40:639-719. PMID 4390406; PMCID PMC2554499.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2554499/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Bucher K, Jacot C. 1951. Zum Mechanismus des Hustens. Helv Physiol Pharmacol Acta 9:454-462. PMID 14945785.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14945785/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Bucher K. 1956. Tessalon, ein hustenstillendes Mittel von neuartigem Wirkungsmechanismus. Schweiz Med Wochenschr 86:94-96. PMID 13311425.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13311425/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Sell R, Lindner E, Jahn H. 1958. Untersuchungen über die Anaesthesie der Dehnungs- und Berührungsreceptoren durch einige Lokalanaesthetica im Vergleich zur hustenstillenden Wirkung. Naunyn Schmiedebergs Arch Exp Pathol Pharmakol 234:164-178. DOI 10.1007/BF00247147; PMID 13600385.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13600385/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Section III.D, Benzonatate, pp. 478-479, paragraph beginning 'Benzonatate is a long-chain polyglycol derivative'."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Section III.D, Benzonatate, pp. 478-479, discussion of Kroepfli 1950 and Bucher and Jacot 1951."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Section III.D, Benzonatate, p. 479, paragraph on Bucher 1956 and subsequent early human studies."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Patent opening description, first two paragraphs, and example 4, last sentence."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "pp. 180-181, introductory discussion, final paragraph on p. 180 and first two paragraphs on p. 181."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 181, first column, paragraph identifying Tessalon and describing its structure."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "pp. 181-182, experimental-cough methods, Table I and interpretation; clinical-study methods."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "pp. 684-685, Benzonatate subsection, final paragraph on p. 684 and continuation on p. 685."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US2714608A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1829788/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14945785/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13311425/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13600385/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The starting rationale for antitussive use is described by contemporary clinical researchers and a later review, not the chemical inventor; the class boundary excludes other antitussive lineages.",
+      "An earlier patent's priority does not date the particular compound example or establish why the chemical was first synthesized.",
+      "The peripheral target was a stated development rationale, not definitive proof of a unique clinical mechanism; the 1969 review recounts a competing central interpretation (E8)."
+    ],
+    "conflicts": [
+      "The 1969 review reports peripheral effects but notes that Sell, Lindner, and Jahn 1958 interpreted benzonatate's antitussive action as mainly central; the doses needed for consistent effects in those experiments were toxic, according to the review (E8). This mechanism dispute does not contradict the documented historical starting rationale.",
+      "In the 1958 induced-cough report, the authors describe subject 4 as unaltered, whereas their Table I lists 18 efforts before and 16 after; their wording and displayed counts should not be conflated (E7)."
+    ],
+    "gaps": [
+      "Bucher and Jacot 1951 and Bucher 1956 were located by metadata but their original texts were not read; their findings are attributed to the reviews (S1, S4).",
+      "The Sell, Lindner, and Jahn 1958 mechanistic study (S7) was not read directly; its characterization is attributed to S4.",
+      "The chemist's motive for selecting the particular structure and the exact transition from ester chemistry to cough testing are not established by the patent or clinical report."
+    ]
+  },
+  "nameAliases": [
+    "Tessalon Perles"
+  ],
+  "humanContributionInterpretation": {
+    "id": "LOCAL_ANESTHETIC_ANTITUSSIVES",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Reduced coughing with local airway anesthesia during bronchoscopy supplied a clinical rationale for benzonatate.",
+    "scope": "Cat physiology also contributed; the clinical clue does not establish the original synthesis motive.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Dicpinigaitis PV, Morice AH, Birring SS, McGarvey L, Smith JA, Canning BJ, Page CP. 2014. Antitussive drugs: past, present, and future. Pharmacol Rev 66:468-512. DOI 10.1124/pr.111.005116; PMID 24671376.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11060423/",
+        "locator": "Section III.D, Benzonatate, pp. 478-479, paragraph beginning 'Benzonatate is a long-chain polyglycol derivative'.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Gregoire F, Thibaudeau Y, Comeau M. 1958. The treatment of cough by a non-narcotic antitussive. Can Med Assoc J 79:180-184. PMID 13561223; PMCID PMC1829788.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1829788/",
+        "locator": "pp. 180-181, introductory discussion, final paragraph on p. 180 and first two paragraphs on p. 181.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

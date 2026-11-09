@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/TRIPTANS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "TRIPTANS",
+    "name": "Triptans",
+    "medicines": [
+      "sumatriptan"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "sumatriptan",
+        "components": [
+          "sumatriptan"
+        ],
+        "usRank": 108,
+        "englandRank": 107,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Clinical observations that intravenous serotonin could relieve migraine, despite substantial adverse effects, motivated a search for the receptor responsible for its beneficial action and a more selective agonist. Clinical and animal observations involving methysergide also helped focus the team's receptor hypothesis.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E5",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "clinical_veterinary_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "The starting clues included a reported clinical effect of the endogenous signaling molecule serotonin, clinical responses to methysergide, and methysergide's observed action in an animal carotid circulation. Researchers sought to separate beneficial from unwanted serotonin effects through receptor selectivity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E5",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Reports of migraine relief following intravenous serotonin, tempered by problematic side effects, gave the Glaxo team a clinical effect to develop.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3",
+          "E4",
+          "E7"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Lance's clinical observations and Saxena's animal work on methysergide, followed by the team's own experiments, focused attention on a potentially distinct serotonin receptor in cranial circulation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The team sought the relevant serotonin receptor and designed selective agonists; the research led to sumatriptan.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "An early open clinical study reported responses to intravenous GR43175; Humphrey later attributed the development of similar triptans to sumatriptan's clinical success.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Deliberate design created a serotonin-related molecule with a different receptor-selectivity profile, aiming to retain the desired effect while reducing other serotonin effects.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The Glaxo team's receptor search and development of selective agonists were deliberate; this does not characterize the circumstances of the earlier clinical observation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Humphrey PPA. The discovery and development of the triptans, a major therapeutic breakthrough. Headache. 2008;48(5):685-687. doi:10.1111/j.1526-4610.2008.01097.x. PMID:18471110.",
+        "url": "https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/j.1526-4610.2008.01097.x",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Kimball RW, Friedman AP, Vallejo E. Effect of serotonin in migraine patients. Neurology. 1960;10(2):107-111. doi:10.1212/WNL.10.2.107. PMID:14409092.",
+        "url": "https://doi.org/10.1212/WNL.10.2.107",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Humphrey PPA. How it started. Cephalalgia. 2001;21 Suppl 1:2-5. doi:10.1046/0333102401021s0102. PMID:11678811.",
+        "url": "https://journals.sagepub.com/doi/10.1046/0333102401021s0102",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Lance JW. Paper bullets of the brain: a neurologist's story. Med J Aust. 2003;179:620-623. doi:10.5694/j.1326-5377.2003.tb05721.x. PMID:14636134.",
+        "url": "https://www.mja.com.au/journal/2003/179/11/paper-bullets-brain",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Doenicke A, Brand J, Perrin VL. Possible benefit of GR43175, a novel 5-HT1-like receptor agonist, for the acute treatment of severe migraine. Lancet. 1988;1(8598):1309-1311. doi:10.1016/S0140-6736(88)92122-8. PMID:2897560.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2897560/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Drug discovery, second paragraph: earlier 5-HT infusion studies and rationale for the Glaxo program."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Drug discovery, third through fifth paragraphs: target identification, design and sumatriptan."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 108, Results, last paragraph in the right-hand column; pp. 107-108, Materials and Methods."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 108, Results, first paragraph; p. 110, Discussion, final paragraphs."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "Historical discussion, passage beginning 'Another seminal observation' and the subsequent methysergide/carotid-flow account; publisher HTML lines 46-49."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "Historical discussion, passage containing 'Eventually we found this compound', after the methysergide and receptor-hypothesis account; publisher HTML lines 49-51."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "Headaches and serotonin, paragraphs 1-4 and Box 3 caption."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "PubMed abstract: methods and findings."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S1",
+        "locator": "Introductory discussion, paragraph on sumatriptan's oral and intranasal use and subsequent compounds."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1111/j.1526-4610.2008.01097.x",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1212/WNL.10.2.107",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1046/0333102401021s0102",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.mja.com.au/journal/2003/179/11/paper-bullets-brain",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2897560/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The record addresses the sumatriptan founding program and class establishment; it does not reconstruct or presume the detailed research lineage of every later triptan.",
+      "The 1960 report did not establish a peripheral mechanism of relief; the later vascular explanation is a historical development hypothesis, not a conclusion established by that report."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The 1988 Glaxo GR43175 pharmacology report was read only as an abstract because full-text access attempts were blocked; the 1988 clinical study was also read as an abstract only.",
+      "The original Lance methysergide comparison and Saxena animal experiment underlying Humphrey's account were not independently reopened; their causal role is reported from his retrospective.",
+      "Detailed chemical intermediate sequence and each subsequent analogue's research history were not reconstructed; no priority claim is made for the 1988 clinical report."
+    ]
+  },
+  "nameAliases": [
+    "Imitrex",
+    "Onzetra",
+    "Tosymra",
+    "Zembrace"
+  ],
+  "humanContributionInterpretation": {
+    "id": "TRIPTANS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Migraine relief with intravenous serotonin, accompanied by adverse effects, motivated selective agonist development.",
+    "scope": "A deliberate human intervention, not noninterventional epidemiology or an incidental side-effect discovery.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Humphrey PPA. The discovery and development of the triptans, a major therapeutic breakthrough. Headache. 2008;48(5):685-687. doi:10.1111/j.1526-4610.2008.01097.x. PMID:18471110.",
+        "url": "https://headachejournal.onlinelibrary.wiley.com/doi/10.1111/j.1526-4610.2008.01097.x",
+        "locator": "Drug discovery, second paragraph: earlier 5-HT infusion studies and rationale for the Glaxo program.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Kimball RW, Friedman AP, Vallejo E. Effect of serotonin in migraine patients. Neurology. 1960;10(2):107-111. doi:10.1212/WNL.10.2.107. PMID:14409092.",
+        "url": "https://doi.org/10.1212/WNL.10.2.107",
+        "locator": "p. 108, Results, last paragraph in the right-hand column; pp. 107-108, Materials and Methods.",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E4",
+        "citation": "Kimball RW, Friedman AP, Vallejo E. Effect of serotonin in migraine patients. Neurology. 1960;10(2):107-111. doi:10.1212/WNL.10.2.107. PMID:14409092.",
+        "url": "https://doi.org/10.1212/WNL.10.2.107",
+        "locator": "p. 108, Results, first paragraph; p. 110, Discussion, final paragraphs.",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

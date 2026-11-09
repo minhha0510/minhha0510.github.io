@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/INFLUENZA_VACCINES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "INFLUENZA_VACCINES",
+    "name": "Inactivated influenza vaccines",
+    "medicines": [
+      "influenza vaccine (adjuvanted, inactivated, trivalent)",
+      "influenza vaccine (surface antigen, inactivated, trivalent)"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "influenza vaccine (adjuvanted, inactivated, trivalent)",
+        "components": [
+          "influenza vaccine (adjuvanted, inactivated, trivalent)"
+        ],
+        "usRank": null,
+        "englandRank": 42,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "influenza vaccine (surface antigen, inactivated, trivalent)",
+        "components": [
+          "influenza vaccine (surface antigen, inactivated, trivalent)"
+        ],
+        "usRank": null,
+        "englandRank": 86,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The investigators explicitly linked their search for immunization to the observed infection of ferrets by virus from influenza patients. They also observed that recovered ferrets resisted reinfection and that viral preparations could elicit antibodies; later work reported antigenicity after formaldehyde inactivation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E7",
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Susceptibility of ferrets to patient-derived influenza virus and acquired resistance after infection, followed by experimental immune responses to viral preparations.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E7",
+        "E1",
+        "E2"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Patient-derived virus infected ferrets, motivating attempts to immunize them; the researchers also observed post-infection same-strain resistance.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "In 1935 formalin-treated and living preparations induced neutralizing antibodies but failed to reliably protect ferrets under the tested conditions; in 1937 Andrewes described varying immunity with experimental injections and antigenicity after formaldehyde inactivation in mice.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Andrewes's team selected formalin-inactivated virus for preliminary human vaccination and reported antibody responses without established clinical efficacy.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A 1943 human challenge study, reported in 1945, tested an egg-grown and formalin-inactivated A/B vaccine and found greater resistance to induced influenza A in vaccinated groups, with an explicit natural-disease limitation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E12",
+          "E13",
+          "E14"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A separate 1943 field study of a formalin-inactivated A/B vaccine in an Army training unit reported fewer hospitalizations for its specified influenza outcome among vaccine recipients; it dates this particular field trial, not all early military vaccination.",
+        "support": "documented",
+        "evidence_ids": [
+          "E18"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "A later surface-antigen approach selected and purified HA and NA from inactivated virus, with a historical aluminium-hydroxide formulation intended to enhance antigenicity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10",
+          "E11",
+          "E15"
+        ]
+      },
+      {
+        "step": 7,
+        "description": "A later trivalent inactivated subunit example used MF59 adjuvant; it should not be conflated with the 1976 aluminium-hydroxide preparation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10",
+          "E16"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators chose injection routes and prepared chemically inactivated viral antigen; later researchers purified surface HA and NA and added aluminium hydroxide to address loss of antigenicity. MF59 represents a distinct later adjuvant example.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E9",
+        "E10",
+        "E11",
+        "E15",
+        "E16"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The reported vaccination and inactivation experiments were purposeful attempts to induce immunity; this does not characterize every earlier observation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Andrewes CH. Influenza: Four Years' Progress. Br Med J. 1937;2(4001):513–515. doi:10.1136/bmj.2.4001.513; PMID:20780892; PMCID:PMC2087268.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2087268/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Smith W, Andrewes CH, Laidlaw PP. Influenza: Experiments on the Immunization of Ferrets and Mice. Br J Exp Pathol. 1935;16(3):291–302. PMCID:PMC2065163.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2065163/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Brady MI, Furminger IGS. A surface antigen influenza vaccine. 1. Purification of haemagglutinin and neuraminidase proteins. J Hyg (Lond). 1976;77(2):161–172. doi:10.1017/S002217240002458X; PMID:1068195.",
+        "url": "https://doi.org/10.1017/S002217240002458X",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Francis T Jr, Salk JE, Pearson HE, Brown PN. Protective effect of vaccination against induced influenza A. J Clin Invest. 1945;24(4):536–546. doi:10.1172/JCI101633; PMID:16695243; PMCID:PMC435485.",
+        "url": "https://www.jci.org/articles/view/101633",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Gouma S, Anderson EM, Hensley SE. Challenges of Making Effective Influenza Vaccines. Annu Rev Virol. 2020;7:495–512. doi:10.1146/annurev-virology-010320-044746; PMID:32392457; PMCID:PMC7529958.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7529958/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Barberis I, Myles P, Ault SK, Bragazzi NL, Martini M. History and evolution of influenza control through vaccination: from the first monovalent vaccine to universal vaccines. J Prev Med Hyg. 2016;57:E115–E120. PMID:27980374; PMCID:PMC5139605.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5139605/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Salk JE, Menke WJ Jr, Francis T Jr. A clinical, epidemiological and immunological evaluation of vaccination against epidemic influenza. Am J Hyg. 1945;42(1):57–93. doi:10.1093/oxfordjournals.aje.a119025.",
+        "url": "https://doi.org/10.1093/oxfordjournals.aje.a119025",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 514, right column, Immunological Aspects, Immunity in Ferrets, first paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 514, right column, Immunity in Ferrets, second and third paragraphs"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "pp. 514–515, Immunity in Mice, final paragraph and its continuation"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "p. 515, left column, Vaccination of Man, first paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S1",
+        "locator": "p. 515, Vaccination of Man, final paragraph continuing at top of right column"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S7",
+        "locator": "p. 291, first paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S7",
+        "locator": "p. 293, The Development of Virus-Neutralizing Antibodies, first and final paragraphs"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "p. 292, Immunization of Ferrets, Attempts to Immunize with Killed Virus"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "pp. 161–162, Introduction, prior antibody and protein-stripping observations"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S3",
+        "locator": "pp. 162–163, Introduction and Materials and Methods"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S3",
+        "locator": "p. 170, Discussion, final two paragraphs"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S2",
+        "locator": "p. 536, Materials and Methods, Vaccine"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S2",
+        "locator": "p. 537, Subjects, Vaccination and Infection"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S2",
+        "locator": "pp. 544–545, Discussion and Summary"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S4",
+        "locator": "History of Influenza Vaccines, paragraph comparing split and subunit vaccines"
+      },
+      {
+        "evidence_id": "E16",
+        "source_id": "S4",
+        "locator": "Table 1, FDA-approved influenza vaccines for the 2019–2020 season, Fluad row"
+      },
+      {
+        "evidence_id": "E17",
+        "source_id": "S5",
+        "locator": "The thirties: virus isolation and the first experimental vaccines, final paragraph; references 26 and 27"
+      },
+      {
+        "evidence_id": "E18",
+        "source_id": "S6",
+        "locator": "p. 57, opening paragraph; p. 90, Summary, points 1–2"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2087268/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2065163/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1017/S002217240002458X",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.jci.org/articles/view/101633",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1093/oxfordjournals.aje.a119025",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The assigned class combines adjuvanted and non-adjuvanted inactivated trivalent presentations. This is a founding class history, not a demonstration of the exact genealogy or formulation of each cohort product.",
+      "In the cited 1935 ferret experiments, immune responses did not reliably prevent illness; Andrewes's cautious 1937 human account must not be conflated with subsequent challenge or field results.",
+      "The 1976 detergent-separated HA/NA preparation illustrates a substantial change in antigen architecture from whole-virus preparations. The authors cite earlier surface-antigen observations and other potency studies; first priority and exact descent of cohort products are not established.",
+      "Aluminium hydroxide in the 1976 account and MF59 in the review's dated 2019–2020 example are distinct historical formulation examples, not interchangeable or universal components.",
+      "Live-virus vaccines and the live challenge virus are distinct from the inactivated-vaccine class; this record does not purport to reconstruct every live or recombinant-only vaccine branch."
+    ],
+    "conflicts": [
+      "A 2016 review (S5, E17) attributes protection of US military forces to Francis and Salk in 1938, while the original Salk, Menke and Francis report (S6, E18) dates one Army-program field study to 1943. The 1943 study neither establishes nor rules out a different 1938 event. The earlier claim and its source chain remain unresolved; no priority resolution is inferred."
+    ],
+    "gaps": [
+      "The 1933 original report of virus transmission to ferrets was cited in the 1935 report but was not independently reopened. The 1935 original was read on pp. 291–294, not in its entirety.",
+      "The contemporary primary report, if any, for S5's specific 1938 Francis–Salk military claim was not located or read; S5's two supporting later reviews were not read.",
+      "The 1943 Henle report, 1944 preliminary challenge and field reports, and earlier surface-antigen association reports cited by the read papers were not independently reopened.",
+      "The first subunit-vaccine priority and exact manufacturing lineages of the two cohort presentations were not established; the 1976 preparation and later MF59 example are illustrative rather than exhaustive."
+    ]
+  },
+  "nameAliases": [],
+  "humanContributionInterpretation": {
+    "id": "INFLUENZA_VACCINES",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E6",
+        "citation": "Smith W, Andrewes CH, Laidlaw PP. Influenza: Experiments on the Immunization of Ferrets and Mice. Br J Exp Pathol. 1935;16(3):291–302. PMCID:PMC2065163.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2065163/",
+        "locator": "p. 291, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Smith W, Andrewes CH, Laidlaw PP. Influenza: Experiments on the Immunization of Ferrets and Mice. Br J Exp Pathol. 1935;16(3):291–302. PMCID:PMC2065163.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2065163/",
+        "locator": "p. 293, The Development of Virus-Neutralizing Antibodies, first and final paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E1",
+        "citation": "Andrewes CH. Influenza: Four Years' Progress. Br Med J. 1937;2(4001):513–515. doi:10.1136/bmj.2.4001.513; PMID:20780892; PMCID:PMC2087268.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2087268/",
+        "locator": "p. 514, right column, Immunological Aspects, Immunity in Ferrets, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Andrewes CH. Influenza: Four Years' Progress. Br Med J. 1937;2(4001):513–515. doi:10.1136/bmj.2.4001.513; PMID:20780892; PMCID:PMC2087268.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2087268/",
+        "locator": "p. 514, right column, Immunity in Ferrets, second and third paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Andrewes CH. Influenza: Four Years' Progress. Br Med J. 1937;2(4001):513–515. doi:10.1136/bmj.2.4001.513; PMID:20780892; PMCID:PMC2087268.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2087268/",
+        "locator": "pp. 514–515, Immunity in Mice, final paragraph and its continuation",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

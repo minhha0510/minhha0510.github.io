@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PROGESTOGENS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PROGESTOGENS",
+    "name": "Progestogens",
+    "medicines": [
+      "desogestrel",
+      "levonorgestrel",
+      "norethisterone",
+      "norgestimate",
+      "progesterone"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "desogestrel",
+        "components": [
+          "desogestrel"
+        ],
+        "usRank": null,
+        "englandRank": 98,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "estradiol + norethisterone",
+        "components": [
+          "estradiol",
+          "norethisterone"
+        ],
+        "usRank": null,
+        "englandRank": 118,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "ethinylestradiol + levonorgestrel",
+        "components": [
+          "ethinylestradiol",
+          "levonorgestrel"
+        ],
+        "usRank": null,
+        "englandRank": 149,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "ethinylestradiol + norethisterone",
+        "components": [
+          "ethinylestradiol",
+          "norethisterone"
+        ],
+        "usRank": 66,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "ethinylestradiol + norgestimate",
+        "components": [
+          "ethinylestradiol",
+          "norgestimate"
+        ],
+        "usRank": 101,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "norethisterone",
+        "components": [
+          "norethisterone"
+        ],
+        "usRank": 113,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "progesterone",
+        "components": [
+          "progesterone"
+        ],
+        "usRank": 116,
+        "englandRank": 92,
+        "otcOverlap": {
+          "US": "UNAPPROVED_OTC_LISTING",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Observed dependence of uterine changes and embryo survival on the corpus luteum suggested an internal secretion and furnished an assay for its active extract. In the later synthetic branch, progesterone's established effects, an active chemically altered steroid, and an already orally active synthetic progestogen supplied working starting points for deliberate analogue development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E8",
+        "E9",
+        "E1",
+        "E4",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The initial clues were corpus-luteum-dependent uterine and pregnancy physiology and the endogenous hormone later purified as progesterone. Subsequent chemical work drew on progesterone's reported therapeutic use and biological activity observed in modified or synthetic steroids, including the 19-nor lead and orally active ethisterone.",
+      "support": "documented",
+      "evidence_ids": [
+        "E8",
+        "E9",
+        "E10",
+        "E1",
+        "E4",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "In the account of Corner, observations of uterine proliferation and embryo survival after retention versus removal of corpora lutea suggested a testable internal secretion.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Corner and Allen's 1929 crude corpus-luteum extract reproduced the physiological effects in rabbits; later work purified the crystalline hormone by 1934 and established the progesterone name.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A chemically altered, stereochemically uncertain steroid showed progestational activity, motivating the deliberate preparation of 19-norprogesterone; the synthesis paper reported greater activity in rabbits from a separately cited assay.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Drawing on both active 19-norprogesterone and already orally active ethisterone, the team synthesized 19-nor-17α-ethynyltestosterone via 19-nortestosterone-derived intermediates. This compound is norethisterone/norethindrone.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E11"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers used a physiological assay to extract and purify the active hormone, then deliberately changed steroid structures. The 19-nor modification yielded a reported increase in progestational activity; combining the 19-nor insight with an existing 17α-ethynyl oral progestogen led to a distinct 19-nortestosterone-derived orally active compound. These were structural and activity changes, not merely formulation changes.",
+      "support": "documented",
+      "evidence_ids": [
+        "E9",
+        "E10",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The corpus-luteum extraction using a physiological test, preparation of 19-norprogesterone after the earlier active lead, and synthesis of the 19-nor analogue of an orally active compound were deliberate research stages. This does not assert that every preceding observation or later finding was planned.",
+      "support": "documented",
+      "evidence_ids": [
+        "E9",
+        "E4",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "American Chemical Society. Reflections by an Eminent Chemist: Carl Djerassi. Interview, February 13, 1986. Science History Institute, American Chemical Society Audiovisual Collection.",
+        "url": "https://digital.sciencehistory.org/works/bjfybgz",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Djerassi C, Miramontes L, Rosenkranz G. Steroids. XLVIII. 19-Norprogesterone, a Potent Progestational Hormone. J Am Chem Soc. 1953;75:4440–4442. doi:10.1021/ja01114a013.",
+        "url": "https://www.fisica.unam.mx/personales/mir/LEMC/ja01114a013-1.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Djerassi C, Miramontes L, Rosenkranz G, Sondheimer F. Steroids. LIV. Synthesis of 19-Nor-17α-ethynyltestosterone and 19-Nor-17α-methyltestosterone. J Am Chem Soc. 1954;76:4092–4094. doi:10.1021/ja01645a010.",
+        "url": "https://www.fisica.unam.mx/personales/mir/LEMC/ja01645a010.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Corner GW. The Hormone of the Corpus Luteum. Trans Edinb Obstet Soc. 1937;57:61–80. PMID:29612342; PMCID:PMC5422592.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5422592/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Djerassi C. Steroid research at Syntex: the pill and cortisone. Steroids. 1992;57:631–641. doi:10.1016/0039-128X(92)90016-3; PMID:1481227.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1481227/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Corner GW, Allen WM. Physiology of the corpus luteum. II. Production of a Special Uterine Reaction (Progestational Proliferation) by Extracts of the Corpus Luteum. Am J Physiol. 1929;88:326–339. doi:10.1152/ajplegacy.1929.88.2.326.",
+        "url": "https://doi.org/10.1152/ajplegacy.1929.88.2.326",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Allen WM, Ehrenstein M. 10-Nor-progesterone, a physiologically active lower homolog of progesterone. Science. 1944;100:251–252. doi:10.1126/science.100.2594.251; PMID:17738394.",
+        "url": "https://doi.org/10.1126/science.100.2594.251",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "EMBL-EBI. ChEBI:7627, norethisterone. Chemical Entities of Biological Interest; record last modified 2017.",
+        "url": "https://www.ebi.ac.uk/chebi/CHEBI:7627",
+        "role": "navigation",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Interview transcript 00:24:24–00:25:04, therapeutic rationale"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Interview transcript 00:26:20–00:27:32, earlier rabbit activity and pure 19-norprogesterone"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Interview transcript 00:27:34–00:28:35, orally active analogue"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 4440, opening paragraph and references 4–5; p. 4441, opening paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 4441, discussion and footnote 21"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 4092, first column, paragraphs 1–2"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 4092, abstract and second column; p. 4093, Experimental"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "pp. 61–63, prior observations and Corner's 1928 rabbit experiments"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "pp. 63–64, concluding paragraph and first two paragraphs"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "pp. 65–66, purification and nomenclature"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "Author abstract, synthesis identification"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://digital.sciencehistory.org/works/bjfybgz",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1021/ja01114a013",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1021/ja01645a010",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5422592/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1481227/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1152/ajplegacy.1929.88.2.326",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1126/science.100.2594.251",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The physiological and natural-hormone founding history is documented through Corner's 1937 retrospective; the 1929 experiment is not a direct full-text read.",
+      "The 19-nor synthetic branch leading to norethisterone is documented in the original synthesis papers, but the distinct development and biological testing of desogestrel, levonorgestrel and norgestimate were not independently traced; no compound-specific founding claim is inferred for them.",
+      "Earlier orally active ethisterone is an explicit working reference in S3; its own discovery and the full landscape of other synthetic-progestogen branches were not reconstructed."
+    ],
+    "conflicts": [
+      "The 1986 interview describes the earlier stereochemically uncertain lead as a couple of times as active as progesterone; the 1953 synthetic paper says the earlier lead's activity was equal to progesterone. The original 1944 biological report has not yet been read."
+    ],
+    "gaps": [
+      "The 1929 Corner–Allen physiology article and 1944 Allen–Ehrenstein rabbit report were located but not read in full, so the physiological account rests on Corner's retrospective and the earlier lead's potency discrepancy remains unresolved.",
+      "The separate original biological assays and clinical trials cited in the 1953 and 1954 chemistry papers were not directly read.",
+      "The individual development histories of desogestrel, levonorgestrel, and norgestimate, and the discovery of the ethisterone reference compound, were not traced."
+    ]
+  },
+  "nameAliases": [
+    "Combipatch",
+    "Crinone",
+    "Eazi-Breed CIDR",
+    "Endometrin",
+    "Femhrt",
+    "Fyavolv",
+    "Gallifrey",
+    "Jevantique",
+    "Jinteli",
+    "Prometrium",
+    "Twirla",
+    "norethindrone"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PROGESTOGENS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E8",
+        "citation": "Corner GW. The Hormone of the Corpus Luteum. Trans Edinb Obstet Soc. 1937;57:61–80. PMID:29612342; PMCID:PMC5422592.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5422592/",
+        "locator": "pp. 61–63, prior observations and Corner's 1928 rabbit experiments",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Corner GW. The Hormone of the Corpus Luteum. Trans Edinb Obstet Soc. 1937;57:61–80. PMID:29612342; PMCID:PMC5422592.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5422592/",
+        "locator": "pp. 63–64, concluding paragraph and first two paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E1",
+        "citation": "American Chemical Society. Reflections by an Eminent Chemist: Carl Djerassi. Interview, February 13, 1986. Science History Institute, American Chemical Society Audiovisual Collection.",
+        "url": "https://digital.sciencehistory.org/works/bjfybgz",
+        "locator": "Interview transcript 00:24:24–00:25:04, therapeutic rationale",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Djerassi C, Miramontes L, Rosenkranz G. Steroids. XLVIII. 19-Norprogesterone, a Potent Progestational Hormone. J Am Chem Soc. 1953;75:4440–4442. doi:10.1021/ja01114a013.",
+        "url": "https://www.fisica.unam.mx/personales/mir/LEMC/ja01114a013-1.pdf",
+        "locator": "p. 4440, opening paragraph and references 4–5; p. 4441, opening paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Djerassi C, Miramontes L, Rosenkranz G, Sondheimer F. Steroids. LIV. Synthesis of 19-Nor-17α-ethynyltestosterone and 19-Nor-17α-methyltestosterone. J Am Chem Soc. 1954;76:4092–4094. doi:10.1021/ja01645a010.",
+        "url": "https://www.fisica.unam.mx/personales/mir/LEMC/ja01645a010.pdf",
+        "locator": "p. 4092, first column, paragraphs 1–2",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

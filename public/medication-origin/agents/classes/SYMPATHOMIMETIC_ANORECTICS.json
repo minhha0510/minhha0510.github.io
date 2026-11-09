@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/SYMPATHOMIMETIC_ANORECTICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "SYMPATHOMIMETIC_ANORECTICS",
+    "name": "Sympathomimetic amine anorectics",
+    "medicines": [
+      "phentermine"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "phentermine",
+        "components": [
+          "phentermine"
+        ],
+        "usRank": 146,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Weight loss observed during early clinical amphetamine use led to investigation of the drug for obesity; its demonstrated appetite-suppressing effects then supplied a functional lead for later anorectics. The identity of the first observer remains unresolved.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed weight loss and appetite suppression associated with synthetic amphetamine use, followed by a search for related compounds retaining this effect.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "In the 1930s, clinical amphetamine use for other conditions was accompanied by reports of weight loss; Wilbur and colleagues described their observations in 1937.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E7"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The Endotext history reports that Myerson took up reports of weight loss and, with Lesses, designed an obesity trial published in 1938. Its attribution of a weight observation to the 1935 narcolepsy report is disputed.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E8"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Separately, an application filed in 1942 described synthesis of the substance later identified as phentermine in a vasopressor and low-stimulation program, not an expressly anorectic one.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The review describes a class-wide search for compounds retaining amphetamine's appetite-suppressing effect while seeking less dependence liability, and identifies phentermine as an anorectic marketed in 1959. It does not establish the specific bridge from the 1942 patent to phentermine's obesity development.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E5",
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The class history describes synthesis and testing of amphetamine-related structures to retain appetite suppression while seeking reduced dependence liability. Separately, the 1942 application on the compound later called phentermine pursued a vasopressor with little central stimulation, not an expressly anorectic use. The precise bridge from that chemistry to phentermine's anorectic development remains unestablished; neither objective demonstrates that the products were free of risks.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The later search for anorectic compounds retaining amphetamine's effect is described as intentional; the intent behind the first weight-loss observation is not established here.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Bray GA, Purnell JQ. An Historical Review of Steps and Missteps in the Discovery of Anti-Obesity Drugs. Endotext, updated 2022 Jul 10. PMID 35834619.",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK581942/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Rosenthal G, Solomon HA. Benzedrine Sulfate in Obesity. Endocrinology. 1940;26(5):807–812. doi:10.1210/endo-26-5-807.",
+        "url": "https://doi.org/10.1210/endo-26-5-807",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Shelton RS, Van Campen MG Jr. Composition of matter and method. US patent 2,408,345, filed 1942 Apr 13, issued 1946 Sep 24.",
+        "url": "https://patents.google.com/patent/US2408345A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Faria LFO, Kobata PYG. Crystalline form of phentermine hydrochloride and process for obtaining same. International patent application WO2022020910A1, published 2022 Feb 3.",
+        "url": "https://patents.google.com/patent/WO2022020910A1/en",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Wilbur DL, MacLean AR, Allen EV. Clinical observations on the effect of benzedrine sulfate: a study of patients with states of chronic exhaustion, depression and psychoneurosis. JAMA. 1937;109(8):549–554. doi:10.1001/jama.1937.02780340005003.",
+        "url": "https://www.jameslindlibrary.org/wp-data/uploads/2010/05/Wilbur_DL_MacLean_AR_Allen_EV_1937.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Bray GA. Some historical aspects of drug treatment for obesity. In: Wilding JPH, ed. Pharmacotherapy of Obesity. Birkhäuser; 2008:11–19. doi:10.1007/978-3-7643-7425-9_2.",
+        "url": "https://link.springer.com/chapter/10.1007/978-3-7643-7425-9_2",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Lesses MF, Myerson A. Human autonomic pharmacology XVI. Benzedrine sulfate as an aid in the treatment of obesity. N Engl J Med. 1938;218(3):119–124. doi:10.1056/NEJM193801202180307.",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJM193801202180307",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Prinzmetal M, Bloomberg W. The use of Benzedrine for the treatment of narcolepsy. JAMA. 1935;105(25):2051–2054. doi:10.1001/jama.1935.02760510023006.",
+        "url": "https://jamanetwork.com/journals/jama/article-abstract/1155134",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "PDF pp. 16–17, Amphetamine: Synthesis and Initial Testing; narcolepsy and obesity paragraphs."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "PDF p. 21, Anorectics: 1959–1973, first two paragraphs."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "PDF p. 24, Phenteramine—A Survivor, first paragraph."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Publisher's abstract/first-page preview, opening two paragraphs."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "Patent PDF p. 1, columns 1–2, objects of invention, rationale, and synthesis."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "Description, Fundamentals of the invention, opening paragraph and machine-translated English."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "Journal p. 552, PDF p. 4, Unfavorable Effects, second paragraph."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S6",
+        "locator": "Chapter pp. 11–19, amphetamine history, indexed paragraph beginning 'Because amphetamine stimulates wakefulness'."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1210/endo-26-5-807",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US2408345A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.jameslindlibrary.org/wp-data/uploads/2010/05/Wilbur_DL_MacLean_AR_Allen_EV_1937.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://www.nejm.org/doi/full/10.1056/NEJM193801202180307",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://jamanetwork.com/journals/jama/article-abstract/1155134",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The reviewed class history links phentermine to an amphetamine-related anorectic lineage; it does not establish every drug's individual development path.",
+      "The original phentermine chemistry's documented vasopressor aim is distinct from the anorectic class history; the inventor's patent does not establish an obesity-motivated synthesis or the subsequent repurposing decision.",
+      "Amphetamine's earlier clinical class is ancestry, not an additional class count."
+    ],
+    "conflicts": [
+      "E1 attributes weight loss to both early narcolepsy groups; E8 says the Prinzmetal–Bloomberg report did not mention body weight, while attributing weight loss to other observers. Both accounts involve Bray and are not independent; the 1935 full text is unread, so do not select a winner or assign priority."
+    ],
+    "gaps": [
+      "The full Rosenthal–Solomon article, the 1938 Lesses–Myerson original, the full 1935 Prinzmetal–Bloomberg report, the earliest original observation, and a direct account of the bridge from the 1942 phentermine chemistry to its anorectic use were not read or established.",
+      "S6's decisive paragraph was available as an indexed full-text excerpt only; the chapter PDF itself was not accessed."
+    ]
+  },
+  "nameAliases": [
+    "Adipex-P",
+    "Lomaira"
+  ],
+  "humanContributionInterpretation": {
+    "id": "SYMPATHOMIMETIC_ANORECTICS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Weight loss during amphetamine use for narcolepsy or psychiatric conditions prompted obesity investigation.",
+    "scope": "Priority accounts differ; the phentermine patent described a nasal vasopressor, so do not assign this as each molecule's original synthesis motive.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Bray GA, Purnell JQ. An Historical Review of Steps and Missteps in the Discovery of Anti-Obesity Drugs. Endotext, updated 2022 Jul 10. PMID 35834619.",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK581942/",
+        "locator": "PDF pp. 16–17, Amphetamine: Synthesis and Initial Testing; narcolepsy and obesity paragraphs.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Rosenthal G, Solomon HA. Benzedrine Sulfate in Obesity. Endocrinology. 1940;26(5):807–812. doi:10.1210/endo-26-5-807.",
+        "url": "https://doi.org/10.1210/endo-26-5-807",
+        "locator": "Publisher's abstract/first-page preview, opening two paragraphs.",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E7",
+        "citation": "Wilbur DL, MacLean AR, Allen EV. Clinical observations on the effect of benzedrine sulfate: a study of patients with states of chronic exhaustion, depression and psychoneurosis. JAMA. 1937;109(8):549–554. doi:10.1001/jama.1937.02780340005003.",
+        "url": "https://www.jameslindlibrary.org/wp-data/uploads/2010/05/Wilbur_DL_MacLean_AR_Allen_EV_1937.pdf",
+        "locator": "Journal p. 552, PDF p. 4, Unfavorable Effects, second paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

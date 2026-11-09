@@ -1,0 +1,355 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PDE5_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PDE5_INHIBITORS",
+    "name": "PDE5 inhibitors",
+    "medicines": [
+      "sildenafil",
+      "tadalafil"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "sildenafil",
+        "components": [
+          "sildenafil"
+        ],
+        "usRank": null,
+        "englandRank": 89,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "tadalafil",
+        "components": [
+          "tadalafil"
+        ],
+        "usRank": 114,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Known nitrate-responsive vascular relaxation and prior atrial natriuretic peptide work informed a proposed cardiovascular strategy of preserving cGMP. Pfizer developed the already active weak PDE inhibitor zaprinast into potent, selective compounds. In a separate Glaxo branch, an empirically PDE5-active screening hit, GR30040x, was selected for further development; the reason it entered that screen remains disputed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "endogenous_molecule",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The Pfizer cardiovascular rationale drew on nitrate-responsive vascular biology, the benefits and limitations of nitrate treatment, and prior atrial natriuretic peptide work; its chemical starting point was the already active synthetic inhibitor zaprinast. In the Glaxo branch, a measured PDE5-active compound was selected for development, while the functional role of reported β-carboline effects in selecting it is contested. These are distinct biological, clinical and chemical contributions.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E12"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The Pfizer cardiovascular project considered preserving cGMP by targeting PDE5 in light of nitrate action, tolerance and prior atrial natriuretic peptide research.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E6"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Starting with the already active inhibitor zaprinast, the team used modelling and medicinal-chemistry optimization to improve potency, PDE5 selectivity and pharmacokinetic properties, leading to sildenafil.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Subsequent volunteer-reported erections and physiological data helped motivate ED pilot studies.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a separate Glaxo cardiovascular project, measured PDE5 inhibition led to selection of GR30040x for further research. The upstream cause of its inclusion in the screen is contested.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "The tadalafil team's medicinal chemistry modified a PDE5-active hydantoin lead into a piperazinedione series and optimized substitution and stereochemistry, producing a cardiovascular development candidate later used for ED.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers intentionally selected PDE5 and used modelling and medicinal chemistry to develop the existing weak zaprinast activity into a potent, selective pyrazolopyrimidinone series, optimizing pharmacokinetics as well. In the separate Glaxo branch, substantial ring-architecture changes from a PDE5-active hydantoin to a piperazinedione, with substitution and stereochemical optimization, produced tadalafil.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E6",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The cardiovascular pathway approach was proposed intentionally; the later volunteer reports were side effects rather than the initial program target.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Ghofrani HA, Osterloh IH, Grimminger F. 2006. Sildenafil: from angina to erectile dysfunction to pulmonary hypertension and beyond. Nature Reviews Drug Discovery 5:689–702. DOI 10.1038/nrd2030.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7097805/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Corbin J. 2015. The Unexpected Evolution of Basic Science Studies about Cyclic Nucleotide Action into a Treatment for Erectile Dysfunction. Journal of Biological Chemistry 290:1374–1388. DOI 10.1074/jbc.X114.632174; PMID 25505249. Published online 2014.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4340384/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Campbell SF. 2000. Science, art and drug discovery: a personal perspective. Clinical Science 99:255–260. PMID 10995589.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10995589/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Terrett NK, Bell AS, Brown D, Ellis P. 1996. Sildenafil (VIAGRA™), a potent and selective inhibitor of type 5 cGMP phosphodiesterase with utility for the treatment of male erectile dysfunction. Bioorganic & Medicinal Chemistry Letters 6:1819–1824. DOI 10.1016/0960-894X(96)00323-X.",
+        "url": "https://doi.org/10.1016/0960-894X(96)00323-X",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Daugan A, Grondin P, Ruault C, Le Monnier de Gouville AC, Coste H, Kirilovsky J, Hyafil F, Labaudinière R. 2003. The Discovery of Tadalafil: A Novel and Highly Selective PDE5 Inhibitor. 1: 5,6,11,11a-Tetrahydro-1H-imidazo[1′,5′:1,6]pyrido[3,4-b]indole-1,3(2H)-dione Analogues. Journal of Medicinal Chemistry 46:4525–4532. DOI 10.1021/jm030056e; PMID 14521414.",
+        "url": "https://doi.org/10.1021/jm030056e",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Vanderbilt University v. ICOS Corp., 601 F.3d 1297 (Fed. Cir. 2010), No. 2009-1258, decided April 7, 2010, revised April 9, 2010.",
+        "url": "https://cases.justia.com/federal/appellate-courts/cafc/09-1258/09-1258r-2011-03-27.pdf?ts=1411144033",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Daugan A, Grondin P, Ruault C, Le Monnier de Gouville AC, Coste H, Linget JM, Kirilovsky J, Hyafil F, Labaudinière R. 2003. The Discovery of Tadalafil: A Novel and Highly Selective PDE5 Inhibitor. 2: 2,3,6,7,12,12a-Hexahydropyrazino[1′,2′:1,6]pyrido[3,4-b]indole-1,4-dione Analogues. Journal of Medicinal Chemistry 46:4533–4542. DOI 10.1021/jm0300577; PMID 14521415.",
+        "url": "https://doi.org/10.1021/jm0300577",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Campbell SF. 2016. Science, Art and Drug Discovery, a Personal Perspective. Conference abstract, 48th Brazilian Congress of Pharmacology and Experimental Therapeutics and 21st Latin American Congress of Pharmacology, p. 81.",
+        "url": "https://sbfte.org.br/wp-content/uploads/2016/10/2016_Final_Book.pdf",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Souness JE, Diocee BK, Martin W, Moodie SA. 1990. Pig aortic endothelial-cell cyclic nucleotide phosphodiesterases. Use of phosphodiesterase inhibitors to evaluate their roles in regulating cyclic nucleotide levels in intact cells. Biochemical Journal 266:127–132. DOI 10.1042/bj2660127; PMID 2155604.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1131105/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Origins of the cGMP/PDE5 project at Pfizer and PDE5 is selected as a target, PMC paragraphs 1–3, lines 99–109"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Clinical development programme for angina, multiple-dose volunteer studies, and Thoughts turn to erectile dysfunction, PMC lines 170–179"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Regulation of Smooth Muscle Function, Blood Pressure, and Blood Flow, paragraph after Figure 7"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "The Vanderbilt Lawsuit, paragraph on Glaxo's April 23, 1992 screen and subsequent structural modifications"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "PubMed abstract, sentences 2–4"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "p. 1819, Introduction, second paragraph, and opening of Results and Discussion, indexed original-text excerpt"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "p. 4525, Introduction, final paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S6",
+        "locator": "Majority opinion p. 5, first two paragraphs"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S6",
+        "locator": "Majority pp. 11–15 and 20; Dyk partial dissent pp. 1–4"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S7",
+        "locator": "pp. 4533, Introduction, final paragraphs; 4535–4537, Results and Discussion and Conclusion"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S8",
+        "locator": "Conference abstract p. 81, sildenafil paragraph"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S9",
+        "locator": "p. 127, Methods and Materials, Materials, indexed original-text excerpt"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4340384/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/10995589/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1016/0960-894X(96)00323-X",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1021/jm030056e",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1021/jm0300577",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://sbfte.org.br/wp-content/uploads/2016/10/2016_Final_Book.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1131105/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "Sildenafil and tadalafil represent separate medicinal-chemistry branches within the assigned PDE5 enzyme class. The Pfizer zaprinast-to-sildenafil chain is not asserted as tadalafil's direct chemical lineage.",
+      "The Glaxo branch is observation-led at least from the documented PDE5 assay hit GR30040x onward; the prior influence that determined its inclusion in the screen is not established (E7–E9).",
+      "The conclusions are bounded to these class-founding histories and do not establish the origin of every later PDE5 inhibitor or settle chemical inventorship."
+    ],
+    "conflicts": [
+      "The 2003 Glaxo paper's β-carboline-based lead-selection account (E7) is challenged by the chronology and competing narratives documented in the appellate record (E9). The majority affirmed that Vanderbilt did not meet the legal standard of proof, while a partial dissent would remand; neither account is treated as conclusively established.",
+      "The 2006 retrospective frames the cardiovascular program using NO/cGMP signalling (E1), whereas Campbell's later abstract says an endogenous guanylate-cyclase ligand was unknown at the time (E11). The latter does not specify the ligand, isoform or exact phase. These statements do not necessarily contradict one another, and cannot establish precisely when the full endogenous NO pathway was understood."
+    ],
+    "gaps": [
+      "Campbell's 2000 article was read only as its PubMed abstract; Terrett 1996 was read through indexed excerpts of relevant sections, not as a complete downloaded paper.",
+      "The relevant original 2003 tadalafil articles were read in web-rendered sections; direct local retrieval failed. The complete Glaxo notebooks, underlying trial exhibits and upstream β-carboline studies were not read.",
+      "The available sources do not establish which disputed upstream input caused the selection of GR30040x for the initial screen, or the exact stage at which every component of endogenous NO biology was understood."
+    ]
+  },
+  "nameAliases": [
+    "Adcirca",
+    "Alyq",
+    "Cialis",
+    "Liqrev",
+    "Revatio",
+    "Tadliq",
+    "Viagra",
+    "Vybrique"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PDE5_INHIBITORS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Erections reported in cardiovascular volunteer studies contributed to sildenafil's erectile-dysfunction development.",
+    "scope": "The cardiovascular molecule and PDE5 program came first; it was a later indication, and laboratory physiology also mattered.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Ghofrani HA, Osterloh IH, Grimminger F. 2006. Sildenafil: from angina to erectile dysfunction to pulmonary hypertension and beyond. Nature Reviews Drug Discovery 5:689–702. DOI 10.1038/nrd2030.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7097805/",
+        "locator": "Clinical development programme for angina, multiple-dose volunteer studies, and Thoughts turn to erectile dysfunction, PMC lines 170–179",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

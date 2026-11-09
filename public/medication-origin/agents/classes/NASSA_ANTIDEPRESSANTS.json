@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NASSA_ANTIDEPRESSANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NASSA_ANTIDEPRESSANTS",
+    "name": "Noradrenergic and specific serotonergic antidepressants",
+    "medicines": [
+      "mirtazapine"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "mirtazapine",
+        "components": [
+          "mirtazapine"
+        ],
+        "usRank": 111,
+        "englandRank": 16,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Peet and Behagel report an unexpected possible mood-lifting effect of mianserin in some subjects, followed by an EEG comparison and clinical investigation. Leonard recalls a route from observed sedation to EEG prediction; Fink emphasizes the EEG finding, and Itil attributes discovery of clinical antidepressant effects solely to that method. The respective contributions remain disputed. Organon later continued the tetracyclic series and selected mirtazapine as a potential anxiolytic antidepressant.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E6",
+        "E7",
+        "E8"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "clinical_veterinary_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Accounts variously emphasize subjective mood or sedative effects and an observed human EEG profile of the synthetic compound mianserin; the relative initiating roles are disputed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E6",
+        "E7",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The 1969 human mood observation followed synthesis and testing in an anti-5-HT program.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Human EEG comparisons and subsequent pilot clinical studies investigated antidepressant potential. The institutional account describes EEG as following the mood clue; Fink and Itil give the EEG a more central role, while Leonard describes sedation before EEG prediction.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4",
+          "E6",
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Organon continued its tetracyclic series and selected mirtazapine as a potential anxiolytic antidepressant; Pinder says that the effect on serotonin release was recognized later.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In 1982, investigators compared the 6-aza mianserin analogue Org 3770, which Pinder identifies as mirtazapine, with mianserin in pharmacological assays.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E10"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "By the 1996 interview, Pinder reported that mirtazapine was approved and marketed in the United States.",
+        "support": "documented",
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Pinder retrospectively describes an earlier anti-allergy structural design using cyproheptadine and phenbenzamine as ideas. Researchers then investigated the compound's observed central effects, and continued the tetracyclic chemical series to select the 6-aza analogue mirtazapine for antidepressant development. The earlier anti-allergy design was not itself shown to be de novo antidepressant design.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The mood-related observation was unexpected within the original anti-5-HT program; the subsequent EEG and clinical investigations were planned.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Peet M, Behagel H. 1978. Mianserin: a decade of scientific development. Br J Clin Pharmacol 5(Suppl 1):5S-9S. DOI 10.1111/j.1365-2125.1978.tb04567.x; PMID 623702.",
+        "url": "https://doi.org/10.1111/j.1365-2125.1978.tb04567.x",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Pinder RM. 1998. Approaching Rationality? Interview by David Healy. In: Healy D, ed. The Psychopharmacologists, vol 2. London: Arnold:581-605; accessible interview transcript pp 5, 17.",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Pinder.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Nickolson VJ, Wieringa JH, van Delft AML. 1982. Comparative pharmacology of mianserin, its main metabolites and 6-azamianserin. Naunyn Schmiedebergs Arch Pharmacol 319:48-55. DOI 10.1007/BF00491478; PMID 6287300.",
+        "url": "https://link.springer.com/article/10.1007/BF00491478",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Fink M. Letter to G. S. Avery concerning mianserin, 11 April 1978. Max Fink Papers, Stony Brook University Libraries. Archival letter; DOI and PMID not applicable.",
+        "url": "https://exhibits.library.stonybrook.edu/mfp/files/original/ebc4d9c11aa6ac6591dcd8aadbf71e8f.pdf",
+        "role": "discoverer_account",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Itil TM. 1983. The discovery of antidepressant drugs by computer-analyzed human cerebral bio-electrical potentials (CEEG). Prog Neurobiol 20(3-4):185-249. DOI 10.1016/0301-0082(83)90003-5; PMID 6142498.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6142498/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Leonard B. The role of behavioural pharmacology in psychopharmacology. Interview by David Healy, transcript p. 11. Edited version in The Psychopharmacologists, vol. 1, 1996, ch. 22, from p. 509, titled The role of behavioural pharmacology in drug development. Interview; DOI and PMID not asserted.",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Leonard.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Itil TM, Polvan N, Hsu W. 1972. Clinical and EEG effects of GB-94, a \"tetracyclic\" antidepressant (EEG model in discovery of a new psychotropic drug). Curr Ther Res Clin Exp 14(7):395-413. PMID 4625520; no DOI asserted.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4625520/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 5S-6S, Introduction, paragraphs describing the 1969 Irish study and subsequent EEG work"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 6S, Introduction, quantitative EEG and clinical investigation paragraphs"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Transcript p. 17, discussion of the Organon tetracyclic series and selection of mirtazapine"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Transcript p. 5, interview discussion of mianserin's clinical clue and subsequent EEG"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "Publisher summary, opening sentence and subsequent description of rat cerebral-cortex experiments"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "One-page letter, paragraph beginning 'One emphasis'"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "PubMed abstract, second and third sentences"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S6",
+        "locator": "Transcript p. 11, discussion beginning with the move to Organon and mianserin"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S2",
+        "locator": "Transcript pp. 4-5, account of original anti-allergy design"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S2",
+        "locator": "Transcript p. 5, paragraph on pharmaco-EEG and Fink"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S2",
+        "locator": "Transcript p. 11, discussion of mirtazapine licensing in the 1996 interview context"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Pinder.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://link.springer.com/article/10.1007/BF00491478",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://exhibits.library.stonybrook.edu/mfp/files/original/ebc4d9c11aa6ac6591dcd8aadbf71e8f.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6142498/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Leonard.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4625520/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "Pinder's first-person recollection concerns selection of mirtazapine after he joined Organon in 1977; his description of the earlier mianserin observation is retrospective.",
+      "The record covers this specified lineage, not every antidepressant with serotonergic effects."
+    ],
+    "conflicts": [
+      "Pinder locates the mood observations in an asthma hospital study. Peet and Behagel describe an asthma pilot, then a mood observation in an Irish study without stating the latter's indication; whether these are the same study is unresolved.",
+      "Itil's abstract attributes discovery of clinical antidepressant effects solely to quantitative EEG; Peet and Behagel credit an earlier subjective mood clue and Pinder credits both. The abstract may distinguish established effects from an early impression, so its interpretation and relative credit remain unresolved.",
+      "Peet and Behagel name amitriptyline as the EEG comparator, while Leonard names imipramine; the accounts do not establish whether they refer to the same specific comparison."
+    ],
+    "gaps": [
+      "The underlying 1969 study, exact participant population and observations have not been independently identified or read; these accounts are retrospective.",
+      "The 1982 comparative pharmacology paper was read at summary extent only.",
+      "The 1972 Itil original report is located but unread, and the 1983 Itil review was read only as an abstract; these limits affect resolution of the EEG and clinical-clue disagreement."
+    ]
+  },
+  "nameAliases": [
+    "Mirataz",
+    "Remeron"
+  ],
+  "humanContributionInterpretation": {
+    "id": "NASSA_ANTIDEPRESSANTS",
+    "group": "unresolved",
+    "contribution": "uncertain",
+    "summary": "One account describes mood improvement during clinical use of mianserin.",
+    "scope": "A competing origin account emphasizes EEG findings; the dossier does not settle the clinical causal bridge.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Peet M, Behagel H. 1978. Mianserin: a decade of scientific development. Br J Clin Pharmacol 5(Suppl 1):5S-9S. DOI 10.1111/j.1365-2125.1978.tb04567.x; PMID 623702.",
+        "url": "https://doi.org/10.1111/j.1365-2125.1978.tb04567.x",
+        "locator": "pp. 5S-6S, Introduction, paragraphs describing the 1969 Irish study and subsequent EEG work",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Pinder RM. 1998. Approaching Rationality? Interview by David Healy. In: Healy D, ed. The Psychopharmacologists, vol 2. London: Arnold:581-605; accessible interview transcript pp 5, 17.",
+        "url": "https://samizdathealth.org/wp-content/uploads/2020/11/Pinder.pdf",
+        "locator": "Transcript p. 5, interview discussion of mianserin's clinical clue and subsequent EEG",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Itil TM. 1983. The discovery of antidepressant drugs by computer-analyzed human cerebral bio-electrical potentials (CEEG). Prog Neurobiol 20(3-4):185-249. DOI 10.1016/0301-0082(83)90003-5; PMID 6142498.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6142498/",
+        "locator": "PubMed abstract, second and third sentences",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

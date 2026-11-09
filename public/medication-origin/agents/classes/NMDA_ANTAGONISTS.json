@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NMDA_ANTAGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NMDA_ANTAGONISTS",
+    "name": "NMDA receptor antagonists (adamantane branch)",
+    "medicines": [
+      "memantine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "memantine",
+        "components": [
+          "memantine"
+        ],
+        "usRank": null,
+        "englandRank": 111,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A reported, unexpected improvement of Parkinson symptoms during antiviral amantadine use opened CNS medicinal-chemistry work on adamantanes; the known CNS-active drug became a comparator in testing the already synthesized dimethyl analogue. The sources do not explicitly establish that the individual patient case prompted the inventors' selection of that analogue.",
+      "support": "documented",
+      "evidence_ids": [
+        "E8",
+        "E10",
+        "E6",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed clinical Parkinson effects of the synthetic antiviral amantadine and comparative biological effects of its existing synthetic dimethyl analogue. The clinical case is a family-level historical starting point; the specific reason Merz selected the analogue is not documented by these accounts.",
+      "support": "documented",
+      "evidence_ids": [
+        "E8",
+        "E10",
+        "E6",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Before the Parkinson case, an Eli Lilly program prepared the dimethyl compound as an intermediate in work on a potential hypoglycemic sulfonylurea; the compound itself lacked the sought blood-sugar effect.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E6",
+          "E9"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A patient's unexpected improvement while receiving antiviral amantadine was followed by clinical investigation and, according to a later history, a CNS medicinal-chemistry line involving adamantanes.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E8",
+          "E10"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In an anti-Parkinson CNS investigation, the patent reported comparative animal effects for the already available dimethyl analogue and known active amino-adamantane. The 1978 U.S. document claims 1972 and 1973 priorities; the 1972 German filing's experimental contents have not been independently checked.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E6",
+          "E7",
+          "E9"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The 1999 retrospective connects preclinical NMDA findings with a 1989 application for cerebral ischemia and Alzheimer dementia; researchers later characterized the existing compound's channel-blocking kinetics. Some studies cited by that retrospective postdate 1989 and cannot have motivated that filing.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Chemists had prepared an aminoadamantane bearing two extra methyl groups for a different program. Investigators later prepared and compared its hydrochloride with known CNS-active aminoadamantane, pursued a CNS use, and later researchers characterized its NMDA channel-blocking behavior and implications of the two methyl groups. The sources do not establish that the original methyl substitutions were designed for NMDA antagonism.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E6",
+        "E7",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The clinical Parkinson response reported during amantadine influenza prevention was unexpected; the patent's comparative CNS experiments on the known compounds were planned. This does not assert that the first observation of the dimethyl analogue's CNS effects was accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E8",
+        "E6",
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Parsons CG, Danysz W, Quack G. 1999. Memantine is a clinically well tolerated N-methyl-D-aspartate (NMDA) receptor antagonist: a review of preclinical data. Neuropharmacology 38:735-767. DOI 10.1016/S0028-3908(99)00019-2; PMID 10465680.",
+        "url": "https://doi.org/10.1016/S0028-3908(99)00019-2",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Lipton SA. 2004. Failures and Successes of NMDA Receptor Antagonists: Molecular Basis for the Use of Open-Channel Blockers like Memantine in the Treatment of Acute and Chronic Neurologic Insults. NeuroRx 1:101-110. DOI 10.1602/neurorx.1.1.101; PMID 15717010.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC534915/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Scherm A, Peteri D. Drugs or medicines for influencing the central nervous system. US patent 4,122,193, filed April 20, 1973; issued October 24, 1978; claims priority from German applications of April 20, 1972, and April 12, 1973.",
+        "url": "https://patents.google.com/patent/US4122193A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Wanka L, Iqbal K, Schreiner PR. 2013. The Lipophilic Bullet Hits the Targets: Medicinal Chemistry of Adamantane Derivatives. Chemical Reviews 113(5):3516-3604. DOI 10.1021/cr100264t; PMID 23432396; PMCID PMC3650105.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3650105/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Schwab RS, England AC Jr, Poskanzer DC, Young RR. 1969. Amantadine in the Treatment of Parkinson's Disease. JAMA 208(7):1168-1170. DOI 10.1001/jama.1969.03160070046011; PMID 5818715.",
+        "url": "https://jamanetwork.com/journals/jama/article-abstract/345886",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Gerzon K, Krumkalns EV, Brindle RL, Marshall FJ, Root MA. 1963. The Adamantyl Group in Medicinal Agents. I. Hypoglycemic N-Arylsulfonyl-N'-adamantylureas. Journal of Medicinal Chemistry 6(6):760-763. DOI 10.1021/jm00342a029; PMID 14184942.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14184942/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Bormann J. 1989. Memantine is a potent blocker of N-methyl-D-aspartate (NMDA) receptor channels. European Journal of Pharmacology 166(3):591-592. DOI 10.1016/0014-2999(89)90385-3; PMID 2553441.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2553441/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 737, section 2, first paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 737, section 2, first paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 737, continuation above Fig. 1"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Memantine, Background and pharmacology, first paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Memantine, Background and pharmacology, first two paragraphs"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "column 1, opening background and statement of investigation, beginning 'It is known'"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "columns 7-8, comparative spiroperidol-catalepsy and reserpine-sedation experiments and tables"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "section 5.1, opening paragraph"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "section 5.3.1, first paragraph"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "publisher's abstract"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC534915/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US4122193A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://jamanetwork.com/journals/jama/article-abstract/345886",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14184942/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2553441/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The assignment covers the adamantane NMDA-antagonist branch represented by memantine; ketamine and other chemical branches are out of scope, and the conclusion should not be generalized to NMDA antagonists as a whole.",
+      "The patient observation concerns amantadine; the patent describes the pre-existing dimethyl analogue and comparative animal effects. Direct evidence that the individual case caused its selection is missing."
+    ],
+    "conflicts": [
+      "S1 describes the 1972 patent application as demonstrating CNS activity, whereas S4 says that the 1972 filing contained no examples, details, or studies. These may distinguish a therapeutic claim from experimental disclosure, but the unread German filing prevents resolution. The 1978 U.S. patent has animal data and claims 1972 and 1973 priorities; its data are not automatically assigned to the 1972 document.",
+      "S2 mentions a 1968 patent while S1, S3 and S4 place preparation of the dimethyl compound in a 1963 publication. A later patent date does not by itself establish first synthesis; the primary 1963 paper and the patent referred to by S2 were not read."
+    ],
+    "gaps": [
+      "The full Gerzon et al. 1963 original synthesis paper and Bormann 1989 original NMDA report were located by DOI and PMID but not read; the clinical 1969 Schwab report was read only in abstract.",
+      "The patent does not explicitly identify what prompted its investigators to select the existing dimethyl compound or attribute their selection to the individual amantadine-treated patient.",
+      "The original 1972 and 1973 German priority documents have not been read, and the source of the precise 1968 patent date in S2 has not been resolved."
+    ]
+  },
+  "nameAliases": [
+    "Namenda"
+  ],
+  "humanContributionInterpretation": {
+    "id": "NMDA_ANTAGONISTS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Improvement of Parkinson symptoms during amantadine use for influenza helped stimulate adamantane CNS development.",
+    "scope": "This does not prove that the same patient observation directly caused selection of memantine.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Lipton SA. 2004. Failures and Successes of NMDA Receptor Antagonists: Molecular Basis for the Use of Open-Channel Blockers like Memantine in the Treatment of Acute and Chronic Neurologic Insults. NeuroRx 1:101-110. DOI 10.1602/neurorx.1.1.101; PMID 15717010.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC534915/",
+        "locator": "Memantine, Background and pharmacology, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Scherm A, Peteri D. Drugs or medicines for influencing the central nervous system. US patent 4,122,193, filed April 20, 1973; issued October 24, 1978; claims priority from German applications of April 20, 1972, and April 12, 1973.",
+        "url": "https://patents.google.com/patent/US4122193A/en",
+        "locator": "column 1, opening background and statement of investigation, beginning 'It is known'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Wanka L, Iqbal K, Schreiner PR. 2013. The Lipophilic Bullet Hits the Targets: Medicinal Chemistry of Adamantane Derivatives. Chemical Reviews 113(5):3516-3604. DOI 10.1021/cr100264t; PMID 23432396; PMCID PMC3650105.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3650105/",
+        "locator": "section 5.1, opening paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

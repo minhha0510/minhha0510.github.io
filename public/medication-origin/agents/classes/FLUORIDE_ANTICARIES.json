@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/FLUORIDE_ANTICARIES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "FLUORIDE_ANTICARIES",
+    "name": "Fluoride anticaries preparations",
+    "medicines": [
+      "sodium fluoride"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "sodium fluoride",
+        "components": [
+          "sodium fluoride"
+        ],
+        "usRank": null,
+        "englandRank": 148,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Long before the Colorado findings, an 1874 preventive proposal drew on a reported animal-enamel observation, and an 1892 address linked fluoride in enamel and diet to a hypothesis about decay. Their connection to the later sodium-fluoride program is unestablished. In the directly documented 20th-century topical lineage, unexpectedly low apparent decay in mottled teeth, fluoride in associated natural waters, and observations in enamel and animals motivated controlled preventive fluoride applications.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E9",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "Naturally occurring fluoride in domestic water and observed relationships with caries and enamel, complemented by enamel uptake and animal observations, motivated controlled fluoride exposure in the documented 20th-century lineage. Earlier fluoride-enamel observations and an animal effect were reported alongside separate 19th-century preventive ideas.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E5",
+        "E9",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Before the Colorado work, Erhardt's 1874 preventive recommendation was linked by a later historian to a reported animal-enamel effect, and Crichton-Browne's 1892 address connected enamel fluoride and dietary change to a caries hypothesis. Their continuity to the later topical program is not established.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "McKay and Black noted mottling alongside unexpectedly low apparent decay, and the waterborne fluoride explanation was identified later.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Dean compared population exposure and caries, then proposed controlled fluoride use in drinking water; topical researchers later explicitly cited his epidemiology alongside enamel and animal experiments.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Earlier topical work with sodium or potassium fluoride was reported in 1942; Knutson and Armstrong subsequently tested topical sodium fluoride against untreated teeth and a separate untreated group, reporting less new caries after one year.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers translated observational clues into hypotheses for controlled water exposure and selected and tested a topical sodium-fluoride solution. This was adaptation of fluoride delivery and treatment procedure, not evidence of inventing a new active structure; the authors did not establish an optimum concentration.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E5",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The apparent resistance of mottled teeth was unexpected in the retrospective account; the later controlled-exposure hypotheses and topical trial were deliberate.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "National Institute of Dental and Craniofacial Research. The Story of Fluoridation. Institutional history, no publication date reported.",
+        "url": "https://www.nidcr.nih.gov/health-info/fluoride/the-story-of-fluoridation",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Dean HT. Endemic Fluorosis and Its Relation to Dental Caries. Public Health Rep. 1938;53(33):1443–1452. DOI 10.2307/4582632.",
+        "url": "https://stacks.cdc.gov/view/cdc/69615/cdc_69615_DS1.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Knutson JW, Armstrong WD. The Effect of Topically Applied Sodium Fluoride on Dental Caries Experience. Public Health Rep. 1943;58(47):1701–1715. DOI 10.2307/4584683.",
+        "url": "https://stacks.cdc.gov/view/cdc/70370/cdc_70370_DS1.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Ludigs H. Fluorid und die Geschichte der US-amerikanischen Zahnmedizin, ca. 1900–1950. Master's thesis, University of Konstanz; 2013.",
+        "url": "https://d-nb.info/1081463015/34",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Crichton-Browne J. An Address on Tooth Culture. Lancet. 1892;140(3592):6–10; selected excerpt republished in Am J Public Health. 2004;94(5):722–725. Reprint DOI 10.2105/ajph.94.5.722; PMID 15117687.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1448324/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "A Fruitful Collaboration, paragraphs beginning 'Black investigated fluorosis' through 'McKay collected the samples'"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "New Questions Emerge and Proof That Fluoride Prevents Caries, transition to Dean's hypothesis"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 1443, Introduction, first paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "pp. 1444–1445 and 1447, study selection, comparisons and Discussion; pp. 1451–1452, possible mechanisms"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "pp. 1701–1702, Introduction, five cited links generating the topical hypothesis"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 1702, Introduction, preliminary reports by Bibby and Cheyne"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "pp. 1702–1703, Materials and Methods and study summary"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "pp. 1713–1714, Discussion: duration on p. 1713; concentration uncertainty and toxicity caution on p. 1714"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "pp. 6–8, early fluoride history, especially p. 8 and footnote 19"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "2004 selective reprint, paragraphs beginning 'In the second place' and 'Analysis has proved'"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "p. 8 and footnotes 19–21, early animal experiments"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://stacks.cdc.gov/view/cdc/69615/cdc_69615_DS1.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://stacks.cdc.gov/view/cdc/70370/cdc_70370_DS1.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1448324/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The documented observation-led causal chain is strongest for the 20th-century topical sodium-fluoride program; environmental water studies contributed but were not the only observations.",
+      "Nineteenth-century fluoride-enamel and preventive proposals predate this chain. Erhardt's reported potassium-fluoride animal finding is not evidence that his proposal caused the later program; the 1892 reprint is selective.",
+      "Neither the origin of every oral or topical vehicle nor priority of every fluoride preparation is established; later water fluoridation should not be presented as a prerequisite for the already reported 1942–43 topical studies."
+    ],
+    "conflicts": [
+      "A historical review attributes stronger dog enamel to Erhardt's 1874 potassium-fluoride work, but also reports Stubenrauch's 1904 observations of dental and skeletal damage after sodium fluoride. Different conditions are not established and neither original report was read; the claims cannot be directly reconciled here."
+    ],
+    "gaps": [
+      "Erhardt's 1874 original article or articles and Stubenrauch's 1904 original were not read; exact methods and continuity to later sodium-fluoride work remain uncertain.",
+      "The 1892 Lancet address was read only through a selective 2004 reprint; earlier proposed uses cannot be assigned priority from it.",
+      "The 1916 Black–McKay and 1942 Bibby/Cheyne originals and the origins of all later fluoride vehicles were not independently read; accounts are attributed to the sources actually examined."
+    ]
+  },
+  "nameAliases": [
+    "ACT Fluoride Rinse",
+    "Allday",
+    "Clinpro 5000",
+    "Colgate",
+    "Crest",
+    "CTx3 Rinse",
+    "Denta 5000 Plus",
+    "Dentagel",
+    "DentiCare Neutral",
+    "Duraflor",
+    "Epiflur",
+    "Fluorabon",
+    "Fluoridex",
+    "Fluorimax",
+    "Fluorinse",
+    "FluoriSHIELD",
+    "Fluoritab",
+    "Gelato sodium fluoride",
+    "Kolorz",
+    "Listerine",
+    "Ludent",
+    "Nafrinse",
+    "Neutracare",
+    "NeutraGard",
+    "Neutramaxx",
+    "PCxx Neutral Foam",
+    "PCxx Neutral Rinse",
+    "Phos-Flur",
+    "Prevident",
+    "Prevident Dental Rinse",
+    "ProDenRx Rinse",
+    "Zooby Fluoride Foam"
+  ],
+  "humanContributionInterpretation": {
+    "id": "FLUORIDE_ANTICARIES",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Lower caries experience in communities with mottled enamel and fluoride-containing water helped motivate fluoride prevention.",
+    "scope": "Water chemistry and experimental enamel or animal work also contributed; a population association is not by itself proof of benefit.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "National Institute of Dental and Craniofacial Research. The Story of Fluoridation. Institutional history, no publication date reported.",
+        "url": "https://www.nidcr.nih.gov/health-info/fluoride/the-story-of-fluoridation",
+        "locator": "A Fruitful Collaboration, paragraphs beginning 'Black investigated fluorosis' through 'McKay collected the samples'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "National Institute of Dental and Craniofacial Research. The Story of Fluoridation. Institutional history, no publication date reported.",
+        "url": "https://www.nidcr.nih.gov/health-info/fluoride/the-story-of-fluoridation",
+        "locator": "New Questions Emerge and Proof That Fluoride Prevents Caries, transition to Dean's hypothesis",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Dean HT. Endemic Fluorosis and Its Relation to Dental Caries. Public Health Rep. 1938;53(33):1443–1452. DOI 10.2307/4582632.",
+        "url": "https://stacks.cdc.gov/view/cdc/69615/cdc_69615_DS1.pdf",
+        "locator": "p. 1443, Introduction, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Dean HT. Endemic Fluorosis and Its Relation to Dental Caries. Public Health Rep. 1938;53(33):1443–1452. DOI 10.2307/4582632.",
+        "url": "https://stacks.cdc.gov/view/cdc/69615/cdc_69615_DS1.pdf",
+        "locator": "pp. 1444–1445 and 1447, study selection, comparisons and Discussion; pp. 1451–1452, possible mechanisms",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Knutson JW, Armstrong WD. The Effect of Topically Applied Sodium Fluoride on Dental Caries Experience. Public Health Rep. 1943;58(47):1701–1715. DOI 10.2307/4584683.",
+        "url": "https://stacks.cdc.gov/view/cdc/70370/cdc_70370_DS1.pdf",
+        "locator": "pp. 1701–1702, Introduction, five cited links generating the topical hypothesis",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

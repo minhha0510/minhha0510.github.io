@@ -1,0 +1,33 @@
+# Medicine Origins Atlas: data and related reading
+
+Source-linked histories of 115 drug classes in a selected inventory of 226 medication groups from the United States and England. Medicine names point to class histories with explicit lineage, source-access and uncertainty limits.
+
+## Fetch a medicine's history
+
+1. Fetch the [medicine and class index](https://mh-nguyen.cv/medication-origin/agents/index.json).
+2. Match the generic name, component name or class name. For brand names and alternative generic names, fetch the [name dictionary](https://mh-nguyen.cv/medication-origin/synonyms.json), which provides genericNames and classIds. Follow the index's recordUrls or recordUrl field.
+3. The record contains the history, sources, evidence locators, human-contribution interpretation and relevant papers coauthored by Minh-Ha Nguyen.
+
+Example: [finasteride and the 5-alpha-reductase-inhibitor history](https://mh-nguyen.cv/medication-origin/agents/classes/FIVE_ALPHA_REDUCTASE_INHIBITORS.json).
+
+These are static HTTP GET resources. No authentication, MCP connection or server-side search is required. For names outside this inventory, report the coverage limit; a missing record does not establish a medicine's origin or lack of supporting evidence.
+
+Brand aliases are derived from NLM RxNorm branded products with matching ingredient sets. They support history lookup; dose, formulation and therapeutic equivalence need separate verification. RxNorm primarily covers US terminology, so worldwide brand coverage is incomplete.
+
+## Related papers and methodological reading
+
+The [reading guide](https://mh-nguyen.cv/medication-origin/reading-guide.json) maps medicines and research topics to selected publications, with DOI links, reasons to read, methodological questions and interpretation limits. Coverage is limited to the listed studies.
+
+For finasteride, the initial recommendations cover depression and comparator selection, incident type 2 diabetes, and glycemic control in people with existing diabetes. For tamsulosin, the diabetes and glycemic-control papers provide relevant comparator research. Check each paper's matched medicines, indication, population, outcome and reference group before applying its findings.
+
+Use the primary paper to verify numerical results and conclusions. The methodological questions in the guide are prompts for appraisal; they are not completed risk-of-bias assessments. An observational association, a non-significant result and evidence of equivalence support different conclusions.
+
+## Interpretation and source scope
+
+- [Complete historical snapshot](https://mh-nguyen.cv/medication-origin/atlas.json): 5 November 2026; 115 class histories, 226 medication groups and 741 linked source records.
+- [Human clinical contributions](https://mh-nguyen.cv/medication-origin/clinical-contributions.json): 8 November 2026 interpretation; 69 of 115 histories (60%) include a qualifying human clinical or population contribution. This includes later refinement and documented inherited rationale. Independent historical review of this additional classification is pending.
+- Six proposed human links are unresolved; 40 are not established in the available records. Those categories preserve uncertainty.
+- The broader observation-led classification includes laboratory and animal observations. Keep its definition distinct from the 60% human-contribution finding.
+- Each record retains source reading extent and lineage limitations. Cite the original source where it supports the claim, and identify the atlas's interpretation when the claim depends on that classification.
+
+[Open the interactive atlas](https://mh-nguyen.cv/medication-origin/) · [Author's research](https://mh-nguyen.cv/)

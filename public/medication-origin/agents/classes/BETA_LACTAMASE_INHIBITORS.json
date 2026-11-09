@@ -1,0 +1,349 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/BETA_LACTAMASE_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "BETA_LACTAMASE_INHIBITORS",
+    "name": "Beta-lactamase inhibitors",
+    "medicines": [
+      "clavulanic acid"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "amoxicillin + clavulanic acid",
+        "components": [
+          "amoxicillin",
+          "clavulanic acid"
+        ],
+        "usRank": 72,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Recognized bacterial penicillinase-mediated antibiotic destruction and prior β-lactamase inhibition by a microbial metabolite, cephalosporin C, supported a purposeful microbial search for inhibitors; the observed activity of a S. clavuligerus culture supplied the clavulanic acid lead.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Bacterial β-lactamase-mediated resistance and inhibition by the microbial metabolite cephalosporin C provided a rationale and precedent for the microbial search; a distinct natural product isolated from S. clavuligerus supplied the clavulanic acid lead. Observed effects of semisynthetic penicillins motivated a parallel screen of existing compounds, not a claim that clavulanic acid itself was derived from them.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E6",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Observed bacterial destruction of penicillins and inhibition of penicillinase by a microbial metabolite and some semisynthetic penicillins established the protecting-inhibitor rationale.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "In a parallel line, investigators screened semisynthetic penicillins for better inhibition; a promising lead proved poorly absorbed orally.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Rolinson began a synergy screen for natural inhibitors in 1967; the programme initially found unstable olivanic-acid activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E5",
+          "E7",
+          "E11"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A cephamycin-related hypothesis led the team to grow S. clavuligerus, where chromatography detected the distinct inhibitory product later named clavulanic acid.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E6"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "The team pursued a penicillin-plus-inhibitor strategy; the observed inhibitor lowered the in-vitro antibiotic concentrations needed against several resistant strains, and favorable oral absorption was discovered during development.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E9"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "Clavulanic acid was introduced in an amoxicillin combination in 1981, followed by a ticarcillin combination.",
+        "support": "documented",
+        "evidence_ids": [
+          "E12"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers designed and adapted the synergy screen, selected and cultured a producer organism, separated the inhibitor from culture fluid, and planned penicillin-plus-inhibitor therapy. The lead's biological activity and favorable absorption were observed rather than specified de novo.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The search for microbial enzyme inhibitors and the therapeutic combination were planned. Cole describes obtaining a culture to explore cephamycins but identifying a different inhibitor, and Doyle calls the compatible oral absorption a fortunate finding.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Tansey EM, Reynolds LA, eds. 2000. Post Penicillin Antibiotics: From Acceptance to Resistance? Wellcome Witnesses to Twentieth Century Medicine, vol. 6. London: Wellcome Trust. Witness seminar 12 May 1998; Cole and Doyle, pp. 50–52.",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/2074/1/wit6.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Brown AG, Butterworth D, Cole M, Hanscomb G, Hood JD, Reading C, Rolinson GN. 1976. Naturally-occurring β-lactamase inhibitors with antibacterial activity. J Antibiot (Tokyo) 29:668–669. DOI 10.7164/antibiotics.29.668; PMID 950324.",
+        "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/29/6/29_6_668/_pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Reading C, Cole M. 1977. Clavulanic acid: a beta-lactamase-inhiting beta-lactam from Streptomyces clavuligerus. Antimicrob Agents Chemother 11:852–857. DOI 10.1128/AAC.11.5.852; PMID 879738; PMCID PMC352086. PubMed records 'inhiting' in the title.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/879738/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Rolinson GN. 1998. Forty years of β-lactam research. J Antimicrob Chemother 41:589–603. DOI 10.1093/jac/41.6.589; PMID 9687097.",
+        "url": "https://academic.oup.com/jac/article-pdf/41/6/589/9837963/410589.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Geddes AM, Klugman KP, Rolinson GN. 2007. Introduction: historical perspective and development of amoxicillin/clavulanate. Int J Antimicrob Agents 30 Suppl 2:S109–S112. DOI 10.1016/j.ijantimicag.2007.07.015; PMID 17900874.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17900874/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Abraham EP, Newton GGF. 1956. A comparison of the action of penicillinase on benzylpenicillin and cephalosporin N and the competitive inhibition of penicillinase by cephalosporin C. Biochem J 63:628–634. DOI 10.1042/bj0630628; PMID 13355861; PMCID PMC1216229.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13355861/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Printed pp. 50–51, Cole on enzyme-mediated resistance and previous inhibitor observations, and p. 51 final paragraph on why microorganisms were screened."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Printed pp. 51–52, Cole's description of Rolinson's screen and initial olivanic-acid activity; p. 52 footnote 171 contains Rolinson's written account."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Printed p. 52, Cole's recollection of the cephamycin discussion, acquisition of Streptomyces clavuligerus, and chromatography."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Printed p. 52, Doyle on the planned penicillin combination and fortuitously compatible oral absorption."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 668, left column, paragraphs 1–2: antibiotic resistance, agar-plate screen and protective activity."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 668, left column, last paragraph through right column, first paragraph: the organism, natural lead and biological activity."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "p. 668, right column, second paragraph, and p. 669, first two paragraphs."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "PubMed abstract, sentences 1–5: isolation, structure and enzyme effects."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "PubMed abstract, final sentence: combined in-vitro antibacterial activity."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S1",
+        "locator": "Printed p. 51, Cole's account of methicillin and cloxacillin, the semisynthetic-penicillin screen, and BRL 1437."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "Printed p. 599, section β-Lactamase inhibitors, first three paragraphs."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S4",
+        "locator": "Printed p. 599, section β-Lactamase inhibitors, fourth paragraph."
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "PubMed abstract, second paragraph: producer designation."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/2074/1/wit6.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/29/6/29_6_668/_pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/879738/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://academic.oup.com/jac/article-pdf/41/6/589/9837963/410589.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13355861/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This record's founding conclusion concerns the clavulanic acid natural-product path, not all later β-lactamase inhibitor architectures.",
+      "Earlier olivanic-acid and semisynthetic-penicillin inhibitor observations are preserved as context and antecedents; their later clinical development is not assumed."
+    ],
+    "conflicts": [
+      "E5 and E11: the 1976 Brown report and Rolinson's 1998 account describe K. aerogenes in the assay, whereas Cole's 1998 recollection in E2 names Klebsiella pneumoniae. Whether different screening stages or a naming/recollection discrepancy explain this is unresolved.",
+      "E13 versus E6 and E8: the 2007 abstract names Streptococcus clavuligerus as the producer, whereas the contemporary reports name Streptomyces clavuligerus. The reason for the conflicting genus is not established."
+    ],
+    "gaps": [
+      "The 1977 original report was read only in abstract; its full experimental details were not inspected.",
+      "The 1956 cephalosporin C and 1972 semisynthetic-penicillin primary reports were not read; their observations and the programme's use of them are presented through Cole's retrospective."
+    ]
+  },
+  "nameAliases": [
+    "Augmentin",
+    "Betacilin",
+    "Clavacillin",
+    "Clavamox",
+    "Kesium",
+    "Umbrellin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "BETA_LACTAMASE_INHIBITORS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Tansey EM, Reynolds LA, eds. 2000. Post Penicillin Antibiotics: From Acceptance to Resistance? Wellcome Witnesses to Twentieth Century Medicine, vol. 6. London: Wellcome Trust. Witness seminar 12 May 1998; Cole and Doyle, pp. 50–52.",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/2074/1/wit6.pdf",
+        "locator": "Printed pp. 50–51, Cole on enzyme-mediated resistance and previous inhibitor observations, and p. 51 final paragraph on why microorganisms were screened.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Tansey EM, Reynolds LA, eds. 2000. Post Penicillin Antibiotics: From Acceptance to Resistance? Wellcome Witnesses to Twentieth Century Medicine, vol. 6. London: Wellcome Trust. Witness seminar 12 May 1998; Cole and Doyle, pp. 50–52.",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/2074/1/wit6.pdf",
+        "locator": "Printed pp. 51–52, Cole's description of Rolinson's screen and initial olivanic-acid activity; p. 52 footnote 171 contains Rolinson's written account.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Tansey EM, Reynolds LA, eds. 2000. Post Penicillin Antibiotics: From Acceptance to Resistance? Wellcome Witnesses to Twentieth Century Medicine, vol. 6. London: Wellcome Trust. Witness seminar 12 May 1998; Cole and Doyle, pp. 50–52.",
+        "url": "https://discovery.ucl.ac.uk/id/eprint/2074/1/wit6.pdf",
+        "locator": "Printed p. 52, Cole's recollection of the cephamycin discussion, acquisition of Streptomyces clavuligerus, and chromatography.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Brown AG, Butterworth D, Cole M, Hanscomb G, Hood JD, Reading C, Rolinson GN. 1976. Naturally-occurring β-lactamase inhibitors with antibacterial activity. J Antibiot (Tokyo) 29:668–669. DOI 10.7164/antibiotics.29.668; PMID 950324.",
+        "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/29/6/29_6_668/_pdf",
+        "locator": "p. 668, left column, paragraphs 1–2: antibiotic resistance, agar-plate screen and protective activity.",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E6",
+        "citation": "Brown AG, Butterworth D, Cole M, Hanscomb G, Hood JD, Reading C, Rolinson GN. 1976. Naturally-occurring β-lactamase inhibitors with antibacterial activity. J Antibiot (Tokyo) 29:668–669. DOI 10.7164/antibiotics.29.668; PMID 950324.",
+        "url": "https://www.jstage.jst.go.jp/article/antibiotics1968/29/6/29_6_668/_pdf",
+        "locator": "p. 668, left column, last paragraph through right column, first paragraph: the organism, natural lead and biological activity.",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

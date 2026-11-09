@@ -1,0 +1,381 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/VITAMIN_D",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "VITAMIN_D",
+    "name": "Vitamin D preparations",
+    "medicines": [
+      "colecalciferol",
+      "ergocalciferol"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "colecalciferol",
+        "components": [
+          "colecalciferol"
+        ],
+        "usRank": null,
+        "englandRank": 8,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "ergocalciferol",
+        "components": [
+          "ergocalciferol"
+        ],
+        "usRank": 46,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A founding clue was that diets and particular fats differed in their ability to prevent experimental rickets: Mellanby reported that cod-liver oil supported bone formation when several other fats did not. Researchers pursued the dietary antirachitic factor. A complementary observation that UV exposure could prevent rickets in animals and confer antirachitic activity on food prompted investigation and preparation of light-activated sterols.",
+      "support": "documented",
+      "evidence_ids": [
+        "E14",
+        "E15",
+        "E4",
+        "E2",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Cod-liver oil was an observed antirachitic natural material. Dietary effects on bone and the relationship of UV light to antirachitic activity were biological/physiological observations; the two preparation branches later involved irradiated ergosterol and the animal-skin precursor 7-dehydrocholesterol, respectively.",
+      "support": "documented",
+      "evidence_ids": [
+        "E14",
+        "E4",
+        "E2",
+        "E7",
+        "E12"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Mellanby sought a reproducible animal model of rickets and compared dietary fats. His 1919 report ranks cod-liver oil highest among the fats discussed and cautiously proposes a dietary antirachitic factor; his later account describes a series with equal calcium and phosphorus intake.",
+        "support": "documented",
+        "evidence_ids": [
+          "E14",
+          "E15",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "According to the historical reviews, McCollum and colleagues tested whether the antirachitic effect was vitamin A: treated cod-liver oil lost vitamin A activity while retaining antirachitic activity, supporting a separate factor named vitamin D.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E11"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Observations that UV light prevented or cured rickets led researchers to test exposure of animals and food. Hess and Weinstock directly reported that irradiated lettuce acquired antirachitic activity relative to unirradiated lettuce; the authors did not chemically identify its active factor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Researchers used chemical and spectroscopic clues plus biological assays to investigate irradiated sterols. Askew and colleagues reported separating active calciferol from irradiated ergosterol and an inactive impurity; later histories describe this preparation as vitamin D2, ergocalciferol.",
+        "support": "documented",
+        "evidence_ids": [
+          "E13",
+          "E9",
+          "E10",
+          "E3"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "The D3 branch was distinguished from irradiated ergosterol: historical accounts report that 7-dehydrocholesterol in animal skin can be photoconverted to antirachitic vitamin D3, cholecalciferol. This corrected the older claim that ergosterol was the relevant skin precursor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E12"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators deliberately developed diet-controlled rickets models, UV-exposure comparisons and biological assays; they used chemical and spectroscopic criteria to select and irradiate sterols, then separated an active crystalline calciferol preparation from an irradiated mixture and inactive material. These are experimental, preparative and analytical contributions to an observed biological effect, not evidence that the antirachitic activity was designed from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E7",
+        "E9",
+        "E13"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Mellanby's described diet/fat comparisons and Hess and Weinstock's irradiation comparisons were deliberate experimental stages. This does not imply that every earlier clinical observation or subsequent finding was anticipated.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "DeLuca HF. History of the discovery of vitamin D and its active metabolites. Bonekey Rep. 2014;3:479. DOI 10.1038/bonekey.2013.213; PMID 24466410.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3899558/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Mellanby E. The Fat-Soluble Vitamins—Their Significance in Nutrition. Edinb Med J. 1933;40(4):197–222; PMID 29646712; PMCID PMC5309516.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5309516/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Hess AF, Weinstock M. Antirachitic properties imparted to lettuce and to growing wheat by ultraviolet irradiation. Proc Soc Exp Biol Med. 1924;22(1):5–6. DOI 10.3181/00379727-22-3.",
+        "url": "https://doi.org/10.3181/00379727-22-3",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Askew FA, Bruce HM, Callow RK, Philpot JStL, Webster TA. Crystalline Vitamin D. Nature. 1931;128:758. DOI 10.1038/128758a0.",
+        "url": "https://doi.org/10.1038/128758a0",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Wolf G. The discovery of vitamin D: the contribution of Adolf Windaus. J Nutr. 2004;134(6):1299–1302. DOI 10.1093/jn/134.6.1299; PMID 15173387. Erratum: J Nutr. 2004;134(8):2015. DOI 10.1093/jn/134.8.2015.",
+        "url": "https://doi.org/10.1093/jn/134.6.1299",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Mellanby E. An experimental investigation on rickets. Lancet. 1919;193(4985):407–412. DOI 10.1016/S0140-6736(01)25465-8. Read in the 1919 reprint of the lectures.",
+        "url": "https://doi.org/10.1016/S0140-6736(01)25465-8",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "McCollum EV, Simmonds N, Becker JE, Shipley PG. Studies on experimental rickets: XXI. An experimental demonstration of the existence of a vitamin which promotes calcium deposition. J Biol Chem. 1922;53(2):293–312. DOI 10.1016/S0021-9258(18)85783-0.",
+        "url": "https://doi.org/10.1016/S0021-9258(18)85783-0",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Discovery of vitamin D, first paragraph, on Mellanby's dogs"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Healing of rickets by UV light, first paragraph, on Steenbock's research"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Isolation and identification of vitamin D, first and second paragraphs"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "pp. 198–199, Vitamin D (the Antirachitic Vitamin) and Rickets, model and dietary fat comparison"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 201, first and second paragraphs"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 202, items d–f and final paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "pp. 5–6, experiment description and table"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 6, concluding sentence preceding table"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. 758, final paragraph of letter, and preceding paragraph describing fractional crystallization"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "p. 758, opening paragraphs, comparison with Windaus's vitamin D2"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "p. 1299, paragraph on McCollum's 1922 work"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "p. 1301, final paragraph before biographical discussion"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "p. 1300, paragraphs on steroid selection and ergosterol"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S6",
+        "locator": "1919 reprint p. 8, discussion of Table VI and diet III"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S6",
+        "locator": "1919 reprint p. 9, Importance of Dietetic Factor"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5309516/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.3181/00379727-22-3",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1038/128758a0",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1016/S0140-6736(01)25465-8",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1016/S0021-9258(18)85783-0",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "Ergocalciferol/D2: the read primary 1931 letter reports active calciferol separated from irradiated ergosterol; it explicitly considered identity with another preparation called D2 unresolved at that time. The D2 identification and historical placement rely also on the later reviews.",
+      "Colecalciferol/D3: identification of the relevant animal-skin precursor and its irradiation product rests on the read historical reviews, not on a directly read 1930s D3 original. The 1924 lettuce experiment did not identify its active compound as D2 or D3.",
+      "This record covers the common founding nutrient/antirachitic lineage and these two preparation branches only. It does not extend the conclusion to every later vitamin D metabolite, receptor ligand, analogue or manufacturing route."
+    ],
+    "conflicts": [
+      "Mellanby in 1933 identified ergosterol as the skin precursor (E6). Later accounts identify 7-dehydrocholesterol instead (E12); the early statement is preserved as a superseded historical interpretation, not as current precursor identity.",
+      "DeLuca places Askew's D2 isolation in 1932, whereas Wolf describes crystallization in 1931 and the read Askew letter reports calciferol separation in 1931 while treating its D2 identity as unproven (E3, E9, E10). Do not conflate purification, identity, structural determination or priority.",
+      "DeLuca describes 7-dehydrocholesterol as isolated in 1935 and D3 as identified in 1937, while Wolf describes synthesis of the precursor in 1935, identification from hog skin in 1937 and cites a 1936 D3 photoproduct paper. The original papers were not read; exact event dating and attribution remain unresolved.",
+      "A published erratum to Wolf's review corrects erroneous D2 and D3 structural drawings in its Figure 1: https://doi.org/10.1093/jn/134.8.2015. This record relies on the cited historical text, not the original drawings."
+    ],
+    "gaps": [
+      "McCollum and colleagues' 1922 original was located but not directly read; its separation of activities is supported by historical reviews, not a purported original read. The publisher metadata gives J Biol Chem 53:293–312, unlike DeLuca's 293–298; PMID 11991957 indexes a later reprint.",
+      "The 1927 sterol-identification papers, Askew and colleagues' six-author 1932 full article, and the original 1935–1937 Windaus D3/precursor reports were not read; priority, chemical methods and fine chronology beyond the cited reviews are not adjudicated.",
+      "The causal link between natural dietary antirachitic activity, UV findings and preparative sterol work is supported at class level, but the exact first clinical introduction and commercial formulation of each cohort member were not reconstructed. Collection and structural validation do not constitute independent source review."
+    ]
+  },
+  "nameAliases": [
+    "Calcidol",
+    "D-Vi-Sol",
+    "D3 Dots",
+    "Decalcitrol",
+    "Decara",
+    "Delta D3",
+    "Dialyvite Vitamin D3 Max",
+    "Drisdol",
+    "Maximum D3",
+    "Thera-D",
+    "cholecalciferol"
+  ],
+  "humanContributionInterpretation": {
+    "id": "VITAMIN_D",
+    "group": "not_established",
+    "contribution": "context_only",
+    "summary": "Human rickets was the clinical problem.",
+    "scope": "The recorded initiating evidence is feeding and irradiation experiments, not a documented population or bedside clue.",
+    "references": [
+      {
+        "id": "E14",
+        "citation": "Mellanby E. An experimental investigation on rickets. Lancet. 1919;193(4985):407–412. DOI 10.1016/S0140-6736(01)25465-8. Read in the 1919 reprint of the lectures.",
+        "url": "https://doi.org/10.1016/S0140-6736(01)25465-8",
+        "locator": "1919 reprint p. 8, discussion of Table VI and diet III",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E15",
+        "citation": "Mellanby E. An experimental investigation on rickets. Lancet. 1919;193(4985):407–412. DOI 10.1016/S0140-6736(01)25465-8. Read in the 1919 reprint of the lectures.",
+        "url": "https://doi.org/10.1016/S0140-6736(01)25465-8",
+        "locator": "1919 reprint p. 9, Importance of Dietetic Factor",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Mellanby E. The Fat-Soluble Vitamins—Their Significance in Nutrition. Edinb Med J. 1933;40(4):197–222; PMID 29646712; PMCID PMC5309516.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5309516/",
+        "locator": "pp. 198–199, Vitamin D (the Antirachitic Vitamin) and Rickets, model and dietary fat comparison",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "DeLuca HF. History of the discovery of vitamin D and its active metabolites. Bonekey Rep. 2014;3:479. DOI 10.1038/bonekey.2013.213; PMID 24466410.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3899558/",
+        "locator": "Healing of rickets by UV light, first paragraph, on Steenbock's research",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Hess AF, Weinstock M. Antirachitic properties imparted to lettuce and to growing wheat by ultraviolet irradiation. Proc Soc Exp Biol Med. 1924;22(1):5–6. DOI 10.3181/00379727-22-3.",
+        "url": "https://doi.org/10.3181/00379727-22-3",
+        "locator": "pp. 5–6, experiment description and table",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/XANTHINE_OXIDASE_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "XANTHINE_OXIDASE_INHIBITORS",
+    "name": "Xanthine oxidase inhibitors",
+    "medicines": [
+      "allopurinol"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "allopurinol",
+        "components": [
+          "allopurinol"
+        ],
+        "usRank": 44,
+        "englandRank": 37,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Observed 6-MP conversion to 6-thiouric acid by xanthine oxidase suggested inhibiting that metabolic pathway to potentiate the anticancer drug. A prior enzyme screen had found activity for the synthetic hypoxanthine analogue allopurinol, which was selected for testing in vivo.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E8",
+        "E11"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed 6-MP metabolism and the previously observed enzyme-inhibiting effect of synthetic allopurinol motivated the experimental program; the relationship between the enzyme and uric acid production opened the clinical application. Allopurinol is a hypoxanthine analogue, but analogue identity alone does not establish the initial molecular design motivation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Metabolic studies revealed 6-MP oxidation, and earlier screening of purine analogues identified allopurinol as a xanthine oxidase inhibitor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E8",
+          "E11"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Investigators selected allopurinol to test in-vivo enzyme inhibition and 6-MP potentiation; subsequent decreases in uric acid suggested gout treatment.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Subsequent studies identified oxypurinol as an inhibitory metabolite and investigated allopurinol in patients with gout and hyperuricemia, including a comparative clinical study.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Falco prepared the synthetic hypoxanthine analogue; researchers screened purine-related structures, selected an enzyme-active compound, and deliberately tested its effect on 6-MP metabolism in vivo. The same inhibitor was then investigated for a different therapeutic use. Oxypurinol was identified as an enzyme-generated active metabolite, not a separately designed founding branch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The specific in-vivo selection and test of an already enzyme-active compound to reduce 6-MP oxidation were planned. Rundles describes the overall development route as serendipitous in an abstract; it does not specify which event was unexpected, so the planned value is not a blanket claim about the route or the gout application.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E10"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Elion GB. The Purine Path to Chemotherapy. Nobel Lecture, 8 December 1988. Nobel Lectures, Physiology or Medicine 1988:447-464.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/elion-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Scott JT, Hall AP, Grahame R. Allopurinol in treatment of gout. Br Med J. 1966;2(5509):321-327. DOI 10.1136/bmj.2.5509.321; PMID 5920652.",
+        "url": "https://www.bmj.com/content/bmj/2/5509/321.full.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Elion GB. Enzymatic and metabolic studies with allopurinol. Ann Rheum Dis. 1966;25(Suppl 6):608-614. DOI 10.1136/ard.25.Suppl_6.608; PMID 5958693.",
+        "url": "https://ard.bmj.com/content/annrheumdis/25/Suppl_6/608.full.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Elion GB. The quest for a cure. Annu Rev Pharmacol Toxicol. 1993;33:1-25 according to publisher metadata; PDF and PubMed give 1-23. DOI 10.1146/annurev.pa.33.040193.000245; PMID 8494337.",
+        "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev.pa.33.040193.000245",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Rundles RW. The development of allopurinol. Arch Intern Med. 1985;145(8):1492-1503. DOI 10.1001/archinte.1985.00360080174026; PMID 3896181.",
+        "url": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/606030",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Elion GB, Mueller S, Hitchings GH. Studies on condensed pyrimidine systems. XXI. The isolation and synthesis of 6-mercapto-2,8-purinediol (6-thiouric acid). J Am Chem Soc. 1959;81(12):3042-3045. DOI 10.1021/ja01521a033.",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20the%20American%20Chemical%20Society%20US/1959%20%20%28vol%20081%29/12%20%20%282919-3172%29/3042-3045.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "American Chemical Society. Allopurinol. Molecule of the Week. 21 August 2017.",
+        "url": "https://www.acs.org/molecule-of-the-week/archive/a/allopurinol.html",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 451, paragraph beginning Studies of the urinary metabolites; p. 453, Gout and Hyperuricemia, opening paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 453, Gout and Hyperuricemia, opening paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 453, Gout and Hyperuricemia, first three paragraphs"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "pp. 455-456, Gout and Hyperuricemia, paragraphs on allopurinol oxidation and clinical gout outcomes"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 321, introduction, opening paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "pp. 321-322, Trial A methods and Results, Frequency of Acute Gout"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 608, inhibition-constant table and paragraph immediately below; p. 609, preincubation discussion; p. 611, early mouse metabolism paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "p. 12, Gout and Hyperuricemia, first two paragraphs"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "pp. 12-13, Gout and Hyperuricemia, final two paragraphs on p. 12 and first paragraph on p. 13"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "Publisher abstract, final sentence"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S6",
+        "locator": "p. 3042, first two paragraphs and references 1-2; p. 3043, spectra discussion and start of Experimental"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S7",
+        "locator": "Second paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/elion-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.bmj.com/content/bmj/2/5509/321.full.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://ard.bmj.com/content/annrheumdis/25/Suppl_6/608.full.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev.pa.33.040193.000245",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://jamanetwork.com/journals/jamainternalmedicine/article-abstract/606030",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20the%20American%20Chemical%20Society%20US/1959%20%20%28vol%20081%29/12%20%20%282919-3172%29/3042-3045.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "This finding addresses the founding allopurinol lineage; no extrapolation to independent later inhibitor architectures is established by this source."
+    ],
+    "conflicts": [
+      "Rundles calls the overall development serendipitous in an abstract (E10), while Elion describes a planned test of a previously identified inhibitor (E1-E2). These are different levels of description, not an established contradiction; the full Rundles account was not read.",
+      "Elion credits Falco with synthesis of the compound used by her group (E8), while an ACS contextual account credits 1956 published syntheses to other groups (E12); independent preparation and first publication need not conflict, and priority is unresolved."
+    ],
+    "gaps": [
+      "The 1963 Elion et al. inhibition/potentiation report and Rundles et al. thiopurine/urate/gout report were identified but their texts and abstracts were not read; see the receipt for citations and links.",
+      "The original papers underlying the 1954 metabolism observation, the earliest allopurinol enzyme-screen result, and first synthesis were not read; exact priority is not established.",
+      "The 1985 Rundles retrospective was read only as a publisher abstract; the origins of later independent inhibitor architectures were not traced."
+    ]
+  },
+  "nameAliases": [
+    "Aloprim",
+    "Zyloprim"
+  ],
+  "humanContributionInterpretation": {
+    "id": "XANTHINE_OXIDASE_INHIBITORS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Urate lowering during allopurinol work with leukemia patients helped direct gout investigation.",
+    "scope": "The initial enzyme-inhibitor program was laboratory-led; the patient clue concerns a later therapeutic direction.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Elion GB. The Purine Path to Chemotherapy. Nobel Lecture, 8 December 1988. Nobel Lectures, Physiology or Medicine 1988:447-464.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/elion-lecture.pdf",
+        "locator": "p. 453, Gout and Hyperuricemia, first three paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Scott JT, Hall AP, Grahame R. Allopurinol in treatment of gout. Br Med J. 1966;2(5509):321-327. DOI 10.1136/bmj.2.5509.321; PMID 5920652.",
+        "url": "https://www.bmj.com/content/bmj/2/5509/321.full.pdf",
+        "locator": "p. 321, introduction, opening paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Elion GB. The quest for a cure. Annu Rev Pharmacol Toxicol. 1993;33:1-25 according to publisher metadata; PDF and PubMed give 1-23. DOI 10.1146/annurev.pa.33.040193.000245; PMID 8494337.",
+        "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev.pa.33.040193.000245",
+        "locator": "pp. 12-13, Gout and Hyperuricemia, final two paragraphs on p. 12 and first paragraph on p. 13",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

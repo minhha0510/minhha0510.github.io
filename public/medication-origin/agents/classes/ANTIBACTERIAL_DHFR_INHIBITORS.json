@@ -1,0 +1,371 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ANTIBACTERIAL_DHFR_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ANTIBACTERIAL_DHFR_INHIBITORS",
+    "name": "Antibacterial dihydrofolate-reductase inhibitors",
+    "medicines": [
+      "trimethoprim"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "sulfamethoxazole + trimethoprim",
+        "components": [
+          "sulfamethoxazole",
+          "trimethoprim"
+        ],
+        "usRank": 130,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "trimethoprim",
+        "components": [
+          "trimethoprim"
+        ],
+        "usRank": null,
+        "englandRank": 143,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Known bacterial nutrient-growth requirements motivated the L. casei assay and studies of thymine-related bases. Synthetic base analogues then inhibited this model and pathogens; the team developed a diaminopyrimidine series and studied folate-dependent growth responses.",
+      "support": "documented",
+      "evidence_ids": [
+        "E8",
+        "E15",
+        "E1",
+        "E9",
+        "E2",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Known nutrient-dependent bacterial growth informed the assay, with the natural nucleic-acid base thymine a reference for studying related structures; inhibition by synthetic base analogues and differential responses to folate forms informed subsequent development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E8",
+        "E15",
+        "E1",
+        "E9",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Known folate, thymine and purine relationships in bacterial growth motivated the L. casei model and studies of thymine analogues; synthetic analogues inhibited that system and pathogenic bacteria.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E15",
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Falco began a diaminopyrimidine series; the team observed folate-antagonist activity in L. casei and differential folic-versus-folinic-acid growth responses that supported a folate-reduction interpretation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E9",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "For antibacterial use, the team selected among 5-benzylpyrimidines for selectivity and other useful properties. They reported trimethoprim's stronger antibacterial action than earlier candidates and the absence of their particular side effects in monkeys.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a 1965 enzyme study the group reported distinct species-specific inhibition patterns and a correlation between drug binding and suppression of the source organism. The available abstract does not identify which compounds were tested.",
+        "support": "documented",
+        "evidence_ids": [
+          "E14"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "The group tested trimethoprim with sulfonamides in bacterial cultures and mouse infections, reporting potentiation in selected settings.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The group synthesized and screened base analogues, developed and selected 2,4-diaminopyrimidines with differential antimicrobial activity, selected trimethoprim for antibacterial properties and tolerability in the stated tests, and investigated sulfonamide combinations.",
+      "support": "documented",
+      "evidence_ids": [
+        "E15",
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The initial synthetic-analogue investigation and use of observed biological differences were deliberate. According to the 1993 review's abstract, substituted diaminopyrimidines' interference with folate utilization rather than the expected thymine antagonism was unexpected; the underlying original account for that expectation was not read.",
+      "support": "documented",
+      "evidence_ids": [
+        "E8",
+        "E1",
+        "E10",
+        "E11"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Hitchings GH. 1988. Selective Inhibitors of Dihydrofolate Reductase. Nobel Lecture, December 8, 1988, pp. 476–493.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hitchings-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Bushby SRM, Hitchings GH. 1968. Trimethoprim, a sulphonamide potentiator. Br J Pharmacol Chemother 33:72–90. DOI 10.1111/j.1476-5381.1968.tb00475.x; PMID 5301731.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1476-5381.1968.tb00475.x",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Hitchings GH, Elion GB, Falco EA, Russell PB, VanderWerff H. 1950. Studies on analogs of purines and pyrimidines. Ann N Y Acad Sci 52:1318–1335. DOI 10.1111/j.1749-6632.1950.tb54032.x; PMID 15433149.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1749-6632.1950.tb54032.x",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Then RL. 1993. History and future of antimicrobial diaminopyrimidines. J Chemother 5:361–368. DOI 10.1080/1120009X.1993.11741082; PMID 8195827.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8195827/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Burchall JJ, Hitchings GH. 1965. Inhibitor binding analysis of dihydrofolate reductases from various species. Mol Pharmacol 1:126–136. DOI 10.1016/S0026-895X(25)14734-2; PMID 4378654.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0026895X25147342",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Roth B, Falco EA, Hitchings GH, Bushby SRM. 1962. 5-Benzyl-2,4-diaminopyrimidines as antibacterial agents. I. Synthesis and antibacterial activity in vitro. J Med Pharm Chem 5:1103–1123. DOI 10.1021/jm01241a004; PMID 14056446.",
+        "url": "https://pubs.acs.org/doi/10.1021/jm01241a004",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 476, opening account of 1942 onward: L. casei assay and analog screening"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 477, paragraph beginning 'The next year'"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 478, paragraph following Figure 2 and Figure 3 caption on p. 479"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "p. 478, final two paragraphs"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 72, paragraphs 2–3"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "pp. 72–73, prior clinical candidates and trimethoprim selection"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "pp. 79–80, in vitro results and in vivo P. vulgaris experiment"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 1318, opening account and final paragraph"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "p. 1330, paragraph on 2,4-diamino-5-p-chlorophenoxypyrimidine"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S3",
+        "locator": "p. 1334, Conclusions, final paragraph"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "PubMed abstract, opening paragraph and first key observation"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S4",
+        "locator": "PubMed abstract, third key observation"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S1",
+        "locator": "p. 478, paragraph beginning 'By 1950'"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S5",
+        "locator": "Publisher's indexed abstract, second paragraph"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S3",
+        "locator": "p. 1321, The Thymine Requirement, first paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hitchings-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1476-5381.1968.tb00475.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1749-6632.1950.tb54032.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.sciencedirect.com/science/article/pii/S0026895X25147342",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubs.acs.org/doi/10.1021/jm01241a004",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The antibacterial trimethoprim lineage is the assigned scope; methotrexate and the antimalarial pyrimethamine are contextual comparators, not cohort members."
+    ],
+    "conflicts": [
+      "Hitchings's 1988 retrospective puts a conclusion about selective reductase inhibitors by 1950 (E13); Then's 1993 abstract dates identification of trimethoprim's specific reductase target to 1965 (E12). These may describe an earlier general inference and a later trimethoprim-specific identification, not necessarily conflicting events. The exact chronology and evidentiary basis remain unadjudicated."
+    ],
+    "gaps": [
+      "The 1948 and 1952 early reports and the original 1962 antibacterial chemistry report were located but not read. The exact development decisions and priority for each substitution are not established here.",
+      "Only the abstract of the 1965 purified-enzyme study was read; that abstract does not name trimethoprim or determine the first date its target was established.",
+      "Then's 1993 review was available only as an abstract; the original evidence for its claimed initial expectation of thymine antagonism was not read."
+    ]
+  },
+  "nameAliases": [
+    "Bactrim",
+    "Primsol",
+    "Sulfatrim"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ANTIBACTERIAL_DHFR_INHIBITORS",
+    "group": "not_established",
+    "contribution": "context_only",
+    "summary": "Adverse effects of earlier compounds appear in the development context.",
+    "scope": "The dossier does not establish that these patient effects directed the trimethoprim candidate program.",
+    "references": [
+      {
+        "id": "E8",
+        "citation": "Hitchings GH, Elion GB, Falco EA, Russell PB, VanderWerff H. 1950. Studies on analogs of purines and pyrimidines. Ann N Y Acad Sci 52:1318–1335. DOI 10.1111/j.1749-6632.1950.tb54032.x; PMID 15433149.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1749-6632.1950.tb54032.x",
+        "locator": "p. 1318, opening account and final paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E15",
+        "citation": "Hitchings GH, Elion GB, Falco EA, Russell PB, VanderWerff H. 1950. Studies on analogs of purines and pyrimidines. Ann N Y Acad Sci 52:1318–1335. DOI 10.1111/j.1749-6632.1950.tb54032.x; PMID 15433149.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1749-6632.1950.tb54032.x",
+        "locator": "p. 1321, The Thymine Requirement, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E1",
+        "citation": "Hitchings GH. 1988. Selective Inhibitors of Dihydrofolate Reductase. Nobel Lecture, December 8, 1988, pp. 476–493.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hitchings-lecture.pdf",
+        "locator": "p. 476, opening account of 1942 onward: L. casei assay and analog screening",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Hitchings GH, Elion GB, Falco EA, Russell PB, VanderWerff H. 1950. Studies on analogs of purines and pyrimidines. Ann N Y Acad Sci 52:1318–1335. DOI 10.1111/j.1749-6632.1950.tb54032.x; PMID 15433149.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1749-6632.1950.tb54032.x",
+        "locator": "p. 1330, paragraph on 2,4-diamino-5-p-chlorophenoxypyrimidine",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Hitchings GH. 1988. Selective Inhibitors of Dihydrofolate Reductase. Nobel Lecture, December 8, 1988, pp. 476–493.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hitchings-lecture.pdf",
+        "locator": "p. 477, paragraph beginning 'The next year'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Hitchings GH. 1988. Selective Inhibitors of Dihydrofolate Reductase. Nobel Lecture, December 8, 1988, pp. 476–493.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hitchings-lecture.pdf",
+        "locator": "p. 478, paragraph following Figure 2 and Figure 3 caption on p. 479",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

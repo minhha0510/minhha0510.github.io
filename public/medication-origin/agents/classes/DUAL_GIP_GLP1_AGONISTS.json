@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/DUAL_GIP_GLP1_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "DUAL_GIP_GLP1_AGONISTS",
+    "name": "Dual GIP/GLP-1 receptor agonists",
+    "medicines": [
+      "tirzepatide"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "tirzepatide",
+        "components": [
+          "tirzepatide"
+        ],
+        "usRank": 32,
+        "englandRank": 96,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Greater weight and fat reduction from co-administered GIP and GLP-1 analogues in obese mice supplied Finan's team with an experimental reason to pursue a single dual agonist. The LY3298176 investigators cited this prior combination result among the biological reasons for pursuing GIP addition to GLP-1 activity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule"
+    ],
+    "inspiration": {
+      "description": "The observed combined actions of GIP and GLP-1 analogues, along with incretin physiology and the hormone-derived peptide sequences, informed the engineering. The LY3298176 authors specifically cite the Finan combination findings and call their peptide GIP-based; a later investigator account describes adding GLP-1 activity to a GIP sequence.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Combining selective incretin analogues enhanced weight-lowering in diet-induced obese mice relative to either alone at the tested doses, leading the investigators to pursue a single co-agonist.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Investigators built and tested a sequence-modified peptide with GIP and GLP-1 activity from a previously studied dual GLP-1/glucagon peptide, then modified candidates to extend exposure.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Citing prior dual incretin studies including the co-administration experiment, Lilly investigators developed a GIP-based, fatty-acid-modified dual agonist, LY3298176, and tested both receptor activities in cells and mice. They later identified LY3298176 as tirzepatide and described engineering GLP-1 activity into the GIP sequence.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5",
+          "E9"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The LY3298176 investigators reported a phase 1 clinical program and a four-week proof-of-concept trial in type 2 diabetes.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The Finan team engineered balanced receptor co-agonism and selectivity by sequence changes and lengthened exposure by lipidation or PEGylation. LY3298176, or tirzepatide, is a different GIP-based engineered peptide, with GLP-1 activity introduced into the GIP sequence, stronger GIPR than GLP-1R potency in the reported in-vitro assays and a fatty-acid linker to enable prolonged exposure.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E5",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The comparison of co-administered analogues and subsequent single-peptide engineering were planned experiments in the Finan program; the Lilly team designed LY3298176 to test dual incretin activity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Finan B, Ma T, Ottaway N, et al. 2013. Unimolecular dual incretins maximize metabolic benefits in rodents, monkeys, and humans. Sci Transl Med 5(209):209ra151. DOI 10.1126/scitranslmed.3007218; PMID 24174327.",
+        "url": "https://doi.org/10.1126/scitranslmed.3007218",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Coskun T, Sloop KW, Loghin C, et al. 2018. LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: From discovery to clinical proof of concept. Mol Metab 18:3-14. DOI 10.1016/j.molmet.2018.09.009; PMID 30473097; PMCID PMC6308032.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6308032/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Mentis N, Vardarli I, Köthe LD, et al. 2011. GIP does not potentiate the antidiabetic effects of GLP-1 in hyperglycemic patients with type 2 diabetes. Diabetes 60(4):1270-1276. DOI 10.2337/db10-1332; PMID 21330636; PMCID PMC3064100.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3064100/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Willard FS, Douros JD, Gabe MBN, et al. 2020. Tirzepatide is an imbalanced and biased dual GIP and GLP-1 receptor agonist. JCI Insight 5(17):e140532. DOI 10.1172/jci.insight.140532; PMID 32730231; PMCID PMC7526454.",
+        "url": "https://insight.jci.org/articles/view/140532",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 2, Results, GLP-1 and GIP analog coadministration enhances weight-lowering efficacy"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 2, Results, Generating a highly potent peptide with balanced agonism; p. 11, Discussion"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Introduction, paragraph beginning 'The biological activity of GIP on adipocytes' and next paragraph, references 30-34"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Results 3.1 and Figure 1 caption, chemical structure and GIP-based dual incretin"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Results 3.2, preclinical characterization, including recombinant-receptor assays and mouse knockout experiments"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Introduction final paragraph and Results 3.3-3.4, early clinical studies"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "pp. 1270-1271, Abstract and Results, Glucose and Insulin secretory activity; pp. 1274-1275, Discussion and limitations"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S1",
+        "locator": "p. 2, Introduction, co-infusion paragraph, and p. 16, reference 19"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "Introduction, second and third paragraphs"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1126/scitranslmed.3007218",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6308032/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3064100/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://insight.jci.org/articles/view/140532",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "Finan's balanced hybrid and Lilly's GIP-based LY3298176 are related class-development contributions with distinct reported architectures; the retrieved accounts do not by themselves demonstrate direct chemical descent."
+    ],
+    "conflicts": [
+      "Finan 2013 describes enhanced first-phase insulin secretion during human GIP/GLP-1 co-infusion and cites Mentis 2011 as reference 19. Mentis instead reports no additional overall insulinotropic or glucose-lowering effect in its six-hour type 2 diabetes experiment, and no first-phase analysis was found in that article. This citation discrepancy is not resolved by extrapolating either study; it does not negate Finan's separately reported mouse weight observation."
+    ],
+    "gaps": [
+      "The origin of Finan et al.'s first-phase co-infusion claim is not established by the cited Mentis study as read.",
+      "The available reports do not establish the complete chronology of internal Lilly design decisions or direct chemical descent from Finan's hybrid."
+    ]
+  },
+  "nameAliases": [
+    "Mounjaro",
+    "Zepbound"
+  ],
+  "humanContributionInterpretation": {
+    "id": "DUAL_GIP_GLP1_AGONISTS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Finan B, Ma T, Ottaway N, et al. 2013. Unimolecular dual incretins maximize metabolic benefits in rodents, monkeys, and humans. Sci Transl Med 5(209):209ra151. DOI 10.1126/scitranslmed.3007218; PMID 24174327.",
+        "url": "https://doi.org/10.1126/scitranslmed.3007218",
+        "locator": "p. 2, Results, GLP-1 and GIP analog coadministration enhances weight-lowering efficacy",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Coskun T, Sloop KW, Loghin C, et al. 2018. LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: From discovery to clinical proof of concept. Mol Metab 18:3-14. DOI 10.1016/j.molmet.2018.09.009; PMID 30473097; PMCID PMC6308032.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6308032/",
+        "locator": "Introduction, paragraph beginning 'The biological activity of GIP on adipocytes' and next paragraph, references 30-34",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

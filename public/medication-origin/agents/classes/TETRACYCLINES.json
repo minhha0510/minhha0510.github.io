@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/TETRACYCLINES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "TETRACYCLINES",
+    "name": "Tetracycline antibiotics",
+    "medicines": [
+      "doxycycline"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "doxycycline",
+        "components": [
+          "doxycycline"
+        ],
+        "usRank": 71,
+        "englandRank": 75,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In a planned search for microbial antibacterials, a yellow colony from a Missouri soil sample inhibited the team's initial bacterial panel; its antibiotic product was developed as aureomycin, later chlortetracycline. The detailed screen is a retrospective account, while the inventor's patent and the first page of his 1948 report describe a soil-derived producer and antibacterial substance.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Observed bacterial growth inhibition by soil actinomycete cultures supplied active natural-product leads: aureomycin and, in a separate screen, terramycin.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E7",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A planned soil screen identified an inhibitory organism in sample A-377, and its antibacterial product was developed as aureomycin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E9"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Duggar described fermentation and separation to make the natural product available for study and use.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A separate soil screen identified the S. rimosus product terramycin, later called oxytetracycline, which shares the tetracycline family architecture.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Researchers modified active natural leads: aureomycin was dechlorinated to tetracycline, while oxytetracycline was modified via methacycline to doxycycline. A patent documents hydrogenation and separation of 6-deoxy-5-oxytetracycline isomers during this structural development.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers selected and cultivated the producer, developed fermentation and recovery, then chemically modified existing active tetracyclines, including dechlorination of aureomycin and oxytetracycline modification through methacycline to doxycycline. The latter involved substantive structural and antibacterial-activity work, not only delivery optimization.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The search and antimicrobial assays, as well as later chemical modifications, were deliberate. This describes those stages, not whether every individual hit was anticipated.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Duggar BM. Aureomycin and preparation of same. US patent 2,482,055, filed February 11, 1948, granted September 13, 1949.",
+        "url": "https://patents.google.com/patent/US2482055A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Nelson ML, Levy SB. The history of the tetracyclines. Ann N Y Acad Sci. 2011;1241:17-32. DOI 10.1111/j.1749-6632.2011.06354.x; PMID 22191524.",
+        "url": "https://doi.org/10.1111/j.1749-6632.2011.06354.x",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Sobin BA, Finlay AC, Kane JH. Terramycin and its production. US patent 2,516,080, filed November 28, 1949, granted July 18, 1950.",
+        "url": "https://patents.google.com/patent/US2516080A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Blackwood RK, Rennhard HH, Beereboom JJ, Stephens CR Jr. alpha-6-deoxytetracycline derivatives and process. US patent 3,200,149, filed May 5, 1961, granted August 10, 1965.",
+        "url": "https://patents.google.com/patent/US3200149A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Duggar BM. Aureomycin: A Product of the Continuing Search for New Antibiotics. Ann N Y Acad Sci. 1948;51:177-181. DOI 10.1111/j.1749-6632.1948.tb27262.x; PMID 18112227.",
+        "url": "https://doi.org/10.1111/j.1749-6632.1948.tb27262.x",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Finlay AC, Hobby GL, et al. Terramycin, a new antibiotic. Science. 1950;111(2874):85. DOI 10.1126/science.111.2874.85; PMID 15400447.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15400447/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Description, paragraph beginning 'The organism which produces'; paragraph beginning 'To isolate the above described fungus'."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Description, opening paragraphs on the new substance and its antibacterial activity; subsequent fermentation section."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "pp. 18-19, 'The discovery of the tetracyclines', soil-screening and A-377 paragraphs."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 19, paragraph on Finlay and colleagues' soil screening and terramycin."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 20-21, paragraph beginning 'In this scientific era'."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 21, 'Second-generation semisynthetic tetracyclines', first paragraph."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Description, paragraphs beginning 'Our novel antibiotic' and 'Terramycin as so produced'."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Description, Example XXXII, hydrogenation and separation; opening discussion of antibacterial activity."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "p. 177, accessible OCR of the opening page; remaining pages unread."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://patents.google.com/patent/US2482055A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US2516080A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/US3200149A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1111/j.1749-6632.1948.tb27262.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/15400447/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "Aureomycin and terramycin are separately discovered natural-product leads in the same established class. Doxycycline development is traced from the oxytetracycline branch; later semisynthetic engineering does not make the class origin design from scratch.",
+      "The record does not reconstruct the independent developmental or synthetic histories of all later tetracycline derivatives."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "Only the first page of the 1948 Duggar journal report was read; its remaining pages were inaccessible. The 1950 Finlay report is located but unread. The detailed A-377 screening narrative comes from Nelson and Levy's retrospective, whose upstream 1969 book was not read.",
+      "The later drug name doxycycline is supplied by the retrospective, not asserted to appear in the passages read from the 1965 derivative patent."
+    ]
+  },
+  "nameAliases": [
+    "Acticlate",
+    "Adoxa",
+    "Alodox",
+    "Avidoxy",
+    "Doryx",
+    "Doxy",
+    "Mondoxyne",
+    "Monodox",
+    "Morgidox",
+    "Okebo",
+    "Oracea",
+    "Periostat",
+    "Targadox",
+    "Vibramycin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "TETRACYCLINES",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Duggar BM. Aureomycin and preparation of same. US patent 2,482,055, filed February 11, 1948, granted September 13, 1949.",
+        "url": "https://patents.google.com/patent/US2482055A/en",
+        "locator": "Description, paragraph beginning 'The organism which produces'; paragraph beginning 'To isolate the above described fungus'.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Duggar BM. Aureomycin and preparation of same. US patent 2,482,055, filed February 11, 1948, granted September 13, 1949.",
+        "url": "https://patents.google.com/patent/US2482055A/en",
+        "locator": "Description, opening paragraphs on the new substance and its antibacterial activity; subsequent fermentation section.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Nelson ML, Levy SB. The history of the tetracyclines. Ann N Y Acad Sci. 2011;1241:17-32. DOI 10.1111/j.1749-6632.2011.06354.x; PMID 22191524.",
+        "url": "https://doi.org/10.1111/j.1749-6632.2011.06354.x",
+        "locator": "pp. 18-19, 'The discovery of the tetracyclines', soil-screening and A-377 paragraphs.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Duggar BM. Aureomycin: A Product of the Continuing Search for New Antibiotics. Ann N Y Acad Sci. 1948;51:177-181. DOI 10.1111/j.1749-6632.1948.tb27262.x; PMID 18112227.",
+        "url": "https://doi.org/10.1111/j.1749-6632.1948.tb27262.x",
+        "locator": "p. 177, accessible OCR of the opening page; remaining pages unread.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

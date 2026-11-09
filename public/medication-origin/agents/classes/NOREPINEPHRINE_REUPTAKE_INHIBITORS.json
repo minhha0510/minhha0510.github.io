@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NOREPINEPHRINE_REUPTAKE_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NOREPINEPHRINE_REUPTAKE_INHIBITORS",
+    "name": "Selective norepinephrine reuptake inhibitors",
+    "medicines": [
+      "atomoxetine"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "atomoxetine",
+        "components": [
+          "atomoxetine"
+        ],
+        "usRank": 137,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "Basis scope: diphenhydramine-to-nisoxetine; extension to atomoxetine inferred.",
+    "starting": {
+      "description": "In the documented Lilly founding branch, diphenhydramine's observed potentiation of noradrenaline and inhibition of monoamine uptake suggested antidepressant potential and led to analogue synthesis and testing that yielded selective nisoxetine. Earlier observed neuronal uptake and imipramine's inhibition provided wider context. Documented class support is bounded to this founding branch; its extension to atomoxetine is inferred and the initial analogue-selection chronology remains unknown.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Neuronal noradrenaline uptake and its inhibition by the existing antidepressant imipramine and the antihistamine diphenhydramine.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Researchers observed neuronal uptake of noradrenaline and its inhibition by an existing antidepressant.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A separate early selective-noradrenaline inhibitor effort produced maprotiline.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Diphenhydramine's observed monoamine-uptake inhibition informed Lilly analogue synthesis; screening and structure-activity analysis produced nisoxetine, which was tested for selective noradrenaline uptake inhibition.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A 1982 original study reported selective norepinephrine uptake inhibition by LY139603, the more potent negative isomer of a phenoxypropylamine racemate. A later paper identifies LY139603 as atomoxetine, and a review describes its structural relationship to nisoxetine; these sources do not establish the exact development sequence between the compounds.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and screened diphenhydramine analogues, used structure-activity analysis to identify selective nisoxetine, and later compared the uptake inhibition of the optical isomers of a related methylphenoxy analogue. The precise rationale and chronological synthesis steps for selecting atomoxetine are not established by the sources read.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E5",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The Lilly analogue synthesis and mouse and uptake testing were planned; this does not establish whether the earlier pharmacological observations were anticipated.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Iversen L. 2006. Neurotransmitter transporters and their impact on the development of psychopharmacology. Br J Pharmacol 147 Suppl 1:S82-S88. DOI 10.1038/sj.bjp.0706428; PMID 16402124.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1760736/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Wong DT, Perry KW, Bymaster FP. 2005. Case history: the discovery of fluoxetine hydrochloride (Prozac). Nat Rev Drug Discov 4:764-774. DOI 10.1038/nrd1821; PMID 16121130.",
+        "url": "https://www.readkong.com/page/the-discovery-of-fluoxetine-hydrochloride-prozac-9733548",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Wong DT, Threlkeld PG, Best KL, Bymaster FP. 1982. A new inhibitor of norepinephrine uptake devoid of affinity for receptors in rat brain. J Pharmacol Exp Ther 222:61-65. DOI 10.1016/S0022-3565(25)33153-8; PMID 6123593.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6123593/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Bymaster FP, Katner JS, Nelson DL, Hemrick-Luecke SK, Threlkeld PG, Heiligenstein JH, Morin SM, Gehlert DR, Perry KW. 2002. Atomoxetine increases extracellular levels of norepinephrine and dopamine in prefrontal cortex of rat: a potential mechanism for efficacy in attention deficit/hyperactivity disorder. Neuropsychopharmacology 27:699-711. DOI 10.1016/S0893-133X(02)00346-9; PMID 12431845.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12431845/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Aggarwal S, Mortensen OV. 2023. Discovery and Development of Monoamine Transporter Ligands. Adv Neurobiol 30:101-129. DOI 10.1007/978-3-031-21054-9_4; PMID 36928847; PMCID PMC10074400.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10074400/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Discovery; Drugs as inhibitors of monoamine transporters, first paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Drugs as inhibitors of monoamine transporters, first paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "pp. 766-767, The phenoxyphenylpropylamines, first two paragraphs and continuation across page break"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "pp. 766-767, The phenoxyphenylpropylamines, assay and lead identification paragraphs"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "Abstract, compound identity, stereoisomer comparison and uptake selectivity"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "Abstract, first two sentences and transporter binding results"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "Section 4.5.3, Structure-Activity Relationship Studies of NET Ligands, first paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1038/nrd1821",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6123593/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12431845/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "Iversen describes an early selective maprotiline branch, not a direct chemical lineage to the Lilly program.",
+      "The diphenhydramine-to-nisoxetine founding program is documented; the extension of its observation-led origin to atomoxetine is inferred from a reported structural relationship and identity, not an explicit account of the precise synthesis sequence.",
+      "This record does not establish the distinct founding history of every selective norepinephrine reuptake inhibitor or the causal molecular mechanism of atomoxetine's ADHD effects."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "Full texts of the 1982 original LY139603 experiment and 2002 atomoxetine experiment were inaccessible; abstracts only were read.",
+      "The initial diphenhydramine uptake observation and original nisoxetine work were not read in their original reports.",
+      "A contemporaneous account establishing why and in what chronological sequence the methylphenoxy analogue was selected for synthesis was not found; structural analogy alone does not prove a direct nisoxetine-to-atomoxetine optimization sequence."
+    ]
+  },
+  "nameAliases": [
+    "Atoncy",
+    "Strattera"
+  ],
+  "humanContributionInterpretation": {
+    "id": "NOREPINEPHRINE_REUPTAKE_INHIBITORS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Iversen L. 2006. Neurotransmitter transporters and their impact on the development of psychopharmacology. Br J Pharmacol 147 Suppl 1:S82-S88. DOI 10.1038/sj.bjp.0706428; PMID 16402124.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1760736/",
+        "locator": "Discovery; Drugs as inhibitors of monoamine transporters, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Wong DT, Perry KW, Bymaster FP. 2005. Case history: the discovery of fluoxetine hydrochloride (Prozac). Nat Rev Drug Discov 4:764-774. DOI 10.1038/nrd1821; PMID 16121130.",
+        "url": "https://www.readkong.com/page/the-discovery-of-fluoxetine-hydrochloride-prozac-9733548",
+        "locator": "pp. 766-767, The phenoxyphenylpropylamines, first two paragraphs and continuation across page break",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Wong DT, Perry KW, Bymaster FP. 2005. Case history: the discovery of fluoxetine hydrochloride (Prozac). Nat Rev Drug Discov 4:764-774. DOI 10.1038/nrd1821; PMID 16121130.",
+        "url": "https://www.readkong.com/page/the-discovery-of-fluoxetine-hydrochloride-prozac-9733548",
+        "locator": "pp. 766-767, The phenoxyphenylpropylamines, assay and lead identification paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

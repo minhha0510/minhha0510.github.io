@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PSEUDOMONIC_ANTIBIOTICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PSEUDOMONIC_ANTIBIOTICS",
+    "name": "Pseudomonic-acid / isoleucyl-tRNA-synthetase inhibitors",
+    "medicines": [
+      "mupirocin"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "mupirocin",
+        "components": [
+          "mupirocin"
+        ],
+        "usRank": 148,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Investigators developed an antibacterial substance from the observed antagonistic activity of Pseudomonas fluorescens cultures: the inhibitory material was isolated and characterized as pseudomonic acid, the founding lead of the mupirocin family.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Antibacterial antagonism observed in bacterial cultures led to isolation of the natural bacterial metabolite pseudomonic acid; the named 1887 observation is historical context, not proof that its active compound was identical.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The Imperial College investigators isolated and characterized pseudomonic acid from the inhibitory products of P. fluorescens cultures, following evidence of antibacterial antagonism.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E5"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The inventors described an activity-guided isolation process: culturing a producer, removing inactive material, concentrating active fractions and separating pseudomonic acid from the mixture.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "After pseudomonic acid had been isolated, investigators reported inhibition of isoleucyl-tRNA synthetase, explaining a molecular target of the established natural antibiotic.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Systemic degradation limited oral and parenteral prospects, and Beecham researchers studied the established natural antibacterial agent for topical use, including tests against clinical skin isolates.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers developed an activity-guided purification process and characterized the natural antibacterial material, then developed a topical application in response to systemic degradation; the cited testimony does not establish a new designed active chemical scaffold.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The 1985 antibacterial evaluation for topical use was expressly designed for that purpose. The evidence does not establish whether the original observation or choice of strain was planned or unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Fuller AT, Mellows G, Woolford M, Banks GT, Barrow KD, Chain EB. 1971. Pseudomonic acid: an antibiotic produced by Pseudomonas fluorescens. Nature 234:416–417. DOI 10.1038/234416a0; PMID 5003547.",
+        "url": "https://www.nature.com/articles/234416a0",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Sutherland R, testimony in Reynolds LA, Tansey EM, eds. 2008. Superbugs and Superdrugs: A History of MRSA. Wellcome Witnesses to Twentieth Century Medicine, vol. 32, pp. 46–49; seminar held 11 July 2006. ISBN 978-0-85484-114-1.",
+        "url": "https://histmodbiomed.history.qmul.ac.uk/sites/default/files/44862.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Sutherland R, Boon RJ, Griffin KE, Masters PJ, Slocombe B, White AR. 1985. Antibacterial activity of mupirocin (pseudomonic acid), a new antibiotic for topical use. Antimicrob Agents Chemother 27:495–498. DOI 10.1128/AAC.27.4.495; PMID 3923922.",
+        "url": "https://journals.asm.org/doi/pdf/10.1128/aac.27.4.495",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Barrow KD, Mellows G. Antibiotics. US patent US3977943A, published 31 August 1976; priority claimed 12 June 1971. Assigned to Beecham Group Ltd.",
+        "url": "https://patents.google.com/patent/US3977943A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Hughes J, Mellows G. 1980. Interaction of pseudomonic acid A with Escherichia coli B isoleucyl-tRNA synthetase. Biochem J 191:209–219. DOI 10.1042/bj1910209; PMID 6258580; PMCID PMC1162199.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6258580/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Publisher preview labelled Abstract, opening paragraph of the 1971 paper."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Printed p. 49, Robert Sutherland's witness-seminar testimony, first paragraph on pseudomonic acid; PDF page 73, following his introduction on p. 46."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Printed p. 49, Robert Sutherland's continuation on the oral/parenteral development problem and subsequent topical use; PDF page 73."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "p. 495, introduction paragraphs 1–2, and p. 496, Results: antibacterial spectrum."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "Description, opening paragraphs and process description; Examples 1–2, Isolation of Antibacterially Active Fractions and Purification of Pseudomonic Acid."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "PubMed / Europe PMC abstract, opening sentences; full article not read."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nature.com/articles/234416a0",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://histmodbiomed.history.qmul.ac.uk/sites/default/files/44862.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://journals.asm.org/doi/pdf/10.1128/aac.27.4.495",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/US3977943A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6258580/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "This record concerns the established pseudomonic-acid/mupirocin family represented by mupirocin, not every unrelated inhibitor of isoleucyl-tRNA synthetase."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The full 1971 founding paper was not accessed; its publisher preview was read. The original strain-selection procedure and exact circumstances of discovery remain unestablished.",
+      "The 1980 target-mechanism original was read only as an abstract; the complete 1978 mechanism paper was not read. Neither limitation establishes how the original strain was chosen.",
+      "The identity of the person who proposed topical use and its precise priority are not established by the sources read."
+    ]
+  },
+  "nameAliases": [
+    "Bactroban",
+    "Centany",
+    "Muricin",
+    "Pirnuo"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PSEUDOMONIC_ANTIBIOTICS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Rapid loss of systemic activity in pharmacokinetic work helped direct mupirocin toward topical use.",
+    "scope": "Mixed human and animal experiments and analytical measurements; not a bedside discovery of antibiotic activity.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Sutherland R, testimony in Reynolds LA, Tansey EM, eds. 2008. Superbugs and Superdrugs: A History of MRSA. Wellcome Witnesses to Twentieth Century Medicine, vol. 32, pp. 46–49; seminar held 11 July 2006. ISBN 978-0-85484-114-1.",
+        "url": "https://histmodbiomed.history.qmul.ac.uk/sites/default/files/44862.pdf",
+        "locator": "Printed p. 49, Robert Sutherland's continuation on the oral/parenteral development problem and subsequent topical use; PDF page 73.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Sutherland R, Boon RJ, Griffin KE, Masters PJ, Slocombe B, White AR. 1985. Antibacterial activity of mupirocin (pseudomonic acid), a new antibiotic for topical use. Antimicrob Agents Chemother 27:495–498. DOI 10.1128/AAC.27.4.495; PMID 3923922.",
+        "url": "https://journals.asm.org/doi/pdf/10.1128/aac.27.4.495",
+        "locator": "p. 495, introduction paragraphs 1–2, and p. 496, Results: antibacterial spectrum.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

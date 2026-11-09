@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ENAC_BLOCKERS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ENAC_BLOCKERS",
+    "name": "ENaC-blocking potassium-sparing diuretics",
+    "medicines": [
+      "triamterene"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "hydrochlorothiazide + triamterene",
+        "components": [
+          "hydrochlorothiazide",
+          "triamterene"
+        ],
+        "usRank": 134,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "For the triamterene branch, a reported kidney-growth response to a butterfly-wing pteridine pigment prompted investigation and testing of related pteridines; Gorecki identifies the pigment as xanthopterin. A separate pyrazine branch began with observed diuretic activity during screening of synthetic folate-antagonist intermediates.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E5"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The triamterene pteridine program followed a biological response to a butterfly pigment, identified in the dissertation as xanthopterin, and was advanced by the observed diuretic effects of synthetic pteridines. The distinct pyrazine branch followed diuretic activity observed while screening synthetic intermediates.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A reported pteridine-related kidney effect motivated a hypothesis about renal function and a directed screen of pteridines in rats.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Observed diuretic activity in SKF 371 prompted further testing. The diuretic SKF 6874 caused potassium loss, but its activity suggested further polyaminoarylpteridines; triamterene displayed sodium excretion with reduced potassium excretion in sodium-deficient rats.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The participant retrospective reports promising triamterene tests in 1958 and clinical trials by 1960.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a separate pyrazine branch, a diuretic effect observed during screening of synthetic folate-antagonist intermediates led through chemical substitution to amiloride.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and tested pteridines, explored changes in amino and aryl substitution, and identified a compound with a useful potassium-sparing profile rather than merely optimizing delivery. In the separate pyrazine account, substitutions in a monocyclic series developed the synthetic-intermediate screening lead into amiloride; the pteridine and pyrazine architectures differ.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The pteridine diuretic screen was planned after the kidney clue; the pyrazine effect came from routine screening. The inventors' patent also describes its reported pteridine actions as unexpected, while assigning an early aldosterone-blocking explanation. This does not establish that the initial kidney-growth observation or the entire program was accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Ullyot GE, Ullyot BH, Slater LB. 2000. The Metamorphosis of Smith-Kline & French Laboratories to Smith Kline Beecham: 1925–1998. Bulletin for the History of Chemistry 25(1):16–20.",
+        "url": "https://acshist.scs.illinois.edu/bulletin_open_access/FullIssues/bhc2000v025f1.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Gorecki DKJ. 1973. The Synthesis and Screening of 1,6- and 1,8-Naphthyridine Analogs of Pteridine Diuretic Agents. PhD dissertation, University of Saskatchewan.",
+        "url": "https://harvest.usask.ca/bitstreams/7f703ffb-4b45-446a-825c-69ce655440fc/download",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Weinstock J, Wiebelhaus VD. 1963. Diuretic and antihypertensive triaminoarylpteridines. US patent 3,081,230, filed 1960-09-08, issued 1963-03-12.",
+        "url": "https://patents.google.com/patent/US3081230A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Royal Society Anniversary Address by Sir Robert Robinson, F.R.S. 1948. Nature 162:872–878. doi:10.1038/162872a0. Publisher indexes the item under R. George.",
+        "url": "https://www.nature.com/articles/162872a0",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Baba WI, Tudhope GR, Wilson GM. 1962. Triamterene, a new diuretic drug. I. Studies in normal men and in adrenalectomized rats. British Medical Journal 2(5307):756–760. doi:10.1136/bmj.2.5307.756; PMID:13863613.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13863613/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Young FG. 1955. Pteridines. British Medical Journal 1(4925):1325. doi:10.1136/bmj.1.4925.1325. Review of Ciba Foundation Symposium on Chemistry and Biology of Pteridines.",
+        "url": "https://doi.org/10.1136/bmj.1.4925.1325",
+        "role": "historical_review",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Wiebelhaus VD, Weinstock J, Maass AB, Brennan FT, Sosnowski G, Larsen T. 1965. The diuretic and natruretic activity of triamterene and several related pteridines in the rat. Journal of Pharmacology and Experimental Therapeutics 149(3):397–403. PMID:5848050.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5848050/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 19, The Next Big Development, pteridine program paragraph; p. 20, reference 2 and author note"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 19, The Next Big Development, paragraph following the kidney clue"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 5, historical introduction; PDF p. 22"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "pp. 8–9 and 15; PDF pp. 25–26 and 32"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 19–21; PDF pp. 36–38"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "description, paragraphs beginning 'The novel medicinal preparations' and 'The novel compositions'; examples 18 and 21"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 878, discussion of Haddow's experiments; cached continuation on a page shared with the next article"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "pp. 756–759, methods, adrenalectomized-rat results, discussion and summary"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://acshist.scs.illinois.edu/bulletin_open_access/FullIssues/bhc2000v025f1.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US3081230A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13863613/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5848050/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "Triamterene is the only frozen cohort member. The distinct amiloride pyrazine branch is included for class context, not as an added cohort member; its account is a retrospective synthesis and must not be assumed to derive from xanthopterin.",
+      "Mineralocorticoid receptor antagonists are excluded."
+    ],
+    "conflicts": [
+      "Gorecki places a kidney-hypertrophy observation in 1954, whereas the 1948 Robinson address already describes xanthopterin-associated rat-kidney enlargement. Gorecki cites a 1954 Haddow symposium contribution for the effect; that publication year does not establish when the experiment was performed. It is unclear whether 1954 refers to a later observation or is a chronology error; first discovery is not resolved.",
+      "The inventors' patent filed in 1960 describes the preparations as aldosterone blockers; Baba and colleagues' 1962 adrenalectomized-rat experiment instead supports a renal tubular action independent of aldosterone antagonism. The patent's functional/historical description is not proof of a mineralocorticoid receptor mechanism."
+    ],
+    "gaps": [
+      "Young's 1955 British Medical Journal review cited by the participant retrospective was identified by Crossref but its content was not accessible; the retrospective itself does not name the pigment. Haddow's cited 1954 symposium pages and the original full kidney-hypertrophy experiment were not read.",
+      "Wiebelhaus and colleagues' 1965 company experiment was located by PubMed metadata only and not read; no experimental details are attributed to it here.",
+      "Baba et al. did not identify molecular ENaC binding; the class membership was supplied in the packet rather than re-established here."
+    ]
+  },
+  "nameAliases": [
+    "Dyazide",
+    "Maxzide"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ENAC_BLOCKERS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Ullyot GE, Ullyot BH, Slater LB. 2000. The Metamorphosis of Smith-Kline & French Laboratories to Smith Kline Beecham: 1925–1998. Bulletin for the History of Chemistry 25(1):16–20.",
+        "url": "https://acshist.scs.illinois.edu/bulletin_open_access/FullIssues/bhc2000v025f1.pdf",
+        "locator": "p. 19, The Next Big Development, pteridine program paragraph; p. 20, reference 2 and author note",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Gorecki DKJ. 1973. The Synthesis and Screening of 1,6- and 1,8-Naphthyridine Analogs of Pteridine Diuretic Agents. PhD dissertation, University of Saskatchewan.",
+        "url": "https://harvest.usask.ca/bitstreams/7f703ffb-4b45-446a-825c-69ce655440fc/download",
+        "locator": "p. 5, historical introduction; PDF p. 22",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Gorecki DKJ. 1973. The Synthesis and Screening of 1,6- and 1,8-Naphthyridine Analogs of Pteridine Diuretic Agents. PhD dissertation, University of Saskatchewan.",
+        "url": "https://harvest.usask.ca/bitstreams/7f703ffb-4b45-446a-825c-69ce655440fc/download",
+        "locator": "pp. 19–21; PDF pp. 36–38",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/MINERALOCORTICOID_ANTAGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "MINERALOCORTICOID_ANTAGONISTS",
+    "name": "Mineralocorticoid receptor antagonists",
+    "medicines": [
+      "eplerenone",
+      "spironolactone"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "eplerenone",
+        "components": [
+          "eplerenone"
+        ],
+        "usRank": null,
+        "englandRank": 119,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "spironolactone",
+        "components": [
+          "spironolactone"
+        ],
+        "usRank": 50,
+        "englandRank": 70,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In work with an existing synthetic steroidal series, SC-5233 was observed to antagonize mineralocorticoid-dependent sodium retention, while related blood-pressure effects were observed in rats. The investigators then recommended clinical development of the active compound.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed effects of SC-5233 in mineralocorticoid-dependent animal models supplied the lead for development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The investigators observed effects of SC-5233 in renal and hypertension models and recommended it for clinical development.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Medicinal chemists deliberately modified the initially active series to improve oral activity; the oral potency of their 7α-acetylthio compound VIa surprised them, and the corresponding steroid became spironolactone.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Subsequent selectivity-focused work modified the existing spirolactone series; an epoxy derivative of mexrenone became eplerenone.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators deliberately modified an active steroidal series, including a 7α-acetylthio change, to improve oral activity, then generated epoxy derivatives of related spirolactones to improve mineralocorticoid receptor selectivity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Kagawa deliberately sought anti-deoxycorticosterone activity, and the chemists deliberately sought stronger oral activity. Cella and Tweit described VIa's strong oral activity as unexpected compared with its parenteral result. The source does not establish whether the original SC-5233 finding was surprising.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E5",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Sturtevant FM. 1992. A Lesson to Be Gained from Basic Research Programs. Current Contents/Life Sciences 35(28):9, July 13, 1992. Commentary on Kagawa CM, Sturtevant FM, Van Arman CG. 1959. Pharmacology of a new steroid that blocks salt activity of aldosterone and desoxycorticosterone. J Pharmacol Exp Ther 126:123.",
+        "url": "https://garfield.library.upenn.edu/classics1992/A1992JA16700002.pdf",
+        "role": "discoverer_account",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Kolkhof P, Bärfacker L. 2017. 30 YEARS OF THE MINERALOCORTICOID RECEPTOR: Mineralocorticoid receptor antagonists: 60 years of research and development. J Endocrinol 234:T125–T140. DOI 10.1530/JOE-16-0600; PMID 28634268.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5488394/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Cella JA, Tweit RC. 1959. Steroidal Aldosterone Blockers. II. J Org Chem 24(8):1109–1110. DOI 10.1021/jo01090a019.",
+        "url": "https://lib3.dss.go.th/fulltext/scan_ebook/j.or_chem_1959_v24_n8.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Thorn GW, Engel LL. 1938. The effect of sex hormones on the renal excretion of electrolytes. J Exp Med 68(3):299–312. DOI 10.1084/jem.68.3.299; PMID 19870789; PMCID PMC2133677.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2133677/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Kagawa CM, Cella JA, Van Arman CG. 1957. Action of new steroids in blocking effects of aldosterone and desoxycorticosterone on salt. Science 126(3281):1015–1016. DOI 10.1126/science.126.3281.1015; PMID 13486053.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13486053/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 9, signed commentary, paragraphs 1 and 3–5"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 9, opening synopsis and signed commentary, penultimate paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Steroidal MRAs / Spironolactone, opening paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Steroidal MRAs / Potassium prorenoate, prorenone and potassium mexrenoate, mexrenone; Eplerenone"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "pp. 1109–1110, introduction, results paragraph and Table I footnote"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "pp. 1109–1110, final results sentence continuing over the page break"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 301, progesterone results and Table I; pp. 309–312, Discussion and Summary"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://garfield.library.upenn.edu/classics1992/A1992JA16700002.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://lib3.dss.go.th/fulltext/scan_ebook/j.or_chem_1959_v24_n8.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2133677/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13486053/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The discoverer's account describes SC-5233 and spironolactone. The eplerenone successor lineage is supported by a historical review, not by its original experimental reports.",
+      "The review's proposed progesterone-related rationale for the original chemical program is not directly established by the discoverer account.",
+      "The assigned cohort is the steroidal spironolactone and eplerenone lineage; later nonsteroidal mineralocorticoid receptor antagonists were not reconstructed and this judgment is not independently established for them."
+    ],
+    "conflicts": [
+      "S2 attributes progesterone-induced natriuresis in dogs to Thorn and Engel 1938, whereas that exact original experiment S4 reports decreased urinary sodium and chloride excretion after progesterone. The discrepancy concerns this specific source attribution and does not establish that progesterone lacks natriuretic effects in other experiments. The founding SC-5233 classification rests on S1 rather than the disputed claim."
+    ],
+    "gaps": [
+      "The exact rationale behind the initial Searle synthesis is sparse in the historical review; a direct causal link from the earlier progesterone observations to that program is not established.",
+      "The 1957 original antagonist-activity report S5 was located through metadata, but PubMed has no abstract and publisher full text returned HTTP 403.",
+      "The 1955 Landau human-progesterone paper and original eplerenone experiments were not read; the human observations and eplerenone lineage are represented only as stated or limited in the historical review."
+    ]
+  },
+  "nameAliases": [
+    "Aldactone",
+    "Carospir",
+    "Inspra"
+  ],
+  "humanContributionInterpretation": {
+    "id": "MINERALOCORTICOID_ANTAGONISTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Gynecomastia and other unwanted hormonal effects with spironolactone motivated searches for more selective mineralocorticoid antagonists.",
+    "scope": "The recorded founding SC-5233 finding was experimental; this qualifying link concerns later successors, including eplerenone.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Kolkhof P, Bärfacker L. 2017. 30 YEARS OF THE MINERALOCORTICOID RECEPTOR: Mineralocorticoid receptor antagonists: 60 years of research and development. J Endocrinol 234:T125–T140. DOI 10.1530/JOE-16-0600; PMID 28634268.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5488394/",
+        "locator": "Steroidal MRAs / Potassium prorenoate, prorenone and potassium mexrenoate, mexrenone; Eplerenone",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

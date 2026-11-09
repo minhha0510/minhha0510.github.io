@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/MELATONIN_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "MELATONIN_AGONISTS",
+    "name": "Melatonin receptor agonists",
+    "medicines": [
+      "melatonin"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "melatonin",
+        "components": [
+          "melatonin"
+        ],
+        "usRank": null,
+        "englandRank": 99,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Bovine pineal extract lightened frog tadpole skin; researchers used the observed effect as a bioassay to isolate the responsible endogenous substance, melatonin. Later observations of nighttime melatonin and sleep-related effects helped motivate therapeutic investigation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E8",
+        "E11"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule",
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "An animal skin-pigment response to pineal extracts led to isolation of the endogenous hormone melatonin; observations of its nighttime rhythm and sleep-related effects informed subsequent therapeutic investigation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E8",
+        "E11"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "An observed frog-skin response to bovine pineal extract supplied a bioassay used to isolate melatonin; the investigators used synthetic material to test its proposed structure.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Pigment-cell pharmacology informed receptor hypotheses and subsequently mammalian receptor cloning.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Observations of nighttime hormone levels and earlier high-dose effects informed a deliberate low-dose human study; an investigator proposed possible use for people with low secretion. Later development included a prolonged-release hormone formulation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E5",
+          "E6",
+          "E11"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Medicinal chemists prepared hormone-related analogues and replaced its indole core in other agonists; a program synthesized and optimized a constrained indan series, producing the clinical candidate TAK-375.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators synthesized the identified hormone to test its structure. Later work developed prolonged-release hormone and chemically distinct agonists, including indole-core replacement and conformational restriction to alter receptor-binding and metabolic properties. The complete sequence of predecessors in the indan program is not established by the 2002 abstract.",
+      "support": "documented",
+      "evidence_ids": [
+        "E7",
+        "E9",
+        "E10",
+        "E11"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The named events are the low-dose oral-melatonin versus placebo physiology experiment and the synthesis of a receptor-active indan series; this does not characterize the chance status of every earlier finding.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E5",
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "MIT News / National Center for Research Resources. 1994. Study on melatonin, sleep published. March 2, 1994.",
+        "url": "https://news.mit.edu/1994/melatonin-0302",
+        "role": "institutional_history",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Dubocovich ML, Delagrange P, Krause DN, Sugden D, Cardinali DP, Olcese J. 2010. International Union of Basic and Clinical Pharmacology. LXXV. Nomenclature, classification, and pharmacology of G protein-coupled melatonin receptors. Pharmacological Reviews 62:343-380. DOI 10.1124/pr.110.002832; PMID 20605968.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2964901/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Dollins AB, Zhdanova IV, Wurtman RJ, Lynch HJ, Deng MH. 1994. Effect of inducing nocturnal serum melatonin concentrations in daytime on sleep, mood, body temperature, and performance. Proceedings of the National Academy of Sciences USA 91:1824-1828. DOI 10.1073/pnas.91.5.1824; PMID 8127888. Relevant sections read in the 17 November 1993 in-press manuscript.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=f5fe658cfcc69d7d17a5294f50d558cbd75c9f4e&repid=rep1&type=pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Uchikawa O, Fukatsu K, Tokunoh R, Kawada M, Matsumoto K, Imai Y, Hinuma S, Kato K, Nishikawa H, Hirai K, Miyamoto M, Ohkawa S. 2002. Synthesis of a novel series of tricyclic indan derivatives as melatonin receptor agonists. Journal of Medicinal Chemistry 45:4222-4239. DOI 10.1021/jm0201159; PMID 12213063.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12213063/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Lerner AB, Case JD, Takahashi Y. 1960. Isolation of melatonin and 5-methoxyindole-3-acetic acid from bovine pineal glands. Journal of Biological Chemistry 235:1992-1997. DOI 10.1016/S0021-9258(18)69351-2; PMID 14415935.",
+        "url": "https://www.researchgate.net/publication/9172278_Isolation_of_Melatonin_and_5-Methoxyindole-3-Acetic_Acid_from_Bovine_Pineal_Glands",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Spadoni G, Bedini A, Rivara S, Mor M. 2011. Melatonin receptor agonists: new options for insomnia and depression treatment. CNS Neuroscience & Therapeutics 17:733-741. DOI 10.1111/j.1755-5949.2010.00197.x; PMID 21554566; PMCID PMC6493855.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493855/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "McCord CP, Allen FP. 1917. Evidences associating pineal gland function with alterations in pigmentation. Journal of Experimental Zoology 23:207-224. DOI 10.1002/jez.1400230108.",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/jez.1400230108",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Lerner AB, Case JD, Takahashi Y, Lee TH, Mori W. 1958. Isolation of melatonin, the pineal gland factor that lightens melanocytes. Journal of the American Chemical Society 80:2587. DOI 10.1021/ja01543a060.",
+        "url": "https://pubs.acs.org/doi/10.1021/ja01543a060",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Lerner AB, Case JD, Heinzelman RV. 1959. Structure of melatonin. Journal of the American Chemical Society 81:6084-6085. DOI 10.1021/ja01531a060.",
+        "url": "https://pubs.acs.org/doi/10.1021/ja01531a060",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Opening paragraphs, investigator statement on hormone secretion and possible use."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Study description, final paragraph before the investigator's closing quotation."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 347, section I.B, Melatonin Receptor Discovery: Historical Background, first paragraph."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 347, section I.B, first paragraph on cloning mammalian GPCRs."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "17 November 1993 in-press manuscript, p. 2, Introduction, final paragraph."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "17 November 1993 in-press manuscript, pp. 3-6, Methods, sleep-test Results and Discussion."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "PubMed abstract, sentences 1-4."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "p. 1992, Experimental Procedure, Bioassay and Isolation Procedure; p. 1993, continuation of isolation procedure."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "pp. 1995-1996, Identification of II (Melatonin); p. 1997, Summary."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "Strategies to Develop Melatonin Agonists, first and second paragraphs and Figure 2."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S6",
+        "locator": "Melatonin Receptor Agonists in the Management of Insomnia and Major Depression, first two paragraphs."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S3",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=f5fe658cfcc69d7d17a5294f50d558cbd75c9f4e&repid=rep1&type=pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12213063/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.researchgate.net/publication/9172278_Isolation_of_Melatonin_and_5-Methoxyindole-3-Acetic_Acid_from_Bovine_Pineal_Glands",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/jez.1400230108",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubs.acs.org/doi/10.1021/ja01543a060",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://pubs.acs.org/doi/10.1021/ja01531a060",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The cohort contains melatonin itself: the finding chiefly concerns the endogenous-hormone and replacement branch, not a claim about each brand or formulation.",
+      "The indan agonist illustrates a chemically distinct later branch grounded in melatonin-related structure-activity work; its exact intermediate precursor sequence and other companies' individual programs were not reconstructed.",
+      "The 1917, 1958 and 1959 originals were located but not read; the source for the historical link is the later receptor review, supplemented by the isolators' 1960 full-text experimental account."
+    ],
+    "conflicts": [
+      "The S6 introduction compresses isolation and structure identification into 1958, whereas S2 cites a 1959 structure report; the publisher confirms the existence of the 1959 structure communication S9. Neither the 1958 nor 1959 communication was read, so the exact timing of structural identification is not independently resolved here."
+    ],
+    "gaps": [
+      "The original 1917 observation, 1958 isolation communication and 1959 structure communication were located but their experimental texts were not read; their identities and access limits are in the receipt.",
+      "The 1994 human experiment was read in an in-press manuscript rather than the final typeset publication; a direct causal link from that study to a particular melatonin product was not established.",
+      "The full 2002 medicinal-chemistry paper and its earlier precursor publication were not read; the report was accessed at abstract level and the broad structural relationship is supported by a later review."
+    ]
+  },
+  "nameAliases": [],
+  "humanContributionInterpretation": {
+    "id": "MELATONIN_AGONISTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Human sleep investigations and short melatonin exposure supplied a rationale for prolonged-release formulations and longer-lived agonists.",
+    "scope": "No unique early trial-to-product bridge is established; efficacy conclusions remain qualified in the source review.",
+    "references": [
+      {
+        "id": "E5",
+        "citation": "Dollins AB, Zhdanova IV, Wurtman RJ, Lynch HJ, Deng MH. 1994. Effect of inducing nocturnal serum melatonin concentrations in daytime on sleep, mood, body temperature, and performance. Proceedings of the National Academy of Sciences USA 91:1824-1828. DOI 10.1073/pnas.91.5.1824; PMID 8127888. Relevant sections read in the 17 November 1993 in-press manuscript.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=f5fe658cfcc69d7d17a5294f50d558cbd75c9f4e&repid=rep1&type=pdf",
+        "locator": "17 November 1993 in-press manuscript, p. 2, Introduction, final paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Dollins AB, Zhdanova IV, Wurtman RJ, Lynch HJ, Deng MH. 1994. Effect of inducing nocturnal serum melatonin concentrations in daytime on sleep, mood, body temperature, and performance. Proceedings of the National Academy of Sciences USA 91:1824-1828. DOI 10.1073/pnas.91.5.1824; PMID 8127888. Relevant sections read in the 17 November 1993 in-press manuscript.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=f5fe658cfcc69d7d17a5294f50d558cbd75c9f4e&repid=rep1&type=pdf",
+        "locator": "17 November 1993 in-press manuscript, pp. 3-6, Methods, sleep-test Results and Discussion.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E11",
+        "citation": "Spadoni G, Bedini A, Rivara S, Mor M. 2011. Melatonin receptor agonists: new options for insomnia and depression treatment. CNS Neuroscience & Therapeutics 17:733-741. DOI 10.1111/j.1755-5949.2010.00197.x; PMID 21554566; PMCID PMC6493855.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493855/",
+        "locator": "Melatonin Receptor Agonists in the Management of Insomnia and Major Depression, first two paragraphs.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

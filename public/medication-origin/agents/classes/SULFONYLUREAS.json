@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/SULFONYLUREAS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "SULFONYLUREAS",
+    "name": "Sulfonylureas",
+    "medicines": [
+      "gliclazide",
+      "glimepiride",
+      "glipizide"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "gliclazide",
+        "components": [
+          "gliclazide"
+        ],
+        "usRank": null,
+        "englandRank": 46,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "glimepiride",
+        "components": [
+          "glimepiride"
+        ],
+        "usRank": 123,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "glipizide",
+        "components": [
+          "glipizide"
+        ],
+        "usRank": 53,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Unexpected hypoglycaemia during treatment with a synthetic antibacterial sulfonamide supplied the clinical starting observation. Investigators then tested pancreatic dependence, inferred insulin secretion and developed the therapeutic class.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E5"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "A clinical effect of synthetic2254RP followed by pancreatic/insulin physiology. No naturally isolated molecular scaffold is needed for the approved observation-led interpretation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Clinical hypoglycaemic events during antibacterial2254RP treatment prompted investigation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Physiological experiments showed pancreatic dependence and supported an insulin-secretory interpretation and therapeutic proposal.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Later carbutamide/tolbutamide observations and clinical development established the oral hypoglycaemic class; individual later analogues are outside scope.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The programme deliberately investigated mechanism and related structures after the clinical signal, then developed and evaluated therapeutic sulfonylureas. The initiating adverse effect was not an activity first designed from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The clinical hypoglycaemia was unexpected; subsequent animal/physiological and therapeutic studies were deliberate.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Lavabre-Bertrand T, Faillie JL.2021. The discovery of hypoglycaemic sulphonamides – Montpellier,1942. Therapie76(6):559–566. DOI10.1016/j.therap.2021.09.003; PMID34656290. HAL author manuscript.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34656290/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Loubatières-Mariani MM. 2007. [The discovery of hypoglycemic sulfonamides]. PMID17978743.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17978743/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Levine R. 1984. Sulfonylureas: background and development of the field. PMID6376027.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6376027/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "HAL PDF pp.4–5, II.Hasard et attention"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "HAL PDF p.5, III.Une quête physiologique"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "HAL PDF p.6, opening paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Complete English PubMed abstract, clinical observation and mechanistic paragraphs"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "PubMed abstract, first sentence"
+      }
+    ],
+    "originalAccounts": [],
+    "limits": [
+      "The precursor2254RP was a sulfonamide; do not silently call every early precursor a finished sulfonylurea.",
+      "Observation-led describes the clinical/biological starting effect despite synthetic chemistry. It does not assert a naturally isolated structural template.",
+      "This class-level record does not reconstruct every later analogue or decide day-level priority."
+    ],
+    "conflicts": [
+      "The2021 reconstruction dates an early dog experiment to12June1942, while the2007 abstract gives13June1942. The causal chain is retained without a day-level priority claim."
+    ],
+    "gaps": [
+      "Original1942 clinical reports and the1946 thesis were cited in the historical sources but not independently read. A verified direct original URL was not located in the retained work, so no original-account link is invented.",
+      "The2007 and1984 accounts were read at abstract extent only; the central historical chain rests on the full deposited2021 manuscript sections."
+    ]
+  },
+  "nameAliases": [
+    "Glucotrol"
+  ],
+  "humanContributionInterpretation": {
+    "id": "SULFONYLUREAS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Hypoglycemia during antibacterial sulfonamide treatment prompted investigation of glucose-lowering therapy.",
+    "scope": "The original 1942 account was not directly verified in the accepted dossier; historical accounts and subsequent experiments support the link.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Lavabre-Bertrand T, Faillie JL.2021. The discovery of hypoglycaemic sulphonamides – Montpellier,1942. Therapie76(6):559–566. DOI10.1016/j.therap.2021.09.003; PMID34656290. HAL author manuscript.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34656290/",
+        "locator": "HAL PDF pp.4–5, II.Hasard et attention",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Lavabre-Bertrand T, Faillie JL.2021. The discovery of hypoglycaemic sulphonamides – Montpellier,1942. Therapie76(6):559–566. DOI10.1016/j.therap.2021.09.003; PMID34656290. HAL author manuscript.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/34656290/",
+        "locator": "HAL PDF p.5, III.Une quête physiologique",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Loubatières-Mariani MM. 2007. [The discovery of hypoglycemic sulfonamides]. PMID17978743.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17978743/",
+        "locator": "Complete English PubMed abstract, clinical observation and mechanistic paragraphs",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E5",
+        "citation": "Levine R. 1984. Sulfonylureas: background and development of the field. PMID6376027.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6376027/",
+        "locator": "PubMed abstract, first sentence",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

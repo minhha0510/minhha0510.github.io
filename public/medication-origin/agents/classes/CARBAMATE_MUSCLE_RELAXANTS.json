@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/CARBAMATE_MUSCLE_RELAXANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "CARBAMATE_MUSCLE_RELAXANTS",
+    "name": "Carbamate skeletal muscle relaxants",
+    "medicines": [
+      "methocarbamol"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "methocarbamol",
+        "components": [
+          "methocarbamol"
+        ],
+        "usRank": 103,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Existing glycerol ethers had observed skeletal-muscle-relaxant effects: Berger and Bradley documented the related mephenesin effect, while the glyceryl guaiacolate parent of methocarbamol was also described as muscle-relaxing. Murphey explicitly used these known active compounds as the prior-art context for a new carbamate.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Previously observed muscle-relaxing activity of related glycerol ethers, including mephenesin and glyceryl guaiacolate; the latter was the chemical parent of methocarbamol. An existing mephenesin carbamate was also prior art. No claim is made that a natural material motivated the program.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Following observed muscle relaxation in a glycerol-ether series, Berger and Bradley selected myanesin for pharmacological and preliminary clinical evaluation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "By 1951 Ginzel had compared the related myanesin with Myokain, o-methoxyphenyl glycerol ether, for central paralytic and anticonvulsant effects, among other properties. A later contemporary account identifies the glyceryl guaiacolate parent of methocarbamol as muscle relaxing.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Murphey described prior active glycerol-ether relaxants and proposed an ortho-alkoxy-substituted carbamate series, including the glyceryl-guaiacolate carbamate, to seek improved duration and reduced adverse hemolytic action.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A 1958 pharmacological comparison identified AHR-85 as methocarbamol and reported longer protection for the carbamate than its glycerol-ether parent in a rat strychnine-challenge assay.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Murphey carbamylated the terminal hydroxyl of an active glycerol-ether parent, using an ortho-alkoxy-substituted aromatic structure, with the stated goals of prolonging activity and reducing adverse hemolytic action. This is deliberate structural optimization of active leads, not evidence of a de novo therapeutic concept.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The specific event described as planned is Murphey's carbamate-development objective; whether the initial observation of relaxation was unexpected is not established by the cited original study.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Berger FM, Bradley W. 1946. The pharmacological properties of α:β-dihydroxy-γ-(2-methylphenoxy)-propane (myanesin). Br J Pharmacol Chemother 1:265–272. DOI 10.1111/j.1476-5381.1946.tb00046.x; PMID 19108096.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1509753/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Murphey RS. 1956. o-Methoxyphenoxy-2-hydroxy-propyl carbamates. US patent 2,770,649; filed 22 June 1955, granted 13 November 1956.",
+        "url": "https://patents.google.com/patent/US2770649A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Crandell DL, Hollandsworth LC, Whitcher CE. 1959. The role of the anaesthesiologist in the management of severe systemic tetanus. Can Anaesth Soc J 6:24–31. DOI 10.1007/BF03014192.",
+        "url": "https://link.springer.com/content/pdf/10.1007/BF03014192.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Truitt EB Jr, Little JM. 1958. A pharmacologic comparison of methocarbamol (AHR-85), the monocarbamate of 3-(o-methoxyphenoxy)-1,2-propanediol with chemically related interneuronal depressant drugs. J Pharmacol Exp Ther 122:239–246. DOI 10.1016/S0022-3565(25)11960-5; PMID 13514612.",
+        "url": "https://jpet.aspetjournals.org/article/S0022-3565%2825%2911960-5/abstract",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Ginzel KH. 1951. Vergleichende Untersuchung einiger antikonvulsiv wirksamer Glyzerinäther. Naunyn-Schmiedebergs Arch Exp Pathol Pharmakol 212:331–338 per publisher. DOI 10.1007/BF00244992; PMID 14820121.",
+        "url": "https://link.springer.com/article/10.1007/BF00244992",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Ginzel KH, Leupold-Lowenthal H, Weis W. 1949. Ueber Tierversuche mit Myocain. Wien Med Wochenschr 99(25–26):299 per PubMed. PMID 18135332.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18135332/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 265–266, introduction and selection; pp. 271–272, discussion and summary"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "column 1, Prior Art and statement of objects"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "columns 1–2, statement of objects and Example I; columns 3–4, pharmacology"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "p. 26, paragraph beginning Methocarbamol; p. 31, references 8–11"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "publisher abstract, first paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "Publisher German Zusammenfassung, points 1–4; bibliography references 1 and 18"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1509753/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US2770649A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://jpet.aspetjournals.org/article/S0022-3565%2825%2911960-5/abstract",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://link.springer.com/article/10.1007/BF00244992",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18135332/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The established causal chain is bounded to methocarbamol, the sole cohort member: its chemical parent is glyceryl guaiacolate. Mephenesin was a related working relaxant, not the chemical parent used in Murphey’s example.",
+      "Mephenesin carbamate was already prior art in the patent; its own discovery sequence and other carbamate relaxant branches are not reconstructed here. Do not extrapolate the methocarbamol pathway to all later carbamate compounds."
+    ],
+    "conflicts": [
+      "S3 cites Ginzel and colleagues’ Ueber Tierversuche mit Myocain as 1948;99:229, whereas S6 PubMed metadata and S5’s bibliography give 1949;99:299. The original was not read; no priority claim depends on resolving this citation error.",
+      "For S5, PubMed metadata lists pages 330–338, while the publisher lists 331–338; the publisher pagination is used in the citation."
+    ],
+    "gaps": [
+      "The 1949 Ginzel and colleagues Myocain report was located as metadata only and not read; the complete 1951 Ginzel paper and 1958 Truitt–Little report were accessible only as publisher summaries or abstracts.",
+      "The earliest discovery circumstances and priority of glyceryl guaiacolate’s relaxant effect, and whether that initial finding was unexpected, are not established. S3 attributes parent activity to Ginzel; S5 supplies the 1951 original summary.",
+      "The patent’s stated objectives and reported pharmacological comparisons are not independent evidence of comparative clinical efficacy, duration or safety."
+    ]
+  },
+  "nameAliases": [
+    "Atmeksi",
+    "Robaxin",
+    "Tanlor"
+  ],
+  "humanContributionInterpretation": {
+    "id": "CARBAMATE_MUSCLE_RELAXANTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Prior muscle-relaxant use, short duration and blood-damage or hematuria concerns motivated a search for longer-acting carbamates with fewer unwanted effects.",
+    "scope": "The patent mixes animal work, blood assays and human measurements; this is a broad clinical-precedent link rather than an exclusively bedside origin.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Murphey RS. 1956. o-Methoxyphenoxy-2-hydroxy-propyl carbamates. US patent 2,770,649; filed 22 June 1955, granted 13 November 1956.",
+        "url": "https://patents.google.com/patent/US2770649A/en",
+        "locator": "column 1, Prior Art and statement of objects",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Murphey RS. 1956. o-Methoxyphenoxy-2-hydroxy-propyl carbamates. US patent 2,770,649; filed 22 June 1955, granted 13 November 1956.",
+        "url": "https://patents.google.com/patent/US2770649A/en",
+        "locator": "columns 1–2, statement of objects and Example I; columns 3–4, pharmacology",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ANDROGENS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ANDROGENS",
+    "name": "Androgens",
+    "medicines": [
+      "testosterone"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "testosterone",
+        "components": [
+          "testosterone"
+        ],
+        "usRank": 91,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Castration and testicular transplantation revealed a relationship between testicular tissue and male secondary characteristics. Later, bioactive testis extracts and comparisons with urinary androsterone supplied observable activities and chemical constraints in the search for the active testicular hormone. The evidence does not establish a direct line of personal influence from Berthold's particular experiment to each 1930s investigator.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule"
+    ],
+    "inspiration": {
+      "description": "The effects of loss or transplantation of testicular tissue, active extracts, and the endogenous hormone eventually identified as testosterone. Synthesis responded to observed biological and chemical clues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Castration and transplantation experiments established a testicular influence on secondary sexual characteristics and suggested an action via the blood.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Popular but unsubstantiated organotherapy helped motivate competition to isolate the testicular hormone; comparative tests also distinguished urinary androsterone from testicular activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Comparative testis-extract and urinary-androsterone observations informed structural hypotheses and preparation of candidates from cholesterol; at approximately the same time the testicular hormone was isolated and matched a synthetic candidate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A 1939 clinical case report describes testosterone in oil and then testosterone propionate administered for suspected deficiency beginning in 1936. It demonstrates early clinical application, not first use or controlled efficacy.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Růžička's group reasoned from physiological and chemical findings to structural candidates, then prepared candidates from cholesterol; one matched the hormone isolated from testes.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Berthold deliberately performed the removal and transplantation experiment; its initial hypothesis is not stated in the translated report. Růžička's group later deliberately proposed and synthesized structural candidates. This is not a claim about whether every earlier finding was expected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Berthold AA. Transplantation der Hoden. Archiv für Anatomie, Physiologie und wissenschaftliche Medicin. 1849:42–46. English translation by Quiring DP, The Transplantation of Testes. Bull Hist Med. 1944;16:399–401, reprinted in An Introduction to Hormones and Behavior, pp. 8–10.",
+        "url": "https://cognella-titles-sneakpreviews.s3-us-west-2.amazonaws.com/81734-1D-URT/81734-1D_SP.pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Růžička L. Multimembered rings, higher terpene compounds and male sex hormones. Nobel Lecture, 12 December 1945, pp. 468–492.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/ruzicka-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Freeman ER, Bloom DA, McGuire EJ. A brief history of testosterone. J Urol. 2001;165(2):371–373. DOI: 10.1097/00005392-200102000-00004.",
+        "url": "https://www.usrf.org/news/TRT/Freeman%2C%20J.Urol.%2C%202001.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "McCullagh EP. Testicular deficiency due to hypothyroidism: report of a case. Cleveland Clinic Quarterly. 1939;6(1):45–48. DOI: 10.3949/ccjm.6.1.45.",
+        "url": "https://www.ccjm.org/content/ccjom/6/1/45.full.pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S5",
+        "citation": "David K, Dingemanse E, Freud J, Laqueur E. Über krystallinisches männliches Hormon aus Hoden (Testosteron), wirksamer als aus Harn oder aus Cholesterin bereitetes Androsteron. Hoppe-Seyler's Zeitschrift für physiologische Chemie. 1935;233(5–6):281–283. DOI: 10.1515/bchm2.1935.233.5-6.281.",
+        "url": "https://www.degruyterbrill.com/document/doi/10.1515/bchm2.1935.233.5-6.281/html",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Ruzicka L, Wettstein A. Sexualhormone VII. Über die künstliche Herstellung des Testikelhormons Testosteron (Androsten-3-on-17-ol). Helvetica Chimica Acta. 1935;18(1):1264–1275. DOI: 10.1002/hlca.193501801176.",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/hlca.193501801176",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Quiring translation, textbook pp. 8–9, experimental paragraphs, and p. 10, conclusion 4."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Nobel lecture, pp. 489–490, Male sex hormones: androsterone and comparative testicular activity."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Nobel lecture, pp. 490–491, final paragraphs of the testosterone discussion."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "pp. 371–372, Brown-Séquard's organotherapy and Isolation of Testosterone."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 372, Isolation of Testosterone, paragraphs on androsterone and testosterone."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "pp. 45–48, diagnosis, Treatment and Progress, and Comment."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://cognella-titles-sneakpreviews.s3-us-west-2.amazonaws.com/81734-1D-URT/81734-1D_SP.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.nobelprize.org/uploads/2018/06/ruzicka-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.ccjm.org/content/ccjom/6/1/45.full.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.degruyterbrill.com/document/doi/10.1515/bchm2.1935.233.5-6.281/html",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/hlca.193501801176",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "Testosterone is the sole frozen-cohort member. Other androgenic compounds and their individual origins were not systematically assessed.",
+      "The direct 1849 experiment establishes physiological effects in cockerels, not the chemical identity or clinical action of testosterone; a direct influence of that particular report on the 1930s groups is not established here.",
+      "Testicular isolation and chemical synthesis were materially different routes to the same hormone; their exact experimental priority is unresolved. The later clinical formulations are not treated as separate founding classes or as proof about the origin of every synthetic androgen."
+    ],
+    "conflicts": [
+      "Freeman et al. describe the 1935 testosterone synthesis publications as following isolation, while Růžička describes proposing candidate structures before pure isolation and preparing them at about the same time as isolation. This does not establish a contradiction in publication order; exact experiment-level priority remains unverified.",
+      "McCullagh's case dates an interruption ending November 22 within a treatment course said to start December 19, 1936; its exact treatment chronology is therefore internally inconsistent."
+    ],
+    "gaps": [
+      "The 1935 David and colleagues isolation paper (S5) was located and its identity verified, but the publisher did not provide full-text access; it was not read as evidence.",
+      "The 1935 Růžička–Wettstein synthesis paper (S6) was located and its identity verified, but its main paper was not read; accessible indexed footnotes are not treated as a full-text account. Other original 1935 synthesis reports were not read.",
+      "The original German of Berthold's 1849 report was not read; the whole experimental report was read in Quiring's English translation.",
+      "The precise chain of direct personal influence from individual 19th-century experiments to each isolation or synthesis group, and priority of the earliest clinical use, were not established."
+    ]
+  },
+  "nameAliases": [
+    "Androderm",
+    "Androgel",
+    "Aveed",
+    "Azmiro",
+    "Depo-testosterone",
+    "Fortesta",
+    "Jatenzo",
+    "Kyzatrex",
+    "Natesto",
+    "Testim",
+    "Testopel",
+    "Tlando",
+    "Undecatrex",
+    "Vogelxo",
+    "Xyosted"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ANDROGENS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Berthold AA. Transplantation der Hoden. Archiv für Anatomie, Physiologie und wissenschaftliche Medicin. 1849:42–46. English translation by Quiring DP, The Transplantation of Testes. Bull Hist Med. 1944;16:399–401, reprinted in An Introduction to Hormones and Behavior, pp. 8–10.",
+        "url": "https://cognella-titles-sneakpreviews.s3-us-west-2.amazonaws.com/81734-1D-URT/81734-1D_SP.pdf",
+        "locator": "Quiring translation, textbook pp. 8–9, experimental paragraphs, and p. 10, conclusion 4.",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E2",
+        "citation": "Růžička L. Multimembered rings, higher terpene compounds and male sex hormones. Nobel Lecture, 12 December 1945, pp. 468–492.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/ruzicka-lecture.pdf",
+        "locator": "Nobel lecture, pp. 489–490, Male sex hormones: androsterone and comparative testicular activity.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Růžička L. Multimembered rings, higher terpene compounds and male sex hormones. Nobel Lecture, 12 December 1945, pp. 468–492.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/ruzicka-lecture.pdf",
+        "locator": "Nobel lecture, pp. 490–491, final paragraphs of the testosterone discussion.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Freeman ER, Bloom DA, McGuire EJ. A brief history of testosterone. J Urol. 2001;165(2):371–373. DOI: 10.1097/00005392-200102000-00004.",
+        "url": "https://www.usrf.org/news/TRT/Freeman%2C%20J.Urol.%2C%202001.pdf",
+        "locator": "pp. 371–372, Brown-Séquard's organotherapy and Isolation of Testosterone.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Freeman ER, Bloom DA, McGuire EJ. A brief history of testosterone. J Urol. 2001;165(2):371–373. DOI: 10.1097/00005392-200102000-00004.",
+        "url": "https://www.usrf.org/news/TRT/Freeman%2C%20J.Urol.%2C%202001.pdf",
+        "locator": "p. 372, Isolation of Testosterone, paragraphs on androsterone and testosterone.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

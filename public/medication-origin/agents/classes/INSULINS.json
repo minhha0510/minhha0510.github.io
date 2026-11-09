@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/INSULINS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "INSULINS",
+    "name": "Insulins and insulin analogues",
+    "medicines": [
+      "insulin aspart",
+      "insulin degludec",
+      "insulin glargine",
+      "insulin lispro"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "insulin aspart",
+        "components": [
+          "insulin aspart"
+        ],
+        "usRank": 77,
+        "englandRank": 104,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "insulin degludec",
+        "components": [
+          "insulin degludec"
+        ],
+        "usRank": 117,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "insulin glargine",
+        "components": [
+          "insulin glargine"
+        ],
+        "usRank": 27,
+        "englandRank": 117,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "insulin lispro",
+        "components": [
+          "insulin lispro"
+        ],
+        "usRank": 65,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Pancreatectomy-induced diabetes localized a crucial antidiabetic function to the pancreas and motivated a search for its internal secretion. Banting describes Baron's observation of duct obstruction as the immediate stimulus for a ligation-and-extraction plan, which the team tested in diabetic dogs.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule",
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "Experimental pancreatic diabetes, observed responses to pancreatic duct obstruction, and a hypothesized endogenous pancreatic secretion led investigators to make extracts from animal pancreas.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E7",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Experiments and observations linked pancreatic loss to diabetes, initiating a search for an internal secretion and its antidiabetic effects.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Toronto researchers obtained active pancreatic extracts in diabetic dogs; Collip worked on purification for human administration, with clinical responses reported in 1922.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Biosynthetic human insulin and amino-acid engineering created rapid-acting and longer-acting analogues of the known active hormone, with distinct approaches to controlling absorption and duration.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10",
+          "E11"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators devised extraction and purification, then recombinant manufacture and insulin-sequence or acylation modifications. Rapid-acting analogues reduce self-association; long-acting analogues use slower depot release or multihexamer formation and albumin binding. These target pharmacokinetics while retaining an established insulin template and activity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E5",
+        "E9",
+        "E10",
+        "E11"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The Toronto ligation and extraction experiments were deliberately planned to obtain the putative antidiabetic secretion, regardless of whether the initial ligation hypothesis was correct.",
+      "support": "documented",
+      "evidence_ids": [
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Lewis GF, Brubaker PL. 2021. The discovery of insulin revisited: lessons for the modern era. J Clin Invest. 131(1):e142239. DOI 10.1172/JCI142239.",
+        "url": "https://www.jci.org/articles/view/142239/files/pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Banting FG, Best CH, Collip JB, Campbell WR, Fletcher AA. 1922. Pancreatic Extracts in the Treatment of Diabetes Mellitus. Can Med Assoc J. 12(3):141–146. PMID 20314060; PMCID PMC1524425.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/1524425/pdf/canmedaj00414-0043.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Banting FG. 1925. Diabetes and Insulin. Nobel lecture, September 15, 1925. Also published as An Address on Diabetes and Insulin, Can Med Assoc J. 1926;16(3):221–232. PMID 20315695.",
+        "url": "https://www.nobelprize.org/prizes/medicine/1923/banting/lecture/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Bolli GB, Cheng AYY, Owens DR. 2022. Insulin: evolution of insulin formulations and their application in clinical practice over 100 years. Acta Diabetol. 59:1129–1144. DOI 10.1007/s00592-022-01938-4; PMID 35854185.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9296014/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Sommerfeld MR, Müller G, Tschank G, Seipke G, Habermann P, Kurrle R, Tennagels N. 2010. In Vitro Metabolic and Mitogenic Signaling of Insulin Glargine and Its Metabolites. PLoS One. 5(3):e9540. DOI 10.1371/journal.pone.0009540; PMID 20209060.",
+        "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0009540",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 1–2, Early work leading to insulin’s discovery"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "pp. 1 and 5, opening and Toronto researchers’ breakthrough"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 3, Figure 2 caption, and pp. 5–6, Early clinical use of insulin"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 141, opening account of Toronto animal experiments"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 142, paragraphs introducing the clinical investigation"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 144, Treatment, first case"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Opening Diabetes and insulin section, paragraphs beginning ‘On October 30th, 1920’ and ‘On April 14th, 1921’"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "Opening Diabetes and insulin section, paragraph beginning ‘Up to this time saline had been used’"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "Development of human insulin preparations and insulin analogues, final paragraph"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "Prandial (bolus) insulin analogues, first paragraph"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "Basal insulin analogues, first and later paragraphs on glargine and degludec"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "Introduction, first paragraph, and Figure 1 legend"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/1524425/pdf/canmedaj00414-0043.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.nobelprize.org/prizes/medicine/1923/banting/lecture/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "Lispro and aspart are rapid-acting insulin analogues; glargine and degludec are longer-acting analogues with different protraction mechanisms. The class record does not adjudicate every analogue's development priority.",
+      "Banting's extraction plan was one contribution to a multi-investigator history of pancreatic diabetes and extracts, not the first observation that an animal pancreatic extract could lower glucose."
+    ],
+    "conflicts": [
+      "The S1 figure caption says the first January 11 injection had no effect; S2 reports biochemical changes but no clinical benefit. S2 is more specific about the contemporaneously measured observations.",
+      "Banting's retrospective S3 treats the first duct-ligated extract as supporting the enzyme-destruction idea; S1 describes subsequent evidence that duct ligation was not necessary. The idea is recorded as motivation, not as a validated requirement.",
+      "S4's introduction gives 1992 for the January 23 human treatment where S2 dates the event to 1922. S4 also describes glargine's added B-chain arginines as amino-terminal; S5 and the USP glargine monograph identify the carboxyl terminus instead. The record does not adopt either erroneous detail."
+    ],
+    "gaps": [
+      "Original reports of earlier pancreatic extraction and the individual analogue programs were not all reopened; causal synthesis uses the explicitly labeled retrospective sources and the 1922 clinical original."
+    ]
+  },
+  "nameAliases": [
+    "Admelog",
+    "Basaglar",
+    "Fiasp",
+    "Garzulys",
+    "Humalog",
+    "Kirsty",
+    "Langlara",
+    "Lantus",
+    "Lyumjev",
+    "Merilog",
+    "NovoLog",
+    "Rezvoglar",
+    "Semglee",
+    "Toujeo",
+    "Tresiba",
+    "insulin aspart, human"
+  ],
+  "humanContributionInterpretation": {
+    "id": "INSULINS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Reported pancreatic changes with gallstone duct obstruction helped suggest Banting's duct-ligation and extraction strategy.",
+    "scope": "Clinical pathology qualifies here as observation of naturally occurring disease; subsequent dog experiments and biochemical purification were essential.",
+    "references": [
+      {
+        "id": "E7",
+        "citation": "Banting FG. 1925. Diabetes and Insulin. Nobel lecture, September 15, 1925. Also published as An Address on Diabetes and Insulin, Can Med Assoc J. 1926;16(3):221–232. PMID 20315695.",
+        "url": "https://www.nobelprize.org/prizes/medicine/1923/banting/lecture/",
+        "locator": "Opening Diabetes and insulin section, paragraphs beginning ‘On October 30th, 1920’ and ‘On April 14th, 1921’",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

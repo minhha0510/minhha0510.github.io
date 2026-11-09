@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PEG_LAXATIVES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PEG_LAXATIVES",
+    "name": "Polyethylene-glycol osmotic laxatives",
+    "medicines": [
+      "macrogol 3350"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "macrogol 3350 + potassium chloride + sodium bicarbonate + sodium chloride",
+        "components": [
+          "macrogol 3350",
+          "potassium chloride",
+          "sodium bicarbonate",
+          "sodium chloride"
+        ],
+        "usRank": null,
+        "englandRank": 33,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Prior large-volume lavage caused diarrhea and cleared the bowel but could produce a significant salt and water load. In developing a better-balanced lavage, the team selected nonabsorbable PEG over an existing mannitol osmotic agent after an observed lack of hydrogen production when PEG was incubated with fecal suspensions was communicated to them. Later, a clinical investigator attributes the move to low-volume chronic-constipation treatment to the known properties of PEG and successful bowel-cleansing use; a 1990 study explicitly tested the existing lavage as a treatment for constipation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "synthetic_compound_effect",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Observed intestinal salt and water handling, the functional precedent of mannitol-based osmotic lavage, the behavior of synthetic PEG in fecal incubation and its nonabsorption, and later clinical bowel-cleansing experience. The original choice of PEG is explicitly attributed to its reported properties; the underlying Levitt test was a personal communication.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The team investigated salt and water absorption from established lavage and designed an electrolyte solution to limit these shifts, initially using mannitol as a nonabsorbable osmotic solute.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "To avoid the hydrogen-generating fermentation risk of mannitol, the team deliberately substituted PEG, basing the selection on its nonabsorption and a communicated fecal-incubation observation. They tested a high-PEG solution for minimal net fluid and electrolyte movement.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In 1989, PEG 3350 was used to induce osmotic diarrhea in healthy volunteers; increasing measured doses increased stool water output. This is a later physiological demonstration of the cohort polymer's activity, not evidence of a low-dose constipation trial or of the initial selection in 1980.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A 1990 placebo-controlled crossover study tested an existing PEG-electrolyte lavage solution, already used for bowel cleansing, as a daily treatment in patients with chronic constipation. Only the abstract was accessible; it reports five-day treatment periods and does not identify PEG molecular weight.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A later clinical investigator reports that the combination of PEG's known properties and evidence from bowel cleansing led to smaller daily volumes for treating chronic constipation, a change in purpose and dosing from a single large lavage.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The investigators combined a sulfate-based, electrolyte-adjusted lavage with an osmotically equivalent dose of PEG instead of mannitol and studied intestinal fluid and electrolyte flux. Later development adapted prior bowel-cleansing experience to lower-volume daily chronic-constipation treatment, changing both intended use and dose. These deliberate steps were built on observed physiology and properties of existing substances, not evidence of a newly designed PEG molecular scaffold.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The 1980 development and testing of a nonabsorbed, low-fermentation PEG-containing lavage solution was deliberate; the source does not establish the circumstances of the original Levitt observation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Davis GR, Santa Ana CA, Morawski SG, Fordtran JS. Development of a lavage solution associated with minimal water and electrolyte absorption or secretion. Gastroenterology. 1980;78(5 Pt 1):991-995. DOI 10.1016/0016-5085(80)90781-7; PMID 7380204.",
+        "url": "https://www.researchgate.net/publication/15819305_Development_of_a_Lavage_solution_associated_with_minimal_water_and_electrolyte_absorption_or_secretion",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Hammer HF, Santa Ana CA, Schiller LR, Fordtran JS. Studies of osmotic diarrhea induced in normal subjects by ingestion of polyethylene glycol and lactulose. J Clin Invest. 1989;84(4):1056-1062. DOI 10.1172/JCI114267; PMID 2794043; PMCID PMC329760.",
+        "url": "https://www.jci.org/articles/view/114267",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Corazziari ES. The macrogol revolution in the treatment of chronic constipation. A short history of laxatives. Front Pharmacol. 2025;16:1662224. DOI 10.3389/fphar.2025.1662224; PMID 40959449; PMCID PMC12434198.",
+        "url": "https://doi.org/10.3389/fphar.2025.1662224",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Andorsky RI, Goldner F. Colonic lavage solution (polyethylene glycol electrolyte lavage solution) as a treatment for chronic constipation: a double-blind, placebo-controlled study. Am J Gastroenterol. 1990;85(3):261-265. PMID 2178398.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2178398/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 991, introduction; p. 994, discussion, first paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 994, Discussion, final two paragraphs"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "pp. 991-993, Materials and Methods and Results: Substitution of PEG for Mannitol; p. 994, Discussion"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 1056, Abstract, Introduction and Methods; pp. 1057-1058, Results and Table I; p. 1060, Discussion"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 3, Physico-chemical properties, final paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 3, The macrogol era, first paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "PubMed abstract, opening and methods sentences"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 1, abstract, and p. 3, Physico-chemical properties"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.researchgate.net/publication/15819305_Development_of_a_Lavage_solution_associated_with_minimal_water_and_electrolyte_absorption_or_secretion",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.jci.org/articles/view/114267",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2178398/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "Scope is the PEG osmotic-laxative class and cohort member macrogol 3350; formulation electrolytes are supporting components.",
+      "The 1980 formulation studied PEG 4000. PEG 3350 appears in the 1989 physiological study, while the retrospective gives a class-level account of the shift to daily constipation treatment; the sources do not reconstruct every formulation's separate origin or prove the history of every branded product."
+    ],
+    "conflicts": [
+      "E6: The 2025 retrospective calls the author's 1996 eight-week study the first randomized controlled trial. E7: a 1990 abstract already reports a randomized, placebo-controlled crossover trial of PEG-electrolyte lavage for chronic constipation. The 1990 treatment periods lasted five days; whether the retrospective meant the first eight-week trial is not established. No priority claim is needed for the origin classification.",
+      "E4 versus E8: the 1989 researchers characterize PEG-induced diarrhea in osmotic terms, whereas the 2025 retrospective describes a scarce luminal osmotic effect and emphasizes water binding. These descriptions differ in mechanistic emphasis; their scientific reconciliation is outside this historical collection and is not required for the origin label."
+    ],
+    "gaps": [
+      "The original data behind the Levitt fecal-incubation observation were a personal communication and have not been inspected.",
+      "The full 1990 Andorsky-Goldner article was not read; its abstract does not specify PEG molecular weight and cannot establish more than it reports.",
+      "The retrospective does not identify the first person or program that proposed daily-dose treatment, or document the individual development of every PEG 3350 product."
+    ]
+  },
+  "nameAliases": [
+    "Gavilyte-H",
+    "GaviLyte-N",
+    "TriLyte"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PEG_LAXATIVES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Clinical lavage experience and limitations helped motivate lower-dose daily PEG treatment for constipation.",
+    "scope": "PEG selection also involved laboratory incubation work; the qualifying link is later clinical adaptation.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Davis GR, Santa Ana CA, Morawski SG, Fordtran JS. Development of a lavage solution associated with minimal water and electrolyte absorption or secretion. Gastroenterology. 1980;78(5 Pt 1):991-995. DOI 10.1016/0016-5085(80)90781-7; PMID 7380204.",
+        "url": "https://www.researchgate.net/publication/15819305_Development_of_a_Lavage_solution_associated_with_minimal_water_and_electrolyte_absorption_or_secretion",
+        "locator": "p. 991, introduction; p. 994, discussion, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Corazziari ES. The macrogol revolution in the treatment of chronic constipation. A short history of laxatives. Front Pharmacol. 2025;16:1662224. DOI 10.3389/fphar.2025.1662224; PMID 40959449; PMCID PMC12434198.",
+        "url": "https://doi.org/10.3389/fphar.2025.1662224",
+        "locator": "p. 3, Physico-chemical properties, final paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Andorsky RI, Goldner F. Colonic lavage solution (polyethylene glycol electrolyte lavage solution) as a treatment for chronic constipation: a double-blind, placebo-controlled study. Am J Gastroenterol. 1990;85(3):261-265. PMID 2178398.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2178398/",
+        "locator": "PubMed abstract, opening and methods sentences",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

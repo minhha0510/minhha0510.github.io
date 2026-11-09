@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/TRIAZINE_ANTICONVULSANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "TRIAZINE_ANTICONVULSANTS",
+    "name": "Triazine anticonvulsants",
+    "medicines": [
+      "lamotrigine"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "lamotrigine",
+        "components": [
+          "lamotrigine"
+        ],
+        "usRank": 55,
+        "englandRank": 68,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Researchers observed that several established anticonvulsants affected patient folate measures, while folate derivatives could provoke seizures under particular experimental conditions. These findings led to an antifolate–antiepileptic hypothesis. According to later accounts, Wellcome investigated existing synthetic antifolates including pyrimethamine, found anticonvulsant activity, and used related chemistry to search for a better antiseizure agent. The hypothesis is not established as lamotrigine's eventual mechanism.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E9",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The biological clue was the observed folate–seizure relationship, including folate reductions in patients taking earlier synthetic anticonvulsants and experimentally induced convulsions with folate derivatives. Wellcome then developed from a reported anticonvulsant effect of the synthetic antifolate pyrimethamine. Folate biology, the effects of earlier compounds, the testable hypothesis, and later chemistry are distinct sources of context.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E9",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Clinical folate changes during treatment with older anticonvulsants and experimental convulsant effects of folate derivatives contributed to the proposed antifolate–antiepileptic relationship.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E9"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "In 1973 Wellcome-affiliated Baxter and Miller with Webster investigated folic acid's convulsant action while explicitly referring to the antifolate hypothesis; a later account says Wellcome examined existing antifolates including pyrimethamine for anticonvulsant effects. The precise order within 1973 is not established here.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The historical development account describes a series of structurally related phenyltriazines, including BW 288U, and further optimization to lamotrigine with weak antifolate activity; its account does not by itself verify the priority of every intermediate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A Wellcome patent application published in 1981 describes preparation of the 2,3-dichlorophenyl triazine and anticonvulsant tests of the series. A 1986 report identifies that structure as lamotrigine and describes testing in mice and rats.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and screened structurally related phenyltriazines to improve anticonvulsant activity, changing the phenyl substitution pattern within the series. The resulting lamotrigine was a synthetic triazine with weak antifolate activity. The patent provides a specific preparation and animal tests; it does not show that weaker antifolate activity was deliberately engineered as the goal or that prior triazine chemistry was invented from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E6",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The event classified here is the deliberate antifolate-hypothesis-directed testing and synthesis of analogue anticonvulsants. Cohen retrospectively called lamotrigine's discovery accidental as well, but did not specify the chance event; the discovery as a whole is therefore not assigned a more precise unexpected stage on this evidence.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E9",
+        "E10"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Reynolds EH. Antiepileptic drugs, folate one-carbon metabolism, genetics, and epigenetics: Congenital, developmental, and neuropsychological risks and antiepileptic action. Epilepsia. 2024;65:3469–3473. DOI 10.1111/epi.18120; PMID 39373638.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11647427/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Fischer J, Rotella DP. Serendipitous Target-Based Drug Discoveries. In: Successful Drug Discovery. Wiley-VCH; 2015. Publisher's excerpt pp. 3–18, especially §§1.7–1.7.1. Book DOI 10.1002/9783527678433; print ISBN 9783527336852.",
+        "url": "https://catalogimages.wiley.com/images/db/pdf/9783527336852.excerpt.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Cohen A. Opening contribution in Sir James Black (1924–2010) reflections. British Journal of Pharmacology. 2010;160(Suppl 1):S5–S14. DOI 10.1111/j.1476-5381.2010.00846.x; PMID 20590653.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1476-5381.2010.00846.x",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Baxter MG, Elphick AR, Miller AA, Sawyer DA, inventors; Wellcome Foundation Limited. 1,2,4-Triazine derivatives, process for preparing such compounds, pharmaceutical compositions and intermediates utilized for this process. European patent application EP0021121A1, published 7 January 1981.",
+        "url": "https://patents.google.com/patent/EP0021121A1/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Miller AA, Wheatley P, Sawyer DA, Baxter MG, Roth B. Pharmacological studies on lamotrigine, a novel potential antiepileptic drug: I. Anticonvulsant profile in mice and rats. Epilepsia. 1986;27:483–489. DOI 10.1111/j.1528-1157.1986.tb03572.x; PMID 3757935.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3757935/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Baxter MG, Miller AA, Webster RA. Some studies on the convulsant action of folic acid. British Journal of Pharmacology. 1973;48:350P–351P. PMID 4733748; PMCID PMC1776169.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1776169/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Historical account immediately after Figure 1, first paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Historical account after Figure 1, paragraph discussing lamotrigine"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "§1.7, printed pp. 13–14, and Figure 1.20"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "§1.7, printed p. 14, final paragraph before Figure 1.20"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "Adam Cohen's opening signed contribution, first paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "Example 1, printed pp. 10–11; claim 3"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "Example 6, printed pp. 16–18, including table 3"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "PubMed abstract, first two sentences"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S6",
+        "locator": "Proceedings, printed p. 350P, introduction; indexed OCR of archival scan"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S2",
+        "locator": "§1.7, printed p. 13, final paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11647427/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1476-5381.2010.00846.x",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/EP0021121A1/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3757935/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1776169/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The assigned class boundary is the established phenyltriazine anticonvulsant lineage, represented in the cohort by lamotrigine; this is not a general origin account for other anticonvulsants or all triazines.",
+      "The antecedent pyrimethamine is a synthetic pyrimidine lead, whereas the resulting class is phenyltriazine; related medicinal-chemistry development is not an assertion of identical ring architecture or a direct one-step chemical conversion.",
+      "The patent and 1986 abstract support chemical preparation and animal pharmacology; they do not independently establish the historical folate-to-lead link or a clinical outcome."
+    ],
+    "conflicts": [
+      "Cohen describes discovery as accidental while describing an antifolate-directed program; Fischer and Rotella describe a partly serendipitous outcome after planned testing and synthesis. The stage or event that was accidental is not specified, so the accounts are retained without inventing a precise reconciliation.",
+      "Cohen describes no antifolate properties, while Reynolds and Fischer–Rotella describe little or weak activity. Exact assays and quantitative reconciliation were not established; the bounded conclusion is that strong antifolate activity was not required for lamotrigine's observed anticonvulsant activity.",
+      "Fischer–Rotella calls lamotrigine the most active analogue, but the patent's mouse maximal-electroshock table lists a lower ED50 for the 2,3,5-trichloro compound than the 2,3-dichloro compound. Their comparison's series and endpoint are not specified, so no universal potency ranking is inferred.",
+      "Reynolds's bibliography cites Peck's 1994 historical account as volume 6, while Cohen's later obituary and other references give volume 5. The original Peck article was not obtained, so its volume remains unresolved."
+    ],
+    "gaps": [
+      "Peck's historical account and Reynolds's original clinical observations were not read in full; Reynolds's 2024 source is firsthand regarding his earlier work but retrospective and derivative regarding the company sequence.",
+      "The continuation of Baxter, Miller and Webster 1973 on p. 351P and the 1986 Miller et al. report beyond its abstract were not read. The 1973 first page was examined as indexed OCR, not from the scan image.",
+      "The exact company laboratory chronology, relative priority of all intermediates, and the specific event characterized as accidental were not established."
+    ]
+  },
+  "nameAliases": [
+    "Lamictal",
+    "Subvenite"
+  ],
+  "humanContributionInterpretation": {
+    "id": "TRIAZINE_ANTICONVULSANTS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Low folate measurements in anticonvulsant-treated patients contributed to the antifolate hypothesis behind lamotrigine.",
+    "scope": "Routine patient measurements count as clinical observations; animal convulsant findings also contributed and the hypothesis was not the final mechanism.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Reynolds EH. Antiepileptic drugs, folate one-carbon metabolism, genetics, and epigenetics: Congenital, developmental, and neuropsychological risks and antiepileptic action. Epilepsia. 2024;65:3469–3473. DOI 10.1111/epi.18120; PMID 39373638.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11647427/",
+        "locator": "Historical account immediately after Figure 1, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Reynolds EH. Antiepileptic drugs, folate one-carbon metabolism, genetics, and epigenetics: Congenital, developmental, and neuropsychological risks and antiepileptic action. Epilepsia. 2024;65:3469–3473. DOI 10.1111/epi.18120; PMID 39373638.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11647427/",
+        "locator": "Historical account after Figure 1, paragraph discussing lamotrigine",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Baxter MG, Miller AA, Webster RA. Some studies on the convulsant action of folic acid. British Journal of Pharmacology. 1973;48:350P–351P. PMID 4733748; PMCID PMC1776169.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1776169/",
+        "locator": "Proceedings, printed p. 350P, introduction; indexed OCR of archival scan",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,317 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/Z_DRUGS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "Z_DRUGS",
+    "name": "Z-drug hypnotics",
+    "medicines": [
+      "zolpidem",
+      "zopiclone"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "zolpidem",
+        "components": [
+          "zolpidem"
+        ],
+        "usRank": 54,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "zopiclone",
+        "components": [
+          "zopiclone"
+        ],
+        "usRank": null,
+        "englandRank": 72,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "Basis scope: zolpidem; zopiclone's initial screening purpose unresolved.",
+    "starting": {
+      "description": "Documented support is bounded to Kaplan's zolpidem branch: he recalls a 1978 request for a zopiclone-like compound and a structural-hybrid proposal based on the drugs' similar actions. Wermuth's 2006 profile-directed zopiclone account conflicts with his 2008 extensive/random-screening framing; the initiating zopiclone purpose remains unresolved.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E8"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "For the documented zolpidem branch, known synthetic-drug actions and Kaplan's proposed shared-receptor relationship motivated hybrid design. The initial zopiclone screening purpose remains disputed. This is broad biological inspiration, without a claim of natural-molecule ancestry or an established initiating clue for zopiclone.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "According to Wermuth's 2006 retrospective, after benzodiazepine anxiolytic and tranquilizing effects became known, Rhône-Poulenc searched for functionally similar compounds and obtained zopiclone. His 2008 screening classification leaves the exact initial screening objective and stages uncertain; neither account establishes the earliest assay sequence or chemical starting structure.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E8"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A 1972-priority patent disclosed the pyrrolopyrazine series and the structure assigned to zopiclone; it reported behavioral pharmacology for the series. The 1983 zopiclone study abstract later reported benzodiazepine-like pharmacological activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E6"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Kaplan recalls a 1978 request for a zopiclone-like compound, followed by physical comparison of drug models and a deliberate hybrid-design proposal written with George.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Kaplan and George patented an imidazopyridine series with 1980 priority; Kaplan identifies its compound 75 as zolpidem. A 1985 original-study abstract reports receptor binding and rat electrocorticographic effects of zolpidem.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and tested a distinct pyrrolopyrazine series; Wermuth's accounts differ in how the initial screening objective is framed. For the later branch, Kaplan reports comparing physical structures and proposing hybrids; the team pursued substituted imidazopyridines, including compound 75. The sources do not establish an exact discovery-stage optimization pathway or justify attributing all series-level patent test outcomes to either named compound.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E5",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The particular planned stage was Kaplan's reported structural-hybrid project following the zopiclone-like request. This does not assert that every experimental finding was expected or resolve the initial objective of cyclopyrrolone screening.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Wermuth CG. 2006. Similarity in drugs: reflections on analogue design. Drug Discovery Today 11(7–8):348–354. DOI 10.1016/j.drudis.2006.02.006; PMID 16580977.",
+        "url": "https://www.studocu.com/gt/document/universidad-de-san-carlos-de-guatemala/quimica-medicinal-i/drug-discovery-today-reflections-on-analogue-design-in-pharmaceuticals/126876786",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Kaplan JP. Zolpidem : un succès commercial mais une spoliation intellectuelle. First-person retrospective, published 6 February 2016.",
+        "url": "https://invention-europe.com/2016/02/06/zolpidem-un-succes-commercial-mais-une-spoliation-intellectuelle/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Cotrel C, Jeanmart C, Messer MN. Pyrrolo (3,4-b) pyrazine derivatives. US patent US3862149A, French priority 7 January 1972, issued 21 January 1975.",
+        "url": "https://patents.google.com/patent/US3862149A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Kaplan JP, George P. Imidazo[1,2-a] pyridine derivatives and their application as pharmaceuticals. US patent US4382938A, French priority 22 October 1980, issued 10 May 1983.",
+        "url": "https://patents.google.com/patent/US4382938A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Julou L, Bardone MC, Blanchard JC, Garret C, Stutzmann JM. 1983. Pharmacological studies on zopiclone. Pharmacology 27 Suppl 2:46–58. DOI 10.1159/000137911; PMID 6142468.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6142468/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Arbilla S, Depoortere H, George P, Langer SZ. 1985. Pharmacological profile of the imidazopyridine zolpidem at benzodiazepine receptors and electrocorticogram in rats. Naunyn Schmiedebergs Arch Pharmacol 330(3):248–251. DOI 10.1007/BF00572441; PMID 2997631.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2997631/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Wermuth CG. 2008. Strategies in the Search for New Lead Compounds or Original Working Hypotheses. In: The Practice of Medicinal Chemistry, 3rd ed., ch. 6, pp. 123–143. DOI 10.1016/B978-0-12-374194-3.00006-8.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/4253/1/Camille%20Georges%20Wermuth_2008.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Systematic screening section, paragraph on benzodiazepines and zopiclone, mirrored text lines 293–295."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Section II, paragraph beginning 'Un jour de 1978', second half of 1978, and immediately following paragraph."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Section II, paragraph beginning 'Ce fut un déclic', and numbered paragraphs 1–4."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "Description, pharmacological-properties paragraph; Example 3 and claim 5 for the compound structure."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "Inventors and priority data; compound table entry 75; pharmacological-experiments section."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "PubMed-indexed abstract, first sentences reporting comparisons of zopiclone, benzodiazepines, and barbiturates."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "PubMed-indexed abstract, receptor binding and rat electrocorticogram findings."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "Chapter 6, pp. 129–130, systematic screening introduction, subsection A and Figure 6.6 caption; subsection B defines random screening."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://invention-europe.com/2016/02/06/zolpidem-un-succes-commercial-mais-une-spoliation-intellectuelle/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US3862149A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/US4382938A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6142468/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2997631/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "Cyclopyrrolone/zopiclone program motivation rests on Wermuth's retrospective; his 2006 and 2008 descriptions frame screening differently. The earlier patent discloses chemistry and series-level pharmacology but not the origin narrative. Do not claim that a receptor-binding assay was used at the start of the early-1970s program.",
+      "Imidazopyridine/zolpidem's 1978 inspiration rests on Kaplan's first-person retrospective. The patent corroborates a later series disclosure and named inventors, not the full recalled causal sequence or the distribution of intellectual credit.",
+      "The class-level judgment concerns the two assigned founding branches. It does not establish the origin of every other GABA-A hypnotic or of all later compounds."
+    ],
+    "conflicts": [
+      "Wermuth's 2006 article explicitly describes a benzodiazepine-profile-directed search for zopiclone, whereas his 2008 chapter places zopiclone under extensive screening generally framed as lacking a prior hypothesis and labels its figure random screening. These are not independent accounts and may describe different stages or use terms inconsistently; the precise initial objective is unresolved, not evidence for design from scratch.",
+      "Kaplan disputes how the 2013 New Yorker article and other accounts distribute intellectual credit for zolpidem. The patent names both Kaplan and George; these materials do not independently resolve individual priority.",
+      "Wermuth summarizes a zolpidem screening search as early 1980s, whereas Kaplan dates his conceptual project to 1978. These may refer to distinct stages, but their exact reconciliation is unverified. Wermuth also combines early-1970s zopiclone discovery with binding-profile language; the 1972-priority patent describes behavioral tests but does not date a receptor-binding assay."
+    ],
+    "gaps": [
+      "The 1978 Jeanmart–Cotrel synthesis report and 1979 Blanchard et al. zopiclone-binding report were located but not read. Later 1983 and 1985 pharmacology papers were read only as abstracts.",
+      "No contemporaneous narrative documenting the cyclopyrrolone program's first observation, chemical lead, exact screening objective or sequence, or selection experiment was obtained; the retrospective screening descriptions remain in tension.",
+      "Kaplan's described 1978 written project and associated original laboratory notes were not obtained; the patent does not independently establish the recalled conceptual sequence.",
+      "A complete resolution of personal credit, the chronology of specific binding assays, and later analogue-specific trajectories is outside this class collection."
+    ]
+  },
+  "nameAliases": [
+    "Ambien",
+    "Edluar"
+  ],
+  "humanContributionInterpretation": {
+    "id": "Z_DRUGS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Wermuth CG. 2006. Similarity in drugs: reflections on analogue design. Drug Discovery Today 11(7–8):348–354. DOI 10.1016/j.drudis.2006.02.006; PMID 16580977.",
+        "url": "https://www.studocu.com/gt/document/universidad-de-san-carlos-de-guatemala/quimica-medicinal-i/drug-discovery-today-reflections-on-analogue-design-in-pharmaceuticals/126876786",
+        "locator": "Systematic screening section, paragraph on benzodiazepines and zopiclone, mirrored text lines 293–295.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Kaplan JP. Zolpidem : un succès commercial mais une spoliation intellectuelle. First-person retrospective, published 6 February 2016.",
+        "url": "https://invention-europe.com/2016/02/06/zolpidem-un-succes-commercial-mais-une-spoliation-intellectuelle/",
+        "locator": "Section II, paragraph beginning 'Un jour de 1978', second half of 1978, and immediately following paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Kaplan JP. Zolpidem : un succès commercial mais une spoliation intellectuelle. First-person retrospective, published 6 February 2016.",
+        "url": "https://invention-europe.com/2016/02/06/zolpidem-un-succes-commercial-mais-une-spoliation-intellectuelle/",
+        "locator": "Section II, paragraph beginning 'Ce fut un déclic', and numbered paragraphs 1–4.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Wermuth CG. 2008. Strategies in the Search for New Lead Compounds or Original Working Hypotheses. In: The Practice of Medicinal Chemistry, 3rd ed., ch. 6, pp. 123–143. DOI 10.1016/B978-0-12-374194-3.00006-8.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/4253/1/Camille%20Georges%20Wermuth_2008.pdf",
+        "locator": "Chapter 6, pp. 129–130, systematic screening introduction, subsection A and Figure 6.6 caption; subsection B defines random screening.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

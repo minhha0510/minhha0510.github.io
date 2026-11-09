@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/SSRIS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "SSRIS",
+    "name": "Selective serotonin reuptake inhibitors",
+    "medicines": [
+      "citalopram",
+      "escitalopram",
+      "fluoxetine",
+      "paroxetine",
+      "sertraline"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "citalopram",
+        "components": [
+          "citalopram"
+        ],
+        "usRank": 57,
+        "englandRank": 18,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "escitalopram",
+        "components": [
+          "escitalopram"
+        ],
+        "usRank": 13,
+        "englandRank": 115,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "fluoxetine",
+        "components": [
+          "fluoxetine"
+        ],
+        "usRank": 19,
+        "englandRank": 34,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "paroxetine",
+        "components": [
+          "paroxetine"
+        ],
+        "usRank": 97,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "sertraline",
+        "components": [
+          "sertraline"
+        ],
+        "usRank": 12,
+        "englandRank": 10,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Researchers observed uptake inhibition by established tricyclic antidepressants and certain antihistamines, then pursued greater serotonin selectivity; a separate Lundbeck line developed an observed active noradrenaline-inhibiting phthalane and related compounds, some with dual uptake effects, into citalopram.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "synthetic_compound_effect",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "The observed pharmacology and clinical use of existing synthetic antidepressants, observed monoamine-uptake inhibition by synthetic antihistamines, and uptake effects of the Lundbeck phthalane/talopram compound series.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Carlsson recalls serotonin-uptake inhibition by clinically used tricyclics and by less-selective antihistamines.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "His group selected brompheniramine and chlorpheniramine, and Corrodi developed the structurally related selective inhibitor zimelidine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In a parallel Lilly program, diphenhydramine observations led to related compounds; comparative assays and structural changes yielded fluoxetine as a potent selective serotonin-uptake inhibitor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In the Lundbeck branch a melitracen-related synthesis unexpectedly produced an active phthalane; analogue design yielded the noradrenaline-selective talopram, while related compounds showed dual uptake inhibition.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Lundbeck redirected work toward selective serotonin uptake inhibition, producing citalopram; escitalopram is the active S-enantiomer of citalopram.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Chemists altered antihistamine-related compounds and compared uptake activity across variants. In the Lundbeck branch, an unanticipated change from a tricyclic to a phthalane architecture was followed by analogue design and a change in uptake selectivity, from noradrenaline toward serotonin; the S-enantiomer of citalopram was later isolated.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E5",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "S4 describes an unexpected phthalane product and noradrenaline-uptake finding in the Lundbeck precursor work; the later Lundbeck serotonin-selective search and Lilly's comparative selective-uptake screening were deliberate. S5 classifies the SSRIs, including citalopram, as non-serendipitous without discussing the precursor events. The extent of chance across accounts is unresolved.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E8",
+        "E9",
+        "E11"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Carlsson A, interviewed by Healy D. The rise of neuropsychopharmacology: Impact on basic and clinical neuroscience. International Network for the History of Neuropsychopharmacology; date not established.",
+        "url": "https://inhn.org/archives/cinps-hanns-hippius-psychopharmacology-archives/arvid-carlsson-the-rise-of-neuropsychopharmacology-impact-on-basic-and-clinical-neuroscience-david-healys-interview",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Wong DT, Perry KW, Bymaster FP. 2005. Case history: the discovery of fluoxetine hydrochloride (Prozac). Nature Reviews Drug Discovery 4:764–774. DOI 10.1038/nrd1821; PMID 16121130.",
+        "url": "https://doi.org/10.1038/nrd1821",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Carlsson A, Lindqvist M. 1969. Central and peripheral monoaminergic membrane-pump blockade by some addictive analgesics and antihistamines. Journal of Pharmacy and Pharmacology 21:460–464. DOI 10.1111/j.2042-7158.1969.tb08287.x; PMID 4390069.",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2042-7158.1969.tb08287.x",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Fischer J, Rotella DP. 2015. Serendipitous Target-Based Drug Discoveries. In: Successful Drug Discovery. Wiley-VCH, chapter 1, pp. 3–18. Book DOI 10.1002/9783527678433.",
+        "url": "https://catalogimages.wiley.com/images/db/pdf/9783527336852.excerpt.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "López-Muñoz F, D'Ocón P, Romero A, De Berardis D, Álamo C. 2025. Did Serendipity Contribute to the Discovery of New Antidepressant Drugs? Historical Analysis Using Operational Criteria. Alpha Psychiatry 26(2):40037. DOI 10.31083/AP40037; PMID 40352067.",
+        "url": "https://www.imrpress.com/journal/AP/26/2/10.31083/AP40037",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Interview exchanges on clomipramine and tertiary tricyclic amines, immediately before the antihistamine paragraph; saved HTML near line 10096."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Interview exchange on antihistamines and zimelidine; saved HTML near line 10102."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Interview exchange on citalopram immediately after the zimelidine discussion; saved HTML near line 10104."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 766, The phenoxyphenylpropylamines, first paragraph, right column."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 767–768, Subtle differences in uptake inhibitors and Selective 5-HT uptake inhibitors in vitro."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 769, In vivo pharmacology of fluoxetine, left column, discussing the Göteborg group."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Publisher abstract, final sentence."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Printed p. 9, section 1.5, first two paragraphs and Figure 1.8; PDF page 7."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "Printed pp. 9–10, section 1.5, paragraph crossing the page break and first paragraph after Figure 1.11; PDF pages 7–8."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "Printed p. 10, section 1.5, paragraph beginning Pure enantiomers; PDF page 8."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "Methods 2.1, Results 3.1 and Table 2, and Conclusion."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "Introduction, Results 3.1 opening sentences and paragraph on zimelidine."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://inhn.org/archives/cinps-hanns-hippius-psychopharmacology-archives/arvid-carlsson-the-rise-of-neuropsychopharmacology-impact-on-basic-and-clinical-neuroscience-david-healys-interview",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.readkong.com/page/the-discovery-of-fluoxetine-hydrochloride-prozac-9733548",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.2042-7158.1969.tb08287.x",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The Swedish zimelidine and Lilly fluoxetine programs developed separate chemical series from prior observations; neither establishes chemical descent for all cohort members.",
+      "The citalopram/escitalopram line is a distinct phthalane branch with its own active precursors; S4 is a secondary account dependent on a Lundbeck history, not independent verification.",
+      "Paroxetine and sertraline are within the supplied class boundary but their individual development lineages were not traced; do not extrapolate a particular chemical precursor to every member."
+    ],
+    "conflicts": [
+      "S4 reports an unexpected citalopram-precursor structure and uptake effect, whereas S5 places citalopram in a discovery category excluding chance. S5 does not address those precursor events; the scope or reason for the discrepancy is unresolved. The approved observation-led category does not require accidental discovery.",
+      "S5 calls fluoxetine first synthesized/developed but says zimelidine was first introduced. S1 compares a zimelidine patent date with Lilly's first uptake test, not the same milestone as synthesis. Precise synthesis priority remains unresolved.",
+      "Carlsson speculates that zimelidine's eventual clinical success might have influenced other companies; Wong and colleagues state that they did not initially know about the Swedish team's new-inhibitor development. The accounts address different time periods and do not establish either a contradiction or that fluoxetine was derived from zimelidine."
+    ],
+    "gaps": [
+      "The full Carlsson–Lindqvist 1969 paper was unavailable during collection; only its abstract was read.",
+      "The original Wong and colleagues 1974 fluoxetine paper was available only as an indexed publisher abstract, not full text; its abstract was not used as a historical causal account.",
+      "The Bøgesø–Sánchez Lundbeck discoverer chapter and Hyttel's 1977 citalopram original were located but not read beyond publisher metadata, section headings, or references.",
+      "Contemporaneous records needed to settle exact first-synthesis and the disputed role of chance in the Lundbeck precursor were not compared in full."
+    ]
+  },
+  "nameAliases": [
+    "Brisdelle",
+    "Celexa",
+    "Lexapro",
+    "Paxil",
+    "Prozac",
+    "RECONCILE",
+    "Zoloft"
+  ],
+  "humanContributionInterpretation": {
+    "id": "SSRIS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Tricyclic clinical benefits and unwanted cardiac or anticholinergic effects motivated more selective antidepressant work.",
+    "scope": "Serotonin-uptake assays were central; this is a successor-development rationale rather than a new observed clinical signal.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Carlsson A, interviewed by Healy D. The rise of neuropsychopharmacology: Impact on basic and clinical neuroscience. International Network for the History of Neuropsychopharmacology; date not established.",
+        "url": "https://inhn.org/archives/cinps-hanns-hippius-psychopharmacology-archives/arvid-carlsson-the-rise-of-neuropsychopharmacology-impact-on-basic-and-clinical-neuroscience-david-healys-interview",
+        "locator": "Interview exchanges on clomipramine and tertiary tricyclic amines, immediately before the antihistamine paragraph; saved HTML near line 10096.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Wong DT, Perry KW, Bymaster FP. 2005. Case history: the discovery of fluoxetine hydrochloride (Prozac). Nature Reviews Drug Discovery 4:764–774. DOI 10.1038/nrd1821; PMID 16121130.",
+        "url": "https://doi.org/10.1038/nrd1821",
+        "locator": "p. 766, The phenoxyphenylpropylamines, first paragraph, right column.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

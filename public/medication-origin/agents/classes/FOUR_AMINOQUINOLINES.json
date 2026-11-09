@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/FOUR_AMINOQUINOLINES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "FOUR_AMINOQUINOLINES",
+    "name": "4-aminoquinoline antimalarials",
+    "medicines": [
+      "hydroxychloroquine"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "hydroxychloroquine",
+        "components": [
+          "hydroxychloroquine"
+        ],
+        "usRank": 129,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In the wider German antimalarial program, the observed antimalarial action of synthetic methylene blue supplied a lead for chemical development. Within the 4-aminoquinoline series itself, Blanchard's interview-based inspection report states that Pa 1501's antimalarial activity stimulated further exploration and development of resochin. The precise rationale for selecting the series when work began in 1929 is not established by this report.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E8",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Previously observed effects of synthetic methylene blue and later antimalarial leads, especially Pa 1501, informed development. Quinine was an effective natural antimalarial and a replacement target in the wider program; Curd's proposed influence of its structure on side-chain choice is qualified as his inference, not a documented direct template for the initial 4-aminoquinoline series.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E8",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Methylene blue's observed antimalarial activity became a starting point for the broader German synthetic-antimalarial program; quinine was an effective natural treatment and an intended substitute target.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Researchers modified the dye's side chains and explored other heterocyclic nuclei, producing pamaquine, an 8-aminoquinoline pursued as a synthetic quinine substitute.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In the overlapping wider program, Blanchard reports 4-aminoquinoline work from 1929 and attributes continued exploration to antimalarial activity observed for Pa 1501 after earlier negative candidates; the date of this first positive assay is not given.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "According to Blanchard, ring-substituent work on active Pa 1501 led to resochin; other accounts relate active quinoline structures to portions of the working acridine quinacrine/mepacrine. The accounts disagree about resochin's exact year.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5",
+          "E9"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "In 1950 Surrey and Hammer reported synthesized 4-aminoquinolines including the hydroxyethyl-substituted chloroquine analogue later known as hydroxychloroquine, with avian antimalarial activity and a preliminary clinical response.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Chemists varied side chains and heterocyclic nuclei, investigated structural portions of active quinacrine, and tested ring substitutions of Pa 1501 to develop resochin. Surrey and Hammer subsequently synthesized related 4-aminoquinolines with hydroxyethyl-containing side chains. These deliberate chemical changes did not erase the observed biological leads.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The reported exploration of ring substitutions around active Pa 1501 and Surrey and Hammer's later search for superior 4-aminoquinolines were planned research. This does not assert that the first detection of each biological effect was expected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Wainwright M, Amaral L. 2005. Review: The phenothiazinium chromophore and the evolution of antimalarial drugs. Trop Med Int Health 10(6):501–511. DOI 10.1111/j.1365-3156.2005.01417.x.",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2005.01417.x",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Krafts K, Hempelmann E, Skórska-Stania A. 2012. From methylene blue to chloroquine: a brief review of the development of an antimalarial therapy. Parasitol Res 111(1):1–6. DOI 10.1007/s00436-012-2886-x; PMID 22411634.",
+        "url": "https://go.gale.com/ps/i.do?asid=f4bd7d0c&id=GALE%7CA306093217&it=r&p=AONE&u=googlescholar&v=2.1",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Curd FHS. 1947. Researches on the Chemotherapy of Malaria: II. The Chemical Approach. Glasgow Med J 28(3), seventh series:73–79. PMID 20292989; PMCID PMC5969664.",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5969664/fullTextXML",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Surrey AR, Hammer HF. 1950. The Preparation of 7-Chloro-4-(4-(N-ethyl-N-β-hydroxyethylamino)-1-methylbutylamino)-quinoline and Related Compounds. J Am Chem Soc 72(4):1814–1815. DOI 10.1021/ja01160a116.",
+        "url": "https://www.electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20the%20American%20Chemical%20Society%20US/1950%20%20%28vol%20072%29/04%20%20%281431-1870%29/1814-1815.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Blanchard KC. c. 1945. An Evaluation of the Work on Antimalarials of the I.G. Farbenindustrie, Elberfeld, Germany. Combined Intelligence Objectives Sub-Committee, Item 24, File XXIV-20; inspection May 30–June 1, 1945.",
+        "url": "https://digirepo.nlm.nih.gov/ext/dw/101709305/PDF/101709305.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "History, paragraphs 2–3, dye staining, 1891 methylene-blue treatment and subsequent research"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "History, discussion of Figure 1 and side-chain/ring substitutions"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Hans Andersag section, first historical synthesis paragraph, and resochin/sontochin paragraphs"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "pp. 73–74, quinine and methylene-blue discussion"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 75, German investigations after the introduction of mepacrine"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "p. 1814, opening paragraph and paragraph following Table I"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 1814, paragraph following Table I; p. 1815, Summary"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "p. 12, 4-Aminoquinolines, opening paragraph; PDF page 14"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "p. 12, 4-Aminoquinolines, opening paragraph; PDF page 14"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S1",
+        "locator": "History, paragraph after Figure 1"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1021/ja01160a116",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The supported path is the German 4-aminoquinoline series through resochin/chloroquine to the subsequently reported hydroxychloroquine analogue; it does not establish the independent history of every later class member.",
+      "Quinine, methylene blue, pamaquine and quinacrine are upstream context or leads, not members of the assigned 4-aminoquinoline class. Sontochin is a related branch, not a separate from-scratch origin demonstrated here.",
+      "Pa 1501 was a stimulus for continued exploration, not necessarily the reason the program first chose 4-aminoquinolines in 1929. The 1950 report gives preliminary activity, not a modern efficacy or comparative safety assessment."
+    ],
+    "conflicts": [
+      "For resochin/chloroquine, S2 reports Andersag in 1934 (E3), whereas the near-contemporary inspection report S5 says 1935 (E9); S1 tentatively suggests independent German and Russian development around 1932 (E10). The accounts do not settle exact chronology or an independently founded Russian branch."
+    ],
+    "gaps": [
+      "The original 1891 Guttmann–Ehrlich publication and contemporaneous Bayer laboratory notebooks and assay protocols were not read; S5 reports an inspection and interviews, not those primary experiments.",
+      "The original reason for selecting the 4-aminoquinoline series in 1929 and the precise timing of Pa 1501's first positive assay were not established.",
+      "Russian primary sources and documents resolving resochin's exact synthesis date were not located and read; a 1946 hydroxychloroquine synthesis date is not asserted from the 1950 report."
+    ]
+  },
+  "nameAliases": [
+    "Plaquenil",
+    "Sovuna"
+  ],
+  "humanContributionInterpretation": {
+    "id": "FOUR_AMINOQUINOLINES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Successful antimalarial use of methylene blue provided a therapeutic precedent for the wider synthetic antimalarial program.",
+    "scope": "Retrospective antecedent account; the exact initial selection of the 4-aminoquinoline series remains unresolved.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Wainwright M, Amaral L. 2005. Review: The phenothiazinium chromophore and the evolution of antimalarial drugs. Trop Med Int Health 10(6):501–511. DOI 10.1111/j.1365-3156.2005.01417.x.",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-3156.2005.01417.x",
+        "locator": "History, paragraphs 2–3, dye staining, 1891 methylene-blue treatment and subsequent research",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

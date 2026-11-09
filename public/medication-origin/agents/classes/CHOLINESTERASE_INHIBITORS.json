@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/CHOLINESTERASE_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "CHOLINESTERASE_INHIBITORS",
+    "name": "Cholinesterase inhibitors",
+    "medicines": [
+      "donepezil"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "donepezil",
+        "components": [
+          "donepezil"
+        ],
+        "usRank": 140,
+        "englandRank": 116,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "An early branch developed from the observed pupil-constricting effect of Calabar bean extract; the bean later supplied the cholinesterase-inhibiting alkaloid physostigmine. In the distinct donepezil branch, observed cholinergic deficits in Alzheimer brain and experience with existing inhibitors motivated a search for improved treatment; an unexpectedly active synthetic N-benzylpiperazine encountered in screening became the immediate chemical seed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E7",
+        "E8",
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Early ophthalmic investigation developed from the effects of a natural Calabar bean extract. Alzheimer cholinergic deficits and prior clinical inhibitor experience informed the later donepezil strategy; an observed effect of a synthetic piperazine compound supplied its immediate chemical seed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E7",
+        "E8",
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "After observing the pupil-constricting effects of Calabar bean extract, Fraser and Robertson investigated its ocular actions and Robertson proposed ophthalmic uses.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The bean supplied the alkaloid physostigmine, later identified as a cholinesterase inhibitor; related inhibitors were subsequently developed.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "For the later Alzheimer program, disease-associated cholinergic deficits and experience with earlier inhibitors supplied the treatment rationale.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A screened N-benzylpiperazine compound showed acetylcholinesterase inhibition and was selected as a seed.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Piperidine substitution and subsequent medicinal chemistry yielded potent derivatives; an indanone series led to donepezil, whose longer-lasting inhibition was tested against physostigmine in rats.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Early investigators studied bean extract and proposed ocular uses; later analogues modified the physostigmine lead. The donepezil developers screened and selected a separate synthetic seed, changed the piperazine to piperidine, studied structure–activity relations and designed indanone derivatives to improve activity and duration.",
+      "support": "documented",
+      "evidence_ids": [
+        "E7",
+        "E8",
+        "E3",
+        "E4",
+        "E5",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The inhibitor program and follow-on synthesis were deliberate; encountering the chemical seed during screening was described as a chance finding by the developers.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Sugimoto H, Ogura H, Arai Y, Iimura Y, Yamanishi Y. 2002. Research and Development of Donepezil Hydrochloride, a New Type of Acetylcholinesterase Inhibitor. Japanese Journal of Pharmacology 89:7–20. DOI 10.1254/jjp.89.7.",
+        "url": "https://www.jstage.jst.go.jp/article/jjp/89/1/89_1_7/_pdf/-char/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Robertson DA. 1863. On the Calabar Bean as a New Agent in Ophthalmic Medicine. Edinburgh Medical Journal 8(9):815–820. PMCID PMC5277160.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5277160/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Houghton PJ, Ren Y, Howes M-J. 2006. Acetylcholinesterase inhibitors from plants and fungi. Natural Product Reports 23:181–199. DOI 10.1039/b508966m.",
+        "url": "https://doi.org/10.1039/b508966m",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Karczmar AG. 2009. Story of Muscarinic Receptors, Alkaloids with Muscarinic Significance and of Muscarinic Functions and Behaviors. ARBS Annual Review of Biomedical Sciences 11:T1–T50, online 2010.",
+        "url": "https://biblat.unam.mx/hevila/ARBSAnnualreviewofbiomedicalsciences/2009/vol11/3.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Sugimoto H, Iimura Y, Yamanishi Y, Yamatsu K. 1995. Synthesis and Structure-Activity Relationships of Acetylcholinesterase Inhibitors: 1-Benzyl-4-[(5,6-dimethoxy-1-oxoindan-2-yl)methyl]piperidine Hydrochloride and Related Compounds. Journal of Medicinal Chemistry 38(24):4821–4829. DOI 10.1021/jm00024a009; PMID 7490731.",
+        "url": "https://doi.org/10.1021/jm00024a009",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Pauling P, Petcher TJ. 1973. Crystal and molecular structure of eserine (physostigmine). Journal of the Chemical Society, Perkin Transactions 2:1342–1345. DOI 10.1039/P29730001342.",
+        "url": "https://doi.org/10.1039/P29730001342",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 8, section 3, first paragraph, cholinergic hypothesis."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 8, section 3, second paragraph, early Alzheimer studies and inhibitor limitations."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 7, abstract; p. 8, section 4.1, final paragraph; Fig. 3 on p. 9."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "p. 9, section 4.1, first two paragraphs, and Fig. 4."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S1",
+        "locator": "pp. 9–10, section 4.1, final paragraphs, and Fig. 5; section 4.2."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Reprint p. 3, opening paragraph and experiment 1; p. 4, experimental observations."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "Reprint pp. 7–8, experimental conclusions and proposed uses."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "pp. 184–185, section 3, opening physostigmine paragraph and analogue-development paragraph."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. T10, section 2, physostigmine isolation and mechanism paragraph; p. T42, references, Engelhardt and Loewi."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "pp. 4821–4822, abstract, introduction, Fig. 2 and Structure-Activity Relationships; pp. 4824–4825, Pharmacology and Figs. 4–5."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S6",
+        "locator": "p. 1342, first paragraph and reference 1, historical background to the crystal-structure experiment."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.jstage.jst.go.jp/article/jjp/89/1/89_1_7/_pdf/-char/en",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5277160/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1021/jm00024a009",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The Calabar bean/physostigmine and donepezil histories are distinct branches of a mechanism class; a shared inhibition mechanism does not prove shared molecular ancestry.",
+      "The 1863 report describes a crude extract and proposed applications, not purified physostigmine, an established enzyme mechanism, or demonstrated patient benefit.",
+      "The cohort contains donepezil alone; this record does not establish origins of every later inhibitor architecture."
+    ],
+    "conflicts": [
+      "Houghton et al. 2006 (S3, E8) give 1926 for recognition of physostigmine's cholinesterase inhibition; Karczmar 2009 (S4, E9) gives 1930. The underlying original papers were not read and a possible difference in the experimental milestones is not resolved.",
+      "Houghton et al. 2006 (S3, E8) date physostigmine's isolation to 1864; Pauling and Petcher 1973 (S6, E11) say 1878. The underlying isolation publications were not read and the priority or date discrepancy is not resolved."
+    ],
+    "gaps": [
+      "The nineteenth-century isolation reports and 1920s–1930s original mechanism papers were not read; the exact isolation and mechanism-discovery dates remain unresolved.",
+      "Bowen et al.'s 1976 original Alzheimer's biochemical report was read only at abstract extent; Davies and Maloney 1976 and original trials of earlier inhibitors were not read. The clinical and disease rationale therefore rests on the explicitly identified retrospective and original medicinal-chemistry introduction."
+    ]
+  },
+  "nameAliases": [
+    "Adlarity",
+    "Aricept"
+  ],
+  "humanContributionInterpretation": {
+    "id": "CHOLINESTERASE_INHIBITORS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Calabar bean self-eye testing produced pupil constriction and accommodation changes that suggested ophthalmic use.",
+    "scope": "The later donepezil branch also relies on human postmortem biochemical assays, which do not qualify here.",
+    "references": [
+      {
+        "id": "E6",
+        "citation": "Robertson DA. 1863. On the Calabar Bean as a New Agent in Ophthalmic Medicine. Edinburgh Medical Journal 8(9):815–820. PMCID PMC5277160.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5277160/",
+        "locator": "Reprint p. 3, opening paragraph and experiment 1; p. 4, experimental observations.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Robertson DA. 1863. On the Calabar Bean as a New Agent in Ophthalmic Medicine. Edinburgh Medical Journal 8(9):815–820. PMCID PMC5277160.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5277160/",
+        "locator": "Reprint pp. 7–8, experimental conclusions and proposed uses.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/VITAMIN_K_ANTAGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "VITAMIN_K_ANTAGONISTS",
+    "name": "Vitamin K antagonists",
+    "medicines": [
+      "warfarin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "warfarin",
+        "components": [
+          "warfarin"
+        ],
+        "usRank": 98,
+        "englandRank": 103,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Veterinary investigation linked a serious cattle bleeding and clotting disorder to spoiled sweet-clover hay. Link's laboratory developed the observed biological effect into an assay-guided search for the hay's active hemorrhagic factor, leading to crystalline dicumarol. Link later reported a farmer's visit as a further stimulus, but Burris questioned details of that retrospective anecdote; the founding observation does not depend on it.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E13"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect",
+      "biological_physiological_observation",
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "The inspiration was the observed hemorrhagic and impaired-coagulation effect in livestock fed spoiled sweet-clover hay, followed through bioassay to dicumarol isolated from that material. The later drug warfarin was a synthetic analogue, not a compound shown here to have been isolated from hay.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Veterinarians linked cattle hemorrhage and impaired coagulation with spoiled sweet-clover hay; the laboratory took up the agricultural problem. Link later reported a chance 1933 farmer encounter as an additional stimulus, with details expressly questioned by Burris.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E13"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Bioassay-guided extraction led to a crystalline hemorrhagic factor, and structural work identified it as dicumarol; synthesis produced material matching the isolated product chemically and in animal effects.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "By 1940, the laboratory was deliberately preparing related compounds and considering their potential medical use, seeking synthetic analogues with stronger effects than the identified lead.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Rat work published in 1942 documented that vitamin K counteracted dicumarol-induced hypoprothrombinemia, a physiological relationship relevant to the class, without resolving its molecular mechanism in that paper.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "The laboratory prepared and assayed further related 4-hydroxycoumarin structures; no. 42 was selected after animal testing and developed as warfarin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "Warfarin was marketed for rodent control and later used clinically in a more water-soluble sodium form; ACS dates human-use approval to 1954.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized the identified active hay compound, made structurally related 4-hydroxycoumarin analogues, compared their biological effects across animal models, selected warfarin no. 42, and developed a more water-soluble sodium form. The analogue series changes active structure and biological activity; it is not merely a delivery adjustment. These intentional contributions follow the observed hemorrhagic lead.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The designation combines an observed livestock disease and Link's reported chance farmer visit with deliberate assay-guided isolation, synthesis and analogue development. Details of the retrospective visit are questioned by Burris; the chance encounter is a reported circumstance, not an independently established scene or a necessary premise of the observation-led judgment.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E7",
+        "E8",
+        "E13"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Walters K. The Invention of Warfarin. American Chemical Society National Historic Chemical Landmarks; 2022.",
+        "url": "https://www.acs.org/education/whatischemistry/landmarks/warfarin.html",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Link KP. The Discovery of Dicumarol and Its Sequels. Circulation. 1959;19(1):97–107. DOI: 10.1161/01.CIR.19.1.97; PMID: 13619027.",
+        "url": "https://doi.org/10.1161/01.CIR.19.1.97",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Stahmann MA, Huebner CF, Link KP. Studies on the Hemorrhagic Sweet Clover Disease: V. Identification and Synthesis of the Hemorrhagic Agent. Journal of Biological Chemistry. 1941;138(2):513–527. DOI: 10.1016/S0021-9258(18)51377-6.",
+        "url": "https://doi.org/10.1016/S0021-9258(18)51377-6",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Burris RH. Karl Paul Link. In: Biographical Memoirs, Volume 65. National Academy of Sciences; 1994. DOI: 10.17226/4548.",
+        "url": "https://www.nationalacademies.org/read/4548/chapter/9",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Overman RS, Field JB, Baumann CA, Link KP. Studies on the Hemorrhagic Sweet Clover Disease IX. The Effect of Diet and Vitamin K on the Hypopro-Thrombinemia Induced by 3,3′-Methylenebis (4-Hydroxycoumarin) in the Rat. Journal of Nutrition. 1942;23(6):589–602. DOI: 10.1093/jn/23.6.589.",
+        "url": "https://www.researchgate.net/publication/232289289_STUDIES_ON_THE_HEMORRHAGIC_SWEET_CLOVER_DISEASE",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S2",
+        "locator": "p. 97, opening historical account, first through fifth paragraphs"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "pp. 97–99, end of opening account and 'Tragedy out on the Farm'"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "pp. 99–101, rabbit assay and 'Isolation, Crystallization, Identification, and Synthesis of Dicumarol'"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "p. 513, first paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 526, summary points 1–4"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "pp. 595–598, 'Vitamin K'; pp. 600–601, discussion and summary"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "pp. 186–187, Link's 9 April 1940 letter reproduced in Burris's biography"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S2",
+        "locator": "p. 104, 'A Janus in the Coumarin Family', paragraphs on 1942–1948 synthesis and bioassays"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. 188, paragraph beginning 'The analog number 42'"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S1",
+        "locator": "'Into the future', paragraph on warfarin sodium and human-use approval"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S2",
+        "locator": "p. 102, 'Breaking the Bonds of the Usual Pattern of Thought'"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S4",
+        "locator": "p. 187, 1940 Link letter reproduced in Burris's biography"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S4",
+        "locator": "p. 183, paragraph preceding the reproduced 1933 farmer-visit narrative"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1161/01.CIR.19.1.97",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1016/S0021-9258(18)51377-6",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1093/jn/23.6.589",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The supported founding chain is the assigned spoiled-hay–dicumarol–warfarin 4-hydroxycoumarin lineage. The cohort member is warfarin; other vitamin K antagonist founding lineages were not investigated and should not be inferred from this record.",
+      "Dicumarol was identified in spoiled hay, but warfarin no. 42 was a later synthetic analogue. Compound no. 63 was a distinct related compound, not warfarin; it is not treated as a separate founding branch here.",
+      "The 1942 vitamin K study establishes an experimental physiological antagonism in rats; no modern molecular mechanism or causally necessary design rationale is inferred from it."
+    ],
+    "conflicts": [
+      "Burris1994 p.183 explicitly questions details of Link's1959 farmer-visit narrative, citing late-recorded quotations, changes in reported journey and weather, discrepancies with original documents and recollections of early workers. The visit is retained as Link's report with this uncertainty; the livestock observations and laboratory development do not depend on its dramatic details.",
+      "Link's 1959 retrospective reports that early clinical reports denied vitamin K reversal of dicumarol's action, whereas the 1942 Overman animal experiment reports antagonism. Species and contexts differ; these sources do not by themselves adjudicate every early clinical observation.",
+      "A non-founding anecdote differs: Burris says Eisenhower received dicumarol after his heart attack, while ACS says warfarin. The treatment detail was not independently adjudicated and is not used in the origin judgment."
+    ],
+    "gaps": [
+      "Final source review independently read indexed OCR with the correct 1941 title, authors and pages for Stahmann, Huebner and Link. The live PDF route redirected to a different 1944 article and the publisher PDF was blocked. The indexed 1941 text supports the stated structure/synthesis and rabbit prothrombin comparisons; it does not provide a complete multispecies dose-response report or replace the separate original isolation paper. Downloadable 1941 PDF/page images remained unavailable.",
+      "The contemporaneous original veterinary publications of Schofield and Roderick were not separately read; their observations are attributed to Link's retrospective.",
+      "The separate Campbell and Link isolation report, the 1903 chemical synthesis report cited in the reproduced letter, and Link's original 1940 letter were not separately read. The 1941 structure/synthesis paper and the text of the letter reproduced by Burris were read.",
+      "The early warfarin clinical papers and primary approval records were not separately read; establishment and the 1954 approval year are attributed to the Link and ACS retrospective accounts.",
+      "The original 1941 and 1942 papers were read through indexed or hosted full-text transcriptions; downloadable PDFs were not obtained. The ACS source was read in a web index. Source access does not establish independent verification of every passage."
+    ]
+  },
+  "nameAliases": [
+    "Coumadin",
+    "Jantoven"
+  ],
+  "humanContributionInterpretation": {
+    "id": "VITAMIN_K_ANTAGONISTS",
+    "group": "not_established",
+    "contribution": "context_only",
+    "summary": "Bleeding linked to spoiled sweet clover directed anticoagulant-factor investigation.",
+    "scope": "The initiating observations were in cattle, outside this human-patient filter.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Link KP. The Discovery of Dicumarol and Its Sequels. Circulation. 1959;19(1):97–107. DOI: 10.1161/01.CIR.19.1.97; PMID: 13619027.",
+        "url": "https://doi.org/10.1161/01.CIR.19.1.97",
+        "locator": "p. 97, opening historical account, first through fifth paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Link KP. The Discovery of Dicumarol and Its Sequels. Circulation. 1959;19(1):97–107. DOI: 10.1161/01.CIR.19.1.97; PMID: 13619027.",
+        "url": "https://doi.org/10.1161/01.CIR.19.1.97",
+        "locator": "pp. 97–99, end of opening account and 'Tragedy out on the Farm'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Link KP. The Discovery of Dicumarol and Its Sequels. Circulation. 1959;19(1):97–107. DOI: 10.1161/01.CIR.19.1.97; PMID: 13619027.",
+        "url": "https://doi.org/10.1161/01.CIR.19.1.97",
+        "locator": "pp. 99–101, rabbit assay and 'Isolation, Crystallization, Identification, and Synthesis of Dicumarol'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Stahmann MA, Huebner CF, Link KP. Studies on the Hemorrhagic Sweet Clover Disease: V. Identification and Synthesis of the Hemorrhagic Agent. Journal of Biological Chemistry. 1941;138(2):513–527. DOI: 10.1016/S0021-9258(18)51377-6.",
+        "url": "https://doi.org/10.1016/S0021-9258(18)51377-6",
+        "locator": "p. 513, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E13",
+        "citation": "Burris RH. Karl Paul Link. In: Biographical Memoirs, Volume 65. National Academy of Sciences; 1994. DOI: 10.17226/4548.",
+        "url": "https://www.nationalacademies.org/read/4548/chapter/9",
+        "locator": "p. 183, paragraph preceding the reproduced 1933 farmer-visit narrative",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

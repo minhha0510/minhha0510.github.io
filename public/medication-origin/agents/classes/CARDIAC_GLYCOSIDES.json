@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/CARDIAC_GLYCOSIDES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "CARDIAC_GLYCOSIDES",
+    "name": "Cardiac glycosides",
+    "medicines": [
+      "digoxin"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "digoxin",
+        "components": [
+          "digoxin"
+        ],
+        "usRank": null,
+        "englandRank": 110,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A reported multi-herb remedy for dropsy led Withering to identify foxglove as the likely active plant and investigate its effects in patients. Later, reported greater physiological activity of D. lanata than the medicinal D. purpurea prompted Smith to fractionate the former's glucosides, yielding digoxin.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "clinical_veterinary_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Reported clinical effects of a multi-herb recipe, subsequent observed effects of foxglove, and the reported physiological activity of D. lanata that motivated Smith's later comparative isolation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Withering learned of a reported dropsy remedy and inferred that foxglove was its active ingredient.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "He reported diuresis and other clinical observations with foxglove, adjusted its preparation and dosing in response to variable activity and toxicity, and suggested a possible therapeutic use for its effect on heart motion.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E11"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Later reports that D. lanata had greater physiological activity than the medicinal D. purpurea prompted Smith to fractionate its glucosides; he isolated and named digoxin and described an animal bioassay.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A historical analysis reports that the MRC committee agreed in 1931 to Wayne's clinical testing of purified glycosides, including oral digoxin; it reports ventricular-rate slowing and oral activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Withering refined preparation and dosing; Smith deliberately fractionated and characterized active plant glucosides and reported a bioassay of the isolated digoxin. These are preparation and isolation, not evidence of a designed new molecular scaffold.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E6",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Withering's later testing and preparation refinement and Smith's comparative fractionation were deliberate; the circumstances of the earlier folk discovery are not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Withering W. 1785. An Account of the Foxglove, and Some of Its Medical Uses: With Practical Remarks on Dropsy, and Other Diseases. Birmingham: M. Swinney.",
+        "url": "https://www.gutenberg.org/cache/epub/24886/pg24886-images.html",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Smith S. 1930. LXXII.—Digoxin, a new digitalis glucoside. Journal of the Chemical Society, 508–510. DOI 10.1039/JR9300000508.",
+        "url": "https://doi.org/10.1039/JR9300000508",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Toth B. 2015. Why the MRC therapeutic trials committee did not introduce controlled clinical trials. Journal of the Royal Society of Medicine 108(12):499–511. DOI 10.1177/0141076815618891. PMID 26655968.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4698837/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Krikler DM. 1985. Withering and the foxglove: the making of a myth. British Heart Journal 54(3):256–257. DOI 10.1136/hrt.54.3.256. PMID 3899150.",
+        "url": "https://heart.bmj.com/content/heartjnl/54/3/256.full.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Introduction to modern practice, printed pp. 1–2, paragraph beginning 'In the year 1775'."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Introduction, printed p. 2, same paragraph and the following paragraph."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Introduction, printed pp. 2–3, and Case I, printed pp. 11–12."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Introduction, printed pp. 3–5; Effects, Rules, and Cautions, pp. 184–186."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 508, opening paragraph, potency observation and reason for studying a second species."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 508, paragraph following the opening comparison, and Experimental section continuing to p. 509."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "p. 508, paragraph immediately before Experimental."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 504, left column, The laboratory approach, first paragraph."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "p. 504, left column, The laboratory approach, first paragraph and following paragraph."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "p. 256, paragraphs on the Parke-Davis advertising picture and its copy; p. 257 figure caption."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S1",
+        "locator": "Inferences, printed pp. 191–193, inference IX, ending on p. 192."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.gutenberg.org/cache/epub/24886/pg24886-images.html",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1039/JR9300000508",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The directly traced branch is digitalis, from plant preparations to the isolation of digoxin from a second foxglove species; non-digitalis plant sources require separate historical evidence."
+    ],
+    "conflicts": [
+      "A later advertisement named the reported woman and pictured a direct payment; Krikler (E10) identifies those as embellishments, whereas Withering's own account (E1–E2) reports only what he was told. Her identity and the earlier remedy's outcome are not independently established."
+    ],
+    "gaps": [
+      "Smith's cited Wokes 1929 comparison has not been independently read.",
+      "Wayne's 1933 clinical report was located in Toth's reference list but its original text and a verified direct URL were not obtained; clinical testing is reported through Toth's retrospective account.",
+      "Smith's article was read through the search service's extracted PDF text; direct local retrieval and PDF screenshots failed, so no local copy was obtained.",
+      "The original woman and her remedy have not been independently authenticated; Krikler's analysis of the later advertisement is secondary and the advertisement was not independently inspected."
+    ]
+  },
+  "nameAliases": [
+    "Digox",
+    "Lanoxin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "CARDIAC_GLYCOSIDES",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "A reported dropsy remedy and subsequent patient diuresis and pulse changes directed Withering's foxglove investigation.",
+    "scope": "The later isolation of digoxin used bioassays; this is an ancestral clinical lineage, not an independent origin for every glycoside.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Withering W. 1785. An Account of the Foxglove, and Some of Its Medical Uses: With Practical Remarks on Dropsy, and Other Diseases. Birmingham: M. Swinney.",
+        "url": "https://www.gutenberg.org/cache/epub/24886/pg24886-images.html",
+        "locator": "Introduction to modern practice, printed pp. 1–2, paragraph beginning 'In the year 1775'.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Withering W. 1785. An Account of the Foxglove, and Some of Its Medical Uses: With Practical Remarks on Dropsy, and Other Diseases. Birmingham: M. Swinney.",
+        "url": "https://www.gutenberg.org/cache/epub/24886/pg24886-images.html",
+        "locator": "Introduction, printed p. 2, same paragraph and the following paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Withering W. 1785. An Account of the Foxglove, and Some of Its Medical Uses: With Practical Remarks on Dropsy, and Other Diseases. Birmingham: M. Swinney.",
+        "url": "https://www.gutenberg.org/cache/epub/24886/pg24886-images.html",
+        "locator": "Introduction, printed pp. 2–3, and Case I, printed pp. 11–12.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Withering W. 1785. An Account of the Foxglove, and Some of Its Medical Uses: With Practical Remarks on Dropsy, and Other Diseases. Birmingham: M. Swinney.",
+        "url": "https://www.gutenberg.org/cache/epub/24886/pg24886-images.html",
+        "locator": "Introduction, printed pp. 3–5; Effects, Rules, and Cautions, pp. 184–186.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E11",
+        "citation": "Withering W. 1785. An Account of the Foxglove, and Some of Its Medical Uses: With Practical Remarks on Dropsy, and Other Diseases. Birmingham: M. Swinney.",
+        "url": "https://www.gutenberg.org/cache/epub/24886/pg24886-images.html",
+        "locator": "Inferences, printed pp. 191–193, inference IX, ending on p. 192.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

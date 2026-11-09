@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/HISTAMINE_ANALOGUES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "HISTAMINE_ANALOGUES",
+    "name": "Histamine analogues for vertigo",
+    "medicines": [
+      "betahistine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "betahistine",
+        "components": [
+          "betahistine"
+        ],
+        "usRank": null,
+        "englandRank": 137,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Histamine's vasodilating properties motivated its clinical use for episodic vertigo and Ménière's disease; clinicians reported apparent benefits. According to retrospective accounts, these experiences and the difficulty of repeated injections supplied the setting for a search for an oral alternative in which betahistine was found. Campbell's particular cases are examples of the historical observations, not proven triggers of that search.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "The working clue was the vasoactive and reported therapeutic effects of histamine, an endogenous molecule, in vertigo/Ménière's disease. Betahistine is a histamine analogue; its later receptor characterization should not be projected backward as the original rationale.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The reported vasodilating effect of histamine provided a rationale for its use in episodic vertigo and inner-ear disease. Campbell later recorded perceived responses to injected histamine in eleven Ménière's patients, while warning about the small series and natural fluctuations.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "According to retrospective reports, prior histamine treatment and difficulty with oral use and repeated injections led to a search for an oral alternative; betahistine, an orally active histamine analogue, was found. The original developers and chemical-development sequence are not established by these accounts.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Frew and Menon subsequently investigated betahistine in a placebo-controlled crossover study for Ménière's symptoms and reported improvement; later systematic review found the included betahistine efficacy evidence uncertain. Historical use and current effectiveness are distinct questions.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers found and developed an orally active, histamine-like alternative for a treatment previously given by injection. The record does not establish whether betahistine was newly synthesized for this program or repurposed, the specific structural-design choices, or what the original team knew about later H1/H3 receptor actions.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Frew and Menon's account describes a search for an orally administered alternative to histamine. This identifies the search as intentional; it does not establish whether the initial chemical discovery or therapeutic effect was expected or accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Fischer AJEM. 1991. Histamine in the treatment of vertigo. Acta Otolaryngol Suppl 479:24–28. DOI 10.3109/00016489109121145; PMID 2068937.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2068937/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Campbell AA. Ménière's disease (with some observations on its treatment by histamine). Can Med Assoc J. 1945;52(6):605–606. PMID 20323464; PMCID PMC1582266.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1582266/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Frew IJC, Menon GN. Betahistine hydrochloride in Ménière's disease. Postgrad Med J. 1976;52(610):501–503. DOI 10.1136/pgmj.52.610.501; PMID 790351; PMCID PMC2496440.",
+        "url": "https://academic.oup.com/pmj/article-pdf/52/610/501/50185051/postgradmedj-52-501.pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Webster KE, Galbraith K, Harrington-Benton NA, et al. Systemic pharmacological interventions for Ménière's disease. Cochrane Database Syst Rev. 2023;2023(2):CD015171. DOI 10.1002/14651858.CD015171.pub2; PMID 36827524; PMCID PMC9948543.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9948543/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Lacour M, van de Heyning PH, Novotny M, Tighilet B. Betahistine in the treatment of Ménière's disease. Neuropsychiatr Dis Treat. 2007;3(4):429–440. PMID 19300572; PMCID PMC2655085.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2655085/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Horton BT, von Leden H. Clinical use of beta-2-pyridylalkylamines. I. Proc Staff Meet Mayo Clin. 1962;37:692–702. PMID 13964042.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13964042/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Abstract, first two sentences"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "p. 606, right column, first complete paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 605, right column, clinical-course discussion"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "p. 501, Introduction, third paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "pp. 501–503, Summary, Trial design, Results and Discussion"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "Abstract, Main results, Betahistine; Authors' conclusions"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "Results, Excluded studies; Characteristics of excluded studies, Frew 1976"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Background, How the intervention might work"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "Mechanism of action; Betahistine in vestibular disorders, first paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1582266/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://academic.oup.com/pmj/article-pdf/52/610/501/50185051/postgradmedj-52-501.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13964042/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This class record concerns betahistine for vertigo/Ménière's disease, not the separate H1-antagonist class.",
+      "The observation-led therapeutic route is reported retrospectively. The read original clinical reports do not establish the inventors' own initial chemical-development reasoning or whether the compound was first synthesized for vertigo.",
+      "Horton and von Leden's 1962 possible upstream clinical report was located only as metadata; its connection to the founding development cannot be inferred from its title or an advertisement's citation. No additional founding branch is established for the single listed cohort member."
+    ],
+    "conflicts": [
+      "Frew and Menon describe randomization in their 1976 crossover study (E5), whereas the 2023 systematic review lists Frew 1976 as not an RCT (E7). Its reason is not resolved here; its general crossover exclusion rule is not the Frew-specific reason listed.",
+      "Frew and Menon reported trial outcomes favoring betahistine (E5), whereas the later systematic review rated its included betahistine evidence low or very low certainty and could not make meaningful numerical conclusions (E6). These statements differ in evidence scope and do not prove the historical report false or current ineffectiveness."
+    ],
+    "gaps": [
+      "Fischer 1991 is accessible only as an abstract; the full-text Frew and Menon historical introduction gives no original-program citation or developer names. These accounts may not be independent.",
+      "No discoverer account or primary chemical-development report was read. Horton and von Leden 1962 is located but unread; the initial synthesis, original target indication, research team, and chemical priority remain unestablished."
+    ]
+  },
+  "nameAliases": [],
+  "humanContributionInterpretation": {
+    "id": "HISTAMINE_ANALOGUES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Apparent benefit of injected histamine for vertigo and repeated-injection limitations motivated oral betahistine.",
+    "scope": "This records historical reasoning, not a current conclusion about betahistine efficacy.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Fischer AJEM. 1991. Histamine in the treatment of vertigo. Acta Otolaryngol Suppl 479:24–28. DOI 10.3109/00016489109121145; PMID 2068937.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2068937/",
+        "locator": "Abstract, first two sentences",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E2",
+        "citation": "Campbell AA. Ménière's disease (with some observations on its treatment by histamine). Can Med Assoc J. 1945;52(6):605–606. PMID 20323464; PMCID PMC1582266.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1582266/",
+        "locator": "p. 606, right column, first complete paragraph",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E3",
+        "citation": "Campbell AA. Ménière's disease (with some observations on its treatment by histamine). Can Med Assoc J. 1945;52(6):605–606. PMID 20323464; PMCID PMC1582266.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1582266/",
+        "locator": "p. 605, right column, clinical-course discussion",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E4",
+        "citation": "Frew IJC, Menon GN. Betahistine hydrochloride in Ménière's disease. Postgrad Med J. 1976;52(610):501–503. DOI 10.1136/pgmj.52.610.501; PMID 790351; PMCID PMC2496440.",
+        "url": "https://academic.oup.com/pmj/article-pdf/52/610/501/50185051/postgradmedj-52-501.pdf",
+        "locator": "p. 501, Introduction, third paragraph",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PHENYLALKYLAMINE_CCB",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PHENYLALKYLAMINE_CCB",
+    "name": "Phenylalkylamine calcium-channel blockers",
+    "medicines": [
+      "verapamil"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "verapamil",
+        "components": [
+          "verapamil"
+        ],
+        "usRank": 149,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Papaverine's known smooth-muscle-relaxing and antispasmodic effects, including its use for intestinal colic, supplied a working natural-product lead for the synthetic D365/verapamil line, as reported retrospectively by Davies and Hollman.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The molecular-development starting point was papaverine, an opium alkaloid with known smooth-muscle-relaxing and intestinal antispasmodic effects. Subsequently, observed cardiac effects of already synthesized verapamil and prenylamine led to recognition of calcium antagonism; that later mechanistic clue did not precede synthesis of the drugs.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Papaverine's observed smooth-muscle relaxation and intestinal antispasmodic use preceded and, according to Davies and Hollman, led to the D365 analogue line.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Dengel's invention specified a synthetic phenylacetonitrile series for coronary vasodilatation and reported D365's experimental activity relative to papaverine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The later history reports that the D365 compound was developed as verapamil, entered angina trials in 1961, and was marketed as Isoptin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Fleckenstein investigated unexpected cardiac depression with the already synthesized coronary drugs verapamil and prenylamine. Their similarity to calcium withdrawal and reversibility with calcium helped establish the calcium-antagonist concept, named in 1969.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized a novel phenylacetonitrile series and studied its coronary-dilating activity; the historical accounts call D365 a synthetic analogue of papaverine, a benzylisoquinoline. This is an appreciable architectural change, but the sources read do not specify the complete sequence by which it was achieved.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The patent-stage search for coronary vasodilatation was planned; Fleckenstein described the later recognition of calcium antagonism while investigating unexpected cardiac depression as a chance discovery.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Davies MK, Hollman A. The opium poppy, morphine, and verapamil. Heart. 2002;88:3. doi:10.1136/heart.88.1.3-a.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1767178/",
+        "role": "historical_review",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Dengel F, inventor; Knoll AG, assignee. Basically substituted phenyl acetonitrile compounds. US patent 3261859A; filed 1962 April 27, issued 1966 July 19.",
+        "url": "https://patents.google.com/patent/US3261859A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Fleckenstein A. History of calcium antagonists. Circ Res. 1983;52(2 Pt 2):I3-I16. PMID:6339106.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6339106/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Shah RR, Stonier PD. Withdrawal of prenylamine: perspectives on pharmacological, clinical and regulatory outcomes following the first QT-related casualty. Ther Adv Drug Saf. 2018;9(8):475-493. doi:10.1177/2042098618780854.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6199680/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Hollman A. Verapamil and morphine. Br Heart J. 1991;66(3):198. doi:10.1136/hrt.66.3.198. PMID:1931346.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1024643/",
+        "role": "historical_review",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Haas H, Haertfelder G. [(N-methyl-N-homoveratryl)-gamma-aminopropyl]-3,4-dimethoxyphenyl-acetonitrile, a substance with coronary vasodilating properties] [PubMed-indexed English translation, truncated at start]. Arzneimittelforschung. 1962;12:549-558. PMID:13903351.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13903351/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Full article, single historical paragraph, sentences on papaverine's smooth-muscle and intestinal effects and Knoll's D365 analogue."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Description, objectives and D365 pharmacology following Examples 6–19; patent text on coronary blood flow and comparisons with papaverine."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "PubMed abstract, first two sentences."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "Section 'Prenylamine paved the way to developing modern calcium antagonists', Fleckenstein quotation and following paragraph."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "Page 198, right-hand column, paragraphs on papaverine and Dengel's analogue programme."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US3261859A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6339106/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13903351/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The papaverine-to-verapamil classification concerns the assigned verapamil line, not separate dihydropyridine or benzothiazepine families.",
+      "Prenylamine contributed a distinct co-observation to the calcium-antagonist concept, but the sources read do not establish that it followed the papaverine-to-verapamil chemical-development pathway; the judgment is not an origin classification of prenylamine's separate molecular line."
+    ],
+    "conflicts": [
+      "Davies and Hollman 2002 (E1) date the D365 analogue to 1957; Hollman 1991 (E5) says May 1959. The sources share an author and the discrepancy remains unresolved."
+    ],
+    "gaps": [
+      "The original Dengel/Knoll notebook or project rationale has not been read; the specific papaverine-to-D365 causal attribution rests on retrospective accounts rather than the patent's pharmacological comparator alone.",
+      "Fleckenstein's 1983 original review was read only as an abstract, with an additional passage reproduced by a later review; the contemporaneous 1964 experimental report has not been read.",
+      "The 1962 Haas-Haertfelder original pharmacology article was located as metadata without an abstract and was not read.",
+      "The intermediate chemical-development sequence and the precise date of first D365 synthesis are not resolved by the materials read."
+    ]
+  },
+  "nameAliases": [
+    "Calan",
+    "Isoptin",
+    "Verelan"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PHENYLALKYLAMINE_CCB",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Papaverine's clinical use for intestinal colic and its smooth-muscle effects supplied a precedent for Knoll's D365 or verapamil line.",
+    "scope": "A retrospective causal account; the later cardiovascular indication should not be represented as an original bedside discovery.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Davies MK, Hollman A. The opium poppy, morphine, and verapamil. Heart. 2002;88:3. doi:10.1136/heart.88.1.3-a.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1767178/",
+        "locator": "Full article, single historical paragraph, sentences on papaverine's smooth-muscle and intestinal effects and Knoll's D365 analogue.",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

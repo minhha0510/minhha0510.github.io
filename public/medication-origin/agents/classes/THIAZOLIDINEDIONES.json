@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/THIAZOLIDINEDIONES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "THIAZOLIDINEDIONES",
+    "name": "Thiazolidinediones",
+    "medicines": [
+      "pioglitazone"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "pioglitazone",
+        "components": [
+          "pioglitazone"
+        ],
+        "usRank": 126,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "While looking for lipid-lowering agents, Takeda observed that synthetic AL-294 also acted against hyperglycemia in diabetic yellow KK mice, then modified it to seek greater activity, yielding AL-321. In a distinct program, Sankyo hypothesized that lipid peroxides contributed to diabetic disorders and advanced CS-045 after screening and observing its biological activity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E1",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The observed glucose- and lipid-lowering effects of synthetic AL-294 supplied the working Takeda lead. In a distinct antioxidant-oriented program, tested synthetic CS-045 showed metabolic effects and was further developed; a different hypothesis does not establish design from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "During a lipid-lowering search, AL-294 showed glucose- and lipid-lowering effects in insulin-resistant diabetic yellow KK mice; its modification yielded thiazolidinedione AL-321.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "AL-321 analogue studies led to ciglitazone; further studies seeking greater potency produced pioglitazone, including work on pyridylethoxy substituents.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A distinct Sankyo program tested hindered phenols for glucose/lipid effects together with antioxidant activity; a thiazolidinedione derived from another tested compound became CS-045 (troglitazone), and its observed activity supported further development.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The researchers modified active AL-294, made and tested AL-321 derivatives, and pursued increased potency, including a pyridylethoxy substitution leading toward pioglitazone. The distinct Sankyo program synthesized and screened hindered phenols for glucose/lipid effects and antioxidant activity, including a new thiazolidinedione structure.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E1",
+        "E3",
+        "E4"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Later Takeda structure–activity studies sought a more potent compound; Sankyo planned testing for metabolic and antioxidant activities. Whether the initial AL-294 glucose effect was unexpected is not established by the primary account read.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Sohda T, Kawamatsu Y, Fujita T, Meguro K, Ikeda H. 2002. Discovery and Development of a New Insulin Sensitizing Agent, Pioglitazone. Yakugaku Zasshi 122:909–918. DOI 10.1248/yakushi.122.909.",
+        "url": "https://www.jstage.jst.go.jp/article/yakushi/122/11/122_11_909/_article/-char/en",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Sohda T, Mizuno K, Tawada H, Sugiyama Y, Fujita T, Kawamatsu Y. 1982. Studies on antidiabetic agents. I. Synthesis of 5-[4-(2-methyl-2-phenylpropoxy)-benzyl]thiazolidine-2,4-dione (AL-321) and related compounds. Chem Pharm Bull 30:3563–3573. DOI 10.1248/cpb.30.3563; PMID 7160011.",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/30/10/30_10_3563/_pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Momose Y, Meguro K, Ikeda H, Hatanaka C, Oi S, Sohda T. 1991. Studies on antidiabetic agents. X. Synthesis and biological activities of pioglitazone and related compounds. Chem Pharm Bull 39:1440–1445. DOI 10.1248/cpb.39.1440; PMID 1934164.",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/39/6/39_6_1440/_pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Yoshioka T, Fujita T, Kanai T, Aizawa Y, Kurumada T, Hasegawa K, Horikoshi H. 1989. Studies on hindered phenols and analogues. 1. Hypolipidemic and hypoglycemic agents with ability to inhibit lipid peroxidation. J Med Chem 32:421–428. DOI 10.1021/jm00122a022; PMID 2913302.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2913302/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Devchand PR, Liu T, Altman RB, FitzGerald GA, Schadt EE. 2018. The Pioglitazone Trek via Human PPAR Gamma: From Discovery to a Medicine at the FDA and Beyond. Front Pharmacol 9:1093. DOI 10.3389/fphar.2018.01093.",
+        "url": "https://doi.org/10.3389/fphar.2018.01093",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Umezu K. 2015. Systematized Survey on the History of Drug Discovery with Technical Development. National Museum of Nature and Science, Survey Report on the Systemization of Technologies 22, March 2015, section 4.1.6.",
+        "url": "https://sts.kahaku.go.jp/albums/abm.php?d=6689&f=abm00015948.pdf&n=089_e.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Quianzon CCL, Cheikh IE. 2012. History of current non-insulin medications for diabetes mellitus. J Community Hosp Intern Med Perspect 2(3):19081. DOI 10.3402/jchimp.v2i3.19081; PMID 23882374.",
+        "url": "https://doi.org/10.3402/jchimp.v2i3.19081",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Sneader W. 2005. Drug Discovery: A History. John Wiley & Sons, p. 275. DOI 10.1002/0470015535.",
+        "url": "https://doi.org/10.1002/0470015535",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "English abstract, publisher page and PDF p. 909"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "p. 3563, abstract and first paragraph of introduction"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "p. 1440, opening paragraph and abstract"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "English abstract, PubMed and Europe PMC"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "pp. 3–4, section Glitazones as a New Class of Drugs"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S6",
+        "locator": "section 4.1.6, printed p. 74 (PDF physical p. 76), paragraphs on Takeda and Sankyo"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S7",
+        "locator": "Thiazolidinediones section and reference 14"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S8",
+        "locator": "p. 275, Antidiabetic Drugs paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1248/yakushi.122.909",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1248/cpb.30.3563",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1248/cpb.39.1440",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1021/jm00122a022",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The directly documented Takeda lineage runs from AL-294 through AL-321 and ciglitazone to the cohort member pioglitazone. Sankyo pursued a different antioxidant-related objective and advanced CS-045 after observing biological activity; the available source passages do not establish whether an earlier working thiazolidinedione guided its ring choice. Other programs are not individually reconstructed."
+    ],
+    "conflicts": [
+      "Sneader's book (E8) reverses the AL-294 and AL-321 names relative to the original Takeda report (E2) and the discoverer account (E1). This record uses the primary report's identification: AL-294 was the active lead and AL-321 the thiazolidinedione.",
+      "Umezu (S6) emphasizes that Sankyo and Takeda used different concepts; Devchand et al. (S5) characterize troglitazone as combining ciglitazone with a vitamin E component. Different aims and structural relationships can coexist, but the precise development chronology is not resolved by these passages."
+    ],
+    "gaps": [
+      "Sankyo's original 1989 full paper is paywalled; its abstract does not establish the precise rationale or chronology for choosing a thiazolidinedione. The Japanese body of Sohda and colleagues' 2002 retrospective was not read beyond its English abstract. The review's proposed earlier clinical clofibrate clue (E7) is not directly linked to the Takeda researchers' decision by the accessible account."
+    ]
+  },
+  "nameAliases": [
+    "Actos"
+  ],
+  "humanContributionInterpretation": {
+    "id": "THIAZOLIDINEDIONES",
+    "group": "unresolved",
+    "contribution": "uncertain",
+    "summary": "A later review proposes clofibrate-associated glucose lowering in diabetic patients as an antecedent.",
+    "scope": "The dossier does not establish that this clinical observation caused the Takeda program; the directly documented lead is an AL-294 mouse finding.",
+    "references": [
+      {
+        "id": "E7",
+        "citation": "Quianzon CCL, Cheikh IE. 2012. History of current non-insulin medications for diabetes mellitus. J Community Hosp Intern Med Perspect 2(3):19081. DOI 10.3402/jchimp.v2i3.19081; PMID 23882374.",
+        "url": "https://doi.org/10.3402/jchimp.v2i3.19081",
+        "locator": "Thiazolidinediones section and reference 14",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

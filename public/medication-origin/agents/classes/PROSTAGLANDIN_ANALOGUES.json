@@ -1,0 +1,273 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PROSTAGLANDIN_ANALOGUES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PROSTAGLANDIN_ANALOGUES",
+    "name": "Prostaglandin analogues for glaucoma",
+    "medicines": [
+      "latanoprost"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "latanoprost",
+        "components": [
+          "latanoprost"
+        ],
+        "usRank": 68,
+        "englandRank": 87,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "An unexpected sustained pressure reduction after control glass beads and accompanying ocular inflammation led Carl Camras to hypothesize a prostaglandin-mediated pressure decrease and investigate its therapeutic potential; the bead mechanism remained hypothetical.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule"
+    ],
+    "inspiration": {
+      "description": "A pressure fall accompanying experimental ocular inflammation suggested a possible role for endogenous prostaglandins. Subsequent observations of pressure lowering by administered prostaglandins in rabbits and primates supplied the functional basis for the therapeutic development program.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E7",
+        "E3",
+        "E4"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A sustained fall in pressure after control beads prompted an inflammation/prostaglandin hypothesis and further study.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "In conscious rabbits, topical prostaglandins produced prolonged pressure decreases, sometimes after an initial rise; the authors proposed therapeutic use of PGs or analogues for ocular hypertension.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Prostaglandins also reduced ocular pressure in primates. The developer describes this prolonged effect as motivating the Columbia-Pharmacia glaucoma program.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "PGF2alpha was converted to an isopropyl ester prodrug, improving bioavailability, but irritation and hyperemia remained obstacles to wider use.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Structure-activity testing yielded an unexpectedly favorable phenyl-substituted lead in animal assays; additional omega-chain and stereochemical changes produced PhXA34 and latanoprost, which entered clinical trials.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers esterified PGF2alpha to improve bioavailability and then deliberately modified the omega chain to retain hypotensive activity while improving the irritation and receptor profile. The phenyl substituent, saturation of the 13,14 double bond, and selection of the 15R epimer changed the active analogue as well as its pharmacological and stability properties; this was not merely a delivery change.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The control-bead pressure reduction and the cat-assay profile of a later phenyl-substituted lead were unexpected findings; the subsequent prostaglandin hypothesis, esterification and structure-activity program were deliberate investigations.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Camras NL. 2012. Carl B. Camras, MD: reflections on his contributions to glaucoma research and clinical practice. Arch Ophthalmol. 130(11):1456-1460. DOI 10.1001/archophthalmol.2012.1839; PMID 23143447.",
+        "url": "https://jamanetwork.com/journals/jamaophthalmology/fullarticle/1390047",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Stern FA, Bito LZ. 1982. Comparison of the hypotensive and other ocular effects of prostaglandins E2 and F2 alpha on cat and rhesus monkey eyes. Invest Ophthalmol Vis Sci. 22(5):588-598. PMID 7076404.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7076404/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Stjernschantz JW. 2001. From PGF2alpha-isopropyl ester to latanoprost: a review of the development of Xalatan: the Proctor Lecture. Invest Ophthalmol Vis Sci. 42(6):1134-1145. PMID 11328719.",
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1489854/download-documents?artifactId=mf3GZKYytG9Ddn77FHb7YsUve9DTj_V0Lkx5fIlf45z5cdh7yyc347k",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Camras CB, Bito LZ, Eakins KE. 1977. Reduction of intraocular pressure by prostaglandins applied topically to the eyes of conscious rabbits. Invest Ophthalmol Vis Sci. 16(12):1125-1134. PMID 924742.",
+        "url": "https://scispace.com/papers/reduction-of-intraocular-pressure-by-prostaglandins-applied-1wdcbki1pb",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Publisher full text, paragraphs beginning 'Next, Carl and Dr Reid' and 'Dr Reid thought': Yale control-bead experiment, 1974-1975."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Publisher full text, paragraphs beginning 'Dr Reid thought' through 'Before graduating': the PG hypothesis, reading, and further experiments."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "PubMed abstract, final three sentences: cat and rhesus experiments and clinical implication."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "p. 1134, opening and 'PGF2alpha-Isopropyl Ester as a Prototype Prostaglandin Drug for Glaucoma Treatment'."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 1135, 'Rationale of Receptor Selectivity' and 'Structure-Activity Approach', last paragraph."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 1137, paragraph beginning 'Saturation of the 13,14-trans double bond' and Figure 2."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "Abstract, as reproduced by SciSpace; original article p. 1125; identity checked in PubMed."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 1135, 'Structure-Activity Approach and Identification of Phenyl-Substituted Prostaglandin Analogues', paragraph on Ueno."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "pp. 1139-1140, clinical trials section and Table 5."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7076404/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1489854/download-documents?artifactId=mf3GZKYytG9Ddn77FHb7YsUve9DTj_V0Lkx5fIlf45z5cdh7yyc347k",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://scispace.com/papers/reduction-of-intraocular-pressure-by-prostaglandins-applied-1wdcbki1pb",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The causally developed founding history here centers on the prostaglandin ocular-hypotensive program and the cohort member latanoprost; it does not reconstruct every derivative program.",
+      "S3 distinguishes a PGF2alpha metabolite-derived route exemplified by isopropyl unoprostone from the phenyl-substituted latanoprost route (E8). Its independent initiating observations and the histories of other derivatives were not traced; no from-scratch founding branch is established here.",
+      "S1 describes the earlier Yale control-bead episode; S3 begins its translational narrative with later primate experiments. The account does not establish a global first-discovery or individual priority ruling."
+    ],
+    "conflicts": [
+      "S3 opens by dating the research leading to the concept of PG-induced IOP lowering to the early 1980s and foregrounding primate studies, whereas S4's 1977 original abstract already reports rabbit pressure reductions and proposes treatment of ocular hypertension. The chronology differs if S3 is read as dating the whole concept; S3's primate-focused account is used for the later translational program, not as an exclusive first-discovery claim."
+    ],
+    "gaps": [
+      "The 1975 Yale thesis, original notebooks and correspondence behind the retrospective control-bead account were not read; whether endogenous prostaglandins caused that particular bead-induced pressure fall is not established.",
+      "The 1977 and 1982 original reports were read at abstract extent, with a small indexed 1977 figure fragment; neither full article was read. The 1977 abstract mirror has OCR errors, and PubMed itself has no abstract.",
+      "The separate original medicinal-chemistry and clinical-trial reports cited in the developer account, Starr's 1971 paper, and the original account of the Ueno branch were not read."
+    ]
+  },
+  "nameAliases": [
+    "Iyuzeh",
+    "Xalatan",
+    "Xelpros"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PROSTAGLANDIN_ANALOGUES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Pain, irritation and redness during clinical testing of a prostaglandin prototype helped motivate separating pressure lowering from unwanted effects.",
+    "scope": "The earlier control-bead observation was in rabbits and the primate pressure studies were experimental; the human clue qualifies the later refinement branch.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Stjernschantz JW. 2001. From PGF2alpha-isopropyl ester to latanoprost: a review of the development of Xalatan: the Proctor Lecture. Invest Ophthalmol Vis Sci. 42(6):1134-1145. PMID 11328719.",
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1489854/download-documents?artifactId=mf3GZKYytG9Ddn77FHb7YsUve9DTj_V0Lkx5fIlf45z5cdh7yyc347k",
+        "locator": "p. 1134, opening and 'PGF2alpha-Isopropyl Ester as a Prototype Prostaglandin Drug for Glaucoma Treatment'.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Stjernschantz JW. 2001. From PGF2alpha-isopropyl ester to latanoprost: a review of the development of Xalatan: the Proctor Lecture. Invest Ophthalmol Vis Sci. 42(6):1134-1145. PMID 11328719.",
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1489854/download-documents?artifactId=mf3GZKYytG9Ddn77FHb7YsUve9DTj_V0Lkx5fIlf45z5cdh7yyc347k",
+        "locator": "p. 1135, 'Rationale of Receptor Selectivity' and 'Structure-Activity Approach', last paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Stjernschantz JW. 2001. From PGF2alpha-isopropyl ester to latanoprost: a review of the development of Xalatan: the Proctor Lecture. Invest Ophthalmol Vis Sci. 42(6):1134-1145. PMID 11328719.",
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1489854/download-documents?artifactId=mf3GZKYytG9Ddn77FHb7YsUve9DTj_V0Lkx5fIlf45z5cdh7yyc347k",
+        "locator": "p. 1137, paragraph beginning 'Saturation of the 13,14-trans double bond' and Figure 2.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

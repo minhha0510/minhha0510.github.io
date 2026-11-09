@@ -1,0 +1,400 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ANILIDE_ANALGESICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ANILIDE_ANALGESICS",
+    "name": "Anilide non-opioid analgesics",
+    "medicines": [
+      "paracetamol"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "codeine + paracetamol",
+        "components": [
+          "codeine",
+          "paracetamol"
+        ],
+        "usRank": null,
+        "englandRank": 15,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "hydrocodone + paracetamol",
+        "components": [
+          "hydrocodone",
+          "paracetamol"
+        ],
+        "usRank": 31,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "oxycodone + paracetamol",
+        "components": [
+          "oxycodone",
+          "paracetamol"
+        ],
+        "usRank": 88,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "paracetamol",
+        "components": [
+          "paracetamol"
+        ],
+        "usRank": 104,
+        "englandRank": 14,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The reported antipyretic effect of synthetic acetanilide became an observed lead for research on related antipyretics, including phenacetin and the subsequent paracetamol search. A later, distinct observation that paracetamol was a prominent acetanilide metabolite in plasma prompted appraisal of its analgesic activity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E6",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "clinical_veterinary_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "An observed antipyretic effect of synthetic acetanilide, clinical response including a reported case of pain relief, and the later acetanilide-to-paracetamol metabolic relationship pertain to distinct stages; the metabolite is not described as an endogenous starting template.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E5",
+        "E2"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Cahn and Hepp reported antipyretic effects of acetanilide; a contemporary review describes fortunate access and subsequent tests in animals and fever patients, including a report of pain relief in one rheumatism case.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E5"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Acetanilide's success and adverse effects prompted research on related chemicals; phenacetin was prepared and tested as another antipyretic. Accounts disagree about the precise role of luck and who initiated the chemistry.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Paracetamol, described retrospectively as chemically synthesized by Morse in 1878, was assessed during the later search for alternatives to phenacetin. Von Mering reported clinical work in 1893; accounts differ about the first trial date.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Brodie and Axelrod's 1948 investigation of acetanilide metabolism found substantial N-acetyl-p-aminophenol; its high plasma concentration prompted analgesic appraisal. Flinn and Brodie's 1948 heat-radiation study reported analgesic activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E8"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "The later metabolic findings contributed to renewed interest and market introduction of paracetamol in the 1950s; this was a later development, not its original synthesis or first clinical assessment.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Chemists prepared and pharmacologists tested related structures in pursuit of effective antipyresis with fewer adverse effects; phenacetin and paracetamol are structurally distinct compounds. The review reports that paracetamol itself had been prepared before the therapeutic search. This was a change in active chemical structure and biological testing, not merely a delivery adjustment.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E6",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The early acquisition of the antipyretic preparation was described as fortunate. The subsequent search among related chemicals and the later metabolite investigation and pain-threshold appraisal were deliberate; this does not assert that every observation in the overall sequence was planned or accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E2",
+        "E8"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Seidel. Review of Cahn A and Hepp P, Das Antifebrin, ein neues Fiebermittel. Breslauer ärztliche Zeitschrift. 1887;9(1):8-9, 15 January, Referate und Kritiken.",
+        "url": "https://sbc.org.pl/Content/219071/PDF/iii781816-1887-01-0001.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Brune K, Renner B, Tiegs G. Acetaminophen/paracetamol: A history of errors, failures and false decisions. Eur J Pain. 2015;19(7):953-965. DOI 10.1002/ejp.621; PMID 25429980.",
+        "url": "https://biswaroop.com/wp-content/uploads/2020/10/Acetaminophenparacetamol-A-history-of-errors-failures-andfalse-decision_ref56.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Brodie BB, Axelrod J. The Fate of Acetanilide in Man. J Pharmacol Exp Ther. 1948;94(1):29-38. PMID 18885611. DOI 10.1016/S0022-3565(25)03462-7.",
+        "url": "https://digirepo.nlm.nih.gov/ext/document/101584577X4/PDF/101584577X4.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "McTavish JR. The Industrial History of Analgesics: The Evolution of Analgesics and Antipyretics. In: Rainsford KD, ed. Aspirin and Related Drugs. Taylor & Francis; 2004, chapter 2, pp. 25-43.",
+        "url": "https://api.pageplace.de/preview/DT0400.9780203646960_A23562404/preview-9780203646960_A23562404.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Sneader W. Drug Discovery: A History. John Wiley & Sons; 2005. Chapter 30, Acetanilide, pp. 438-439. DOI 10.1002/0470015535.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/91184/1/Drug%20Discovery%20A%20History-Walter%20Sneader-John%20Wiley%20%26%20Sons%20Ltd-2005-1.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Bertolini A, Ferrari A, Ottani A, Guerzoni S, Tacchi R, Leone S. Paracetamol: New Vistas of an Old Drug. CNS Drug Rev. 2006;12(3-4):250-275. DOI 10.1111/j.1527-3458.2006.00250.x; PMID 17227290.",
+        "url": "https://www.acrrm.org.au/docs/default-source/all-files/paracetamol---new-vistas-of-an-old-drug.pdf?sfvrsn=61e7310c_2",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Flinn FB, Brodie BB. The effect on the pain threshold of N-acetyl p-aminophenol, a product derived in the body from acetanilide. J Pharmacol Exp Ther. 1948;94(1):76-77. DOI 10.1016/S0022-3565(25)03471-8; PMID 18885618.",
+        "url": "https://jpet.aspetjournals.org/article/S0022-3565%2825%2903471-8/pdf",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Cahn A, Hepp P. Das Antifebrin, ein neues Fiebermittel. Centralblatt für klinische Medicin. 1886;7:561-564.",
+        "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015009239362&seq=593",
+        "role": "original_experiment",
+        "read_extent": "unavailable"
+      },
+      {
+        "source_id": "S9",
+        "citation": "von Mering J. Beiträge zur Kenntniss der Antipyretica. Therapeutische Monatshefte. 1893;7:577-587.",
+        "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015014692464&seq=595",
+        "role": "original_experiment",
+        "read_extent": "unavailable"
+      },
+      {
+        "source_id": "S10",
+        "citation": "Morse HN. Ueber eine neue Darstellungsmethode der Acetylamidophenole. Berichte der deutschen chemischen Gesellschaft. 1878;11(1):232-233. DOI 10.1002/cber.18780110151.",
+        "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cber.18780110151",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "15 January 1887 issue, p. 8, Referate und Kritiken, review of Cahn and Hepp, opening paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S3",
+        "locator": "Pages 36-38, Discussion and Summary"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Pages 954-956, sections 1.1-1.3, phenacetin development and paracetamol discussion"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "Pages 27-28, Acetanilid and Phenacetin sections"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S1",
+        "locator": "Page 9, review of Cahn and Hepp, paragraph after temperature charts"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "Page 439, Acetanilide section, final paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "Pages 251-252, Introduction and History and Chemistry, with references 148 and 220"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "Publisher's indexed abstract of the 1948 pain-threshold article; PDF unavailable"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S2",
+        "locator": "Page 956, sections 1.3-1.4, final paragraph of section 1.3 and paragraph beginning 'Relieve of pain'"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S3",
+        "url": "https://digirepo.nlm.nih.gov/ext/document/101584577X4/PDF/101584577X4.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://jpet.aspetjournals.org/article/S0022-3565%2825%2903471-8/pdf",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015009239362&seq=593",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015014692464&seq=595",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S10",
+        "url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/cber.18780110151",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The cohort is paracetamol alone; acetanilide and phenacetin are historically relevant leads, not additional cohort biographies.",
+      "S1 supports the reported acetanilide effect and clinical testing, but not the detailed pharmacy anecdote. S2, S4, S5 and S6 are retrospective accounts and may share source ancestry.",
+      "The 1948 acetanilide-to-paracetamol metabolism and analgesic work is a later development/rediscovery contribution, not the chemical invention of paracetamol or its first clinical trial. The separate 1949 phenacetin metabolism report was located but not read.",
+      "The class boundary does not assert that paracetamol is a conventional peripheral NSAID, nor does this record settle its modern mechanism or prove a universal comparative safety ranking."
+    ],
+    "conflicts": [
+      "S2 and S5 repeat the naphthalene/worms/pharmacy story; S4 explicitly says it cannot be substantiated. S1's near-contemporary review describes a fortunate occurrence but does not establish the detailed anecdote.",
+      "S2 reports competing accounts of whether luck or systematic chemistry was central to phenacetin's discovery; S4 describes an acetanilide-led commercial and chemical project. These differences do not negate the preceding observed acetanilide effect.",
+      "S6 dates the first reported clinical use to 1887 while citing the 1893 von Mering paper; S5 describes a trial in 1893. Without reading the primary report, a study-versus-publication distinction is possible but the earliest-use date remains unresolved.",
+      "S5's attribution of 1940s findings to phenacetin should not be transferred to S3: S3 directly studied acetanilide, while the separate phenacetin report is from 1949. S3's claim about how much analgesia was mediated by the metabolite is reported as its authors' historical conclusion, not independently established here."
+    ],
+    "gaps": [
+      "The 1886 Cahn-Hepp original and von Mering's 1893 original were located but HathiTrust returned HTTP 403; the detailed original circumstances, exact first clinical-use date and original adverse-effect findings remain unverified.",
+      "The 1878 Morse original was identified from publisher metadata but not read; S6 is the cited retrospective source for its link to paracetamol, not proof of Morse's purpose.",
+      "Flinn and Brodie's 1948 pain-threshold article was read only as the indexed publisher abstract; the separate 1949 Brodie-Axelrod phenacetin report was not read. A proposed impurity as the explanation for von Mering's adverse-effect observation remains hypothetical."
+    ]
+  },
+  "nameAliases": [
+    "Acephen",
+    "Anacin AF",
+    "Bactimicina",
+    "Cetafen",
+    "Comtrex Sore Throat Relief",
+    "CounterAct Pain",
+    "Endocet",
+    "Feverall",
+    "Hycet",
+    "Little Fevers",
+    "Mapap",
+    "Nalocet",
+    "Norco",
+    "Nortemp",
+    "Panadol",
+    "Percocet",
+    "Pharbetol",
+    "Primlev",
+    "Prolate",
+    "Redutemp",
+    "Ringl",
+    "Tactinal",
+    "Tempra Quicklets",
+    "Tycolene",
+    "Tylenol",
+    "Tylenol Gelcap Extra Strength",
+    "Tylenol with Codeine",
+    "Verdrocet",
+    "acetaminophen"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ANILIDE_ANALGESICS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Antipyretic benefit and adverse effects of preceding drugs helped motivate safer related analgesics.",
+    "scope": "The separate human plasma-metabolite assay route is laboratory evidence and is not used to qualify this row.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Brune K, Renner B, Tiegs G. Acetaminophen/paracetamol: A history of errors, failures and false decisions. Eur J Pain. 2015;19(7):953-965. DOI 10.1002/ejp.621; PMID 25429980.",
+        "url": "https://biswaroop.com/wp-content/uploads/2020/10/Acetaminophenparacetamol-A-history-of-errors-failures-andfalse-decision_ref56.pdf",
+        "locator": "Pages 954-956, sections 1.1-1.3, phenacetin development and paracetamol discussion",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "McTavish JR. The Industrial History of Analgesics: The Evolution of Analgesics and Antipyretics. In: Rainsford KD, ed. Aspirin and Related Drugs. Taylor & Francis; 2004, chapter 2, pp. 25-43.",
+        "url": "https://api.pageplace.de/preview/DT0400.9780203646960_A23562404/preview-9780203646960_A23562404.pdf",
+        "locator": "Pages 27-28, Acetanilid and Phenacetin sections",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Sneader W. Drug Discovery: A History. John Wiley & Sons; 2005. Chapter 30, Acetanilide, pp. 438-439. DOI 10.1002/0470015535.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/91184/1/Drug%20Discovery%20A%20History-Walter%20Sneader-John%20Wiley%20%26%20Sons%20Ltd-2005-1.pdf",
+        "locator": "Page 439, Acetanilide section, final paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

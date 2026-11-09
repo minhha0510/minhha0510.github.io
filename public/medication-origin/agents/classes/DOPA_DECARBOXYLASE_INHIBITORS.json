@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/DOPA_DECARBOXYLASE_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "DOPA_DECARBOXYLASE_INHIBITORS",
+    "name": "Peripheral DOPA-decarboxylase inhibitors",
+    "medicines": [
+      "carbidopa"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "carbidopa + levodopa",
+        "components": [
+          "carbidopa",
+          "levodopa"
+        ],
+        "usRank": null,
+        "englandRank": 146,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "For the carbidopa branch, an already active racemic alpha-methyldopa hydrazino analogue inhibited DOPA decarboxylase; the inventors reported different activities of its L and D forms and developed an L-form preparation. The antecedent synthetic alpha-methyldopa was also observed to inhibit decarboxylases, but the read sources do not establish that this observation caused the first hydrazino substitution.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E8",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Previously measured inhibition by synthetic methyldopa and its racemic hydrazino analogue, and differing isomer activities, ground the inhibitor lineage. Observations of peripheral levodopa metabolism and differential brain entry informed the adjunct application. A separate Roche benserazide branch is retrospectively linked to an unexpected clinical response in Huntington chorea; that event is not assigned as the chemical origin of carbidopa.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E5",
+        "E8",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The inventors reported decarboxylase inhibition by the antihypertensive alpha-methyldopa; their group later described the much more potent racemic hydrazino compound HMD as its analogue. The initial reason for making HMD is not stated in the passages read.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Working from known active racemic hydrazino acids, the later inventors reported D/L activity differences, synthesized the L-alpha-methyl hydrazino acid substantially free of D, and reported animal comparisons against the racemate. This is the carbidopa-related isomer branch, not a wholly untemplated inhibitor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8",
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In a separate Roche benserazide clinical branch, a later account reports unexpected worsening of chorea, followed by Birkmayer's observation-informed trial with levodopa in Parkinsonism. A Roche participant recalled the peripheral-protection rationale but did not date its conception.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The 1971 carbidopa-study investigators cited evidence that inhibitors could block extracerebral levodopa decarboxylation without readily entering the brain, and cited earlier encouraging clinical observations, before comparing the L-alpha-methyldopahydrazine plus levodopa regimen with levodopa alone.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E7"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "In the early crossover study, the combination reduced levodopa requirements and nausea without a detected overall therapeutic advantage at each regimen's maximally tolerated dose. A 1974 abstract explicitly names L-alpha-methyldopa hydrazine carbidopa and reports its clinical use with L-dopa.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers created hydrazino analogues of alpha-methyldopa. A subsequent patent reported differences in biological activity between isomers and described preparation of the active L-alpha-methyl hydrazino acid substantially free of its D isomer. The patent describes the peripheral adjunct's intended levodopa-sparing application. It does not establish the original idea for the first hydrazino substitution, the sequence of isomer preparation and activity measurements, or prove its preparation was first in time.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The L-isomer preparation and the carbidopa/levodopa trial were deliberate development stages. The reported unexpected event was the worsening of Huntington chorea in the separate benserazide branch, which the retrospective says led Birkmayer to test the combination. The sources do not establish that carbidopa's own initial synthesis was accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Chemerda JM, Sletzinger M, Bollinger FW. Method of inhibiting decarboxylase. US patent 3,462,536, granted 19 August 1969; application 29 June 1961.",
+        "url": "https://patents.google.com/patent/US3462536A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Glamkowski EJ, Gal G, Sletzinger M, Porter CC, Watson LS. A New Class of Potent Decarboxylase Inhibitors. β-(3-Indolyl)-α-hydrazinopropionic Acids. J Med Chem. 1967;10(5):852–855. DOI 10.1021/jm00317a021.",
+        "url": "https://doi.org/10.1021/jm00317a021",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Riederer P, Horowski R. L-DOPA-therapy in Parkinson's disease: some personal reflections on L-DOPA therapy from Vienna and Berlin. J Neural Transm. 2023;130:1323–1335. DOI 10.1007/s00702-023-02692-9.",
+        "url": "https://doi.org/10.1007/s00702-023-02692-9",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Pletscher A, interviewed by Ban TA, 25 January 2002. In: Sulser F, ed. An Oral History of Neuropsychopharmacology: The First Fifty Years. Peer Interviews. Vol. 3: Neuropharmacology. ACNP; 2011:419–434, esp. 429–430.",
+        "url": "https://acnp.org/wp-content/uploads/2017/10/Volume3.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Calne DB, Reid JL, Vakil SD, Rao S, Petrie A, Pallis CA, Gawler J, Thomas PK, Hilson A. Idiopathic Parkinsonism Treated with an Extracerebral Decarboxylase Inhibitor in Combination with Levodopa. Br Med J. 1971;3(5777):729–732. DOI 10.1136/bmj.3.5777.729.",
+        "url": "https://doi.org/10.1136/bmj.3.5777.729",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Glasgow GL, Henley JW, Willoughby EW. L-Alpha-Methyldopa Hydrazine (Carbidopa) Combined with L-Dopa in the Treatment of Parkinson's Disease. Aust N Z J Med. 1974;4(4):373–378. DOI 10.1111/j.1445-5994.1974.tb03207.x.",
+        "url": "https://doi.org/10.1111/j.1445-5994.1974.tb03207.x",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Karady S, Pines SH, Ly MG, Sletzinger M. Product, process and composition. US patent 3,781,415, granted 25 December 1973; application 9 September 1971.",
+        "url": "https://patents.google.com/patent/US3781415A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Columns 1–2, opening description, paragraph beginning with alpha-methyl-beta-3,4-dihydroxyphenylalanine."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "p. 852, introduction, paragraph on HMD and the rationale for the new indolyl series."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Section 'Two decisive amendments', paragraphs on benserazide and Birkmayer's clinical observations."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "Printed pp. 429–430, benserazide and levodopa discussion; PDF pages 489–490."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "p. 729, introduction, final two paragraphs."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "pp. 729–732, summary, design, results, and discussion."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "Publisher abstract, first sentence; references 10 and 13."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "Column 1, opening description, paragraphs on known racemates and D/L isomer activity."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S7",
+        "locator": "Column 1, discussion of L-dopa; Example 1 and claims 1–2."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S7",
+        "locator": "Examples 3–4, comparison of L, D and racemic alpha-methyl hydrazino acids in mice."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://patents.google.com/patent/US3462536A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1021/jm00317a021",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://acnp.org/wp-content/uploads/2017/10/Volume3.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1136/bmj.3.5777.729",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1111/j.1445-5994.1974.tb03207.x",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://patents.google.com/patent/US3781415A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The cohort is carbidopa as an active peripheral inhibitor, not the levodopa precursor or a combined-product biography. The methyldopa, racemic HMD and L-isomer chain pertains to its Merck branch.",
+      "The unexpected chorea observation and the initial placebo/antagonism hypothesis belong to a retrospective account of the distinct Roche benserazide branch; no source read shows those events caused Merck to invent carbidopa.",
+      "The 1971 carbidopa comparison is one small, nonrandomly sequenced blinded crossover study and does not demonstrate a universal clinical effect or contemporary standard of care. The 1974 source was read only as an abstract."
+    ],
+    "conflicts": [
+      "Riederer and Horowski recount that Pletscher initially expected benserazide to antagonize levodopa and that the positive clinical effect preceded its physiological explanation; Pletscher's interview describes peripheral protection as the idea for adding benserazide. The interview does not date that idea, so whether this is a true chronological disagreement remains unresolved.",
+      "The 2023 benserazide history describes improved Parkinsonian responses, while the 1971 L-alpha-methyldopahydrazine crossover found no overall therapeutic gain at separate maximum tolerated doses despite less nausea and lower levodopa use. These are different agents, accounts and study designs, not a basis for declaring either result universal."
+    ],
+    "gaps": [
+      "The 1962 Porter and 1963 Sletzinger original reports were located by bibliographic identity but not read in full; the exact reasoning or first event that led researchers to make the original racemic hydrazino analogue remains unestablished.",
+      "The 1967 Birkmayer–Mentasti clinical original and Bartholini et al. physiological original were located but not read in full; the Roche anecdote, sequence and priority rest on retrospective accounts and the 1971 investigators' citations.",
+      "The 1973 isomer patent's 1969–1971 application lineage does not, without examination of the earlier filings, establish the date or priority of every disclosed method or observation; the 1974 Glasgow paper was read only at abstract level."
+    ]
+  },
+  "nameAliases": [
+    "Crexont",
+    "Dhivy",
+    "Duopa",
+    "Rytary",
+    "Sinemet",
+    "Vyalev"
+  ],
+  "humanContributionInterpretation": {
+    "id": "DOPA_DECARBOXYLASE_INHIBITORS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Reported worsening of Huntington chorea with benserazide suggested adding a peripheral decarboxylase inhibitor to levodopa.",
+    "scope": "The unexpected-event account is retrospective and does not establish why the separate carbidopa molecule was first made.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Riederer P, Horowski R. L-DOPA-therapy in Parkinson's disease: some personal reflections on L-DOPA therapy from Vienna and Berlin. J Neural Transm. 2023;130:1323–1335. DOI 10.1007/s00702-023-02692-9.",
+        "url": "https://doi.org/10.1007/s00702-023-02692-9",
+        "locator": "Section 'Two decisive amendments', paragraphs on benserazide and Birkmayer's clinical observations.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Calne DB, Reid JL, Vakil SD, Rao S, Petrie A, Pallis CA, Gawler J, Thomas PK, Hilson A. Idiopathic Parkinsonism Treated with an Extracerebral Decarboxylase Inhibitor in Combination with Levodopa. Br Med J. 1971;3(5777):729–732. DOI 10.1136/bmj.3.5777.729.",
+        "url": "https://doi.org/10.1136/bmj.3.5777.729",
+        "locator": "p. 729, introduction, final two paragraphs.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

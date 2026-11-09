@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PENICILLINS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PENICILLINS",
+    "name": "Penicillins",
+    "medicines": [
+      "amoxicillin",
+      "flucloxacillin",
+      "phenoxymethylpenicillin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "amoxicillin",
+        "components": [
+          "amoxicillin"
+        ],
+        "usRank": 22,
+        "englandRank": 31,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "amoxicillin + clavulanic acid",
+        "components": [
+          "amoxicillin",
+          "clavulanic acid"
+        ],
+        "usRank": 72,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "flucloxacillin",
+        "components": [
+          "flucloxacillin"
+        ],
+        "usRank": null,
+        "englandRank": 77,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "phenoxymethylpenicillin",
+        "components": [
+          "phenoxymethylpenicillin"
+        ],
+        "usRank": null,
+        "englandRank": 100,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "On an accidentally mould-contaminated staphylococcal culture plate, nearby bacteria were observed undergoing lysis. Fleming subcultured the mould and developed its diffusible antibacterial activity into the named penicillin culture filtrate, which he studied for bacterial selection and possible treatment.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E11"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "A mould-produced diffusible antibacterial substance and the observed lysis of staphylococci near its colony.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Fleming noticed bacterial lysis around a contaminating mould and investigated the resulting antibacterial mould-culture filtrate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Fleming demonstrated selective use in bacteriological cultures and suggested possible therapeutic application.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Oxford researchers developed injectable penicillin as systemic chemotherapy and demonstrated activity in mice, stimulating subsequent clinical use, according to Rolinson's retrospective.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E10"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The phenoxymethylpenicillin branch provided an acid-stable oral penicillin. A 1988 institutional report describes production by mould fermentation with a phenoxyacetic acid precursor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Fermentation and assay work yielded 6-APA, the nucleus to which new side chains could be attached. Semisynthetic branches sought wider activity, oral absorption, or penicillinase stability; these include amoxicillin and flucloxacillin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers cultivated the mould and developed an active filtrate, established systemic experimental treatment, used precursor-fed fermentation for penicillin V production, and recovered 6-APA for side-chain changes to improve absorption, broaden activity or improve stability against penicillinase.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The plate contamination and associated lysis were unexpected observations during staphylococcal work; the mould subculture and examination of its diffusible activity were deliberate follow-up.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E11"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Fleming A. On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzæ. Br J Exp Pathol. 1929;10(3):226–236. PMCID: PMC2048009.",
+        "url": "https://www.ndorms.ox.ac.uk/files/news/19290510_afleming_ontheantibacterilactionofculturesofapenicillium_bjep.pdf/%40%40download",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Rolinson GN. Forty years of β-lactam research. J Antimicrob Chemother. 1998;41(6):589–603. DOI: 10.1093/jac/41.6.589; PMID: 9687097.",
+        "url": "https://academic.oup.com/jac/article-pdf/41/6/589/9837963/410589.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "National Toxicology Program. Toxicology and Carcinogenesis Studies of Penicillin VK (CAS No. 132-98-9) in F344/N Rats and B6C3F1 Mice (Gavage Studies). June 1988. NTP TR-336; NIH Publication No. 88-2592; PMID: 12732900.",
+        "url": "https://ntp.niehs.nih.gov/sites/default/files/ntp/htdocs/lt_rpts/tr336.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Florey HW. The Use of Micro-organisms for Therapeutic Purposes. Yale J Biol Med. 1946;19(1):101–118.1. PMID: 20275724; PMCID: PMC2602034.",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2602034/fullTextXML",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Tansey EM, Reynolds LA, eds. Post Penicillin Antibiotics: From Acceptance to Resistance? Wellcome Witnesses to Twentieth Century Medicine, vol. 6. 2000; witness seminar held 12 May 1998.",
+        "url": "https://discovery.ucl.ac.uk/2074/1/wit6.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Oral Administration of Penicillin. N Engl J Med. 1955;253(18):789–790. DOI: 10.1056/NEJM195511032531811. No author verified in publisher and Crossref metadata.",
+        "url": "https://www.nejm.org/doi/abs/10.1056/NEJM195511032531811",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Chain E, Florey HW, Gardner AD, Heatley NG, Jennings MA, Orr-Ewing J, Sanders AG. Penicillin as a Chemotherapeutic Agent. Lancet. 1940;236(6104):226–228. DOI: 10.1016/S0140-6736(01)08728-1.",
+        "url": "https://doi.org/10.1016/S0140-6736(01)08728-1",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Original p. 226, opening paragraph and Figure 1."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Original pp. 226–227, opening second paragraph and paragraph before Methods."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Original pp. 235–236, Discussion and Summary."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 589, Introduction, paragraph on Florey and Chain's Oxford experiments."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 590–591, The penicillin nucleus, 6-APA, 1956–1957, and Production of 6-APA by enzymatic hydrolysis of penicillin, 1959–1960."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "pp. 591 and 593–594, Semisynthetic penicillins and The isoxazolyl penicillins."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "pp. 593–596, Ampicillin and serum concentrations and experimental infections."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 14, Introduction, Production, Use, and Human Exposure, opening paragraph; p. 17, Study Rationale."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "p. 14, Introduction, Production, Use, and Human Exposure, paragraph on structure and manufacture."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "pp. 110–111, paragraph beginning 'Shortly after, in 1940'."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "pp. 107–108, paragraph beginning 'The most famous inhibition'."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "p. 29, Batchelor's contribution and footnotes 108–109."
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "pp. 27–28, Doyle's contribution and footnotes 104–105 with comments from Rolinson and Doyle."
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S6",
+        "locator": "Indexed abstract/preview, opening sentence; full text inaccessible."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.ndorms.ox.ac.uk/files/news/19290510_afleming_ontheantibacterilactionofculturesofapenicillium_bjep.pdf/%40%40download",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1093/jac/41.6.589",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2602034/fullTextXML",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://discovery.ucl.ac.uk/2074/1/wit6.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1016/S0140-6736(01)08728-1",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The penicillin V production and acid-stability history is a retrospective summary, not a reading of its original preparation reports; Oxford's animal-treatment and clinical transition are supported by a participant retrospective, not the unread 1940 article."
+    ],
+    "conflicts": [
+      "In the Wellcome witness transcript, Doyle and Rolinson differ about the timing and communication of the 6-APA assay discrepancy (S5, E13).",
+      "NTP and Batchelor describe penicillin V as prepared in 1948 (S3, E8; S5, E12), whereas a 1955 abstract states Brandl and colleagues produced it in 1953 (S6, E14). Batchelor dates recognition of its useful properties to 1954, while NTP cites a 1953 Brandl paper for low-pH activity. The exact priority and whether these descriptions refer to distinct events have not been adjudicated."
+    ],
+    "gaps": [
+      "The 1940 Oxford primary report has been located but not yet read; the penicillin V original preparation and low-pH studies have not been read."
+    ]
+  },
+  "nameAliases": [
+    "Amoxi Drop",
+    "Amoxi-tabs",
+    "Augmentin",
+    "Betacilin",
+    "Biomox",
+    "Clavacillin",
+    "Clavamox",
+    "Kesium",
+    "Moxatag",
+    "Trimox",
+    "Umbrellin",
+    "floxacillin",
+    "penicillin V"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PENICILLINS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Fleming A. On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzæ. Br J Exp Pathol. 1929;10(3):226–236. PMCID: PMC2048009.",
+        "url": "https://www.ndorms.ox.ac.uk/files/news/19290510_afleming_ontheantibacterilactionofculturesofapenicillium_bjep.pdf/%40%40download",
+        "locator": "Original p. 226, opening paragraph and Figure 1; local transcription HTML lines 87–88.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Fleming A. On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzæ. Br J Exp Pathol. 1929;10(3):226–236. PMCID: PMC2048009.",
+        "url": "https://www.ndorms.ox.ac.uk/files/news/19290510_afleming_ontheantibacterilactionofculturesofapenicillium_bjep.pdf/%40%40download",
+        "locator": "Original pp. 226–227, opening second paragraph and paragraph before Methods; local transcription HTML lines 89 and 98.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Fleming A. On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzæ. Br J Exp Pathol. 1929;10(3):226–236. PMCID: PMC2048009.",
+        "url": "https://www.ndorms.ox.ac.uk/files/news/19290510_afleming_ontheantibacterilactionofculturesofapenicillium_bjep.pdf/%40%40download",
+        "locator": "Original pp. 235–236, Discussion and Summary; local transcription HTML lines 285–286 and 289–290.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E11",
+        "citation": "Florey HW. The Use of Micro-organisms for Therapeutic Purposes. Yale J Biol Med. 1946;19(1):101–118.1. PMID: 20275724; PMCID: PMC2602034.",
+        "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC2602034/fullTextXML",
+        "locator": "pp. 107–108, paragraph beginning 'The most famous inhibition'.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

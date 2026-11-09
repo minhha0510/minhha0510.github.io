@@ -1,0 +1,281 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ANTHRAQUINONE_LAXATIVES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ANTHRAQUINONE_LAXATIVES",
+    "name": "Anthraquinone stimulant laxatives",
+    "medicines": [
+      "senna"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "senna",
+        "components": [
+          "senna"
+        ],
+        "usRank": null,
+        "englandRank": 62,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The purgative effect of senna leaves and fruits was recognized in medicinal use, and preparations were developed from the plant; the first observer and initial circumstances are not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E1"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Observed purgative activity of senna plant material in medicinal use; the original individual observation is not described.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E1"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A modern historical account connects recognition of senna's purgative action with the use of its powders and preparations. By 1949 senna leaf and pod were established vegetable purgatives.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Fairbairn reports earlier crystallization of sennosides A and B and investigates active constituents of already used plant purgatives; the 1949 Stoll and colleagues abstract describes their isolation and purification method.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E6",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Later researchers compare variable liquid senna preparations with a dry granular senna-pod preparation using chemical, animal, and clinical assessments; they report stability and activity for the tested dry preparation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers isolated and crystallized natural senna glycosides, compared their biological activity with chemically treated fractions, developed chemical and biological assays, and evaluated a dry granular preparation to address consistency and stability of the established plant drug. The sources do not establish a newly designed active molecule or identify who invented the granular formulation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E6",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Fairbairn's comparison of purified and chemically altered sennoside A was a planned experiment; the circumstances of the original observation remain unknown.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Fairbairn JW. 1949. The Active Constituents of the Vegetable Purgatives Containing Anthracene Derivatives. Part I. Glycosides and Aglycones. J Pharm Pharmacol 1:683-694. DOI 10.1111/j.2042-7158.1949.tb12481.x; PMID 18143085.",
+        "url": "https://academic.oup.com/jpp/article-pdf/1/1/683/39301121/j.2042-7158.1949.tb12481.x.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Çiçek SS, Moreno Cardenas C, Girreser U. 2022. Determination of Total Sennosides and Sennosides A, B, and A1 in Senna Leaflets, Pods, and Tablets by Two-Dimensional qNMR. Molecules 27:7349. DOI 10.3390/molecules27217349.",
+        "url": "https://d-nb.info/1273324307/34",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Stoll A, Becker B, Kussmaul W. 1949. Die Isolierung der Anthraglykoside aus Sennadrogen. 3. Mitteilung über Anthraglykoside. Helvetica Chimica Acta 32:1892-1903. DOI 10.1002/hlca.19490320613.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/hlca.19490320613",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "McClure Browne JC, Edmunds V, Fairbairn JW, Reid DD. 1957. Clinical and Laboratory Assessments of Senna Preparations. Br Med J 1(5016):436-439. DOI 10.1136/bmj.1.5016.436; PMID 13396279; PMCID PMC1974509.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1974509/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Fairbairn JW, Saleh MRI. 1951. Synergistic Effect of a Third Active Glycoside of Senna. Nature 167:988. DOI 10.1038/167988a0.",
+        "url": "https://www.nature.com/articles/167988a0",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 683, opening paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 684, paragraph discussing Straub, Gebhardt and Stoll"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 686, Experimental section 2 and Table II"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 1, Introduction, first paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 1, Introduction, first paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "German abstract, publisher search index"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 436, introduction to Clinical and Laboratory Assessments of Senna Preparations"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "p. 439, discussion and Summary and Conclusions"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S1",
+        "locator": "p. 685, paragraph immediately before Experimental"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "p. 988, publisher's partial opening preview labeled Abstract"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1111/j.2042-7158.1949.tb12481.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1002/hlca.19490320613",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1136/bmj.1.5016.436",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1038/167988a0",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The frozen class packet has only senna; other plants are contextual, not separate cohort medicines. The classification is not an independently traced founding history for every anthracene-containing plant.",
+      "Sennosides A and B are important active senna constituents, but their exclusive responsibility for crude senna activity is not established; E10 records a historical challenge to that inference."
+    ],
+    "conflicts": [
+      "E10: Fairbairn and Saleh's 1951 preview questions whether the whole activity of crude senna can be attributed to sennosides A and B alone. It does not contradict the accounts that these are major constituents or identify a different founding origin; the remainder of their report was not read."
+    ],
+    "gaps": [
+      "The initial observer, circumstances and precise date of the original observation are not established; the ninth-century claim is a later historical account whose underlying early sources were not read.",
+      "Stoll and colleagues' 1941 proceedings report and the body of their 1949 isolation article were not read; only the 1949 abstract and references were accessible.",
+      "The middle pages of the 1957 clinical report and its earlier formulation source were not read; formulation inventor and design details are not established.",
+      "The 1951 Fairbairn and Saleh letter was accessible only as a short opening preview; its results and the claimed synergy were not read."
+    ]
+  },
+  "nameAliases": [
+    "Black Draught",
+    "Ex-Lax Chocolated",
+    "Ex-Lax Maximum Relief Formula",
+    "Ex-Lax Regular Strength Pills",
+    "Fletchers Castoria",
+    "Pedia-Lax",
+    "Perdiem Overnight",
+    "Senexon",
+    "Senna-Time",
+    "Senokot",
+    "SenoSol",
+    "Swiss Kriss",
+    "sennosides, USP"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ANTHRAQUINONE_LAXATIVES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Longstanding senna laxative use and variable preparations supported constituent and formulation work.",
+    "scope": "The first human observer and a unique initiating episode are not established.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Çiçek SS, Moreno Cardenas C, Girreser U. 2022. Determination of Total Sennosides and Sennosides A, B, and A1 in Senna Leaflets, Pods, and Tablets by Two-Dimensional qNMR. Molecules 27:7349. DOI 10.3390/molecules27217349.",
+        "url": "https://d-nb.info/1273324307/34",
+        "locator": "p. 1, Introduction, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "McClure Browne JC, Edmunds V, Fairbairn JW, Reid DD. 1957. Clinical and Laboratory Assessments of Senna Preparations. Br Med J 1(5016):436-439. DOI 10.1136/bmj.1.5016.436; PMID 13396279; PMCID PMC1974509.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1974509/",
+        "locator": "p. 436, introduction to Clinical and Laboratory Assessments of Senna Preparations",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Fairbairn JW. 1949. The Active Constituents of the Vegetable Purgatives Containing Anthracene Derivatives. Part I. Glycosides and Aglycones. J Pharm Pharmacol 1:683-694. DOI 10.1111/j.2042-7158.1949.tb12481.x; PMID 18143085.",
+        "url": "https://academic.oup.com/jpp/article-pdf/1/1/683/39301121/j.2042-7158.1949.tb12481.x.pdf",
+        "locator": "p. 685, paragraph immediately before Experimental",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

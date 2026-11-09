@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/VALPROATE_ANTICONVULSANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "VALPROATE_ANTICONVULSANTS",
+    "name": "Fatty-acid / valproate anticonvulsants",
+    "medicines": [
+      "valproic acid"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "valproic acid",
+        "components": [
+          "valproic acid"
+        ],
+        "usRank": null,
+        "englandRank": 109,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In the account attributed to the investigators, two dissimilar experimental solutions shared the same solvent and protected against induced seizures; the team inferred that dipropylacetic acid might itself be anticonvulsant. A later review instead alleges reduced seizures in patients given valproate-containing cough syrup, while another account invokes physical similarity to phenytoin; the precise first observation remains contested.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E6",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "The detailed laboratory account attributes the clue to seizure protection associated with pre-existing synthetic solvent dipropylacetic acid, inferred from unrelated solutions sharing the vehicle. A conflicting later review alleges a patient effect instead; this clinical clue is reported, not independently established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E6",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A khellin-derived test solution and a chemically different coumarin solution, both dissolved in dipropylacetic acid, showed seizure protection, leading researchers to suspect the solvent.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "According to Monneret, the acid was converted to sodium valproate for clinical use; initial clinical results were published in 1964 and marketing authorization followed in 1967.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A 1967 patent reported separate animal tests of the acid and sodium salt against induced seizures, showing testing beyond the original mixed solutions without establishing the date or priority of those examples.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A 1974 original clinical series reported sodium-valproate use in patients with epilepsy, illustrating later uptake; treatment changes and absence of a described randomized control limit interpretation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers prepared and pharmacologically tested solutes, compared seizure protection across unrelated solutions and inferred the common solvent's possible role; subsequent clinical development used the sodium salt.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The researchers deliberately tested the solutions, including against cardiazol-induced seizures; identifying their shared solvent as the likely source of protection was an unexpected finding.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Allain P. 2008. Un exemple de sérendipité : la découverte de l’acide valproïque à Grenoble vers 1960. Pharmacorama, 16 November.",
+        "url": "https://www.pharmacorama.com/2008/11/exemple-serendipite-decouverte-acide-valproique-grenoble-1960/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Meunier H, Carraz G, Neunier Y, Eymard P, Aimard M. 1963. [Pharmacodynamic properties of N-dipropylacetic acid]. Therapie 18:435–438. PMID 13935231. Author spellings and English title as indexed by PubMed.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13935231/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Monneret C. 2016. La Dépakine, Dr Jekyll et Mr Hyde ? L'Actualité Chimique 413:5–6.",
+        "url": "https://new.societechimiquedefrance.fr/wp-content/uploads/2019/12/2016-413-decembre-p5-monneret-hd.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Carraz G, Fau R, Chateau R, Bonnin J. 1964. [Communication concerning 1st clinical tests of the anticonvulsive activity of N-dipropylacetic acid (sodium salt)]. Ann Med Psychol (Paris) 122:577–585. PMID 14230742.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14230742/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Jeavons PM, Clark JE. 1974. Sodium valproate in treatment of epilepsy. Br Med J 2(5919):584–586. DOI 10.1136/bmj.2.5919.584; PMID 4209500.",
+        "url": "https://www.bmj.com/content/bmj/2/5919/584.full.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Corrales-Hernández MG et al. 2023. Development of antiepileptic drugs throughout history: from serendipity to artificial intelligence. Biomedicines 11(6):1632. DOI 10.3390/biomedicines11061632.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10295412/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Romoli M et al. 2019. Valproic acid and epilepsy: from molecular mechanisms to clinical evidences. Curr Neuropharmacol 17(10):926–946. DOI 10.2174/1570159X17666181227165722.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7052829/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Meunier HEJM. 1967. Anticonvulsant agents. United States patent US3325361A; published 13 June 1967; filed 17 December 1963.",
+        "url": "https://patents.google.com/patent/US3325361/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Rahman M, Awosika AO, Nguyen H. 2024. Valproic Acid. StatPearls [Internet]. Updated 19 March 2024.",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK559112/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Passage attributed to the 1963 authors, from 'P. Eymard ayant synthétisé' through 'activité antiépileptique de l’acide dipropylacétique'."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Opening paragraph before the attributed passage."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "p. 5, paragraphs beginning 'Ce résultat' and 'Pour être utile en clinique'."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "p. 5, paragraphs beginning 'Pierre Eymard prépare' and 'Ce résultat'."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "p. 584, Summary and Patients and Methods; p. 585, Results."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S6",
+        "locator": "Section 'Serendipity: Phenobarbital and Valproic Acid', paragraph on valproic acid."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S7",
+        "locator": "Section 2, Historical Background, first paragraph."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S8",
+        "locator": "Description, example I ('Di-n-propylacetic acid') and example II ('Sodium-di-n-propylacetate')."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S9",
+        "locator": "Indications section, first two historical paragraphs, search-index rendering."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13935231/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.bmj.com/content/bmj/2/5919/584.full.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://patents.google.com/patent/US3325361/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14230742/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The founding history covers the assigned valproic-acid family, not unrelated antiseizure classes or all later derivatives."
+    ],
+    "conflicts": [
+      "Allain lists M. Eymard and Y. Meunier among the 1963 authors; PubMed indexes M. Aimard and Y. Neunier. The original journal pages have not been inspected to settle the spellings.",
+      "S1 and S3 describe seizure protection in laboratory solutions as the starting clue, whereas S6 describes reduced seizures in patients taking valproate-containing cough syrup as the impetus for investigation. The evidence does not establish that these are separate founding branches, and the precise historical sequence is unresolved.",
+      "S9 invokes a reported phenytoin melting-point similarity for discovery and dates the first human trial to 1966; the account differs from S1 and S3, and its clinical date is in tension with S3 and the 1964 S5 citation."
+    ],
+    "gaps": [
+      "The full 1963 original is unavailable; the transcription attributed to it is read via Allain only and has not been authenticated against the journal pages.",
+      "The 1964 clinical report is located but unread; details of its methods and outcomes are not established here.",
+      "S6's cited Tomson et al. 2016 paper was located with no abstract, but the full text was inaccessible, so support for the cough-syrup account is unverified.",
+      "The historical paragraphs of S9 were read through search-index extraction, but its direct page and underlying references were inaccessible."
+    ]
+  },
+  "nameAliases": [
+    "Depakote",
+    "valproate"
+  ],
+  "humanContributionInterpretation": {
+    "id": "VALPROATE_ANTICONVULSANTS",
+    "group": "unresolved",
+    "contribution": "uncertain",
+    "summary": "A later review tells a cough-syrup patient story involving fewer seizures.",
+    "scope": "Discoverer-attributed accounts instead identify an animal-screen solvent effect; do not count the patient story as established.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Allain P. 2008. Un exemple de sérendipité : la découverte de l’acide valproïque à Grenoble vers 1960. Pharmacorama, 16 November.",
+        "url": "https://www.pharmacorama.com/2008/11/exemple-serendipite-decouverte-acide-valproique-grenoble-1960/",
+        "locator": "Passage attributed to the 1963 authors, from 'P. Eymard ayant synthétisé' through 'activité antiépileptique de l’acide dipropylacétique'.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Monneret C. 2016. La Dépakine, Dr Jekyll et Mr Hyde ? L'Actualité Chimique 413:5–6.",
+        "url": "https://new.societechimiquedefrance.fr/wp-content/uploads/2019/12/2016-413-decembre-p5-monneret-hd.pdf",
+        "locator": "p. 5, paragraphs beginning 'Pierre Eymard prépare' and 'Ce résultat'.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Corrales-Hernández MG et al. 2023. Development of antiepileptic drugs throughout history: from serendipity to artificial intelligence. Biomedicines 11(6):1632. DOI 10.3390/biomedicines11061632.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10295412/",
+        "locator": "Section 'Serendipity: Phenobarbital and Valproic Acid', paragraph on valproic acid.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

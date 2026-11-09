@@ -1,0 +1,305 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NITROIMIDAZOLES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NITROIMIDAZOLES",
+    "name": "Nitroimidazole antibacterials",
+    "medicines": [
+      "metronidazole"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "metronidazole",
+        "components": [
+          "metronidazole"
+        ],
+        "usRank": null,
+        "englandRank": 150,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A naturally produced antibiotic, azomycin, was observed to have antimicrobial and later antitrichomonal activity. According to the 1978 history, this observed lead stimulated the preparation and testing of accessible 5-nitroimidazole isomers. A separate 1956 laboratory experiment directly reported azomycin's antitrichomonal effect, without establishing which experiment motivated the French program.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E13"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "The first lead was natural azomycin and its observed activity against microorganisms, including Trichomonas. A separate later observation of clinical benefit in gingivitis motivated antibacterial follow-up of the synthetic medicine.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E7",
+        "E13"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Azomycin was obtained from microbial culture and identified as 2-nitroimidazole; its bacteriostatic activity was experimentally examined.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Recognizing antitrichomonal activity in azomycin supplied a lead for the preparation and testing of accessible 5-nitroimidazoles; metronidazole was selected from a series for its activity-to-toxicity balance and introduced for trichomoniasis. Horie's separate 1956 experiment directly documented the natural lead's antitrichomonal activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5",
+          "E13"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A clinical gingivitis observation attributed to Shinn in 1962 motivated a 1964 study of 15 patients; the investigators also examined the compound against oral spirochetes and a Bacteroides strain.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "By 1972 investigators had tested metronidazole against anaerobic and microaerophilic isolates and reported initial treatment of anaerobic infections, while emphasizing that this use remained experimental. A later editorial describes its establishment for anaerobic infections.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10",
+          "E11",
+          "E12",
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers prepared and tested more accessible 5-nitroimidazoles related to the natural 2-nitroimidazole lead and selected the hydroxyethyl-substituted metronidazole for its balance of activity and toxicity; this was a positional and substituent change, not merely a delivery modification.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Preparation and testing of the synthetic 5-nitroimidazole series was planned; the distinct clinical observation that directed attention to gingivitis was described as incidental and prompted a deliberate follow-up study.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E7",
+        "E8"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Nakamura S. Structure of Azomycin, a New Antibiotic. Pharmaceutical Bulletin. 1955;3(5):379–383. doi:10.1248/cpb1953.3.379. PMID:13289298.",
+        "url": "https://doi.org/10.1248/cpb1953.3.379",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "The nitroimidazole family of drugs. Editorial, no author listed. Br J Vener Dis. 1978;54(2):69–71. doi:10.1136/sti.54.2.69. PMID:346169; PMCID:PMC1046363.",
+        "url": "https://sti.bmj.com/content/sextrans/54/2/69.full.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Davies AH, McFadzean JA, Squires S. Treatment of Vincent's stomatitis with metronidazole. Br Med J. 1964;1(5391):1149–1150. doi:10.1136/bmj.1.5391.1149. PMID:14120807; PMCID:PMC1813453.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1813453/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Tally FP, Sutter VL, Finegold SM. Metronidazole versus anaerobes—in vitro data and initial clinical observations. Calif Med. 1972;117(6):22–26. PMID:4635396; PMCID:PMC1518761.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1518761/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Horie H. Anti-Trichomonas Effect of Azomycin. J Antibiot Ser A. 1956;9(4):168. doi:10.11554/antibioticsa.9.4_168. PMID:13385191.",
+        "url": "https://www.jstage.jst.go.jp/article/antibioticsa/9/4/9_168/_pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 379, opening paragraphs"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 382, structural identification paragraph and Table I"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 69, opening paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 69, opening paragraph, sentences on 2- and 5-nitroimidazoles"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 69, opening paragraph, selection of the hydroxyethyl-substituted compound"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 69, third and fourth paragraphs"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 1149, opening paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 1150, Discussion, second paragraph"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "pp. 1149–1150, Methods, Results and Summary"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "p. 24, Table 1 and Results"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "p. 24, Results, second paragraph"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S4",
+        "locator": "p. 26, Discussion, last paragraph"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "p. 168, opening paragraph and test results"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1953/3/5/3_5_379/_pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1813453/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1518761/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.jstage.jst.go.jp/article/antibioticsa/9/4/9_168/_pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The founding chemical lead was the natural 2-nitroimidazole azomycin; metronidazole is a substituted synthetic 5-nitroimidazole. The antitrichomonal lead and the later antibacterial clinical finding are distinct observation-led stages, not separate design-from-scratch branches.",
+      "Horie's 1956 study separately documented azomycin's antitrichomonal activity; no evidence in that paper links his experiment to Rhône-Poulenc's program. The source for that causal link remains the 1978 editorial.",
+      "The assigned frozen cohort contains metronidazole only. This account does not reconstruct the individual histories of later analogues or establish that other independently founded nitroimidazole families share every step.",
+      "The first azomycin producer is described by Nakamura as Nocardia-like, while subsequent azomycin-producing Streptomyces cultures are also reported. The organism descriptions concern distinct isolations rather than a demonstrated disagreement."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The 1978 editorial is the read source for the explicit natural-lead-to-synthetic-series causal link; contemporaneous research notes and Cosar and Julou's 1959 experimental paper were not read. The 1959 paper was located at https://pubmed.ncbi.nlm.nih.gov/13627590/ with no abstract.",
+      "Shinn's 1962 Lancet letter was located but not read; Davies and colleagues' 1964 paper is a near-contemporaneous secondary account of his observation. The frequently repeated coincident-infection anecdote has not been established from the original.",
+      "The initial 1953 Maeda, Osato and Umezawa azomycin report was located at https://pubmed.ncbi.nlm.nih.gov/13152032/ as metadata without an abstract and was not read."
+    ]
+  },
+  "nameAliases": [
+    "Flagyl",
+    "Likmez",
+    "MetroCream",
+    "MetroGel",
+    "MetroLotion",
+    "Noritate",
+    "Nuvessa",
+    "Nydamax",
+    "Rosadan",
+    "Vandazole"
+  ],
+  "humanContributionInterpretation": {
+    "id": "NITROIMIDAZOLES",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Improvement of Vincent's gingivitis during metronidazole treatment helped prompt anaerobic-infection investigation.",
+    "scope": "This is a later clinical direction; azomycin and initial nitroimidazole discovery came from laboratory work.",
+    "references": [
+      {
+        "id": "E6",
+        "citation": "The nitroimidazole family of drugs. Editorial, no author listed. Br J Vener Dis. 1978;54(2):69–71. doi:10.1136/sti.54.2.69. PMID:346169; PMCID:PMC1046363.",
+        "url": "https://sti.bmj.com/content/sextrans/54/2/69.full.pdf",
+        "locator": "p. 69, third and fourth paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Davies AH, McFadzean JA, Squires S. Treatment of Vincent's stomatitis with metronidazole. Br Med J. 1964;1(5391):1149–1150. doi:10.1136/bmj.1.5391.1149. PMID:14120807; PMCID:PMC1813453.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1813453/",
+        "locator": "p. 1149, opening paragraph",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

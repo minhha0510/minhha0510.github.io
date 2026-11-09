@@ -1,0 +1,393 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/FIVE_ALPHA_REDUCTASE_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "FIVE_ALPHA_REDUCTASE_INHIBITORS",
+    "name": "5-alpha-reductase inhibitors",
+    "medicines": [
+      "finasteride"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "finasteride",
+        "components": [
+          "finasteride"
+        ],
+        "usRank": 79,
+        "englandRank": 66,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The program developed from a biological relationship between testosterone, DHT, the 5-alpha-reductase enzyme, and androgen-dependent tissues, with human inherited enzyme deficiency later accelerating the work. The investigators' subsequent clinical rationale included the small prostates observed in adults with inherited deficiency.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "genetic_population_observation"
+    ],
+    "inspiration": {
+      "description": "Endocrine conversion of testosterone to DHT and clinical studies of inherited 5-alpha-reductase deficiency supplied the biological rationale. The 1986 chemistry article summarizes an additional clinical prostate observation from an earlier report.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A Merck BPH project drew on androgen biology and recognition of the testosterone-to-DHT conversion.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Human enzyme-deficiency reports accelerated the work and were followed by a decision to screen for inhibitors.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Earlier steroid screening found enzyme inhibition in vitro but not in intact animals; a search for less readily reduced inhibitors produced active 4-azasteroids, followed by structure–activity investigation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Rasmusson and Reynolds synthesized the inhibitor MK-906, which was selected for development and later marketed as finasteride. The exact date of its synthesis relative to the 1986 report is not established here.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E9"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A 1986 paper documented additional structure–activity studies using human and rat prostatic enzyme and rat androgen-receptor assays to identify potent, selective inhibitors; its publication date does not establish when MK-906 was synthesized.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately screened steroid compounds, sought agents less susceptible to reductive metabolism, synthesized azasteroid derivatives, varied A-ring and C-17 structures while measuring enzyme and receptor activity, and synthesized MK-906; the underlying biological relationship preceded this design work.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Merck's screening for a 5-alpha-reductase inhibitor was planned; the original clinical observations are a separate stage.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Hirschmann RF, Sturchio JL. 2007. Reflections of a Medicinal Chemist: Formative Years through Thirty-Seven Years Service in the Pharmaceutical Industry. Comprehensive Medicinal Chemistry II, 1–27. DOI 10.1016/B0-08-045044-X/00239-X.",
+        "url": "https://doi.org/10.1016/B0-08-045044-X/00239-X",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Imperato-McGinley J, Guerrero L, Gautier T, Peterson RE. 1974. Steroid 5alpha-reductase deficiency in man: an inherited form of male pseudohermaphroditism. Science 186:1213–1215. DOI 10.1126/science.186.4170.1213; PMID 4432067.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4432067/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Rasmusson GH, Reynolds GF, Utne T, Jobson RB, Primka RL, Berman C, Brooks JR. 1984. Azasteroids as inhibitors of rat prostatic 5 alpha-reductase. Journal of Medicinal Chemistry 27:1690–1701. DOI 10.1021/jm00378a028; PMID 6502599.",
+        "url": "https://doi.org/10.1021/jm00378a028",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Rasmusson GH, Reynolds GF, Steinberg NG, Walton E, Patel GF, Liang T, Cascieri MA, Cheung AH, Brooks JR, Berman C. 1986. Azasteroids: structure-activity relationships for inhibition of 5 alpha-reductase and of androgen receptor binding. Journal of Medicinal Chemistry 29:2298–2315. DOI 10.1021/jm00161a028; PMID 3783591.",
+        "url": "https://doi.org/10.1021/jm00161a028",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Marks LS. 2004. 5alpha-Reductase: History and Clinical Importance. Reviews in Urology 6(Suppl 9):S11–S21. PMID 16985920; PMCID PMC1472916.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1472916/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Section 1.01.4.4, pp. 16–17, BPH project and late-1960s endocrine recognition"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Section 1.01.4.4, p. 17, 1974 clinical observations and Merck research committee decision"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Section 1.01.4.4, p. 17, synthesis and clinical development paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "PubMed abstract, biochemical finding and inheritance"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "pp. 1690–1691, introduction and first two paragraphs after Figure 1"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "pp. 1690–1691, abstract and structure–activity section"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 2298, introduction, discussion of inherited deficiency"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "p. 2298, abstract and closing introduction"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "Finasteride section, first paragraph"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "5-alpha-reductase isoenzymes section; Table 3; Main Points"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "Dutasteride section"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1016/B0-08-045044-X/00239-X",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4432067/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1021/jm00378a028",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1021/jm00161a028",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The founding history is established for the Merck finasteride program represented by the supplied cohort, not independently for every later inhibitor.",
+      "S5 describes the later dual-isoenzyme inhibitor dutasteride, which is outside the supplied cohort; its independent founding history and any distinct starting clue were not reconstructed. This later difference in activity is not by itself evidence for a separate design-from-scratch founding branch."
+    ],
+    "conflicts": [
+      "Chronology and scope: S5 says Merck began a development program after the deficiency findings became known; S1 describes earlier androgen/BPH interest and a late-1960s biological insight, followed by a post-1974 decision to screen. These accounts may refer to different program stages; no pre-1974 internal records were examined to resolve the precise chronology (E1, E2, E9).",
+      "Isoenzyme wording: S5's Main Points says finasteride inhibits type 1 only, whereas its body and Table 3 say type 2. This internal inconsistency does not determine the class-origin judgment (E10)."
+    ],
+    "gaps": [
+      "The 1974 original was read only as an abstract; its full article has not been read. The 1986 chemistry paper summarizes the small-prostate finding with a citation to a 1976 clinical review whose full text was not read.",
+      "The exact compound-by-compound transition from early azasteroid leads to MK-906 and exact synthesis date relative to the 1986 article have not been reconstructed; the discoverer retrospective attributes MK-906 synthesis and later finasteride development.",
+      "Pre-1974 Merck internal records and the original Walsh–Wilson clinical report were not read; a later dual-inhibitor program was not traced independently."
+    ]
+  },
+  "nameAliases": [
+    "Propecia",
+    "Proscar"
+  ],
+  "humanContributionInterpretation": {
+    "id": "FIVE_ALPHA_REDUCTASE_INHIBITORS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "The phenotype of inherited 5-alpha-reductase deficiency, including small prostates, strengthened and accelerated inhibitor development.",
+    "scope": "Merck work was already underway; the human finding was not the sole initiating event and laboratory screening was extensive.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Hirschmann RF, Sturchio JL. 2007. Reflections of a Medicinal Chemist: Formative Years through Thirty-Seven Years Service in the Pharmaceutical Industry. Comprehensive Medicinal Chemistry II, 1–27. DOI 10.1016/B0-08-045044-X/00239-X.",
+        "url": "https://doi.org/10.1016/B0-08-045044-X/00239-X",
+        "locator": "Section 1.01.4.4, p. 17, 1974 clinical observations and Merck research committee decision",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Rasmusson GH, Reynolds GF, Steinberg NG, Walton E, Patel GF, Liang T, Cascieri MA, Cheung AH, Brooks JR, Berman C. 1986. Azasteroids: structure-activity relationships for inhibition of 5 alpha-reductase and of androgen receptor binding. Journal of Medicinal Chemistry 29:2298–2315. DOI 10.1021/jm00161a028; PMID 3783591.",
+        "url": "https://doi.org/10.1021/jm00161a028",
+        "locator": "p. 2298, introduction, discussion of inherited deficiency",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [
+    {
+      "id": "5ari-depression-comparators",
+      "title": "Depression risk of 5-alpha reductase inhibitors: impact of active-comparator versus non-drug user control groups on risk measurement",
+      "authors": [
+        "Minh-Ha Nguyen",
+        "Tien H Tran",
+        "Jeffrey Donovan"
+      ],
+      "journal": "Postgraduate Medicine",
+      "year": 2026,
+      "doi": "10.1080/00325481.2026.2633464",
+      "url": "https://doi.org/10.1080/00325481.2026.2633464",
+      "abstractUrl": "https://pubmed.ncbi.nlm.nih.gov/41725117/",
+      "explainerUrl": "https://mh-nguyen.cv/posts/5-aris-depression-explained/",
+      "medicines": [
+        "finasteride",
+        "dutasteride"
+      ],
+      "topics": [
+        "depression",
+        "drug safety",
+        "comparator selection"
+      ],
+      "design": "Systematic review and meta-analysis of longitudinal observational studies",
+      "whyRead": "Examines how depression associations differ when 5-ARI users are compared with non-drug users or alpha-blocker users.",
+      "methodologicalQuestions": [
+        "Do comparison groups have similar indications, disease burden and opportunities for depression diagnosis?",
+        "How much heterogeneity remains within each comparator group?",
+        "Could residual confounding affect either direction of association?"
+      ],
+      "interpretationLimit": "Comparator-sensitive observational findings do not by themselves establish causation or the absence of adverse effects. Check the population and indication before applying a finding to a different group.",
+      "matchedMedicines": [
+        "finasteride"
+      ]
+    },
+    {
+      "id": "5ari-diabetes-korea",
+      "title": "Risk of Type 2 Diabetes Mellitus in New Users of 5-Alpha Reductase Inhibitors: A Nationwide Historical Cohort Study",
+      "authors": [
+        "Minh-Ha Nguyen",
+        "Juyeon Ko",
+        "Jaelim Cho"
+      ],
+      "journal": "Yonsei Medical Journal",
+      "year": 2026,
+      "doi": "10.3349/ymj.2025.0056",
+      "url": "https://doi.org/10.3349/ymj.2025.0056",
+      "abstractUrl": "https://pubmed.ncbi.nlm.nih.gov/41914321/",
+      "explainerUrl": "https://mh-nguyen.cv/posts/hira-diabetes-study-explained/",
+      "medicines": [
+        "finasteride",
+        "dutasteride",
+        "tamsulosin"
+      ],
+      "topics": [
+        "type 2 diabetes",
+        "drug safety",
+        "active comparators"
+      ],
+      "design": "Nationwide new-user observational cohort in South Korea, using tamsulosin as the active comparator",
+      "whyRead": "Investigates incident diabetes among people treated for benign prostatic hyperplasia, using weighting to balance measured baseline risk factors.",
+      "methodologicalQuestions": [
+        "Which confounders were measured, balanced by weighting or left unmeasured?",
+        "How do eligibility, lag periods and treatment discontinuation or switching affect follow-up?",
+        "Does the target population have the same indication and baseline diabetes status?"
+      ],
+      "interpretationLimit": "The comparisons concern incident diabetes in the studied BPH population. Weighting addresses measured confounders, and the study does not establish equivalent risks or eliminate residual confounding.",
+      "matchedMedicines": [
+        "finasteride"
+      ]
+    },
+    {
+      "id": "finasteride-tamsulosin-glycemia",
+      "title": "Risk of poor glycemic control in tamsulosin versus finasteride users with type 2 diabetes mellitus",
+      "authors": [
+        "Minh-Ha Nguyen",
+        "Maxim S Petrov",
+        "Jaelim Cho"
+      ],
+      "journal": "Heliyon",
+      "year": 2025,
+      "doi": "10.1016/j.heliyon.2025.e41768",
+      "url": "https://doi.org/10.1016/j.heliyon.2025.e41768",
+      "abstractUrl": "https://pubmed.ncbi.nlm.nih.gov/39944326/",
+      "explainerUrl": "https://mh-nguyen.cv/posts/nz-glycemic-control-explained/",
+      "medicines": [
+        "finasteride",
+        "tamsulosin"
+      ],
+      "topics": [
+        "glycemic control",
+        "type 2 diabetes",
+        "drug safety"
+      ],
+      "design": "Population-based observational cohort in New Zealand comparing tamsulosin and finasteride users with existing type 2 diabetes",
+      "whyRead": "Addresses glycemic control in people who already have diabetes, a different outcome and population from incident-diabetes research.",
+      "methodologicalQuestions": [
+        "Which medicine is the reference group for the reported effect estimate?",
+        "How was poor glycemic control defined and measured?",
+        "What range of effects remains compatible with the confidence interval?"
+      ],
+      "interpretationLimit": "Interpret the estimate and its uncertainty together. An imprecise or non-significant comparison does not establish equivalence or an absence of effect.",
+      "matchedMedicines": [
+        "finasteride"
+      ]
+    }
+  ],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

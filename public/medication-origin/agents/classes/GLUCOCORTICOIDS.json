@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/GLUCOCORTICOIDS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "GLUCOCORTICOIDS",
+    "name": "Glucocorticoids",
+    "medicines": [
+      "beclometasone",
+      "betamethasone",
+      "budesonide",
+      "clobetasol",
+      "clobetasone",
+      "dexamethasone",
+      "fluticasone",
+      "hydrocortisone",
+      "methylprednisolone",
+      "mometasone",
+      "prednisolone",
+      "prednisone",
+      "triamcinolone"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "beclometasone",
+        "components": [
+          "beclometasone"
+        ],
+        "usRank": null,
+        "englandRank": 50,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "beclometasone + formoterol",
+        "components": [
+          "beclometasone",
+          "formoterol"
+        ],
+        "usRank": null,
+        "englandRank": 27,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "beclometasone + formoterol + glycopyrronium",
+        "components": [
+          "beclometasone",
+          "formoterol",
+          "glycopyrronium"
+        ],
+        "usRank": null,
+        "englandRank": 83,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "betamethasone",
+        "components": [
+          "betamethasone"
+        ],
+        "usRank": null,
+        "englandRank": 94,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "budesonide",
+        "components": [
+          "budesonide"
+        ],
+        "usRank": null,
+        "englandRank": 56,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "budesonide + formoterol",
+        "components": [
+          "budesonide",
+          "formoterol"
+        ],
+        "usRank": 100,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "clobetasol",
+        "components": [
+          "clobetasol"
+        ],
+        "usRank": 143,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "clobetasone",
+        "components": [
+          "clobetasone"
+        ],
+        "usRank": null,
+        "englandRank": 138,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "dexamethasone",
+        "components": [
+          "dexamethasone"
+        ],
+        "usRank": null,
+        "englandRank": 134,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "fluticasone",
+        "components": [
+          "fluticasone"
+        ],
+        "usRank": 23,
+        "englandRank": 57,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "fluticasone + salmeterol",
+        "components": [
+          "fluticasone",
+          "salmeterol"
+        ],
+        "usRank": 76,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "fluticasone + umeclidinium + vilanterol",
+        "components": [
+          "fluticasone",
+          "umeclidinium",
+          "vilanterol"
+        ],
+        "usRank": 102,
+        "englandRank": 142,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "fluticasone + vilanterol",
+        "components": [
+          "fluticasone",
+          "vilanterol"
+        ],
+        "usRank": 144,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "hydrocortisone",
+        "components": [
+          "hydrocortisone"
+        ],
+        "usRank": null,
+        "englandRank": 53,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "methylprednisolone",
+        "components": [
+          "methylprednisolone"
+        ],
+        "usRank": 133,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "mometasone",
+        "components": [
+          "mometasone"
+        ],
+        "usRank": null,
+        "englandRank": 78,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "prednisolone",
+        "components": [
+          "prednisolone"
+        ],
+        "usRank": 109,
+        "englandRank": 41,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "prednisone",
+        "components": [
+          "prednisone"
+        ],
+        "usRank": 35,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "triamcinolone",
+        "components": [
+          "triamcinolone"
+        ],
+        "usRank": 96,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Adrenal-insufficiency physiology and the effects of adrenal extracts initiated cortical-hormone investigation. Separately, remission of rheumatoid arthritis during jaundice, pregnancy and some vaccine reactions led Hench to seek a protective substance. A reported protective effect of adrenal compound E against animal vaccine reactions helped motivate a planned arthritis test. This hypothesis did not prove that compound E caused the naturally observed remissions, and arthritis benefit of crude adrenal extract had not been established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "endogenous_molecule"
+    ],
+    "inspiration": {
+      "description": "Adrenal insufficiency and extract effects, clinical remission during jaundice, pregnancy or vaccine reactions, and a hormone isolated from adrenal cortex supplied related biological and clinical leads.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Adrenal-cortex extracts produced beneficial effects in adrenal insufficiency; researchers isolated and studied individual adrenal steroids, including compound E.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Hench's observed remissions and hypothesis of substance X, together with Kendall's animal observation on compound E and vaccine reactions, prompted a planned trial of compound E after synthesis made it available.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E5",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Researchers modified the working adrenal hormones to alter steroid activity, producing prednisolone and prednisone and, with further substitutions, triamcinolone; hydrocortisone also became available for topical use.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Researchers extended established topical steroid effects to inhaled treatment of inflamed airways, reported clinical use of beclomethasone aerosol, and subsequently selected other steroid structures for altered local and systemic activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E11",
+          "E12",
+          "E13",
+          "E14"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers prepared and clinically tested compound E, then modified active steroid structures, including ring-A unsaturation and substitutions at carbons 9 and 16, to change pharmacological effects. They formulated steroids for systemic, skin and inhaled administration and later selected structures with different local versus systemic activity. These are substantial chemical, pharmacological and formulation contributions built on working hormone effects, not evidence that the founding class was designed from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E13"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Hench and Kendall planned the compound E rheumatoid-arthritis test; the breadth of subsequent therapeutic applications surprised many researchers.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Kendall EC. The development of cortisone as a therapeutic agent. Nobel Lecture, 11 December 1950, pp. 270–288.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/kendall-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Hench PS. The reversibility of certain rheumatic and non-rheumatic conditions by the use of cortisone or of the pituitary adrenocorticotropic hormone. Nobel Lecture, 11 December 1950, pp. 311–341.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hench-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Hench PS, Kendall EC, Slocumb CH, Polley HF. The effect of a hormone of the adrenal cortex (17-hydroxy-11-dehydrocorticosterone: compound E) and of pituitary adrenocortical hormone in arthritis: preliminary report. Ann Rheum Dis. 1949;8:97–104. DOI 10.1136/ard.8.2.97; PMID 18623812; PMCID PMC1030685.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18623812/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Cope CL. Principles of modern steroid therapy: part I. Br Med J. 1959;1(5137):1583–1585. DOI 10.1136/bmj.1.5137.1583; PMID 13662624; PMCID PMC1993800.",
+        "url": "https://www.bmj.com/content/bmj/1/5137/1583.full.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Jack D and Morrow Brown H, contributions to Childhood Asthma and Beyond. In: Reynolds LA, Tansey EM, eds. Wellcome Witnesses to Twentieth Century Medicine. Vol. 11. London: Wellcome Trust Centre for the History of Medicine at UCL; 2001:38–43. ISBN 9780854840787.",
+        "url": "https://iiif.wellcomecollection.org/file/b15468902_Vol.%2011.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Morrow Brown H, Storey G, George WHS. Beclomethasone dipropionate: a new steroid aerosol for the treatment of allergic asthma. Br Med J. 1972;1(5800):585–590. DOI 10.1136/bmj.1.5800.585; PMID 4335298; PMCID PMC1787564.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4335298/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 270, opening two paragraphs; p. 271, physiological effects of A, B, E and F"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 274, paragraphs on Hench's 1929 and 1931 observations and the January 1941 decision"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "pp. 274–275, first large synthesis and clinical administration"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "p. 277, paragraphs contrasting anticipated replacement use with new clinical applications"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 316–319, Related phenomena and Decision to administer compound E of Kendall"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "pp. 318–319, Decision to administer compound E and First use of Kendall's compound E"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "pp. 319–320, First use of Kendall's compound E"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "p. 1584, Synthetic Steroids, first two paragraphs"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. 1584, Synthetic Steroids, paragraphs on carbon 9 and carbon 16"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "p. 1585, Local Administration, fourth paragraph"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "pp. 38–39, David Jack's account of selective inhaled glucocorticoids"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "p. 39, Jack on exploratory trials; pp. 42–43, Morrow Brown on the Edinburgh experience"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "pp. 40–41, Jack on selecting a later inhaled steroid"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S6",
+        "locator": "PubMed abstract, first two sentences"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/kendall-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hench-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18623812/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://iiif.wellcomecollection.org/file/b15468902_Vol.%2011.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4335298/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "Replacement and anti-inflammatory indications have related but distinct biological starting observations.",
+      "Cope and Jack directly support selected structural and topical-to-inhaled developments, not a separate origin or detailed synthesis for every later cohort member.",
+      "The inhaled-drug evidence describes selected later examples and recollections, not an exhaustive priority history or a guarantee of absence of systemic adverse effects."
+    ],
+    "conflicts": [
+      "Hench's hypothesis that an adrenal hormone was the unknown antirheumatic substance remains a hypothesis in his account, not proof that cortisone caused the naturally observed remissions. Kendall says no adrenal-extract benefit in rheumatoid arthritis had been established, consistent with Hench's report of an unimpressive crude-extract test.",
+      "Jack calls the first Edinburgh inhaler results equivocal; Morrow Brown recalls an ineffective trial and adrenal suppression at larger doses. These retrospective descriptions differ in emphasis and do not establish universal safety."
+    ],
+    "gaps": [
+      "Original adrenal-extract studies and the 1949 Mayo clinical report were not read. The June 1949 Annals reprint was located by PMID and DOI but full text was inaccessible through attempted publisher, PMC and Europe PMC routes.",
+      "The 1972 Brown inhaled-beclomethasone report was read only in abstract; its complete methods and results were not read.",
+      "Detailed development histories of individual later analogues and priority for every inhaled corticosteroid are outside this class-level collection."
+    ]
+  },
+  "nameAliases": [
+    "Advair",
+    "AirDuo",
+    "Ala-Cort",
+    "Ala-Scalp",
+    "Alkindi",
+    "Aller-Cort",
+    "Aller-Flo",
+    "AllerNaze",
+    "Alocane Anti-Itch",
+    "Anucort-HC",
+    "Anusol HC",
+    "Aquanil HC",
+    "Aquaphor Itch Relief",
+    "Armonair",
+    "Arnuity",
+    "Asmanex",
+    "Beconase",
+    "Beser",
+    "Beta-HC",
+    "Betavet",
+    "Breo",
+    "Breyna",
+    "Byqlovi",
+    "Caldecort",
+    "Celestone Soluspan",
+    "Clarispray",
+    "Clobex",
+    "Clodan",
+    "Cortaid",
+    "Cortef",
+    "Cortenema",
+    "Corticool",
+    "Cortifoam",
+    "Cortizone",
+    "Cutivate",
+    "Decadron",
+    "Del-Beta",
+    "Deltasone",
+    "Depo-Medrol",
+    "Dermacort",
+    "Dermtex HC",
+    "Dexasone",
+    "Dexium",
+    "Dexlyt",
+    "Dextenza",
+    "Dexycu",
+    "Diprolene",
+    "Eohilia",
+    "Evesse",
+    "Flonase",
+    "Flonase Sensimist",
+    "Flovent",
+    "Fluticare",
+    "Genesis",
+    "Gynecort",
+    "Hemady",
+    "Hemmorex",
+    "Hemorrodil Plus",
+    "Hemril",
+    "Hexatrione",
+    "HybriSil",
+    "Impoyz",
+    "Instacort",
+    "Kenalog",
+    "Kera-HC",
+    "Khindivi",
+    "Kourzeq",
+    "Locoid",
+    "Maxidex",
+    "Medrol",
+    "MiCort-HC",
+    "MILLIPRED",
+    "Monistat Itch Relief",
+    "Nasacort",
+    "Nasonex",
+    "Nasopro 24",
+    "Nucort",
+    "Olux",
+    "Oralone",
+    "Orapred",
+    "Ortikos",
+    "Ozurdex",
+    "Pandel",
+    "Pediapred",
+    "Pred Forte",
+    "Pred Mild",
+    "Prednistab",
+    "Procto-Kit",
+    "Procto-Med",
+    "Procto-Pak",
+    "Proctocort",
+    "Proctosol",
+    "Proctozone HC",
+    "Propel",
+    "Pulmicort",
+    "Qnasl",
+    "Qvar",
+    "Rayos",
+    "Recort Plus",
+    "Rhinocort",
+    "Sarnol-HC",
+    "Scalacort",
+    "Scalpicin Itch Relief",
+    "Sernivo",
+    "Sinuva",
+    "Solu-Cortef",
+    "Solu-Medrol",
+    "Symbicort",
+    "Tarpeyo",
+    "Temovate",
+    "Texacort",
+    "Tovet",
+    "Trelegy",
+    "Trianex",
+    "Triderm",
+    "Triesence",
+    "Trimbow",
+    "U-Cort",
+    "Uceris",
+    "Vagisil Satin",
+    "Veripred",
+    "Westcort",
+    "Wixela",
+    "Xhance",
+    "Xipere",
+    "Zilretta",
+    "beclomethasone"
+  ],
+  "humanContributionInterpretation": {
+    "id": "GLUCOCORTICOIDS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Rheumatoid arthritis remissions during jaundice and pregnancy helped motivate Hench's search for a transferable anti-rheumatic factor.",
+    "scope": "The proposed explanatory factor was not thereby proven; animal and chemical work also contributed.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Kendall EC. The development of cortisone as a therapeutic agent. Nobel Lecture, 11 December 1950, pp. 270–288.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/kendall-lecture.pdf",
+        "locator": "p. 274, paragraphs on Hench's 1929 and 1931 observations and the January 1941 decision",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Hench PS. The reversibility of certain rheumatic and non-rheumatic conditions by the use of cortisone or of the pituitary adrenocorticotropic hormone. Nobel Lecture, 11 December 1950, pp. 311–341.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hench-lecture.pdf",
+        "locator": "pp. 316–319, Related phenomena and Decision to administer compound E of Kendall",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Hench PS. The reversibility of certain rheumatic and non-rheumatic conditions by the use of cortisone or of the pituitary adrenocorticotropic hormone. Nobel Lecture, 11 December 1950, pp. 311–341.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/hench-lecture.pdf",
+        "locator": "pp. 318–319, Decision to administer compound E and First use of Kendall's compound E",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

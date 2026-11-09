@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/FIBRATES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "FIBRATES",
+    "name": "Fibrates",
+    "medicines": [
+      "fenofibrate"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "fenofibrate",
+        "components": [
+          "fenofibrate"
+        ],
+        "usRank": 95,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Cholesterol-lowering effects had been reported for earlier phenyl-substituted acids and other compounds. Fitzgerald attributes Thorp's decision to explore branched-chain fatty acids specifically to the French group's work, against a broader physiological interest in modulating lipid metabolism. Oliver similarly links Thorp's development to a phenyl ethyl acetic acid effect but recounts an occupational-exposure setting that is not verified from the unread French paper. These are observation-led causal accounts, not a claim that the mature fibrate was a natural isolate.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "The specific French-series clue was a reported biological cholesterol-lowering effect of administered synthetic phenyl-substituted acids; retrospective accounts connect the effect or this research to Thorp's search. Fitzgerald also reports earlier rat effects of a degraded estrogen and a related compound, within a program informed by fatty acids' roles in lipid metabolism. The exact French exposure setting and human analogue remain unresolved.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Earlier reports described cholesterol-lowering effects of phenyl-substituted compounds; Fitzgerald and Oliver both recount a causal connection from that work or effect to Thorp's later program, although their accounts differ in setting and level of detail. Their shared underlying source history has not been shown to be independent.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Thorp and Waring selected branched-chain derivatives for deliberate testing. Rat screening identified an active oxyisobutyric-acid series and favored chlorophenoxyisobutyrate, including its ethyl ester clofibrate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Oliver describes Thorp's invitation to study the analogue, animal testing with Boyd, and subsequent human testing, establishing the development of the active lead rather than relying on the name of the early papers.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Clofibrate's effects prompted a search for subsequent fibrates. Fitzgerald includes fenofibrate among the resulting therapeutic family, and Boucherle's abstract describes the structural modification leading from the clofibrate framework to fenofibrate.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers designed and tested many branched-chain fatty-acid derivatives and selected the active oxyisobutyric-acid series. Later medicinal chemistry changed ring substitution and esterification while retaining the shared acid chain; Boucherle's abstract describes the benzoyl, chlorine, and isopropyl modifications associated with fenofibrate. These are meaningful chemical and activity-oriented changes, not merely a delivery formulation, but they follow the earlier observed effects.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "This value applies narrowly to Thorp and Waring's deliberate selection, synthesis and rat screening of branched-chain derivatives for lipid effects. It does not settle whether the earlier French observation began with accidental exposure, which Oliver reports but the accessible sources do not independently establish.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Fitzgerald D. The discovery of the fibrates. Dialogues in Cardiovascular Medicine. 2003;8(3):155–162.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=939771beb195178a996006ec1adaad3307c338ed&repid=rep1&type=pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Oliver M. The clofibrate saga: a retrospective commentary. British Journal of Clinical Pharmacology. 2012;74(6):907–910. doi:10.1111/j.1365-2125.2012.04282.x; PMID:22486628.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2125.2012.04282.x",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Thorp JM. An experimental approach to the problem of disordered lipid metabolism. Journal of Atherosclerosis Research. 1963;3(5–6):351–360. doi:10.1016/S0368-1319(63)80017-4; PMID:14100878. Abstract reproduced in the linked ResearchGate listing; identity separately checked in PubMed.",
+        "url": "https://www.researchgate.net/publication/288159488_Trails_of_discovery_The_discovery_of_the_fibrates",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Steinberg D, Fredrickson DS. Inhibition of lipid synthesis by alpha-phenyl-N-butyrate and related compounds. Proceedings of the Society for Experimental Biology and Medicine. 1955;90(1):232–236. doi:10.3181/00379727-90-21992; PMID:13273407.",
+        "url": "https://public-pages-files-2025.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-90-21992/pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Boucherle A. Le fénofibrate: présentation chimique. Différences avec le clofibrate [Fenofibrate: chemical development and differences with clofibrate]. Nouvelle Presse Médicale. 1980;9(49):3721–3723. PMID:7208336. English abstract of a French comparative article.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7208336/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Thorp JM, Waring WS. Modification of metabolism and distribution of lipids by ethyl chlorophenoxyisobutyrate. Nature. 1962;194:948–949. doi:10.1038/194948a0; PMID:13921051.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13921051/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Cottet J, Mathivat A, Redel J. Étude thérapeutique d'un hypocholestérolémiant de synthèse: l'acide phényl-éthyl-acétique. Presse Médicale. 1954;62(44):939–941. PMID:13194567.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13194567/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Cottet J, Redel J, Krumm-Heller C, Tricaud ME. Pouvoir hypocholestérolémiant du phényl-éthyl-acétate de sodium (22 TH) sur le rat. Bulletin de l'Académie Nationale de Médecine. 1953;137(25–27):441–442. PMID:13094180.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13094180/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Printed pp. 155–156, founding history; Figure 1"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S4",
+        "locator": "Printed p. 232, opening paragraph; p. 233, early results"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Background, paragraph beginning 'Meanwhile, Cottet reported'"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "English abstract reproduced under the Thorp 1963 title in the linked ResearchGate reference listing, first two sentences"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S1",
+        "locator": "Printed pp. 155–156, last paragraph on p. 155 continued at start of p. 156"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Background, paragraph beginning 'Meanwhile, Cottet reported' and following paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S1",
+        "locator": "Printed p. 157, 'Subsequent developments in the fibrate field'; p. 158, Figure 3"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "English abstract, sentences 1–3 and final comparison"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2125.2012.04282.x",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.researchgate.net/publication/288159488_Trails_of_discovery_The_discovery_of_the_fibrates",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://public-pages-files-2025.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-90-21992/pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13921051/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13194567/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13094180/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The traced founding family history is the earlier phenyl-substituted-acid observations, the Thorp–Waring clofibrate program, and later fenofibrate development. The cohort contains fenofibrate; no claim is made that every later fibrate had an identical chemical development route.",
+      "The apparently separate French experimental and reported occupational settings are preserved as different accounts, not asserted to be mutually exclusive or independent founding programs. Other analogue histories were not exhaustively traced."
+    ],
+    "conflicts": [
+      "Oliver attributes the French observation to ill farmworkers exposed to a sprayed insecticide, while Fitzgerald describes deliberately administered compounds and does not mention that event. The events could both have happened; the read sources do not establish their relationship or verify the exposure story from Cottet's original paper.",
+      "Fitzgerald describes phenyl allyl acetate in the human investigation, whereas the 1955 Steinberg–Fredrickson introduction attributes rat and human findings to alpha-phenylbutyrate/phenylethylacetate. The unread French reports are needed to resolve whether these are separate experiments or a reporting error.",
+      "Fitzgerald's spelling of Cottet's collaborator and its citation of a 1953 journal differ from the independently checked PubMed records. No bibliographic correction is treated as proof of the original study's findings."
+    ],
+    "gaps": [
+      "The 1953 and 1954 Cottet papers and the 1962 Thorp–Waring Nature paper were located but not read; their titles or metadata are not evidence of causal history or accidental exposure.",
+      "Thorp's 1963 original was read only as an abstract reproduced by a third-party reference listing; its full discussion of selection rationale was not read. The explicit French-work-to-selection causal link rests on the later historical accounts.",
+      "Boucherle's French full text was not read. The accessible abstract supports a bounded chemical connection to fenofibrate but not a complete account of inventorship, priority, or comparative clinical performance."
+    ]
+  },
+  "nameAliases": [
+    "Antara",
+    "Fenoglide",
+    "Fibricor",
+    "Lipofen",
+    "Tricor",
+    "Trilipix"
+  ],
+  "humanContributionInterpretation": {
+    "id": "FIBRATES",
+    "group": "unresolved",
+    "contribution": "uncertain",
+    "summary": "Historical accounts describe phenylbutyrate lipid lowering in humans and animals, plus a separate occupational-exposure story.",
+    "scope": "The patient-specific initiating bridge is unclear and the occupational story lacks a verified original.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Fitzgerald D. The discovery of the fibrates. Dialogues in Cardiovascular Medicine. 2003;8(3):155–162.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=939771beb195178a996006ec1adaad3307c338ed&repid=rep1&type=pdf",
+        "locator": "Printed pp. 155–156, founding history; Figure 1",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Steinberg D, Fredrickson DS. Inhibition of lipid synthesis by alpha-phenyl-N-butyrate and related compounds. Proceedings of the Society for Experimental Biology and Medicine. 1955;90(1):232–236. doi:10.3181/00379727-90-21992; PMID:13273407.",
+        "url": "https://public-pages-files-2025.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-90-21992/pdf",
+        "locator": "Printed p. 232, opening paragraph; p. 233, early results",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Oliver M. The clofibrate saga: a retrospective commentary. British Journal of Clinical Pharmacology. 2012;74(6):907–910. doi:10.1111/j.1365-2125.2012.04282.x; PMID:22486628.",
+        "url": "https://bpspubs.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2125.2012.04282.x",
+        "locator": "Background, paragraph beginning 'Meanwhile, Cottet reported'",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

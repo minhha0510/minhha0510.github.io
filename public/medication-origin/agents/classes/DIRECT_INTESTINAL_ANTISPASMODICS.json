@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/DIRECT_INTESTINAL_ANTISPASMODICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "DIRECT_INTESTINAL_ANTISPASMODICS",
+    "name": "Direct intestinal antispasmodics",
+    "medicines": [
+      "mebeverine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "mebeverine",
+        "components": [
+          "mebeverine"
+        ],
+        "usRank": null,
+        "englandRank": 114,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The starting working substance was natural reserpine, known for sedative and blood-pressure-lowering effects. Kralt and colleagues hypothesized roles for parts of its structure; their institution describes a planned synthesis of analogues to investigate the relation between structure and physiological effects. Connell later identified mebeverine as one of the phenylethylamine derivatives of reserpine, with a different, papaverine-like spasmolytic profile in animals. The exact decision to pursue intestinal spasmolysis is not documented in the accessible founding account.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E6",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "inferred_from_source_observation",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Previously observed physiological effects of the natural alkaloid reserpine informed a structural-analogue program; Connell's later account links that program to mebeverine. Papaverine was an established functional comparator and is also described as a structural-family analogue in a historical review, but its role as the initiating template is not established.",
+      "support": "inferred_from_source_observation",
+      "evidence_ids": [
+        "E3",
+        "E6",
+        "E2"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Using the known pharmacology of reserpine as a starting point, the team considered which molecular groups might explain its effects; an institutional digest describes making selected analogues to examine structure and physiological activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E6"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Connell's 1965 account attributes to Kralt and colleagues animal findings that phenylethylamine analogues had little of reserpine's central action but marked papaverine-like spasmolytic effects, and places mebeverine among these compounds. This is Connell's secondary report, not a direct reading of the founding animal experiments.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The compound was taken into evaluation for intestinal spasm: Connell tested human colonic motility and conducted an early controlled clinical study; the inventors later disclosed a method and formulations for colonic spasm and referred to a parent preparation patent.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately synthesized analogues that retained or represented selected reserpine-related chemical groups, including a phenylethylamine series, and developed a compound with a different pharmacological profile into a colonic antispasmodic. The later patent described therapeutic compositions. The exact synthetic path and the choice of individual mebeverine from the series were not verified in the inaccessible original papers.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E6",
+        "E2",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The particular documented planned event is the synthesis and study of reserpine analogues to explore structure and physiological effects. Whether the animal spasmolytic finding or its intestinal use was initially intended or unexpected is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Sneader W. Drug Discovery: A History. John Wiley & Sons; 2005:131–132. ISBN 978-0-471-89979-2.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/91184/1/Drug%20Discovery%20A%20History-Walter%20Sneader-John%20Wiley%20%26%20Sons%20Ltd-2005-1.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Connell AM. Physiological and clinical assessment of the effect of the musculotropic agent mebeverine on the human colon. Br Med J. 1965;2(5466):848–851. DOI 10.1136/bmj.2.5466.848; PMID 5318612.",
+        "url": "https://doi.org/10.1136/bmj.2.5466.848",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Kralt T, Moed HD, Claassen V, Hendriksen TWJ, Lindner A, Selzer H, Brücke F, Hertting G, Gogolak G. Reserpine Analogues. Nature. 1960;188:1108–1109. DOI 10.1038/1881108b0; PMID 13753917.",
+        "url": "https://www.nature.com/articles/1881108b0",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Kralt T, Moed HD, Asma WJ, Lindner A, inventors. Method of relieving spasmodic conditions and pharmaceutical composition useful therefor. US patent US3265577A. Filed October 6, 1965; granted August 9, 1966.",
+        "url": "https://patents.google.com/patent/US3265577A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Abstracts of recent scientific publications by the staff of N.V. Philips' Gloeilampenfabrieken, items 2995–2997. Philips Technical Review. 1962/63;24(3):98.",
+        "url": "https://pearl-hifi.com/06_Lit_Archive/02_PEARL_Arch/Vol_16/Sec_53/Philips_Tech_Review/PTechReview-24-1962_63-095.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Chapter 11, Papaverine analogues, pp. 131–132, last paragraph."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "p. 848, Introduction, sentences citing Kralt et al. 1960 and identifying mebeverine."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Publisher preview of first paragraph, original letter, p. 1108; remaining text behind subscription."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "pp. 848–851, Motility studies, controlled clinical trial, and Summary."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "Patent description, columns 1–2, therapeutic object, compound identification and parent-application reference."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "p. 98, items 2995–2997 and their shared concluding paragraph; PDF page 4."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1038/1881108b0",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1136/bmj.2.5466.848",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/US3265577A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "This record covers the assigned mebeverine lineage, not other intestinal antispasmodics or receptor-defined muscarinic antagonists.",
+      "The reserpine-analogue research and later papaverine-family description may be two ways of describing this lineage; the sources read do not establish a separate papaverine-led founding branch. The observation-led assessment does not depend on resolving that relationship."
+    ],
+    "conflicts": [
+      "Sneader describes mebeverine as an open-chain papaverine analogue; Connell describes it as a reserpine phenylethylamine derivative with papaverine-like spasmolytic action. These may reflect different structural and functional relationships, but the underlying reason for the descriptions remains unresolved."
+    ],
+    "gaps": [
+      "Kralt et al. 1960 was read only in its publisher's first-paragraph preview. Its complete synthesis, compound identification and original experimental observations were not checked.",
+      "The 1961 detailed synthesis papers and Lindner et al.'s 1963 animal-pharmacology paper were located but not read in full; the identity and selection path of the individual derivative are not independently reconstructed.",
+      "The initial team's intent regarding the specific intestinal-spasm indication and whether the spasmolytic finding was unexpected are not established in the sources read.",
+      "Sneader's original supporting reference and exact rationale for the papaverine analogue label were not checked."
+    ]
+  },
+  "nameAliases": [],
+  "humanContributionInterpretation": {
+    "id": "DIRECT_INTESTINAL_ANTISPASMODICS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Kralt T, Moed HD, Claassen V, Hendriksen TWJ, Lindner A, Selzer H, Brücke F, Hertting G, Gogolak G. Reserpine Analogues. Nature. 1960;188:1108–1109. DOI 10.1038/1881108b0; PMID 13753917.",
+        "url": "https://www.nature.com/articles/1881108b0",
+        "locator": "Publisher preview of first paragraph, original letter, p. 1108; remaining text behind subscription.",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E6",
+        "citation": "Abstracts of recent scientific publications by the staff of N.V. Philips' Gloeilampenfabrieken, items 2995–2997. Philips Technical Review. 1962/63;24(3):98.",
+        "url": "https://pearl-hifi.com/06_Lit_Archive/02_PEARL_Arch/Vol_16/Sec_53/Philips_Tech_Review/PTechReview-24-1962_63-095.pdf",
+        "locator": "p. 98, items 2995–2997 and their shared concluding paragraph; PDF page 4.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Connell AM. Physiological and clinical assessment of the effect of the musculotropic agent mebeverine on the human colon. Br Med J. 1965;2(5466):848–851. DOI 10.1136/bmj.2.5466.848; PMID 5318612.",
+        "url": "https://doi.org/10.1136/bmj.2.5466.848",
+        "locator": "p. 848, Introduction, sentences citing Kralt et al. 1960 and identifying mebeverine.",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

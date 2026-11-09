@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/VITAMIN_B1",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "VITAMIN_B1",
+    "name": "Vitamin B1 preparations",
+    "medicines": [
+      "thiamine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "thiamine",
+        "components": [
+          "thiamine"
+        ],
+        "usRank": null,
+        "englandRank": 79,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "An unexpected beriberi-like chicken outbreak coincided with feeding polished rice and abated when that feeding arrangement ended. Eijkman reports planned comparative feeding experiments showing disease on polished rice and protection with unpolished rice, leading researchers toward the protective material in rice's outer portions; Grijns later interpreted the problem as loss of a needed dietary substance.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "The operative clue was the animal disease–diet relationship, followed by protective activity in rice outer layers and other foods and extracts. Those biological observations guided isolation of the factor later identified as thiamine; the category does not depend on the current method of manufacture.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "An unexpected laboratory chicken outbreak, followed by deliberate polished-versus-unpolished-rice feeding experiments, pointed to a diet-related protective factor in the outer portions of rice.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Grijns advanced a deficiency interpretation; Eijkman describes protective foods and concentrated extracts and their application to bird polyneuritis and human beriberi.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Jansen and Donath reported crystalline anti-beriberi material from rice polishings in 1926; subsequent animal testing found antineuritic activity, while a 1930 replication team could not establish the crystals' purity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6",
+          "E10"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "After work on the vitamin's structure, Cline, Williams, and Finkelstein described chemical synthesis and physiological comparison with the naturally obtained vitamin; an institutional history recounts later commercial thiamine production for nutritional use.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers designed comparative animal-feeding experiments, extracted and fractionated protective material using biological activity as a guide, investigated the vitamin's structure, and developed a chemical synthesis that reproduced the known vitamin. Industrial production then made thiamine available for nutritional use. This is a designed manufacturing route to an observed nutrient, not evidence of a de novo therapeutic concept.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E5",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Eijkman's laboratory outbreak and the food change that exposed the association were unexpected; the subsequent comparative feeding experiments and later chemical synthesis were planned investigations.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Eijkman C. Antineuritic Vitamin and Beriberi. Nobel Lecture, 1929.",
+        "url": "https://shipunov.depo.msu.ru/shipunov/school/univ_110/papers/eijkman1929_antineuritic_vitamin_and_beriberi_nobel_lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Williams RR, Waterman RE, Gurin S. The Jansen and Donath Procedure for the Isolation of Antineuritic Vitamin. Journal of Biological Chemistry. 1930;87(3):559–579. doi:10.1016/S0021-9258(18)76834-8.",
+        "url": "https://www.researchgate.net/publication/232302300_THE_JANSEN_AND_DONATH_PROCEDURE_FOR_THE_ISOLATION_OF_ANTINEURITIC_VITAMIN",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Lindblom K. The Vitamin B Complex: A National Historic Chemical Landmark. American Chemical Society; 2016.",
+        "url": "https://www.acs.org/content/dam/acsorg/education/whatischemistry/landmarks/vitamin-b-complex.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Cline JK, Williams RR, Finkelstein J. Studies of Crystalline Vitamin B1. XVII. Synthesis of Vitamin B1. Journal of the American Chemical Society. 1937;59(6):1052–1054. doi:10.1021/ja01285a026.",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20the%20American%20Chemical%20Society%20US/1937%20%20%28vol%20059%29/06%20%20%280955-1160%29/1052-1054.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Williams RR, Cline JK. Synthesis of Vitamin B1. Journal of the American Chemical Society. 1936;58(8):1504–1505. doi:10.1021/ja01299a505.",
+        "url": "https://pubs.acs.org/doi/10.1021/ja01299a505",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "PDF pp. 5–6, paragraphs beginning 'Following the departure' and 'The laboratory was still housed'"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "PDF p. 6, paragraphs beginning 'Deliberate feeding experiments' and 'This difference'"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "PDF p. 2, 'Discovery of Vitamins', first paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "PDF pp. 9–10, paragraphs beginning 'Experiments on animals' and 'They sent me'"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 578, summary points 3–7"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 578, summary point 8"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 1052, opening paragraph and synthesis scheme"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "pp. 1052 and 1054, comparison paragraph and physiological testing"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "PDF p. 2, 'The New Vitamin: Thiamine', second and third paragraphs"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S3",
+        "locator": "PDF p. 2, 'Discovery of Vitamins', last paragraph"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "p. 1053, paragraph beginning 'Immediately after the publication'"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://shipunov.depo.msu.ru/shipunov/school/univ_110/papers/eijkman1929_antineuritic_vitamin_and_beriberi_nobel_lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.researchgate.net/publication/232302300_THE_JANSEN_AND_DONATH_PROCEDURE_FOR_THE_ISOLATION_OF_ANTINEURITIC_VITAMIN",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://electronicsandbooks.com/edt/manual/Magazine/J/Journal%20of%20the%20American%20Chemical%20Society%20US/1937%20%20%28vol%20059%29/06%20%20%280955-1160%29/1052-1054.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubs.acs.org/doi/10.1021/ja01299a505",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The assigned boundary is one vitamin B1 nutrient-replacement class, represented by thiamine. The record traces a diet-observation-to-factor-to-synthetic-vitamin pathway, not a separate history for every formulation.",
+      "Other reported chemical syntheses of the already identified vitamin, including the German work mentioned in E11, are later manufacturing or chemical routes; this collection does not establish them as independent therapeutic founding branches or settle priority.",
+      "The account does not establish the origins of other vitamins, antivitamins, or each commercial salt, and it does not determine present-day manufacturing methods."
+    ],
+    "conflicts": [
+      "Eijkman's 1929 retrospective places the 1926 crystalline isolation after a discussion of the earlier inability to obtain the factor reliably in pure form (E4), whereas Williams and colleagues in 1930 reported activity in the supplied crystals but could not determine their purity (E5–E6). The later test supports activity, not a definitive composition or purity judgment; the original 1926 report was not read.",
+      "The ACS institutional history's account of the 1936 synthesis is not treated as a settled priority adjudication: the 1937 original report also records a competing German synthesis with unpublished details at the time (E9, E11)."
+    ],
+    "gaps": [
+      "Eijkman's original 1890s laboratory report and Grijns's original 1901 account were not read; the founding observation is supported by the discoverer's 1929 retrospective and the institutional history.",
+      "Jansen and Donath's 1926 original isolation report was not read. The precise chemical composition and purity of their early crystalline samples are not independently established here.",
+      "The 1936 preliminary synthesis by Williams and Cline was located through publisher metadata only (S5); the 1937 experimental report and the institutional history supply the read evidence for later synthesis.",
+      "Synthesis priority among contemporaneous groups and the complete primary history of clinical formulations and commercial production were not investigated; the class-level judgment does not require resolving those questions."
+    ]
+  },
+  "nameAliases": [],
+  "humanContributionInterpretation": {
+    "id": "VITAMIN_B1",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Vorderman's prison-population comparison linked rice type with beriberi and supported translation of the dietary hypothesis to people.",
+    "scope": "This human evidence followed the chicken clue and did not independently isolate thiamine; R1 records the newly checked passage in the already cited Eijkman lecture.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Eijkman C. Antineuritic Vitamin and Beriberi. Nobel Lecture, 1929.",
+        "url": "https://shipunov.depo.msu.ru/shipunov/school/univ_110/papers/eijkman1929_antineuritic_vitamin_and_beriberi_nobel_lecture.pdf",
+        "locator": "PDF pp. 9–10, paragraphs beginning 'Experiments on animals' and 'They sent me'",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "R1",
+        "citation": "Eijkman C. Antineuritic Vitamin and Beriberi. Nobel Lecture, 1929.",
+        "url": "https://shipunov.depo.msu.ru/shipunov/school/univ_110/papers/eijkman1929_antineuritic_vitamin_and_beriberi_nobel_lecture.pdf",
+        "locator": "Eijkman Nobel lecture, mirrored PDF page 8 (zero-based page 7), paragraphs on Vorderman and prison diets; web text lines 237-269",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

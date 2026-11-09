@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ALPHA1_BLOCKERS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ALPHA1_BLOCKERS",
+    "name": "Alpha1-adrenoceptor blockers",
+    "medicines": [
+      "doxazosin",
+      "tamsulosin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "doxazosin",
+        "components": [
+          "doxazosin"
+        ],
+        "usRank": null,
+        "englandRank": 32,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "tamsulosin",
+        "components": [
+          "tamsulosin"
+        ],
+        "usRank": 24,
+        "englandRank": 24,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Two chemically distinct lines carry observed biological leads forward. In the prazosin–doxazosin line, Hess made aminoquinazoline analogues of papaverine, a known poppy-derived smooth-muscle relaxant, under a cyclic-nucleotide/phosphodiesterase hypothesis; later studies established prazosin's alpha1 blockade and used it as the lead for doxazosin. In the tamsulosin line, Takenaka's group observed stronger alpha than beta blockade in S(+)-amosulalol and deoxyamosulalol YM-11133, then optimized the active derivative. The papaverine-to-prazosin starting rationale is attributed to Sneader's historical account, while the explicit isomer-to-derivative sequence is described by the discoverers.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E7",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect",
+      "theoretical_design"
+    ],
+    "inspiration": {
+      "description": "Papaverine supplied a known natural, physiologically active reference for Hess's analogues; Sneader also describes a theoretical cyclic-nucleotide/phosphodiesterase rationale. In the other line the team synthesized derivatives of endogenous noradrenaline, then developed from alpha1 activity observed in synthetic amosulalol and its derivative. Phenoxybenzamine's clinical effects and lower-urinary-tract receptor observations helped motivate urinary applications; their precise timing relative to compound discovery is not settled. Prazosin's measured alpha1 blockade furnished the later doxazosin lead.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "According to Sneader, Hess pursued aminoquinazoline analogues of the vasodilator papaverine, combining that chemical precedent with a cyclic-nucleotide/phosphodiesterase hypothesis. An active synthetic quinazoline was subsequently modified to produce prazosin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E7"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Prazosin's alpha-adrenoceptor-blocking action was identified after its original proposed phosphodiesterase-inhibitor design. The observed alpha1 blockade then prompted exploration of structure–activity relationships for an improved lead.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The doxazosin team replaced prazosin's furan ring with a benzodioxan-containing group and tested the series for alpha1 affinity, selectivity and longer antihypertensive activity; doxazosin was selected for further evaluation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a separate cardiovascular program, noradrenaline derivatives were synthesized and screened for combined alpha/beta antagonism; amosulalol emerged, and its S(+) isomer was observed to have preferential alpha1 blockade.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E6",
+          "E9"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "The investigators removed an OH group to make deoxyamosulalol YM-11133, confirmed its alpha-predominant activity and optimized it, yielding racemic YM-12617. Its R(−) isomer YM617 was identified as tamsulosin; the distinct labels are not treated as interchangeable.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "The group investigated a urinary indication for an existing antihypertensive candidate, informed by clinical phenoxybenzamine use and alpha-receptor physiology; the exact timing of specific tissue experiments relative to the 1980 discovery remains unresolved.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The researchers made and tested designed structures: Hess's quinazoline substitutions and piperazine-containing prazosin; a benzodioxan substitution to seek a longer-acting doxazosin; and amosulalol derivatives, deoxygenation, additional structure–activity modifications and resolution of YM-12617 to an active enantiomer. They subsequently investigated an alternative urinary indication. These deliberate contributions follow biological precedents or active leads rather than erase them.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E5",
+        "E8",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The stated events are planned follow-on synthesis and testing of YM-11133 derivatives for stronger alpha1 blockade and planned optimization of prazosin for a longer-acting doxazosin series. The sources do not establish whether every preceding discovery or mechanism was expected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Takenaka T. 2010. Legends in Urology. Canadian Journal of Urology 17(5):5344–5345.",
+        "url": "https://www.canjurol.com/legends.php?ID=2115",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Sneader W. 2005. Drug Discovery: A History. Chichester: John Wiley & Sons. Chapter: Plant Product Analogues and Compounds Derived from Them, pp. 133–134, Prazosin.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/91184/1/Drug%20Discovery%20A%20History-Walter%20Sneader-John%20Wiley%20%26%20Sons%20Ltd-2005-1.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Campbell SF, Davey MJ. 1986. Doxazosin, a case history. Drug Design and Delivery 1(1):83–99. PMID: 2978370.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2978370/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Campbell SF, Davey MJ, Hardstone JD, Lewis BN, Palmer MJ. 1987. 2,4-Diamino-6,7-dimethoxyquinazolines. 1. 2-[4-(1,4-Benzodioxan-2-ylcarbonyl)piperazin-1-yl] derivatives as alpha 1-adrenoceptor antagonists and antihypertensive agents. Journal of Medicinal Chemistry 30(1):49–57. DOI: 10.1021/jm00384a009; PMID: 2879919.",
+        "url": "https://www.open.edu/openlearn/ocw/pluginfile.php/625653/mod_resource/content/1/s344_1_002.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Takenaka T, Honda K, Fujikura T, Niigata K, Tachikawa S, Inukai N. 1984. New sulfamoylphenethylamines, potent alpha 1-adrenoceptor antagonists. Journal of Pharmacy and Pharmacology 36(8):539–542. DOI: 10.1111/j.2042-7158.1984.tb04447.x; PMID: 6148398.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6148398/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Han X, Lamshöft M, Grobe N, Ren X, Fist AJ, Kutchan TM, Spiteller M, Zenk MH. 2010. The biosynthesis of papaverine proceeds via (S)-reticuline. Phytochemistry 71(11–12):1305–1312. DOI: 10.1016/j.phytochem.2010.04.022; PMID: 20494383.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2900451/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Hara Y, Oda H, Nagumo A. 2015. 革新的な医薬の探索開発過程の事例研究 : ハルナール（JST-N-CASE10） [Case study of the research and development process for an innovative medicine: Harnal]. IIR Working Paper WP#15-13, Hitotsubashi University Institute of Innovation Research, July 2015.",
+        "url": "https://pubs.iir.hit-u.ac.jp/admin/ja/pdfs/file/1866",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Hess HJ, Cronin TH, Scriabine A. 1968. Antihypertensive 2-amino-4(3H)-quinazolinones. Journal of Medicinal Chemistry 11(1):130–136. DOI: 10.1021/jm00307a028; PMID: 5637156.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5637156/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Takenaka T, Fujikura T, Honda K, Asano M, Niigata K. 1995. Discovery and Development of Tamsulosin Hydrochloride, a New α1-Adrenoceptor Antagonist. Yakugaku Zasshi 115(10):773–789. DOI: 10.1248/yakushi1947.115.10_773; PMID: 8531059.",
+        "url": "https://www.jstage.jst.go.jp/article/yakushi1947/115/10/115_10_773/_article/-char/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 5344–5345, cardiovascular research and amosulalol enantiomer paragraphs"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 5345, paragraphs on Caine, prostatic alpha1 responses, and motivation for a selective antagonist"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "pp. 133–134, Prazosin subsection, opening and medicinal-chemistry paragraphs"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "abstract, opening three sentences and series-selection sentence"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "pp. 49–50, abstract and introduction; pp. 53–54, Table IV and discussion"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "abstract, first three sentences"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "Introduction, first paragraph; Results and discussion, Table 1"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "p. 4, first numbered characteristic; p. 5 timeline; pp. 7–9, sections 2.3.1–2.3.2"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S9",
+        "locator": "pp. 776–778, sections 2-2 and 2-3; p. 777, Tables 2–3 and following paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.canjurol.com/legends.php?ID=2115",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2978370/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.open.edu/openlearn/ocw/pluginfile.php/625653/mod_resource/content/1/s344_1_002.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6148398/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5637156/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://www.jstage.jst.go.jp/article/yakushi1947/115/10/115_10_773/_article/-char/en",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "Doxazosin's prazosin-derived quinazoline line and tamsulosin's amosulalol-derived phenethylamine line are distinct medicinal-chemistry branches of the assigned class; different treatment indications do not split the class.",
+      "The papaverine program initially sought vasodilation and proposed phosphodiesterase inhibition; the sources here do not establish papaverine itself as an alpha1 blocker or alpha1 antagonism as Hess's original objective.",
+      "YM-12617 is a racemate; YM617/tamsulosin is its R(−) enantiomer. Prazosin is described as a tamsulosin-program potency benchmark, not the molecular precursor of tamsulosin.",
+      "The record concerns the selected cohort and documented antecedents, rather than all possible alpha1-blocker origins. Participant accounts overlap; independent attribution review of these passages is not established."
+    ],
+    "conflicts": [
+      "S1 narrates a human prostate alpha1 finding as motivation for a selective-antagonist search but dates compound discovery to 1980; its cited human-tissue paper appeared in 1985. S7 describes an initial antihypertensive candidate later redirected to urinary use. Publication date alone does not date the experiment, so the precise relationship remains unresolved.",
+      "S7's timeline dates resolution to YM617 to 1980, while its narrative says development of tamsulosin for hypertension was abandoned around 1979. Those retrospective dates and compound labels do not on their own fix an exact sequence."
+    ],
+    "gaps": [
+      "The original Hess 1968 quinazoline paper (S8) was located but not read; papaverine's causal place in that program rests on Sneader's retrospective (S2).",
+      "The full 1984 Takenaka report (S5) and 1986 Campbell–Davey case history (S3) were inaccessible or not read beyond their abstracts; the 1995 discoverer review (S9) was read only in relevant early sections.",
+      "The 1985 human-tissue original and underlying laboratory records were not read; their exact experiment dates and precise influence on initial compound design remain unestablished."
+    ]
+  },
+  "nameAliases": [
+    "Cardura",
+    "Flomax"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ALPHA1_BLOCKERS",
+    "group": "unresolved",
+    "contribution": "uncertain",
+    "summary": "Phenoxybenzamine clinical experience in prostatic obstruction is cited alongside tissue evidence as a rationale for tamsulosin.",
+    "scope": "Unresolved chronology between compound and tissue work prevents a secure initiating patient bridge.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Takenaka T. 2010. Legends in Urology. Canadian Journal of Urology 17(5):5344–5345.",
+        "url": "https://www.canjurol.com/legends.php?ID=2115",
+        "locator": "p. 5345, paragraphs on Caine, prostatic alpha1 responses, and motivation for a selective antagonist",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Hara Y, Oda H, Nagumo A. 2015. 革新的な医薬の探索開発過程の事例研究 : ハルナール（JST-N-CASE10） [Case study of the research and development process for an innovative medicine: Harnal]. IIR Working Paper WP#15-13, Hitotsubashi University Institute of Innovation Research, July 2015.",
+        "url": "https://pubs.iir.hit-u.ac.jp/admin/ja/pdfs/file/1866",
+        "locator": "p. 4, first numbered characteristic; p. 5 timeline; pp. 7–9, sections 2.3.1–2.3.2",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [
+    {
+      "id": "5ari-diabetes-korea",
+      "title": "Risk of Type 2 Diabetes Mellitus in New Users of 5-Alpha Reductase Inhibitors: A Nationwide Historical Cohort Study",
+      "authors": [
+        "Minh-Ha Nguyen",
+        "Juyeon Ko",
+        "Jaelim Cho"
+      ],
+      "journal": "Yonsei Medical Journal",
+      "year": 2026,
+      "doi": "10.3349/ymj.2025.0056",
+      "url": "https://doi.org/10.3349/ymj.2025.0056",
+      "abstractUrl": "https://pubmed.ncbi.nlm.nih.gov/41914321/",
+      "explainerUrl": "https://mh-nguyen.cv/posts/hira-diabetes-study-explained/",
+      "medicines": [
+        "finasteride",
+        "dutasteride",
+        "tamsulosin"
+      ],
+      "topics": [
+        "type 2 diabetes",
+        "drug safety",
+        "active comparators"
+      ],
+      "design": "Nationwide new-user observational cohort in South Korea, using tamsulosin as the active comparator",
+      "whyRead": "Investigates incident diabetes among people treated for benign prostatic hyperplasia, using weighting to balance measured baseline risk factors.",
+      "methodologicalQuestions": [
+        "Which confounders were measured, balanced by weighting or left unmeasured?",
+        "How do eligibility, lag periods and treatment discontinuation or switching affect follow-up?",
+        "Does the target population have the same indication and baseline diabetes status?"
+      ],
+      "interpretationLimit": "The comparisons concern incident diabetes in the studied BPH population. Weighting addresses measured confounders, and the study does not establish equivalent risks or eliminate residual confounding.",
+      "matchedMedicines": [
+        "tamsulosin"
+      ]
+    },
+    {
+      "id": "finasteride-tamsulosin-glycemia",
+      "title": "Risk of poor glycemic control in tamsulosin versus finasteride users with type 2 diabetes mellitus",
+      "authors": [
+        "Minh-Ha Nguyen",
+        "Maxim S Petrov",
+        "Jaelim Cho"
+      ],
+      "journal": "Heliyon",
+      "year": 2025,
+      "doi": "10.1016/j.heliyon.2025.e41768",
+      "url": "https://doi.org/10.1016/j.heliyon.2025.e41768",
+      "abstractUrl": "https://pubmed.ncbi.nlm.nih.gov/39944326/",
+      "explainerUrl": "https://mh-nguyen.cv/posts/nz-glycemic-control-explained/",
+      "medicines": [
+        "finasteride",
+        "tamsulosin"
+      ],
+      "topics": [
+        "glycemic control",
+        "type 2 diabetes",
+        "drug safety"
+      ],
+      "design": "Population-based observational cohort in New Zealand comparing tamsulosin and finasteride users with existing type 2 diabetes",
+      "whyRead": "Addresses glycemic control in people who already have diabetes, a different outcome and population from incident-diabetes research.",
+      "methodologicalQuestions": [
+        "Which medicine is the reference group for the reported effect estimate?",
+        "How was poor glycemic control defined and measured?",
+        "What range of effects remains compatible with the confidence interval?"
+      ],
+      "interpretationLimit": "Interpret the estimate and its uncertainty together. An imprecise or non-significant comparison does not establish equivalence or an absence of effect.",
+      "matchedMedicines": [
+        "tamsulosin"
+      ]
+    }
+  ],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

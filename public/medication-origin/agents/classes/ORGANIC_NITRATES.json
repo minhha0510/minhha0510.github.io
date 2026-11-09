@@ -1,0 +1,332 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ORGANIC_NITRATES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ORGANIC_NITRATES",
+    "name": "Organic nitrate vasodilators",
+    "medicines": [
+      "glyceryl trinitrate",
+      "isosorbide mononitrate"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "glyceryl trinitrate",
+        "components": [
+          "glyceryl trinitrate"
+        ],
+        "usRank": null,
+        "englandRank": 136,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "isosorbide mononitrate",
+        "components": [
+          "isosorbide mononitrate"
+        ],
+        "usRank": null,
+        "englandRank": 65,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Brunton witnessed experimental vascular effects of amyl nitrite and reported angina relief; Murrell connected nitroglycerin's physiological effects to that comparator and predicted benefit. Separately, prior sugar-alcohol nitrate depressor effects prompted the Krantz laboratory to study sugar-anhydride nitrates, including an isosorbide nitrate.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E1",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Experimental vascular and clinical effects of amyl nitrite, physiological effects of nitroglycerin, and known depressor effects of sugar-alcohol nitrate compounds supplied starting observations in different episodes. Amyl nitrite is a nitrite comparator, not a nitrate class member.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E1",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Brunton combined observed amyl-nitrite effects on arterial tension with an angina case and reported pain relief after a deliberate therapeutic test.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Murrell connected nitroglycerin's physiological effects with amyl nitrite and anticipated benefit in angina, then compared their pulse tracings.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Murrell described relief of anginal episodes after administering dilute nitroglycerin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The 1939 anhydride-nitrate series included table-named isosorbide dinitrate tested for blood-pressure effects in dogs (E6).",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Carr's retrospective dates a report to 1940, but the named compound was already reported in 1939; Silber separately dates synthesis to 1938. Exact synthesis priority remains unresolved.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E5"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "A separate historical abstract describes Porjé's Swedish research on isosorbide dinitrate and marketing in Sweden in 1946, without establishing the initiating idea or its connection to the U.S. studies.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      },
+      {
+        "step": 7,
+        "description": "A mononitrate was reported as an in-vivo dinitrate metabolite in 1967; isosorbide-5-mononitrate was described as an active metabolite in clinical use by 1990.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Murrell deliberately compared physiological responses and clinically tested a dilute solution of an already available compound. The Krantz laboratory then prepared a different series of sugar-anhydride nitrate structures for pharmacological investigation, rather than merely changing delivery.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Murrell's angina trial followed a stated physiological analogy; the 1939 laboratory's synthesis and pharmacological study of anhydride nitrates followed prior depressor observations. This describes these deliberate research stages, not every finding or a blanket absence of chance.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Murrell W. Nitro-glycerine as a remedy for angina pectoris. Lancet. 1879;1:80–81, 113–115, 151–152, 225–227. Collected reprint: London, T. Richards, 1880. DOI of final installment 10.1016/S0140-6736(02)42404-X.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Nitro-glycerine_as_a_remedy_for_angina_pectoris_%28IA_b22278291%29.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Brunton TL. On the use of nitrite of amyl in angina pectoris. Lancet. 1867;90(2291):97–98. DOI 10.1016/S0140-6736(02)51392-1. Three-page 1867 reprint.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/On_the_use_of_nitrite_of_amyl_in_angina_pectoris_%28electronic_resource%29_%28IA_b21480217%29.pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Krantz JC Jr, Carr CJ, Forman S, Ellis FW. Alkyl Nitrites III. A Pharmacologic Study of a New Series of Organic Nitrates. J Pharmacol Exp Ther. 1939;67(2):187–190. DOI 10.1016/S0022-3565(25)07938-8.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=1f0e9ea1a71a337eac34b7dd4bff3211aba6f996&repid=rep1&type=pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Silber S. Nitrates: why and how should they be used today? Current status of the clinical usefulness of nitroglycerin, isosorbide dinitrate and isosorbide-5-mononitrate. Eur J Clin Pharmacol. 1990;38 Suppl 1:S35–S51. DOI 10.1007/BF01417564. PMID 2113003.",
+        "url": "https://sigmund-silber.com/cms/media/publ/1990-EJCP-Nitrates-Silber.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Carr CJ. History of the synthesis and pharmacology of isosorbide dinitrate. Am Heart J. 1985;110(1 Pt 2):197–201. DOI 10.1016/0002-8703(85)90486-7. PMID 3893078.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3893078/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Berlin R. Historical aspects of nitrate therapy. Drugs. 1987;33 Suppl 4:1–4. DOI 10.2165/00003495-198700334-00003. PMID 3113909.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3113909/",
+        "role": "historical_review",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "1880 collected reprint p. 11, first two paragraphs; PDF page 11"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "1880 collected reprint p. 18, last paragraph; PDF page 18"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "1867 reprint p. 2, fourth and fifth full paragraphs; PDF page 4"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "1867 reprint pp. 2–3, treatment and case observations; PDF pages 4–5"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "p. S35, right column, second paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "pp. 187–190 indexed original: introduction; p. 188 Table 1; p. 189 dog-assay method; p. 190 discussion and conclusions"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "PubMed abstract, historical program and dates; abstract truncated at 250 words"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S6",
+        "locator": "PubMed abstract, paragraph on later long-acting nitrates"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Nitro-glycerine_as_a_remedy_for_angina_pectoris_%28IA_b22278291%29.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/On_the_use_of_nitrite_of_amyl_in_angina_pectoris_%28electronic_resource%29_%28IA_b21480217%29.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=1f0e9ea1a71a337eac34b7dd4bff3211aba6f996&repid=rep1&type=pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3893078/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "Amyl nitrite is a pharmacological comparator outside the assigned organic nitrate class.",
+      "The 1939 table names isosorbide dinitrate; its printed chemical diagram and direct lineage to later clinical preparations were not independently verified. Isomannide dinitrate was the authors' selected further-study compound.",
+      "The intellectual starting point of Porjé's Swedish isosorbide program and its relationship to the earlier Maryland work are not stated in the abstract consulted; do not transfer the Maryland rationale to it by assumption.",
+      "The clinical introduction of isosorbide-5-mononitrate is established by the 1990 review, but the developers' specific original rationale is not established by that review."
+    ],
+    "conflicts": [
+      "S3 already names and studies isosorbide dinitrate in 1939, qualifying Carr's S5 statement that it was reported in 1940. Silber S4 dates synthesis to 1938; Berlin S6 describes a later independent U.S. synthesis. The unread full retrospective and underlying synthesis records leave exact priority and reconciliation unresolved."
+    ],
+    "gaps": [
+      "The indexed original pp. 187–190, including Table 1's compound name and dog-assay text, were reopened in final review. Direct PDF/page-image access and independent verification of the chemical diagram remain unavailable.",
+      "Carr's full 1985 retrospective and the report he assigns to 1940 remain unread; exact synthesis priority and the 1938/1939/1940 chronology are only partly reconciled.",
+      "Berlin's full review and the original Swedish development account were not read; the Swedish program's initiating idea remains unestablished.",
+      "The original clinical-development account establishing why isosorbide-5-mononitrate was introduced has not been located in full text."
+    ]
+  },
+  "nameAliases": [
+    "Gonitro",
+    "Nitro-Bid",
+    "Nitro-Dur",
+    "Nitrolingual",
+    "NitroMist",
+    "Nitrostat",
+    "Rectiv",
+    "isosorbide",
+    "nitroglycerin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ORGANIC_NITRATES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Angina relief with amyl nitrite and comparative physiological effects informed Murrell's nitroglycerin treatment.",
+    "scope": "Brunton's earlier bleeding observation also informed the nitrite hypothesis; later isosorbide branches have distinct experimental histories.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Murrell W. Nitro-glycerine as a remedy for angina pectoris. Lancet. 1879;1:80–81, 113–115, 151–152, 225–227. Collected reprint: London, T. Richards, 1880. DOI of final installment 10.1016/S0140-6736(02)42404-X.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Nitro-glycerine_as_a_remedy_for_angina_pectoris_%28IA_b22278291%29.pdf",
+        "locator": "1880 collected reprint p. 11, first two paragraphs; PDF page 11",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Murrell W. Nitro-glycerine as a remedy for angina pectoris. Lancet. 1879;1:80–81, 113–115, 151–152, 225–227. Collected reprint: London, T. Richards, 1880. DOI of final installment 10.1016/S0140-6736(02)42404-X.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Nitro-glycerine_as_a_remedy_for_angina_pectoris_%28IA_b22278291%29.pdf",
+        "locator": "1880 collected reprint p. 18, last paragraph; PDF page 18",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Brunton TL. On the use of nitrite of amyl in angina pectoris. Lancet. 1867;90(2291):97–98. DOI 10.1016/S0140-6736(02)51392-1. Three-page 1867 reprint.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/On_the_use_of_nitrite_of_amyl_in_angina_pectoris_%28electronic_resource%29_%28IA_b21480217%29.pdf",
+        "locator": "1867 reprint p. 2, fourth and fifth full paragraphs; PDF page 4",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E4",
+        "citation": "Brunton TL. On the use of nitrite of amyl in angina pectoris. Lancet. 1867;90(2291):97–98. DOI 10.1016/S0140-6736(02)51392-1. Three-page 1867 reprint.",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/On_the_use_of_nitrite_of_amyl_in_angina_pectoris_%28electronic_resource%29_%28IA_b21480217%29.pdf",
+        "locator": "1867 reprint pp. 2–3, treatment and case observations; PDF pages 4–5",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

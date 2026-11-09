@@ -1,0 +1,359 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/HT1A_ANXIOLYTICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "HT1A_ANXIOLYTICS",
+    "name": "5-HT1A partial-agonist anxiolytics",
+    "medicines": [
+      "buspirone"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "buspirone",
+        "components": [
+          "buspirone"
+        ],
+        "usRank": 39,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The original psychotropic series was developed from the observed tranquilizer-like activity of an earlier synthetic compound. Subsequently, behavioral calming by the existing synthetic psychotropic buspirone supplied an anxiolytic clue: a researcher on the cited monkey study states that anxiety trials followed its activity in a predictive aggressive-monkey model. A later retrospective separately describes reduced agitation during feeding; its relationship to the formal test and its exact chronology are not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E7",
+        "E9",
+        "E11"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed psychotropic effects in an earlier synthetic cyclic-imide series guided the original chemical work; buspirone's behavioral effects in monkeys subsequently guided anxiety testing. This does not claim isolation of the compound from a natural source.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E9",
+        "E11"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "In psychotropic research preceding the anxiolytic indication, an active earlier phenylpiperazine cyclic imide was used as a starting point for a modified heteroaryl series; the researchers sought stronger and more selective activity and screened the products.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E11"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The already-synthesized psychotropic buspirone was observed to calm aggressive rhesus monkeys; Taylor says performance in a predictive behavioral model prompted testing for anxiety.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4",
+          "E7",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The inventors reported earlier major-tranquilizer-like work and presented a distinct anxiolytic use, with an open human anxiety evaluation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E6",
+          "E9"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "After buspirone's behavioral and clinical testing, a company team varied the aromatic group, connecting chain and cyclic imide to study the structure-activity relationships of its analogues.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "In 1985, after anxiolytic development was underway, binding studies linked buspirone and a related anxiolytic to 5-HT1A receptors; by 1988 Taylor reviewed functional evidence for partial agonism. This later mechanism is not the documented initial drug-design rationale.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E8",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators altered an active phenylpiperazine cyclic-imide series to seek improved psychotropic potency and selectivity, used a predictive behavioral model to select buspirone for anxiety trials, and later varied aromatic, linker and imide regions to study analogues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5",
+        "E9",
+        "E11"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Gribkoff and Kaczmarek characterize the feeding observation during antipsychotic development and anxiolytic discovery as serendipitous. Taylor states that the later decision to begin anxiety trials followed a predictive monkey test and was not serendipitous. The different events and their relationship cannot be fully reconciled from these sources.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Gribkoff VK, Kaczmarek LK. The Difficult Path to the Discovery of Novel Treatments in Psychiatric Disorders. Adv Neurobiol. 2023;30:255-285. DOI 10.1007/978-3-031-21054-9_11; PMID 36928854. The PMC author manuscript uses Diseases in the title.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10599454/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Casten GP, McKinney GR, Newton RE, Tompkins EC, Weikel JH Jr. Buspirone anti-anxiety method. US patent 4182763A. Filed 1978-05-22, issued 1980-01-08.",
+        "url": "https://patents.google.com/patent/US4182763A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Yevich JP, Temple DL Jr, New JS, Taylor DP, Riblet LA. Buspirone analogues. 1. Structure-activity relationships in a series of N-aryl- and heteroarylpiperazine derivatives. J Med Chem. 1983;26(2):194-203. DOI 10.1021/jm00356a014.",
+        "url": "https://doi.org/10.1021/jm00356a014",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Malec EA. Safety and efficacy of buspirone in the treatment of alcohol dependence. MSc thesis, Department of Psychiatry, McGill University, Montreal; 1994, p. 10.",
+        "url": "https://www.collectionscanada.ca/obj/thesescanada/vol1/QMM/TC-QMM-55510.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Peroutka SJ. Selective interaction of novel anxiolytics with 5-hydroxytryptamine1A receptors. Biol Psychiatry. 1985;20(9):971-979. DOI 10.1016/0006-3223(85)90194-5; PMID 2862927.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2862927/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Taylor DP. Buspirone, a new approach to the treatment of anxiety. FASEB J. 1988;2(9):2445-2452. DOI 10.1096/fasebj.2.9.2836252; PMID 2836252.",
+        "url": "https://faseb.onlinelibrary.wiley.com/doi/pdf/10.1096/fasebj.2.9.2836252",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Wu YH, Rayburn JW, Allen LE, Ferguson HC, Kissel JW. Psychosedative agents. 2. 8-(4-Substituted 1-piperazinylalkyl)-8-azaspiro[4.5]decane-7,9-diones. J Med Chem. 1972;15(5):477-479. DOI 10.1021/jm00275a009; PMID 5035267. Publisher and original list five authors; PubMed omits Wu and Rayburn.",
+        "url": "https://doi.org/10.1021/jm00275a009",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Tompkins EC, Clemento AJ, Taylor DP, Perhach JL Jr. Inhibition of aggressive behavior in rhesus monkeys by buspirone. Res Commun Psychol Psychiatry Behav. 1980;5(4):337-352. Year 1980 in Taylor's bibliography and the index, but 1981 in Yevich et al. 1983.",
+        "url": "https://calendar.eurekamag.com/research/005/700/005700860.php",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "New JS. The discovery and development of buspirone: a new approach to the treatment of anxiety. Med Res Rev. 1990;10(3):283-326. DOI 10.1002/med.2610100302; PMID 2196403.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2196403/",
+        "role": "discoverer_account",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "The process of drug discovery, paragraph beginning Drug discovery often still depends on blind luck, buspirone passage."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Description of the prior art; summary of the invention."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Description of specific embodiments, Example 1, Open Study."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S3",
+        "locator": "p. 194, introduction, first paragraph and its reference 4."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 194, abstract and introduction; p. 195, Biology and Biological Results."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 194, introduction, second paragraph."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 10, section 2, Aspects of behavioral action of buspirone, first paragraph."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "Abstract, radioligand binding results and interpretation."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S6",
+        "locator": "pp. 2445-2446, opening discussion, last paragraph; p. 2451, reference 6."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "p. 2449, discussion of serotonin-sensitive adenylate cyclase."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S7",
+        "locator": "p. 477, introduction, paragraphs 1-2; p. 478, Biological Data."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US4182763A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1021/jm00356a014",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2862927/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://faseb.onlinelibrary.wiley.com/doi/pdf/10.1096/fasebj.2.9.2836252",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1021/jm00275a009",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://calendar.eurekamag.com/research/005/700/005700860.php",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2196403/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The record is limited to the buspirone/azapirone anxiolytic founding lineage, not the histories of SSRIs or every later 5-HT1A ligand."
+    ],
+    "conflicts": [
+      "S1 calls the anxiolytic discovery serendipitous and describes a feeding observation, whereas S6 says the introduction into anxiety trials was not serendipitous but followed a predictive monkey model. The statements concern potentially different stages; neither establishes whether the feeding observation preceded, matched, or led to the formal test.",
+      "S3 cites the Tompkins monkey report as 1981, while the indexed record and the bibliography of S6, coauthored by Tompkins report coauthor Taylor, cite 1980. The original article was not available to adjudicate the discrepancy."
+    ],
+    "gaps": [
+      "The original Tompkins monkey paper and the earlier 1969 paper on the active phenylpiperazine series have not been read. The feeding anecdote is not independently documented in the available primary record, and its date and relation to the formal animal-model work are unknown.",
+      "New's 1990 company-researcher history was located but not read. The 1985 receptor paper was read only as an abstract; binding cannot by itself establish partial agonism or a causal clinical mechanism. S6 reviews separate functional partial-agonism evidence."
+    ]
+  },
+  "nameAliases": [
+    "Bucapsol",
+    "Buspar"
+  ],
+  "humanContributionInterpretation": {
+    "id": "HT1A_ANXIOLYTICS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Gribkoff VK, Kaczmarek LK. The Difficult Path to the Discovery of Novel Treatments in Psychiatric Disorders. Adv Neurobiol. 2023;30:255-285. DOI 10.1007/978-3-031-21054-9_11; PMID 36928854. The PMC author manuscript uses Diseases in the title.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10599454/",
+        "locator": "The process of drug discovery, paragraph beginning Drug discovery often still depends on blind luck, buspirone passage.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Casten GP, McKinney GR, Newton RE, Tompkins EC, Weikel JH Jr. Buspirone anti-anxiety method. US patent 4182763A. Filed 1978-05-22, issued 1980-01-08.",
+        "url": "https://patents.google.com/patent/US4182763A/en",
+        "locator": "Description of the prior art; summary of the invention.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Malec EA. Safety and efficacy of buspirone in the treatment of alcohol dependence. MSc thesis, Department of Psychiatry, McGill University, Montreal; 1994, p. 10.",
+        "url": "https://www.collectionscanada.ca/obj/thesescanada/vol1/QMM/TC-QMM-55510.pdf",
+        "locator": "p. 10, section 2, Aspects of behavioral action of buspirone, first paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Taylor DP. Buspirone, a new approach to the treatment of anxiety. FASEB J. 1988;2(9):2445-2452. DOI 10.1096/fasebj.2.9.2836252; PMID 2836252.",
+        "url": "https://faseb.onlinelibrary.wiley.com/doi/pdf/10.1096/fasebj.2.9.2836252",
+        "locator": "pp. 2445-2446, opening discussion, last paragraph; p. 2451, reference 6.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E11",
+        "citation": "Wu YH, Rayburn JW, Allen LE, Ferguson HC, Kissel JW. Psychosedative agents. 2. 8-(4-Substituted 1-piperazinylalkyl)-8-azaspiro[4.5]decane-7,9-diones. J Med Chem. 1972;15(5):477-479. DOI 10.1021/jm00275a009; PMID 5035267. Publisher and original list five authors; PubMed omits Wu and Rayburn.",
+        "url": "https://doi.org/10.1021/jm00275a009",
+        "locator": "p. 477, introduction, paragraphs 1-2; p. 478, Biological Data.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

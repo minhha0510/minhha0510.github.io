@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/DIHYDROPYRIDINE_CCB",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "DIHYDROPYRIDINE_CCB",
+    "name": "Dihydropyridine calcium-channel blockers",
+    "medicines": [
+      "amlodipine",
+      "felodipine",
+      "lercanidipine",
+      "nifedipine"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "amlodipine",
+        "components": [
+          "amlodipine"
+        ],
+        "usRank": 4,
+        "englandRank": 2,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "felodipine",
+        "components": [
+          "felodipine"
+        ],
+        "usRank": null,
+        "englandRank": 73,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "lercanidipine",
+        "components": [
+          "lercanidipine"
+        ],
+        "usRank": null,
+        "englandRank": 60,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "nifedipine",
+        "components": [
+          "nifedipine"
+        ],
+        "usRank": 115,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The reported coronary vasodilating effect of the plant-derived compound khellin was the starting point for Bossert's search for a usable coronary vasodilator.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "A reported biological effect of khellin, a plant-derived coronary vasodilator, supplied the starting point.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Khellin's reported coronary vasodilator effect provided Bossert's starting point for a search for a suitable coronary vasodilator.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Bossert and Vater pursued khellin-type cardioactive compounds with improved activity and solubility through changes in molecular skeleton; a route through quinolones and fused dihydropyridines yielded coronary-active Hantzsch-type dihydropyridines.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In a contemporaneous independent SmithKline and French line, investigators reportedly observed hypotensive activity of an injected dihydropyridine in dogs and then sought orally active analogues; the line's relation to the assigned medicines is not established.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A 2-nitrophenyl member of the Bayer series was synthesized and selected as nifedipine, with coronary activity disclosed in a 1969 patent; calcium-entry inhibition was identified after the cardiovascular effects, and the active class prompted further chemical investigation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3",
+          "E4",
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers altered the khellin-type skeleton in pursuit of activity and solubility, produced a distinct coronary-active dihydropyridine series and selected the nifedipine candidate; the final structure was synthetic rather than a compound isolated from the plant.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The search for an effective coronary vasodilator and modification of khellin-type structures are described as planned. The inventors' patent calls the series' long-lasting oral or intravenous coronary dilation a surprising discovery; that is patent language, not independent evidence of the investigators' subjective state. The status of the original khellin observation is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Hollman A. Amiodarone, nifedipine, sodium cromoglycate. Br Heart J. 1991;65(1):57. doi:10.1136/hrt.65.1.57; PMID:1899585.",
+        "url": "https://doi.org/10.1136/hrt.65.1.57",
+        "role": "historical_review",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Anrep GV, Barsoum GS, Kenawy MR, Misrahy G. Ammi visnaga in the treatment of the anginal syndrome. Br Heart J. 1946;8(4):171-177. doi:10.1136/hrt.8.4.171; PMID:18610042.",
+        "url": "https://doi.org/10.1136/hrt.8.4.171",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Goldmann S, Stoltefuss J. 1,4-Dihydropyridines: Effects of chirality and conformation on the calcium antagonist and calcium agonist activities. Angew Chem Int Ed Engl. 1991;30(12):1559-1578. doi:10.1002/anie.199115591.",
+        "url": "https://doi.org/10.1002/anie.199115591",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Bossert F, Meyer H, Wehinger E. 4-Aryldihydropyridines, a new class of highly active calcium antagonists. Angew Chem Int Ed Engl. 1981;20(9):762-769. doi:10.1002/anie.198107621.",
+        "url": "https://doi.org/10.1002/anie.198107621",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Bossert F, Vater W. 4-aryl-1,4-dihydropyridines. US patent 3,485,847, published 23 December 1969; German priority 20 March 1967.",
+        "url": "https://patents.google.com/patent/US3485847A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Hara T. Technological Change in the Pharmaceutical Industry in Japan and the United Kingdom. PhD thesis, University of Edinburgh; title page 2000, repository catalog 2001.",
+        "url": "https://era.ed.ac.uk/handle/1842/22291",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Bossert F, Vater W. 1,4-Dihydropyridines--a basis for developing new drugs. Med Res Rev. 1989;9(3):291-324. doi:10.1002/med.2610090304; PMID:2666803.",
+        "url": "https://doi.org/10.1002/med.2610090304",
+        "role": "discoverer_account",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 57, nifedipine paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "pp. 171-172, introduction and physiological experiments 1-2; p. 174, whole-animal experiment 4"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "p. 1559, section 1 Introduction; p. 1560, first paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "p. 762, abstract and section 2; pp. 768-769, structure-activity discussion and summary"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "printed columns 1-2, description and Example 1; columns 5-6, Pharmacology"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S6",
+        "locator": "p. 72, first paragraph, discussing the SmithKline and French branch"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "p. 72, discussion of Bayer and SmithKline patent timing"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1136/hrt.8.4.171",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1002/anie.198107621",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://patents.google.com/patent/US3485847A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1002/med.2610090304",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This is the founding history of the nifedipine series, not a separate developmental genealogy of each later cohort member; the 1991 chemistry review lists amlodipine and felodipine among later derivatives but not lercanidipine.",
+      "Hara describes an independent SmithKline and French line that developed from an observed hypotensive effect in dogs toward oral analogues. Its earliest research motive and relationship to the assigned medicines are less securely established, so neither khellin ancestry nor a design-from-scratch branch is assumed."
+    ],
+    "conflicts": [
+      "Hara (E7) describes Bayer's patent protection as preceding the SmithKline work, whereas the separate SKF patent-family record https://patents.google.com/patent/DE1695826A1/en lists a 1967-02-07 priority and the Bayer patent (E5) lists 1967-03-20; these may concern different claims or filing versus publication, so relative invention priority remains unresolved and is not used in classification."
+    ],
+    "gaps": [
+      "The 1945 khellin reports cited in the 1946 study and Bossert and Vater's 1989 review have not been read; the 1991 account cites the latter for the chemical transition.",
+      "The patent and the 1981 discoverer account do not establish the khellin-to-program connection; that link is documented by the later histories, and no direct evidence establishes that Bayer read the specific 1946 paper.",
+      "The 1972 and 1974 primary Loev reports for the independent branch were located as metadata but not read in full; their content is not assumed from their titles."
+    ]
+  },
+  "nameAliases": [
+    "Afeditab CR",
+    "Amodip",
+    "Katerzia",
+    "Norliqva",
+    "Norvasc",
+    "Procardia",
+    "Sdamlo"
+  ],
+  "humanContributionInterpretation": {
+    "id": "DIHYDROPYRIDINE_CCB",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Hollman A. Amiodarone, nifedipine, sodium cromoglycate. Br Heart J. 1991;65(1):57. doi:10.1136/hrt.65.1.57; PMID:1899585.",
+        "url": "https://doi.org/10.1136/hrt.65.1.57",
+        "locator": "p. 57, nifedipine paragraph",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E2",
+        "citation": "Anrep GV, Barsoum GS, Kenawy MR, Misrahy G. Ammi visnaga in the treatment of the anginal syndrome. Br Heart J. 1946;8(4):171-177. doi:10.1136/hrt.8.4.171; PMID:18610042.",
+        "url": "https://doi.org/10.1136/hrt.8.4.171",
+        "locator": "pp. 171-172, introduction and physiological experiments 1-2; p. 174, whole-animal experiment 4",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Goldmann S, Stoltefuss J. 1,4-Dihydropyridines: Effects of chirality and conformation on the calcium antagonist and calcium agonist activities. Angew Chem Int Ed Engl. 1991;30(12):1559-1578. doi:10.1002/anie.199115591.",
+        "url": "https://doi.org/10.1002/anie.199115591",
+        "locator": "p. 1559, section 1 Introduction; p. 1560, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

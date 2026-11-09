@@ -1,0 +1,298 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/DPP4_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "DPP4_INHIBITORS",
+    "name": "DPP-4 inhibitors",
+    "medicines": [
+      "linagliptin",
+      "sitagliptin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "linagliptin",
+        "components": [
+          "linagliptin"
+        ],
+        "usRank": null,
+        "englandRank": 108,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "sitagliptin",
+        "components": [
+          "sitagliptin"
+        ],
+        "usRank": 122,
+        "englandRank": 97,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "After GLP-1 had been observed to stimulate insulin secretion and show therapeutic promise, investigators identified DPP-4-mediated cleavage of GLP-1 and GIP in enzyme and serum experiments. In the Sandoz account this observation prompted a proposal to inhibit DPP-4 and preserve physiological incretin action.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E6",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Endogenous GLP-1's insulin-related physiology and its experimentally observed enzymatic cleavage inspired DPP-4 inhibition in the documented programs. The same experiments showed cleavage of GIP; the Sandoz account predicted that inhibition could also protect GIP. Merck additionally cited clinical observations of glucose lowering by administered GLP-1. The therapeutic inhibitors were deliberately developed small molecules, not required to share the hormones' chemical structures.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E6",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "In purified-enzyme and human-serum experiments DPP-4 cleaved GLP-1 and GIP, and enzyme inhibitors prevented production of serum cleavage fragments.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "According to the Sandoz/Novartis account the enzyme observation prompted a proposal to inhibit DPP-4 to preserve physiological GLP-1; an existing inhibitor was evaluated and optimized into DPP-728 and vildagliptin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A 2002 four-week placebo-controlled human study reported improved glucose control with DPP-728; it was not designed to establish the mechanism of benefit.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a parallel program begun in 1999, Merck used prior human GLP-1 and animal inhibitor evidence to choose the target, screened active compounds, and optimized a piperazine-related series into sitagliptin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A separate program screened for DPP-4 inhibition and optimized an active xanthine scaffold into BI 1356, linagliptin, representing a different chemical route within the established incretin-protection concept.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers screened and optimized small-molecule inhibitors, creating chemically distinct inhibitors including DPP-728, sitagliptin and xanthine-based linagliptin. In the sitagliptin series they introduced fused piperazine replacements to address metabolism and later improved oral absorption; in the linagliptin series they changed substituents to improve potency and reduce hERG-channel and M1-receptor interactions. These chemical inventions do not erase the observation-led target rationale.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5",
+        "E8",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The Sandoz team's selection and testing of valine pyrrolidide as a DPP-4 inhibitor was a purposeful test of the incretin-protection hypothesis; this does not characterize every earlier observation as planned or unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Thornberry NA, Weber AE. 2007. Discovery of JANUVIA (Sitagliptin), a Selective Dipeptidyl Peptidase IV Inhibitor for the Treatment of Type 2 Diabetes. Current Topics in Medicinal Chemistry 7:557–568. DOI 10.2174/156802607780091028; PMID 17352677.",
+        "url": "https://doi.org/10.2174/156802607780091028",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Foley JE, Ahrén B. 2017. The Vildagliptin Experience — 25 Years Since the Initiation of the Novartis Glucagon-like Peptide-1 Based Therapy Programme and 10 Years Since the First Vildagliptin Registration. European Endocrinology 13:56–61. DOI 10.17925/EE.2017.13.02.56; PMID 29632608.",
+        "url": "https://doi.org/10.17925/EE.2017.13.02.56",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Mentlein R, Gallwitz B, Schmidt WE. 1993. Dipeptidyl-peptidase IV hydrolyses gastric inhibitory polypeptide, glucagon-like peptide-1(7–36)amide, peptide histidine methionine and is responsible for their degradation in human serum. European Journal of Biochemistry 214:829–835. DOI 10.1111/j.1432-1033.1993.tb17986.x; PMID 8100523.",
+        "url": "https://doi.org/10.1111/j.1432-1033.1993.tb17986.x",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Eckhardt M, Langkopf E, Mark M, et al. 2007. 8-(3-(R)-Aminopiperidin-1-yl)-7-but-2-ynyl-3-methyl-1-(4-methyl-quinazolin-2-ylmethyl)-3,7-dihydropurine-2,6-dione (BI 1356), a Highly Potent, Selective, Long-Acting, and Orally Bioavailable DPP-4 Inhibitor for the Treatment of Type 2 Diabetes. Journal of Medicinal Chemistry 50:6450–6453. DOI 10.1021/jm701280z; PMID 18052023.",
+        "url": "https://doi.org/10.1021/jm701280z",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Ahrén B, Simonsson E, Larsson H, et al. 2002. Inhibition of dipeptidyl peptidase IV improves metabolic control over a 4-week study period in type 2 diabetes. Diabetes Care 25:869–875. DOI 10.2337/diacare.25.5.869; PMID 11978683.",
+        "url": "https://doi.org/10.2337/diacare.25.5.869",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 557, Target Selection"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "pp. 562–563, From Screening Hits to [beta]-Amino Acid Lead"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "pp. 563–565, Improvements in Pharmacokinetic Properties and Fig. 10"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 56, Discovery, first paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 57, Discovery, first three paragraphs"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 829, Abstract; pp. 833–834, Discussion"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 834, Discussion, GLP-1 paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "p. 6450, right column, discovery starting point"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "pp. 6450–6453, structure–activity studies and conclusion"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "p. 869, Abstract; pp. 870–872, Results and Discussion"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.2174/156802607780091028",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.17925/EE.2017.13.02.56",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1111/j.1432-1033.1993.tb17986.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1021/jm701280z",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.2337/diacare.25.5.869",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The Sandoz, Merck and linagliptin reports document different development programs using the established physiological concept; the Merck account is not evidence of first invention of the class.",
+      "Linagliptin's xanthine screening lead is chemically distinct from the sitagliptin series and the Sandoz valine-pyrrolidide lead; this account does not reconstruct every analogue or decide chemical-lead priority."
+    ],
+    "conflicts": [
+      "Foley and Ahrén describe GLP-1 degradation as solely due to DPP-4; Mentlein and colleagues' original conclusions concern the main enzyme in their human-serum conditions, not universal exclusivity.",
+      "Foley and Ahrén say GLP-1 and GIP share their first five N-terminal residues, whereas the sequences shown in Mentlein et al. Figure 1 differ at the first residue. Both have alanine in the second position from the N terminus in the forms tested."
+    ],
+    "gaps": [
+      "Early animal proof-of-concept reports cited by the retrospectives have not been read directly; the 1993 serum experiment and a 2002 human DPP-728 trial were read.",
+      "Sandoz's attribution of the 1993 proposal is retrospective and partly based on personal communication; competing independent program priority is not adjudicated."
+    ]
+  },
+  "nameAliases": [
+    "Brynovin",
+    "Januvia",
+    "Tradjenta",
+    "Zituvio"
+  ],
+  "humanContributionInterpretation": {
+    "id": "DPP4_INHIBITORS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Human GLP-1 infusion results and preclinical DPP4 evidence jointly supported Merck's inhibitor program.",
+    "scope": "Deliberate human experiments and an existing laboratory hypothesis, not a new incidental patient observation.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Thornberry NA, Weber AE. 2007. Discovery of JANUVIA (Sitagliptin), a Selective Dipeptidyl Peptidase IV Inhibitor for the Treatment of Type 2 Diabetes. Current Topics in Medicinal Chemistry 7:557–568. DOI 10.2174/156802607780091028; PMID 17352677.",
+        "url": "https://doi.org/10.2174/156802607780091028",
+        "locator": "p. 557, Target Selection",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

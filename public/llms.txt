@@ -53,6 +53,7 @@ Preprints:
 
 - [Home](https://mh-nguyen.cv/): introduction and the timeline above, with links to each paper.
 - [Medication Origins Atlas](https://mh-nguyen.cv/medication-origin/): searchable histories of 115 commonly used drug classes covering 226 medication groups, with original accounts, evidence locators and explicit branch limitations. Research is at class level; discovery inspiration and later molecular design are recorded separately.
+  Data access: [fetch guide](https://mh-nguyen.cv/medication-origin/llms.txt), [medicine index](https://mh-nguyen.cv/medication-origin/agents/index.json), and [related papers with methodological reading questions](https://mh-nguyen.cv/medication-origin/reading-guide.json). The static records connect medicines such as finasteride to source-linked class histories and relevant publications by Minh-Ha Nguyen.
 - [Hair-loss evidence and access](https://mh-nguyen.cv/hairloss/): established hair-loss treatment explained plainly, with our population safety research and individual outcomes. Also in [Vietnamese](https://mh-nguyen.cv/hairloss/vi/).
 - [Research](https://mh-nguyen.cv/research/): how I approach evidence, including the dissertation, Below the Surface.
 - [CV (PDF)](https://mh-nguyen.cv/cv/Minh_Ha_Nguyen_CV.pdf): current curriculum vitae.

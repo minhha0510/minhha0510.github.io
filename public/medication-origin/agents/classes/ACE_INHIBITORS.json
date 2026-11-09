@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ACE_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ACE_INHIBITORS",
+    "name": "ACE inhibitors",
+    "medicines": [
+      "lisinopril",
+      "perindopril",
+      "ramipril"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "hydrochlorothiazide + lisinopril",
+        "components": [
+          "hydrochlorothiazide",
+          "lisinopril"
+        ],
+        "usRank": 74,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "lisinopril",
+        "components": [
+          "lisinopril"
+        ],
+        "usRank": 5,
+        "englandRank": 36,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "perindopril",
+        "components": [
+          "perindopril"
+        ],
+        "usRank": null,
+        "englandRank": 88,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "ramipril",
+        "components": [
+          "ramipril"
+        ],
+        "usRank": null,
+        "englandRank": 4,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Renin–angiotensin physiology and observed venom-peptide ACE inhibition supplied the biological starting point. Teprotide then demonstrated a working therapeutic effect; subsequent biochemical observations and a hypothetical active-site model enabled oral small-molecule development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "synthetic_compound_effect",
+      "theoretical_design"
+    ],
+    "inspiration": {
+      "description": "Venom-peptide activity, renin–angiotensin/enzyme physiology and observed inhibitor chemistry informed a hypothetical binding model. The theoretical design is a later contribution within an observation-led lineage.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Physiological/clinical questions about the renin–angiotensin system prompted a deliberate search for ACE inhibitors.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Venom peptides supplied potent working inhibition. Teprotide showed blood-pressure lowering in patients, but poor oral activity limited drug development.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Biochemical homology with carboxypeptidase A, peptide structure-activity work and a known product-analogue inhibitor informed the hypothetical ACE model and new small inhibitors.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Testing hypothesized interactions and zinc-binding substitutions produced captopril. Its smaller nonpeptide architecture supplied oral activity and helped establish the useful class.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The investigators constructed and tested a hypothetical binding model, designed a new small-molecule architecture and optimized functional groups and zinc binding. They also addressed oral exposure. These contributions are substantial and are retained explicitly without erasing the preceding observed biology and working inhibitors.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E5"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The documented ACE-inhibitor project, peptide investigation and model-guided chemistry were deliberate. No accidental origin of the entire class is inferred.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Cushman DW, Ondetti MA.1999. Design of angiotensin converting enzyme inhibitors. Nature Medicine5:1110–1112. Participant retrospective, Clinical Medical Research Award commentary.",
+        "url": "https://laskerfoundation.org/wp-content/uploads/2021/01/1999_cushman.pdf",
+        "role": "discoverer_account",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Ondetti MA, Rubin B, Cushman DW.1977. Design of specific inhibitors of angiotensin-converting enzyme: new class of orally active antihypertensive agents. Science196:441–444. PMID191908.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/191908/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Ferreira SH.1965. A bradykinin-potentiating factor (BPF) present in the venom of Bothrops jararaca. PMID14302350. Metadata only.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14302350/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp.1110–1111, project rationale and venom-peptide paragraphs"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p.1111, paragraph starting Another observation related to carboxypeptidase A"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p.1111, end of carboxypeptidase/analogue-design paragraph; p.1112, modification discussion"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "p.1112, paragraph immediately before Conclusions"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Abstract, opening and final two sentences"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://laskerfoundation.org/wp-content/uploads/2021/01/1999_cushman.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/191908/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14302350/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The unit is the established ACE-inhibitor class, not individual biographies of the cohort's later agents.",
+      "Observation-led origin and model-guided design are successive contributions; the classification does not deny that captopril was deliberately designed or reduce its architecture to a small delivery attachment.",
+      "The natural lead was a venom peptide; this is not a claim that captopril or every later ACE inhibitor was isolated from venom."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "Ferreira1965 was located at metadata extent only; its original full text was not read.",
+      "The1977 original was read as an abstract, not full text; the detailed causal design reasoning rests on the complete discoverers'1999 account.",
+      "Detailed later prodrug/analogue lineages and every upstream enzyme experiment were not reconstructed."
+    ]
+  },
+  "nameAliases": [
+    "Aceon",
+    "Altace",
+    "Prinivil",
+    "Qbrelis",
+    "Vostally",
+    "Zestoretic",
+    "Zestril"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ACE_INHIBITORS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Teprotide lowered blood pressure in patients but lacked oral utility, strengthening the search for oral captopril.",
+    "scope": "The founding venom and enzyme-inhibition work was experimental; human testing validated and redirected an existing approach.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Cushman DW, Ondetti MA.1999. Design of angiotensin converting enzyme inhibitors. Nature Medicine5:1110–1112. Participant retrospective, Clinical Medical Research Award commentary.",
+        "url": "https://laskerfoundation.org/wp-content/uploads/2021/01/1999_cushman.pdf",
+        "locator": "pp.1110–1111, project rationale and venom-peptide paragraphs",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E4",
+        "citation": "Cushman DW, Ondetti MA.1999. Design of angiotensin converting enzyme inhibitors. Nature Medicine5:1110–1112. Participant retrospective, Clinical Medical Research Award commentary.",
+        "url": "https://laskerfoundation.org/wp-content/uploads/2021/01/1999_cushman.pdf",
+        "locator": "p.1112, paragraph immediately before Conclusions",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

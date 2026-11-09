@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/QUINOLINE_ALKALOIDS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "QUINOLINE_ALKALOIDS",
+    "name": "Quinoline-alkaloid antimalarials",
+    "medicines": [
+      "quinine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "quinine",
+        "components": [
+          "quinine"
+        ],
+        "usRank": null,
+        "englandRank": 128,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Medicinal use of cinchona bark and reports of its effects on intermittent fevers preceded quinine's isolation. Pelletier and Caventou explicitly investigated recognized febrifuge barks, building on earlier work on a cinchona constituent and the observation that plant bases could be active. Early historical accounts connect Indigenous medicinal knowledge and European use, but the original observer and exact transmission of antimalarial use are disputed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "The medicinal natural substance was cinchona bark; the relevant biological effect was the reported interruption or reduction of intermittent fever. Prior chemical observations of plant bases and Gomes's cinchonin guided the later analytical search; this later reasoning did not originate the therapeutic target from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E7",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Andean medicinal knowledge and early accounts of bark use against shivering and intermittent fevers preceded the chemists' work. Reviews describe different possible Indigenous and Jesuit contributions; the first use and transfer are not established.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E13",
+          "E15"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "By the early nineteenth century, positive reports of cinchona bark for intermittent fevers had accumulated. Pelletier and Caventou deliberately analyzed these already medicinal barks, prompted also by prior plant-alkali chemistry and Gomes's reported cinchonin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E10"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In 1820, the chemists differentiated the basic constituent from yellow cinchona, named it quinine, and described obtaining and separating it from cinchonine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E11",
+          "E12"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Doctors then investigated the separated substance and its salts for intermittent fevers. In 1823 Elliotson reported a sulphate-treated patient's course and deliberately tested quinina itself, describing its potential as a more affordable preparation; these reports were not controlled trials.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E7",
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers developed chemical extraction and separation of an existing bark constituent, distinguished quinine from cinchonine, and investigated quinine and salt preparations clinically. Separating active material allowed more quantitative administration; Elliotson explicitly considered a less costly preparation. These were analytical and formulation contributions to an existing medicinal observation, not evidence of the molecule being designed from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E9",
+        "E10",
+        "E11",
+        "E12"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The recorded event is the deliberate 1820 investigation of cinchona constituents, with subsequent purposeful clinical testing of quinina by Elliotson. Whether the earliest discovery of bark's medicinal effect was planned or accidental is not established here.",
+      "support": "documented",
+      "evidence_ids": [
+        "E9",
+        "E10"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Miller LH, Rojas-Jaimes J, Low LM, Corbellini G. What Historical Records Teach Us about the Discovery of Quinine. Am J Trop Med Hyg. 2023;108:7–11; online 2022. DOI 10.4269/ajtmh.22-0404; PMID 36410328.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9833075/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Gachelin G, Garner P, Ferroni E, Tröhler U, Chalmers I. Evaluating Cinchona bark and quinine for treating and preventing malaria. J R Soc Med. 2017;110:31–40. DOI 10.1177/0141076816681421; PMID 28106483.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5298425/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Elliotson J. Illustrations of the Medical Properties of Quinina. Med Chir Trans. 1823;12(Pt 2):543–564. DOI 10.1177/09595287230120P222; PMID 20895483.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2116669/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Pelletier PJ, Caventou JB. Recherches chimiques sur les quinquinas. Annales de chimie et de physique. 1820;15:289–318, 337–365. Wellcome Collection work gj4rtduu; no DOI or PMID located.",
+        "url": "https://wellcomecollection.org/works/gj4rtduu",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Rojas-Jaimes J, Rodríguez-Gómez S, Lombardi GP. Discovery of Cinchona as Antimalarial, Viceroyalty of Peru, Circa 1630. Emerg Infect Dis. 2026;32(7):1141–1149. DOI 10.3201/eid3207.260042.",
+        "url": "https://wwwnc.cdc.gov/eid/article/32/7/26-0042_article",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Abstract and historical discussion, paragraphs beginning 'The origin of quinine' and 'Did the Jesuits test'"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Historical discussion, Caldera de la Heredia 1663 and Salado Garzés 1678–1679 paragraphs"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Historical discussion, continuation of Salado Garzés account"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Part 2, first paragraph: historical state of bark treatment and chemical isolation"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Part 2, second paragraph: testing after 1820 quinine purification"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Part 2, first paragraph; 'Choice of quinine dose for treating malaria', final paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Printed p. 544, paragraph beginning 'Of the three substances'; preserved scan medcht00106-0293.png"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "Printed p. 552, second patient; preserved scan medcht00106-0301.png"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "Printed p. 553, final full paragraph; preserved scan medcht00106-0302.png"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "Printed pp. 290–291, section 2, preserved scans 0007 and 0009"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "Printed pp. 347–348, paragraph preceding 'De la Quinine', preserved scans 0087 and 0089"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S4",
+        "locator": "Printed p. 348, 'De la Quinine', section 44, preserved scan 0089"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "'Discovery of Cinchona’s Value as an Antimalarial', opening paragraph"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S5",
+        "locator": "'Set of Historical Contexts as Bases for the Discovery of Cinchona Bark', paragraph on febrile illness"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S5",
+        "locator": "Conclusions, second paragraph, account attributed to Pedro Leiva"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S4",
+        "url": "https://wellcomecollection.org/works/gj4rtduu",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2116669/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "This collection covers the frozen cohort member quinine and its cinchona-alkaloid founding lineage. Synthetic 4-aminoquinolines are a separate class and are not classified by this record.",
+      "The chemical report documents extraction and differentiation, not complete structure elucidation or a separate de novo synthetic antimalarial program; no conclusion is extended to every later derivative.",
+      "Historical intermittent-fever diagnoses and early clinical case reports cannot be assumed to be parasite-confirmed malaria or equivalent to controlled trials."
+    ],
+    "conflicts": [
+      "S1 treats the first Indigenous or Jesuit use of bark specifically for malarial fever as unresolved. S5 reviews accounts of Indigenous febrifuge use and asserts a particular transfer involving Pedro Leiva, while also presenting alternative discovery scenarios. These differing degrees of historical attribution are not resolved here; the reviews share a coauthor and historical sources.",
+      "S1 describes the quinine structure as solved by Pelletier and Caventou in 1820. Their 1820 paper, S4, establishes the chemical investigation, separation and naming used here, not the full structure; no structure-discovery date is assigned in this record."
+    ],
+    "gaps": [
+      "The initial observer, the precise first medicinal indication, whether the earliest observation was planned or accidental, and the chain from Indigenous knowledge to later antimalarial use remain unresolved.",
+      "The seventeenth-century accounts of bark use were read through historical reviews, not in their original editions; no contemporary first-person Jesuit account of the initial transfer was located.",
+      "Only the specified relevant pages of the 1820 chemical and 1823 clinical reports were read; the original sources for all later treatment and derivative-priority claims were not exhaustively investigated."
+    ]
+  },
+  "nameAliases": [
+    "Qualaquin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "QUINOLINE_ALKALOIDS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Established cinchona fever treatment supplied the therapeutic precedent for isolation of quinine-family alkaloids.",
+    "scope": "The first Indigenous or Jesuit discovery story remains unresolved; this is prior clinical use rather than a verified first observation.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Gachelin G, Garner P, Ferroni E, Tröhler U, Chalmers I. Evaluating Cinchona bark and quinine for treating and preventing malaria. J R Soc Med. 2017;110:31–40. DOI 10.1177/0141076816681421; PMID 28106483.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5298425/",
+        "locator": "Part 2, first paragraph: historical state of bark treatment and chemical isolation",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E10",
+        "citation": "Pelletier PJ, Caventou JB. Recherches chimiques sur les quinquinas. Annales de chimie et de physique. 1820;15:289–318, 337–365. Wellcome Collection work gj4rtduu; no DOI or PMID located.",
+        "url": "https://wellcomecollection.org/works/gj4rtduu",
+        "locator": "Printed pp. 290–291, section 2, preserved scans 0007 and 0009",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

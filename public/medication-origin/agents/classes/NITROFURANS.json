@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NITROFURANS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NITROFURANS",
+    "name": "Nitrofuran antibacterials",
+    "medicines": [
+      "nitrofurantoin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "nitrofurantoin",
+        "components": [
+          "nitrofurantoin"
+        ],
+        "usRank": 132,
+        "englandRank": 69,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A founding observation was that synthetic 5-nitrofuran derivatives inhibited bacterial growth, with substantially greater activity than corresponding non-nitrated furans in the reported comparisons. The Eaton researchers later described established in-vitro activity as directing attention toward treatment of systemic infection. This is an observed founding class clue; the reason the research program first chose furans in 1939 is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed bacteriostatic activity of synthetic nitrofuran compounds, particularly effects revealed by comparisons of 5-nitrated and non-nitrated furan derivatives. The later practical research was directed to developing that demonstrated activity; the source does not establish the earlier reason for choosing the chemical family.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A retrospective reports that an Eaton Laboratories nitrofuran research program began in 1939. The reported reason for starting that program is not established by this account.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A 1944 in-vitro comparison found that nitrated furan derivatives generally inhibited bacteria more strongly than their non-nitrated counterparts; the original article is available here only through a reproduced abstract.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "An Eaton laboratory report explicitly states that established in-vitro activity led to attention to possible treatment of systemic infection. Stillman and Scott described and synthesized members of an antiseptic nitrofuran family, including the semicarbazone known as nitrofurazone, and made claims of oral activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E1"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Additional 5-nitrofurans were selected from hundreds synthesized; Hayes described an aminohydantoin series with a preferred compound corresponding to nitrofurantoin and reported antibacterial urine in treated animals. A later account places nitrofurantoin clinical trials in 1952.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E2"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers prepared and compared nitrated and non-nitrated furans, synthesized related semicarbazones, and later prepared aminohydantoin derivatives including the compound corresponding to nitrofurantoin. The later patent reports antibacterial urinary excretion in animals; the documents read do not establish that urinary persistence was rationalized in advance as the original design hypothesis.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E1",
+        "E2"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The specific documented event is a purposeful laboratory survey and comparison of antibacterial activity. The available abstract does not establish whether the observed enhancement was expected or accidental, and this value is not a blanket claim about every step.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Stillman WB, Scott AB. Series of nitrofuran compounds. US patent 2,416,234, issued 1947-02-18; application filed 1945-08-28.",
+        "url": "https://patents.google.com/patent/US2416234A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Hayes KJ. Series of nitrofuran compounds comprising the azomethines of 5-nitro-2-acyl furans with 1-amino-hydantoins. US patent 2,610,181, issued 1952-09-09; application filed 1950-05-29.",
+        "url": "https://patents.google.com/patent/US2610181A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Paul HE, Austin FL, Paul MF, Ells VR. Metabolism of the nitrofurans. I. Ultraviolet absorption studies of urinary end-products after oral administration. J Biol Chem. 1949;180:345–363. doi:10.1016/S0021-9258(18)56751-X. PMID:18133400.",
+        "url": "https://doi.org/10.1016/S0021-9258(18)56751-X",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Aufrère MB. Analytical and metabolic studies with nitrofurantoin. PhD dissertation. University of California, San Francisco; 1978.",
+        "url": "https://escholarship.org/uc/item/053032z3",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Dodd MC, Stillman WB, Roys M, Crosby C. The in vitro bacteriostatic action of some simple furan derivatives. J Pharmacol Exp Ther. 1944;82(1):11–18. doi:10.1016/S0022-3565(25)08567-2; authors as listed in publisher-deposited Crossref metadata, original title page unread.",
+        "url": "https://doi.org/10.1016/S0022-3565(25)08567-2",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Description, opening two paragraphs, especially oral activity and properties common to nitrofurans; Example 1."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Description, second paragraph and Example 1; claim 2."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Page 345, opening two paragraphs, as reproduced in indexed full text."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "Introduction, historical paragraph, pp. 1–2."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "Abstract as reproduced in the SciSpace search index; original publisher full text and title page not read."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://patents.google.com/patent/US2416234A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US2610181A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1016/S0021-9258(18)56751-X",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1016/S0022-3565(25)08567-2",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The documented causal account concerns the antibacterial 5-nitrofuran family associated with the Eaton program and the nitrofurantoin-containing aminohydantoin branch; it is not a separate biography of each analogue.",
+      "A separately cited 1947 Dann and Möller report was not read; its independence, precise priority and any materially different founding basis are not established here.",
+      "The researchers' original 1939 reason for selecting the scaffold and the specific decision path leading to the nitrofurantoin side chain remain uncertain; an animal-urine observation is not evidence of a prior design rationale."
+    ],
+    "conflicts": [
+      "Publisher-deposited metadata for the 1944 paper lists Dodd, Stillman, Roys and Crosby, whereas many historical references list Dodd and Stillman alone. The original title page was not read; the citation retains the four-name publisher metadata without resolving the discrepancy against the physical original."
+    ],
+    "gaps": [
+      "Full text and title page of the 1944 experiment were inaccessible; the abstract was read through a third-party search index.",
+      "Primary evidence for the 1939 program's initial motivation and the particular decisions selecting nitrofurantoin was not located.",
+      "The 1947 Dann and Möller report and earlier historical references cited in the dissertation were not read; their possible independent contribution remains unresolved."
+    ]
+  },
+  "nameAliases": [
+    "Furadantin",
+    "Macrobid",
+    "Macrodantin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "NITROFURANS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E5",
+        "citation": "Dodd MC, Stillman WB, Roys M, Crosby C. The in vitro bacteriostatic action of some simple furan derivatives. J Pharmacol Exp Ther. 1944;82(1):11–18. doi:10.1016/S0022-3565(25)08567-2; authors as listed in publisher-deposited Crossref metadata, original title page unread.",
+        "url": "https://doi.org/10.1016/S0022-3565(25)08567-2",
+        "locator": "Abstract as reproduced in the SciSpace search index; original publisher full text and title page not read.",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E3",
+        "citation": "Paul HE, Austin FL, Paul MF, Ells VR. Metabolism of the nitrofurans. I. Ultraviolet absorption studies of urinary end-products after oral administration. J Biol Chem. 1949;180:345–363. doi:10.1016/S0021-9258(18)56751-X. PMID:18133400.",
+        "url": "https://doi.org/10.1016/S0021-9258(18)56751-X",
+        "locator": "Page 345, opening two paragraphs, as reproduced in indexed full text.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

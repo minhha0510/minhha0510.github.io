@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/P2Y12_ANTAGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "P2Y12_ANTAGONISTS",
+    "name": "P2Y12 platelet inhibitors",
+    "medicines": [
+      "clopidogrel"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "clopidogrel",
+        "components": [
+          "clopidogrel"
+        ],
+        "usRank": 45,
+        "englandRank": 19,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "An anti-inflammatory analogue program based on tinoridine yielded an unexpected antiplatelet and antithrombotic effect in orally dosed rats; investigators developed ticlopidine and analogues. A separate P2T antagonist program built on the known competitive antagonist activity of ATP by developing ATP analogues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "endogenous_molecule",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Unexpected animal antiplatelet and antithrombotic effects of synthetic thienopyridines supplied the ticlopidine-to-clopidogrel lead. A separate program built ATP analogues from the observed activity of the endogenous nucleotide as a weak P2T antagonist.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A tinoridine-related anti-inflammatory program produced synthetic thienopyridines with unexpected antiplatelet and antithrombotic activity in rats; ticlopidine was selected.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The team synthesized and tested ticlopidine analogues to find improved activity and tolerability, yielding racemic PCR4099.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Separation of the racemate identified the active S-enantiomer, clopidogrel, which entered preclinical development.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The ADP-related platelet phenotype preceded molecular identification of P2Y12 as the target. Later receptor-null mouse experiments supported the link to clopidogrel.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E9"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Independently, investigators used weak P2T antagonist ATP as a starting point and modified its structure to generate potent nucleotide antagonists including AR-C69931MX, later known as cangrelor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "In the nucleotide-derived sequence, phosphate removal and core modifications produced a nonphosphate antagonist; further work to improve oral bioavailability led to ticagrelor, with a substantially changed architecture.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized thienopyridine analogues, screened animal activity, selected a lead, and resolved a racemate to advance an active enantiomer with a more favorable experimental profile. Separately, nucleotide modifications improved stability, affinity and selectivity; later removal of phosphates and core changes created a different oral antagonist architecture.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E6",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The anti-inflammatory analogue program and later analogue and enantiomer comparisons were planned; antiplatelet and antithrombotic activity in the original screen was unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Maffrand JP. 2012. The story of clopidogrel and its predecessor, ticlopidine: Could these major antiplatelet and antithrombotic drugs be discovered and developed today? Comptes Rendus Chimie 15:737–743. DOI 10.1016/j.crci.2012.05.006.",
+        "url": "https://comptes-rendus.academie-sciences.fr/chimie/articles/10.1016/j.crci.2012.05.006/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Ingall AH, Dixon J, Bailey A, et al. 1999. Antagonists of the platelet P2T receptor: a novel approach to antithrombotic therapy. J Med Chem 42:213–220. DOI 10.1021/jm981072s; PMID 9925726.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9925726/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Husted S, van Giezen JJJ. 2009. Ticagrelor: The First Reversibly Binding Oral P2Y12 Receptor Antagonist. Cardiovasc Ther 27:259–274. DOI 10.1111/j.1755-5922.2009.00096.x; PMID 19604248; PMCID PMC2948430.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2948430/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Foster CJ, Prosser DM, Agans JM, et al. 2001. Molecular identification and characterization of the platelet ADP receptor targeted by thienopyridine antithrombotic drugs. J Clin Invest 107:1591–1598. DOI 10.1172/JCI12242; PMID 11413167.",
+        "url": "https://www.jci.org/articles/view/12242",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Coller BS. 2011. Historical Perspective and Future Directions in Platelet Research. J Thromb Haemost 9 Suppl 1:374–395. DOI 10.1111/j.1538-7836.2011.04356.x; PMID 21781274; PMCID PMC3163479.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3163479/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Section 1, second paragraph, 1972 research program and animal screen."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Section 1, paragraphs following Figure 1, synthesis and testing of ticlopidine analogues."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Section 1, paragraph preceding Figure 2, resolution and selection of PCR4099 enantiomers."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Section 1, paragraphs after Figure 2, knowledge during development and later target identification; section 2, phenotypic screen."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "PubMed abstract, first and second sentences."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "PubMed abstract, middle and concluding sentences, nucleotide modification and lead compounds."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Chemistry, first paragraph, ATP antagonist scaffold through cangrelor."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "Chemistry, first paragraph, modifications after nucleotide analogues."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "Results, clopidogrel treatment paragraph and Figure 7; Discussion, first paragraph."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "P2Y12 Antagonists section, first paragraph and reference 347."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1016/j.crci.2012.05.006",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9925726/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.jci.org/articles/view/12242",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The assigned cohort member clopidogrel belongs to the thienopyridine branch, not the ATP-derived cangrelor/ticagrelor sequence. Both observed starting points are retained; multiple observation-led branches do not alone make the class mixed.",
+      "Ingall 1999 used the contemporary P2T receptor designation; the subsequent review supplies the link to P2Y12 and cangrelor. The first observation and priority of ATP antagonist activity were not independently reconstructed."
+    ],
+    "conflicts": [
+      "S1 says none of the team's synthesized thienopyridines had anti-inflammatory or analgesic effects, whereas S5 describes anti-inflammatory activity in a combined thienopyridine/furopyridine series also tested for antiplatelet activity. Their exact compound sets and assays cannot be compared without the 1974 original; this possible series-level discrepancy remains unresolved and does not negate the reported antiplatelet observation."
+    ],
+    "gaps": [
+      "The 1970s thienopyridine synthesis and animal-screen reports, including Podesta et al. 1974, were not read; the causal development narrative rests on the discoverer's retrospective S1.",
+      "Ingall 1999 was read at abstract extent only; the first observation of ATP antagonism was not independently reconstructed.",
+      "Hollopeter et al. 2001, DOI 10.1038/35051599, was located but not read in full; S4 acknowledges that earlier molecular-cloning report and supplies an independent primary experiment relevant to target identification."
+    ]
+  },
+  "nameAliases": [
+    "Plavix"
+  ],
+  "humanContributionInterpretation": {
+    "id": "P2Y12_ANTAGONISTS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Maffrand JP. 2012. The story of clopidogrel and its predecessor, ticlopidine: Could these major antiplatelet and antithrombotic drugs be discovered and developed today? Comptes Rendus Chimie 15:737–743. DOI 10.1016/j.crci.2012.05.006.",
+        "url": "https://comptes-rendus.academie-sciences.fr/chimie/articles/10.1016/j.crci.2012.05.006/",
+        "locator": "Section 1, second paragraph, 1972 research program and animal screen.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Ingall AH, Dixon J, Bailey A, et al. 1999. Antagonists of the platelet P2T receptor: a novel approach to antithrombotic therapy. J Med Chem 42:213–220. DOI 10.1021/jm981072s; PMID 9925726.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9925726/",
+        "locator": "PubMed abstract, first and second sentences.",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E6",
+        "citation": "Ingall AH, Dixon J, Bailey A, et al. 1999. Antagonists of the platelet P2T receptor: a novel approach to antithrombotic therapy. J Med Chem 42:213–220. DOI 10.1021/jm981072s; PMID 9925726.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9925726/",
+        "locator": "PubMed abstract, middle and concluding sentences, nucleotide modification and lead compounds.",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E7",
+        "citation": "Husted S, van Giezen JJJ. 2009. Ticagrelor: The First Reversibly Binding Oral P2Y12 Receptor Antagonist. Cardiovasc Ther 27:259–274. DOI 10.1111/j.1755-5922.2009.00096.x; PMID 19604248; PMCID PMC2948430.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2948430/",
+        "locator": "Chemistry, first paragraph, ATP antagonist scaffold through cangrelor.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

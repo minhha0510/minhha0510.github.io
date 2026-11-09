@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/CENTRAL_ALPHA2_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "CENTRAL_ALPHA2_AGONISTS",
+    "name": "Central alpha2-adrenoceptor agonists",
+    "medicines": [
+      "clonidine",
+      "tizanidine"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "clonidine",
+        "components": [
+          "clonidine"
+        ],
+        "usRank": 81,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "tizanidine",
+        "components": [
+          "tizanidine"
+        ],
+        "usRank": 86,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "While clonidine was being used as a nasal decongestant, its unexpected blood-pressure-lowering effect supplied the biological clue for its subsequent antihypertensive development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "An observed hypotensive effect of a synthetic decongestant in people, rather than an isolated natural scaffold, opened the antihypertensive line of development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "An imidazoline decongestant chemistry program produced clonidine; nasal use exposed an unexpected human blood-pressure-lowering effect.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The compound was developed for the observed hypotensive effect and entered clinical use as an antihypertensive; later work localized its action centrally and informed alpha-adrenoceptor subtype research.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A synthetic benzothiadiazole series included the compound later named tizanidine and anti-tremor/anti-rigidity animal assay claims; subsequent pharmacology documented central muscle-relaxant effects, while its mechanism was initially reported as unknown. Later labeling identifies it as a central alpha2 agonist for spasticity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Chemists deliberately built a substituted imidazoline decongestant and solved a substitution problem; researchers then developed its observed hypotensive effect and investigated central pharmacology. A later patent disclosed synthesis of a benzothiadiazole series and described antitremor and antirigidity assays; its starting design rationale is not established by the patent passages read.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "unexpected",
+      "description": "The blood-pressure-lowering effect during nasal decongestant use was serendipitous; this does not imply the original synthesis or later investigation was unplanned.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Kobinger W. Citation Classic commentary on Central alpha-adrenergic systems as targets for hypotensive drugs. Current Contents/Life Sciences. 1987;30(50):17.",
+        "url": "https://garfield.library.upenn.edu/classics1987/A1987L059000002.pdf",
+        "role": "discoverer_account",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Stähle H. A historical perspective: development of clonidine. Best Practice & Research Clinical Anaesthesiology. 2000;14(2):237–246. doi:10.1053/bean.2000.0079.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S152168960090079X",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Page IH. Synthesis of clonidine — a correction. N Engl J Med. 1981;304(22):1371. doi:10.1056/NEJM198105283042235.",
+        "url": "https://www.nejm.org/doi/pdf/10.1056/NEJM198105283042235",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Neumann P. Certain 4-substituted amino-2,1,3-benzothiadiozoles. US patent 3,843,668; issued October 22, 1974.",
+        "url": "https://patents.google.com/patent/US3843668A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Sayers AC, Bürki HR, Eichenberger E. The pharmacology of 5-chloro-4-(2-imidazolin-2-yl-amino)-2,1,3-benzothiadiazole (DS 103-282), a novel myotonolytic agent. Arzneimittelforschung. 1980;30(5):793–803. PMID:7190422.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7190422/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "US Food and Drug Administration. Zanaflex (tizanidine hydrochloride) capsules and tablets: prescribing information, revised December 2020, hosted in FDA's 2024 label archive; sections 11 and 12.1.",
+        "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/020397s028lbl.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Imanaga K, Wajima Z, Inoue T, Ogawa R. Effect of oral tizanidine on local-anesthetic infiltration pain during epidural catheterization. J Nippon Med Sch. 2004;71(2):105–110. doi:10.1272/jnms.71.105; PMID:15260084.",
+        "url": "https://www.nms.ac.jp/sh/jnms/2004/07102105e.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Graubner W, Wolf M. Kritische Betrachtungen zum Wirkungsmechanismus des 2-(2,6-Dichlorphenylamino)-2-imidazolin-hydrochlorids. Arzneimittelforschung. 1966;16(8):1055–1058. PMID:6014889.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6014889/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Page 17, opening paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Page 17, paragraphs 2 and 4"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Publisher-indexed abstract, sentences 1–4"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Publisher-indexed abstract, final three sentences"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "Page 1371, letter 'Synthesis of Clonidine — A Correction'"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "Patent abstract; columns 5–8, animal anti-tremor and anti-rigor assays; columns 11–12, Example 3"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "Abstract"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S6",
+        "locator": "Prescribing information, sections 11 and 12.1"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S7",
+        "locator": "Page 105, abstract and introduction"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://garfield.library.upenn.edu/classics1987/A1987L059000002.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://www.sciencedirect.com/science/article/pii/S152168960090079X",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/US3843668A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7190422/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/6014889/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The observation-led judgment is documented for the clonidine founding antihypertensive line. Tizanidine's antispastic branch has a documented synthetic series and pharmacology, but its specific pre-synthesis inspiration and any causal development from clonidine are not established by the sources read; a shared receptor mechanism does not prove that history."
+    ],
+    "conflicts": [
+      "S3 attributes discovery of clonidine's hypotensive action to physician Martin Wolf's self-use, whereas S2 reports marked hypotension after a secretary received the drug. S2's available abstract does not assign discovery priority, so the accounts may describe distinct observations; the sequence cannot be resolved from these texts.",
+      "S7 calls tizanidine a clonidine derivative, but its clinical-trial background does not establish whether that phrasing describes structural resemblance or the causal design history. The relevant S4 patent and available S5 abstract do not resolve the founding link; this is not evidence that the link is false."
+    ],
+    "gaps": [
+      "The full text of S2, Stähle's 1982 antecedent account, and the early Graubner–Wolf 1966 paper S8 were not accessed; exact priority and chronology of the early human observations remain unresolved.",
+      "S4 and the abstract of S5 do not identify the observation or design reasoning that initiated the tizanidine synthesis program, or establish whether clonidine causally inspired it. The full text of S5 was not read; S7's derivative description leaves the historical mechanism unspecified."
+    ]
+  },
+  "nameAliases": [
+    "Catapres",
+    "Duraclon",
+    "Javadin",
+    "Kapvay",
+    "Nexiclon",
+    "Ontralfy",
+    "Onyda",
+    "Qlonilik",
+    "Zanaflex"
+  ],
+  "humanContributionInterpretation": {
+    "id": "CENTRAL_ALPHA2_AGONISTS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "A marked blood-pressure fall during human use of clonidine nasal drops redirected development toward hypertension.",
+    "scope": "Accounts differ about the first observer and circumstances; do not repeat a uniquely verified secretary anecdote.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Kobinger W. Citation Classic commentary on Central alpha-adrenergic systems as targets for hypotensive drugs. Current Contents/Life Sciences. 1987;30(50):17.",
+        "url": "https://garfield.library.upenn.edu/classics1987/A1987L059000002.pdf",
+        "locator": "Page 17, opening paragraph",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E4",
+        "citation": "Stähle H. A historical perspective: development of clonidine. Best Practice & Research Clinical Anaesthesiology. 2000;14(2):237–246. doi:10.1053/bean.2000.0079.",
+        "url": "https://www.sciencedirect.com/science/article/pii/S152168960090079X",
+        "locator": "Publisher-indexed abstract, final three sentences",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E5",
+        "citation": "Page IH. Synthesis of clonidine — a correction. N Engl J Med. 1981;304(22):1371. doi:10.1056/NEJM198105283042235.",
+        "url": "https://www.nejm.org/doi/pdf/10.1056/NEJM198105283042235",
+        "locator": "Page 1371, letter 'Synthesis of Clonidine — A Correction'",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

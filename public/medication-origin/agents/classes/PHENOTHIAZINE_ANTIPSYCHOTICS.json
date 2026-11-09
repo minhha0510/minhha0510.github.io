@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PHENOTHIAZINE_ANTIPSYCHOTICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PHENOTHIAZINE_ANTIPSYCHOTICS",
+    "name": "Phenothiazine antipsychotics",
+    "medicines": [
+      "prochlorperazine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "prochlorperazine",
+        "components": [
+          "prochlorperazine"
+        ],
+        "usRank": null,
+        "englandRank": 147,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In related but not demonstrably identical strands, Rhône-Poulenc pursued observed central effects of synthetic antihistamines, while Laborit observed calming and detachment in patients given promethazine and sought a related compound; clinical chlorpromazine observations then suggested psychiatric potential. The influence of Laborit's findings on the company's initial program is disputed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E13",
+        "E14"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Observed central effects of synthetic antihistamines, including clinical calming and detachment with promethazine; subsequent clinical effects of chlorpromazine and, in the separate antiemetic branch, inhibition of induced vomiting in dogs.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E6",
+        "E13"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A planned company program exploited observed central effects of synthetic antihistamines; in a related clinical strand, promethazine's calming effects prompted Laborit to request a more centrally active phenothiazine. The clinical observations' influence on the initial company program remains disputed.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E13",
+          "E14"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Chlorpromazine was studied in surgical patients and proposed for psychiatric use; French clinical reports led to further psychiatric evaluation, including a 1954 controlled study with qualified behavioral findings.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E11",
+          "E12"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In a parallel antiemetic line, chlorpromazine was observed to suppress apomorphine-induced vomiting in dogs, prompting further animal experiments, and was subsequently investigated as a clinical antiemetic; prochlorperazine is a piperazine-side-chain phenothiazine antiemetic.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Research on chemically related drugs followed chlorpromazine's promise; piperazine-side-chain derivatives such as prochlorperazine represented a substantive chemical and pharmacological variation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately sought phenothiazines with central effects and later investigated structural variants to improve potency and therapeutic usefulness. Piperazine-side-chain derivatives including prochlorperazine differ from chlorpromazine; specific design intent for that individual analogue is not established here.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E8",
+        "E9",
+        "E13"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Ban characterizes Laborit's observation of promethazine-related detachment as serendipitous. The company program deliberately explored already observed central effects, and Laborit deliberately requested a related drug. Cunningham Owens cautions against treating the entire psychiatric introduction as a pure fluke; these labels concern specific stages, not every event.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E13",
+        "E15"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Ban TA. The role of serendipity in drug discovery. Dialogues Clin Neurosci. 2006;8(3):335–344. DOI 10.31887/DCNS.2006.8.3/tban; PMID 17117615.",
+        "url": "https://doi.org/10.31887/DCNS.2006.8.3/tban",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Sanger GJ, Andrews PLR. A History of Drug Discovery for Treatment of Nausea and Vomiting and the Implications for Future Research. Front Pharmacol. 2018;9:913. DOI 10.3389/fphar.2018.00913; PMID 30233361.",
+        "url": "https://doi.org/10.3389/fphar.2018.00913",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Boyd EM, Boyd CE, Cassell WA. The antemetic action of chlorpromazine hydrochloride. Can Med Assoc J. 1954;70(3):276–280. PMID 13141193; PMCID PMC1825701.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1825701/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Rees L. Chlorpromazine and Allied Phenothiazine Derivatives. Br Med J. 1960;2(5197):522–525. DOI 10.1136/bmj.2.5197.522; PMID 14436902.",
+        "url": "https://doi.org/10.1136/bmj.2.5197.522",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Ban TA. Fifty years chlorpromazine: a historical perspective. Neuropsychiatr Dis Treat. 2007;3(4):495–500. PMID 19300578; PMCID PMC2655089.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2655089/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Elkes J, Elkes C. Effect of Chlorpromazine on the Behaviour of Chronically Overactive Psychotic Patients. Br Med J. 1954;2(4887):560–565. DOI 10.1136/bmj.2.4887.560; PMID 13182280.",
+        "url": "https://doi.org/10.1136/bmj.2.4887.560",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Cunningham Owens DG. The origins of psychopharma. In: A Guide to the Extrapyramidal Side-Effects of Antipsychotic Drugs. 2nd ed. Cambridge University Press; 2014:4–7. Book DOI 10.1017/CBO9781139149112; ISBN 9781107022867.",
+        "url": "https://assets.cambridge.org/97811070/22867/excerpt/9781107022867_excerpt.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Laborit H, Huguenard P, Alluaume R. [A new vegetative stabilizer; 4560 R.P.]. Presse Med (1893). 1952;60(10):206–208. PMID 14957790.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14957790/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Delay J, Deniker P, Harl JM. [Therapeutic use in psychiatry of phenothiazine of central elective action (4560 RP)]. Ann Med Psychol (Paris). 1952;110(2 1):112–117. PMID 12986408.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12986408/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Psychotropic drugs / Chlorpromazine, paragraphs 2 and 5"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Psychotropic drugs / Chlorpromazine, paragraph 3"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Psychotropic drugs / Chlorpromazine, paragraph 4"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Early serendipidous discoveries / Phenothiazines, paragraph 3"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Early serendipidous discoveries / Phenothiazines, final paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 276, Introduction, final paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "pp. 278–280, Antemetic Action on Apomorphine Vomiting"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "p. 522, introduction and Chemical Constitution"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. 522, Chemical Constitution and comparison of side chains"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "From synthesis to introduction, first paragraph"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S6",
+        "locator": "p. 560, introduction and Design of Trial; p. 561, trial design continuation"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S6",
+        "locator": "p. 564, Comment, and p. 565, Summary"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S7",
+        "locator": "p. 5, paragraphs 2 and 5"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S7",
+        "locator": "pp. 5–6, paragraphs on Laborit's observations and request"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S7",
+        "locator": "p. 7, concluding paragraph before In the wake of chlorpromazine"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1825701/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2079576/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14957790/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/12986408/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The earlier company and clinical founding strands are described retrospectively; the influence of Laborit's findings on the company's original program is disputed.",
+      "The psychiatric and antiemetic applications arose from different observed effects; later dopamine-receptor accounts must not be back-projected into the starting rationale.",
+      "The 1954 animal experiment investigated chlorpromazine, not prochlorperazine; specific prochlorperazine design intent and initial development chronology are not established, and the animal findings do not by themselves establish psychiatric efficacy or all clinical antiemetic uses.",
+      "Promethazine is discussed only as a historical precursor, consistent with its separate H1-based cohort assignment."
+    ],
+    "conflicts": [
+      "S1 gives 1950 and S2 gives 1946 for chlorpromazine synthesis. S5 gives 11 December 1951, difficult to reconcile with S3's November 1951 visit describing earlier experiments. S5's May 1952 release date also conflicts with its own account of a February 1952 report. These dates remain unresolved and do not determine discovery basis; S1 and S5 share an author and are not independent corroboration.",
+      "S1 attributes the development of chlorpromazine to Laborit's serendipitous observation of promethazine's effects; S7 separately describes a company program, says the influence of those observations on the initial company decision is debated, and states that chlorpromazine already existed when Laborit requested a better phenothiazine. Their relative causal contributions cannot be resolved from the sources read. Both describe development from observed effects."
+    ],
+    "gaps": [
+      "The located contemporaneous early surgical and psychiatric reports S8 and S9 were not read; their titles and metadata are not used as evidence.",
+      "The company's original laboratory/program records and the specific design rationale and laboratory chronology for prochlorperazine were not established."
+    ]
+  },
+  "nameAliases": [
+    "Compazine",
+    "Compro"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PHENOTHIAZINE_ANTIPSYCHOTICS",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Calm and detachment during perioperative antihistamine use and subsequent psychiatric observations directed phenothiazine CNS use.",
+    "scope": "Influence on the original synthesis is debated; this does not independently establish prochlorperazine's antiemetic origin.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Ban TA. The role of serendipity in drug discovery. Dialogues Clin Neurosci. 2006;8(3):335–344. DOI 10.31887/DCNS.2006.8.3/tban; PMID 17117615.",
+        "url": "https://doi.org/10.31887/DCNS.2006.8.3/tban",
+        "locator": "Psychotropic drugs / Chlorpromazine, paragraphs 2 and 5",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Ban TA. The role of serendipity in drug discovery. Dialogues Clin Neurosci. 2006;8(3):335–344. DOI 10.31887/DCNS.2006.8.3/tban; PMID 17117615.",
+        "url": "https://doi.org/10.31887/DCNS.2006.8.3/tban",
+        "locator": "Psychotropic drugs / Chlorpromazine, paragraph 3",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Ban TA. The role of serendipity in drug discovery. Dialogues Clin Neurosci. 2006;8(3):335–344. DOI 10.31887/DCNS.2006.8.3/tban; PMID 17117615.",
+        "url": "https://doi.org/10.31887/DCNS.2006.8.3/tban",
+        "locator": "Psychotropic drugs / Chlorpromazine, paragraph 4",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E13",
+        "citation": "Cunningham Owens DG. The origins of psychopharma. In: A Guide to the Extrapyramidal Side-Effects of Antipsychotic Drugs. 2nd ed. Cambridge University Press; 2014:4–7. Book DOI 10.1017/CBO9781139149112; ISBN 9781107022867.",
+        "url": "https://assets.cambridge.org/97811070/22867/excerpt/9781107022867_excerpt.pdf",
+        "locator": "p. 5, paragraphs 2 and 5",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E14",
+        "citation": "Cunningham Owens DG. The origins of psychopharma. In: A Guide to the Extrapyramidal Side-Effects of Antipsychotic Drugs. 2nd ed. Cambridge University Press; 2014:4–7. Book DOI 10.1017/CBO9781139149112; ISBN 9781107022867.",
+        "url": "https://assets.cambridge.org/97811070/22867/excerpt/9781107022867_excerpt.pdf",
+        "locator": "pp. 5–6, paragraphs on Laborit's observations and request",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E15",
+        "citation": "Cunningham Owens DG. The origins of psychopharma. In: A Guide to the Extrapyramidal Side-Effects of Antipsychotic Drugs. 2nd ed. Cambridge University Press; 2014:4–7. Book DOI 10.1017/CBO9781139149112; ISBN 9781107022867.",
+        "url": "https://assets.cambridge.org/97811070/22867/excerpt/9781107022867_excerpt.pdf",
+        "locator": "p. 7, concluding paragraph before In the wake of chlorpromazine",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

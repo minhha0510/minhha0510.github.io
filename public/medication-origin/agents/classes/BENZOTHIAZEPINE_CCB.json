@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/BENZOTHIAZEPINE_CCB",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "BENZOTHIAZEPINE_CCB",
+    "name": "Benzothiazepine calcium-channel blockers",
+    "medicines": [
+      "diltiazem"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "diltiazem",
+        "components": [
+          "diltiazem"
+        ],
+        "usRank": 105,
+        "englandRank": 123,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A Tanabe CNS-oriented synthetic benzothiazepine program, itself informed by known psychotropic precedents, yielded a coronary vasodilating effect during broad biological screening. The investigators then developed the observed cardiovascular activity through related compounds and structure-activity studies, leading to diltiazem.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed coronary vasodilation by synthesized benzothiazepines redirected a CNS-oriented program; prior psychotropic compound effects were an antecedent to that series. No natural molecular isolate is asserted.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Thiazesim and a benzodiazepine hydroxyl-substitution precedent informed a new synthetic series intended for central nervous system activity. A contemporary synthesis paper cites the earlier antidepressant benzothiazepine work.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E6"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A broad screen found coronary vasodilation, prompting structure-activity studies and selection of diltiazem.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In anesthetized dogs, researchers compared structural substitutions and stereoisomers; the d-cis acetoxy derivative CRD-401 was the most potent among those tested.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In subsequent investigations of the vasodilator mechanism, the investigators reported a calcium-antagonist property.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The team synthesized a new 3-hydroxy benzothiazepine series, pursued structural variation after observing coronary effects, and compared cis/trans and optical isomers. The d-cis acetoxy derivative showed the strongest activity of their tested series, while the acetoxy analogue lasted longer than the hydroxy comparator in the reported dog experiment; a stereoselective route provided a key synthesis intermediate.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Synthesis for CNS activity and the broad screening program were deliberate; the account does not explicitly establish whether the coronary effect was personally unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Abe K, Inoue H, Nagao T. Diltiazem Hydrochloride: Synthetic and Pharmacological Studies and Development. Yakugaku Zasshi. 1988;108(8):716-732. DOI 10.1248/yakushi1947.108.8_716; PMID 3073210.",
+        "url": "https://www.jstage.jst.go.jp/article/yakushi1947/108/8/108_8_716/_pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Nagao T, Sato M, Nakajima H, Kiyomoto A. Studies on a New 1,5-Benzothiazepine Derivative (CRD-401). IV. Coronary Vasodilating Effect and Structure-Activity Relationship. Chem Pharm Bull (Tokyo). 1973;21(1):92-97. DOI 10.1248/cpb.21.92; PMID 4711518.",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/21/1/21_1_92/_pdf/-char/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Kugita H, Inoue H, Ikezaki M, Konda M, Takeo S. Synthesis of 1,5-Benzothiazepine Derivatives. III. Chem Pharm Bull (Tokyo). 1971;19(3):595-602. DOI 10.1248/cpb.19.595.",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/19/3/19_3_595/_pdf/-char/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Godfraind T. Discovery and Development of Calcium Channel Blockers. Front Pharmacol. 2017;8:286. DOI 10.3389/fphar.2017.00286; PMID 28611661; PMCID PMC5447095.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5447095/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Sato M, Nagao T, Yamaguchi I, Nakajima H, Kiyomoto A. Pharmacological studies on a new 1,5-benzothiazepine derivative (CRD-401). Arzneimittelforschung. 1971;21(9):1338-1343. PMID 5171789.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5171789/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 716, English abstract and Japanese section 1 introduction"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 717, section 2 opening paragraph and Chart 1"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 716, English abstract"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "pp. 92-93, Method and Results section 1; p. 95, Results section 6"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 94-96, Results sections 4 and 6 and Discussion"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 595, introductory paragraph and Chart 1; scanned full-text page read visually"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "Introduction, paragraphs 4-5, historical overview of coronary-dilator programs"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S1",
+        "locator": "p. 716, English abstract, synthesis summary"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1248/yakushi1947.108.8_716",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1248/cpb.21.92",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1248/cpb.19.595",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/5171789/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "This record concerns the benzothiazepine calcium-channel blocker class represented by diltiazem, not the independently arising dihydropyridine or phenylalkylamine families.",
+      "The source-specific program relates to the founding diltiazem lineage; later benzothiazepines are not separately traced and should not automatically inherit every development detail.",
+      "A synthetic lead and its later stereochemical optimization do not by themselves distinguish discovery from scratch from observation-led research."
+    ],
+    "conflicts": [
+      "Godfraind 2017 (E7) groups Tanabe with coronary-dilator programs, which can suggest a cardiovascular aim from the outset. The Tanabe investigators' more detailed 1988 account (E1-E2) describes a preceding CNS-oriented synthesis and a screen-to-coronary transition. The overview may be describing the subsequent cardiovascular stage, but neither source explicitly reconciles the framing."
+    ],
+    "gaps": [
+      "Sato et al. 1971 was located by PMID 5171789 but no abstract or full text was read; its details cannot be independently asserted.",
+      "The original screen notebook, exact first active structure and its contemporaneous CNS-to-coronary transition record were not located. The specific sequence rests on the investigator retrospective.",
+      "The original Krapcho thiazesim and Bell oxazepam reports, earlier 1970 Tanabe synthesis articles and clinical-development studies were not read. The Japanese retrospective was interpreted from relevant sections with a working translation, not a certified human translation."
+    ]
+  },
+  "nameAliases": [
+    "Cardizem",
+    "Cartia",
+    "Dilt",
+    "Diltzac",
+    "Matzim",
+    "Taztia",
+    "Tiadylt",
+    "Tiazac"
+  ],
+  "humanContributionInterpretation": {
+    "id": "BENZOTHIAZEPINE_CCB",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Abe K, Inoue H, Nagao T. Diltiazem Hydrochloride: Synthetic and Pharmacological Studies and Development. Yakugaku Zasshi. 1988;108(8):716-732. DOI 10.1248/yakushi1947.108.8_716; PMID 3073210.",
+        "url": "https://www.jstage.jst.go.jp/article/yakushi1947/108/8/108_8_716/_pdf",
+        "locator": "p. 716, English abstract and Japanese section 1 introduction",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Abe K, Inoue H, Nagao T. Diltiazem Hydrochloride: Synthetic and Pharmacological Studies and Development. Yakugaku Zasshi. 1988;108(8):716-732. DOI 10.1248/yakushi1947.108.8_716; PMID 3073210.",
+        "url": "https://www.jstage.jst.go.jp/article/yakushi1947/108/8/108_8_716/_pdf",
+        "locator": "p. 717, section 2 opening paragraph and Chart 1",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

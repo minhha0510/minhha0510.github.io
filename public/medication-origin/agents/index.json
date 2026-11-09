@@ -1,0 +1,3827 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-11-09",
+  "coverage": {
+    "medicationGroups": 226,
+    "classHistories": 115
+  },
+  "scope": "Medicine names map to bounded class histories. Multiple lineages and evidence limits remain in each record.",
+  "readingGuideUrl": "https://mh-nguyen.cv/medication-origin/reading-guide.json",
+  "nameDictionaryUrl": "https://mh-nguyen.cv/medication-origin/synonyms.json",
+  "medicines": [
+    {
+      "name": "adalimumab",
+      "components": [
+        "adalimumab"
+      ],
+      "classIds": [
+        "TNF_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/TNF_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "alendronic acid",
+      "components": [
+        "alendronic acid"
+      ],
+      "classIds": [
+        "BISPHOSPHONATES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BISPHOSPHONATES.json"
+      ]
+    },
+    {
+      "name": "allopurinol",
+      "components": [
+        "allopurinol"
+      ],
+      "classIds": [
+        "XANTHINE_OXIDASE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/XANTHINE_OXIDASE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "alprazolam",
+      "components": [
+        "alprazolam"
+      ],
+      "classIds": [
+        "BENZODIAZEPINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BENZODIAZEPINES.json"
+      ]
+    },
+    {
+      "name": "amitriptyline",
+      "components": [
+        "amitriptyline"
+      ],
+      "classIds": [
+        "TRICYCLIC_ANTIDEPRESSANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/TRICYCLIC_ANTIDEPRESSANTS.json"
+      ]
+    },
+    {
+      "name": "amlodipine",
+      "components": [
+        "amlodipine"
+      ],
+      "classIds": [
+        "DIHYDROPYRIDINE_CCB"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DIHYDROPYRIDINE_CCB.json"
+      ]
+    },
+    {
+      "name": "amoxicillin",
+      "components": [
+        "amoxicillin"
+      ],
+      "classIds": [
+        "PENICILLINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PENICILLINS.json"
+      ]
+    },
+    {
+      "name": "amoxicillin + clavulanic acid",
+      "components": [
+        "amoxicillin",
+        "clavulanic acid"
+      ],
+      "classIds": [
+        "PENICILLINS",
+        "BETA_LACTAMASE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PENICILLINS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA_LACTAMASE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "amphetamine + dexamfetamine",
+      "components": [
+        "amphetamine",
+        "dexamfetamine"
+      ],
+      "classIds": [
+        "AMPHETAMINE_STIMULANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/AMPHETAMINE_STIMULANTS.json"
+      ]
+    },
+    {
+      "name": "apixaban",
+      "components": [
+        "apixaban"
+      ],
+      "classIds": [
+        "FACTOR_XA_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FACTOR_XA_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "aripiprazole",
+      "components": [
+        "aripiprazole"
+      ],
+      "classIds": [
+        "ATYPICAL_ANTIPSYCHOTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ATYPICAL_ANTIPSYCHOTICS.json"
+      ]
+    },
+    {
+      "name": "aspirin",
+      "components": [
+        "aspirin"
+      ],
+      "classIds": [
+        "NSAIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NSAIDS.json"
+      ]
+    },
+    {
+      "name": "atenolol",
+      "components": [
+        "atenolol"
+      ],
+      "classIds": [
+        "BETA_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "atomoxetine",
+      "components": [
+        "atomoxetine"
+      ],
+      "classIds": [
+        "NOREPINEPHRINE_REUPTAKE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NOREPINEPHRINE_REUPTAKE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "atorvastatin",
+      "components": [
+        "atorvastatin"
+      ],
+      "classIds": [
+        "STATINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/STATINS.json"
+      ]
+    },
+    {
+      "name": "azelastine",
+      "components": [
+        "azelastine"
+      ],
+      "classIds": [
+        "H1_ANTIHISTAMINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/H1_ANTIHISTAMINES.json"
+      ]
+    },
+    {
+      "name": "azithromycin",
+      "components": [
+        "azithromycin"
+      ],
+      "classIds": [
+        "MACROLIDES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MACROLIDES.json"
+      ]
+    },
+    {
+      "name": "baclofen",
+      "components": [
+        "baclofen"
+      ],
+      "classIds": [
+        "GABA_B_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GABA_B_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "beclometasone",
+      "components": [
+        "beclometasone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "beclometasone + formoterol",
+      "components": [
+        "beclometasone",
+        "formoterol"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS",
+        "BETA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "beclometasone + formoterol + glycopyrronium",
+      "components": [
+        "beclometasone",
+        "formoterol",
+        "glycopyrronium"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS",
+        "BETA2_AGONISTS",
+        "MUSCARINIC_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MUSCARINIC_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "bendroflumethiazide",
+      "components": [
+        "bendroflumethiazide"
+      ],
+      "classIds": [
+        "THIAZIDE_DIURETICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZIDE_DIURETICS.json"
+      ]
+    },
+    {
+      "name": "benzonatate",
+      "components": [
+        "benzonatate"
+      ],
+      "classIds": [
+        "LOCAL_ANESTHETIC_ANTITUSSIVES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/LOCAL_ANESTHETIC_ANTITUSSIVES.json"
+      ]
+    },
+    {
+      "name": "betahistine",
+      "components": [
+        "betahistine"
+      ],
+      "classIds": [
+        "HISTAMINE_ANALOGUES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/HISTAMINE_ANALOGUES.json"
+      ]
+    },
+    {
+      "name": "betamethasone",
+      "components": [
+        "betamethasone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "bisoprolol",
+      "components": [
+        "bisoprolol"
+      ],
+      "classIds": [
+        "BETA_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "budesonide",
+      "components": [
+        "budesonide"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "budesonide + formoterol",
+      "components": [
+        "budesonide",
+        "formoterol"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS",
+        "BETA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "bumetanide",
+      "components": [
+        "bumetanide"
+      ],
+      "classIds": [
+        "LOOP_DIURETICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/LOOP_DIURETICS.json"
+      ]
+    },
+    {
+      "name": "buprenorphine",
+      "components": [
+        "buprenorphine"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "bupropion",
+      "components": [
+        "bupropion"
+      ],
+      "classIds": [
+        "NDRI"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NDRI.json"
+      ]
+    },
+    {
+      "name": "buspirone",
+      "components": [
+        "buspirone"
+      ],
+      "classIds": [
+        "HT1A_ANXIOLYTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/HT1A_ANXIOLYTICS.json"
+      ]
+    },
+    {
+      "name": "candesartan cilexetil",
+      "components": [
+        "candesartan cilexetil"
+      ],
+      "classIds": [
+        "ARBS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ARBS.json"
+      ]
+    },
+    {
+      "name": "carbamazepine",
+      "components": [
+        "carbamazepine"
+      ],
+      "classIds": [
+        "DIBENZAZEPINE_ANTICONVULSANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DIBENZAZEPINE_ANTICONVULSANTS.json"
+      ]
+    },
+    {
+      "name": "carbidopa + levodopa",
+      "components": [
+        "carbidopa",
+        "levodopa"
+      ],
+      "classIds": [
+        "DOPA_DECARBOXYLASE_INHIBITORS",
+        "DOPAMINE_PRECURSORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DOPA_DECARBOXYLASE_INHIBITORS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DOPAMINE_PRECURSORS.json"
+      ]
+    },
+    {
+      "name": "carbocisteine",
+      "components": [
+        "carbocisteine"
+      ],
+      "classIds": [
+        "MUCOLYTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MUCOLYTICS.json"
+      ]
+    },
+    {
+      "name": "carvedilol",
+      "components": [
+        "carvedilol"
+      ],
+      "classIds": [
+        "BETA_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "cefalexin",
+      "components": [
+        "cefalexin"
+      ],
+      "classIds": [
+        "CEPHALOSPORINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/CEPHALOSPORINS.json"
+      ]
+    },
+    {
+      "name": "celecoxib",
+      "components": [
+        "celecoxib"
+      ],
+      "classIds": [
+        "NSAIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NSAIDS.json"
+      ]
+    },
+    {
+      "name": "cetirizine",
+      "components": [
+        "cetirizine"
+      ],
+      "classIds": [
+        "H1_ANTIHISTAMINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/H1_ANTIHISTAMINES.json"
+      ]
+    },
+    {
+      "name": "chlorthalidone",
+      "components": [
+        "chlorthalidone"
+      ],
+      "classIds": [
+        "THIAZIDE_DIURETICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZIDE_DIURETICS.json"
+      ]
+    },
+    {
+      "name": "citalopram",
+      "components": [
+        "citalopram"
+      ],
+      "classIds": [
+        "SSRIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SSRIS.json"
+      ]
+    },
+    {
+      "name": "clarithromycin",
+      "components": [
+        "clarithromycin"
+      ],
+      "classIds": [
+        "MACROLIDES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MACROLIDES.json"
+      ]
+    },
+    {
+      "name": "clindamycin",
+      "components": [
+        "clindamycin"
+      ],
+      "classIds": [
+        "LINCOSAMIDES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/LINCOSAMIDES.json"
+      ]
+    },
+    {
+      "name": "clobetasol",
+      "components": [
+        "clobetasol"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "clobetasone",
+      "components": [
+        "clobetasone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "clonazepam",
+      "components": [
+        "clonazepam"
+      ],
+      "classIds": [
+        "BENZODIAZEPINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BENZODIAZEPINES.json"
+      ]
+    },
+    {
+      "name": "clonidine",
+      "components": [
+        "clonidine"
+      ],
+      "classIds": [
+        "CENTRAL_ALPHA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/CENTRAL_ALPHA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "clopidogrel",
+      "components": [
+        "clopidogrel"
+      ],
+      "classIds": [
+        "P2Y12_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/P2Y12_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "clotrimazole",
+      "components": [
+        "clotrimazole"
+      ],
+      "classIds": [
+        "AZOLE_ANTIFUNGALS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/AZOLE_ANTIFUNGALS.json"
+      ]
+    },
+    {
+      "name": "codeine",
+      "components": [
+        "codeine"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "codeine + paracetamol",
+      "components": [
+        "codeine",
+        "paracetamol"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS",
+        "ANILIDE_ANALGESICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANILIDE_ANALGESICS.json"
+      ]
+    },
+    {
+      "name": "colecalciferol",
+      "components": [
+        "colecalciferol"
+      ],
+      "classIds": [
+        "VITAMIN_D"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_D.json"
+      ]
+    },
+    {
+      "name": "cyanocobalamin",
+      "components": [
+        "cyanocobalamin"
+      ],
+      "classIds": [
+        "VITAMIN_B12"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_B12.json"
+      ]
+    },
+    {
+      "name": "cyclobenzaprine",
+      "components": [
+        "cyclobenzaprine"
+      ],
+      "classIds": [
+        "TRICYCLIC_MUSCLE_RELAXANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/TRICYCLIC_MUSCLE_RELAXANTS.json"
+      ]
+    },
+    {
+      "name": "dapagliflozin",
+      "components": [
+        "dapagliflozin"
+      ],
+      "classIds": [
+        "SGLT2_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SGLT2_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "desogestrel",
+      "components": [
+        "desogestrel"
+      ],
+      "classIds": [
+        "PROGESTOGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PROGESTOGENS.json"
+      ]
+    },
+    {
+      "name": "desvenlafaxine",
+      "components": [
+        "desvenlafaxine"
+      ],
+      "classIds": [
+        "SNRIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SNRIS.json"
+      ]
+    },
+    {
+      "name": "dexamethasone",
+      "components": [
+        "dexamethasone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "dexmethylphenidate",
+      "components": [
+        "dexmethylphenidate"
+      ],
+      "classIds": [
+        "METHYLPHENIDATE_STIMULANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/METHYLPHENIDATE_STIMULANTS.json"
+      ]
+    },
+    {
+      "name": "diazepam",
+      "components": [
+        "diazepam"
+      ],
+      "classIds": [
+        "BENZODIAZEPINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BENZODIAZEPINES.json"
+      ]
+    },
+    {
+      "name": "diclofenac",
+      "components": [
+        "diclofenac"
+      ],
+      "classIds": [
+        "NSAIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NSAIDS.json"
+      ]
+    },
+    {
+      "name": "digoxin",
+      "components": [
+        "digoxin"
+      ],
+      "classIds": [
+        "CARDIAC_GLYCOSIDES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/CARDIAC_GLYCOSIDES.json"
+      ]
+    },
+    {
+      "name": "diltiazem",
+      "components": [
+        "diltiazem"
+      ],
+      "classIds": [
+        "BENZOTHIAZEPINE_CCB"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BENZOTHIAZEPINE_CCB.json"
+      ]
+    },
+    {
+      "name": "donepezil",
+      "components": [
+        "donepezil"
+      ],
+      "classIds": [
+        "CHOLINESTERASE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/CHOLINESTERASE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "doxazosin",
+      "components": [
+        "doxazosin"
+      ],
+      "classIds": [
+        "ALPHA1_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ALPHA1_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "doxycycline",
+      "components": [
+        "doxycycline"
+      ],
+      "classIds": [
+        "TETRACYCLINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/TETRACYCLINES.json"
+      ]
+    },
+    {
+      "name": "dulaglutide",
+      "components": [
+        "dulaglutide"
+      ],
+      "classIds": [
+        "GLP1_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLP1_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "duloxetine",
+      "components": [
+        "duloxetine"
+      ],
+      "classIds": [
+        "SNRIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SNRIS.json"
+      ]
+    },
+    {
+      "name": "edoxaban",
+      "components": [
+        "edoxaban"
+      ],
+      "classIds": [
+        "FACTOR_XA_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FACTOR_XA_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "empagliflozin",
+      "components": [
+        "empagliflozin"
+      ],
+      "classIds": [
+        "SGLT2_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SGLT2_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "eplerenone",
+      "components": [
+        "eplerenone"
+      ],
+      "classIds": [
+        "MINERALOCORTICOID_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MINERALOCORTICOID_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "ergocalciferol",
+      "components": [
+        "ergocalciferol"
+      ],
+      "classIds": [
+        "VITAMIN_D"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_D.json"
+      ]
+    },
+    {
+      "name": "escitalopram",
+      "components": [
+        "escitalopram"
+      ],
+      "classIds": [
+        "SSRIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SSRIS.json"
+      ]
+    },
+    {
+      "name": "esomeprazole",
+      "components": [
+        "esomeprazole"
+      ],
+      "classIds": [
+        "PPIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PPIS.json"
+      ]
+    },
+    {
+      "name": "estradiol",
+      "components": [
+        "estradiol"
+      ],
+      "classIds": [
+        "ESTROGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ESTROGENS.json"
+      ]
+    },
+    {
+      "name": "estradiol + norethisterone",
+      "components": [
+        "estradiol",
+        "norethisterone"
+      ],
+      "classIds": [
+        "ESTROGENS",
+        "PROGESTOGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ESTROGENS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PROGESTOGENS.json"
+      ]
+    },
+    {
+      "name": "estriol",
+      "components": [
+        "estriol"
+      ],
+      "classIds": [
+        "ESTROGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ESTROGENS.json"
+      ]
+    },
+    {
+      "name": "ethinylestradiol + levonorgestrel",
+      "components": [
+        "ethinylestradiol",
+        "levonorgestrel"
+      ],
+      "classIds": [
+        "ESTROGENS",
+        "PROGESTOGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ESTROGENS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PROGESTOGENS.json"
+      ]
+    },
+    {
+      "name": "ethinylestradiol + norethisterone",
+      "components": [
+        "ethinylestradiol",
+        "norethisterone"
+      ],
+      "classIds": [
+        "ESTROGENS",
+        "PROGESTOGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ESTROGENS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PROGESTOGENS.json"
+      ]
+    },
+    {
+      "name": "ethinylestradiol + norgestimate",
+      "components": [
+        "ethinylestradiol",
+        "norgestimate"
+      ],
+      "classIds": [
+        "ESTROGENS",
+        "PROGESTOGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ESTROGENS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PROGESTOGENS.json"
+      ]
+    },
+    {
+      "name": "ezetimibe",
+      "components": [
+        "ezetimibe"
+      ],
+      "classIds": [
+        "CHOLESTEROL_ABSORPTION_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/CHOLESTEROL_ABSORPTION_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "famotidine",
+      "components": [
+        "famotidine"
+      ],
+      "classIds": [
+        "H2_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/H2_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "felodipine",
+      "components": [
+        "felodipine"
+      ],
+      "classIds": [
+        "DIHYDROPYRIDINE_CCB"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DIHYDROPYRIDINE_CCB.json"
+      ]
+    },
+    {
+      "name": "fenofibrate",
+      "components": [
+        "fenofibrate"
+      ],
+      "classIds": [
+        "FIBRATES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FIBRATES.json"
+      ]
+    },
+    {
+      "name": "ferrous fumarate",
+      "components": [
+        "ferrous fumarate"
+      ],
+      "classIds": [
+        "IRON_REPLACEMENT"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/IRON_REPLACEMENT.json"
+      ]
+    },
+    {
+      "name": "ferrous sulfate",
+      "components": [
+        "ferrous sulfate"
+      ],
+      "classIds": [
+        "IRON_REPLACEMENT"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/IRON_REPLACEMENT.json"
+      ]
+    },
+    {
+      "name": "fexofenadine",
+      "components": [
+        "fexofenadine"
+      ],
+      "classIds": [
+        "H1_ANTIHISTAMINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/H1_ANTIHISTAMINES.json"
+      ]
+    },
+    {
+      "name": "finasteride",
+      "components": [
+        "finasteride"
+      ],
+      "classIds": [
+        "FIVE_ALPHA_REDUCTASE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FIVE_ALPHA_REDUCTASE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "flucloxacillin",
+      "components": [
+        "flucloxacillin"
+      ],
+      "classIds": [
+        "PENICILLINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PENICILLINS.json"
+      ]
+    },
+    {
+      "name": "fluoxetine",
+      "components": [
+        "fluoxetine"
+      ],
+      "classIds": [
+        "SSRIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SSRIS.json"
+      ]
+    },
+    {
+      "name": "fluticasone",
+      "components": [
+        "fluticasone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "fluticasone + salmeterol",
+      "components": [
+        "fluticasone",
+        "salmeterol"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS",
+        "BETA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "fluticasone + umeclidinium + vilanterol",
+      "components": [
+        "fluticasone",
+        "umeclidinium",
+        "vilanterol"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS",
+        "MUSCARINIC_ANTAGONISTS",
+        "BETA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MUSCARINIC_ANTAGONISTS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "fluticasone + vilanterol",
+      "components": [
+        "fluticasone",
+        "vilanterol"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS",
+        "BETA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "folic acid",
+      "components": [
+        "folic acid"
+      ],
+      "classIds": [
+        "FOLATE_REPLACEMENT"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FOLATE_REPLACEMENT.json"
+      ]
+    },
+    {
+      "name": "furosemide",
+      "components": [
+        "furosemide"
+      ],
+      "classIds": [
+        "LOOP_DIURETICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/LOOP_DIURETICS.json"
+      ]
+    },
+    {
+      "name": "gabapentin",
+      "components": [
+        "gabapentin"
+      ],
+      "classIds": [
+        "GABAPENTINOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GABAPENTINOIDS.json"
+      ]
+    },
+    {
+      "name": "gliclazide",
+      "components": [
+        "gliclazide"
+      ],
+      "classIds": [
+        "SULFONYLUREAS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SULFONYLUREAS.json"
+      ]
+    },
+    {
+      "name": "glimepiride",
+      "components": [
+        "glimepiride"
+      ],
+      "classIds": [
+        "SULFONYLUREAS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SULFONYLUREAS.json"
+      ]
+    },
+    {
+      "name": "glipizide",
+      "components": [
+        "glipizide"
+      ],
+      "classIds": [
+        "SULFONYLUREAS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SULFONYLUREAS.json"
+      ]
+    },
+    {
+      "name": "glyceryl trinitrate",
+      "components": [
+        "glyceryl trinitrate"
+      ],
+      "classIds": [
+        "ORGANIC_NITRATES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ORGANIC_NITRATES.json"
+      ]
+    },
+    {
+      "name": "hydralazine",
+      "components": [
+        "hydralazine"
+      ],
+      "classIds": [
+        "DIRECT_ARTERIOLAR_VASODILATORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DIRECT_ARTERIOLAR_VASODILATORS.json"
+      ]
+    },
+    {
+      "name": "hydrochlorothiazide",
+      "components": [
+        "hydrochlorothiazide"
+      ],
+      "classIds": [
+        "THIAZIDE_DIURETICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZIDE_DIURETICS.json"
+      ]
+    },
+    {
+      "name": "hydrochlorothiazide + lisinopril",
+      "components": [
+        "hydrochlorothiazide",
+        "lisinopril"
+      ],
+      "classIds": [
+        "THIAZIDE_DIURETICS",
+        "ACE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZIDE_DIURETICS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ACE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "hydrochlorothiazide + losartan",
+      "components": [
+        "hydrochlorothiazide",
+        "losartan"
+      ],
+      "classIds": [
+        "THIAZIDE_DIURETICS",
+        "ARBS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZIDE_DIURETICS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ARBS.json"
+      ]
+    },
+    {
+      "name": "hydrochlorothiazide + triamterene",
+      "components": [
+        "hydrochlorothiazide",
+        "triamterene"
+      ],
+      "classIds": [
+        "THIAZIDE_DIURETICS",
+        "ENAC_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZIDE_DIURETICS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ENAC_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "hydrocodone + paracetamol",
+      "components": [
+        "hydrocodone",
+        "paracetamol"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS",
+        "ANILIDE_ANALGESICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANILIDE_ANALGESICS.json"
+      ]
+    },
+    {
+      "name": "hydrocortisone",
+      "components": [
+        "hydrocortisone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "hydroxocobalamin",
+      "components": [
+        "hydroxocobalamin"
+      ],
+      "classIds": [
+        "VITAMIN_B12"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_B12.json"
+      ]
+    },
+    {
+      "name": "hydroxychloroquine",
+      "components": [
+        "hydroxychloroquine"
+      ],
+      "classIds": [
+        "FOUR_AMINOQUINOLINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FOUR_AMINOQUINOLINES.json"
+      ]
+    },
+    {
+      "name": "hydroxyzine",
+      "components": [
+        "hydroxyzine"
+      ],
+      "classIds": [
+        "H1_ANTIHISTAMINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/H1_ANTIHISTAMINES.json"
+      ]
+    },
+    {
+      "name": "hyoscine butylbromide",
+      "components": [
+        "hyoscine butylbromide"
+      ],
+      "classIds": [
+        "MUSCARINIC_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MUSCARINIC_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "ibuprofen",
+      "components": [
+        "ibuprofen"
+      ],
+      "classIds": [
+        "NSAIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NSAIDS.json"
+      ]
+    },
+    {
+      "name": "indapamide",
+      "components": [
+        "indapamide"
+      ],
+      "classIds": [
+        "THIAZIDE_DIURETICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZIDE_DIURETICS.json"
+      ]
+    },
+    {
+      "name": "influenza vaccine (adjuvanted, inactivated, trivalent)",
+      "components": [
+        "influenza vaccine (adjuvanted, inactivated, trivalent)"
+      ],
+      "classIds": [
+        "INFLUENZA_VACCINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/INFLUENZA_VACCINES.json"
+      ]
+    },
+    {
+      "name": "influenza vaccine (surface antigen, inactivated, trivalent)",
+      "components": [
+        "influenza vaccine (surface antigen, inactivated, trivalent)"
+      ],
+      "classIds": [
+        "INFLUENZA_VACCINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/INFLUENZA_VACCINES.json"
+      ]
+    },
+    {
+      "name": "insulin aspart",
+      "components": [
+        "insulin aspart"
+      ],
+      "classIds": [
+        "INSULINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/INSULINS.json"
+      ]
+    },
+    {
+      "name": "insulin degludec",
+      "components": [
+        "insulin degludec"
+      ],
+      "classIds": [
+        "INSULINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/INSULINS.json"
+      ]
+    },
+    {
+      "name": "insulin glargine",
+      "components": [
+        "insulin glargine"
+      ],
+      "classIds": [
+        "INSULINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/INSULINS.json"
+      ]
+    },
+    {
+      "name": "insulin lispro",
+      "components": [
+        "insulin lispro"
+      ],
+      "classIds": [
+        "INSULINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/INSULINS.json"
+      ]
+    },
+    {
+      "name": "ipratropium + salbutamol",
+      "components": [
+        "ipratropium",
+        "salbutamol"
+      ],
+      "classIds": [
+        "MUSCARINIC_ANTAGONISTS",
+        "BETA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MUSCARINIC_ANTAGONISTS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "irbesartan",
+      "components": [
+        "irbesartan"
+      ],
+      "classIds": [
+        "ARBS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ARBS.json"
+      ]
+    },
+    {
+      "name": "isosorbide mononitrate",
+      "components": [
+        "isosorbide mononitrate"
+      ],
+      "classIds": [
+        "ORGANIC_NITRATES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ORGANIC_NITRATES.json"
+      ]
+    },
+    {
+      "name": "ketoconazole",
+      "components": [
+        "ketoconazole"
+      ],
+      "classIds": [
+        "AZOLE_ANTIFUNGALS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/AZOLE_ANTIFUNGALS.json"
+      ]
+    },
+    {
+      "name": "lamotrigine",
+      "components": [
+        "lamotrigine"
+      ],
+      "classIds": [
+        "TRIAZINE_ANTICONVULSANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/TRIAZINE_ANTICONVULSANTS.json"
+      ]
+    },
+    {
+      "name": "lansoprazole",
+      "components": [
+        "lansoprazole"
+      ],
+      "classIds": [
+        "PPIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PPIS.json"
+      ]
+    },
+    {
+      "name": "latanoprost",
+      "components": [
+        "latanoprost"
+      ],
+      "classIds": [
+        "PROSTAGLANDIN_ANALOGUES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PROSTAGLANDIN_ANALOGUES.json"
+      ]
+    },
+    {
+      "name": "lercanidipine",
+      "components": [
+        "lercanidipine"
+      ],
+      "classIds": [
+        "DIHYDROPYRIDINE_CCB"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DIHYDROPYRIDINE_CCB.json"
+      ]
+    },
+    {
+      "name": "levetiracetam",
+      "components": [
+        "levetiracetam"
+      ],
+      "classIds": [
+        "SV2A_LIGANDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SV2A_LIGANDS.json"
+      ]
+    },
+    {
+      "name": "levocetirizine",
+      "components": [
+        "levocetirizine"
+      ],
+      "classIds": [
+        "H1_ANTIHISTAMINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/H1_ANTIHISTAMINES.json"
+      ]
+    },
+    {
+      "name": "levothyroxine",
+      "components": [
+        "levothyroxine"
+      ],
+      "classIds": [
+        "THYROID_HORMONES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THYROID_HORMONES.json"
+      ]
+    },
+    {
+      "name": "linagliptin",
+      "components": [
+        "linagliptin"
+      ],
+      "classIds": [
+        "DPP4_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DPP4_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "lisdexamfetamine",
+      "components": [
+        "lisdexamfetamine"
+      ],
+      "classIds": [
+        "AMPHETAMINE_STIMULANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/AMPHETAMINE_STIMULANTS.json"
+      ]
+    },
+    {
+      "name": "lisinopril",
+      "components": [
+        "lisinopril"
+      ],
+      "classIds": [
+        "ACE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ACE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "loperamide",
+      "components": [
+        "loperamide"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "lorazepam",
+      "components": [
+        "lorazepam"
+      ],
+      "classIds": [
+        "BENZODIAZEPINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BENZODIAZEPINES.json"
+      ]
+    },
+    {
+      "name": "losartan",
+      "components": [
+        "losartan"
+      ],
+      "classIds": [
+        "ARBS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ARBS.json"
+      ]
+    },
+    {
+      "name": "macrogol 3350 + potassium chloride + sodium bicarbonate + sodium chloride",
+      "components": [
+        "macrogol 3350",
+        "potassium chloride",
+        "sodium bicarbonate",
+        "sodium chloride"
+      ],
+      "classIds": [
+        "PEG_LAXATIVES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PEG_LAXATIVES.json"
+      ]
+    },
+    {
+      "name": "mebeverine",
+      "components": [
+        "mebeverine"
+      ],
+      "classIds": [
+        "DIRECT_INTESTINAL_ANTISPASMODICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DIRECT_INTESTINAL_ANTISPASMODICS.json"
+      ]
+    },
+    {
+      "name": "melatonin",
+      "components": [
+        "melatonin"
+      ],
+      "classIds": [
+        "MELATONIN_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MELATONIN_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "meloxicam",
+      "components": [
+        "meloxicam"
+      ],
+      "classIds": [
+        "NSAIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NSAIDS.json"
+      ]
+    },
+    {
+      "name": "memantine",
+      "components": [
+        "memantine"
+      ],
+      "classIds": [
+        "NMDA_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NMDA_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "mesalazine",
+      "components": [
+        "mesalazine"
+      ],
+      "classIds": [
+        "AMINOSALICYLATES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/AMINOSALICYLATES.json"
+      ]
+    },
+    {
+      "name": "metformin",
+      "components": [
+        "metformin"
+      ],
+      "classIds": [
+        "BIGUANIDES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BIGUANIDES.json"
+      ]
+    },
+    {
+      "name": "methadone",
+      "components": [
+        "methadone"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "methocarbamol",
+      "components": [
+        "methocarbamol"
+      ],
+      "classIds": [
+        "CARBAMATE_MUSCLE_RELAXANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/CARBAMATE_MUSCLE_RELAXANTS.json"
+      ]
+    },
+    {
+      "name": "methotrexate",
+      "components": [
+        "methotrexate"
+      ],
+      "classIds": [
+        "ANTIFOLATE_ANTIMETABOLITES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANTIFOLATE_ANTIMETABOLITES.json"
+      ]
+    },
+    {
+      "name": "methylphenidate",
+      "components": [
+        "methylphenidate"
+      ],
+      "classIds": [
+        "METHYLPHENIDATE_STIMULANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/METHYLPHENIDATE_STIMULANTS.json"
+      ]
+    },
+    {
+      "name": "methylprednisolone",
+      "components": [
+        "methylprednisolone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "metoprolol",
+      "components": [
+        "metoprolol"
+      ],
+      "classIds": [
+        "BETA_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "metronidazole",
+      "components": [
+        "metronidazole"
+      ],
+      "classIds": [
+        "NITROIMIDAZOLES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NITROIMIDAZOLES.json"
+      ]
+    },
+    {
+      "name": "mirabegron",
+      "components": [
+        "mirabegron"
+      ],
+      "classIds": [
+        "BETA3_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA3_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "mirtazapine",
+      "components": [
+        "mirtazapine"
+      ],
+      "classIds": [
+        "NASSA_ANTIDEPRESSANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NASSA_ANTIDEPRESSANTS.json"
+      ]
+    },
+    {
+      "name": "mometasone",
+      "components": [
+        "mometasone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "montelukast",
+      "components": [
+        "montelukast"
+      ],
+      "classIds": [
+        "LEUKOTRIENE_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/LEUKOTRIENE_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "morphine",
+      "components": [
+        "morphine"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "mupirocin",
+      "components": [
+        "mupirocin"
+      ],
+      "classIds": [
+        "PSEUDOMONIC_ANTIBIOTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PSEUDOMONIC_ANTIBIOTICS.json"
+      ]
+    },
+    {
+      "name": "naproxen",
+      "components": [
+        "naproxen"
+      ],
+      "classIds": [
+        "NSAIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NSAIDS.json"
+      ]
+    },
+    {
+      "name": "nifedipine",
+      "components": [
+        "nifedipine"
+      ],
+      "classIds": [
+        "DIHYDROPYRIDINE_CCB"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DIHYDROPYRIDINE_CCB.json"
+      ]
+    },
+    {
+      "name": "nitrofurantoin",
+      "components": [
+        "nitrofurantoin"
+      ],
+      "classIds": [
+        "NITROFURANS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NITROFURANS.json"
+      ]
+    },
+    {
+      "name": "norethisterone",
+      "components": [
+        "norethisterone"
+      ],
+      "classIds": [
+        "PROGESTOGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PROGESTOGENS.json"
+      ]
+    },
+    {
+      "name": "ofloxacin",
+      "components": [
+        "ofloxacin"
+      ],
+      "classIds": [
+        "FLUOROQUINOLONES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FLUOROQUINOLONES.json"
+      ]
+    },
+    {
+      "name": "olanzapine",
+      "components": [
+        "olanzapine"
+      ],
+      "classIds": [
+        "ATYPICAL_ANTIPSYCHOTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ATYPICAL_ANTIPSYCHOTICS.json"
+      ]
+    },
+    {
+      "name": "olmesartan medoxomil",
+      "components": [
+        "olmesartan medoxomil"
+      ],
+      "classIds": [
+        "ARBS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ARBS.json"
+      ]
+    },
+    {
+      "name": "omeprazole",
+      "components": [
+        "omeprazole"
+      ],
+      "classIds": [
+        "PPIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PPIS.json"
+      ]
+    },
+    {
+      "name": "ondansetron",
+      "components": [
+        "ondansetron"
+      ],
+      "classIds": [
+        "HT3_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/HT3_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "oxybutynin",
+      "components": [
+        "oxybutynin"
+      ],
+      "classIds": [
+        "MUSCARINIC_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MUSCARINIC_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "oxycodone",
+      "components": [
+        "oxycodone"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "oxycodone + paracetamol",
+      "components": [
+        "oxycodone",
+        "paracetamol"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS",
+        "ANILIDE_ANALGESICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANILIDE_ANALGESICS.json"
+      ]
+    },
+    {
+      "name": "pantoprazole",
+      "components": [
+        "pantoprazole"
+      ],
+      "classIds": [
+        "PPIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PPIS.json"
+      ]
+    },
+    {
+      "name": "paracetamol",
+      "components": [
+        "paracetamol"
+      ],
+      "classIds": [
+        "ANILIDE_ANALGESICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANILIDE_ANALGESICS.json"
+      ]
+    },
+    {
+      "name": "paroxetine",
+      "components": [
+        "paroxetine"
+      ],
+      "classIds": [
+        "SSRIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SSRIS.json"
+      ]
+    },
+    {
+      "name": "perindopril",
+      "components": [
+        "perindopril"
+      ],
+      "classIds": [
+        "ACE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ACE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "phenoxymethylpenicillin",
+      "components": [
+        "phenoxymethylpenicillin"
+      ],
+      "classIds": [
+        "PENICILLINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PENICILLINS.json"
+      ]
+    },
+    {
+      "name": "phentermine",
+      "components": [
+        "phentermine"
+      ],
+      "classIds": [
+        "SYMPATHOMIMETIC_ANORECTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SYMPATHOMIMETIC_ANORECTICS.json"
+      ]
+    },
+    {
+      "name": "pioglitazone",
+      "components": [
+        "pioglitazone"
+      ],
+      "classIds": [
+        "THIAZOLIDINEDIONES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZOLIDINEDIONES.json"
+      ]
+    },
+    {
+      "name": "potassium chloride",
+      "components": [
+        "potassium chloride"
+      ],
+      "classIds": [
+        "POTASSIUM_REPLACEMENT"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/POTASSIUM_REPLACEMENT.json"
+      ]
+    },
+    {
+      "name": "pravastatin",
+      "components": [
+        "pravastatin"
+      ],
+      "classIds": [
+        "STATINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/STATINS.json"
+      ]
+    },
+    {
+      "name": "prednisolone",
+      "components": [
+        "prednisolone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "prednisone",
+      "components": [
+        "prednisone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "pregabalin",
+      "components": [
+        "pregabalin"
+      ],
+      "classIds": [
+        "GABAPENTINOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GABAPENTINOIDS.json"
+      ]
+    },
+    {
+      "name": "prochlorperazine",
+      "components": [
+        "prochlorperazine"
+      ],
+      "classIds": [
+        "PHENOTHIAZINE_ANTIPSYCHOTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PHENOTHIAZINE_ANTIPSYCHOTICS.json"
+      ]
+    },
+    {
+      "name": "progesterone",
+      "components": [
+        "progesterone"
+      ],
+      "classIds": [
+        "PROGESTOGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PROGESTOGENS.json"
+      ]
+    },
+    {
+      "name": "promethazine",
+      "components": [
+        "promethazine"
+      ],
+      "classIds": [
+        "H1_ANTIHISTAMINES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/H1_ANTIHISTAMINES.json"
+      ]
+    },
+    {
+      "name": "propranolol",
+      "components": [
+        "propranolol"
+      ],
+      "classIds": [
+        "BETA_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "quetiapine",
+      "components": [
+        "quetiapine"
+      ],
+      "classIds": [
+        "ATYPICAL_ANTIPSYCHOTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ATYPICAL_ANTIPSYCHOTICS.json"
+      ]
+    },
+    {
+      "name": "quinine",
+      "components": [
+        "quinine"
+      ],
+      "classIds": [
+        "QUINOLINE_ALKALOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/QUINOLINE_ALKALOIDS.json"
+      ]
+    },
+    {
+      "name": "ramipril",
+      "components": [
+        "ramipril"
+      ],
+      "classIds": [
+        "ACE_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ACE_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "risperidone",
+      "components": [
+        "risperidone"
+      ],
+      "classIds": [
+        "ATYPICAL_ANTIPSYCHOTICS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ATYPICAL_ANTIPSYCHOTICS.json"
+      ]
+    },
+    {
+      "name": "rivaroxaban",
+      "components": [
+        "rivaroxaban"
+      ],
+      "classIds": [
+        "FACTOR_XA_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FACTOR_XA_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "ropinirole",
+      "components": [
+        "ropinirole"
+      ],
+      "classIds": [
+        "NONERGOT_DOPAMINE_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NONERGOT_DOPAMINE_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "rosuvastatin",
+      "components": [
+        "rosuvastatin"
+      ],
+      "classIds": [
+        "STATINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/STATINS.json"
+      ]
+    },
+    {
+      "name": "sacubitril + valsartan",
+      "components": [
+        "sacubitril",
+        "valsartan"
+      ],
+      "classIds": [
+        "NEPRILYSIN_INHIBITORS",
+        "ARBS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/NEPRILYSIN_INHIBITORS.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ARBS.json"
+      ]
+    },
+    {
+      "name": "salbutamol",
+      "components": [
+        "salbutamol"
+      ],
+      "classIds": [
+        "BETA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "semaglutide",
+      "components": [
+        "semaglutide"
+      ],
+      "classIds": [
+        "GLP1_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLP1_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "senna",
+      "components": [
+        "senna"
+      ],
+      "classIds": [
+        "ANTHRAQUINONE_LAXATIVES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANTHRAQUINONE_LAXATIVES.json"
+      ]
+    },
+    {
+      "name": "sertraline",
+      "components": [
+        "sertraline"
+      ],
+      "classIds": [
+        "SSRIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SSRIS.json"
+      ]
+    },
+    {
+      "name": "sildenafil",
+      "components": [
+        "sildenafil"
+      ],
+      "classIds": [
+        "PDE5_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PDE5_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "simvastatin",
+      "components": [
+        "simvastatin"
+      ],
+      "classIds": [
+        "STATINS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/STATINS.json"
+      ]
+    },
+    {
+      "name": "sitagliptin",
+      "components": [
+        "sitagliptin"
+      ],
+      "classIds": [
+        "DPP4_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DPP4_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "sodium fluoride",
+      "components": [
+        "sodium fluoride"
+      ],
+      "classIds": [
+        "FLUORIDE_ANTICARIES"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/FLUORIDE_ANTICARIES.json"
+      ]
+    },
+    {
+      "name": "solifenacin",
+      "components": [
+        "solifenacin"
+      ],
+      "classIds": [
+        "MUSCARINIC_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MUSCARINIC_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "spironolactone",
+      "components": [
+        "spironolactone"
+      ],
+      "classIds": [
+        "MINERALOCORTICOID_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MINERALOCORTICOID_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "sulfamethoxazole + trimethoprim",
+      "components": [
+        "sulfamethoxazole",
+        "trimethoprim"
+      ],
+      "classIds": [
+        "ANTIBACTERIAL_SULFONAMIDES",
+        "ANTIBACTERIAL_DHFR_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANTIBACTERIAL_SULFONAMIDES.json",
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANTIBACTERIAL_DHFR_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "sumatriptan",
+      "components": [
+        "sumatriptan"
+      ],
+      "classIds": [
+        "TRIPTANS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/TRIPTANS.json"
+      ]
+    },
+    {
+      "name": "tadalafil",
+      "components": [
+        "tadalafil"
+      ],
+      "classIds": [
+        "PDE5_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PDE5_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "tamsulosin",
+      "components": [
+        "tamsulosin"
+      ],
+      "classIds": [
+        "ALPHA1_BLOCKERS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ALPHA1_BLOCKERS.json"
+      ]
+    },
+    {
+      "name": "testosterone",
+      "components": [
+        "testosterone"
+      ],
+      "classIds": [
+        "ANDROGENS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANDROGENS.json"
+      ]
+    },
+    {
+      "name": "thiamine",
+      "components": [
+        "thiamine"
+      ],
+      "classIds": [
+        "VITAMIN_B1"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_B1.json"
+      ]
+    },
+    {
+      "name": "tiotropium",
+      "components": [
+        "tiotropium"
+      ],
+      "classIds": [
+        "MUSCARINIC_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/MUSCARINIC_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "tirzepatide",
+      "components": [
+        "tirzepatide"
+      ],
+      "classIds": [
+        "DUAL_GIP_GLP1_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/DUAL_GIP_GLP1_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "tizanidine",
+      "components": [
+        "tizanidine"
+      ],
+      "classIds": [
+        "CENTRAL_ALPHA2_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/CENTRAL_ALPHA2_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "topiramate",
+      "components": [
+        "topiramate"
+      ],
+      "classIds": [
+        "SULFAMATE_MONOSACCHARIDE_ANTICONVULSANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SULFAMATE_MONOSACCHARIDE_ANTICONVULSANTS.json"
+      ]
+    },
+    {
+      "name": "tramadol",
+      "components": [
+        "tramadol"
+      ],
+      "classIds": [
+        "OPIOID_AGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json"
+      ]
+    },
+    {
+      "name": "trazodone",
+      "components": [
+        "trazodone"
+      ],
+      "classIds": [
+        "SARI_ANTIDEPRESSANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SARI_ANTIDEPRESSANTS.json"
+      ]
+    },
+    {
+      "name": "triamcinolone",
+      "components": [
+        "triamcinolone"
+      ],
+      "classIds": [
+        "GLUCOCORTICOIDS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+      ]
+    },
+    {
+      "name": "trimethoprim",
+      "components": [
+        "trimethoprim"
+      ],
+      "classIds": [
+        "ANTIBACTERIAL_DHFR_INHIBITORS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ANTIBACTERIAL_DHFR_INHIBITORS.json"
+      ]
+    },
+    {
+      "name": "valaciclovir",
+      "components": [
+        "valaciclovir"
+      ],
+      "classIds": [
+        "ACYCLIC_GUANOSINE_ANTIVIRALS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ACYCLIC_GUANOSINE_ANTIVIRALS.json"
+      ]
+    },
+    {
+      "name": "valproic acid",
+      "components": [
+        "valproic acid"
+      ],
+      "classIds": [
+        "VALPROATE_ANTICONVULSANTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/VALPROATE_ANTICONVULSANTS.json"
+      ]
+    },
+    {
+      "name": "valsartan",
+      "components": [
+        "valsartan"
+      ],
+      "classIds": [
+        "ARBS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/ARBS.json"
+      ]
+    },
+    {
+      "name": "venlafaxine",
+      "components": [
+        "venlafaxine"
+      ],
+      "classIds": [
+        "SNRIS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/SNRIS.json"
+      ]
+    },
+    {
+      "name": "verapamil",
+      "components": [
+        "verapamil"
+      ],
+      "classIds": [
+        "PHENYLALKYLAMINE_CCB"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/PHENYLALKYLAMINE_CCB.json"
+      ]
+    },
+    {
+      "name": "warfarin",
+      "components": [
+        "warfarin"
+      ],
+      "classIds": [
+        "VITAMIN_K_ANTAGONISTS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_K_ANTAGONISTS.json"
+      ]
+    },
+    {
+      "name": "zolpidem",
+      "components": [
+        "zolpidem"
+      ],
+      "classIds": [
+        "Z_DRUGS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/Z_DRUGS.json"
+      ]
+    },
+    {
+      "name": "zopiclone",
+      "components": [
+        "zopiclone"
+      ],
+      "classIds": [
+        "Z_DRUGS"
+      ],
+      "recordUrls": [
+        "https://mh-nguyen.cv/medication-origin/agents/classes/Z_DRUGS.json"
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "FOUR_AMINOQUINOLINES",
+      "name": "4-aminoquinoline antimalarials",
+      "medicines": [
+        "hydroxychloroquine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/FOUR_AMINOQUINOLINES.json"
+    },
+    {
+      "id": "HT1A_ANXIOLYTICS",
+      "name": "5-HT1A partial-agonist anxiolytics",
+      "medicines": [
+        "buspirone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/HT1A_ANXIOLYTICS.json"
+    },
+    {
+      "id": "HT3_ANTAGONISTS",
+      "name": "5-HT3 receptor antagonists",
+      "medicines": [
+        "ondansetron"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/HT3_ANTAGONISTS.json"
+    },
+    {
+      "id": "FIVE_ALPHA_REDUCTASE_INHIBITORS",
+      "name": "5-alpha-reductase inhibitors",
+      "medicines": [
+        "finasteride"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/FIVE_ALPHA_REDUCTASE_INHIBITORS.json"
+    },
+    {
+      "id": "ACE_INHIBITORS",
+      "name": "ACE inhibitors",
+      "medicines": [
+        "lisinopril",
+        "perindopril",
+        "ramipril"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ACE_INHIBITORS.json"
+    },
+    {
+      "id": "ACYCLIC_GUANOSINE_ANTIVIRALS",
+      "name": "Acyclic guanosine-analogue antivirals",
+      "medicines": [
+        "valaciclovir"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ACYCLIC_GUANOSINE_ANTIVIRALS.json"
+    },
+    {
+      "id": "ALPHA1_BLOCKERS",
+      "name": "Alpha1-adrenoceptor blockers",
+      "medicines": [
+        "doxazosin",
+        "tamsulosin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ALPHA1_BLOCKERS.json"
+    },
+    {
+      "id": "AMINOSALICYLATES",
+      "name": "Aminosalicylates",
+      "medicines": [
+        "mesalazine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/AMINOSALICYLATES.json"
+    },
+    {
+      "id": "AMPHETAMINE_STIMULANTS",
+      "name": "Amphetamine-type CNS stimulants",
+      "medicines": [
+        "amphetamine",
+        "dexamfetamine",
+        "lisdexamfetamine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/AMPHETAMINE_STIMULANTS.json"
+    },
+    {
+      "id": "ANDROGENS",
+      "name": "Androgens",
+      "medicines": [
+        "testosterone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ANDROGENS.json"
+    },
+    {
+      "id": "ARBS",
+      "name": "Angiotensin II receptor blockers",
+      "medicines": [
+        "candesartan cilexetil",
+        "irbesartan",
+        "losartan",
+        "olmesartan medoxomil",
+        "valsartan"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ARBS.json"
+    },
+    {
+      "id": "ANILIDE_ANALGESICS",
+      "name": "Anilide non-opioid analgesics",
+      "medicines": [
+        "paracetamol"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ANILIDE_ANALGESICS.json"
+    },
+    {
+      "id": "ANTHRAQUINONE_LAXATIVES",
+      "name": "Anthraquinone stimulant laxatives",
+      "medicines": [
+        "senna"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ANTHRAQUINONE_LAXATIVES.json"
+    },
+    {
+      "id": "ANTIBACTERIAL_DHFR_INHIBITORS",
+      "name": "Antibacterial dihydrofolate-reductase inhibitors",
+      "medicines": [
+        "trimethoprim"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ANTIBACTERIAL_DHFR_INHIBITORS.json"
+    },
+    {
+      "id": "ANTIBACTERIAL_SULFONAMIDES",
+      "name": "Antibacterial sulfonamides",
+      "medicines": [
+        "sulfamethoxazole"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ANTIBACTERIAL_SULFONAMIDES.json"
+    },
+    {
+      "id": "ANTIFOLATE_ANTIMETABOLITES",
+      "name": "Antifolate antimetabolites",
+      "medicines": [
+        "methotrexate"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ANTIFOLATE_ANTIMETABOLITES.json"
+    },
+    {
+      "id": "AZOLE_ANTIFUNGALS",
+      "name": "Azole antifungals",
+      "medicines": [
+        "clotrimazole",
+        "ketoconazole"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/AZOLE_ANTIFUNGALS.json"
+    },
+    {
+      "id": "BENZODIAZEPINES",
+      "name": "Benzodiazepines",
+      "medicines": [
+        "alprazolam",
+        "clonazepam",
+        "diazepam",
+        "lorazepam"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/BENZODIAZEPINES.json"
+    },
+    {
+      "id": "BENZOTHIAZEPINE_CCB",
+      "name": "Benzothiazepine calcium-channel blockers",
+      "medicines": [
+        "diltiazem"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/BENZOTHIAZEPINE_CCB.json"
+    },
+    {
+      "id": "BETA_BLOCKERS",
+      "name": "Beta-adrenoceptor blockers",
+      "medicines": [
+        "atenolol",
+        "bisoprolol",
+        "carvedilol",
+        "metoprolol",
+        "propranolol"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/BETA_BLOCKERS.json"
+    },
+    {
+      "id": "BETA_LACTAMASE_INHIBITORS",
+      "name": "Beta-lactamase inhibitors",
+      "medicines": [
+        "clavulanic acid"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/BETA_LACTAMASE_INHIBITORS.json"
+    },
+    {
+      "id": "BETA2_AGONISTS",
+      "name": "Beta2-adrenoceptor agonists",
+      "medicines": [
+        "formoterol",
+        "salbutamol",
+        "salmeterol",
+        "vilanterol"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/BETA2_AGONISTS.json"
+    },
+    {
+      "id": "BETA3_AGONISTS",
+      "name": "Beta3-adrenoceptor agonists",
+      "medicines": [
+        "mirabegron"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/BETA3_AGONISTS.json"
+    },
+    {
+      "id": "BIGUANIDES",
+      "name": "Biguanide glucose-lowering agents",
+      "medicines": [
+        "metformin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/BIGUANIDES.json"
+    },
+    {
+      "id": "BISPHOSPHONATES",
+      "name": "Bisphosphonates",
+      "medicines": [
+        "alendronic acid"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/BISPHOSPHONATES.json"
+    },
+    {
+      "id": "CARBAMATE_MUSCLE_RELAXANTS",
+      "name": "Carbamate skeletal muscle relaxants",
+      "medicines": [
+        "methocarbamol"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/CARBAMATE_MUSCLE_RELAXANTS.json"
+    },
+    {
+      "id": "CARDIAC_GLYCOSIDES",
+      "name": "Cardiac glycosides",
+      "medicines": [
+        "digoxin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/CARDIAC_GLYCOSIDES.json"
+    },
+    {
+      "id": "CENTRAL_ALPHA2_AGONISTS",
+      "name": "Central alpha2-adrenoceptor agonists",
+      "medicines": [
+        "clonidine",
+        "tizanidine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/CENTRAL_ALPHA2_AGONISTS.json"
+    },
+    {
+      "id": "CEPHALOSPORINS",
+      "name": "Cephalosporins",
+      "medicines": [
+        "cefalexin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/CEPHALOSPORINS.json"
+    },
+    {
+      "id": "CHOLESTEROL_ABSORPTION_INHIBITORS",
+      "name": "Cholesterol absorption inhibitors",
+      "medicines": [
+        "ezetimibe"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/CHOLESTEROL_ABSORPTION_INHIBITORS.json"
+    },
+    {
+      "id": "CHOLINESTERASE_INHIBITORS",
+      "name": "Cholinesterase inhibitors",
+      "medicines": [
+        "donepezil"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/CHOLINESTERASE_INHIBITORS.json"
+    },
+    {
+      "id": "DPP4_INHIBITORS",
+      "name": "DPP-4 inhibitors",
+      "medicines": [
+        "linagliptin",
+        "sitagliptin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/DPP4_INHIBITORS.json"
+    },
+    {
+      "id": "DIBENZAZEPINE_ANTICONVULSANTS",
+      "name": "Dibenzazepine anticonvulsants",
+      "medicines": [
+        "carbamazepine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/DIBENZAZEPINE_ANTICONVULSANTS.json"
+    },
+    {
+      "id": "DIHYDROPYRIDINE_CCB",
+      "name": "Dihydropyridine calcium-channel blockers",
+      "medicines": [
+        "amlodipine",
+        "felodipine",
+        "lercanidipine",
+        "nifedipine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/DIHYDROPYRIDINE_CCB.json"
+    },
+    {
+      "id": "FACTOR_XA_INHIBITORS",
+      "name": "Direct factor Xa inhibitors",
+      "medicines": [
+        "apixaban",
+        "edoxaban",
+        "rivaroxaban"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/FACTOR_XA_INHIBITORS.json"
+    },
+    {
+      "id": "DIRECT_INTESTINAL_ANTISPASMODICS",
+      "name": "Direct intestinal antispasmodics",
+      "medicines": [
+        "mebeverine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/DIRECT_INTESTINAL_ANTISPASMODICS.json"
+    },
+    {
+      "id": "DOPAMINE_PRECURSORS",
+      "name": "Dopamine precursors",
+      "medicines": [
+        "levodopa"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/DOPAMINE_PRECURSORS.json"
+    },
+    {
+      "id": "DUAL_GIP_GLP1_AGONISTS",
+      "name": "Dual GIP/GLP-1 receptor agonists",
+      "medicines": [
+        "tirzepatide"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/DUAL_GIP_GLP1_AGONISTS.json"
+    },
+    {
+      "id": "ENAC_BLOCKERS",
+      "name": "ENaC-blocking potassium-sparing diuretics",
+      "medicines": [
+        "triamterene"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ENAC_BLOCKERS.json"
+    },
+    {
+      "id": "ESTROGENS",
+      "name": "Estrogens",
+      "medicines": [
+        "estradiol",
+        "estriol",
+        "ethinylestradiol"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ESTROGENS.json"
+    },
+    {
+      "id": "VALPROATE_ANTICONVULSANTS",
+      "name": "Fatty-acid / valproate anticonvulsants",
+      "medicines": [
+        "valproic acid"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/VALPROATE_ANTICONVULSANTS.json"
+    },
+    {
+      "id": "FIBRATES",
+      "name": "Fibrates",
+      "medicines": [
+        "fenofibrate"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/FIBRATES.json"
+    },
+    {
+      "id": "FLUORIDE_ANTICARIES",
+      "name": "Fluoride anticaries preparations",
+      "medicines": [
+        "sodium fluoride"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/FLUORIDE_ANTICARIES.json"
+    },
+    {
+      "id": "FLUOROQUINOLONES",
+      "name": "Fluoroquinolone antibacterials",
+      "medicines": [
+        "ofloxacin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/FLUOROQUINOLONES.json"
+    },
+    {
+      "id": "FOLATE_REPLACEMENT",
+      "name": "Folate replacement preparations",
+      "medicines": [
+        "folic acid"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/FOLATE_REPLACEMENT.json"
+    },
+    {
+      "id": "GABA_B_AGONISTS",
+      "name": "GABA-B receptor agonists",
+      "medicines": [
+        "baclofen"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/GABA_B_AGONISTS.json"
+    },
+    {
+      "id": "GLP1_AGONISTS",
+      "name": "GLP-1 receptor agonists",
+      "medicines": [
+        "dulaglutide",
+        "semaglutide"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/GLP1_AGONISTS.json"
+    },
+    {
+      "id": "GABAPENTINOIDS",
+      "name": "Gabapentinoids",
+      "medicines": [
+        "gabapentin",
+        "pregabalin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/GABAPENTINOIDS.json"
+    },
+    {
+      "id": "GLUCOCORTICOIDS",
+      "name": "Glucocorticoids",
+      "medicines": [
+        "beclometasone",
+        "betamethasone",
+        "budesonide",
+        "clobetasol",
+        "clobetasone",
+        "dexamethasone",
+        "fluticasone",
+        "hydrocortisone",
+        "methylprednisolone",
+        "mometasone",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/GLUCOCORTICOIDS.json"
+    },
+    {
+      "id": "H1_ANTIHISTAMINES",
+      "name": "H1 antihistamines",
+      "medicines": [
+        "azelastine",
+        "cetirizine",
+        "fexofenadine",
+        "hydroxyzine",
+        "levocetirizine",
+        "promethazine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/H1_ANTIHISTAMINES.json"
+    },
+    {
+      "id": "H2_BLOCKERS",
+      "name": "Histamine H2-receptor antagonists",
+      "medicines": [
+        "famotidine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/H2_BLOCKERS.json"
+    },
+    {
+      "id": "HISTAMINE_ANALOGUES",
+      "name": "Histamine analogues for vertigo",
+      "medicines": [
+        "betahistine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/HISTAMINE_ANALOGUES.json"
+    },
+    {
+      "id": "DIRECT_ARTERIOLAR_VASODILATORS",
+      "name": "Hydrazinophthalazine direct arteriolar vasodilators",
+      "medicines": [
+        "hydralazine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/DIRECT_ARTERIOLAR_VASODILATORS.json"
+    },
+    {
+      "id": "INFLUENZA_VACCINES",
+      "name": "Inactivated influenza vaccines",
+      "medicines": [
+        "influenza vaccine (adjuvanted, inactivated, trivalent)",
+        "influenza vaccine (surface antigen, inactivated, trivalent)"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/INFLUENZA_VACCINES.json"
+    },
+    {
+      "id": "INSULINS",
+      "name": "Insulins and insulin analogues",
+      "medicines": [
+        "insulin aspart",
+        "insulin degludec",
+        "insulin glargine",
+        "insulin lispro"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/INSULINS.json"
+    },
+    {
+      "id": "IRON_REPLACEMENT",
+      "name": "Iron replacement preparations",
+      "medicines": [
+        "ferrous fumarate",
+        "ferrous sulfate"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/IRON_REPLACEMENT.json"
+    },
+    {
+      "id": "LEUKOTRIENE_ANTAGONISTS",
+      "name": "Leukotriene receptor antagonists",
+      "medicines": [
+        "montelukast"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/LEUKOTRIENE_ANTAGONISTS.json"
+    },
+    {
+      "id": "LINCOSAMIDES",
+      "name": "Lincosamide antibiotics",
+      "medicines": [
+        "clindamycin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/LINCOSAMIDES.json"
+    },
+    {
+      "id": "LOOP_DIURETICS",
+      "name": "Loop diuretics",
+      "medicines": [
+        "bumetanide",
+        "furosemide"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/LOOP_DIURETICS.json"
+    },
+    {
+      "id": "MACROLIDES",
+      "name": "Macrolide antibiotics",
+      "medicines": [
+        "azithromycin",
+        "clarithromycin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/MACROLIDES.json"
+    },
+    {
+      "id": "MELATONIN_AGONISTS",
+      "name": "Melatonin receptor agonists",
+      "medicines": [
+        "melatonin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/MELATONIN_AGONISTS.json"
+    },
+    {
+      "id": "METHYLPHENIDATE_STIMULANTS",
+      "name": "Methylphenidate-type CNS stimulants",
+      "medicines": [
+        "dexmethylphenidate",
+        "methylphenidate"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/METHYLPHENIDATE_STIMULANTS.json"
+    },
+    {
+      "id": "MINERALOCORTICOID_ANTAGONISTS",
+      "name": "Mineralocorticoid receptor antagonists",
+      "medicines": [
+        "eplerenone",
+        "spironolactone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/MINERALOCORTICOID_ANTAGONISTS.json"
+    },
+    {
+      "id": "MUCOLYTICS",
+      "name": "Mucolytics",
+      "medicines": [
+        "carbocisteine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/MUCOLYTICS.json"
+    },
+    {
+      "id": "MUSCARINIC_ANTAGONISTS",
+      "name": "Muscarinic receptor antagonists",
+      "medicines": [
+        "glycopyrronium",
+        "hyoscine butylbromide",
+        "ipratropium",
+        "oxybutynin",
+        "solifenacin",
+        "tiotropium",
+        "umeclidinium"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/MUSCARINIC_ANTAGONISTS.json"
+    },
+    {
+      "id": "NMDA_ANTAGONISTS",
+      "name": "NMDA receptor antagonists (adamantane branch)",
+      "medicines": [
+        "memantine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NMDA_ANTAGONISTS.json"
+    },
+    {
+      "id": "NSAIDS",
+      "name": "NSAIDs and aspirin (cyclooxygenase-inhibiting family)",
+      "medicines": [
+        "aspirin",
+        "celecoxib",
+        "diclofenac",
+        "ibuprofen",
+        "meloxicam",
+        "naproxen"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NSAIDS.json"
+    },
+    {
+      "id": "NEPRILYSIN_INHIBITORS",
+      "name": "Neprilysin inhibitors",
+      "medicines": [
+        "sacubitril"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NEPRILYSIN_INHIBITORS.json"
+    },
+    {
+      "id": "NITROFURANS",
+      "name": "Nitrofuran antibacterials",
+      "medicines": [
+        "nitrofurantoin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NITROFURANS.json"
+    },
+    {
+      "id": "NITROIMIDAZOLES",
+      "name": "Nitroimidazole antibacterials",
+      "medicines": [
+        "metronidazole"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NITROIMIDAZOLES.json"
+    },
+    {
+      "id": "NONERGOT_DOPAMINE_AGONISTS",
+      "name": "Non-ergot dopamine receptor agonists",
+      "medicines": [
+        "ropinirole"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NONERGOT_DOPAMINE_AGONISTS.json"
+    },
+    {
+      "id": "NASSA_ANTIDEPRESSANTS",
+      "name": "Noradrenergic and specific serotonergic antidepressants",
+      "medicines": [
+        "mirtazapine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NASSA_ANTIDEPRESSANTS.json"
+    },
+    {
+      "id": "NDRI",
+      "name": "Norepinephrine-dopamine reuptake inhibitors",
+      "medicines": [
+        "bupropion"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NDRI.json"
+    },
+    {
+      "id": "OPIOID_AGONISTS",
+      "name": "Opioid receptor agonists and partial agonists",
+      "medicines": [
+        "buprenorphine",
+        "codeine",
+        "hydrocodone",
+        "loperamide",
+        "methadone",
+        "morphine",
+        "oxycodone",
+        "tramadol"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/OPIOID_AGONISTS.json"
+    },
+    {
+      "id": "ORGANIC_NITRATES",
+      "name": "Organic nitrate vasodilators",
+      "medicines": [
+        "glyceryl trinitrate",
+        "isosorbide mononitrate"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ORGANIC_NITRATES.json"
+    },
+    {
+      "id": "P2Y12_ANTAGONISTS",
+      "name": "P2Y12 platelet inhibitors",
+      "medicines": [
+        "clopidogrel"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/P2Y12_ANTAGONISTS.json"
+    },
+    {
+      "id": "PDE5_INHIBITORS",
+      "name": "PDE5 inhibitors",
+      "medicines": [
+        "sildenafil",
+        "tadalafil"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PDE5_INHIBITORS.json"
+    },
+    {
+      "id": "PENICILLINS",
+      "name": "Penicillins",
+      "medicines": [
+        "amoxicillin",
+        "flucloxacillin",
+        "phenoxymethylpenicillin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PENICILLINS.json"
+    },
+    {
+      "id": "DOPA_DECARBOXYLASE_INHIBITORS",
+      "name": "Peripheral DOPA-decarboxylase inhibitors",
+      "medicines": [
+        "carbidopa"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/DOPA_DECARBOXYLASE_INHIBITORS.json"
+    },
+    {
+      "id": "LOCAL_ANESTHETIC_ANTITUSSIVES",
+      "name": "Peripheral local-anesthetic antitussives",
+      "medicines": [
+        "benzonatate"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/LOCAL_ANESTHETIC_ANTITUSSIVES.json"
+    },
+    {
+      "id": "PHENOTHIAZINE_ANTIPSYCHOTICS",
+      "name": "Phenothiazine antipsychotics",
+      "medicines": [
+        "prochlorperazine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PHENOTHIAZINE_ANTIPSYCHOTICS.json"
+    },
+    {
+      "id": "PHENYLALKYLAMINE_CCB",
+      "name": "Phenylalkylamine calcium-channel blockers",
+      "medicines": [
+        "verapamil"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PHENYLALKYLAMINE_CCB.json"
+    },
+    {
+      "id": "PEG_LAXATIVES",
+      "name": "Polyethylene-glycol osmotic laxatives",
+      "medicines": [
+        "macrogol 3350"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PEG_LAXATIVES.json"
+    },
+    {
+      "id": "POTASSIUM_REPLACEMENT",
+      "name": "Potassium replacement salts",
+      "medicines": [
+        "potassium chloride"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/POTASSIUM_REPLACEMENT.json"
+    },
+    {
+      "id": "PROGESTOGENS",
+      "name": "Progestogens",
+      "medicines": [
+        "desogestrel",
+        "levonorgestrel",
+        "norethisterone",
+        "norgestimate",
+        "progesterone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PROGESTOGENS.json"
+    },
+    {
+      "id": "PROSTAGLANDIN_ANALOGUES",
+      "name": "Prostaglandin analogues for glaucoma",
+      "medicines": [
+        "latanoprost"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PROSTAGLANDIN_ANALOGUES.json"
+    },
+    {
+      "id": "PPIS",
+      "name": "Proton pump inhibitors",
+      "medicines": [
+        "esomeprazole",
+        "lansoprazole",
+        "omeprazole",
+        "pantoprazole"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PPIS.json"
+    },
+    {
+      "id": "PSEUDOMONIC_ANTIBIOTICS",
+      "name": "Pseudomonic-acid / isoleucyl-tRNA-synthetase inhibitors",
+      "medicines": [
+        "mupirocin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/PSEUDOMONIC_ANTIBIOTICS.json"
+    },
+    {
+      "id": "QUINOLINE_ALKALOIDS",
+      "name": "Quinoline-alkaloid antimalarials",
+      "medicines": [
+        "quinine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/QUINOLINE_ALKALOIDS.json"
+    },
+    {
+      "id": "SGLT2_INHIBITORS",
+      "name": "SGLT2 inhibitors",
+      "medicines": [
+        "dapagliflozin",
+        "empagliflozin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/SGLT2_INHIBITORS.json"
+    },
+    {
+      "id": "SV2A_LIGANDS",
+      "name": "SV2A ligands",
+      "medicines": [
+        "levetiracetam"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/SV2A_LIGANDS.json"
+    },
+    {
+      "id": "ATYPICAL_ANTIPSYCHOTICS",
+      "name": "Second-generation antipsychotics",
+      "medicines": [
+        "aripiprazole",
+        "olanzapine",
+        "quetiapine",
+        "risperidone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/ATYPICAL_ANTIPSYCHOTICS.json"
+    },
+    {
+      "id": "NOREPINEPHRINE_REUPTAKE_INHIBITORS",
+      "name": "Selective norepinephrine reuptake inhibitors",
+      "medicines": [
+        "atomoxetine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/NOREPINEPHRINE_REUPTAKE_INHIBITORS.json"
+    },
+    {
+      "id": "SSRIS",
+      "name": "Selective serotonin reuptake inhibitors",
+      "medicines": [
+        "citalopram",
+        "escitalopram",
+        "fluoxetine",
+        "paroxetine",
+        "sertraline"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/SSRIS.json"
+    },
+    {
+      "id": "SARI_ANTIDEPRESSANTS",
+      "name": "Serotonin antagonist and reuptake inhibitors",
+      "medicines": [
+        "trazodone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/SARI_ANTIDEPRESSANTS.json"
+    },
+    {
+      "id": "SNRIS",
+      "name": "Serotonin-norepinephrine reuptake inhibitors",
+      "medicines": [
+        "desvenlafaxine",
+        "duloxetine",
+        "venlafaxine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/SNRIS.json"
+    },
+    {
+      "id": "STATINS",
+      "name": "Statins (HMG-CoA reductase inhibitors)",
+      "medicines": [
+        "atorvastatin",
+        "pravastatin",
+        "rosuvastatin",
+        "simvastatin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/STATINS.json"
+    },
+    {
+      "id": "SULFAMATE_MONOSACCHARIDE_ANTICONVULSANTS",
+      "name": "Sulfamate-substituted monosaccharide anticonvulsants",
+      "medicines": [
+        "topiramate"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/SULFAMATE_MONOSACCHARIDE_ANTICONVULSANTS.json"
+    },
+    {
+      "id": "SULFONYLUREAS",
+      "name": "Sulfonylureas",
+      "medicines": [
+        "gliclazide",
+        "glimepiride",
+        "glipizide"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/SULFONYLUREAS.json"
+    },
+    {
+      "id": "SYMPATHOMIMETIC_ANORECTICS",
+      "name": "Sympathomimetic amine anorectics",
+      "medicines": [
+        "phentermine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/SYMPATHOMIMETIC_ANORECTICS.json"
+    },
+    {
+      "id": "TNF_INHIBITORS",
+      "name": "TNF inhibitors",
+      "medicines": [
+        "adalimumab"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/TNF_INHIBITORS.json"
+    },
+    {
+      "id": "TETRACYCLINES",
+      "name": "Tetracycline antibiotics",
+      "medicines": [
+        "doxycycline"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/TETRACYCLINES.json"
+    },
+    {
+      "id": "THIAZIDE_DIURETICS",
+      "name": "Thiazide and thiazide-like diuretics",
+      "medicines": [
+        "bendroflumethiazide",
+        "chlorthalidone",
+        "hydrochlorothiazide",
+        "indapamide"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZIDE_DIURETICS.json"
+    },
+    {
+      "id": "THIAZOLIDINEDIONES",
+      "name": "Thiazolidinediones",
+      "medicines": [
+        "pioglitazone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/THIAZOLIDINEDIONES.json"
+    },
+    {
+      "id": "THYROID_HORMONES",
+      "name": "Thyroid hormone preparations",
+      "medicines": [
+        "levothyroxine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/THYROID_HORMONES.json"
+    },
+    {
+      "id": "TRIAZINE_ANTICONVULSANTS",
+      "name": "Triazine anticonvulsants",
+      "medicines": [
+        "lamotrigine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/TRIAZINE_ANTICONVULSANTS.json"
+    },
+    {
+      "id": "TRICYCLIC_ANTIDEPRESSANTS",
+      "name": "Tricyclic antidepressants",
+      "medicines": [
+        "amitriptyline"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/TRICYCLIC_ANTIDEPRESSANTS.json"
+    },
+    {
+      "id": "TRICYCLIC_MUSCLE_RELAXANTS",
+      "name": "Tricyclic skeletal muscle relaxants",
+      "medicines": [
+        "cyclobenzaprine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/TRICYCLIC_MUSCLE_RELAXANTS.json"
+    },
+    {
+      "id": "TRIPTANS",
+      "name": "Triptans",
+      "medicines": [
+        "sumatriptan"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/TRIPTANS.json"
+    },
+    {
+      "id": "VITAMIN_B1",
+      "name": "Vitamin B1 preparations",
+      "medicines": [
+        "thiamine"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_B1.json"
+    },
+    {
+      "id": "VITAMIN_B12",
+      "name": "Vitamin B12 preparations",
+      "medicines": [
+        "cyanocobalamin",
+        "hydroxocobalamin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_B12.json"
+    },
+    {
+      "id": "VITAMIN_D",
+      "name": "Vitamin D preparations",
+      "medicines": [
+        "colecalciferol",
+        "ergocalciferol"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_D.json"
+    },
+    {
+      "id": "VITAMIN_K_ANTAGONISTS",
+      "name": "Vitamin K antagonists",
+      "medicines": [
+        "warfarin"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/VITAMIN_K_ANTAGONISTS.json"
+    },
+    {
+      "id": "XANTHINE_OXIDASE_INHIBITORS",
+      "name": "Xanthine oxidase inhibitors",
+      "medicines": [
+        "allopurinol"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/XANTHINE_OXIDASE_INHIBITORS.json"
+    },
+    {
+      "id": "Z_DRUGS",
+      "name": "Z-drug hypnotics",
+      "medicines": [
+        "zolpidem",
+        "zopiclone"
+      ],
+      "recordUrl": "https://mh-nguyen.cv/medication-origin/agents/classes/Z_DRUGS.json"
+    }
+  ]
+}

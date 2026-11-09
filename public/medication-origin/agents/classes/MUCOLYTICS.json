@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/MUCOLYTICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "MUCOLYTICS",
+    "name": "Mucolytics",
+    "medicines": [
+      "carbocisteine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "carbocisteine",
+        "components": [
+          "carbocisteine"
+        ],
+        "usRank": null,
+        "englandRank": 74,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "Basis scope: acetylcysteine; carbocisteine's initial respiratory selection unresolved.",
+    "starting": {
+      "description": "In the acetylcysteine branch, a planned search for mucus-digesting enzymes tested L-cysteine, used as a bromelain activator, on porcine mucin; the 1967 report says cysteine alone reduced viscosity without an enzyme. The group changed from enzyme work to investigation of sulfhydryl compounds, eventually producing acetylcysteine. The report is company-linked and the intervening choice of acetylcysteine is not explained in detail.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "The historical report identifies the observed effect of the amino acid L-cysteine on a biological mucin preparation as the clue that redirected the acetylcysteine program. This describes the substance and observation, not the physical origin of the tested material or every branch of the class.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A mucus-enzyme program examined L-cysteine as a bromelain activator and reported a viscosity-reducing effect of cysteine alone on porcine mucin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "According to the 1967 report, the team dropped the enzyme project and investigated sulfhydryl compounds, ultimately obtaining acetylcysteine. The inventor's patent reports an ex vivo secretion comparison and proposes N-acylated compounds and inhaled/nasal compositions, citing a 1933 acetylcysteine preparation; the precise intervening selection sequence is not supplied.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Separately, Dickens isolated a cysteine–iodoacetate thioether in 1933; Michaelis and Schubert named S-carboxymethylcysteine in 1934. The chemistry is antecedent, not evidence of the original rationale for respiratory use.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A British patent application filed in 1961 described S-carboxymethylcysteine preparations for respiratory use by nasal or pulmonary routes. The abstract and the later patent do not establish why this compound was initially selected.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E4"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A distinct later patent reports that oral carbocisteine unexpectedly reduced respiratory-secretion viscosity and proposes digestive-route formulations. Its claimed route comparison and patient observations are applicant reports, not independently established clinical efficacy or proof of the earlier starting clue.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers pursued sulfhydryl compounds after the reported cysteine observation; the inventor subsequently described N-acylated compounds and inhaled or nasal compositions, with an earlier chemistry method cited rather than a demonstrated de novo invention of the molecule. In a separate branch, an early patent abstract describes S-carboxymethylcysteine nasal/pulmonary preparations and a later patent proposes digestive-route forms after a reported different effect. The sources do not show that either company's development program generated the other.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E9",
+        "E4",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The cysteine experiment occurred within a planned enzyme-screening program; the 1967 report does not say whether cysteine's independent effect was unexpected. The separate later carbocisteine patent characterizes the reported digestive-route effect as unexpected, not the compound's initial selection for respiratory use.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Creating Drugs To Guard All Ages of Man. Medical World News. 22 September 1967; reprinted in Congressional Record: Senate, 17 October 1967, pp. 29160–29161; author not identified in the reprint.",
+        "url": "https://www.govinfo.gov/content/pkg/GPO-CRECB-1967-pt21/pdf/GPO-CRECB-1967-pt21-9-2.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Sheffner AL. Mucolytic-N-acylated sulfhydryl compositions and process for treating animal mucus. US patent 3,091,569; filed 26 August 1960, issued 28 May 1963.",
+        "url": "https://patents.google.com/patent/US3091569A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Joullie ML, Maillard G, Lakah L, Muller P. Digestive pharmaceutical composition comprising S-carboxymethyl cysteine for reducing viscosity of respiratory tract secretions, and method of treating therewith. US patent 3,891,749; issued 24 June 1975; French priority 7 October 1969.",
+        "url": "https://patents.google.com/patent/US3891749A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Dickens F. Interaction of halogenacetates and SH compounds. The reaction of halogenacetic acids with glutathione and cysteine. The mechanism of iodoacetate poisoning of glyoxalase. Biochem J. 1933;27:1141–1151. doi:10.1042/bj0271141; PMID:16745202.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1253000/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Michaelis L, Schubert MP. The reaction of iodoacetic acid on mercaptans and amines. J Biol Chem. 1934;106:331–341. doi:10.1016/S0021-9258(18)75483-5.",
+        "url": "https://www.researchgate.net/publication/232289628_The_reaction_of_iodoacetic_acid_on_mercaptans_and_amines",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Recherches et Propagande Scientifiques. Medicines containing a cysteine derivative. British patent GB964989A; filed 26 July 1961, published 29 July 1964. Abstract and metadata only.",
+        "url": "https://patents.google.com/patent/GB964989A/en",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "UK Committee on Safety of Medicines, application concerning pharmacy sale of carbocisteine, 1995; and unattributed Carbocisteine reference page reproduced as Annex II(iii), printed p. 70. Released in FOI 21-723-1.",
+        "url": "https://assets.publishing.service.gov.uk/media/61b8c396e90e070449d49fb3/FOI_21-723-1.pdf",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Sheffner AL. The reduction in vitro in viscosity of mucoprotein solutions by a new mucolytic agent, N-acetyl-L-cysteine. Ann N Y Acad Sci. 1963;106:298–310. doi:10.1111/j.1749-6632.1963.tb16647.x; PMID:13977050. Metadata only.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13977050/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Pirie NW, Hele TS. Studies in the sulphur metabolism of the dog: The preparation and metabolism of d-acetylcysteine. Biochem J. 1933;27:1716–1718. doi:10.1042/bj0271716; PMID:16745290.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1253086/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Congressional Record p. 29161, left column, paragraphs describing the enzyme program and Six-Year Project Succeeds"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Patent columns 2–4, preparation, inclined-glass experiment and compositions"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "Patent abstract and column 1, prior nasal/aerosol use and claimed digestive-route observation in 26 patients"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S6",
+        "locator": "pp. 1141–1142 and 1144; experimental isolation and displayed structural equation"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "pp. 331, 340–341, introductory attribution, preparation and summary"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S7",
+        "locator": "Patent abstract and bibliographic metadata only"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Dossier background p. 1 and Annex II(iii), printed p. 70, introductory paragraph and pharmacology"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S9",
+        "locator": "pp. 1716–1717, preparation and optical rotation; p. 1718, summary"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://patentimages.storage.googleapis.com/3a/1f/a2/d6e1055a648d03/US3091569.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patentimages.storage.googleapis.com/ce/ea/bb/eab2560753955e/US3891749.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.researchgate.net/publication/232289628_The_reaction_of_iodoacetic_acid_on_mercaptans_and_amines",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1253000/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://patents.google.com/patent/GB964989A/en",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13977050/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1253086/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The class-level observation_led classification rests on the historical account of the cysteine–acetylcysteine branch; it is not a finding that carbocisteine or every mucolytic shares that starting point. The journalistic 1967 narrative is company-linked, not a laboratory notebook.",
+      "In the carbocisteine branch, antecedent chemical preparation and an early respiratory application are described, but the original respiratory-selection rationale is unresolved. The subsequent oral-route mucolytic observation is an applicant report about a later development, not proof of that initial rationale or independent clinical efficacy.",
+      "No source read establishes a causal connection between the companies' programs. Carbocisteine's substituted sulfhydryl group and uncertain mechanism should not be equated with acetylcysteine's direct free-thiol mechanism. Analogues and full priority across the heterogeneous class are outside this bounded founding-history task."
+    ],
+    "conflicts": [
+      "The annex scan's opening decade is faded: visual inspection and a fresh OCR pass favor 1930s, while a separate web rendering reads 1950s. These are competing transcriptions of one document, not independent historical accounts; the primary 1933 and 1934 chemistry reports support the earlier chemical date."
+    ],
+    "gaps": [
+      "The original observation or rationale for choosing carbocisteine for respiratory use was not located in the sources read; no causal relationship with the acetylcysteine program was established.",
+      "The full British patent GB964989A specification, original data for the later applicants' 26-patient and aerial-route reports, and the original earlier intestinal-juice study mentioned by the 1967 article were not read.",
+      "The 1963 Sheffner experiment (S8) was located by metadata only. Pirie and Hele's older lower-case d optical-rotation notation in S9 was not definitively mapped to the patent's L-configuration notation. Laboratory records and individual clinical trials cited in the annex were not read.",
+      "The annex is a faded reproduced page with no visible citation for its historical opening. The source attribution and the digit in the decade remain uncertain."
+    ]
+  },
+  "nameAliases": [
+    "Availnex",
+    "carbocysteine"
+  ],
+  "humanContributionInterpretation": {
+    "id": "MUCOLYTICS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "A patent reports lower secretion viscosity during oral carbocisteine use in 26 patients and proposes oral formulations.",
+    "scope": "The clinical observations are applicants' claims and do not establish why the molecule was originally selected for respiratory use.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Joullie ML, Maillard G, Lakah L, Muller P. Digestive pharmaceutical composition comprising S-carboxymethyl cysteine for reducing viscosity of respiratory tract secretions, and method of treating therewith. US patent 3,891,749; issued 24 June 1975; French priority 7 October 1969.",
+        "url": "https://patents.google.com/patent/US3891749A/en",
+        "locator": "Patent abstract and column 1, prior nasal/aerosol use and claimed digestive-route observation in 26 patients",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

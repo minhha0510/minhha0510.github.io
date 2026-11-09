@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/METHYLPHENIDATE_STIMULANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "METHYLPHENIDATE_STIMULANTS",
+    "name": "Methylphenidate-type CNS stimulants",
+    "medicines": [
+      "dexmethylphenidate",
+      "methylphenidate"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "dexmethylphenidate",
+        "components": [
+          "dexmethylphenidate"
+        ],
+        "usRank": 138,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "methylphenidate",
+        "components": [
+          "methylphenidate"
+        ],
+        "usRank": 33,
+        "englandRank": 112,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A near-contemporary account reports that methylphenidate was first made in a piperidine-acetic-acid ester investigation and was later observed to stimulate the CNS in experimental animals; it became an investigated clinical stimulant. The classification infers development from this observed effect of a synthetic compound. NTP separately reports a 1954 search for amphetamine analogues, but neither it nor the other accessible accounts establishes that a particular observed effect motivated Panizzon's 1944 synthesis.",
+      "support": "inferred_from_source_observation",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "inferred_from_source_observation",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The directly described working effect is methylphenidate's CNS stimulation in animals, reported after the compound's synthesis and followed by its clinical investigation as a stimulant. NTP also names a search for analogues of the previously active synthetic stimulant amphetamine; its exact role in the original pharmacological research is not verified in the unread 1954 paper.",
+      "support": "inferred_from_source_observation",
+      "evidence_ids": [
+        "E4",
+        "E6",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Panizzon prepared methylphenidate during work on piperidine-acetic-acid esters; the Hartmann–Panizzon patent documents preparation of the corresponding piperidine compounds and general medicinal value, not a specified stimulant indication.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The near-contemporary thesis reports subsequent observation of CNS stimulation in experimental animals and attributes its 1954 report to Meier and colleagues. NTP separately describes those authors as looking for amphetamine analogues; the original paper remains unread.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "By 1958 methylphenidate was being investigated clinically as a CNS stimulant. Robin and Wiseberg's controlled study did not find an advantage over placebo for depression among evaluated completers.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Subsequent stereochemical studies and preparative methods favored the more active d-threo enantiomer; dexmethylphenidate is that enantiomer of the established methylphenidate class.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Chemists synthesized the piperidine ester and related structures, and later separated or prepared specific stereoisomers, including the more active d-threo enantiomer. These are chemical creation and stereochemical refinement; the available evidence does not establish that the initial stimulant activity was rationalized entirely from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "At the later pharmacology stage, NTP describes Meier and colleagues as looking for amphetamine analogues. This planned-search attribution is retrospective; Van Petten describes the earlier ester investigations as not primarily designed to find stimulants. Whether the 1954 effect itself was unexpected is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Konofal E. Methylphenidate. International Network for the History of Neuropsychopharmacology; 27 June 2013.",
+        "url": "https://inhn.org/inhn-projects/drugs/methylphenidate",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Hartmann M, Panizzon L. Pyridine and piperidine compounds and process of making same. US Patent 2507631A, issued 16 May 1950.",
+        "url": "https://patents.google.com/patent/US2507631A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "National Toxicology Program. Toxicology and Carcinogenesis Studies of Methylphenidate Hydrochloride. Technical Report 439. 1995.",
+        "url": "https://ntp.niehs.nih.gov/go/tr439",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Panizzon L. La preparazione di piridil- e piperidil-arilacetonitrili e di alcuni prodotti di trasformazione (Parte Iᵃ). Helvetica Chimica Acta. 1944;27(1):1748–1756. doi:10.1002/hlca.194402701222.",
+        "url": "https://doi.org/10.1002/hlca.194402701222",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Meier R, Gross F, Tripod J. Ritalin, eine neuartige synthetische Verbindung mit spezifischer zentralerregender Wirkungskomponente. Klin Wochenschr. 1954;32:445–450. doi:10.1007/BF01466968. PMID:13164273.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13164273/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Prashad M. Approaches to the Preparation of Enantiomerically Pure (2R,2′R)-(+)-threo-Methylphenidate Hydrochloride. Adv Synth Catal. 2001;343:379–392. doi:10.1002/1615-4169(200107)343:5<379::AID-ADSC379>3.0.CO;2-4.",
+        "url": "https://doi.org/10.1002/1615-4169(200107)343:5%3C379::AID-ADSC379%3E3.0.CO;2-4",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Robin AA, Wiseberg S. A controlled trial of methyl phenidate (Ritalin) in the treatment of depressive states. J Neurol Neurosurg Psychiatry. 1958;21(1):55–57. doi:10.1136/jnnp.21.1.55. PMID:13514499.",
+        "url": "https://jnnp.bmj.com/content/jnnp/21/1/55.full.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "DailyMed. Focalin (dexmethylphenidate hydrochloride) tablets, prescribing information, description section dated 15 November 2023.",
+        "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2016f5c2-95d2-4655-af65-c588c2bf5e6d",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Van Petten GR. The effect of certain central nervous system stimulants and related compounds on the energy metabolism in the rat brain. PhD thesis, University of Glasgow; 1963 repository date; manuscript title page dated November 1962.",
+        "url": "https://theses.gla.ac.uk/73487/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Opening three paragraphs, history and first description of methylphenidate activity"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Specification, paragraph immediately before first example; final claims for α-phenyl-α-piperidyl-(2)-acetic acid methyl ester"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Introduction, printed p. 14 (PDF p. 16), Pharmacology, first paragraph; reference list, printed p. 63"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S9",
+        "locator": "Historical introduction, printed pp. 8–9 (PDF pp. 27–28), paragraph spanning page break"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S9",
+        "locator": "Historical introduction, printed p. 8 (PDF p. 27), final paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S7",
+        "locator": "p. 55, opening paragraph; p. 57, Summary"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "pp. 379–380, Introduction and §3, including stereoisomer figure"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S8",
+        "locator": "§11 Description; §12.2 Pharmacodynamics"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US2507631A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1002/hlca.194402701222",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13164273/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://jnnp.bmj.com/content/jnnp/21/1/55.full.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "This is one methylphenidate scaffold-family record. Dexmethylphenidate is the d-threo enantiomer selected from the established family, not an independently reconstructed founding class.",
+      "The prior amphetamine comparison concerns a different established stimulant class and should not be read as a class-membership merge or proof of the 1944 synthetic motive.",
+      "The observed-effect-to-development link is an inference from historical accounts and subsequent clinical investigation, not a directly read inventor explanation."
+    ],
+    "conflicts": [
+      "NTP's 1995 introduction cites Brown and Werner (1954) among early methylphenidate pharmacology reports, but its own bibliography and PubMed identify that paper as MRD-108/pipradrol; the 1963 thesis assigns Brown and Werner to pipradrol instead. NTP's separate Meier-search statement is therefore retained with caution, not independently verified.",
+      "Van Petten says the early ester work was not primarily intended to discover CNS stimulants; NTP describes a later search for amphetamine analogues. They address different stages, so an actual contradiction in the 1954 investigators' intentions is not established."
+    ],
+    "gaps": [
+      "Panizzon's 1944 chemistry article and Meier, Gross and Tripod's 1954 pharmacological report were located and identity-checked but their full texts were not accessible. The latter is consequential to testing the exact reported animal findings and whether the investigators explicitly sought amphetamine analogues.",
+      "A direct discoverer account explaining why the original 1944 piperidine ester series was initiated was not located. The historical observations do not prove that a specific previous stimulant effect inspired that synthesis.",
+      "No claim is made about the original testers' surprise, the priority of every stereoisomer preparation, or efficacy of methylphenidate for depression from the 1958 trial."
+    ]
+  },
+  "nameAliases": [
+    "Aptensio",
+    "Concerta",
+    "Cotempla",
+    "Daytrana",
+    "Focalin",
+    "Jornay",
+    "Metadate",
+    "Methylin",
+    "QuilliChew",
+    "Quillivant",
+    "Relexxii",
+    "Ritalin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "METHYLPHENIDATE_STIMULANTS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Van Petten GR. The effect of certain central nervous system stimulants and related compounds on the energy metabolism in the rat brain. PhD thesis, University of Glasgow; 1963 repository date; manuscript title page dated November 1962.",
+        "url": "https://theses.gla.ac.uk/73487/",
+        "locator": "Historical introduction, printed pp. 8–9 (PDF pp. 27–28), paragraph spanning page break",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Van Petten GR. The effect of certain central nervous system stimulants and related compounds on the energy metabolism in the rat brain. PhD thesis, University of Glasgow; 1963 repository date; manuscript title page dated November 1962.",
+        "url": "https://theses.gla.ac.uk/73487/",
+        "locator": "Historical introduction, printed p. 8 (PDF p. 27), final paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Robin AA, Wiseberg S. A controlled trial of methyl phenidate (Ritalin) in the treatment of depressive states. J Neurol Neurosurg Psychiatry. 1958;21(1):55–57. doi:10.1136/jnnp.21.1.55. PMID:13514499.",
+        "url": "https://jnnp.bmj.com/content/jnnp/21/1/55.full.pdf",
+        "locator": "p. 55, opening paragraph; p. 57, Summary",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "National Toxicology Program. Toxicology and Carcinogenesis Studies of Methylphenidate Hydrochloride. Technical Report 439. 1995.",
+        "url": "https://ntp.niehs.nih.gov/go/tr439",
+        "locator": "Introduction, printed p. 14 (PDF p. 16), Pharmacology, first paragraph; reference list, printed p. 63",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

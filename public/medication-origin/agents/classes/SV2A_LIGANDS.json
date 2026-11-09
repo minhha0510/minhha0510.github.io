@@ -1,0 +1,289 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/SV2A_LIGANDS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "SV2A_LIGANDS",
+    "name": "SV2A ligands",
+    "medicines": [
+      "levetiracetam"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "levetiracetam",
+        "components": [
+          "levetiracetam"
+        ],
+        "usRank": 112,
+        "englandRank": 90,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The decisive class-founding clue was seizure protection by the synthetic compound levetiracetam in routine screening of sound-sensitive mice; the original investigators say this finding led to wider animal testing. The earlier pyrrolidone ancestry includes a GABA-analogue sleep project and piracetam's observed psychotropic properties; piracetam's clinical myoclonus activity separately supported interest in epilepsy.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "clinical_veterinary_effect",
+      "endogenous_molecule"
+    ],
+    "inspiration": {
+      "description": "The class-opening signal was the seizure-protective effect of synthetic levetiracetam in a biological mouse model. Piracetam's clinical myoclonus activity separately supported epilepsy interest. GABA was the analogue reference for the upstream piracetam sleep project, not an identified SV2A template or an established explanation of levetiracetam's antiseizure effect.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A GABA-analogue sleep project yielded piracetam with a different psychotropic profile; later interest encouraged successor work. Its ethyl analogue was synthesized in 1966 and the S-enantiomer separated in 1977, according to S1. The specific date of discovery is disputed, and the 1966 synthesis cannot have been caused by the 1972 naming of the nootropic concept.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E12",
+          "E11"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Routine screening showed levetiracetam seizure protection in sound-sensitive mice and led to testing in a wider range of animal models; the retrospective also identifies piracetam's clinical myoclonus activity as supporting epilepsy interest.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In a collaborator's retrospective, the audiogenic and other results led to 1989 commissioning of further kindled-rat work; the authors report clinical development and FDA approval in 1999.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Levetiracetam's brain binding site was subsequently identified as SV2A in the 2004 original report. A high-affinity ligand program built on the already observed levetiracetam effect and binding site; the exact date of its launch is not established here.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E7",
+          "E8",
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and separated pyrrolidone analogues and later pursued higher-affinity selective ligands based on the observed levetiracetam binding site.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The particular tested event was a routine, deliberately performed screen in seizure-susceptible mice; the original report does not establish whether its positive result was unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E6"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Klitgaard H, Matagne A, Nicolas JM, et al. 2016. Brivaracetam: Rationale for discovery and preclinical profile of a selective SV2A ligand for epilepsy treatment. Epilepsia 57:538–548. DOI 10.1111/epi.13340; PMID 26920914.",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/epi.13340",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Gower AJ, Noyer M, Verloes R, Gobert J, Wülfert E. 1992. ucb L059, a novel anti-convulsant drug: pharmacological profile in animals. Eur J Pharmacol 222:193–203. DOI 10.1016/0014-2999(92)90855-X; PMID 1451732. Erratum: 1993;230:389, DOI 10.1016/0014-2999(93)90582-3; erratum text not read.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1451732/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Lynch BA, Lambeng N, Nocka K, Kensel-Hammes P, Bajjalieh SM, Matagne A, Fuks B. 2004. The synaptic vesicle protein SV2A is the binding site for the antiepileptic drug levetiracetam. Proc Natl Acad Sci U S A 101:9861–9866. DOI 10.1073/pnas.0308208101; PMID 15210974; PMCID PMC470764.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC470764/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Löscher W, Gillard M, Sands ZA, Kaminski RM, Klitgaard H. 2016. Synaptic Vesicle Glycoprotein 2A Ligands in the Treatment of Epilepsy and Beyond. CNS Drugs 30:1055–1077. DOI 10.1007/s40263-016-0384-x; PMID 27752944; PMCID PMC5078162.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5078162/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Wu PP, Cao BR, Tian FY, Gao ZB. 2024. Development of SV2A Ligands for Epilepsy Treatment: A Review of Levetiracetam, Brivaracetam, and Padsevonil. Neurosci Bull 40:594–608. Online 2023-10-28. DOI 10.1007/s12264-023-01138-2; PMID 37897555; PMCID PMC11127901.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11127901/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Discovery of SV2A Ligands for Treatment of Epilepsy, first paragraph."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Discovery of SV2A Ligands for Treatment of Epilepsy, second paragraph."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Discovery of SV2A Ligands for Treatment of Epilepsy, second paragraph, epilepsy transition."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Discovery of SV2A Ligands for Treatment of Epilepsy, third to sixth paragraphs."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 193, Introduction, second paragraph; US patent exhibit full-text OCR."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 194, Methods, audiogenic seizures; p. 196, Results, first paragraph."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Results: radioligand binding to knockout brain membranes and recombinant hSV2A, Figures 2 and 3."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "Results: Compound Affinities to SV2A Correlate with Affinities to the LEV-Binding Site in Brain and to Antiseizure Potencies; Discussion."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "The Discovery of Levetiracetam and its Effect on SV2A, first paragraph, discussion of kindling research."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "The Discovery of Levetiracetam and its Effect on SV2A, first paragraph, last sentences."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "Levetiracetam; The Discovery and Mechanism Exploration of Levetiracetam, first paragraph."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S1",
+        "locator": "Discovery of SV2A Ligands for Treatment of Epilepsy, second paragraph."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1111/epi.13340",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1462749/download-documents?artifactId=ods-Udyqd9O-joPiQFUBlQfLIa8U_PrQRK41GlG_LoCmXMEuklPNx6A",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC470764/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5078162/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The founding history is established for levetiracetam, the only member in the assigned cohort; it does not assert a distinct origin for every later SV2A ligand.",
+      "Pyrrolidone ancestry, seizure screening and later binding-site-guided ligand development are linked stages, not separate independent from-scratch founding branches. Target binding supports the mechanistic link but does not establish every downstream effect."
+    ],
+    "conflicts": [
+      "S5 dates levetiracetam discovery to 1974; S1 dates enantiomer separation to 1977 and S4 describes discovery in 1977. The exact event and source of disagreement are unresolved (E2, E11, E12).",
+      "S1 dates etiracetam synthesis to 1966 while placing articulation of the nootropic concept in 1972 before its general statement about successor interest; those dates cannot prove the 1972 concept caused synthesis in 1966 (E1, E2, E12).",
+      "S2 broadly reports efficacy in electroconvulsive and chemically induced seizure tests, whereas S4 describes lack of activity in the standard maximal electroshock and subcutaneous pentylenetetrazole tests. Differences in specific tests or protocols may matter; the comparison and unread S2 erratum are not reconciled. This does not change the documented audiogenic clue (E5, E6, E9).",
+      "S4 dates molecular identification to 2003 while citing S3's 2004 report; those may refer to discovery versus publication, not a demonstrated substantive disagreement."
+    ],
+    "gaps": [
+      "Gower et al.'s 1993 erratum was identified but not read; its scope is unknown.",
+      "The exact date and decision sequence of the initial mouse screen and the 1974 versus 1977 discovery-date discrepancy are not established by these publications.",
+      "Original upstream records of piracetam and etiracetam chemistry, the earlier binding-site report, the original 1993 kindling report, and the date of launch of the subsequent high-affinity ligand program were not read or established."
+    ]
+  },
+  "nameAliases": [
+    "Elepsia",
+    "Keppra",
+    "Roweepra",
+    "Spritam"
+  ],
+  "humanContributionInterpretation": {
+    "id": "SV2A_LIGANDS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Piracetam's clinical myoclonus activity contributed to interest in epilepsy alongside levetiracetam's animal seizure protection.",
+    "scope": "The source does not establish that the clinical observation caused the initial mouse screen; it supports a broader clinical-development contribution.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Klitgaard H, Matagne A, Nicolas JM, et al. 2016. Brivaracetam: Rationale for discovery and preclinical profile of a selective SV2A ligand for epilepsy treatment. Epilepsia 57:538–548. DOI 10.1111/epi.13340; PMID 26920914.",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/epi.13340",
+        "locator": "Discovery of SV2A Ligands for Treatment of Epilepsy, second paragraph, epilepsy transition.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

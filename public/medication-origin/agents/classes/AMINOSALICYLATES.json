@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/AMINOSALICYLATES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "AMINOSALICYLATES",
+    "name": "Aminosalicylates",
+    "medicines": [
+      "mesalazine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "mesalazine",
+        "components": [
+          "mesalazine"
+        ],
+        "usRank": null,
+        "englandRank": 140,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A 1989 colleague's retrospective reports that Svartz noticed a similarity between affected tissue in rheumatoid arthritis and ulcerative colitis, prompting her to test the arthritis drug salazopyrin in colitis; this reported motive is not confirmed in the 1942 passages read. Her contemporaneous account records variable clinical improvement with sulfapyridine and, later, salazopyrin in colitis. The established effect of the parent compound then prompted investigation of its components; the observed activity of 5-aminosalicylic acid (5-ASA) informed development of targeted oral 5-ASA delivery.",
+      "support": "documented",
+      "evidence_ids": [
+        "E11",
+        "E1",
+        "E2",
+        "E4",
+        "E12",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The retrospective tissue-similarity account supplies a reported biological observation for testing the parent drug in colitis; the primary report documents clinical responses to sulfapyridine and to the chemically assembled sulfasalazine. Existing aspirin response in arthritis contributed to the parent drug's earlier design, while the experimentally observed intestinal activity of 5-ASA guided later delivery design. These sources do not establish a shared tissue mechanism or require the active molecule to have been isolated from nature.",
+      "support": "documented",
+      "evidence_ids": [
+        "E11",
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E4",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "For rheumatoid polyarthritis, Svartz first tried separate salicyl and sulfanilamide preparations without tangible results, then pursued chemical combinations with Pharmacia chemists. A later review describes the existing aspirin response and an infectious hypothesis as the rationale for this parent-drug design.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A colleague later attributed the choice to test salazopyrin in ulcerative colitis to Svartz's observation of apparently similar diseased tissue in the two conditions. Independently of that recollection, Svartz's 1942 report describes earlier sulfapyridine treatment of colitis and subsequent, variable responses to salazopyrin; the reports do not establish whether the earlier sulfapyridine response caused the initial salazopyrin trial.",
+        "support": "documented",
+        "evidence_ids": [
+          "E11",
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "With sulfasalazine already used for ulcerative colitis, the 1977 blinded enema comparison tested the parent and its two cleavage products. The authors identified 5-ASA as the active intestinal moiety; the original report was accessible as an abstract and its historical role is also described in the full-text review.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E12"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A 1982 report cited the component experiment, explained why uncoated oral 5-ASA needed a colonic delivery system, and tested an acrylic-coated formulation for remission maintenance. Its reported nonsignificant relapse difference from sulfasalazine in a short trial does not by itself establish equivalence.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "The established class includes unlinked mesalazine delivered in delayed- or slow-release formulations; another later approach linked two 5-ASA molecules to deliver the active moiety without sulfapyridine. These are delivery adaptations of the intestinal lineage, not independent starting points asserted for each analogue.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately linked a salicylate and sulfonamide for an arthritis program, later tested which cleavage product supplied intestinal activity, and designed coated or otherwise modified delivery of the observed active 5-ASA without the original sulfapyridine carrier. The later colonic-delivery rationale must not be projected back onto the original arthritis design.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E5",
+        "E4",
+        "E9",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The chemical-combination program, the tissue-motivated colitis test as retrospectively described, and the later coated formulation were planned actions. Svartz characterized the speed of response in one case as difficult to explain, while a later review described colitis improvement as unexpected. Neither account establishes that trying the drug in colitis was accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E11",
+        "E13",
+        "E6",
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Svartz N. Salazopyrin, a new sulfanilamide preparation. A. Therapeutic Results in Rheumatic Polyarthritis. B. Therapeutic Results in Ulcerative Colitis. C. Toxic Manifestations in Treatment with Sulfanilamide Preparations. Acta Med Scand. 1942;110:577–598. doi:10.1111/j.0954-6820.1942.tb06841.x",
+        "url": "https://doi.org/10.1111/j.0954-6820.1942.tb06841.x",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Azad Khan AK, Piris J, Truelove SC. An experiment to determine the active therapeutic moiety of sulphasalazine. Lancet. 1977;2(8044):892–895. doi:10.1016/S0140-6736(77)90831-5; PMID:72239.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/72239/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Crotty B, Jewell DP. Drug therapy of ulcerative colitis. Br J Clin Pharmacol. 1992;34(3):189–198. doi:10.1111/j.1365-2125.1992.tb04124.x; PMID:1389944.",
+        "url": "https://doi.org/10.1111/j.1365-2125.1992.tb04124.x",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Dew MJ, Hughes P, Harries AD, Williams G, Evans BK, Rhodes J. Maintenance of remission in ulcerative colitis with oral preparation of 5-aminosalicylic acid. Br Med J (Clin Res Ed). 1982;285(6347):1012. doi:10.1136/bmj.285.6347.1012; PMID:6127137.",
+        "url": "https://doi.org/10.1136/bmj.285.6347.1012",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Böttiger LE. Nanna Charlotta Svartz. Lives of the Fellows of the Royal College of Physicians of London (Munk's Roll), vol. VIII, pp. 488–490, 1989; reproduced by the Royal College of Physicians, Inspiring Physicians.",
+        "url": "https://history.rcp.ac.uk/inspiring-physicians/nanna-charlotta-svartz",
+        "role": "institutional_history",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Svartz N. Sulfasalazine: II. Some notes on the discovery and development of salazopyrin. Am J Gastroenterol. 1988;83(5):497–503. PMID:2896459.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2896459/",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 580–581, section B, opening paragraphs"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 581, section B, second paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 577, section A, opening paragraphs"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "PubMed abstract, full paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 190, Salicylates, Sulphasalazine, first paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "p. 190, Salicylates, Sulphasalazine, first paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 191, The new salicylates, first paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 191, The new salicylates, Mesalazine, enteric-coated and slow-release paragraphs"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. 1012, introductory paragraphs and reference 3"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "p. 1012, Methods and results and Comment"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "p. 488, historical biography, paragraphs on salazopyrin"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S3",
+        "locator": "p. 190, Sulphasalazine, paragraph on the 1970s component experiment"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S1",
+        "locator": "p. 595, ulcerative colitis case reports, first case"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1111/j.0954-6820.1942.tb06841.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/72239/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1136/bmj.285.6347.1012",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2896459/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The assigned class is the intestinal 5-ASA anti-inflammatory lineage and the only frozen cohort member is mesalazine. Sulfasalazine is discussed as a historical precursor, and olsalazine as an illustrative later delivery approach, without changing class membership.",
+      "The distinct arthritis indication helps explain the original chemical combination but is not a separate class analysis; the intestinal active moiety and its carrier role must not be assumed to be the same in arthritis.",
+      "The reported tissue-similarity motive is a retrospective recollection, not proof of a shared mechanism, and the exact sequence of the first colitis application remains uncertain."
+    ],
+    "conflicts": [
+      "S5 describes salazopyrin as sulfapyridine linked to acetylsalicylic acid. S2, S3 and S4 describe the parent as yielding or containing sulfapyridine and 5-ASA; S3 explicitly identifies an azo linkage. The latter accounts support the stated chemistry; S5's separate historical recollection is retained with caution.",
+      "S3 calls the colitis improvement unexpected, whereas S5 retrospectively describes a deliberate tissue-motivated colitis trial and S1 documents earlier colitis experience with sulfapyridine. These observations do not by themselves prove a contradiction: an intentionally tested effect can be unexpectedly strong or rapid, but what first motivated the trial is not confirmed by the 1942 passages read."
+    ],
+    "gaps": [
+      "The full 1977 original component paper was not retrieved; its experiment is represented by the PubMed abstract and the later full-text review, not a full original-methods assessment.",
+      "The body of Svartz's 1988 discoverer retrospective was not accessible and its abstract does not give the first-trial rationale; the earlier Svartz/Kallner colitis-treatment originals have not been unambiguously identified and read.",
+      "The tissue-similarity motive is documented only in the 1989 retrospective among the sources read, whose chemical description contains a discrepancy; it is not confirmed as first-hand or contemporaneous evidence."
+    ]
+  },
+  "nameAliases": [
+    "Apriso",
+    "Canasa",
+    "Delzicol",
+    "Lialda",
+    "Pentasa",
+    "Rowasa",
+    "mesalamine"
+  ],
+  "humanContributionInterpretation": {
+    "id": "AMINOSALICYLATES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Sulfasalazine clinical effects, carrier-related adverse effects and human component testing helped identify 5-ASA and guide formulations.",
+    "scope": "Includes deliberate human experiments; the earlier claimed unexpected colitis origin is disputed.",
+    "references": [
+      {
+        "id": "E7",
+        "citation": "Crotty B, Jewell DP. Drug therapy of ulcerative colitis. Br J Clin Pharmacol. 1992;34(3):189–198. doi:10.1111/j.1365-2125.1992.tb04124.x; PMID:1389944.",
+        "url": "https://doi.org/10.1111/j.1365-2125.1992.tb04124.x",
+        "locator": "p. 191, The new salicylates, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Dew MJ, Hughes P, Harries AD, Williams G, Evans BK, Rhodes J. Maintenance of remission in ulcerative colitis with oral preparation of 5-aminosalicylic acid. Br Med J (Clin Res Ed). 1982;285(6347):1012. doi:10.1136/bmj.285.6347.1012; PMID:6127137.",
+        "url": "https://doi.org/10.1136/bmj.285.6347.1012",
+        "locator": "p. 1012, introductory paragraphs and reference 3",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

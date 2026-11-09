@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/FOLATE_REPLACEMENT",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "FOLATE_REPLACEMENT",
+    "name": "Folate replacement preparations",
+    "medicines": [
+      "folic acid"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "folic acid",
+        "components": [
+          "folic acid"
+        ],
+        "usRank": 93,
+        "englandRank": 26,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Wills investigated tropical macrocytic anaemia using the observed benefit of liver in another anaemia and animal evidence of a vitamin B-complex deficiency; her patients improved with liver or yeast preparations. In parallel, investigators observed that animal nutrition and bacterial growth depended on factors in natural extracts, and used those biological responses to investigate and isolate related factors. The record does not establish that every microbial research group was directly motivated by Wills.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Observed clinical responses to yeast and liver preparations, animal dietary-deficiency and treatment responses, and the growth requirements of microorganisms supplied biological leads. The starting materials included yeast, liver and green plant extracts; the clinical and microbiological routes were not a single proven chain of individual motivations.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A recognized liver-treatment effect and Wills's animal observations prompted tests of liver and yeast extract in tropical macrocytic anaemia; she reported patient improvements while leaving the responsible factor unidentified.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Independent investigations of chick nutritional deficiency and microbial growth factors in extracts helped drive isolation and identification of related folate-active factors. Wilkinson reports that synthetic pteroylglutamic acid matched a crystalline liver L. casei factor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Chemists developed synthesis routes to a defined pteroylglutamic acid preparation and compared the product with the liver factor by physical measurements and bioassay; a 1948 original report explicitly follows previous synthesis work.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E8",
+          "E10"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Clinicians used the synthetic preparation orally in an early nutritional macrocytic anaemia case series and reported haematological improvement, subject to the study's diagnostic and treatment limitations.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers used growth and nutritional assays to isolate and characterize factors, developed chemical routes to a defined oxidized pteroylglutamic acid product, checked its properties against the liver factor, and administered synthetic material orally in capsules. These deliberate developments followed observed biological activity; the later 1948 synthetic route did not establish a from-scratch founding activity concept.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E8",
+        "E10"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Wills's selection and test of yeast extract followed her animal-deficiency hypothesis; the 1948 chemists deliberately developed a further route to a known factor. This labels those stages, not every discovery in the class.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E10"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Wills L. 1931. Treatment of ‘pernicious anaemia of pregnancy’ and ‘tropical anaemia’: with special reference to yeast extract as a curative agent. Br Med J 1(3676):1059–1064. DOI 10.1136/bmj.1.3676.1059; PMID 20776230.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2314785/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Wilkinson JF. 1948. Folic Acid.—Part I. Br Med J 1(4555):771–776. DOI 10.1136/bmj.1.4555.771; PMID 18912704.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2091132/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Zheng Y, Cantley LC. 2019. Toward a better understanding of folate metabolism in health and disease. J Exp Med 216(2):253–266. DOI 10.1084/jem.20181965; PMID 30587505.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6363433/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Das Gupta CR, Chatterjea JB. 1946. The rôle of synthetic folic acid (L. casei factor) in the treatment of nutritional macrocytic anaemia. Indian Med Gaz 81(10):402–410. PMID 20281864.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5236367/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Hultquist ME, Kuh E, Cosulich DB, et al. 1948. Synthesis of Pteroylglutamic Acid (Liver L. casei Factor) and Pteroic Acid. II. J Am Chem Soc 70(1):23–24. DOI 10.1021/ja01181a007; PMID 18918789.",
+        "url": "https://doi.org/10.1021/ja01181a007",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Angier RB, Boothe JH, Hutchings BL, et al. 1945. Synthesis of a compound identical with the L. casei factor isolated from liver. Science 102(2644):227–228. DOI 10.1126/science.102.2644.227; PMID 17778509.",
+        "url": "https://doi.org/10.1126/science.102.2644.227",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 1060, left column, Liver Treatment, first paragraph; right column, Vitamin Treatment, paragraphs 1–2"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 1060, right column, Vitamin Treatment; p. 1062, left column, Cases Treated with Marmite; p. 1063, right column, Discussion"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 1064, left column, final paragraph of Discussion"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 771, left column, opening three paragraphs and Vitamin Bc and Folic Acid"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 771, left column, fourth paragraph; p. 772, left column, Vitamin M and Folic Acid in Monkeys"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "Introduction, first two paragraphs"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Structure and chemistry of folates: Nomenclature; Chemical lability of reduced folates, first paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "p. 402, left column, paragraphs 1–3; p. 403, left column, Method of administration"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. 402, right column, Selection of cases and Method of study; pp. 409–410, Discussion and Summary"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "p. 23, opening paragraph and paragraph beginning Pteroylglutamic acid or pteroic acid; p. 24, Summary"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2314785/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5236367/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1021/ja01181a007",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1126/science.102.2644.227",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The assigned class is folate replacement, with folic acid the sole cohort member; antifolate therapies and separate later analogues are out of scope.",
+      "Wills's clinical report did not chemically identify folic acid. Parallel animal and microbial assays converged on related factors; no direct motivation of every microbial team by Wills is established here.",
+      "The review distinguishes oxidized folic acid from the broader family of natural reduced and conjugated folates, and presents the isolation-artifact explanation as a qualified hypothesis.",
+      "The 1946 treatment series was small and uncontrolled, with diagnostic uncertainty and concurrent or subsequent care; it establishes early use and reported responses, not a modern efficacy estimate.",
+      "This bounded founding history does not establish the origin or efficacy of every later indication, formulation or other folate compound."
+    ],
+    "conflicts": [
+      "Wilkinson cites 1945 and 1946 syntheses, while Zheng and Cantley describe structural-elucidation work culminating in 1948. Hultquist's 1948 report itself refers to previous synthesis. The accounts may refer to distinct milestones; detailed priority and the full structure chronology are not resolved."
+    ],
+    "gaps": [
+      "The Angier and colleagues 1945 Science original was located and its identity verified, but its text and methods were not accessible; claims about that earlier synthesis are attributed to sources that were read.",
+      "The underlying early chick and bacterial factor experiments, the 1948 structure paper, and earlier synthetic-folate clinical reports were not read; exact research-team motivations and derivative priority were not independently reconstructed."
+    ]
+  },
+  "nameAliases": [
+    "Folacin",
+    "Quiofic"
+  ],
+  "humanContributionInterpretation": {
+    "id": "FOLATE_REPLACEMENT",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Clinical improvement of tropical macrocytic anemia with liver or yeast helped direct the search for an effective nutrient.",
+    "scope": "Other folate branches involved animal and microbial experiments; the clinical observation is a specified lineage.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Wills L. 1931. Treatment of ‘pernicious anaemia of pregnancy’ and ‘tropical anaemia’: with special reference to yeast extract as a curative agent. Br Med J 1(3676):1059–1064. DOI 10.1136/bmj.1.3676.1059; PMID 20776230.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2314785/",
+        "locator": "p. 1060, left column, Liver Treatment, first paragraph; right column, Vitamin Treatment, paragraphs 1–2",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E2",
+        "citation": "Wills L. 1931. Treatment of ‘pernicious anaemia of pregnancy’ and ‘tropical anaemia’: with special reference to yeast extract as a curative agent. Br Med J 1(3676):1059–1064. DOI 10.1136/bmj.1.3676.1059; PMID 20776230.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2314785/",
+        "locator": "p. 1060, right column, Vitamin Treatment; p. 1062, left column, Cases Treated with Marmite; p. 1063, right column, Discussion",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E3",
+        "citation": "Wills L. 1931. Treatment of ‘pernicious anaemia of pregnancy’ and ‘tropical anaemia’: with special reference to yeast extract as a curative agent. Br Med J 1(3676):1059–1064. DOI 10.1136/bmj.1.3676.1059; PMID 20776230.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2314785/",
+        "locator": "p. 1064, left column, final paragraph of Discussion",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

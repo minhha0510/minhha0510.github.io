@@ -1,0 +1,321 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/DIBENZAZEPINE_ANTICONVULSANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "DIBENZAZEPINE_ANTICONVULSANTS",
+    "name": "Dibenzazepine anticonvulsants",
+    "medicines": [
+      "carbamazepine"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "carbamazepine",
+        "components": [
+          "carbamazepine"
+        ],
+        "usRank": null,
+        "englandRank": 121,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "According to Sato and colleagues' historical account, anticonvulsant activity was observed in the synthetic compound N-carbamyl-iminodibenzyl (G26301); Geigy then continued research on related derivatives, leading to Tegretol (G32883, carbamazepine). Morel and Häfliger's 1956 patent independently reports anticonvulsant activity for the precursor, without describing its assay. The laboratory decision process is not directly documented here.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "inferred_from_source_observation",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "The inferred functional starting clue is the reported anticonvulsant effect of synthetic G26301, not isolation of a natural scaffold. The histories link the active precursor and subsequent derivatives in the same line of work, but do not directly record the researchers' motivation for choosing carbamazepine.",
+      "support": "inferred_from_source_observation",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Sato and colleagues report the discovery of anticonvulsant activity in Morel's G26301, and the 1956 precursor patent reports that activity without providing the seizure-testing method.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Sato and colleagues say Geigy continued derivative research that led to the iminostilbene derivative Tegretol; Meijer and colleagues also describe the compounds as part of one line of enquiry. Sato's stated synthesis year is contradicted by the 1960 patent.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E8",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Schindler's 1960 patent describes preparation of 5-carbamyl iminostilbene and asserts anticonvulsant activity for the azepines, without reporting a biological test.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The historical chapter describes animal results for G32883 as more promising than for G26301; Sato and colleagues' public 1965 abstract reports clinical administration in 20 cases, including difficult-to-control epilepsy. Neither the original animal methods nor complete clinical paper were read.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers investigated iminodibenzyl-related derivatives; the carbamazepine compound has an unsaturated iminostilbene ring rather than G26301's saturated iminodibenzyl bridge. Schindler's patent describes preparation from iminostilbene, not direct conversion of G26301. The sources do not establish a particular claimed improvement as the reason for this structural change.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E6",
+        "E8",
+        "E3"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The documented event is the deliberate derivative research and chemical preparation, not the circumstances of the first G26301 anticonvulsant observation. S2 calls carbamazepine's later anticonvulsant finding chance, but its chronology conflicts with S3; the original discovery circumstances are not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E3"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Shorvon SD. 2009. Drug treatment of epilepsy in the century of the ILAE: The second 50 years, 1959–2009. Epilepsia 50 Suppl 3:93–130. DOI 10.1111/j.1528-1167.2009.02042.x.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1528-1167.2009.02042.x",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Nakken KO, Brodtkorb E. 2017. Chance, serendipity and antiepileptic drugs. Tidsskr Nor Legeforen 137. DOI 10.4045/tidsskr.17.0438.",
+        "url": "https://tidsskriftet.no/en/2017/10/medisinsk-historie/chance-serendipity-and-antiepileptic-drugs",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Schindler W. 1960. New N-heterocyclic compounds. US Patent 2,948,718, granted 9 August 1960, Swiss priority claimed 20 December 1957.",
+        "url": "https://patentimages.storage.googleapis.com/62/e3/11/e5e888c813424e/US2948718.pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Morel CJ, Häfliger F. 1956. Iminodibenzyl derivative. US Patent 2,762,796, granted 11 September 1956, Swiss priority claimed 26 November 1953.",
+        "url": "https://patents.google.com/patent/US2762796A/en",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Sato T, Matsuo T, Yahaba Y, Nakamura H, Tobisawa S, Sato S. 1965. Tegretolの抗てんかんならびに向精神作用についての臨床経験. Brain and Nerve (No To Shinkei) 17(9):965–972. DOI 10.11477/mf.1406201921.",
+        "url": "https://webview.isho.jp/journal/detail/pdf/10.11477/mf.1406201921",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Meijer JWA, Meinardi H, Binnie CD. 2023. The development of antiepileptic drugs. Discoveries in Pharmacology, 2nd ed., pp. 247–286. DOI 10.1016/B978-0-323-85519-8.00030-4. Reprint of 1983 chapter.",
+        "url": "https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/mesuximide",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Schindler W, Häfliger F. 1954. Über Derivate des Iminodibenzyls. Helvetica Chimica Acta 37(2):472–483. DOI 10.1002/hlca.19540370211.",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hlca.19540370211",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Schindler W, Blattner H. 1961. Über Derivate des Iminodibenzyls Iminostilben-Derivate. Helvetica Chimica Acta 44(3):753–762. DOI 10.1002/hlca.19610440319.",
+        "url": "https://doi.org/10.1002/hlca.19610440319",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Theobald W, Kunz HA. 1963. On the pharmacology of the antiepileptic 5-carbamyl-5H-dibenzo(b,f)azepine [translated title; article in German]. Arzneimittelforschung 13:122–125. PMID 13980868.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13980868/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S10",
+        "citation": "Blom S. 1962. Trigeminal neuralgia: its treatment with a new anticonvulsant drug (G-32883). Lancet 1(7234):839–840. DOI 10.1016/S0140-6736(62)91847-0; PMID 13870089.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13870089/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Printed p. 102, Carbamazepine (Tegretol), first two paragraphs"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Continued development of antipsychotic drugs, first two paragraphs"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Patent column 1, introductory paragraph; column 2, Example 1; column 4, references cited"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "Patent column 1, opening paragraph and chemical preparation"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "Public first-page preview, I. はじめに, second paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "Public first-page preview, I. はじめに, second paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "Public English abstract, first paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S6",
+        "locator": "Section 10.4.6 Dibenzoazepines, paragraphs 2–3, indexed publisher page"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S6",
+        "locator": "Section 10.4.6 Dibenzoazepines, paragraph 3, indexed publisher page"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S7",
+        "locator": "Publisher's public abstract"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S3",
+        "url": "https://patentimages.storage.googleapis.com/62/e3/11/e5e888c813424e/US2948718.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/US2762796A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://webview.isho.jp/journal/detail/pdf/10.11477/mf.1406201921",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/hlca.19540370211",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://doi.org/10.1002/hlca.19610440319",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13980868/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S10",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13870089/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The documented founding anticonvulsant route concerns carbamazepine, the sole packet cohort member. Related analogues and other clinical indications were not individually traced.",
+      "S5's introductory historical link is a clinical authors' retrospective, not a discoverer account; its clinical methods and full results were not accessible."
+    ],
+    "conflicts": [
+      "S5 associates Schindler's iminostilbene research and synthesis with 1961, but S3's 1960 patent already describes 5-carbamyl iminostilbene. S1 reports 1953 and S6 reports 1957; exact priority is unresolved.",
+      "S5 dates G26301's activity finding to 1953; S6 cites a 1959 account without specifying whether that was the first finding. S4 had asserted the activity by its 1956 grant.",
+      "S2 implies anticonvulsant recognition followed clinical neuralgia, conflicting with S3's pre-1962 anticonvulsant claim. The first anticonvulsant assay and whether it was surprising remain unverified."
+    ],
+    "gaps": [
+      "Domenjoz and colleagues' original G26301 anticonvulsant test and the laboratory rationale for selecting G32883 were not located or read. Thus the precursor's causal role is inferred rather than directly documented.",
+      "The full 1954 and 1961 chemistry papers, full 1965 clinical series, original 1963 pharmacological paper and 1962 Blom report were not read; the patent pharmacology claims include no underlying protocols or results.",
+      "The exact Domenjoz and Theobald 1959 reference in S6 was not verified; a same-author imipramine paper exists, but has not been shown to be the cited precursor experiment."
+    ]
+  },
+  "nameAliases": [
+    "Carbatrol",
+    "Epitol",
+    "Equetro",
+    "Tegretol"
+  ],
+  "humanContributionInterpretation": {
+    "id": "DIBENZAZEPINE_ANTICONVULSANTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "The search for psychoactive successors with fewer unwanted effects after chlorpromazine included the carbamazepine program.",
+    "scope": "Retrospective program-level account; animal anticonvulsant findings led the epilepsy branch.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Nakken KO, Brodtkorb E. 2017. Chance, serendipity and antiepileptic drugs. Tidsskr Nor Legeforen 137. DOI 10.4045/tidsskr.17.0438.",
+        "url": "https://tidsskriftet.no/en/2017/10/medisinsk-historie/chance-serendipity-and-antiepileptic-drugs",
+        "locator": "Continued development of antipsychotic drugs, first two paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

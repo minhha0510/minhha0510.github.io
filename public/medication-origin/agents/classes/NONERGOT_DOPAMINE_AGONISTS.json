@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NONERGOT_DOPAMINE_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NONERGOT_DOPAMINE_AGONISTS",
+    "name": "Non-ergot dopamine receptor agonists",
+    "medicines": [
+      "ropinirole"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "ropinirole",
+        "components": [
+          "ropinirole"
+        ],
+        "usRank": 142,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Known dopamine-receptor agonist effects of ergot/ergoline drugs stimulated the developers to examine simpler indolone compounds. An active 7-hydroxy indolone with dopamine-like cardiovascular effects was prior art and was used as starting material in one route to the des-hydroxy compound. Separately, apomorphine's observed animal motor effects informed early Parkinson's research.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "endogenous_molecule",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Observed effects of known ergot/ergoline-derived dopamine agonists motivated the indolone program, while dopamine's cardiovascular activity and that of a dopamine-mimicking 7-hydroxy indolone supplied physiological and pharmacological reference points. An independent apomorphine branch followed observed animal motor effects. Ergot agents are historical inspirations, not members of the assigned class.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Researchers observed dopamine-receptor agonism among existing ergot/ergoline compounds and used those working effects as a starting clue for a simpler peripheral D2 agonist.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The 7-hydroxy indolone series showed reported dopamine-like cardiovascular effects; its di-n-propyl congener was developed as an active predecessor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Chemists prepared and tested des-hydroxy indolones, including the compound later called ropinirole; the inventor used the active 7-hydroxy congener in one route and reported retained D2 and cardiovascular effects.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E4",
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The same indolone compound was subsequently investigated for Parkinson's disease, as documented by an early small open clinical study; the reason and timing of the therapeutic shift are not established here.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "In a separate earlier branch, apomorphine's observed effects on animal movement helped motivate clinical investigation in Parkinson's disease; the 1951 clinical observations predated the later dopamine-receptor explanation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The team hypothesized an active ergoline fragment, designed and tested simpler indolones without the full ergot or catechol framework, and prepared a des-hydroxy compound with reported D2 activity. The work created and evaluated a changed molecular architecture for a selective pharmacological goal, not merely a delivery formulation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The named event is the deliberate synthesis and pharmacological testing of indolones as selective peripheral D2 agonists; this does not assert that every result was expected or that the earlier biological clues were planned.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "DeMarinis RM, Gallagher G Jr, et al. Syntheses and in vitro evaluation of 4-(2-aminoethyl)-2(3H)-indolones and related compounds as peripheral prejunctional dopamine receptor agonists. J Med Chem. 1986;29:939-947. DOI: 10.1021/jm00156a010; PMID: 3712384.",
+        "url": "https://doi.org/10.1021/jm00156a010",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Gallagher G Jr. 4-Aminoalkyl-2(3H)-indolones. United States patent US4452808A, issued 1984-06-05.",
+        "url": "https://patents.google.com/patent/US4452808A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Huffman WF, Wilson JW. 4-Aminoalkyl-7-hydroxy-2(3H)-indolones. United States patent US4314944A, issued 1982-02-09.",
+        "url": "https://patents.google.com/patent/US4314944A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Okano H, Yasuda D, Fujimori K, Morimoto S, Takahashi S. Ropinirole, a New ALS Drug Candidate Developed Using iPSCs. Trends Pharmacol Sci. 2020;41:99-109. DOI: 10.1016/j.tips.2019.12.002; PMID: 31926602.",
+        "url": "https://doi.org/10.1016/j.tips.2019.12.002",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Kempster P, Ma A. Parkinson's disease, dopaminergic drugs and the plant world. Front Pharmacol. 2022;13:970714. DOI: 10.3389/fphar.2022.970714; PMID: 36133818.",
+        "url": "https://doi.org/10.3389/fphar.2022.970714",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Kleedorfer B, Stern GM, Lees AJ, Bottomley JM, Sree-Haran N. Ropinirole (SK and F 101468) in the treatment of Parkinson's disease. J Neurol Neurosurg Psychiatry. 1991;54:938. DOI: 10.1136/jnnp.54.10.938; PMID: 1683897.",
+        "url": "https://doi.org/10.1136/jnnp.54.10.938",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Gallagher G Jr, Lavanchy PG, Webster CA, Wilson JW, Hieble JP, DeMarinis RM. 4-[2-(Di-n-propylamino)ethyl]-2(3H)-indolone: a prejunctional dopamine receptor agonist. J Med Chem. 1985;28:1533-1536. DOI: 10.1021/jm00148a028; PMID: 4045928. Author list follows the published erratum.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4045928/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Schwab RS, Amador LV, Lettvin JY. Apomorphine in Parkinson's disease. Trans Am Neurol Assoc. 1951;56:251-253. PMID: 14913646.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14913646/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 940, first paragraph of the introduction after Scheme I"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "Background of the Invention and Description of the Invention"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Description: pharmacological test and cardiovascular results table"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Example 1 and Description: pharmacological testing"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "Figure 2 and caption, PDF p. 6"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "Apomorphine section, paragraph beginning 'As early as 1884'"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S6",
+        "locator": "p. 938, opening paragraph and clinical observations"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S7",
+        "locator": "PubMed abstract, opening sentence"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1021/jm00156a010",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://patents.google.com/patent/US4452808A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US4314944A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1136/jnnp.54.10.938",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/4045928/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14913646/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The documented development route applies to the ropinirole indolone branch; other chemically distinct non-ergot dopamine-agonist lineages cannot be assumed to have the same founding history.",
+      "The independently developed apomorphine branch is summarized from a historical review; no direct parentage to ropinirole is claimed.",
+      "Ergot/ergoline drugs were inspiration, not cohort members or the final non-ergot architecture.",
+      "The original developers described a cardiovascular program, not an initially Parkinson-specific discovery program.",
+      "The retrospective dopamine-analogue depiction (E5) and the developers' stated ergoline-activity stimulus (E1) emphasize different aspects; structural analogy alone does not establish motivation."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The 1985 ropinirole-specific journal report was read only as an abstract; the 1986 primary research and patent passages were read.",
+      "The 1951 Schwab apomorphine report was located by PMID 14913646 but not read; the separate branch is supported by a historical review.",
+      "The sources read do not establish the reason or exact timing of the indolone program's shift from cardiovascular research to Parkinson's disease."
+    ]
+  },
+  "nameAliases": [],
+  "humanContributionInterpretation": {
+    "id": "NONERGOT_DOPAMINE_AGONISTS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "DeMarinis RM, Gallagher G Jr, et al. Syntheses and in vitro evaluation of 4-(2-aminoethyl)-2(3H)-indolones and related compounds as peripheral prejunctional dopamine receptor agonists. J Med Chem. 1986;29:939-947. DOI: 10.1021/jm00156a010; PMID: 3712384.",
+        "url": "https://doi.org/10.1021/jm00156a010",
+        "locator": "p. 940, first paragraph of the introduction after Scheme I",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Gallagher G Jr. 4-Aminoalkyl-2(3H)-indolones. United States patent US4452808A, issued 1984-06-05.",
+        "url": "https://patents.google.com/patent/US4452808A/en",
+        "locator": "Background of the Invention and Description of the Invention",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Gallagher G Jr. 4-Aminoalkyl-2(3H)-indolones. United States patent US4452808A, issued 1984-06-05.",
+        "url": "https://patents.google.com/patent/US4452808A/en",
+        "locator": "Example 1 and Description: pharmacological testing",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Kempster P, Ma A. Parkinson's disease, dopaminergic drugs and the plant world. Front Pharmacol. 2022;13:970714. DOI: 10.3389/fphar.2022.970714; PMID: 36133818.",
+        "url": "https://doi.org/10.3389/fphar.2022.970714",
+        "locator": "Apomorphine section, paragraph beginning 'As early as 1884'",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

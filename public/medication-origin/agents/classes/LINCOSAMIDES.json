@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/LINCOSAMIDES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "LINCOSAMIDES",
+    "name": "Lincosamide antibiotics",
+    "medicines": [
+      "clindamycin"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "clindamycin",
+        "components": [
+          "clindamycin"
+        ],
+        "usRank": 136,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The documented leads were natural antibacterial substances produced by Streptomyces: celesticetin is an earlier structural-family member, while biologically active lincomycin was the direct parent developed into clindamycin. Investigators recovered and assayed these microbial products. The precise first screen and whether celesticetin influenced the lincomycin search remain unestablished.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "Antibacterial microbial metabolites: celesticetin from S. caelestis is an earlier member of the structural family; lincomycin from S. lincolnensis supplied the active parent for clindamycin. Antibacterial assay observations and the natural substance are related but should not be mistaken for a proven narrative of the first screening decision.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E8",
+        "E9",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "An earlier antibacterial product, celesticetin, was recovered from S. caelestis; a historical classification places its first literature report in 1955 and groups it with lincomycin. The two products' causal relationship in the original research program is not established.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "By the 1961 patent filing, the inventors had described the antibacterial microbial product lincomycin, growth of its producing organism, and recovery procedures with antibacterial assays.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A later chemical structure–activity program modified lincomycin, replacing the C-7 hydroxyl by chlorine with stereochemical inversion to obtain clindamycin; the derivative showed improved antibacterial activity and faster absorption than its parent.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately varied the existing active lincomycin structure and produced a stereoinverted C-7 deoxychlorinated derivative, clindamycin; the report compared antibacterial activity and oral absorption with the parent. This was subsequent modification of a working biological lead, not evidence that the family was designed from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The later chemical modification of lincomycin was a planned structure–activity program. Whether the first finding of the natural antibiotic activity was planned or unexpected is not established by the passages read.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Bergy ME, Herr RR, Mason DJ. Antibiotic lincolnensin and method of production. US patent 3,086,912; filed 1961, granted 1963.",
+        "url": "https://patents.google.com/patent/US3086912A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Birkenmeyer RD, Kagan F. Lincomycin. XI. Synthesis and structure of clindamycin. A potent antibacterial agent. J Med Chem. 1970;13(4):616–619. doi:10.1021/jm00298a007. PMID:4916317.",
+        "url": "https://doi.org/10.1021/jm00298a007",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Mason JD, Terwilliger DW, Pote AR, Myers AG. Practical gram-scale synthesis of iboxamycin, a potent antibiotic candidate. J Am Chem Soc. 2021;143:11019–11025. doi:10.1021/jacs.1c03529.",
+        "url": "https://doi.org/10.1021/jacs.1c03529",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Conover LH. Discovery of drugs from microbiological sources. In: Drug Discovery: Science and Development in a Changing Society. Advances in Chemistry Series 108. American Chemical Society; 1971:33–80. doi:10.1021/ba-1971-0108.ch003.",
+        "url": "https://doi.org/10.1021/ba-1971-0108.ch003",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Hoeksema H, Hinman JW. Celesticetin. III. The partial structure. J Am Chem Soc. 1964;86(22):4979–4982. doi:10.1021/ja01076a048.",
+        "url": "https://doi.org/10.1021/ja01076a048",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Mason DJ, Dietz A, DeBoer C. Lincomycin, a new antibiotic. I. Discovery and biological properties. Antimicrobial Agents and Chemotherapy—1962. Ann Arbor: Braun-Brumfield; 1963:554–559. Located via later reference lists; original not read.",
+        "url": "https://lpsn.dsmz.de/species/streptomyces-lincolnensis",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "De Boer C, Dietz A, Hoeksema H. Celesticetin, its salts and method of preparation. US patent 2,928,844; filed 1958, granted 1960.",
+        "url": "https://patents.google.com/patent/US2928844A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "De Boer C, Dietz A, Wilkins JR, Lewis CN, Savage GM. Celesticetin—a new crystalline antibiotic. I. Biologic studies of celesticetin. Antibiotics Annual 1954–1955. 1955:831–836. Located via NCBI taxonomy bibliography; original not read.",
+        "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=36816",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Column 1, introductory description; patent PDF page 3"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Columns 5–6, Example 1 and assay footnote; patent PDF page 5"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Patent front matter and column 1"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Page 616, introductory discussion of the lincomycin modification program"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Page 618, biological activity discussion"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "Page 11019, Introduction and Background, first paragraph"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Page 11019, Introduction and Background, first paragraph"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Approximately page 40, Table III, lincomycin-class row"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "Page 4979, introduction, and page 4980, Experimental: isolation of celesticetin"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S8",
+        "locator": "Column 1, introductory description; patent PDF page 5"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://patents.google.com/patent/US3086912A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1021/jm00298a007",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1021/ja01076a048",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://lpsn.dsmz.de/species/streptomyces-lincolnensis",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=36816",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://patents.google.com/patent/US2928844A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The direct parent-to-product development demonstrated here is lincomycin to the cohort member clindamycin; celesticetin is an earlier related microbial antibiotic, not a demonstrated chemical precursor of lincomycin.",
+      "The two microbial-product observations are observation-led branches under the approved category; they are not a mixed origin merely because clindamycin was later made semisynthetically.",
+      "Priority depends on whether founding member means earliest structural-family member or the first clinically useful member used to develop this cohort lineage. The sources support the distinction, not an unconditional claim that lincomycin was chronologically first."
+    ],
+    "conflicts": [
+      "S3 calls lincomycin the founding class member and dates its isolation to 1963. S4 instead assigns the 1955 structural-class first literature report to celesticetin; S1 describes lincomycin in a patent filed in 1961. Differences in clinical versus structural definition may explain the priority contrast, but cannot reconcile 1963 as the first lincomycin isolation with the prior filing."
+    ],
+    "gaps": [
+      "S6, the original lincomycin discovery and biological-properties report, was located but not read; the precise first screen, initial observation and investigator intent are not established.",
+      "S7, the original celesticetin biological report, was located only as metadata. The original isolation and selection sequence remains unverified.",
+      "No source read establishes whether the earlier celesticetin work motivated or guided the separate lincomycin discovery."
+    ]
+  },
+  "nameAliases": [
+    "ANTIROBE",
+    "Cleocin",
+    "Cleocin-T",
+    "Clinda-Guard",
+    "Clindacin",
+    "ClindaCure",
+    "Clindagel",
+    "Clindamax",
+    "Clindesse",
+    "Clintabs",
+    "Xaciato",
+    "Zydaclin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "LINCOSAMIDES",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Bergy ME, Herr RR, Mason DJ. Antibiotic lincolnensin and method of production. US patent 3,086,912; filed 1961, granted 1963.",
+        "url": "https://patents.google.com/patent/US3086912A/en",
+        "locator": "Column 1, introductory description; patent PDF page 3",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Bergy ME, Herr RR, Mason DJ. Antibiotic lincolnensin and method of production. US patent 3,086,912; filed 1961, granted 1963.",
+        "url": "https://patents.google.com/patent/US3086912A/en",
+        "locator": "Columns 5–6, Example 1 and assay footnote; patent PDF page 5",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Birkenmeyer RD, Kagan F. Lincomycin. XI. Synthesis and structure of clindamycin. A potent antibacterial agent. J Med Chem. 1970;13(4):616–619. doi:10.1021/jm00298a007. PMID:4916317.",
+        "url": "https://doi.org/10.1021/jm00298a007",
+        "locator": "Page 616, introductory discussion of the lincomycin modification program",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Conover LH. Discovery of drugs from microbiological sources. In: Drug Discovery: Science and Development in a Changing Society. Advances in Chemistry Series 108. American Chemical Society; 1971:33–80. doi:10.1021/ba-1971-0108.ch003.",
+        "url": "https://doi.org/10.1021/ba-1971-0108.ch003",
+        "locator": "Approximately page 40, Table III, lincomycin-class row",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Hoeksema H, Hinman JW. Celesticetin. III. The partial structure. J Am Chem Soc. 1964;86(22):4979–4982. doi:10.1021/ja01076a048.",
+        "url": "https://doi.org/10.1021/ja01076a048",
+        "locator": "Page 4979, introduction, and page 4980, Experimental: isolation of celesticetin",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E10",
+        "citation": "De Boer C, Dietz A, Hoeksema H. Celesticetin, its salts and method of preparation. US patent 2,928,844; filed 1958, granted 1960.",
+        "url": "https://patents.google.com/patent/US2928844A/en",
+        "locator": "Column 1, introductory description; patent PDF page 5",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

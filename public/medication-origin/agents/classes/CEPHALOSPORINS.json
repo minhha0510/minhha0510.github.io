@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/CEPHALOSPORINS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "CEPHALOSPORINS",
+    "name": "Cephalosporins",
+    "medicines": [
+      "cefalexin"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "cefalexin",
+        "components": [
+          "cefalexin"
+        ],
+        "usRank": 83,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A planned search prompted by a microbial-antagonism hypothesis produced a fungus whose culture inhibited bacteria. Researchers developed its biologically active products; cephalosporin C emerged as a minor, initially chemically recognized contaminant while penicillin N from the same fungus was being studied.",
+      "support": "documented",
+      "evidence_ids": [
+        "E10",
+        "E2",
+        "E3"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Antibacterial activity from a naturally occurring fungal culture, followed by the isolation and biological testing of cephalosporin C. Water self-purification was the initial hypothesis motivating sampling, not an established mechanism.",
+      "support": "documented",
+      "evidence_ids": [
+        "E10",
+        "E3"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Brotzu's targeted search found a fungal culture whose products inhibited bacteria; he investigated and transferred the organism for further work.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10",
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Oxford work separated multiple products. Penicillin N was credited with most of Brotzu's observed activity; cephalosporin C was detected as a minor contaminant and subsequently shown to be antibacterial.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E5"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Investigators studied C's penicillinase resistance and obtained 7-ACA by modifying C; side-chain changes and improved production led to clinically useful derivatives.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The class also developed 7-ADCA derivatives such as cefalexin; later primary chemistry documents describe penicillin ring-expansion routes rather than a necessary direct conversion from 7-ACA.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers selected higher-yield fungal strains, isolated and characterized cephalosporin C, prepared its 7-ACA nucleus and introduced new side chains to obtain more active semisynthetic compounds. Later chemistry also used penicillin ring expansion to access 7-ADCA-related cephalosporin structures.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E6",
+        "E9"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Brotzu's search for antibiotic-producing organisms was planned; Abraham later described C's discovery and preparation of its nucleus among unforeseen developments, and C first appeared as a minor contaminant during study of penicillin N. This concerns those particular events, not every subsequent discovery.",
+      "support": "documented",
+      "evidence_ids": [
+        "E10",
+        "E3",
+        "E12"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Abraham EP, Loder PB. 1972. Cephalosporin C. In Flynn EH, ed. Cephalosporins and Penicillins: Chemistry and Biology. Academic Press, pp. 1–26. Book DOI 10.1016/C2013-0-10674-5; ISBN 9780122614507.",
+        "url": "https://api.pageplace.de/preview/DT0400.9781483270173_A23871809/preview-9781483270173_A23871809.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Abraham EP. 1990. Oxford, Howard Florey, and World War II. In Moberg CL, Cohn ZA, eds. Launching the Antibiotic Era. Rockefeller University Press, pp. 19–30. ISBN 0-87470-047-7.",
+        "url": "https://books.rupress.org/sites/books.rupress.org/files/ebooks/9780874700671.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Newton GGF, Abraham EP. Cephalosporin C, a New Antibiotic containing Sulphur and D-α-Aminoadipic Acid. Nature. 1955;175:548. DOI 10.1038/175548a0; PMID 14370161.",
+        "url": "https://doi.org/10.1038/175548a0",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Loder B, Newton GGF, Abraham EP. The cephalosporin C nucleus (7-aminocephalosporanic acid) and some of its derivatives. Biochem J. 1961;79(2):408–416. DOI 10.1042/bj0790408; PMID 13763020; PMCID PMC1205853.",
+        "url": "https://portlandpress.com/biochemj/article-pdf/79/2/408/698876/bj0790408.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Lin X, Kück U. Cephalosporins as key lead generation beta-lactam antibiotics. Appl Microbiol Biotechnol. 2022;106:8007–8020. DOI 10.1007/s00253-022-12272-8; PMID 36401643; PMCID PMC9712332.",
+        "url": "https://d-nb.info/1372378286/34",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Gottstein WJ, Cheney LC. Novel syntheses of cephalexin and intermediates therefor. US Patent 3,714,146; published 1973-01-30; filed 1970-10-05.",
+        "url": "https://patents.google.com/patent/US3714146A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Brotzu G. Ricerche su di un nuovo antibiotico. Lavori dell'Istituto d'Igiene di Cagliari. 1948:1–11. Archived English translation, Research on a new antibiotic, printed pp. 5–19, translator and date unidentified; fragmentary copy.",
+        "url": "https://web.archive.org/web/20240413140537id_/http://pacs.unica.it/pacs/brotzuen.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 3–5, History of Development, Isolation of the Cephalosporium sp. in Sardinia"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "p. 28, final paragraph on the original Sardinian organism and penicillin N"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "pp. 28–29, discovery of cephalosporin C and separation of the contaminant"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "pp. 8–11, Chemical Studies and Work in Pharmaceutical Companies"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "publisher-displayed abstract"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "pp. 408–409 rationale; pp. 414–416 results and discussion"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "p. 8014, Chemoenzymatic conversion from CPC to 7-ACA"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "pp. 8008–8009, Cephalosporin antibiotics"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S6",
+        "locator": "Background of the Invention, paragraphs on prior art and penicillin sulfoxide rearrangement; Abstract"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S7",
+        "locator": "English translation printed p. 7, PDF page 2, Studies on a new fungus"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S7",
+        "locator": "English translation printed p. 11, PDF page 4, Characteristics of the antibiotic principle"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S2",
+        "locator": "p. 27, final paragraph; p. 29, first paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://api.pageplace.de/preview/DT0400.9781483270173_A23871809/preview-9781483270173_A23871809.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://books.rupress.org/sites/books.rupress.org/files/ebooks/9780874700671.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1038/175548a0",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://portlandpress.com/biochemj/article-pdf/79/2/408/698876/bj0790408.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://web.archive.org/web/20240413140537id_/http://pacs.unica.it/pacs/brotzuen.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "Brotzu's initial crude fungal activity should not be assumed to have been due to isolated cephalosporin C; Oxford distinguished several products of the same fungus.",
+      "Cefalexin is associated with 7-ADCA, not necessarily direct manufacture from the 7-ACA in the 1961 experimental report [E7–E9]. A later patent describes penicillin ring-expansion routes but does not establish earliest priority or universal commercial practice.",
+      "The class is the unit; cefalexin is the cohort member, and generations do not define separate classes."
+    ],
+    "conflicts": [
+      "E8 attributes discovery of cephalosporin C to Brotzu in 1945; E11 reports that his chemical composition remained unknown in 1948, and E2–E3 and E5 distinguish his fungus from later Oxford separation of C. The contemporaneous report and detailed discoverer account are favored for chronology; the 1955 abstract establishes separation by publication but does not itself date first detection."
+    ],
+    "gaps": [
+      "The Italian original of Brotzu's 1948 report was not read; the archived English translation has an unidentified translator and date and contains only printed odd-numbered pages 5–19.",
+      "The 1955 Nature report was read only at publisher-abstract level.",
+      "The first synthesis priority and actual commercial manufacturing route for cefalexin were not reconstructed; these are not needed for the class-origin classification."
+    ]
+  },
+  "nameAliases": [
+    "Keflex",
+    "Rilexine",
+    "cephalexin"
+  ],
+  "humanContributionInterpretation": {
+    "id": "CEPHALOSPORINS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E10",
+        "citation": "Brotzu G. Ricerche su di un nuovo antibiotico. Lavori dell'Istituto d'Igiene di Cagliari. 1948:1–11. Archived English translation, Research on a new antibiotic, printed pp. 5–19, translator and date unidentified; fragmentary copy.",
+        "url": "https://web.archive.org/web/20240413140537id_/http://pacs.unica.it/pacs/brotzuen.pdf",
+        "locator": "English translation printed p. 7, PDF page 2, Studies on a new fungus",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Abraham EP. 1990. Oxford, Howard Florey, and World War II. In Moberg CL, Cohn ZA, eds. Launching the Antibiotic Era. Rockefeller University Press, pp. 19–30. ISBN 0-87470-047-7.",
+        "url": "https://books.rupress.org/sites/books.rupress.org/files/ebooks/9780874700671.pdf",
+        "locator": "p. 28, final paragraph on the original Sardinian organism and penicillin N",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Abraham EP. 1990. Oxford, Howard Florey, and World War II. In Moberg CL, Cohn ZA, eds. Launching the Antibiotic Era. Rockefeller University Press, pp. 19–30. ISBN 0-87470-047-7.",
+        "url": "https://books.rupress.org/sites/books.rupress.org/files/ebooks/9780874700671.pdf",
+        "locator": "pp. 28–29, discovery of cephalosporin C and separation of the contaminant",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

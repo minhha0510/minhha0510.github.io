@@ -1,0 +1,412 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/VITAMIN_B12",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "VITAMIN_B12",
+    "name": "Vitamin B12 preparations",
+    "medicines": [
+      "cyanocobalamin",
+      "hydroxocobalamin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "cyanocobalamin",
+        "components": [
+          "cyanocobalamin"
+        ],
+        "usRank": 118,
+        "englandRank": 105,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "hydroxocobalamin",
+        "components": [
+          "hydroxocobalamin"
+        ],
+        "usRank": null,
+        "englandRank": 91,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A liver-rich diet accelerated blood regeneration after experimental blood loss in dogs. Minot and Murphy's stated rationale also included earlier clinical dietary work and their own preliminary patient observations; they investigated a liver-rich mixed diet for pernicious anemia and reported remissions.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E15"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Liver feeding enhanced blood regeneration in an experimentally hemorrhaged dog model; previous clinical diet work and the clinicians' preliminary patient observations also informed their investigation. The ensuing human liver-diet responses supplied the therapeutic lead. Later interpretation attributes much of the dog result to iron rather than B12. The original researchers did not know the vitamin's identity when they started.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E7",
+        "E15"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Whipple and colleagues reported that liver improved blood regeneration in repeatedly bled dogs. Minot and Murphy linked that work, preceding clinical diet reports and their own preliminary human observations to a planned liver-rich diet investigation for pernicious anemia; Castle later attributed the dog response primarily to available dietary iron.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E7",
+          "E15"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Minot and Murphy reported prompt blood and clinical improvement in a 45-patient observational series after a liver-rich mixed diet, while noting spontaneous remissions and limits of the comparisons; the chemical anti-anemia factor was then unknown.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Researchers extracted and fractionated liver activity, testing patient responses. Smith's group tracked clinical activity into a pink chromatographic fraction, removed impurities and crystallized the active substance; he reported an independent contemporaneous Merck isolation and clinical responses to the purified material.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5",
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Later accounts identify the crystalline anti-pernicious-anemia factor as cyanocobalamin. Processing could select or produce that particular cobalamin form, so the form of the crystal is not proof that it predominated unchanged in the original liver.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Separate animal-nutrition observations suggested microbial production and a fermentation source. Smith also reported other clinically active red factors while their relationships remained uncertain. The inventors' patent later described the hydroxy analogue, vitamin B12a, made from known active B12 or separated from fermentation concentrates; it asserts, but does not detail, clinical responses.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E12",
+          "E13",
+          "E14"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Investigators developed and clinically tested concentrated liver fractions, used chromatography and other purification steps to isolate crystals, and later described catalytic conversion of the established active B12 into a hydroxy analogue as well as separation of that analogue from fermentation concentrates. Cyanocobalamin and hydroxocobalamin differ in a cobalt-bound substituent; the patent's modification is a chemical change, not just a delivery reformulation. Neither this modification nor selection of a stable isolation form establishes the activity as designed from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E8",
+        "E10",
+        "E11",
+        "E12"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Minot and Murphy deliberately investigated a liver-rich diet in pernicious anemia after the animal work, preceding clinical diet reports and their preliminary patient observations. This describes that particular investigation, not whether all subsequent discoveries were planned.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E15"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Minot GR, Murphy WP. Treatment of pernicious anemia by a special diet. JAMA. 1926;87(7):470–476. DOI: 10.1001/jama.1926.02680070016005.",
+        "url": "https://www.jameslindlibrary.org/wp-data/uploads/2010/05/Minot_GR_Murphy_WP_1926.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Smith EL. Crystalline anti-pernicious-anaemia factor. Br Med J. 1949;2(4641):1367–1369. DOI: 10.1136/bmj.2.4641.1367; PMID: 15397500.",
+        "url": "https://www.bmj.com/content/bmj/2/4641/1367.full.pdf",
+        "role": "discoverer_account",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Castle WB. George Richards Minot, 1885–1950: A Biographical Memoir. Washington, DC: National Academy of Sciences; 1974, pp. 348–353.",
+        "url": "https://www.nasonline.org/wp-content/uploads/2024/06/minot-george.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Matthews DM, Linnell JC. Vitamin B12: an area of darkness. Br Med J. 1979;2(6189):533–535. DOI: 10.1136/bmj.2.6189.533; PMID: 497676.",
+        "url": "https://www.bmj.com/content/bmj/2/6189/533.full.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Kaczka EA, Wolf DE, Folkers K. Hydroxy analog of vitamin B12 and processes for preparing the same. US patent 2,738,301. Filed 20 July 1950; issued 13 March 1956.",
+        "url": "https://patentimages.storage.googleapis.com/c9/c9/42/e45d385a7e6b45/US2738301.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Rickes EL, Brink NG, Koniuszy FR, Wood TR, Folkers K. Crystalline Vitamin B12. Science. 1948;107(2781):396–397. DOI: 10.1126/science.107.2781.396; PMID: 17783930.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17783930/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "West R. Activity of Vitamin B12 in Addisonian Pernicious Anemia. Science. 1948;107(2781):398. DOI: 10.1126/science.107.2781.398; PMID: 17783932.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/17783932/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Kaczka E, Wolf DE, Folkers K. Vitamin B12. V. Identification of crystalline vitamin B12a. J Am Chem Soc. 1949;71(4):1514–1515. DOI: 10.1021/ja01172a527.",
+        "url": "https://pubs.acs.org/doi/10.1021/ja01172a527",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Smith EL. Purification of anti-pernicious anaemia factors from liver. Nature. 1948;161(4095):638. DOI: 10.1038/161638a0; PMID: 18856623.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/18856623/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 472, Material Studied and Observations, opening paragraph; p. 471, discussion of Whipple and Robscheit-Robbins"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "pp. 473 and 475, results and discussion"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 1367, A Review of Earlier Work, first paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 1368, Partition Chromatography, last two paragraphs and The Active Red Factor"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 1368, discussion immediately before Partition Chromatography"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 1369, Three Interesting Points, third point"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "pp. 348–349, Whipple's experiments with repeatedly bled dogs"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 352, fractionation of the liver activity"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "p. 353, crystallization after liver fractionation"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "p. 533, Historical background"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S4",
+        "locator": "pp. 533–534, Historical background and Structure of cobalamins"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "printed cols. 1–4 and 11, introduction, preparation and claim 1"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S5",
+        "locator": "printed cols. 5–6, discussion of biological and clinical activity"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S2",
+        "locator": "p. 1369, Three Interesting Points, first point"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S1",
+        "locator": "p. 472, paragraph immediately before Material Studied and Observations; p. 470, reference 11"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1001/jama.1926.02680070016005",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1136/bmj.2.4641.1367",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.nasonline.org/wp-content/uploads/2024/06/minot-george.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://patentimages.storage.googleapis.com/c9/c9/42/e45d385a7e6b45/US2738301.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1126/science.107.2781.396",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://doi.org/10.1126/science.107.2781.398",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://doi.org/10.1021/ja01172a527",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://doi.org/10.1038/161638a0",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The founding liver-treatment and crystallization history directly supports the cobalamin replacement class and cyanocobalamin. A patent describes a hydroxy analogue developed from the known active vitamin or separated from fermentation concentrates; the exact first clinical preparation and earliest use of hydroxocobalamin were not established.",
+      "The chick/animal-protein-factor research is an additional observation-led source-and-assay route; Smith's 1949 account described its identity with B12 as likely. It is not treated as a separate design-from-scratch therapeutic founding.",
+      "Smith reported other clinically active red liver factors and the name B12b while their precise chemical relationship was uncertain in 1949. This record does not settle all early B12a/B12b nomenclature, independent discovery priorities, or claim that the 1956 patent proves first clinical use.",
+      "The class boundary is the supplied shared replacement history for cyanocobalamin and hydroxocobalamin. Claims about present manufacturing processes or current comparative clinical use are outside scope."
+    ],
+    "conflicts": [
+      "Minot and Murphy's 1926 discussion proposed that something in protein-rich foods was especially important, and their hypothesis was influenced by bled dogs. Castle's 1974 retrospective says available dietary iron was the principal influence in that dog model. The different historical interpretations need not negate either observation: the dog model supplied a clue, not proof that B12 mediated its effect."
+    ],
+    "gaps": [
+      "The original animal experiments and Gibson and Howard's 1923 clinical diet report were not independently read; the investigators' stated motivation and Castle's later interpretation are read accounts, not a reanalysis of those studies.",
+      "The 1948 Merck crystallization report, West clinical report, and Smith original isolation paper, and the 1949 B12a identification report were located by exact citation but not read. Attributions here rely on the read 1949 Smith account, 1974 Castle memoir, 1979 review and inventor patent, not on titles or inaccessible originals.",
+      "A detailed primary clinical study and the first development/adoption chronology for hydroxocobalamin were not established. The inventor patent reports clinical use without sufficient study detail to adjudicate priority or comparative clinical efficacy."
+    ]
+  },
+  "nameAliases": [
+    "Cyanokit",
+    "Dodex",
+    "Nascobal",
+    "vitamin B12"
+  ],
+  "humanContributionInterpretation": {
+    "id": "VITAMIN_B12",
+    "group": "documented",
+    "contribution": "patient_clue",
+    "summary": "Remission of pernicious anemia during liver-rich dietary treatment supplied human activity for the search for an effective factor.",
+    "scope": "Deliberate human treatment series and earlier dog experiments were involved; this is not exclusively noninterventional.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Minot GR, Murphy WP. Treatment of pernicious anemia by a special diet. JAMA. 1926;87(7):470–476. DOI: 10.1001/jama.1926.02680070016005.",
+        "url": "https://www.jameslindlibrary.org/wp-data/uploads/2010/05/Minot_GR_Murphy_WP_1926.pdf",
+        "locator": "p. 472, Material Studied and Observations, opening paragraph; p. 471, discussion of Whipple and Robscheit-Robbins",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Minot GR, Murphy WP. Treatment of pernicious anemia by a special diet. JAMA. 1926;87(7):470–476. DOI: 10.1001/jama.1926.02680070016005.",
+        "url": "https://www.jameslindlibrary.org/wp-data/uploads/2010/05/Minot_GR_Murphy_WP_1926.pdf",
+        "locator": "pp. 473 and 475, results and discussion",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E3",
+        "citation": "Smith EL. Crystalline anti-pernicious-anaemia factor. Br Med J. 1949;2(4641):1367–1369. DOI: 10.1136/bmj.2.4641.1367; PMID: 15397500.",
+        "url": "https://www.bmj.com/content/bmj/2/4641/1367.full.pdf",
+        "locator": "p. 1367, A Review of Earlier Work, first paragraph",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E4",
+        "citation": "Smith EL. Crystalline anti-pernicious-anaemia factor. Br Med J. 1949;2(4641):1367–1369. DOI: 10.1136/bmj.2.4641.1367; PMID: 15397500.",
+        "url": "https://www.bmj.com/content/bmj/2/4641/1367.full.pdf",
+        "locator": "p. 1368, Partition Chromatography, last two paragraphs and The Active Red Factor",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E8",
+        "citation": "Castle WB. George Richards Minot, 1885–1950: A Biographical Memoir. Washington, DC: National Academy of Sciences; 1974, pp. 348–353.",
+        "url": "https://www.nasonline.org/wp-content/uploads/2024/06/minot-george.pdf",
+        "locator": "p. 352, fractionation of the liver activity",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E15",
+        "citation": "Minot GR, Murphy WP. Treatment of pernicious anemia by a special diet. JAMA. 1926;87(7):470–476. DOI: 10.1001/jama.1926.02680070016005.",
+        "url": "https://www.jameslindlibrary.org/wp-data/uploads/2010/05/Minot_GR_Murphy_WP_1926.pdf",
+        "locator": "p. 472, paragraph immediately before Material Studied and Observations; p. 470, reference 11",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

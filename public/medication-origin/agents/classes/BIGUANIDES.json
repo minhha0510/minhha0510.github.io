@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/BIGUANIDES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "BIGUANIDES",
+    "name": "Biguanide glucose-lowering agents",
+    "medicines": [
+      "metformin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "metformin",
+        "components": [
+          "metformin"
+        ],
+        "usRank": 3,
+        "englandRank": 9,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Observed glucose-lowering effects of guanidine-related compounds and prior galegine experience, alongside flumamine evidence and purposeful follow-up testing, informed the later development of a useful biguanide therapy. The disputed influenza-patient measurement remains unresolved.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E7",
+        "E9",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Galegine and other guanidine-related glucose-lowering observations informed the historical context; the later selection also used experimental effects of synthetic biguanides and prior flumamine experience.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Guanidine and plant-associated galegine were reported to lower glucose, with galegine and synthalin trialed therapeutically before toxicity limited their use. A 1928 experimental article describes further comparative animal investigation of guanidine derivatives prompted by the prior observations.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A parallel chemical history yielded biguanides; metformin and other biguanides were reported to lower glucose in animal studies in 1929.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Sterne and Duval reassessed the flumamine and galegine history, studied several compounds in animals, and selected metformin for clinical investigation; Sterne reported diabetes treatment in 1957.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Other groups investigated guanidine derivatives in the 1950s; contemporary phenformin and buformin reports illustrate parallel work within the class, without establishing each group's motivating clue here.",
+        "support": "documented",
+        "evidence_ids": [
+          "E11"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers synthesized and compared guanidine-related biguanides, tested their glucose-lowering activity and tolerability, and selected metformin for clinical development; the individual historical synthesis papers remain to be checked.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E4"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Sterne and Duval's comparative animal investigation and selection of metformin for diabetes studies were purposeful; this does not characterize the initial finding of every preceding observation.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Bailey CJ. Metformin: historical overview. Diabetologia. 2017;60:1566–1576. DOI: 10.1007/s00125-017-4318-z; PMID: 28776081.",
+        "url": "https://doi.org/10.1007/s00125-017-4318-z",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Dronsfield A, Ellis P. Drug discovery: metformin and the control of diabetes. Education in Chemistry. November 2011:185–187.",
+        "url": "https://www.rsc.org/images/EIC_Nov2011_Metformin_tcm18-210010.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Kumagai T, Kawai S-I, Shikinami Y. Über die Guanidinderivate, welche auf den Blutzucker senkend wirken. Proceedings of the Imperial Academy. 1928;4(1):23–26. DOI: 10.2183/pjab1912.4.23.",
+        "url": "https://doi.org/10.2183/pjab1912.4.23",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Werner EA, Bell J. CCXIV.—The preparation of methylguanidine, and of ββ-dimethylguanidine by the interaction of dicyanodiamide, and methylammonium and dimethylammonium chlorides respectively. J Chem Soc Trans. 1922;121:1790–1794. DOI: 10.1039/CT9222101790.",
+        "url": "https://doi.org/10.1039/CT9222101790",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Garcia EY. Flumamine, a new synthetic analgesic and anti-flu drug. J Philipp Med Assoc. 1950;26(7):287–293. PMID: 14779282.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14779282/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Slotta KH, Tschesche R. Über Biguanide, II.: Die blutzucker-senkende Wirkung der Biguanide. Ber Dtsch Chem Ges A/B. 1929;62(6):1398–1405. DOI: 10.1002/cber.19290620605.",
+        "url": "https://doi.org/10.1002/cber.19290620605",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Sterne J. [Blood sugar-lowering effect of 1,1-dimethylbiguanide]. Therapie. 1958;13(4):650–659. French. PMID: 13603402; PubMed supplies an English title translation.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13603402/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Author manuscript p. 3, Herbal history, last paragraph."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Author manuscript pp. 3–4, From Galega to biguanides."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Author manuscript p. 4, Step forward Jean Sterne, first paragraph."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Author manuscript p. 4, Step forward Jean Sterne, first paragraph."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S1",
+        "locator": "Author manuscript p. 4, Step forward Jean Sterne, second paragraph."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 186, Flu in the Philippines, sentence immediately following the quotation from García."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "p. 186, Diabetes treatment, opening paragraph."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S2",
+        "locator": "p. 186, The malaria connection, end of second column."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "p. 23, opening paragraph and footnotes 1–2."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S3",
+        "locator": "pp. 23–25, rationale, experimental methods, and comparative discussion."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S1",
+        "locator": "Author manuscript p. 5, The biguanide opportunity, first paragraph."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.2183/pjab1912.4.23",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1039/CT9222101790",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14779282/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1002/cber.19290620605",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/13603402/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The botanical, synthetic-chemical and antimalarial/influenza histories must not be reduced to a claim that metformin was isolated from the plant.",
+      "The separate antimalarial strand included animal observations; its molecular design purpose should not be conflated with the later founding of diabetes therapy.",
+      "The 1929 biguanide animal studies and the 1950s metformin program are historically distinct; Bailey says Sterne and Duval did not know the earlier work. Other groups reported phenformin and buformin in the 1950s, but this collection does not establish each group's initial rationale. The classification is grounded in the founding class history and metformin, not an independent biography of each agent."
+    ],
+    "conflicts": [
+      "Bailey 2017 says some influenza patients given flumamine experienced lower blood glucose. Dronsfield and Ellis 2011 say García proposed such an effect without reporting any patient blood-glucose measurements, although they elsewhere describe his comment as if it reported an effect. García's original remains unread; the measurement claim is unresolved."
+    ],
+    "gaps": [
+      "The 1928 experimental report documents a precursor line, not a direct molecular or personal link to Sterne's program.",
+      "Werner and Bell's 1922 paper was located by publisher metadata but the full text was inaccessible; its title alone does not establish the claimed synthesis or any diabetes intent.",
+      "García's 1950 original was located in PubMed without an abstract; direct access is needed to resolve the conflicting glucose-measurement accounts.",
+      "The original 1929 Slotta and Tschesche report and Sterne's 1957 clinical report and 1958 follow-up remain unread; historical assertions about them are attributed to read secondary sources."
+    ]
+  },
+  "nameAliases": [
+    "Glucophage",
+    "Glumetza",
+    "Riomet"
+  ],
+  "humanContributionInterpretation": {
+    "id": "BIGUANIDES",
+    "group": "unresolved",
+    "contribution": "uncertain",
+    "summary": "Earlier flumamine or galegine clinical experience may have informed metformin development.",
+    "scope": "Accounts disagree about the glucose observation and do not establish an unambiguous patient clue initiating the program.",
+    "references": [
+      {
+        "id": "E3",
+        "citation": "Bailey CJ. Metformin: historical overview. Diabetologia. 2017;60:1566–1576. DOI: 10.1007/s00125-017-4318-z; PMID: 28776081.",
+        "url": "https://doi.org/10.1007/s00125-017-4318-z",
+        "locator": "Author manuscript p. 4, Step forward Jean Sterne, first paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Bailey CJ. Metformin: historical overview. Diabetologia. 2017;60:1566–1576. DOI: 10.1007/s00125-017-4318-z; PMID: 28776081.",
+        "url": "https://doi.org/10.1007/s00125-017-4318-z",
+        "locator": "Author manuscript p. 4, Step forward Jean Sterne, first paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Dronsfield A, Ellis P. Drug discovery: metformin and the control of diabetes. Education in Chemistry. November 2011:185–187.",
+        "url": "https://www.rsc.org/images/EIC_Nov2011_Metformin_tcm18-210010.pdf",
+        "locator": "p. 186, Diabetes treatment, opening paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

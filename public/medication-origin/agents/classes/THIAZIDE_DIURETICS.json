@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/THIAZIDE_DIURETICS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "THIAZIDE_DIURETICS",
+    "name": "Thiazide and thiazide-like diuretics",
+    "medicines": [
+      "bendroflumethiazide",
+      "chlorthalidone",
+      "hydrochlorothiazide",
+      "indapamide"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "bendroflumethiazide",
+        "components": [
+          "bendroflumethiazide"
+        ],
+        "usRank": null,
+        "englandRank": 58,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "chlorthalidone",
+        "components": [
+          "chlorthalidone"
+        ],
+        "usRank": 124,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "hydrochlorothiazide",
+        "components": [
+          "hydrochlorothiazide"
+        ],
+        "usRank": 18,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "hydrochlorothiazide + lisinopril",
+        "components": [
+          "hydrochlorothiazide",
+          "lisinopril"
+        ],
+        "usRank": 74,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "hydrochlorothiazide + losartan",
+        "components": [
+          "hydrochlorothiazide",
+          "losartan"
+        ],
+        "usRank": 89,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "hydrochlorothiazide + triamterene",
+        "components": [
+          "hydrochlorothiazide",
+          "triamterene"
+        ],
+        "usRank": 134,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "indapamide",
+        "components": [
+          "indapamide"
+        ],
+        "usRank": null,
+        "englandRank": 45,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "An earlier report of sulfanilamide-associated diuresis and acidemia supplied background for carbonic-anhydrase-inhibitor research, according to a later review. In Beyer's directed salt-excreting programme, a carboxyl-substituted synthetic sulfanilamide analogue yielded chloride excretion; Beyer identifies this observed lead as the reason for more work on saluretic sulfonamides, culminating in chlorothiazide.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Renal salt and water physiology informed the therapeutic objective; observations of sulfanilamide-associated diuresis and of a synthetic analogue's chloride-excreting effect supplied background and a specific working lead, respectively.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A later review traces the research background to an observed diuretic effect and acidemia with sulfanilamide and subsequent carbonic anhydrase work. Beyer's team sought a practical oral agent to promote salt and water excretion, guided by physiological reasoning and comparative renal testing.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E4",
+          "E10"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "A carboxyl-substituted sulfanilamide analogue caused chloride excretion, strengthening the work on saluretic sulfonamides.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Structure–activity research in that line culminated in chlorothiazide; the original chemistry report describes synthesizing the benzothiadiazine series and their saluretic effects, and subsequent work included hydrochlorothiazide.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The family came to include thiazides such as bendroflumethiazide and hydrochlorothiazide and structurally diverse thiazide-like sulfonamides such as chlorthalidone and indapamide, which lack the benzothiadiazine ring; a review summarizes their development together without supplying each programme's founding steps.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "In a distinct thiazide-like example, a 1961 clinical study identified chlorthalidone as a Geigy sulphonyl benzophenone derivative and described a longer-acting sodium- and chloride-excreting response similar to chlorothiazide; this is evidence of the established branch, not its founding rationale.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers set a salt-excretion objective, made and compared sulfanilamide analogues, measured renal responses, and developed the saluretic lead into sulfamylbenzothiadiazine structures including chlorothiazide and related thiazides.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Beyer describes a deliberate programme seeking salt excretion. A later review calls the earlier sulfanilamide observation accidental and the chloride-versus-bicarbonate effect of chlorothiazide unexpected. The exact expectations at each experimental stage are not resolved by these differing accounts.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E10",
+        "E11"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Beyer KH Jr. 1977. A Career or Two. Annual Review of Pharmacology and Toxicology 17:1–10. DOI 10.1146/annurev.pa.17.040177.000245.",
+        "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev.pa.17.040177.000245",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Novello FC, Bell SC, Abrams ELA, Ziegler C, Sprague JM. 1960. Diuretics: 1,2,4-Benzothiadiazine-1,1-dioxides. Journal of Organic Chemistry 25(6):970–981. DOI 10.1021/jo01076a028.",
+        "url": "https://pubs.acs.org/doi/10.1021/jo01076a028",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Tamargo J, Segura J, Ruilope LM. 2014. Diuretics in the treatment of hypertension. Part 1: thiazide and thiazide-like diuretics. Expert Opinion on Pharmacotherapy 15(4):527–547. DOI 10.1517/14656566.2014.879118. PMID 24444254.",
+        "url": "https://www.redheracles.net/media/upload/research/pdf/244442541415009695.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Douglas A, Hall R, Horn DB, Kerr DNS, Pearson DT, Richardson H. 1961. Diuretic Response to Chlorthalidone. British Medical Journal 2(5246):206–210. DOI 10.1136/bmj.2.5246.206. PMID 13724060; PMCID PMC1969078.",
+        "url": "https://www.bmj.com/content/2/5246/206",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Ernst ME, Fravel MA. 2022. Thiazide and the Thiazide-Like Diuretics: Review of Hydrochlorothiazide, Chlorthalidone, and Indapamide. American Journal of Hypertension 35(7):573–586. DOI 10.1093/ajh/hpac048. PMID 35404993.",
+        "url": "https://academic.oup.com/ajh/article/35/7/573/6566542",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Printed p. 7, paragraphs beginning 'Even before the probenecid work' and 'Since the chlorothiazide'."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Printed p. 8, numbered points 1–4, particularly point 4."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Printed p. 8, point 4, last sentence."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Printed p. 8, numbered points 1–3; p. 9, programme participants and subsequent products."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Printed p. 970, opening description of methods and activity, indexed journal-scan text."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Printed p. 970, introduction, indexed journal-scan text."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Printed p. 528, section 2, History, opening paragraph."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Printed p. 206, opening paragraph."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "Printed pp. 207 and 209, physiological background and Discussion."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "Printed pp. 573–574, Discovery, Classification, and Terminology of Thiazide Diuretics, opening paragraph."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "Printed p. 574, Discovery, Classification, and Terminology of Thiazide Diuretics, paragraph after Figure 1."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev.pa.17.040177.000245",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pubs.acs.org/doi/10.1021/jo01076a028",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://www.bmj.com/content/2/5246/206",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "Beyer's direct account concerns the chlorothiazide programme; the class review describes thiazide-like compounds but does not establish separate chlorthalidone or indapamide founding paths.",
+      "The 1961 chlorthalidone paper is a clinical evaluation after synthesis, not a discoverer account of its founding research motivation. Similar excretory action does not establish an identical founding path."
+    ],
+    "conflicts": [
+      "Beyer characterizes the chlorothiazide programme as planned work aimed at sodium chloride excretion and reports an earlier chloride-excreting analogue; Ernst and Fravel describe chlorothiazide's chloride rather than bicarbonate excretion as unexpected. The accounts differ in emphasis and possibly in which researchers' expectations or experimental stages they describe; they do not establish exactly what was anticipated at each step.",
+      "Beyer's 1977 retrospective says chlorothiazide was marketed in 1957; Ernst and Fravel's 2022 review says launched in 1958. Different definitions or jurisdictions are possible, but the discrepancy has not been resolved and is not needed for the origin classification."
+    ],
+    "gaps": [
+      "The original Novello–Sprague 1957 paper was located but not read; only the displayed opening page of the distinct 1960 original was read.",
+      "The 1937 sulfanilamide report cited by the 2022 review was not read; the early observation is attributed to that review rather than represented as direct reading of the original.",
+      "Primary founding sources for the structurally distinct thiazide-like compounds, including the 1959 synthesis cited by the chlorthalidone clinical investigators, have not been read."
+    ]
+  },
+  "nameAliases": [
+    "Dyazide",
+    "Hemiclor",
+    "Hyzaar",
+    "Inzirqo",
+    "Maxzide",
+    "Thalitone",
+    "Zestoretic"
+  ],
+  "humanContributionInterpretation": {
+    "id": "THIAZIDE_DIURETICS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Clinical diuresis and acid-base effects of sulfanilamide helped motivate the carbonic-anhydrase and later saluretic programs.",
+    "scope": "The link is retrospective and the 1937 original was not read; immediate chlorothiazide development also depended on dog experiments.",
+    "references": [
+      {
+        "id": "E10",
+        "citation": "Ernst ME, Fravel MA. 2022. Thiazide and the Thiazide-Like Diuretics: Review of Hydrochlorothiazide, Chlorthalidone, and Indapamide. American Journal of Hypertension 35(7):573–586. DOI 10.1093/ajh/hpac048. PMID 35404993.",
+        "url": "https://academic.oup.com/ajh/article/35/7/573/6566542",
+        "locator": "Printed pp. 573–574, Discovery, Classification, and Terminology of Thiazide Diuretics, opening paragraph.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

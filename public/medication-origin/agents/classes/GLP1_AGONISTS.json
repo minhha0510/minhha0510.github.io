@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/GLP1_AGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "GLP1_AGONISTS",
+    "name": "GLP-1 receptor agonists",
+    "medicines": [
+      "dulaglutide",
+      "semaglutide"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "dulaglutide",
+        "components": [
+          "dulaglutide"
+        ],
+        "usRank": 73,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "semaglutide",
+        "components": [
+          "semaglutide"
+        ],
+        "usRank": 14,
+        "englandRank": 145,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Gut-hormone/incretin physiology and the insulin-stimulating activity of processed endogenous GLP-1 supplied the biological starting point. A separate exendin-4 natural-peptide branch later supplied another receptor agonist lead. The class developed from observed biological signals rather than inventing the action from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule",
+      "natural_substance"
+    ],
+    "inspiration": {
+      "description": "Incretin physiology, endogenous processed GLP-1, and the distinct natural exendin-4 branch. The final chemical/protein engineering retains the observation-led origin.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Proglucagon supplies GLP-1 sequences. Investigation of their processed forms provided an endogenous peptide hypothesis rather than merely a receptor target.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "In 1987, synthetic GLP-I(7-37), unlike GLP-I(1-37), stimulated insulin secretion in perfused rat pancreas. Later patient infusion experiments lowered glucose and supported GLP-1 therapy.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10",
+          "E11",
+          "E1"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A distinct natural-product branch followed exendin-3: Eng and colleagues searched H. suspectum venom and isolated exendin-4, subsequently used as the exenatide template.",
+        "support": "documented",
+        "evidence_ids": [
+          "E12",
+          "E13",
+          "E2"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Exendin-4 was reproduced synthetically as exenatide. Human GLP-1 was separately adapted by fatty-acid derivatization for albumin binding; semaglutide added position-8 stabilization and optimized the fatty di-acid/linker. Dulaglutide represents Fc fusion for prolonged exposure.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E5",
+          "E6",
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Exenatide entered the market in 2005. The human-GLP-1 branch yielded liraglutide and later long-acting members, preserving its endogenous ancestry alongside the separate exendin branch.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4",
+          "E5",
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Synthetic peptide experiments established activity; subsequent acylation, non-natural residue substitution and protein fusion extended exposure and stability while preserving GLP-1 receptor agonism. Semaglutide and dulaglutide use the human-GLP-1 branch; exenatide is a synthetic replica of the separate exendin-4 lead.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E13"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The cited hormone-analogue engineering and targeted exendin search were deliberate. An accidental class-opening discovery is not established by the selected accounts.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E6",
+        "E8",
+        "E12"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Holst JJ. 2019. From the Incretin Concept and the Discovery of GLP-1 to Today's Diabetes Therapy. Front Endocrinol 10:260. DOI 10.3389/fendo.2019.00260; PMID 31080438.",
+        "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2019.00260/full",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Knudsen LB, Lau J. 2019. The Discovery and Development of Liraglutide and Semaglutide. Front Endocrinol 10:155. DOI 10.3389/fendo.2019.00155; PMID 31031702.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474072/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Mojsov S, Weir GC, Habener JF. 1987. Insulinotropin: glucagon-like peptide I (7-37) co-encoded in the glucagon gene is a potent stimulator of insulin release in the perfused rat pancreas. J Clin Invest 79:616–619. DOI 10.1172/JCI112855; PMID 3543057.",
+        "url": "https://www.jci.org/articles/view/112855",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Eng J, Kleinman WA, Singh L, Singh G, Raufman JP. 1992. Isolation and characterization of exendin-4, an exendin-3 analogue, from Heloderma suspectum venom. Further evidence for an exendin receptor on dispersed acini from guinea pig pancreas. J Biol Chem 267:7402–7405. PMID 1313797.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1313797/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Early clinical GLP-1 infusion history, paragraphs describing the Gutniak and Nauck studies and normalization of fasting glucose in T2DM; publisher HTML lines 363–366."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Exendin-4 development paragraph, publisher HTML line 389: synthetic reproduction, clinical development and first marketing."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Same exenatide paragraph, publisher HTML line 389."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Liraglutide and subsequent long-acting analogues, publisher HTML lines 390–392: GLP-1 acylation and later protein-coupling strategies."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "The Discovery of Liraglutide, paragraph contrasting exendin-4 optimization with the Novo program; PMC HTML line 115."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "The Discovery of Liraglutide, following paragraph on reversible albumin binding to limit degradation and renal filtration; PMC HTML line 116, with structural adaptation in lines 122–125."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "The Discovery of Semaglutide, paragraph on covalent fusion for limiting renal clearance; PMC HTML line 180; cited reference 52 names dulaglutide as a GLP-1 analogue."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S2",
+        "locator": "The Discovery of Semaglutide, design strategy; PMC HTML lines 186–199: position-8 substitution and systematic fatty di-acid/linker assessment."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "p.616, Abstract, molecular origin of the tested glucagon-like peptide."
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S3",
+        "locator": "p.616, Introduction, final paragraph; Methods, Synthesis of peptides, describes solid-phase synthesis of both endogenous-sequence forms."
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S3",
+        "locator": "p.617, Results, first paragraph and subsequent replication paragraph: active truncated peptide versus the longer form in isolated perfused rat pancreas."
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S4",
+        "locator": "PubMed abstract, first sentence: the prior exendin-3 isolation from H. horridum motivated the H. suspectum search."
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S4",
+        "locator": "PubMed abstract, second sentence, sequencing-based isolation of exendin-4."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.3389/fendo.2019.00260",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.3389/fendo.2019.00155",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.jci.org/articles/view/112855/version/1/pdf/render.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/1313797/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The class has multiple observation-led branches; that alone does not make its discovery basis mixed.",
+      "Semaglutide and dulaglutide belong to the human GLP-1 branch, not the lizard exendin lineage.",
+      "This bounded example does not adjudicate sole-discoverer credit or cover dual GIP/GLP-1 agonists or DPP-4 inhibitors.",
+      "A synthetic experimental replica is not a design-from-scratch origin; later rational optimization remains part of the observation-led development chain."
+    ],
+    "conflicts": [
+      "Holst 2019 describes the exendin-4 isolation material as saliva rather than venom. Eng 1992's original title and abstract explicitly report venom; Knudsen/Lau also use venom. This record follows the original report's wording and preserves the discrepancy without treating it as a different molecular lineage."
+    ],
+    "gaps": [
+      "Eng 1992 was read at abstract extent only. The full Mojsov 1987 original was read, but early human infusion reports and individual dulaglutide engineering reports were not independently reopened; those links rest on the explicitly identified retrospective sections."
+    ]
+  },
+  "nameAliases": [
+    "Ozempic",
+    "Rybelsus",
+    "Trulicity",
+    "Wegovy"
+  ],
+  "humanContributionInterpretation": {
+    "id": "GLP1_AGONISTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Effective GLP-1 treatment in humans was limited by rapid disappearance and short action; this motivated longer-acting analogues and exposure-extension strategies.",
+    "scope": "Human clinical pharmacology and refinement qualify; this does not recast the initial peptide isolation or all incretin work as noninterventional observation.",
+    "references": [
+      {
+        "id": "R5",
+        "citation": "Holst JJ. 2019. From the Incretin Concept and the Discovery of GLP-1 to Today's Diabetes Therapy. Front Endocrinol 10:260. DOI 10.3389/fendo.2019.00260; PMID 31080438.",
+        "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2019.00260/full",
+        "locator": "Holst 2019, abstract; clinical-treatment discussion from the short subcutaneous action and approximately two-minute human IV half-life through long-acting analogues (publisher HTML lines 377-390)",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E1",
+        "citation": "Holst JJ. 2019. From the Incretin Concept and the Discovery of GLP-1 to Today's Diabetes Therapy. Front Endocrinol 10:260. DOI 10.3389/fendo.2019.00260; PMID 31080438.",
+        "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2019.00260/full",
+        "locator": "Early clinical GLP-1 infusion history, paragraphs describing the Gutniak and Nauck studies and normalization of fasting glucose in T2DM; publisher HTML lines 363–366.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Holst JJ. 2019. From the Incretin Concept and the Discovery of GLP-1 to Today's Diabetes Therapy. Front Endocrinol 10:260. DOI 10.3389/fendo.2019.00260; PMID 31080438.",
+        "url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2019.00260/full",
+        "locator": "Liraglutide and subsequent long-acting analogues, publisher HTML lines 390–392: GLP-1 acylation and later protein-coupling strategies.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Knudsen LB, Lau J. 2019. The Discovery and Development of Liraglutide and Semaglutide. Front Endocrinol 10:155. DOI 10.3389/fendo.2019.00155; PMID 31031702.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6474072/",
+        "locator": "The Discovery of Liraglutide, following paragraph on reversible albumin binding to limit degradation and renal filtration; PMC HTML line 116, with structural adaptation in lines 122–125.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

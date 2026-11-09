@@ -19,10 +19,13 @@ const basisSupportLabel = value => value === 'not_reported' ? 'Starting point un
 const filterIds = ['basis','clue','circumstances','country','status'];
 let atlas, classById, filtered = [], visibleCount = 12, layout = 'cards';
 let homeScroll = 0, toastTimer, activeClass = null, lastOriginHash = '#explore';
+let clinicalById = new Map(), contributionFilter = 'all';
+let aliasesByClass = new Map(), aliasesByName = new Map();
+const contributionLabels = {documented:'Documented human contribution',not_established:'Human link not established in the available records',unresolved:'Proposed human link unresolved'};
 
 function searchRank(entry, query) {
   if (!query.trim()) return 0;
-  const aliases = entry.cohortEntries.flatMap(item => [item.name, ...item.components]);
+  const aliases = [...entry.cohortEntries.flatMap(item => [item.name, ...item.components]),...(aliasesByClass.get(entry.id)||[])];
   const raw = normalize(query);
   const stripped = query.toLowerCase().replace(/\b(besylate|besilate|hydrochloride|hydrobromide|sodium|potassium|calcium|maleate|fumarate|succinate|tartrate|mesylate|phosphate)\b/g,'');
   const q = normalize(stripped) || raw;
@@ -42,7 +45,7 @@ function searchRank(entry, query) {
 }
 
 function currentFilters() {
-  return Object.fromEntries([['q',$('search').value],...filterIds.map(id => [id,$(id).value])]);
+  return Object.fromEntries([['q',$('search').value],['human',contributionFilter],...filterIds.map(id => [id,$(id).value])]);
 }
 function syncURL() {
   const url = new URL(location.href), state = currentFilters();
@@ -55,6 +58,7 @@ function syncURL() {
 function restoreFilters() {
   const params = new URL(location.href).searchParams;
   $('search').value = params.get('q') || '';
+  contributionFilter = clinicalById.size && Object.hasOwn(contributionLabels,params.get('human')) ? params.get('human') : 'all';
   for (const id of filterIds) {
     const value = params.get(id) || 'all';
     $(id).value = [...$(id).options].some(option => option.value === value) ? value : 'all';
@@ -62,11 +66,33 @@ function restoreFilters() {
   setLayout(params.get('view') === 'index' ? 'index' : 'cards',false);
 }
 
-function renderMap() {
-  const featured = new Set(['STATINS','GLP1_AGONISTS','PENICILLINS']);
-  $('class-map').innerHTML = [...atlas.classes].sort((a,b)=>a.name.localeCompare(b.name)).map(entry =>
-    `<button class="map-point ${entry.checked ? 'checked' : ''} ${featured.has(entry.id) ? 'featured' : ''}" data-class="${entry.id}" data-name="${escapeHTML(entry.name)}" aria-label="${escapeHTML(entry.name)} — ${entry.checked ? 'source checked' : 'history not yet checked'}" title="${escapeHTML(entry.name)}"></button>`
-  ).join('');
+function renderContributionRing(data) {
+  const counts = Object.fromEntries(Object.keys(contributionLabels).map(key=>[key,data.classes.filter(row=>row.group===key).length]));
+  if (data.classes.length!==atlas.classes.length || new Set(data.classes.map(row=>row.id)).size!==atlas.classes.length || data.classes.some(row=>!classById.has(row.id))) throw new Error('Contribution membership does not match the atlas.');
+  if (counts.documented!==69 || counts.not_established!==40 || counts.unresolved!==6) throw new Error('Contribution figures require a content update.');
+  clinicalById = new Map(data.classes.map(row=>[row.id,row]));
+  let angle = -90;
+  const point = degrees=>[180+146*Math.cos(degrees*Math.PI/180),180+146*Math.sin(degrees*Math.PI/180)].map(value=>value.toFixed(4)).join(' ');
+  $('contribution-arcs').innerHTML = Object.keys(contributionLabels).map(group=>{
+    const sweep=counts[group]/data.classes.length*360, start=point(angle), end=point(angle+sweep);
+    angle+=sweep;
+    return `<a class="ring-segment" href="#explore" data-contribution="${group}" aria-label="${escapeHTML(contributionLabels[group])}: ${counts[group]} of 115 histories"><path class="ring-arc ${group}" d="M ${start} A 146 146 0 ${sweep>180?1:0} 1 ${end}"/></a>`;
+  }).join('');
+}
+function updateContributionFilter() {
+  const selected=contributionFilter!=='all';
+  $('contribution-filter').hidden=!selected;
+  $('contribution-filter-label').textContent=selected?contributionLabels[contributionFilter]:'';
+  document.querySelectorAll('.legend-row').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.contribution===contributionFilter)));
+}
+function selectContribution(value) {
+  if (!clinicalById.size) {showToast('The contribution view is still loading. Please try again.');return;}
+  contributionFilter=value;
+  $('search').value='';
+  filterIds.forEach(id=>{$(id).value='all';});
+  applyFilters();
+  location.hash='explore';
+  $('explore').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
 }
 
 function primaryClue(entry) {
@@ -95,6 +121,7 @@ function applyFilters(resetCount = true, updateURL = true) {
   const state = currentFilters();
   filtered = atlas.classes.map(entry=>({entry,rank:searchRank(entry,state.q)})).filter(({entry,rank})=>{
     if (rank < 0) return false;
+    if (state.human !== 'all' && clinicalById.get(entry.id)?.group !== state.human) return false;
     if (state.status !== 'all' && entry.basisSupport !== state.status) return false;
     if (state.country !== 'all' && !entry.countries.includes(state.country)) return false;
     if (state.basis !== 'all' && (!entry.checked || entry.basis !== state.basis)) return false;
@@ -103,8 +130,10 @@ function applyFilters(resetCount = true, updateURL = true) {
     return true;
   }).sort((a,b)=>b.rank-a.rank || Number(b.entry.checked)-Number(a.entry.checked) || a.entry.name.localeCompare(b.entry.name)).map(item=>item.entry);
   const sourceCount = filtered.reduce((sum,entry)=>sum+entry.sources.length,0);
-  $('result-count').innerHTML = `<strong>${filtered.length} ${filtered.length === 1 ? 'class' : 'classes'}</strong>${state.q ? ' matching “'+escapeHTML(state.q)+'”' : ' in view'} <span>· ${sourceCount} linked source records</span>`;
+  const aliasMatch=aliasesByName.get(normalize(state.q));
+  $('result-count').innerHTML = `<strong>${filtered.length} ${filtered.length === 1 ? 'class' : 'classes'}</strong>${state.q ? ' matching “'+escapeHTML(state.q)+'”' : ' in view'}${aliasMatch?`<span>${escapeHTML(aliasMatch.name)} → ${escapeHTML(aliasMatch.genericNames.join(' · '))}</span>`:''} <span>· ${sourceCount} linked source records</span>`;
   $('excluded-note').hidden = true;
+  updateContributionFilter();
   renderResults();
   if (updateURL) syncURL();
 }
@@ -124,6 +153,7 @@ function setLayout(value, updateURL = true) {
   if (atlas && updateURL) syncURL();
 }
 function resetFilters() {
+  contributionFilter = 'all';
   $('filters').reset();
   $('search').value = '';
   applyFilters();
@@ -166,13 +196,18 @@ function uncertaintyMarkup(entry) {
   const total = groups.reduce((sum,[,values])=>sum+values.length,0);
   return `<details class="uncertainty"><summary>What remains uncertain <span>${total} notes +</span></summary><div>${groups.map(([name,values])=>values.length ? `<h4>${name}</h4><ul>${values.map(text=>`<li>${escapeHTML(text)}</li>`).join('')}</ul>` : '').join('')}</div></details>`;
 }
+function clinicalContributionMarkup(entry) {
+  const record=clinicalById.get(entry.id);
+  if (!record) return '';
+  return `<details class="clinical-note"><summary>${escapeHTML(contributionLabels[record.group])}<span aria-hidden="true">+</span></summary><p>${escapeHTML(record.summary)}</p><p class="clinical-scope">${escapeHTML(record.scope)}</p><p class="clinical-scope">Human-observation interpretation · 8 November 2026. Independent historical review of this additional classification is pending.</p>${record.references.length?`<ul>${record.references.map(ref=>`<li><a href="${escapeHTML(ref.url)}" target="_blank" rel="noopener">${escapeHTML(ref.citation)} ↗</a><span>${escapeHTML(ref.locator)} · ${escapeHTML(readLabels[ref.readExtent]||ref.readExtent)}</span></li>`).join('')}</ul>`:''}</details>`;
+}
 function buildHistory(entry) {
   const names = entry.medicines.join(' · ');
   const introduction = `<header class="history-intro"><p class="history-eyebrow"><span class="checked-tag">${entry.checked?'Author checked · complete collection':'History not yet checked'}</span><span>${entry.countries.join(' + ')} cohort</span></p><h1 id="history-title" tabindex="-1">${escapeHTML(entry.name)}</h1><p class="medicine-names"><strong>In this cohort:</strong> ${escapeHTML(names)}</p>${entry.checked ? `<div class="history-tags"><span>${escapeHTML(basisLabels[entry.basis])}</span><span>${escapeHTML(basisSupportLabel(entry.basisSupport))}</span><span>${escapeHTML(circumstanceLabels[entry.circumstances.value]||'Not reported')}</span></div><p class="history-clues">${escapeHTML(entry.inspirations.map(key=>clueLabels[key]).join(' · '))}</p>` : ''}</header>`;
   if (!entry.checked) return introduction+`<div class="history-main"><section class="pending-history"><p class="section-label">IN THE ATLAS · STILL BEING TRACED</p><h3>A history still to reconstruct.</h3><p>This class belongs to the selected cohort. Its founding history has not been source checked for this snapshot. A classification will appear after its evidence has been examined.</p></section><section class="history-section"><h3>The cohort entries</h3>${cohortTable(entry)}</section><p class="history-footnote">This page makes no historical-origin claim. Snapshot ${formatDate(atlas.meta.snapshotDate)}.</p></div>`;
   const originals = new Set(entry.originalAccounts.map(item=>item.source_id));
   const sources = [...entry.sources].sort((a,b)=>Number(originals.has(b.source_id))-Number(originals.has(a.source_id)));
-  return introduction+`<div class="history-main">
+  return introduction+`<div class="history-main">${clinicalContributionMarkup(entry)}
     <section class="opening-observation"><p class="section-label">01 / WHAT OPENED THE PATH?</p>${statement(entry,entry.starting)}<p class="origin-support">${escapeHTML(basisLabels[entry.basis])} · ${escapeHTML(basisSupportLabel(entry.basisSupport))}</p>${entry.scopeNote ? `<aside class="basis-note"><p class="section-label">SCOPE OF THIS FINDING</p><p>${escapeHTML(entry.scopeNote)}</p></aside>` : ''}<button class="scope-jump" data-uncertainty>Class-level account · read the scope and open questions ↘</button></section>
     <div class="history-route"><section class="history-section"><p class="section-label">02 / HOW IT UNFOLDED</p><h3>From clue to medicine.</h3><ol class="timeline">${entry.steps.map(step=>`<li class="${step.support==='inferred_from_source_observation'?'inferred-step':''}">${statement(entry,step)}</li>`).join('')}</ol></section>
     <aside class="history-aside"><section class="history-section design-section"><p class="section-label">03 / WHAT WAS DESIGNED?</p><h3>The human contribution.</h3>${statement(entry,entry.design)}</section><section class="history-section"><p class="section-label">PLANNED OR UNEXPECTED?</p>${statement(entry,entry.circumstances)}</section><div class="basis-note"><p class="section-label">KEEP THE QUESTIONS SEPARATE</p><p>An observation-led path can involve deliberate experiments and substantial molecular design. A synthetic medicine can have an observed biological starting point.</p></div></aside></div>
@@ -241,6 +276,9 @@ function showToast(message) {
 function formatDate(value) {return new Date(value).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});}
 
 document.addEventListener('click',event=>{
+  const contributionButton=event.target.closest('[data-contribution]');if(contributionButton){event.preventDefault();selectContribution(contributionButton.dataset.contribution);return;}
+  if(event.target.closest('[data-clear-contribution]')){contributionFilter='all';applyFilters();return;}
+  if(event.target.closest('[data-method]'))$('clinical-method').open=true;
   const classButton=event.target.closest('[data-class]');if(classButton){openHistory(classButton.dataset.class);return;}
   const sourceButton=event.target.closest('[data-source]');if(sourceButton){focusSource(sourceButton.dataset.source,sourceButton.dataset.evidence);return;}
   if(event.target.closest('[data-reset]'))resetFilters();
@@ -254,7 +292,7 @@ $('search').addEventListener('keydown',event=>{if(event.key==='Enter'&&filtered.
 $('results').addEventListener('keydown',event=>{if(!['ArrowDown','ArrowUp'].includes(event.key))return;const buttons=[...$('results').querySelectorAll('.class-card')],index=buttons.indexOf(event.target);if(index<0)return;event.preventDefault();const target=buttons[index+(event.key==='ArrowDown'?1:-1)];if(target)target.focus();else if(event.key==='ArrowUp')$('search').focus();});
 filterIds.forEach(id=>$(id).addEventListener('change',()=>applyFilters()));
 $('filters').addEventListener('submit',event=>event.preventDefault());
-$('filters').addEventListener('reset',()=>requestAnimationFrame(()=>{$('search').value='';applyFilters();}));
+$('filters').addEventListener('reset',()=>requestAnimationFrame(()=>{contributionFilter='all';$('search').value='';applyFilters();}));
 $('view-cards').addEventListener('click',()=>setLayout('cards'));
 $('view-index').addEventListener('click',()=>setLayout('index'));
 $('show-more').addEventListener('click',()=>{visibleCount+=12;renderResults();});
@@ -273,7 +311,28 @@ async function start() {
     $('snapshot-caption').textContent=`${formatDate(atlas.meta.snapshotDate)} · All ${atlas.meta.checkedClasses} histories collected. ${atlas.meta.supportCounts.documented} documented · ${atlas.meta.supportCounts.inferred_from_source_observation} inferred · ${atlas.meta.supportCounts.not_reported} unclear.`;
     $('footer-snapshot').textContent=`Snapshot ${formatDate(atlas.meta.snapshotDate)} · ${atlas.meta.checkedClasses} histories · ${atlas.meta.sourceRecords} linked source records.`;
     $('cohort-sources').innerHTML=atlas.meta.cohortSources.map(source=>`<a href="${escapeHTML(source.url)}" target="_blank" rel="noopener">${escapeHTML(source.title)} ↗</a>`).join('');
-    renderMap();renderCohortInventory();restoreFilters();applyFilters(true,false);route();
+    try {
+      const clinicalResponse=await fetch('/medication-origin/clinical-contributions.json');
+      if(!clinicalResponse.ok)throw new Error('Contribution data unavailable.');
+      renderContributionRing(await clinicalResponse.json());
+    }catch(error){
+      document.querySelector('.contribution-figure').insertAdjacentHTML('beforeend','<p role="status" class="ring-footnote">The contribution graphic could not be loaded. Reload to explore its categories.</p>');
+      document.querySelectorAll('[data-contribution]').forEach(button=>{button.disabled=true;});
+    }
+    try {
+      const aliasResponse=await fetch('/medication-origin/synonyms.json');
+      if(!aliasResponse.ok)throw new Error('Brand dictionary unavailable.');
+      const dictionary=await aliasResponse.json();
+      for(const alias of dictionary.aliases){
+        aliasesByName.set(normalize(alias.name),alias);
+        for(const cid of alias.classIds){
+          if(!classById.has(cid))continue;
+          if(!aliasesByClass.has(cid))aliasesByClass.set(cid,[]);
+          aliasesByClass.get(cid).push(alias.name);
+        }
+      }
+    }catch(error){document.querySelector('.search-hint').textContent='Brand names are unavailable. Search by generic name.';}
+    restoreFilters();applyFilters(true,false);route();
   }catch(error){$('result-count').textContent='The research snapshot could not be loaded.';$('snapshot-caption').textContent='Please reload the page or download the snapshot below.';}
 }
 start();

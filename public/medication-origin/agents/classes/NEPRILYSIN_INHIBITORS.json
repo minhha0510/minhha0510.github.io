@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NEPRILYSIN_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NEPRILYSIN_INHIBITORS",
+    "name": "Neprilysin inhibitors",
+    "medicines": [
+      "sacubitril"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "sacubitril + valsartan",
+        "components": [
+          "sacubitril",
+          "valsartan"
+        ],
+        "usRank": null,
+        "englandRank": 126,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "For the early neuronal line, observations of enkephalin degradation and enzyme localization led Roques and colleagues to test whether inhibition would protect endogenous opioid signalling. Separately, atrial extracts produced natriuresis, and ANP was observed to be degraded by endopeptidase 24.11 in vitro; Ksander's cardiovascular patent explicitly proposed inhibiting that enzyme to prolong ANF's biological actions. The 1995 paper also records earlier NEP-inhibitor clinical experience as motivation for improved compounds. These lines share enzyme biology, but a direct thiorphan-to-sacubitril chemical lineage is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E6",
+        "E13"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Enkephalins and their observed cleavage informed the neuronal question; the natriuretic effects of atrial extracts and NEP-mediated cleavage of endogenous ANP/ANF informed the cardiovascular strategy. The 1995 authors also cite prior inhibitor effects and modest clinical outcomes when explaining their search for improved pharmacology. This does not assert that an earlier synthetic candidate was the direct chemical parent of sacubitril.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4",
+        "E6",
+        "E13"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "In the neuronal line, Roques and colleagues deliberately designed thiorphan to investigate an observed enkephalin-cleaving enzyme and a hypothesized role in opioid signalling; their abstract reports enkephalin protection and naloxone-sensitive antinociception.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E14"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "In a separate physiological line, de Bold and colleagues observed marked natriuresis and diuresis after administering atrial tissue extracts to rats, with ventricular extract and medium controls.",
+        "support": "documented",
+        "evidence_ids": [
+          "E13"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Stephenson and Kenny observed hydrolysis of human ANP in pig kidney preparations in vitro and inhibition of the products by phosphoramidon; the 1995 inhibitor paper later cited their study.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Ksander's patent proposed protecting the natriuretic, diuretic and vascular actions of ANF by inhibiting its enzymatic degradation, and disclosed synthetic biaryl aminobutyric-acid amide esters and acids.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Ksander and colleagues synthesized and tested new inhibitor series. The 1995 original calls 19a the ethyl ester prodrug of active acid 21a, compares stereoisomers, and reports animal tests involving administered ANF; its authors did not claim those tests proved enhanced endogenous ANF.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E8",
+          "E9"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "The 1995 ester/acid and stereoisomer data align with the later identification of sacubitril as the ester prodrug of LBQ657 and Schiering's attribution of LBQ657 stereoisomers to that study, supporting an inferred mapping of 19a to sacubitril and 21a to LBQ657. Braunwald retrospectively describes the 1995 report as sacubitril; the 1995 passages inspected do not use the later names.",
+        "support": "inferred_from_source_observation",
+        "evidence_ids": [
+          "E7",
+          "E8",
+          "E10",
+          "E12"
+        ]
+      },
+      {
+        "step": 7,
+        "description": "The 2016 structure visualizes LBQ657 bound to NEP and provides later mechanistic interpretation of its interactions; it does not establish the method used to create the original inhibitor.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10"
+        ]
+      }
+    ],
+    "design": {
+      "description": "The neuronal team used enzyme-specificity and metallopeptidase reasoning in designing a synthetic thiol-containing inhibitor. The cardiovascular inventors deliberately synthesized new biaryl amino-butyric-acid amides, varied side chains and stereochemistry, compared inhibitory activity and pharmacological properties, and prepared an ethyl ester prodrug and active acid. These are substantive chemical invention and optimization, not merely extracting a natural molecule or adjusting delivery. Their existence does not erase the biological observations motivating the programs; thiorphan's direct chemical parentage of sacubitril is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E14"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The specified events were deliberate design of thiorphan to investigate enkephalinase and a planned cardiovascular program to inhibit ANF-degrading NEP, followed by systematic synthesis and testing. This is not a claim that every earlier physiological observation or later finding was expected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E6",
+        "E14"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Roques BP, Fournié-Zaluski MC, Soroca E, Lecomte JM, Malfroy B, Llorens C, Schwartz JC. The enkephalinase inhibitor thiorphan shows antinociceptive activity in mice. Nature. 1980;288:286–288. DOI 10.1038/288286a0; PMID 7001254.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7001254/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Fulcher IS, Matsas R, Turner AJ, Kenny AJ. Kidney neutral endopeptidase and the hydrolysis of enkephalin by synaptic membranes show similar sensitivity to inhibitors. Biochem J. 1982;203:519–522. DOI 10.1042/bj2030519; PMID 7052059.",
+        "url": "https://portlandpress.com/biochemj/article-pdf/203/2/519/565527/bj2030519.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Stephenson SL, Kenny AJ. The hydrolysis of alpha-human atrial natriuretic peptide by pig kidney microvillar membranes is initiated by endopeptidase-24.11. Biochem J. 1987;243:183–187. DOI 10.1042/bj2430183; PMID 3038078.",
+        "url": "https://portlandpress.com/biochemj/article-pdf/243/1/183/589954/bj2430183.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Ksander GM. Biaryl substituted 4-amino-butyric acid amides. US patent US5217996A, filed 1992-01-22, published 1993-06-08.",
+        "url": "https://patents.google.com/patent/US5217996A/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Ksander GM, Ghai RD, deJesus R, Diefenbacher CG, Yuan A, Berry C, Sakane Y, Trapani A. Dicarboxylic acid dipeptide neutral endopeptidase inhibitors. J Med Chem. 1995;38:1689–1700. DOI 10.1021/jm00010a014; PMID 7752193.",
+        "url": "https://www.lookchem.com/FreePDFArticle_112766-18-4_5970904.htm",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Schiering N, D'Arcy A, Villard F, Ramage P, Logel C, Cumin F, Ksander GM, Wiesmann C, Karki RG, Mogi M. Structure of neprilysin in complex with the active metabolite of sacubitril. Sci Rep. 2016;6:27909. DOI 10.1038/srep27909; PMID 27302413.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4908401/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Sybertz EJ, Chiu PJS, Vemulapalli S, Pitts B, Foster CJ, Watkins RW, Barnett A, Haslanger MF. SCH 39370, a neutral metalloendopeptidase inhibitor, potentiates biological responses to atrial natriuretic factor and lowers blood pressure in desoxycorticosterone acetate-sodium hypertensive rats. J Pharmacol Exp Ther. 1989;250:624–631. PMID 2547941.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2547941/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Braunwald E. The path to an angiotensin receptor antagonist-neprilysin inhibitor in the treatment of heart failure. J Am Coll Cardiol. 2015;65:1029–1041. DOI 10.1016/j.jacc.2015.01.033; PMID 25766951.",
+        "url": "https://www.jacc.org/doi/10.1016/j.jacc.2015.01.033",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S9",
+        "citation": "de Bold AJ, Borenstein HB, Veress AT, Sonnenberg H. A rapid and potent natriuretic response to intravenous injection of atrial myocardial extract in rats. Life Sci. 1981;28:89–94. DOI 10.1016/0024-3205(81)90370-2; PMID 7219045.",
+        "url": "https://www.sciencedirect.com/science/article/pii/0024320581903702",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S10",
+        "citation": "Fournié-Zaluski MC, Lucas-Soroca E, Devin J, Roques BP. 1H NMR configurational correlation for retro-inverso dipeptides: application to the determination of the absolute configuration of enkephalinase inhibitors. Relationships between stereochemistry and enzyme recognition. J Med Chem. 1986;29:751–757. DOI 10.1021/jm00155a027; PMID 3517331.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3517331/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "PubMed abstract, final paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "p. 519, introduction, and p. 520, first paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "p. 183 introduction; pp. 184–187 results and discussion"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "Summary of the Invention, opening two paragraphs"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "Detailed Description; Examples 1–3; claims 5–7"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S5",
+        "locator": "p. 1689, Introduction; p. 1699, reference 4(c)"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "p. 1691, Scheme 3; p. 1693, Pharmacokinetic Profile; p. 1698, 21a preparation"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "p. 1692, Table 3 and adjacent discussion"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "pp. 1693–1694, ANF Potentiation Assay and summary"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "Abstract; Results and Discussion; reference 12"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S7",
+        "locator": "PubMed abstract, explicitly truncated at 250 words"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S8",
+        "locator": "Search-indexed publisher text, NEP inhibition subsection, references 70 and 72"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S9",
+        "locator": "Publisher's search-indexed abstract"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S10",
+        "locator": "p. 751, introduction; p. 752, synthesis"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/7001254/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://portlandpress.com/biochemj/article-pdf/203/2/519/565527/bj2030519.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://portlandpress.com/biochemj/article-pdf/243/1/183/589954/bj2430183.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://patents.google.com/patent/US5217996A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.lookchem.com/FreePDFArticle_112766-18-4_5970904.htm",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4908401/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2547941/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://www.sciencedirect.com/science/article/pii/0024320581903702",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S10",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3517331/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The observation-led label is applied to two biologically grounded lines under the approved broad criterion. The neuronal thiorphan work and the cardiovascular sacubitril program have distinct starting questions and inhibitor chemistries; enzyme-related continuity does not by itself establish a direct scaffold lineage.",
+      "The class assignment contains sacubitril; the biological rationale, patent, 1995 series and later sacubitril/LBQ657 bridge are the focus. The independent origin of the valsartan/ARB component is out of scope.",
+      "Stephenson and Kenny's 1987 result is in vitro; it is cited by the 1995 paper but is not proof that the 1992 inventor personally consulted it or that its laboratory effect alone established clinical efficacy.",
+      "The original 1995 ester-to-acid relation is directly documented; assigning the later names to numbers is an inference from that article and Schiering's later developer-team account, supplemented by Braunwald's retrospective class-level attribution. The 2016 structure is post-discovery mechanistic evidence, not evidence of the original design method."
+    ],
+    "conflicts": [
+      "Braunwald's 2015 review attributes an endogenous ANP increase to the 1989 Sybertz study; the available truncated original abstract reports effects on administered ANF. The unread original may contain more, so this is an unresolved attribution/access gap, not a demonstrated contradiction.",
+      "A 2025 Indian patent opposition records an opponent's internally inconsistent assignments of 19a and 21a (PDF p. 127); another bullet there correctly calls 19a the prodrug. This is a litigant's submission, not an experimental finding: the 1995 original directly identifies the prodrug as 19a and the acid as 21a. https://spicyip.com/wp-content/uploads/2025/09/Controllers-decision.pdf"
+    ],
+    "gaps": [
+      "The full Roques 1980 and de Bold 1981 papers were not read; their original reports are represented by abstracts. The 1986 thiorphan-team account is retrospective about initial design.",
+      "The full Sybertz 1989 paper and remainder of its truncated abstract were not read, so the reviewer’s endogenous-ANP claim is not confirmed or disproved. The complete Braunwald review and bibliography were not read; relevant publisher-indexed excerpts were available.",
+      "The 1995 original was read in the listed relevant sections, not exhaustively, and the later names are not stated in those inspected sections. Specific precursor and inventor-reading histories beyond the cited relationships, including direct thiorphan-to-sacubitril structural ancestry, remain unestablished in this bounded review."
+    ]
+  },
+  "nameAliases": [
+    "Entresto"
+  ],
+  "humanContributionInterpretation": {
+    "id": "NEPRILYSIN_INHIBITORS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Modest clinical outcomes with earlier inhibitors encouraged development of improved compound properties.",
+    "scope": "The founding peptide and enzyme clues were laboratory-based; no new patient-derived therapeutic hypothesis is established.",
+    "references": [
+      {
+        "id": "E6",
+        "citation": "Ksander GM, Ghai RD, deJesus R, Diefenbacher CG, Yuan A, Berry C, Sakane Y, Trapani A. Dicarboxylic acid dipeptide neutral endopeptidase inhibitors. J Med Chem. 1995;38:1689–1700. DOI 10.1021/jm00010a014; PMID 7752193.",
+        "url": "https://www.lookchem.com/FreePDFArticle_112766-18-4_5970904.htm",
+        "locator": "p. 1689, Introduction; p. 1699, reference 4(c)",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

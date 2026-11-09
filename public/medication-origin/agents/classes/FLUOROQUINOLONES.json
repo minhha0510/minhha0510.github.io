@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/FLUOROQUINOLONES",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "FLUOROQUINOLONES",
+    "name": "Fluoroquinolone antibacterials",
+    "medicines": [
+      "ofloxacin"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "ofloxacin",
+        "components": [
+          "ofloxacin"
+        ],
+        "usRank": 147,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "The Sterling lineage is retrospectively traced to antibacterial activity of a synthetic chloroquine-synthesis by-product, distinct from later nalidixic acid. At the later Kyorin stage, the activity of existing quinolones and observed C6 structure–activity trends led researchers to create halogenated C7-piperazinyl analogues. The separate earlier ICI program's starting insight is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E6"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Observed antibacterial effects of synthetic compounds: the Sterling by-product and, in the later Kyorin program, working quinolone analogues and their measured structure–activity trends. The initiating insight for ICI's independent early work is unknown.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The Sterling lineage is retrospectively traced to an antibacterially active synthetic by-product and the development of related structures including nalidixic acid; the exact intervening rationale remains unclear.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "An independent ICI program disclosed antibacterial quinolones, including a C6-fluoro example, in a patent filed in 1957 and published in 1960. Its own initiating clue is not documented in the review.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Building on active quinolones, Kyorin researchers combined prior C6-halogen activity findings with C7-piperazinyl analogues, influenced also by another company's C6-methyl patent. They synthesized C6-chloro AM-700 in 1976 and the more active C6-fluoro AM-715/norfloxacin in 1977.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A contemporary study reported AM-715's antibacterial activity against tested gram-positive and gram-negative organisms, including Pseudomonas, compared with older analogues. Norfloxacin was an early drug of the C6-fluoro/C7-basic-amino combination; ofloxacin is a later member of the broad fluoroquinolone class.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E5",
+          "E7",
+          "E9"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately synthesized and tested structural analogues, combining C6 halogens and C7 piperazinyl substituents to improve antibacterial activity and spectrum, subsequently choosing and developing a fluorinated analogue.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The Kyorin team's synthesis and antibacterial testing of C6-halogen/C7-piperazinyl quinolone analogues was a deliberate development program guided by previous activity findings; this does not establish whether the earlier Sterling by-product's antibacterial effect was sought or unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E6",
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Pham TDM, Ziora ZM, Blaskovich MAT. 2019. Quinolone antibiotics. MedChemComm 10:1719–1739. DOI 10.1039/c9md00120d; PMID 31803393.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6836748/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Bisacchi GS. 2015. Origins of the Quinolone Class of Antibacterials: An Expanded ‘Discovery Story’. J Med Chem 58:4874–4882. DOI 10.1021/jm501881c; PMID 25738967.",
+        "url": "https://doi.org/10.1021/jm501881c",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Hirai K. 2020. History of Discovery and Development of Norfloxacin; a New Quinolone Antimicrobial Agent. The Japanese Journal for the History of Pharmacy 55(2):115–127. DOI 10.34531/jjhp.55.2_115.",
+        "url": "https://www.jstage.jst.go.jp/article/jjhp/55/2/55_115/_article/-char/en",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Ito A, Hirai K, Inoue M, Koga H, Suzue S, Irikura T, Mitsuhashi S. 1980. In Vitro Antibacterial Activity of AM-715, a New Nalidixic Acid Analog. Antimicrob Agents Chemother 17(2):103–108. DOI 10.1128/aac.17.2.103; PMID 6446258.",
+        "url": "https://journals.asm.org/doi/10.1128/aac.17.2.103",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Lesher GY, Froelich EJ, Gruett MD, Bailey JH, Brundage RP. 1962. 1,8-Naphthyridine Derivatives. A New Class of Chemotherapeutic Agents. J Med Pharm Chem 5(5):1063–1065. DOI 10.1021/jm01240a021; PMID 14056431.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14056431/",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Introduction, first paragraph: origin account attributed to Bisacchi 2015"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Section 2.1, first two paragraphs, and section 2 Table 1"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "pp. 4874–4876, figure 1 and Wentland memorial discussion"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 4877, Imperial Chemical Industries: First to Disclose; pp. 4879–4880, ICI origin"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "pp. 4874–4875, introductory history of C6/C7 substitution"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "pp. 117–118, section 2.1, Kyorin's research decision and structure–activity observations"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 118, section 2.1, synthesis and antibacterial evaluation"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "p. 115, English summary; pp. 118–119, follow-up studies"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "p. 103, introduction and materials; p. 104, results and table 1"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S3",
+        "url": "https://www.jstage.jst.go.jp/article/jjhp/55/2/55_115/_article/-char/en",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://journals.asm.org/doi/10.1128/aac.17.2.103",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/14056431/",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The observation-led judgment describes the Sterling-to-later-quinolone lineage, not a known initiating insight for the independent ICI program.",
+      "ICI disclosed a 6-fluoroquinolone before norfloxacin; first use of fluorine and first use of the later C6-fluoro/C7-basic-amino combination are different priority claims.",
+      "The account concerns the ancestry of an antibacterial family, not separate biographies of later derivatives."
+    ],
+    "conflicts": [
+      "S1 distinguishes the earlier by-product from nalidixic acid in its Introduction, but section 2 calls nalidixic acid itself a by-product. S2's detailed reconstruction distinguishes the two; S1's inconsistency is not erased.",
+      "S1 calls the impurity's activity modest, whereas S2 cautions that available Sterling publications do not establish the lead's purportedly limited potency or spectrum.",
+      "S3's historical background asserts that ICI patent coverage drove Lesher toward naphthyridines, while S2 says the extent of Sterling's early awareness and its precise rationale are unknown or speculative; S3 is not a firsthand witness to that earlier event."
+    ],
+    "gaps": [
+      "The 1962 Lesher report is located but not read; the 1993 Wentland memorial and 1986 Lesher symposium account were not read independently of their reproduction in S2.",
+      "ICI's initial inspiration and Sterling's exact reason for choosing the naphthyridone core are not established by the historical review; the ICI patent itself was not read.",
+      "The specific step-by-step development of each later derivative, including ofloxacin, was not reconstructed because the assigned unit is the class."
+    ]
+  },
+  "nameAliases": [
+    "Ocuflox"
+  ],
+  "humanContributionInterpretation": {
+    "id": "FLUOROQUINOLONES",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Activity and clinical limitations of early quinolones supplied a rationale for later structural modifications.",
+    "scope": "The founding nalidixic-acid clue was experimental; a specific new patient signal is not established.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Pham TDM, Ziora ZM, Blaskovich MAT. 2019. Quinolone antibiotics. MedChemComm 10:1719–1739. DOI 10.1039/c9md00120d; PMID 31803393.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6836748/",
+        "locator": "Section 2.1, first two paragraphs, and section 2 Table 1",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

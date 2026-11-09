@@ -1,0 +1,488 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/NSAIDS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "NSAIDS",
+    "name": "NSAIDs and aspirin (cyclooxygenase-inhibiting family)",
+    "medicines": [
+      "aspirin",
+      "celecoxib",
+      "diclofenac",
+      "ibuprofen",
+      "meloxicam",
+      "naproxen"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "aspirin",
+        "components": [
+          "aspirin"
+        ],
+        "usRank": null,
+        "englandRank": 11,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "celecoxib",
+        "components": [
+          "celecoxib"
+        ],
+        "usRank": 78,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "diclofenac",
+        "components": [
+          "diclofenac"
+        ],
+        "usRank": 64,
+        "englandRank": 93,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "ibuprofen",
+        "components": [
+          "ibuprofen"
+        ],
+        "usRank": 38,
+        "englandRank": 61,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "meloxicam",
+        "components": [
+          "meloxicam"
+        ],
+        "usRank": 30,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "naproxen",
+        "components": [
+          "naproxen"
+        ],
+        "usRank": 107,
+        "englandRank": 35,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "There is no single molecular founding clue for this heterogeneous pharmacological family. The salicylate branch drew on reported clinical effects of willow bark and subsequent chemistry of salicin and salicylic acid. The ibuprofen program drew on aspirin's known therapeutic effects and a proposed relationship to suppression of UV erythema. An oxicam program developed from anti-inflammatory effects of synthetic indandiones. Selective COX-2 work drew on observed inducible COX biology and previously active anti-inflammatory lead structures.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E8",
+        "E9",
+        "E10",
+        "E12",
+        "E15",
+        "E16"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "clinical_veterinary_effect",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Willow bark and its reported clinical effect anchor the salicylate branch. Known effects of synthetic aspirin, phenylbutazone and active indandione or diarylpyrazole leads, together with biological observations of UV erythema and inducible COX, informed distinct later programs. These are different kinds of inspiration; no common natural scaffold is asserted.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E8",
+        "E9",
+        "E10",
+        "E12",
+        "E15",
+        "E16"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Stone tasted willow bark, investigated it as a possible remedy and reported clinical observations in intermittent fever.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Chemists isolated salicin and studied salicylic acid, itself manufactured and used medicinally; acetylation produced acetylsalicylic acid, marketed as aspirin.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A separate ibuprofen program sought an improvement on aspirin's observed effects, using a UV-erythema model, testing new chemical series and selecting a propionic-acid candidate through activity and safety observations.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Recognition of distinct COX isoforms inspired selective inhibition; medicinal chemistry of established anti-inflammatory diarylheterocycles and subsequent tests of diarylpyrazoles led to celecoxib.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E10",
+          "E11",
+          "E15",
+          "E16"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A different non-carboxylate discovery program investigated active indandione leads and their limitations, developed active longer-lived benzothiazine structures and produced an oxicam series; meloxicam is a later member of that branch.",
+        "support": "documented",
+        "evidence_ids": [
+          "E12",
+          "E13",
+          "E14"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers isolated and chemically transformed salicylate-related substances and acetylated salicylic acid; synthesized and screened several distinct phenylalkanoic-acid series and selected ibuprofen on biological activity and tolerability observations; developed active, longer-lived non-carboxylate oxicam structures; and used selective COX-2 testing and diarylpyrazole structure–activity work to change target selectivity, architecture and pharmacokinetic properties in the celecoxib program. These were substantial chemical and pharmacological design contributions developed alongside or from observed effects and relationships.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E6",
+        "E7",
+        "E9",
+        "E11",
+        "E12",
+        "E13",
+        "E16"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "Stone reported accidentally tasting willow bark and then deliberately prepared and tested it. The ibuprofen, oxicam and celecoxib research programs deliberately screened or modified candidate compounds; these statements apply to those named events, not to every discovery in the family.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E6",
+        "E8",
+        "E12",
+        "E15",
+        "E16"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Stone E. 1763. An Account of the Success of the Bark of the Willow in the Cure of Agues. Philosophical Transactions 53:195–200. DOI 10.1098/rstl.1763.0033.",
+        "url": "https://doi.org/10.1098/rstl.1763.0033",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Mahdi JG et al. 2006. The historical analysis of aspirin discovery, its relation to the willow tree and antiproliferative and anticancer potential. Cell Prolif 39:147–155. DOI 10.1111/j.1365-2184.2006.00377.x; PMID 16542349.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6496865/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Rainsford KD. 2015. History and Development of Ibuprofen. In: Ibuprofen: Discovery, Development and Therapeutics, chapter 1. DOI 10.1002/9781118743614.ch1.",
+        "url": "https://catalogimages.wiley.com/images/db/pdf/9781118743386.excerpt.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Adams SS. 1992. The Propionic Acids: A Personal Perspective. J Clin Pharmacol 32:317–323. DOI 10.1002/j.1552-4604.1992.tb03842.x; PMID 1569234.",
+        "url": "https://accp1.onlinelibrary.wiley.com/doi/10.1002/j.1552-4604.1992.tb03842.x",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Rao P, Knaus EE. 2008. Evolution of nonsteroidal anti-inflammatory drugs (NSAIDs): cyclooxygenase (COX) inhibition and beyond. J Pharm Pharm Sci 11(2):81s–110s. DOI 10.18433/j3t886; PMID 19203472.",
+        "url": "https://journals.library.ualberta.ca/jpps/index.php/JPPS/article/download/4128/3358/9269",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Xu S, Rouzer CA, Marnett LJ. 2014. Oxicams, a class of nonsteroidal anti-inflammatory drugs and beyond. IUBMB Life 66(12):803–811. DOI 10.1002/iub.1334; PMID 25537198; PMCID PMC5300000.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5300000/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Penning TD et al. 1997. Synthesis and biological evaluation of the 1,5-diarylpyrazole class of cyclooxygenase-2 inhibitors: identification of 4-[5-(4-methylphenyl)-3-(trifluoromethyl)-1H-pyrazol-1-yl]benzenesulfonamide (SC-58635, celecoxib). J Med Chem 40:1347–1365. DOI 10.1021/jm960803q; PMID 9135032.",
+        "url": "https://www.scribd.com/document/1001724203/Penning-1997",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 195, paragraphs 2–3"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "pp. 196–197, first clinical trials and follow-up"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "Historical perspective and History of the chemical investigation, first three paragraphs and Figure 1"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "History of the chemical investigation, last three paragraphs"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "chapter 1, p. 2, opening paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "chapter 1, pp. 7–11, The origins of ibuprofen and Table 1.1"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "chapter 1, pp. 11–13, lead selection and development"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "published abstract, sentences 2–7"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "pp. 81s–82s, Introduction"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "p. 92s, section 6.2.0"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "pp. 93s–94s, section 6.2.1"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S6",
+        "locator": "Discovery of Oxicams and Chemical Synthesis, second paragraph"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S6",
+        "locator": "Discovery of Oxicams and Chemical Synthesis, second paragraph"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S6",
+        "locator": "Introduction, paragraph 3"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S7",
+        "locator": "p. 1347, Introduction, paragraphs 2–3"
+      },
+      {
+        "evidence_id": "E16",
+        "source_id": "S7",
+        "locator": "p. 1347, abstract; Introduction, final paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1098/rstl.1763.0033",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://accp1.onlinelibrary.wiley.com/doi/10.1002/j.1552-4604.1992.tb03842.x",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://www.scribd.com/document/1001724203/Penning-1997",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "Willow, salicin and salicylic-acid chemistry support the salicylate/aspirin branch; they are not a shared molecular ancestor established for all NSAIDs.",
+      "The ibuprofen source documents one propionic-acid program. It does not establish that naproxen follows the same exact path; diclofenac's separate founding history was not independently reconstructed.",
+      "The oxicam source documents active indandiones, benzothiazine medicinal chemistry and piroxicam, and places meloxicam in the later oxicam group; it does not establish a direct piroxicam-to-meloxicam development lineage.",
+      "The selective-COX sources document observed inducible-enzyme biology and active diarylheterocyclic and diarylpyrazole lead work, not every inventor, intermediate or independent path to each coxib. The 1970s DuP-697 program preceded identification of COX-2.",
+      "The class-level judgment is bounded to these documented founding branches, not proof of the discovery circumstances of each frozen cohort member or of all chemical classes assigned to NSAIDs."
+    ],
+    "conflicts": [
+      "Accounts disagree about the individual contributions to Bayer's aspirin development; S2's discussion is imprecise and this record assigns no sole credit.",
+      "S2 contains apparent century typos in early salicylate chemistry, and S5 has apparent bibliographic errors in its historical introduction. The affected dates and bibliographic claims are not relied on.",
+      "S5 calls later selective-COX research rational design. Under the approved decision criterion, documented biological observations and active lead compounds mean this label alone does not establish design from scratch; this is a classification distinction, not a claim that the design work was absent."
+    ],
+    "gaps": [
+      "Adams's 1992 discoverer retrospective was read in abstract only; its full text returned HTTP 403. Rainsford's chapter draws on Adams and is not an independent firsthand account.",
+      "Stone's report was uncontrolled, and the intermediate chemical and clinical literature linking willow, salicin, salicylic acid and aspirin was not exhaustively checked against its original experiments. The account does not settle Bayer priority.",
+      "The original oxicam experimental reports and full DuP-697 research paper were not read; specific examples and their access levels are recorded in the source receipt.",
+      "The original 1971 Vane paper was located by metadata but not read; its mechanism is used only as subsequent context from a full-text historical source, not as the founding clue.",
+      "Naproxen's and diclofenac's distinct drug-development histories and the exact earliest oxicam-to-meloxicam inventorship path were outside this class-level reconstruction.",
+      "Penning's original celecoxib paper was read in relevant sections through a third-party text rendering with some merged columns; publisher page images were not inspected and no local copy was saved."
+    ]
+  },
+  "nameAliases": [
+    "Addaprin",
+    "Advil",
+    "Aleve",
+    "Aleve Arthritis Pain",
+    "Alloxate",
+    "Anacin Aspirin Regimen",
+    "Anaprox",
+    "Anjeso",
+    "Aspergum",
+    "Aspi-Cor",
+    "Bayer Aspirin",
+    "Bufferin",
+    "Caldolor",
+    "Cambia",
+    "Cataflam",
+    "Celebrex",
+    "Counteract IB",
+    "Durlaza",
+    "Ecotrin",
+    "Elyxyb",
+    "Flector",
+    "Genpril",
+    "Ibu",
+    "Ibuprohm",
+    "Licart",
+    "Lofena",
+    "Loxicom",
+    "Meloxidyl",
+    "Meloxivet",
+    "Metacam",
+    "Miniprin",
+    "Mobic",
+    "Motrin",
+    "Naprelan",
+    "Naprosyn",
+    "Neoprofen",
+    "Norwich Aspirin",
+    "Ostilox",
+    "Pennsaid",
+    "Proprinal",
+    "Qamzova",
+    "Qmiiz",
+    "Samson 8",
+    "St. Joseph Aspirin",
+    "Surpass Anti-Inflammatory",
+    "Vazalore",
+    "Vivlodex",
+    "Voltaren",
+    "Vyscoxa",
+    "Wal-Profen",
+    "Wal-Proxen",
+    "Xiclo",
+    "Xifyrm",
+    "Zipsor",
+    "Zorvolex",
+    "Zybic"
+  ],
+  "humanContributionInterpretation": {
+    "id": "NSAIDS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Aspirin's established benefit and limitations helped motivate the ibuprofen search.",
+    "scope": "A broad successor-development link; willow taste alone is not a qualifying patient observation, and COX-2 branches differ.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "Stone E. 1763. An Account of the Success of the Bark of the Willow in the Cure of Agues. Philosophical Transactions 53:195–200. DOI 10.1098/rstl.1763.0033.",
+        "url": "https://doi.org/10.1098/rstl.1763.0033",
+        "locator": "pp. 196–197, first clinical trials and follow-up",
+        "readExtent": "full_text"
+      },
+      {
+        "id": "E5",
+        "citation": "Rainsford KD. 2015. History and Development of Ibuprofen. In: Ibuprofen: Discovery, Development and Therapeutics, chapter 1. DOI 10.1002/9781118743614.ch1.",
+        "url": "https://catalogimages.wiley.com/images/db/pdf/9781118743386.excerpt.pdf",
+        "locator": "chapter 1, p. 2, opening paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E8",
+        "citation": "Adams SS. 1992. The Propionic Acids: A Personal Perspective. J Clin Pharmacol 32:317–323. DOI 10.1002/j.1552-4604.1992.tb03842.x; PMID 1569234.",
+        "url": "https://accp1.onlinelibrary.wiley.com/doi/10.1002/j.1552-4604.1992.tb03842.x",
+        "locator": "published abstract, sentences 2–7",
+        "readExtent": "abstract_only"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

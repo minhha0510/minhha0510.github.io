@@ -1,0 +1,443 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/ARBS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "ARBS",
+    "name": "Angiotensin II receptor blockers",
+    "medicines": [
+      "candesartan cilexetil",
+      "irbesartan",
+      "losartan",
+      "olmesartan medoxomil",
+      "valsartan"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "candesartan cilexetil",
+        "components": [
+          "candesartan cilexetil"
+        ],
+        "usRank": null,
+        "englandRank": 28,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "hydrochlorothiazide + losartan",
+        "components": [
+          "hydrochlorothiazide",
+          "losartan"
+        ],
+        "usRank": 89,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "irbesartan",
+        "components": [
+          "irbesartan"
+        ],
+        "usRank": 128,
+        "englandRank": 144,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "losartan",
+        "components": [
+          "losartan"
+        ],
+        "usRank": 7,
+        "englandRank": 17,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "olmesartan medoxomil",
+        "components": [
+          "olmesartan medoxomil"
+        ],
+        "usRank": 90,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "sacubitril + valsartan",
+        "components": [
+          "sacubitril",
+          "valsartan"
+        ],
+        "usRank": null,
+        "englandRank": 126,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "valsartan",
+        "components": [
+          "valsartan"
+        ],
+        "usRank": 62,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Takeda researchers observed diuresis from synthetic CV-2198, then blood-pressure lowering at doses without diuresis. On investigating this effect they found angiotensin II antagonism in rabbit vessels and developed related antagonists including CV-2961. DuPont built on weak, selective antagonism of related Takeda benzylimidazoles. Angiotensin II physiology and prior peptide antagonists supplied the biological context.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "biological_physiological_observation",
+      "endogenous_molecule",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "CV-2198's diuretic and non-diuretic blood-pressure effects led to a demonstrated synthetic angiotensin antagonist series. The renin–angiotensin system and endogenous angiotensin II supplied biological context and a later molecular-modeling reference.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Angiotensin II physiology and peptide antagonists provided biological context and exposed limitations for chronic therapy.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Takeda observed diuretic and independent blood-pressure effects of CV-2198, investigated the mechanism and found angiotensin II antagonism; related structure–activity work produced CV-2961. A 1982 patent reports angiotensin II antagonism by imidazole-acetic acid derivatives in rabbit vessels and rats.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E7",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "DuPont evaluated two patented Takeda benzylimidazoles and observed weak selective competitive receptor antagonism, despite not confirming the reported potency.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Peptide-guided lead enlargement and structure–activity work generated more potent but orally inactive phthalamic acids, orally active biphenyls and the tetrazole-containing losartan.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Further Takeda work on benzimidazole acids and ester prodrugs led to candesartan and candesartan cilexetil, with a changed ring system and improved oral delivery.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "Later class designs retained a relation to the losartan prototype while changing the active architecture, including an amino-acid-derived replacement of the imidazole in valsartan and an imidazolinone in irbesartan.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10"
+        ]
+      },
+      {
+        "step": 7,
+        "description": "After oral losartan was reported, Sankyo screened synthesized imidazoles and optimized a potent, long-acting lead into olmesartan; its medoxomil ester was selected to improve oral availability. An earlier paper's abstract reports testing of related acids and oral esters.",
+        "support": "documented",
+        "evidence_ids": [
+          "E11",
+          "E12"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers separated diuresis from antagonist effects, modeled synthetic antagonists against endogenous angiotensin II, and changed structures to improve affinity, selectivity, oral activity and duration. Later benzimidazole, imidazolinone and amino-acid-derived active structures represent architecture changes, while esterification of candesartan and olmesartan was a prodrug delivery change.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E7",
+        "E8",
+        "E10",
+        "E11"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The investigation of CV-2198's blood-pressure effect, subsequent antagonist structure–activity studies, and DuPont lead optimization were deliberate. Whether the initial diuretic or blood-pressure finding was unexpected is not established by the retrospective.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E6",
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Wexler RR, Carini DJ, Duncia JV, Johnson AL, Wells GJ, Chiu AT, Wong PC, Timmermans PBMWM. 1992. Rationale for the chemical development of angiotensin II receptor antagonists. American Journal of Hypertension 5:209S–220S. DOI 10.1093/ajh/5.12.209s; PMID 1290616.",
+        "url": "https://doi.org/10.1093/ajh/5.12.209s",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Naka T, Kubo K, Furukawa Y. 1995. Non-peptide angiotensin II receptor antagonists. Journal of Synthetic Organic Chemistry, Japan 53:802–810. DOI 10.5059/yukigoseikyokaishi.53.802.",
+        "url": "https://doi.org/10.5059/yukigoseikyokaishi.53.802",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Furukawa Y, Kishimoto S, Nishikawa K, inventors; Takeda Chemical Industries Ltd, assignee. Hypotensive imidazole-5-acetic acid derivatives. US patent US4355040A; issued 1982-10-19.",
+        "url": "https://patents.google.com/patent/US4355040A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Timmermans PBMWM. 1999. Angiotensin II receptor antagonists: an emerging new class of cardiovascular therapeutics. Hypertension Research 22:147–153. DOI 10.1291/hypres.22.147; PMID 10487332.",
+        "url": "https://doi.org/10.1291/hypres.22.147",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Yanagisawa H, Koike H, Fujimoto K, Sada T, Amemiya Y. 2008. Development of a novel angiotensin II AT1 receptor antagonist, olmesartan medoxomil. Pharmaceutical Society of Japan, 128th Annual Meeting, award lecture summary AL22.",
+        "url": "https://www.pharm.or.jp/eng/128th/data/AL22.pdf",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Yanagisawa H, Amemiya Y, Kanazaki T, Shimoji Y, Fujimoto K, Kitahara Y, Sada T, Mizuno M, Ikeda M, Miyamoto S, Furukawa Y, Koike H. 1996. Nonpeptide angiotensin II receptor antagonists: synthesis, biological activities, and structure-activity relationships of imidazole-5-carboxylic acids bearing alkyl, alkenyl, and hydroxyalkyl substituents at the 4-position and their related compounds. Journal of Medicinal Chemistry 39:323–338. DOI 10.1021/jm950450f; PMID 8568823.",
+        "url": "https://doi.org/10.1021/jm950450f",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "pp. 209S–210S, introduction before Design Strategy of Losartan: Takeda patents and DuPont pharmacological evaluation"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 210S, Design Strategy of Losartan: peptide-guided working model"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "pp. 211S–213S, progression from EXP6803 to the biphenyl series"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "pp. 209S–210S, introductory comparison of prior peptide antagonists"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 803, section 2.1, left column, CV-2198 pharmacology; Japanese original"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p. 803, section 2.1, paragraph spanning bottom left and upper right columns; Japanese original"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "pp. 804–805, section 3 and section 4, CV-2961 structure–activity findings; Japanese original"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S2",
+        "locator": "p. 802 English abstract; p. 805 section 4 and pp. 808–809 section 4.3, benzimidazole and prodrug development"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "Experiment Example 1 and Table 7; Experiment Example 2 and Table 8"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S4",
+        "locator": "pp. 147–150, introduction, Figs. 1–2 and discussion of nonpeptide antagonist structures"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "One-page award lecture summary, first paragraph"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S6",
+        "locator": "Abstract, experiments on imidazole carboxylic acids and esters"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1093/ajh/5.12.209s",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.5059/yukigoseikyokaishi.53.802",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US4355040A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1291/hypres.22.147",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.pharm.or.jp/eng/128th/data/AL22.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://doi.org/10.1021/jm950450f",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "S1 documents the DuPont losartan line; S2 documents Takeda's early lead work and related candesartan branch. S4 relates irbesartan and valsartan to the losartan prototype and describes their different architectures, not their entire individual invention histories.",
+      "S5 gives Sankyo's later observation-and-optimization route to olmesartan in a one-page meeting summary. It does not establish the full chemical genealogy or priority for each analogue.",
+      "S2's crucial p. 803 account is in Japanese. The translation used here has not received an independent language check."
+    ],
+    "conflicts": [
+      "S1 reports that DuPont could not confirm the potency claimed for the Takeda compounds; the account nonetheless reports weak selective competitive antagonism."
+    ],
+    "gaps": [
+      "The 1982 patent reports antagonist experiments but not the CV-2198 chronology; Takeda's 1991 laboratory reports have not been read, and the early diuretic-to-antagonist sequence is from a 1995 discoverer retrospective.",
+      "For the Sankyo branch, the 1996 original medicinal-chemistry paper's abstract was read but its full text was not; detailed lead-by-lead chemistry is not independently reconstructed."
+    ]
+  },
+  "nameAliases": [
+    "Arbli",
+    "Atacand",
+    "Avapro",
+    "Benicar",
+    "Cozaar",
+    "Diovan",
+    "Entresto",
+    "Hyzaar",
+    "candesartan",
+    "olmesartan"
+  ],
+  "humanContributionInterpretation": {
+    "id": "ARBS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Wexler RR, Carini DJ, Duncia JV, Johnson AL, Wells GJ, Chiu AT, Wong PC, Timmermans PBMWM. 1992. Rationale for the chemical development of angiotensin II receptor antagonists. American Journal of Hypertension 5:209S–220S. DOI 10.1093/ajh/5.12.209s; PMID 1290616.",
+        "url": "https://doi.org/10.1093/ajh/5.12.209s",
+        "locator": "pp. 209S–210S, introduction before Design Strategy of Losartan: Takeda patents and DuPont pharmacological evaluation",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Wexler RR, Carini DJ, Duncia JV, Johnson AL, Wells GJ, Chiu AT, Wong PC, Timmermans PBMWM. 1992. Rationale for the chemical development of angiotensin II receptor antagonists. American Journal of Hypertension 5:209S–220S. DOI 10.1093/ajh/5.12.209s; PMID 1290616.",
+        "url": "https://doi.org/10.1093/ajh/5.12.209s",
+        "locator": "pp. 209S–210S, introductory comparison of prior peptide antagonists",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Naka T, Kubo K, Furukawa Y. 1995. Non-peptide angiotensin II receptor antagonists. Journal of Synthetic Organic Chemistry, Japan 53:802–810. DOI 10.5059/yukigoseikyokaishi.53.802.",
+        "url": "https://doi.org/10.5059/yukigoseikyokaishi.53.802",
+        "locator": "p. 803, section 2.1, left column, CV-2198 pharmacology; Japanese original",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E6",
+        "citation": "Naka T, Kubo K, Furukawa Y. 1995. Non-peptide angiotensin II receptor antagonists. Journal of Synthetic Organic Chemistry, Japan 53:802–810. DOI 10.5059/yukigoseikyokaishi.53.802.",
+        "url": "https://doi.org/10.5059/yukigoseikyokaishi.53.802",
+        "locator": "p. 803, section 2.1, paragraph spanning bottom left and upper right columns; Japanese original",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Naka T, Kubo K, Furukawa Y. 1995. Non-peptide angiotensin II receptor antagonists. Journal of Synthetic Organic Chemistry, Japan 53:802–810. DOI 10.5059/yukigoseikyokaishi.53.802.",
+        "url": "https://doi.org/10.5059/yukigoseikyokaishi.53.802",
+        "locator": "pp. 804–805, section 3 and section 4, CV-2961 structure–activity findings; Japanese original",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

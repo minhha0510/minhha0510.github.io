@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/DIRECT_ARTERIOLAR_VASODILATORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "DIRECT_ARTERIOLAR_VASODILATORS",
+    "name": "Hydrazinophthalazine direct arteriolar vasodilators",
+    "medicines": [
+      "hydralazine"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "hydralazine",
+        "components": [
+          "hydralazine"
+        ],
+        "usRank": 119,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "According to Sneader, a blood-pressure fall and peripheral dilation were observed during Ciba's synthetic imidazoline investigations; the laboratory expanded to other nitrogen heterocycles and hypotensive screening of phthalazines yielded hydralazine, though why it expanded is not expressly stated. Chast instead directly reports diversion after a hypotensive effect appeared in an antimalarial search. Both are retrospective accounts; the primary evidence read here does not resolve the initial program.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E9",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Chast directly attributes the change to a hypertension application to hydralazine's observed effect during an antimalarial search. Sneader describes an earlier blood-pressure/peripheral-vascular effect of synthetic imidazolines, followed by expanded screening that yielded hydralazine, but does not expressly identify the reason for expansion. This classification uses Ha's broad biological-inspiration definition and does not imply a natural-source scaffold.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E1",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A historical review describes blood-pressure lowering in an imidazoline series, followed by exploration of other nitrogen heterocycles and hypotensive screening of phthalazines.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E9"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Chast's historical account directly links hydralazine's observed circulatory effect during an antimalarial search to its application for hypertension; the upstream purpose differs from Sneader's account.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E9"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "In their 1949 patent the inventors described a preparation of 1-hydrazinophthalazine and claimed pressure-lowering effects for their compounds; the 1950 original report described the pharmacological properties of substituted phthalazines.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3",
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The 1951 chemistry abstract describes modification of the ring system and hydrazine group in related compounds, without establishing a particular optimization sequence.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A 1952 clinical study measured cardiovascular and renal effects of the named compound and interpreted its hemodynamic action as peripheral vascular relaxation, while the site of action remained uncertain.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Ciba researchers screened related phthalazine structures and identified hydralazine as a long-acting peripheral dilator according to a later history; the inventors' patent describes chemical synthesis. The 1951 chemistry abstract describes ring and hydrazine-group substitutions. A specific causal optimization sequence or superiority of individual alterations is not established by the material read.",
+      "support": "documented",
+      "evidence_ids": [
+        "E9",
+        "E3",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The historical review describes screening the phthalazine series for hypotensive activity; this does not settle whether the original effect or the initial synthesis was unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E9"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Sneader W. Drug Discovery: A History. Wiley; 2005. Section Imidazolines, p. 371.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/91184/1/Drug%20Discovery%20A%20History-Walter%20Sneader-John%20Wiley%20%26%20Sons%20Ltd-2005-1.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Chast F. A History of Drug Discovery. In: Wermuth CG, ed. The Practice of Medicinal Chemistry. 3rd ed. Elsevier; 2008. Chapter 1, Antihypertensive drugs.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/4253/1/Camille%20Georges%20Wermuth_2008.pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Hartmann M, Druey J. Hydrazine derivatives of pyridazine compounds. US patent 2,484,029, issued October 11, 1949.",
+        "url": "https://patents.google.com/patent/US2484029A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Gross F, Druey J, Meier R. Eine neue Gruppe blutdrucksenkender Substanzen von besonderem Wirkungscharakter. Experientia. 1950;6:19–21. doi:10.1007/BF02154049.",
+        "url": "https://link.springer.com/article/10.1007/BF02154049",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Wilkinson EL, Backman H, Hecht HH. Cardiovascular and renal adjustments to a hypotensive agent (1-hydrazinophthalazine: Ciba BA-5968: Apresoline). J Clin Invest. 1952;31:872–879. doi:10.1172/JCI102674. PMID:12990658.",
+        "url": "https://www.jci.org/articles/view/102674",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Reubi FC. Renal hyperemia induced in man by a new phthalazine derivative. Proc Soc Exp Biol Med. 1950;73:102–103. doi:10.3181/00379727-73-17591. PMID:15402536.",
+        "url": "https://www.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-73-17591/pdf",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Dustan HP, Roccella EJ, Garrison HH. Controlling hypertension: a research success story. Arch Intern Med. 1996;156:1926–1935. doi:10.1001/archinte.1996.00440160034007.",
+        "url": "https://citeseerx.ist.psu.edu/document?doi=66c28dc16a213ffc475c9354cf96958e192c730e&repid=rep1&type=pdf",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Druey J, Ringier BH. Hydrazinderivate der Phtalazin- und Pyridazinreihe. Helv Chim Acta. 1951;34:195–210. doi:10.1002/hlca.19510340122.",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/hlca.19510340122",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 371, Imidazolines, paragraph on Ciba's toxicity studies"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S2",
+        "locator": "p. 12, Chapter 1, section 3, Antihypertensive drugs, hydralazine paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S3",
+        "locator": "Column 2, therapeutic-property paragraph, and Example 1"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S4",
+        "locator": "p. 21, final German paragraphs and English summary; pp. 19–20 not read"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S5",
+        "locator": "pp. 872–873, introduction and methods/results; p. 878, discussion and summary"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S6",
+        "locator": "pp. 102–103, complete report"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S7",
+        "locator": "Early antihypertensive-drugs section, hydralazine paragraph, and references 12–13"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S8",
+        "locator": "German abstract, first paragraph; full article not read"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S1",
+        "locator": "p. 371, Imidazolines, paragraph on expansion to phthalazines"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US2484029A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://link.springer.com/article/10.1007/BF02154049",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.jci.org/articles/view/102674",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://www.ebm-journal.org/journals/experimental-biology-and-medicine/articles/10.3181/00379727-73-17591/pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1002/hlca.19510340122",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "Hydralazine is the sole cohort member; this is the hydrazinophthalazine founding history, not the heterogeneous set of all vasodilators.",
+      "The competing narratives concern the same hydralazine research lineage, not established separate founding branches; observation-led does not assert which upstream program is correct or that a natural scaffold was used."
+    ],
+    "conflicts": [
+      "Sneader describes an imidazoline-related heterocycle and hypotensive-screening program; Chast and the earlier Dustan review describe an antimalarial-search origin. Their relationship is unestablished. Chast and Dustan use the same wording and are not independent corroboration; the accessible Reubi report cited by Dustan does not establish an antimalarial starting program."
+    ],
+    "gaps": [
+      "Pages 19–20 of the 1950 original pharmacology report were not accessible; the visible final page does not identify the tested hydralazine compound or originating program.",
+      "Druey and Ringier 1951 was read only as an indexed abstract; Druey and Marxer's 1959 inventor-authored article was located but not read, so its contents and account type are unknown.",
+      "Schroeder 1952, cited for the antimalarial-origin anecdote, was not accessible; its ability to support that anecdote is unknown. Its author initials/title differ between PubMed and other bibliographic sources.",
+      "The earlier patent application/file history was not inspected; the issued 1949 patent does not by itself establish the timing of each discovery step."
+    ]
+  },
+  "nameAliases": [],
+  "humanContributionInterpretation": {
+    "id": "DIRECT_ARTERIOLAR_VASODILATORS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Sneader W. Drug Discovery: A History. Wiley; 2005. Section Imidazolines, p. 371.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/91184/1/Drug%20Discovery%20A%20History-Walter%20Sneader-John%20Wiley%20%26%20Sons%20Ltd-2005-1.pdf",
+        "locator": "p. 371, Imidazolines, paragraph on Ciba's toxicity studies",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Sneader W. Drug Discovery: A History. Wiley; 2005. Section Imidazolines, p. 371.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/91184/1/Drug%20Discovery%20A%20History-Walter%20Sneader-John%20Wiley%20%26%20Sons%20Ltd-2005-1.pdf",
+        "locator": "p. 371, Imidazolines, paragraph on expansion to phthalazines",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Chast F. A History of Drug Discovery. In: Wermuth CG, ed. The Practice of Medicinal Chemistry. 3rd ed. Elsevier; 2008. Chapter 1, Antihypertensive drugs.",
+        "url": "https://ndl.ethernet.edu.et/bitstream/123456789/4253/1/Camille%20Georges%20Wermuth_2008.pdf",
+        "locator": "p. 12, Chapter 1, section 3, Antihypertensive drugs, hydralazine paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

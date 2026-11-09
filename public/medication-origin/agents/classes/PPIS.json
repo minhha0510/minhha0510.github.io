@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/PPIS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "PPIS",
+    "name": "Proton pump inhibitors",
+    "medicines": [
+      "esomeprazole",
+      "lansoprazole",
+      "omeprazole",
+      "pantoprazole"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "esomeprazole",
+        "components": [
+          "esomeprazole"
+        ],
+        "usRank": 110,
+        "englandRank": 101,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "lansoprazole",
+        "components": [
+          "lansoprazole"
+        ],
+        "usRank": null,
+        "englandRank": 3,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "omeprazole",
+        "components": [
+          "omeprazole"
+        ],
+        "usRank": 10,
+        "englandRank": 5,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "pantoprazole",
+        "components": [
+          "pantoprazole"
+        ],
+        "usRank": 16,
+        "englandRank": 124,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "YES"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A reported working antisecretory compound, CMN131, supplied the starting lead for the omeprazole/PPI series. Its observed activity led to heterocyclic redesign, metabolite investigation and functional gastric experiments. The later pump model and accumulation/stability optimization did not originate the whole programme from scratch.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Observed gastric antisecretory activity in a synthetic lead, followed by specific gastric proton-transport/ATPase physiology and compartmental accumulation reasoning. No natural-scaffold requirement is imposed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E6"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The acid-inhibition programme used Servier's reported antisecretory CMN 131 as a chemical starting clue. Its acute toxicity motivated replacement of the thioamide arrangement with heterocyclic systems, yielding active H 124/26 in 1973.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "H 124/26's more potent sulphoxide metabolite timoprazole became the lead when the parent was found already patented. Substitution informed by mercaptobenzimidazole chemistry separated thyroid/thymus effects from acid inhibition and yielded picoprazole. This preserves the upstream CMN 131 chemical ancestry through those synthetic changes.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E8"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The early series showed a surprisingly prolonged acid-inhibitory action. Specific gastric-gland, vesicle and ATPase experiments then identified pump inhibition as its mechanism, supplying a physiological explanation and a more specific development direction. Fellenius et al. directly showed picoprazole inhibiting proton transport and ATPase activity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E6",
+          "E3"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Knowledge that weak bases accumulate in the acidic parietal-cell compartment informed pyridine substituents that raised basicity and accumulation. Together with benzimidazole substitution improving stability at neutral pH, this produced omeprazole H 168/68.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Omeprazole entered European use as Losec in 1988. The subsequent PPI succession included the cohort's lansoprazole, pantoprazole and esomeprazole, the S-enantiomer of omeprazole. This closes the founding class history without separate later-analogue biographies.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E7"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Heterocyclic redesign and metabolite selection improved the initial series; substitutions addressed thyroid/thymus effects, acidic-compartment accumulation and neutral-pH stability, leading to omeprazole. These are deliberate developments of an existing observed effect.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The acid-inhibition programme and optimization were planned; the participant history calls the unusually prolonged action surprising. This does not make the entire programme accidental.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E4"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Olbe L, Carlsson E, Lindberg P. 2003. A proton-pump inhibitor expedition: the case histories of omeprazole and esomeprazole. Nature Reviews Drug Discovery 2:132–139. DOI 10.1038/nrd1010; PMID 12563304.",
+        "url": "https://doi.org/10.1038/nrd1010",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Fellenius E, Berglindh T, Sachs G, Olbe L, Elander B, Sjöstrand SE, Wallmark B. 1981. Substituted benzimidazoles inhibit gastric acid secretion by blocking (H+ + K+) ATPase. Nature 290:159–161. DOI 10.1038/290159a0; PMID 6259537.",
+        "url": "https://doi.org/10.1038/290159a0",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Shin JM, Sachs G. 2008. Pharmacology of Proton Pump Inhibitors. Current Gastroenterology Reports 10:528–534. DOI 10.1007/s11894-008-0098-4; PMID 19006606; PMCID PMC2855237.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2855237/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "New thiocarboxamides derivatives with specific gastric antisecretory properties. 1971. Journal of Medicinal Chemistry 14:244–246. DOI 10.1021/jm00285a020; PMID 5552220. Publisher lists Pascaud XBL, Malen C, Danree B; retrieved PubMed metadata lists Malen CE, Danree BH.",
+        "url": "https://doi.org/10.1021/jm00285a020",
+        "role": "original_experiment",
+        "read_extent": "metadata_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p.133, Background and The omeprazole project, complete paragraphs: the late-1960s acid-inhibition programme was restarted in dogs in 1972; literature supplied Servier's active but acutely toxic CMN 131; heterocyclic redesign of its thioamide produced the active H 124/26 in 1973."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p.133, Patent problem and Toxicological challenges, complete paragraphs: H 124/26 was already patented; its more potent sulphoxide metabolite H 83/69 became timoprazole; substituent changes separated acid inhibition from thyroid/thymus effects, yielding picoprazole H 149/94."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "pp.133–134, Compound optimization, complete section: isolated mucosa/glands enabled screening; pump-localization work suggested the target; adding pyridine substituents raised basicity to concentrate compound near the pump, yielding omeprazole H 168/68. The benzimidazole methoxy group improved neutral-pH stability."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "p.132, introductory paragraph beginning From the late 1960s onwards: the early pump-inhibiting compounds were potent acid inhibitors with an unexpectedly prolonged action; p.133, Toxicological challenges, reports picoprazole's prolonged antisecretory action in human volunteers. The surprise coded here concerns duration, not the initial lead discovery."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S1",
+        "locator": "p.134, Resumption of clinical studies, opening paragraph: European clinical introduction after development and trials."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "p.160, main text following Fig.2 and preceding Fig.4, with Figs.2–3: picoprazole H 149/94 inhibited proton transport in gastric vesicles and the corresponding ATPase activity; human gastric preparations extended the mechanistic finding. Line-wrap hyphenation normalized."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Chemistry and Biology of PPIs, first two paragraphs: timoprazole was a synthesized pyridylmethylsulfinyl benzimidazole; omeprazole followed, then lansoprazole, pantoprazole, rabeprazole and the S-enantiomer of omeprazole. The cohort members belong to this stated class succession."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "Chemistry and Biology of PPIs, first paragraph: the timoprazole synthetic antecedent and experiments showing acid-transport-dependent activation are described; the quoted date differs from S1 Figure 1's 1974 date."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://doi.org/10.1038/nrd1010",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1038/290159a0",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1021/jm00285a020",
+        "account_kind": "original_report",
+        "access_status": "located_not_read"
+      }
+    ],
+    "limits": [
+      "The classification describes the documented founding PPI/omeprazole lineage from an already active CMN131 lead. The earlier origin/design of CMN131 is not established without its1971 original report.",
+      "A synthetic starting compound and later rational pump-directed optimization do not imply whole-class design from scratch under the approved criterion.",
+      "The later class succession is established without individual analogue biographies."
+    ],
+    "conflicts": [
+      "Timoprazole's synthesis is dated 1974 in S1 Figure 1 but 1975 in S3 Chemistry and Biology of PPIs. The chain is preserved without resolving the year from these sources.",
+      "The 1971 CMN 131 antecedent's publisher/search metadata include Pascaud as first author, while the retrieved PubMed display and S1 reference 3 list Malen and Danree. The DOI/title/journal/pages match; full-text author-list adjudication remains open."
+    ],
+    "gaps": [
+      "The 1971 CMN 131 original report was located but not read: the publisher request returned HTTP 403 and the PubMed page supplied no abstract in this retrieval. Its chemical ancestry is therefore not independently established here.",
+      "The 1981 pump paper is original verification of the mechanism only; the earlier synthesis/metabolism and optimization history relies on the full-text discoverer retrospective."
+    ]
+  },
+  "nameAliases": [
+    "Gastrobim",
+    "Nexium",
+    "Prevacid",
+    "Prilosec",
+    "Primeguard",
+    "Protonix",
+    "UlcerGard"
+  ],
+  "humanContributionInterpretation": {
+    "id": "PPIS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Olbe L, Carlsson E, Lindberg P. 2003. A proton-pump inhibitor expedition: the case histories of omeprazole and esomeprazole. Nature Reviews Drug Discovery 2:132–139. DOI 10.1038/nrd1010; PMID 12563304.",
+        "url": "https://doi.org/10.1038/nrd1010",
+        "locator": "p.133, Background and The omeprazole project, complete paragraphs: the late-1960s acid-inhibition programme was restarted in dogs in 1972; literature supplied Servier's active but acutely toxic CMN 131; heterocyclic redesign of its thioamide produced the active H 124/26 in 1973.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Olbe L, Carlsson E, Lindberg P. 2003. A proton-pump inhibitor expedition: the case histories of omeprazole and esomeprazole. Nature Reviews Drug Discovery 2:132–139. DOI 10.1038/nrd1010; PMID 12563304.",
+        "url": "https://doi.org/10.1038/nrd1010",
+        "locator": "p.133, Patent problem and Toxicological challenges, complete paragraphs: H 124/26 was already patented; its more potent sulphoxide metabolite H 83/69 became timoprazole; substituent changes separated acid inhibition from thyroid/thymus effects, yielding picoprazole H 149/94.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

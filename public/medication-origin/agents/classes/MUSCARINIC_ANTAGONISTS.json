@@ -1,0 +1,399 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/MUSCARINIC_ANTAGONISTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "MUSCARINIC_ANTAGONISTS",
+    "name": "Muscarinic receptor antagonists",
+    "medicines": [
+      "glycopyrronium",
+      "hyoscine butylbromide",
+      "ipratropium",
+      "oxybutynin",
+      "solifenacin",
+      "tiotropium",
+      "umeclidinium"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "beclometasone + formoterol + glycopyrronium",
+        "components": [
+          "beclometasone",
+          "formoterol",
+          "glycopyrronium"
+        ],
+        "usRank": null,
+        "englandRank": 83,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "fluticasone + umeclidinium + vilanterol",
+        "components": [
+          "fluticasone",
+          "umeclidinium",
+          "vilanterol"
+        ],
+        "usRank": 102,
+        "englandRank": 142,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "hyoscine butylbromide",
+        "components": [
+          "hyoscine butylbromide"
+        ],
+        "usRank": null,
+        "englandRank": 135,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "YES"
+        }
+      },
+      {
+        "name": "ipratropium + salbutamol",
+        "components": [
+          "ipratropium",
+          "salbutamol"
+        ],
+        "usRank": 145,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "oxybutynin",
+        "components": [
+          "oxybutynin"
+        ],
+        "usRank": 125,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "NOT_ASSESSED"
+        }
+      },
+      {
+        "name": "solifenacin",
+        "components": [
+          "solifenacin"
+        ],
+        "usRank": null,
+        "englandRank": 85,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      },
+      {
+        "name": "tiotropium",
+        "components": [
+          "tiotropium"
+        ],
+        "usRank": null,
+        "englandRank": 127,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Historical practitioners reported relief of asthma with Datura preparations before atropine isolation. Later work developed antimuscarinics from the known plant alkaloid atropine in response to useful effects and limiting toxicity; the evidence does not show that this particular 1811 report directly caused ipratropium design. Separately, bladder-selectivity programs developed compounds from known synthetic muscarinic leads and tested receptor binding and selectivity.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "clinical_veterinary_effect",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Atropine and scopolamine were plant alkaloids with historical therapeutic use. Later respiratory design responded to benefits and toxicity of atropine; bladder-selectivity work used existing synthetic antagonist-related leads and tested receptor binding.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Traditional preparations containing belladonna-type alkaloids were used medicinally; atropine was isolated and used in medicine in the 19th century.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Christie reported clinical relief from Datura smoke in asthma cases, an early account of the plant-use tradition, while also noting adverse effects and recurrence.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Dale's 1914 experiments distinguished atropine-sensitive muscarine-like physiological actions from nicotine-like actions, supplying a later pharmacological distinction.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "Limited by systemic effects of atropine, later workers pursued less-absorbed anticholinergics; ipratropium is a quaternary N-isopropyl atropine derivative for inhalation.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "A bladder-selectivity program pursued new benzhydrylcarbamates related to an existing 4-DAMP-derived antagonist. The investigators tested a quinuclidin-3-yl benzhydrylcarbamate with strong muscarinic binding but little M3-versus-M2 selectivity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6",
+          "E9"
+        ]
+      },
+      {
+        "step": 6,
+        "description": "A discoverer retrospective identifies solifenacin as a conformationally restricted analogue of a known quinuclidinyl benzhydrylcarbamate antagonist, pursued for bladder selectivity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Atropine was modified at its nitrogen to produce a quaternary analogue with low absorption for respiratory use. Bladder-selectivity research used carbamate substitutions in known antagonist-related structures; solifenacin was designed by conformational restriction of a named quinuclidinyl benzhydrylcarbamate lead, whose exact identity with 1998 compound 7l is not confirmed.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The later efforts to find a less systemically absorbed anticholinergic and to improve bladder selectivity were purposeful; whether the initial traditional discovery was planned or unexpected is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E5",
+        "E6",
+        "E8"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Moulton BC, Fryer AD. 2011. Muscarinic receptor antagonists, from folklore to pharmacology; finding drugs that actually work in asthma and COPD. Br J Pharmacol 163:44–52. DOI 10.1111/j.1476-5381.2010.01190.x; PMID 21198547.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1476-5381.2010.01190.x",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Dale HH. 1914. The action of certain esters and ethers of choline, and their relation to muscarine. J Pharmacol Exp Ther 6(2):147–190. DOI 10.1016/S0022-3565(25)08268-0.",
+        "url": "https://iiif.wellcomecollection.org/presentation/v2/b30620946",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Naito R, Takeuchi M, Morihira K, Hayakawa M, Ikeda K, Shibanuma T, Isomura Y. 1998. Selective Muscarinic Antagonists. I. Synthesis and Antimuscarinic Properties of 4-Piperidyl Benzhydrylcarbamate Derivatives. Chem Pharm Bull 46(8):1274–1285. DOI 10.1248/cpb.46.1274; PMID 9734315.",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/46/8/46_8_1274/_pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Christie T. 1811. Account of the good effects from inhaling the Smoke of several species of Datura, especially the Datura Fastuosa, in Asthma (indexed as On Inhaling the Smoke of Datura in Asthma). Edinb Med Surg J 7(26):158–160. PMID 30329594; PMCID PMC5744839.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744839/",
+        "role": "original_experiment",
+        "read_extent": "full_text"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Naito R, Sato S, Takaoka K. 2012. Research and Development of Solifenacin for the Treatment of Overactive Bladder(OAB). J Synth Org Chem Jpn 70(10):1011–1017. DOI 10.5059/yukigoseikyokaishi.70.1011.",
+        "url": "https://www.jstage.jst.go.jp/article/yukigoseikyokaishi/70/10/70_1011/_article/-char/en",
+        "role": "discoverer_account",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 45, Atropine and related compounds, first paragraph"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 46, end of Atropine and related compounds"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "p. 46, Ipratropium, first paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "p. 159, cardiovascular experiment and interpretation after Figure 9; p. 190, conclusion 1"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S3",
+        "locator": "p. 1274, introduction, first paragraph"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "pp. 1274–1275, introduction final paragraph; p. 1275, Results and Discussion"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S4",
+        "locator": "p. 158, final paragraph, continued p. 159; p. 159, December 1807 letter"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "publisher's English abstract, second sentence"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S3",
+        "locator": "p. 1277, Table 3 and Results and Discussion, lower right paragraph"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://iiif.wellcomecollection.org/presentation/v2/b30620946",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/46/8/46_8_1274/_pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744839/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.jstage.jst.go.jp/article/yukigoseikyokaishi/70/10/70_1011/_article/-char/en",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The botanical-to-ipratropium path and the synthetic-template bladder-selectivity work, including solifenacin's named precursor, are supported at the source extents specified. That precursor shares the generic name and little subtype selectivity with 1998 compound 7l; stereoisomer identity and a direct historical link are not established by the abstract.",
+      "The individual founding histories of glycopyrronium, hyoscine butylbromide, oxybutynin, tiotropium and umeclidinium were not traced; class membership does not prove each was derived from atropine or the same synthetic lead."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The earliest observation behind traditional botanical use and the original pre-Dale muscarine–atropine experiments were not examined.",
+      "The full solifenacin discoverer history is subscription-restricted; the exact historical and stereochemical relationship of its named precursor to 1998 compound 7l remains unestablished.",
+      "Founding histories of the other named later agents were not individually reconstructed under this class-level scope."
+    ]
+  },
+  "nameAliases": [
+    "Buscopan",
+    "Combivent",
+    "Gelnique",
+    "Oxytrol",
+    "Spiriva",
+    "Trelegy",
+    "Trimbow",
+    "Vesicare",
+    "butylscopolamine"
+  ],
+  "humanContributionInterpretation": {
+    "id": "MUSCARINIC_ANTAGONISTS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Atropine use and unwanted systemic effects helped motivate less-absorbed inhaled and more selective antagonists.",
+    "scope": "Multiple therapeutic branches; historical Datura use does not establish each modern molecule's origin.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Moulton BC, Fryer AD. 2011. Muscarinic receptor antagonists, from folklore to pharmacology; finding drugs that actually work in asthma and COPD. Br J Pharmacol 163:44–52. DOI 10.1111/j.1476-5381.2010.01190.x; PMID 21198547.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1476-5381.2010.01190.x",
+        "locator": "p. 45, Atropine and related compounds, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Moulton BC, Fryer AD. 2011. Muscarinic receptor antagonists, from folklore to pharmacology; finding drugs that actually work in asthma and COPD. Br J Pharmacol 163:44–52. DOI 10.1111/j.1476-5381.2010.01190.x; PMID 21198547.",
+        "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1476-5381.2010.01190.x",
+        "locator": "p. 46, end of Atropine and related compounds",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Naito R, Takeuchi M, Morihira K, Hayakawa M, Ikeda K, Shibanuma T, Isomura Y. 1998. Selective Muscarinic Antagonists. I. Synthesis and Antimuscarinic Properties of 4-Piperidyl Benzhydrylcarbamate Derivatives. Chem Pharm Bull 46(8):1274–1285. DOI 10.1248/cpb.46.1274; PMID 9734315.",
+        "url": "https://www.jstage.jst.go.jp/article/cpb1958/46/8/46_8_1274/_pdf",
+        "locator": "p. 1274, introduction, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E7",
+        "citation": "Christie T. 1811. Account of the good effects from inhaling the Smoke of several species of Datura, especially the Datura Fastuosa, in Asthma (indexed as On Inhaling the Smoke of Datura in Asthma). Edinb Med Surg J 7(26):158–160. PMID 30329594; PMCID PMC5744839.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5744839/",
+        "locator": "p. 158, final paragraph, continued p. 159; p. 159, December 1807 letter",
+        "readExtent": "full_text"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

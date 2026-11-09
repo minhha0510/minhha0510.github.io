@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/IRON_REPLACEMENT",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "IRON_REPLACEMENT",
+    "name": "Iron replacement preparations",
+    "medicines": [
+      "ferrous fumarate",
+      "ferrous sulfate"
+    ],
+    "countries": [
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "ferrous fumarate",
+        "components": [
+          "ferrous fumarate"
+        ],
+        "usRank": null,
+        "englandRank": 49,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "ferrous sulfate",
+        "components": [
+          "ferrous sulfate"
+        ],
+        "usRank": null,
+        "englandRank": 76,
+        "otcOverlap": {
+          "US": "NOT_ASSESSED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Clinical reports described pallor improving with iron in chlorosis. Blaud explicitly started from existing iron treatment and its inconsistent outcomes, then proposed a modified preparation and regimen; the first reason anyone tried iron remains unknown.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E10"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "clinical_veterinary_effect"
+    ],
+    "inspiration": {
+      "description": "Reported clinical improvement from iron-containing remedies for chlorosis, with Blaud explicitly developing a different regimen from already-known but variably effective iron treatment; the first motivating experiment is not identified.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E4",
+        "E10"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "A historical account attributes improvement in pallor following an iron treatment course to Sydenham; iron was used for chlorosis before deficiency was established as its cause.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Blaud described variable outcomes with existing iron remedies and proposed a sulfate-plus-potassium-subcarbonate pill and higher-dose regimen; he stated that iron carbonate formed in the mixture.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E10",
+          "E11"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Smart compared iron preparations already in use and recorded a patient whose haemoglobin rose during sulfate-of-iron treatment.",
+        "support": "documented",
+        "evidence_ids": [
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "By 1960 sulfate was established and fumarate was among later oral preparations advertised as alternatives; Hayhoe questioned a general comparative advantage.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Blaud deliberately modified an existing iron remedy by combining iron sulfate and potassium subcarbonate in pills and increasing the regimen; he asserted that iron carbonate formed and proposed improved absorption or activity. Later oral salts including fumarate were offered as alternatives to sulfate with claims of improved performance. The final pill composition was not independently tested here, and the originator's rationale for fumarate is not established.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E10",
+        "E11",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Blaud deliberately proposed a changed iron preparation and dosing regimen to address perceived failures of existing treatment; whether the first therapeutic discovery of iron was planned is unknown.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E10"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Poskitt EME. 2003. Early history of iron deficiency. Br J Haematol 122:554–562. DOI 10.1046/j.1365-2141.2003.04529.x; PMID 12899710.",
+        "url": "https://doi.org/10.1046/j.1365-2141.2003.04529.x",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Fowler WM. 1936. Chlorosis—An Obituary. Ann Med Hist 8(2):168–177. PMID 33943506; PMCID PMC7939852.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7939852/",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Smart A. 1893. The Treatment of Anæmia and Chlorosis by the Chief Iron Preparations Commonly in Use. Trans Med Chir Soc Edinb 12:264–286. PMID 29584306; PMCID PMC5538456.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5538456/",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Hayhoe FGJ. 1960. Iron Preparations for Anaemia. Br Med J 1(5180):1195–1197. DOI 10.1136/bmj.1.5180.1195; PMID 14400341.",
+        "url": "https://doi.org/10.1136/bmj.1.5180.1195",
+        "role": "historical_review",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Blaud P. 1832. Sur les maladies chlorotiques, et sur un mode de traitement spécifique dans ces affections. Revue médicale française et étrangère, tome 1, 337–367; presented 23 August 1831 and published in the March 1832 issue.",
+        "url": "https://archive.org/details/s3id13657250/page/n348/mode/1up",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "p. 558, left column, paragraph beginning 'Iron deficiency may not have been recognized as causal'"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "p. 558, left column, paragraph beginning 'In 1832'"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S2",
+        "locator": "p. 173, left column, quoted passage attributed to Sydenham"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S6",
+        "locator": "p. 345, first paragraph"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S4",
+        "locator": "p. 280, case XIX"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S4",
+        "locator": "p. 266, paragraph beginning 'The patients whose cases are here reported'"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S5",
+        "locator": "p. 1195, left column, first and second paragraphs"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S5",
+        "locator": "p. 1196, left column, paragraph beginning 'We may conclude from these studies'"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S2",
+        "locator": "p. 173, left column, paragraph discussing Lemery and Geoffry"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S6",
+        "locator": "p. 345, prescription and preceding paragraph; p. 346, first paragraph"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S6",
+        "locator": "p. 346, second paragraph"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S6",
+        "locator": "p. 337, title heading and issue footer"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S6",
+        "url": "https://archive.org/details/s3id13657250/page/n348/mode/1up",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5538456/",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The reported Sydenham and Blaud observations concern historical chlorosis, not every form of modern iron-deficiency anemia; Sydenham's original text was not read.",
+      "Ferrous sulfate and fumarate are covered as later iron-replacement salts in the same treatment tradition; the inventor, original rationale, and independent developmental path of fumarate are not established by these sources.",
+      "Blaud describes iron carbonate as formed in his mixture; its actual final chemical composition was not independently tested here. Smart's 1893 series is an uncontrolled later investigation, not an account of the first use."
+    ],
+    "conflicts": [
+      "Fowler dates Blaud's introduction to 1831, whereas Poskitt gives 1832. Blaud's paper states a presentation date of 23 August 1831 and is in the March 1832 journal issue; these dates can coexist, though Fowler's exact reference and the first formulation date are not established.",
+      "Hayhoe describes superiority and tolerability claims for later salts, but his contemporary review questions a general advantage; no modern comparative efficacy conclusion is asserted."
+    ],
+    "gaps": [
+      "The first observation or rationale that caused anyone to try iron therapy is unknown in these sources; a direct intellectual link from Sydenham to Blaud is not established.",
+      "Sydenham's original account and Blaud's separate preliminary Bulletin report were not read; the chemical composition of Blaud's finished pill was not independently tested.",
+      "Swan and Jowett's 1959 ferrous fumarate study was located by metadata but not read; fumarate's invention and development rationale remain outside the established evidence."
+    ]
+  },
+  "nameAliases": [
+    "Feosol",
+    "Fer-in-Sol",
+    "Ferrimin 150",
+    "Ferrocite",
+    "Hemocyte",
+    "Slow-Fe"
+  ],
+  "humanContributionInterpretation": {
+    "id": "IRON_REPLACEMENT",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Variable responses to prior iron treatment informed Blaud's formulation and dosing work.",
+    "scope": "The earliest therapeutic use of iron is not established by the dossier.",
+    "references": [
+      {
+        "id": "E4",
+        "citation": "Blaud P. 1832. Sur les maladies chlorotiques, et sur un mode de traitement spécifique dans ces affections. Revue médicale française et étrangère, tome 1, 337–367; presented 23 August 1831 and published in the March 1832 issue.",
+        "url": "https://archive.org/details/s3id13657250/page/n348/mode/1up",
+        "locator": "p. 345, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E10",
+        "citation": "Blaud P. 1832. Sur les maladies chlorotiques, et sur un mode de traitement spécifique dans ces affections. Revue médicale française et étrangère, tome 1, 337–367; presented 23 August 1831 and published in the March 1832 issue.",
+        "url": "https://archive.org/details/s3id13657250/page/n348/mode/1up",
+        "locator": "p. 345, prescription and preceding paragraph; p. 346, first paragraph",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

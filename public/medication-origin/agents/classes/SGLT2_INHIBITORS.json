@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/SGLT2_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "SGLT2_INHIBITORS",
+    "name": "SGLT2 inhibitors",
+    "medicines": [
+      "dapagliflozin",
+      "empagliflozin"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "dapagliflozin",
+        "components": [
+          "dapagliflozin"
+        ],
+        "usRank": 87,
+        "englandRank": 20,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "UNKNOWN"
+        }
+      },
+      {
+        "name": "empagliflozin",
+        "components": [
+          "empagliflozin"
+        ],
+        "usRank": 28,
+        "englandRank": 59,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Apple-tree phlorizin and its observed glucosuric/glucose-lowering activity supplied a working lead. Specific diabetic-animal experiments and human familial renal glucosuria supported the therapeutic strategy; development then improved this existing biological effect.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E8"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "natural_substance",
+      "biological_physiological_observation",
+      "genetic_population_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Phlorizin activity, diabetic-rat physiology and human familial renal glucosuria supplied complementary observational leads. Within later medicinal chemistry, activity of a C-aryl compound redirected the synthetic series.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E8"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Apple-derived phlorizin supplied a glucosuric natural-product lead and the starting structure for improved inhibitors.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Phlorizin corrected hyperglycemia and insulin resistance in the rat experiment. Meng explicitly cites diabetic-rodent glucose lowering as mechanistic support; NIDDK describes familial renal glucosuria as a human genetic rationale for safe inhibition.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8",
+          "E4",
+          "E2"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Phlorizin SAR yielded O-glucosides and prodrugs. BMS shifted from O-glucosides after compound 5 showed activity, then optimized C-aryl diarylmethanes to dapagliflozin, addressing metabolic cleavage and selectivity.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E5",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The institutional history traces derivative development to U.S. approvals of canagliflozin in 2013 and dapagliflozin and empagliflozin in 2014.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E3"
+        ]
+      }
+    ],
+    "design": {
+      "description": "O-glucoside analogues/prodrugs and subsequently more metabolically stable C-aryl glucosides addressed phlorizin instability and nonselectivity. Structure-activity exploration and substitutions selected dapagliflozin and helped establish the class.",
+      "support": "documented",
+      "evidence_ids": [
+        "E4",
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The traced optimization and candidate-selection programme was deliberate. The selected sources do not establish an accidental founding event, so none is invented.",
+      "support": "documented",
+      "evidence_ids": [
+        "E5",
+        "E6",
+        "E7"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "National Institute of Diabetes and Digestive and Kidney Diseases. 2016 Jun 9. Story of Discovery: SGLT2 inhibitors: harnessing the kidneys to help treat diabetes.",
+        "url": "https://www.niddk.nih.gov/news/archive/2016/story-discovery-sglt2-inhibitors-harnessing-kidneys-help-treat-diabetes",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Meng W et al. 2008. Discovery of dapagliflozin: a potent, selective renal sodium-dependent glucose cotransporter 2 (SGLT2) inhibitor for the treatment of type 2 diabetes. J Med Chem 51:1145–1149. DOI 10.1021/jm701272q; PMID 18260618.",
+        "url": "https://doi.org/10.1021/jm701272q",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Rossetti L, Smith D, Shulman GI, Papachristou D, DeFronzo RA. 1987. Correction of hyperglycemia with phlorizin normalizes tissue sensitivity to insulin in diabetic rats. J Clin Invest 79:1510–1515. DOI 10.1172/JCI112981; PMID 3571496.",
+        "url": "https://www.jci.org/articles/view/112981",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Treating Diabetes with the Help of the Kidneys, first paragraph: phlorizin's apple-tree source and early human glucosuric/hypoglycemic testing; third paragraph explicitly identifies phlorizin as the starting point for improved derivatives."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "The Identification of SGLTs, final two paragraphs: SGLT2 gene changes reduce glucose reabsorption in familial renal glucosuria without apparent serious effects; the account then asks whether inhibitors could safely treat diabetes."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Treating Diabetes with the Help of the Kidneys, approval paragraph: canagliflozin March 2013, dapagliflozin January 2014, empagliflozin August 2014, all explicitly U.S. FDA dates."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Printed p.1145, Introduction, final paragraph continuing onto p.1146: phlorizin's glucosuric activity, rodent glucose-lowering support, SGLT1 inhibition and glucosidase instability; Tanabe phlorizin SAR led to T-1095A/T-1095, followed by other O-glucosides."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Printed p.1146, paragraph immediately before Chemistry, in full: the authors initially pursued O-glucosides, then shifted when synthetic C-aryl compound 5 proved modestly active; diarylmethane SAR and synthesized substitutions yielded dapagliflozin (6)."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "Printed p.1146, same paragraph; p.1147 Results and Discussion, paragraph beginning Statistically significant dose-dependent glucosuria, explains the C-glucoside linkage's resistance to glucosidase cleavage."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S2",
+        "locator": "Printed p.1146, same complete SAR paragraph, synthesis/evaluation of preferred ring substitutions before selection of compound 6 as a clinical candidate."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "Printed p.1510 Abstract; pp.1511–1512 Results and pp.1513–1514 Discussion/conclusion: partially pancreatectomized diabetic rats, phlorizin correction and withdrawal, with sham-operated controls, support glucose toxicity and its reversal without increasing insulin."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1021/jm701272q",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://www.jci.org/articles/view/112981",
+        "account_kind": "original_report",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "Multiple observational contributions and subsequent deliberate chemistry do not make the origin mixed in the approved primary classification.",
+      "The original early phlorizin isolation, Tanabe and familial-renal-glucosuria papers were not separately read. Genetic rationale is explicitly sourced to the NIDDK account.",
+      "Do not infer each later analogue's independent structural biography or a natural antagonist isolated unchanged from an organism."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "ACS publisher access was HTTP 403; S2 was read in a complete publisher-format mirror matching independently checked bibliographic identity. See sources/receipt.md for the direct access-copy URL and exact reading extent.",
+      "The earliest phlorizin isolation and early Tanabe original chemistry reports were not separately read. Their upstream links are established by the institutional history and Meng's original discovery account, with no first-isolation priority claim.",
+      "Collection and structural validation are author self-checks; no independent historical verification is claimed."
+    ]
+  },
+  "nameAliases": [
+    "Farxiga",
+    "Jardiance"
+  ],
+  "humanContributionInterpretation": {
+    "id": "SGLT2_INHIBITORS",
+    "group": "documented",
+    "contribution": "clinical_precedent",
+    "summary": "Familial renal glucosuria supplied a human natural experiment supporting the safety rationale for inducing glucose loss through SGLT2 inhibition.",
+    "scope": "Not the first molecular lead; phlorizin and diabetic-animal experiments also contributed.",
+    "references": [
+      {
+        "id": "E2",
+        "citation": "National Institute of Diabetes and Digestive and Kidney Diseases. 2016 Jun 9. Story of Discovery: SGLT2 inhibitors: harnessing the kidneys to help treat diabetes.",
+        "url": "https://www.niddk.nih.gov/news/archive/2016/story-discovery-sglt2-inhibitors-harnessing-kidneys-help-treat-diabetes",
+        "locator": "The Identification of SGLTs, final two paragraphs: SGLT2 gene changes reduce glucose reabsorption in familial renal glucosuria without apparent serious effects; the account then asks whether inhibitors could safely treat diabetes.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

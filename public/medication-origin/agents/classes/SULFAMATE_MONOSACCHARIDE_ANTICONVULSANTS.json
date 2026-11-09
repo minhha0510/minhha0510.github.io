@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/SULFAMATE_MONOSACCHARIDE_ANTICONVULSANTS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "SULFAMATE_MONOSACCHARIDE_ANTICONVULSANTS",
+    "name": "Sulfamate-substituted monosaccharide anticonvulsants",
+    "medicines": [
+      "topiramate"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "topiramate",
+        "components": [
+          "topiramate"
+        ],
+        "usRank": 85,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "A synthetic sugar-derived intermediate, selected for planned mouse seizure testing because of its structure, showed anticonvulsant activity. The observed effect supplied the starting point for developing it for epilepsy.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Anticonvulsant effect observed in a mouse electroshock assay of a pre-existing synthetic sugar-derived intermediate. The earlier program sought analogues of fructose-1,6-diphosphate for a metabolic-enzyme objective; this chemical context is distinct from the observed seizure effect.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "The compound was made as an intermediate in a program seeking metabolic-enzyme inhibitors for a potential antidiabetic treatment, then selected for a targeted anticonvulsant assay on the basis of structure.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E4"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "Its observed mouse anticonvulsant effect prompted further evaluation and eventual preclinical development; a contemporaneous patent disclosed both the synthetic compound and animal seizure-test data.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3",
+          "E5",
+          "E6",
+          "E7"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "The 1987 report identified the active sugar sulfamate as topiramate and described synthesis and anticonvulsant testing of related analogues.",
+        "support": "documented",
+        "evidence_ids": [
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "The candidate progressed through clinical development and received FDA approval for epilepsy in late 1996.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers made the sulfamate derivative of protected fructose, selected it for seizure testing using a structural clue, assembled supporting pharmacology, pursued preclinical development and synthesized and tested related analogues. The accessible 1987 abstract does not establish that any particular later analogue became a marketed medicine.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E3",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "Gardocki deliberately selected the compound for mouse anticonvulsant testing. The cited account does not establish whether the positive result itself was unexpected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Maryanoff BE. 2016. Phenotypic Assessment and the Discovery of Topiramate. ACS Med Chem Lett 7:662–665. DOI 10.1021/acsmedchemlett.6b00176; PMID 27437073; PMCID PMC4948003.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4948003/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Shank RP, Maryanoff BE. 2008. Molecular Pharmacodynamics, Clinical Therapeutics, and Pharmacokinetics of Topiramate. CNS Neurosci Ther 14:120–142. DOI 10.1111/j.1527-3458.2008.00041.x; PMID 18482025; PMCID PMC6494007.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6494007/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Maryanoff BE, Gardocki JF. Anticonvulsant sulfamate derivatives. US Patent US4513006A, filed 1983-09-26, issued 1985-04-23.",
+        "url": "https://patents.google.com/patent/US4513006A/en",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Maryanoff BE, Nortey SO, Gardocki JF, Shank RP, Dodgson SP. 1987. Anticonvulsant O-alkyl sulfamates. 2,3:4,5-Bis-O-(1-methylethylidene)-beta-D-fructopyranose sulfamate and related compounds. J Med Chem 30:880–887. DOI 10.1021/jm00388a023; PMID 3572976.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3572976/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Genesis of Topiramate, paragraph beginning 'Topiramate (1) was first synthesized'"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Genesis of Topiramate, paragraph on Gardocki selecting the library compound for the MES test"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Genesis of Topiramate, paragraphs on management presentations and preclinical development"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "Introduction, first paragraph, first two sentences"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "Introduction, first paragraph, sentences about late-1979 MES testing and antiepileptic development"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "Detailed Description, columns 3–4 and Table I, Example 3 (PDF page 3)"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "Example 3, columns 5–6 (PDF page 4)"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "PubMed abstract, first and final sentences"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4948003/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6494007/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://patents.google.com/patent/US4513006A/en",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/3572976/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The founding history is supported for topiramate, the packet's only cohort member, and should not be extrapolated automatically to other anticonvulsants or sulfamate compounds.",
+      "The original program's metabolic-enzyme-inhibition objective and the later seizure-screening observation are separate; an intended antidiabetic use does not establish an observed antidiabetic effect of topiramate."
+    ],
+    "conflicts": [],
+    "gaps": [
+      "The 1987 original journal article was accessible only as an abstract; its full text was not read.",
+      "The original authors overlap across the patent, the 1987 report, and retrospective sources, so these are not independent accounts of the founding chronology.",
+      "The specific rationale, if any, for selecting this compound beyond the described interest in its structure and sulfamate-related group is not established by the accessible founding account. The similarity to sulfonamide carbonic-anhydrase inhibitors is tied by S2 to testing carbonic-anhydrase inhibition, not explicitly to the initial seizure test."
+    ]
+  },
+  "nameAliases": [
+    "Eprontia",
+    "Qudexy",
+    "Topamax",
+    "Trokendi"
+  ],
+  "humanContributionInterpretation": {
+    "id": "SULFAMATE_MONOSACCHARIDE_ANTICONVULSANTS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Maryanoff BE. 2016. Phenotypic Assessment and the Discovery of Topiramate. ACS Med Chem Lett 7:662–665. DOI 10.1021/acsmedchemlett.6b00176; PMID 27437073; PMCID PMC4948003.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4948003/",
+        "locator": "Genesis of Topiramate, paragraph beginning 'Topiramate (1) was first synthesized'",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Maryanoff BE. 2016. Phenotypic Assessment and the Discovery of Topiramate. ACS Med Chem Lett 7:662–665. DOI 10.1021/acsmedchemlett.6b00176; PMID 27437073; PMCID PMC4948003.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4948003/",
+        "locator": "Genesis of Topiramate, paragraph on Gardocki selecting the library compound for the MES test",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

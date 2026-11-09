@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/H2_BLOCKERS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "H2_BLOCKERS",
+    "name": "Histamine H2-receptor antagonists",
+    "medicines": [
+      "famotidine"
+    ],
+    "countries": [
+      "US",
+      "England"
+    ],
+    "cohortEntries": [
+      {
+        "name": "famotidine",
+        "components": [
+          "famotidine"
+        ],
+        "usRank": 37,
+        "englandRank": 67,
+        "otcOverlap": {
+          "US": "YES",
+          "England": "NOT_IDENTIFIED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "Histamine stimulated gastric acid secretion, but the antihistamines then available did not block that response despite blocking other histamine effects. This observed pharmacological distinction motivated a search for a second receptor antagonist using histamine analogues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E5",
+        "E9"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation",
+      "synthetic_compound_effect"
+    ],
+    "inspiration": {
+      "description": "Histamine and its observed gastric versus conventional-antihistamine-sensitive effects opened the program; selective and partial-agonist effects of synthetic histamine analogues supplied subsequent development clues.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E3",
+        "E9"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Observed histamine-induced acid secretion was resistant to existing antihistamines, motivating a search for a selective antagonist using analogues of histamine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E5",
+          "E9"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The team used selective agonist activity and an assay-revealed partial agonist to guide further histamine-analogue modifications.",
+        "support": "documented",
+        "evidence_ids": [
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "Further changes produced a weak antagonist, then burimamide; later changes produced metiamide and cimetidine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E4",
+          "E6"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "A later development series tested structural relatives of known H2 antagonists after prior active amidine results; its 2-guanidinothiazole sulfamoyl amidine compound 2e was famotidine.",
+        "support": "documented",
+        "evidence_ids": [
+          "E7",
+          "E8"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers deliberately synthesized and assayed histamine analogues, refined assays to detect partial antagonism, and modified side chains and terminal groups to improve antagonism and later potency and absorption. A later program explored chemically distinct H2-antagonist amidines, including the thiazole-containing sulfamoyl amidine famotidine.",
+      "support": "documented",
+      "evidence_ids": [
+        "E2",
+        "E3",
+        "E4",
+        "E7",
+        "E8"
+      ]
+    },
+    "circumstances": {
+      "value": "planned",
+      "description": "The receptor-directed program and histamine-analogue search were deliberate; this does not characterize every individual finding as expected.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Black JW. 1988. Drugs from Emasculated Hormones: The Principles of Syntopic Antagonism. Nobel Lecture, 8 December 1988, especially pp. 425–430.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/black-lecture.pdf",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Duncan WAM, Parsons ME. 1980. Reminiscences of the development of cimetidine. Gastroenterology 78(3):620–625. DOI 10.1016/0016-5085(80)90880-X; PMID 6985883.",
+        "url": "https://doi.org/10.1016/0016-5085(80)90880-X",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Yanagisawa I, Hirata Y, Ishii Y. 1987. Studies on histamine H2 receptor antagonists. 2. Synthesis and pharmacological activities of N-sulfamoyl and N-sulfonyl amidine derivatives. J Med Chem 30(10):1787–1793. DOI 10.1021/jm00393a018; PMID 2888895.",
+        "url": "https://doi.org/10.1021/jm00393a018",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Black JW et al. 1972. Definition and antagonism of histamine H2-receptors. Nature 236(5347):385–390. DOI 10.1038/236385a0; PMID 4401751.",
+        "url": "https://doi.org/10.1038/236385a0",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "Wood DR. 1948. The effect on gastric secretion of different rates of histamine infusion and of ‘Neoantergan’. British Journal of Pharmacology and Chemotherapy 3(3):231–236. DOI 10.1111/j.1476-5381.1948.tb00380.x; PMID 18884005; PMCID PMC1509834.",
+        "url": "https://doi.org/10.1111/j.1476-5381.1948.tb00380.x",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Printed pp. 425–426, Histamine H-receptor antagonists, pharmacological problem."
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Printed pp. 426–427, Histamine H-receptor antagonists, chemical program and initial histamine analogues."
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Printed pp. 428–429, selective 4-methylhistamine and guanylhistamine assay."
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S1",
+        "locator": "Printed p. 430, chemical progression to burimamide, metiamide and cimetidine."
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "p. 620, first through fourth paragraphs, 1964 program proposal and its pharmacological motivation."
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S2",
+        "locator": "pp. 621–622, assay revision, partial agonist, 1969 weak antagonist and burimamide."
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "p. 1787, introductory paragraphs, prior amidine series and motivation for related structures."
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S3",
+        "locator": "pp. 1787–1790, abstract and Results and Discussion, compound 2e and H2 assays."
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S4",
+        "locator": "pp. 231–235, experimental results and discussion, particularly p. 235."
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://www.nobelprize.org/uploads/2018/06/black-lecture.pdf",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://doi.org/10.1016/0016-5085(80)90880-X",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://doi.org/10.1021/jm00393a018",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S4",
+        "url": "https://doi.org/10.1111/j.1476-5381.1948.tb00380.x",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://doi.org/10.1038/236385a0",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      }
+    ],
+    "limits": [
+      "The founding histamine-derived series is established by discoverer accounts. Famotidine is a later, chemically distinct thiazole-containing H2 antagonist; the 1987 experimental paper does not establish it as a direct synthetic derivative of cimetidine."
+    ],
+    "conflicts": [
+      "Bibliographic discrepancy, not a historical disagreement: Nature/PubMed list the 1972 report's coauthors as C. J. Durant and E. M. Parsons; a participant review cites the same paper as G. J. Durant and M. E. Parsons. The original printed byline was not inspected. The DOI and PMID identify the report; see the receipt for an additional conflated 1949 citation."
+    ],
+    "gaps": [
+      "The full 1972 founding antagonist report was not read, only its one-sentence publisher abstract and metadata. The original 1964 proposal was not separately read beyond its reproduction in S2. The 1949 Ashford antihistamine study was located but not read in full. The separate 1984 paper preceding the famotidine series was located and read only at abstract extent; its role is reported in the 1987 paper."
+    ]
+  },
+  "nameAliases": [
+    "Calmicid",
+    "Pepcid",
+    "Zantac Reformulated Aug 2022"
+  ],
+  "humanContributionInterpretation": {
+    "id": "H2_BLOCKERS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Black JW. 1988. Drugs from Emasculated Hormones: The Principles of Syntopic Antagonism. Nobel Lecture, 8 December 1988, especially pp. 425–430.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/black-lecture.pdf",
+        "locator": "Printed pp. 425–426, Histamine H-receptor antagonists, pharmacological problem.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Black JW. 1988. Drugs from Emasculated Hormones: The Principles of Syntopic Antagonism. Nobel Lecture, 8 December 1988, especially pp. 425–430.",
+        "url": "https://www.nobelprize.org/uploads/2018/06/black-lecture.pdf",
+        "locator": "Printed pp. 426–427, Histamine H-receptor antagonists, chemical program and initial histamine analogues.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E5",
+        "citation": "Duncan WAM, Parsons ME. 1980. Reminiscences of the development of cimetidine. Gastroenterology 78(3):620–625. DOI 10.1016/0016-5085(80)90880-X; PMID 6985883.",
+        "url": "https://doi.org/10.1016/0016-5085(80)90880-X",
+        "locator": "p. 620, first through fourth paragraphs, 1964 program proposal and its pharmacological motivation.",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E9",
+        "citation": "Wood DR. 1948. The effect on gastric secretion of different rates of histamine infusion and of ‘Neoantergan’. British Journal of Pharmacology and Chemotherapy 3(3):231–236. DOI 10.1111/j.1476-5381.1948.tb00380.x; PMID 18884005; PMCID PMC1509834.",
+        "url": "https://doi.org/10.1111/j.1476-5381.1948.tb00380.x",
+        "locator": "pp. 231–235, experimental results and discussion, particularly p. 235.",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}

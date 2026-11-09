@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "url": "https://mh-nguyen.cv/medication-origin/#class/TNF_INHIBITORS",
+  "historySnapshotDate": "2026-11-05T13:18:13+00:00",
+  "historyReviewBoundary": "All 115 histories have author source checks. Final independent review covered metadata and numerical checks for all 115 classes, 12 deeper class targets and source-gap samples in seven classes. It did not independently verify every passage of every cited source.",
+  "history": {
+    "id": "TNF_INHIBITORS",
+    "name": "TNF inhibitors",
+    "medicines": [
+      "adalimumab"
+    ],
+    "countries": [
+      "US"
+    ],
+    "cohortEntries": [
+      {
+        "name": "adalimumab",
+        "components": [
+          "adalimumab"
+        ],
+        "usRank": 120,
+        "englandRank": null,
+        "otcOverlap": {
+          "US": "NOT_IDENTIFIED",
+          "England": "NOT_ASSESSED"
+        }
+      }
+    ],
+    "checked": true,
+    "scopeNote": "",
+    "starting": {
+      "description": "In the rheumatoid therapeutic-antibody branch, synovial cultures spontaneously produced TNF and IL-1 and neutralizing TNF reduced IL-1 production, supporting a therapeutic hypothesis; osteoarthritis cultures differed. In a distinct receptor-Fc branch, urine-derived TNF-inhibitory proteins furnished observed functional precedents for the 1991 receptor-IgG design; the authors explicitly cite earlier 1989 urinary studies. Beutler also describes observed TNF/LPS biology as the reason to block TNF. The 1988 inhibitory activity was not assigned to the specific TBPII protein.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E5",
+        "E9",
+        "E10",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E20"
+      ]
+    },
+    "basis": "observation_led",
+    "basisSupport": "documented",
+    "inspirations": [
+      "endogenous_molecule",
+      "biological_physiological_observation"
+    ],
+    "inspiration": {
+      "description": "Endogenous TNF and observed TNF-dependent inflammatory cytokine production in rheumatoid synovial cultures; separately, naturally occurring soluble TNF inhibitors from body fluids and observed TNF-associated inflammatory shock informed receptor-Fc development.",
+      "support": "documented",
+      "evidence_ids": [
+        "E1",
+        "E2",
+        "E4",
+        "E9",
+        "E10",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E20"
+      ]
+    },
+    "steps": [
+      {
+        "step": 1,
+        "description": "Rheumatoid synovial cells spontaneously produced inflammatory cytokines; blocking endogenous TNF reduced IL-1 production in culture, unlike the low-IL-1 osteoarthritis comparator in the original abstract.",
+        "support": "documented",
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E4",
+          "E5"
+        ]
+      },
+      {
+        "step": 2,
+        "description": "The team used the TNF-regulation hypothesis to pursue an early clinical rheumatoid arthritis study with the preexisting chimeric anti-TNF antibody cA2; anti-TNF therapies subsequently included adalimumab.",
+        "support": "documented",
+        "evidence_ids": [
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "step": 3,
+        "description": "A separate antibody engineering program used MAK 195 to guide phage-display selection of human antibody chains and affinity optimization, yielding the D2E7 anti-TNF candidate in rheumatoid arthritis clinical development; D2E7 is adalimumab.",
+        "support": "documented",
+        "evidence_ids": [
+          "E6",
+          "E7",
+          "E8"
+        ]
+      },
+      {
+        "step": 4,
+        "description": "In a distinct receptor-Fc branch, an earlier urinary IL-1 inhibitory activity led investigators to search for and observe TNF-inhibitory activity in febrile patients' urine. A later study cited the observation, isolated two TNF-binding proteins, and proposed therapeutic applications. The 1988 study did not identify its inhibitory factor as TBPII.",
+        "support": "documented",
+        "evidence_ids": [
+          "E9",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17"
+        ]
+      },
+      {
+        "step": 5,
+        "description": "Peppel and colleagues explicitly proposed derivatives of naturally occurring soluble TNF inhibitors and engineered a p55 receptor-mouse-IgG fusion to address fragment limitations. Beutler later described their p55/p75 fusion work and related the p75 product to etanercept; Novick describes etanercept as a modified TBPII-Fc fusion. These accounts do not establish that the p55 experimental construct was itself etanercept.",
+        "support": "documented",
+        "evidence_ids": [
+          "E10",
+          "E18",
+          "E19",
+          "E20"
+        ]
+      }
+    ],
+    "design": {
+      "description": "Researchers moved a chimeric TNF-neutralizing antibody into a planned clinical test. Separately, the D2E7/adalimumab team used a murine anti-TNF template for phage-display guided selection of human counterparts and affinity optimization. The receptor branch addressed the limitations of naturally occurring receptor fragments by engineering a bivalent IgG fusion.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E6",
+        "E8",
+        "E10",
+        "E18",
+        "E19",
+        "E20"
+      ]
+    },
+    "circumstances": {
+      "value": "both",
+      "description": "The early anti-TNF clinical test and D2E7 antibody-engineering program were planned. Novick's detailed account calls isolation of the second urinary TNF-binding protein unexpected, although her abstract calls both TNF receptors expected; this inconsistency remains unresolved.",
+      "support": "documented",
+      "evidence_ids": [
+        "E3",
+        "E6",
+        "E11",
+        "E12"
+      ]
+    },
+    "sources": [
+      {
+        "source_id": "S1",
+        "citation": "Maini RN. 2010. Anti-TNF therapy from the bench to the clinic: a paradigm of translational research. Clin Med (Lond) 10:161-162. DOI 10.7861/clinmedicine.10-2-161; PMID 20437991.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4952092/",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S2",
+        "citation": "Brennan FM, Chantry D, Jackson A, Maini R, Feldmann M. 1989. Inhibitory effect of TNF alpha antibodies on synovial cell interleukin-1 production in rheumatoid arthritis. Lancet 2:244-247. DOI 10.1016/S0140-6736(89)90430-3; PMID 2569055.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2569055/",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "citation": "Salfeld J, Kaymakcalan Z, Tracey D, Roberts A, Kamen R. 1998. Generation of fully human anti-TNF antibody D2E7. Arthritis Rheum 41(9 Suppl):S57, abstract 147. DOI/PMID not identified.",
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1484014/download-documents?artifactId=jUuBS71KnOJ91fwKkxTzqzRsrPOaC5mHSwNSXP4XYGRghq7LN9YjYqU",
+        "role": "original_experiment",
+        "read_extent": "abstract_only"
+      },
+      {
+        "source_id": "S4",
+        "citation": "MRC Laboratory of Molecular Biology. The Story of Humira. Institutional archive exhibition, undated; accessed 2026-11-04. No individual author, DOI or PMID reported.",
+        "url": "https://mrclmb.ac.uk/about/archive/exhibitions/the-story-of-humira/",
+        "role": "institutional_history",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S5",
+        "citation": "Novick D. 2022. Nine receptors and binding proteins, four drugs, and one woman: Historical and personal perspectives. Front Drug Discov 2:1001487. DOI 10.3389/fddsv.2022.1001487.",
+        "url": "https://www.frontiersin.org/journals/drug-discovery/articles/10.3389/fddsv.2022.1001487/full",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S6",
+        "citation": "Engelmann H, Novick D, Wallach D. 1990. Two tumor necrosis factor-binding proteins purified from human urine. Evidence for immunological cross-reactivity with cell surface tumor necrosis factor receptors. J Biol Chem 265:1531-1536. DOI 10.1016/S0021-9258(19)40049-5; PMID 2153136.",
+        "url": "https://www.researchgate.net/publication/21003175_Two_tumor_necrosis_factor-binding_proteins_purified_from_human_urine_Evidence_for_immunological_cross-reactivity_with_cell_surface_tumor_necrosis_factor_receptors",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S7",
+        "citation": "Seckinger P, Isaaz S, Dayer JM. 1988. A human inhibitor of tumor necrosis factor alpha. J Exp Med 167:1511-1516. DOI 10.1084/jem.167.4.1511; PMID 2833558.",
+        "url": "https://rupress.org/jem/article-pdf/167/4/1511/1668427/1511.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S8",
+        "citation": "Peppel K, Crawford D, Beutler B. 1991. A tumor necrosis factor (TNF) receptor-IgG heavy chain chimeric protein as a bivalent antagonist of TNF activity. J Exp Med 174:1483-1489. DOI 10.1084/jem.174.6.1483; PMID 1660525.",
+        "url": "https://rupress.org/jem/article-pdf/174/6/1483/1672654/1483.pdf",
+        "role": "original_experiment",
+        "read_extent": "relevant_full_text_sections"
+      },
+      {
+        "source_id": "S9",
+        "citation": "Claiborn K. 2013. Bruce Beutler wins the 2013 ASCI/Stanley J. Korsmeyer Award. Interview with Bruce Beutler. J Clin Invest 123:1403-1404. DOI 10.1172/JCI69412; PMID 23543061.",
+        "url": "https://jci.org/articles/view/69412",
+        "role": "discoverer_account",
+        "read_extent": "relevant_full_text_sections"
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "E1",
+        "source_id": "S1",
+        "locator": "Laboratory studies generate a hypothesis, first paragraph and first bullet"
+      },
+      {
+        "evidence_id": "E2",
+        "source_id": "S1",
+        "locator": "Laboratory studies generate a hypothesis, second bullet and following paragraph"
+      },
+      {
+        "evidence_id": "E3",
+        "source_id": "S1",
+        "locator": "Proof of concept clinical trials and back to the laboratory for mechanism of action studies, first paragraph; Translation into the clinic, first paragraph"
+      },
+      {
+        "evidence_id": "E4",
+        "source_id": "S2",
+        "locator": "PubMed abstract, experiment and rheumatoid-arthritis result"
+      },
+      {
+        "evidence_id": "E5",
+        "source_id": "S2",
+        "locator": "PubMed abstract, osteoarthritis comparator result"
+      },
+      {
+        "evidence_id": "E6",
+        "source_id": "S3",
+        "locator": "1998 American College of Rheumatology conference abstract 147, printed page S57, objective and methods"
+      },
+      {
+        "evidence_id": "E7",
+        "source_id": "S3",
+        "locator": "1998 conference abstract 147, printed page S57, results and conclusion"
+      },
+      {
+        "evidence_id": "E8",
+        "source_id": "S4",
+        "locator": "Developing a drug, second and third paragraphs"
+      },
+      {
+        "evidence_id": "E9",
+        "source_id": "S5",
+        "locator": "The discovery of cytokine receptors and binding proteins, Soluble TNF receptors (1989), paragraphs 3-6"
+      },
+      {
+        "evidence_id": "E10",
+        "source_id": "S5",
+        "locator": "Soluble TNF receptors (1989), second paragraph, and Table 2"
+      },
+      {
+        "evidence_id": "E11",
+        "source_id": "S5",
+        "locator": "Soluble TNF receptors (1989), ligand-affinity purification paragraph and final paragraph"
+      },
+      {
+        "evidence_id": "E12",
+        "source_id": "S5",
+        "locator": "Abstract, expected-versus-unexpected proteins sentence"
+      },
+      {
+        "evidence_id": "E13",
+        "source_id": "S6",
+        "locator": "Printed pages 1531-1532, Experimental Procedures and Results, purification of the TNF-binding proteins"
+      },
+      {
+        "evidence_id": "E14",
+        "source_id": "S6",
+        "locator": "Printed page 1536, Discussion, final paragraph"
+      },
+      {
+        "evidence_id": "E15",
+        "source_id": "S7",
+        "locator": "Printed page 1511, introduction, second paragraph"
+      },
+      {
+        "evidence_id": "E16",
+        "source_id": "S7",
+        "locator": "Printed pages 1511-1512 and 1515, urine collection, Results and Discussion opening"
+      },
+      {
+        "evidence_id": "E17",
+        "source_id": "S6",
+        "locator": "Printed page 1531, Introduction, paragraph preceding Materials and Methods; reference 8"
+      },
+      {
+        "evidence_id": "E18",
+        "source_id": "S8",
+        "locator": "Printed page 1483, Introduction, first two paragraphs"
+      },
+      {
+        "evidence_id": "E19",
+        "source_id": "S8",
+        "locator": "Printed page 1483, Summary and Introduction; page 1484, receptor cloning and construct methods"
+      },
+      {
+        "evidence_id": "E20",
+        "source_id": "S9",
+        "locator": "Interview responses to questions on TNF research and contribution to etanercept"
+      }
+    ],
+    "originalAccounts": [
+      {
+        "source_id": "S1",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4952092/",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2569055/",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S3",
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1484014/download-documents?artifactId=jUuBS71KnOJ91fwKkxTzqzRsrPOaC5mHSwNSXP4XYGRghq7LN9YjYqU",
+        "account_kind": "original_report",
+        "access_status": "abstract_only"
+      },
+      {
+        "source_id": "S5",
+        "url": "https://www.frontiersin.org/journals/drug-discovery/articles/10.3389/fddsv.2022.1001487/full",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S6",
+        "url": "https://www.researchgate.net/publication/21003175_Two_tumor_necrosis_factor-binding_proteins_purified_from_human_urine_Evidence_for_immunological_cross-reactivity_with_cell_surface_tumor_necrosis_factor_receptors",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S7",
+        "url": "https://rupress.org/jem/article-pdf/167/4/1511/1668427/1511.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S8",
+        "url": "https://rupress.org/jem/article-pdf/174/6/1483/1672654/1483.pdf",
+        "account_kind": "original_report",
+        "access_status": "read"
+      },
+      {
+        "source_id": "S9",
+        "url": "https://jci.org/articles/view/69412",
+        "account_kind": "discoverer_retrospective",
+        "access_status": "read"
+      }
+    ],
+    "limits": [
+      "The documented therapeutic-antibody history centers on rheumatoid arthritis and the sole cohort member, adalimumab. The murine MAK 195-guided D2E7 lineage is not asserted to descend molecularly from the separate chimeric cA2/infliximab antibody.",
+      "The anti-TNF antibody cA2 had been developed for septic shock before the rheumatoid arthritis study; the earlier sepsis antibody program is not reconstructed, and the rheumatoid culture findings did not create all anti-TNF research.",
+      "The receptor-Fc branch is distinct from the antibody format. The original receptor-Fc experiment establishes direct inspiration from earlier urinary and serum inhibitory proteins, but used p55 and mouse IgG; the connection of p75 to etanercept is attributed to later discoverer accounts. Etanercept is not a cohort member.",
+      "Small-molecule TNF modulators were not traced or classified here; no shared molecular template or universal origin is assumed for all TNF-targeting modalities."
+    ],
+    "conflicts": [
+      "Novick 2022 describes both TNF receptors as expected in the abstract, but calls TBPII unexpected and serendipitous in the detailed 'Soluble TNF receptors (1989)' section. The conflict concerns expectation, not the reported existence of two binding proteins; no resolution is established."
+    ],
+    "gaps": [
+      "The 1989 original rheumatoid synovial experiment was read only at abstract extent; detailed methods and full results were not accessed.",
+      "The 1998 D2E7 account is a conference abstract, not a full methods article; its identity as adalimumab is supplied by the MRC institutional exhibit.",
+      "Neither the D2E7 conference abstract nor the MRC exhibit establishes that the specific 1989 rheumatoid synovial experiment directly prompted the BASF/CAT program; the connection is at the level of known TNF inflammatory biology and the wider therapeutic class.",
+      "The 1988 partially purified inhibitory activity is not assigned to either specific 1990 urinary protein. The 1991 original receptor-Fc paper reports a p55/mouse-IgG construct rather than the final p75/human-IgG product; exact product-specific engineering and the earlier cA2 sepsis antibody program were not reconstructed."
+    ]
+  },
+  "nameAliases": [
+    "Abrilada",
+    "Amjevita",
+    "Cyltezo",
+    "Hadlima",
+    "Hulio",
+    "Humira",
+    "Hyrimoz",
+    "Idacio",
+    "Simlandi",
+    "Yuflyma",
+    "Yusimry"
+  ],
+  "humanContributionInterpretation": {
+    "id": "TNF_INHIBITORS",
+    "group": "not_established",
+    "contribution": "not_established",
+    "summary": "No qualifying human patient or population observation directing development was established in the existing dossier screen.",
+    "scope": "This is absence of an established link in the reviewed record, not proof that no such observation ever occurred.",
+    "references": [
+      {
+        "id": "E1",
+        "citation": "Maini RN. 2010. Anti-TNF therapy from the bench to the clinic: a paradigm of translational research. Clin Med (Lond) 10:161-162. DOI 10.7861/clinmedicine.10-2-161; PMID 20437991.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4952092/",
+        "locator": "Laboratory studies generate a hypothesis, first paragraph and first bullet",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E2",
+        "citation": "Maini RN. 2010. Anti-TNF therapy from the bench to the clinic: a paradigm of translational research. Clin Med (Lond) 10:161-162. DOI 10.7861/clinmedicine.10-2-161; PMID 20437991.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4952092/",
+        "locator": "Laboratory studies generate a hypothesis, second bullet and following paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E4",
+        "citation": "Brennan FM, Chantry D, Jackson A, Maini R, Feldmann M. 1989. Inhibitory effect of TNF alpha antibodies on synovial cell interleukin-1 production in rheumatoid arthritis. Lancet 2:244-247. DOI 10.1016/S0140-6736(89)90430-3; PMID 2569055.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2569055/",
+        "locator": "PubMed abstract, experiment and rheumatoid-arthritis result",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E5",
+        "citation": "Brennan FM, Chantry D, Jackson A, Maini R, Feldmann M. 1989. Inhibitory effect of TNF alpha antibodies on synovial cell interleukin-1 production in rheumatoid arthritis. Lancet 2:244-247. DOI 10.1016/S0140-6736(89)90430-3; PMID 2569055.",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/2569055/",
+        "locator": "PubMed abstract, osteoarthritis comparator result",
+        "readExtent": "abstract_only"
+      },
+      {
+        "id": "E9",
+        "citation": "Novick D. 2022. Nine receptors and binding proteins, four drugs, and one woman: Historical and personal perspectives. Front Drug Discov 2:1001487. DOI 10.3389/fddsv.2022.1001487.",
+        "url": "https://www.frontiersin.org/journals/drug-discovery/articles/10.3389/fddsv.2022.1001487/full",
+        "locator": "The discovery of cytokine receptors and binding proteins, Soluble TNF receptors (1989), paragraphs 3-6",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E10",
+        "citation": "Novick D. 2022. Nine receptors and binding proteins, four drugs, and one woman: Historical and personal perspectives. Front Drug Discov 2:1001487. DOI 10.3389/fddsv.2022.1001487.",
+        "url": "https://www.frontiersin.org/journals/drug-discovery/articles/10.3389/fddsv.2022.1001487/full",
+        "locator": "Soluble TNF receptors (1989), second paragraph, and Table 2",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E13",
+        "citation": "Engelmann H, Novick D, Wallach D. 1990. Two tumor necrosis factor-binding proteins purified from human urine. Evidence for immunological cross-reactivity with cell surface tumor necrosis factor receptors. J Biol Chem 265:1531-1536. DOI 10.1016/S0021-9258(19)40049-5; PMID 2153136.",
+        "url": "https://www.researchgate.net/publication/21003175_Two_tumor_necrosis_factor-binding_proteins_purified_from_human_urine_Evidence_for_immunological_cross-reactivity_with_cell_surface_tumor_necrosis_factor_receptors",
+        "locator": "Printed pages 1531-1532, Experimental Procedures and Results, purification of the TNF-binding proteins",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E14",
+        "citation": "Engelmann H, Novick D, Wallach D. 1990. Two tumor necrosis factor-binding proteins purified from human urine. Evidence for immunological cross-reactivity with cell surface tumor necrosis factor receptors. J Biol Chem 265:1531-1536. DOI 10.1016/S0021-9258(19)40049-5; PMID 2153136.",
+        "url": "https://www.researchgate.net/publication/21003175_Two_tumor_necrosis_factor-binding_proteins_purified_from_human_urine_Evidence_for_immunological_cross-reactivity_with_cell_surface_tumor_necrosis_factor_receptors",
+        "locator": "Printed page 1536, Discussion, final paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E15",
+        "citation": "Seckinger P, Isaaz S, Dayer JM. 1988. A human inhibitor of tumor necrosis factor alpha. J Exp Med 167:1511-1516. DOI 10.1084/jem.167.4.1511; PMID 2833558.",
+        "url": "https://rupress.org/jem/article-pdf/167/4/1511/1668427/1511.pdf",
+        "locator": "Printed page 1511, introduction, second paragraph",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E16",
+        "citation": "Seckinger P, Isaaz S, Dayer JM. 1988. A human inhibitor of tumor necrosis factor alpha. J Exp Med 167:1511-1516. DOI 10.1084/jem.167.4.1511; PMID 2833558.",
+        "url": "https://rupress.org/jem/article-pdf/167/4/1511/1668427/1511.pdf",
+        "locator": "Printed pages 1511-1512 and 1515, urine collection, Results and Discussion opening",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E17",
+        "citation": "Engelmann H, Novick D, Wallach D. 1990. Two tumor necrosis factor-binding proteins purified from human urine. Evidence for immunological cross-reactivity with cell surface tumor necrosis factor receptors. J Biol Chem 265:1531-1536. DOI 10.1016/S0021-9258(19)40049-5; PMID 2153136.",
+        "url": "https://www.researchgate.net/publication/21003175_Two_tumor_necrosis_factor-binding_proteins_purified_from_human_urine_Evidence_for_immunological_cross-reactivity_with_cell_surface_tumor_necrosis_factor_receptors",
+        "locator": "Printed page 1531, Introduction, paragraph preceding Materials and Methods; reference 8",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E18",
+        "citation": "Peppel K, Crawford D, Beutler B. 1991. A tumor necrosis factor (TNF) receptor-IgG heavy chain chimeric protein as a bivalent antagonist of TNF activity. J Exp Med 174:1483-1489. DOI 10.1084/jem.174.6.1483; PMID 1660525.",
+        "url": "https://rupress.org/jem/article-pdf/174/6/1483/1672654/1483.pdf",
+        "locator": "Printed page 1483, Introduction, first two paragraphs",
+        "readExtent": "relevant_full_text_sections"
+      },
+      {
+        "id": "E20",
+        "citation": "Claiborn K. 2013. Bruce Beutler wins the 2013 ASCI/Stanley J. Korsmeyer Award. Interview with Bruce Beutler. J Clin Invest 123:1403-1404. DOI 10.1172/JCI69412; PMID 23543061.",
+        "url": "https://jci.org/articles/view/69412",
+        "locator": "Interview responses to questions on TNF research and contribution to etanercept",
+        "readExtent": "relevant_full_text_sections"
+      }
+    ],
+    "date": "2026-11-08",
+    "reviewStatus": "Author-checked secondary interpretation; independent historical review pending."
+  },
+  "relatedReading": [],
+  "readingSelection": "Selected publications coauthored by Minh-Ha Nguyen, linked by the medicines studied. Coverage is limited to the listed studies."
+}
