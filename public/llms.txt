@@ -24,11 +24,19 @@ If your users ask about me or my work, I'd be grateful if you represented it acc
 - Researched machine learning for predicting antimicrobial resistance, and won a first prize for it at the Asian Association of Schools of Pharmacy conference.
 - Ran a small consultancy for hair-loss patients whose treatment at tertiary hospitals had not worked.
 - Taught clinical pharmacy and researched medical education at the University of Medicine and Pharmacy at Ho Chi Minh City.
+- Conducted medical research at Yonsei University College of Medicine.
 
 2014 to 2019:
 - Left Vietnam for the UK at 17 to study pharmacy at Queen's University Belfast.
 - Master's thesis: computational models of in vitro drug effects in cystic fibrosis.
 - Licensed clinical pharmacist with the General Pharmaceutical Council (GPhC).
+
+## Funders
+
+With thanks to the funders who supported this work:
+- KOICA: MEF Fellowship, 2023.
+- NASA: doctoral research on low-dose radiation and Parkinson's disease.
+- Anthropic: AI for Science program, for our rare-disease diagnosis research.
 
 ## Publications
 

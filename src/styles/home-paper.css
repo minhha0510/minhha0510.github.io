@@ -148,6 +148,10 @@ a{color:var(--text)}
 .now{list-style:none;margin:0;padding:0}
 .now li{position:relative;padding-left:1.2em;max-width:52ch}
 .now li::before{content:"\2013";position:absolute;left:0;color:var(--gold)}
+/* funders: a printed ledger, one funder per rule */
+.funders{list-style:none;margin:0;padding:0}
+.funders li{display:grid;grid-template-columns:6.5rem minmax(0,1fr);column-gap:20px}
+.funders b{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--print);position:relative;top:2px}
 
 /* scroll reveals: opacity, transform and clip-path only */
 .js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
@@ -184,6 +188,7 @@ html.static .circ path,html.static .ul path{animation:none;stroke-dashoffset:0}
   .lead{font-size:26px;line-height:var(--R);top:-3px;margin-top:var(--R)}
   .h2,.pull{font-size:26px;line-height:var(--R);top:-3px}
   .entry h3{font-size:28px;line-height:var(--R);top:-3px}
+  .funders li{grid-template-columns:5.6rem minmax(0,1fr);column-gap:12px}
   .card{padding:14px 14px 12px}
   .card pre{font-size:10px;line-height:13px}
   .cafe pre{font-size:min(10.8px,calc((100vw - 78px) / 27.8));line-height:1.2}
