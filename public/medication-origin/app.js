@@ -21,6 +21,9 @@ let atlas, classById, filtered = [], visibleCount = 12, layout = 'cards';
 let homeScroll = 0, toastTimer, activeClass = null, lastOriginHash = '#explore';
 let clinicalById = new Map(), contributionFilter = 'all';
 let aliasesByClass = new Map(), aliasesByName = new Map();
+const pageSize = 12;
+let alphabet = [], thumbGroups = [], browsingOrder = [], returnFocus = null;
+let resultSignature = null, riffleTimer, riffleEnd, guideFrame;
 const contributionLabels = {documented:'Documented human contribution',not_established:'Human link not established in the available records',unresolved:'Proposed human link unresolved'};
 
 function searchRank(entry, query) {
@@ -70,9 +73,80 @@ function measurePaper() {
   // Only visible page nodes participate in the kit's reading-order calculation.
   document.querySelectorAll('.node, [data-paper-node]').forEach(node => {
     node.dataset.paperNode = '';
-    node.classList.toggle('node', !node.closest('[hidden]'));
+    node.classList.toggle('node', !node.closest('[hidden], .entry-plate'));
   });
   window.Paper?.measure();
+  requestGuide();
+}
+
+function initial(entry) {
+  const first = normalize(entry.name).charAt(0).toUpperCase();
+  return /[0-9]/.test(first) ? '0–9' : first;
+}
+function buildThumbGroups(entries) {
+  const letters = ['0–9', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+  const counts = new Map(letters.map(letter => [letter, entries.filter(entry => initial(entry) === letter).length]));
+  const target = Math.ceil(entries.length / 10), groups = [];
+  let group = [];
+  for (const letter of letters) {
+    const size = group.reduce((sum, item) => sum + counts.get(item), 0);
+    if (group.length && (letter === 'A' || size && size + counts.get(letter) > target)) {
+      groups.push(group); group = [];
+    }
+    group.push(letter);
+  }
+  if (group.length) groups.push(group);
+  return groups.map(letters => ({
+    letters, label: letters.length === 1 ? letters[0] : `${letters[0]}–${letters.at(-1)}`,
+    count: letters.reduce((sum, letter) => sum + counts.get(letter), 0)
+  }));
+}
+function renderThumbIndex() {
+  $('thumb-index').innerHTML = thumbGroups.map((group, index) => {
+    const count = filtered.filter(entry => group.letters.includes(initial(entry))).length;
+    return `<button type="button" data-thumb="${index}" ${count ? '' : 'disabled'} aria-label="${escapeHTML(group.label)}: ${count} matching classes" title="${count} / ${group.count}">${escapeHTML(group.label)}</button>`;
+  }).join('');
+}
+function jumpToThumb(index) {
+  const group = thumbGroups[index];
+  if (!group) return;
+  const first = filtered.findIndex(entry => group.letters.includes(initial(entry)));
+  if (first < 0) return;
+  if (first >= visibleCount) {
+    visibleCount = Math.ceil((first + 1) / pageSize) * pageSize;
+    renderResults();
+  }
+  const card = $('results').querySelector(`[data-class="${filtered[first].id}"]`);
+  card?.scrollIntoView({ behavior: 'instant', block: 'start' });
+  card?.focus({ preventScroll: true });
+  requestGuide();
+}
+function requestGuide() {
+  if (guideFrame) return;
+  guideFrame = requestAnimationFrame(() => { guideFrame = null; updateGuide(); });
+}
+function updateGuide() {
+  const guide = $('catalogue-guide'), tabs = $('thumb-index');
+  if (!guide || !tabs || activeClass) return;
+  $('catalogue-pages').style.setProperty('--thumb-height', `${tabs.offsetHeight}px`);
+  const cards = [...$('results').querySelectorAll('.class-card')];
+  const top = Math.max(0, guide.getBoundingClientRect().bottom);
+  const visible = cards.filter(card => { const bounds = card.getBoundingClientRect(); return bounds.bottom > top && bounds.top < innerHeight; });
+  const names = visible.map(card => classById.get(card.dataset.class)?.name || '');
+  guide.firstElementChild.textContent = names[0] || '';
+  guide.lastElementChild.textContent = names.at(-1) || '';
+}
+function stopRiffle() {
+  clearTimeout(riffleTimer); clearTimeout(riffleEnd);
+  $('catalogue-pages')?.classList.remove('is-riffling');
+}
+function riffle() {
+  stopRiffle();
+  if (location.search.includes('static') || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  riffleTimer = setTimeout(() => {
+    $('catalogue-pages').classList.add('is-riffling');
+    riffleEnd = setTimeout(stopRiffle, 240);
+  }, 140);
 }
 function renderContributionTally(data) {
   const counts = Object.fromEntries(Object.keys(contributionLabels).map(key=>[key,data.classes.filter(row=>row.group===key).length]));
@@ -153,14 +227,18 @@ function applyFilters(resetCount = true, updateURL = true) {
   $('excluded-note').hidden = true;
   updateContributionFilter();
   renderResults();
+  renderThumbIndex();
   if (updateURL) syncURL();
 }
 function renderResults() {
   const visible = filtered.slice(0,visibleCount);
-  $('results').innerHTML = visible.length ? visible.map(cardMarkup).join('') : `<div class="empty-state"><h3>No classes in this view.</h3><p>Try a generic medicine name or broaden the filters. This atlas covers 115 classes in a selected cohort of 226 medication groups. The complete medicine inventory appears below.</p><button data-reset>Clear the search and filters ↗</button></div>`;
+  $('results').innerHTML = visible.length ? visible.map((entry, index) => cardMarkup(entry) + ((index + 1) % pageSize === 0 || index === visible.length - 1 ? `<p class="catalogue-folio" aria-label="Page ${Math.ceil((index + 1) / pageSize)}">${Math.ceil((index + 1) / pageSize)}</p>` : '')).join('') : `<div class="empty-state"><h3>No classes in this view.</h3><p>Try a generic medicine name or broaden the filters. This atlas covers 115 classes in a selected cohort of 226 medication groups. The complete medicine inventory appears below.</p><button data-reset>Clear the search and filters ↗</button></div>`;
   $('show-more').hidden = filtered.length <= visibleCount;
   $('shown-count').textContent = filtered.length ? `${visible.length} of ${filtered.length} classes shown` : '';
   measurePaper();
+  const signature = filtered.map(entry => entry.id).join('|') + ':' + visible.length;
+  if (resultSignature !== null && signature !== resultSignature) riffle();
+  resultSignature = signature;
 }
 function setLayout(value, updateURL = true) {
   layout = value;
@@ -235,12 +313,15 @@ function historyRow(stage, content, className = '') {
 function buildHistory(entry) {
   const names = entry.medicines.join(' · ');
   const introduction = historyRow('Class history', `<header class="history-intro"><p class="history-eyebrow"><span class="checked-tag">${entry.checked?'Author checked · complete collection':'History not yet checked'}</span><span>${entry.countries.join(' + ')} cohort</span></p><h1 id="history-title" tabindex="-1">${escapeHTML(entry.name)}</h1><p class="medicine-names"><strong>In this cohort:</strong> ${escapeHTML(names)}</p>${entry.checked ? `<div class="history-tags"><span>${escapeHTML(basisLabels[entry.basis])}</span><span>${escapeHTML(basisSupportLabel(entry.basisSupport))}</span><span>${escapeHTML(circumstanceLabels[entry.circumstances.value]||'Not reported')}</span></div><p class="history-clues">${escapeHTML(entry.inspirations.map(key=>clueLabels[key]).join(' · '))}</p>` : ''}</header>`);
-  if (!entry.checked) return introduction
+  const position = alphabet.findIndex(item => item.id === entry.id) + 1;
+  const drawing = document.querySelector(`.specimen[data-class="${entry.id}"] .drawing`);
+  const plate = `<div class="entry-spread"><div class="entry-plate">${introduction}${entry.checked ? historyRow('Human link', clinicalContributionMarkup(entry)) : ''}${drawing ? `<div class="entry-specimen">${drawing.outerHTML}</div>` : ''}<p class="entry-folio">Entry ${position} of ${alphabet.length}</p></div><div class="entry-article">`;
+  const end = '</div></div>';
+  if (!entry.checked) return neighborLinks(entry) + plate
     + historyRow('Starting point', `<p class="section-label">IN THE ATLAS · STILL BEING TRACED</p><h3>A history still to reconstruct.</h3><p>This class belongs to the selected cohort. Its founding history has not been source checked for this snapshot. A classification will appear after its evidence has been examined.</p>`)
-    + historyRow('Cohort', `<h3>The cohort entries</h3>${cohortTable(entry)}<p class="history-footnote">This page makes no historical-origin claim. Snapshot ${formatDate(atlas.meta.snapshotDate)}.</p>`);
+    + historyRow('Cohort', `<h3>The cohort entries</h3>${cohortTable(entry)}<p class="history-footnote">This page makes no historical-origin claim. Snapshot ${formatDate(atlas.meta.snapshotDate)}.</p>`) + end;
   const sources = orderedSources(entry);
-  return introduction
-    + historyRow('Human link', clinicalContributionMarkup(entry))
+  return neighborLinks(entry) + plate
     + historyRow('Starting point', `<p class="section-label">01 / WHAT OPENED THE PATH?</p>${statement(entry,entry.starting)}<p class="origin-support">${escapeHTML(basisLabels[entry.basis])} · ${escapeHTML(basisSupportLabel(entry.basisSupport))}</p>${entry.scopeNote ? `<aside class="basis-note"><p class="section-label">SCOPE OF THIS FINDING</p><p>${escapeHTML(entry.scopeNote)}</p></aside>` : ''}<button class="link-ink scope-jump" data-uncertainty>Class-level account · read the scope and open questions ↘</button>`)
     + historyRow('Steps', '<p class="section-label">02 / HOW IT UNFOLDED</p><h3>From clue to medicine.</h3>')
     + entry.steps.map((step,index)=>historyRow(`Step ${step.step || index+1}`, statement(entry,step), 'tight')).join('')
@@ -249,27 +330,44 @@ function buildHistory(entry) {
     + historyRow('Sources', `<p class="section-label">04 / READ THE ACCOUNTS</p><h3>Go back to the evidence.</h3><p class="source-explainer">${entry.sources.length} source records · ${entry.originalAccounts.length} original-account links. Original experiments and discoverer accounts appear first. Reading labels state how much of each source was accessed for collection; they do not imply every passage was independently verified.</p><ol class="sources">${sources.map(source=>sourceMarkup(entry,source)).join('')}</ol>`)
     + historyRow('Limits', uncertaintyMarkup(entry))
     + historyRow('Cohort', `<details class="uncertainty"><summary>The medicines in this cohort <span>+</span></summary><div>${cohortTable(entry)}<p class="history-footnote">Class-level ancestry does not mean every member has the same structure or individual development history. Combination entries can appear under more than one class.</p></div></details><p class="history-footnote">Snapshot ${formatDate(atlas.meta.snapshotDate)}. ${escapeHTML(atlas.meta.reviewBoundary)} The retained limitations bound the class-level finding.</p>`)
-    + historyRow('Catalogue', `<div class="history-navigation">${neighborLinks(entry)}<button class="link-ink" data-back>Back to the discovery index ←</button></div>`);
+    + historyRow('Catalogue', `<div class="history-navigation">${neighborLinks(entry)}<button class="link-ink" data-back>Back to the discovery index ←</button></div>`) + end;
 }
 function neighborLinks(entry) {
-  const index = filtered.findIndex(item=>item.id===entry.id);
+  const order = browsingOrder.length ? browsingOrder : alphabet;
+  const index = order.findIndex(item=>item.id===entry.id);
   if(index<0) return '';
-  return `<div>${index>0?`<button data-class="${filtered[index-1].id}">← ${escapeHTML(filtered[index-1].name)}</button>`:''}${index<filtered.length-1?`<button data-class="${filtered[index+1].id}">${escapeHTML(filtered[index+1].name)} →</button>`:''}</div>`;
+  return `<nav class="entry-neighbours" aria-label="Neighbouring entries">${index>0?`<a href="#class/${encodeURIComponent(order[index-1].id)}" data-class="${order[index-1].id}" data-direction="back" aria-label="Previous entry: ${escapeHTML(order[index-1].name)}">← ${escapeHTML(order[index-1].name)}</a>`:'<span></span>'}${index<order.length-1?`<a href="#class/${encodeURIComponent(order[index+1].id)}" data-class="${order[index+1].id}" data-direction="forward" aria-label="Next entry: ${escapeHTML(order[index+1].name)}">${escapeHTML(order[index+1].name)} →</a>`:'<span></span>'}</nav>`;
 }
 function openHistory(cid) {
   if (!classById.has(cid)) return;
-  if (!activeClass) {homeScroll=window.scrollY;lastOriginHash=location.hash.startsWith('#class/')?'#explore':location.hash||'#explore';}
+  if (!activeClass) {
+    homeScroll=window.scrollY;lastOriginHash=location.hash.startsWith('#class/')?'#explore':location.hash||'#explore';
+    browsingOrder = filtered.some(entry => entry.id === cid) ? [...filtered] : [...alphabet];
+    returnFocus = document.activeElement;
+  }
   location.hash='class/'+encodeURIComponent(cid);
 }
 function closeHistory() {
   location.hash=lastOriginHash;
 }
-function route() {
+function route(animate = false) {
+  const next = location.hash.match(/^#class\/([^/?]+)/)?.[1];
+  let nextId; try { nextId = next && decodeURIComponent(next); } catch { return; }
+  const order = browsingOrder.length ? browsingOrder : alphabet;
+  const nextIndex = order.findIndex(entry => entry.id === nextId), previousIndex = order.findIndex(entry => entry.id === activeClass);
+  const direction = !nextId || (nextIndex >= 0 && previousIndex >= 0 && nextIndex < previousIndex) ? 'back' : 'forward';
+  const update = () => renderRoute();
+  stopRiffle();
+  if (animate && nextId !== activeClass && (!nextId || classById.has(nextId)) && window.Paper?.turn) window.Paper.turn(update, { direction });
+  else update();
+}
+function renderRoute() {
   const match = location.hash.match(/^#class\/([^/?]+)/);
   if (match) {
     let cid;try {cid=decodeURIComponent(match[1]);}catch {return;}
     const entry = classById.get(cid);
     if (!entry) {showToast('That class is not in this atlas.');return;}
+    if (!browsingOrder.some(item => item.id === cid)) browsingOrder = [...alphabet];
     activeClass=cid;
     $('atlas-home').hidden=true;
     document.querySelector('.paper-foot').hidden=true;
@@ -291,10 +389,11 @@ function route() {
     document.body.classList.remove('reading');
     document.title='Where Medicines Begin — The Medicine Origins Atlas';
     measurePaper();
-    if (wasReading) requestAnimationFrame(()=>{
+    if (wasReading && returnFocus?.isConnected) returnFocus.focus({preventScroll:true});
+    if (wasReading) {
       if(location.hash===lastOriginHash&&homeScroll>0)window.scrollTo({top:homeScroll,behavior:'instant'});
       else {const section=document.getElementById(location.hash.slice(1)||'atlas-home');section?.scrollIntoView({behavior:'instant'});}
-    });
+    }
   }
 }
 function focusSource(sourceId,evidenceIds) {
@@ -315,6 +414,7 @@ function showToast(message) {
 function formatDate(value) {return new Date(value).toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});}
 
 document.addEventListener('click',event=>{
+  const thumb = event.target.closest('[data-thumb]'); if (thumb) { jumpToThumb(Number(thumb.dataset.thumb)); return; }
   const contributionButton=event.target.closest('[data-contribution]');if(contributionButton){event.preventDefault();selectContribution(contributionButton.dataset.contribution);return;}
   if(event.target.closest('[data-clear-contribution]')){contributionFilter='all';applyFilters();return;}
   if(event.target.closest('[data-method]'))$('clinical-method').open=true;
@@ -335,21 +435,28 @@ $('filters').addEventListener('submit',event=>event.preventDefault());
 $('filters').addEventListener('reset',()=>requestAnimationFrame(()=>{contributionFilter='all';$('search').value='';applyFilters();}));
 $('view-cards').addEventListener('click',()=>setLayout('cards'));
 $('view-index').addEventListener('click',()=>setLayout('index'));
-$('show-more').addEventListener('click',()=>{visibleCount+=12;renderResults();});
+$('show-more').addEventListener('click',()=>{visibleCount+=pageSize;renderResults();});
 document.addEventListener('keydown',event=>{
   if(event.key==='/'&&!/INPUT|TEXTAREA|SELECT/.test(event.target.tagName)&&!activeClass){event.preventDefault();$('search').focus();$('explore').scrollIntoView({behavior:'smooth'});}
   if(event.key==='Escape'&&activeClass)closeHistory();
 });
-window.addEventListener('hashchange',()=>{if(atlas)route();});
+window.addEventListener('hashchange',()=>{if(atlas)route(true);});
 window.addEventListener('popstate',()=>{if(atlas){restoreFilters();applyFilters(false,false);}});
+window.addEventListener('scroll', requestGuide, {passive:true});
+window.addEventListener('resize', requestGuide, {passive:true});
+for (const event of ['keydown', 'pointerdown', 'wheel']) window.addEventListener(event, stopRiffle, {capture:true, passive:true});
+matchMedia('(prefers-reduced-motion: reduce)').addEventListener?.('change', stopRiffle);
 
 async function start() {
   try {
     const response=await fetch('/medication-origin/atlas.json');if(!response.ok)throw new Error('Snapshot could not be loaded.');
     atlas=await response.json();classById=new Map(atlas.classes.map(entry=>[entry.id,entry]));
+    alphabet = [...atlas.classes].sort((a, b) => a.name.localeCompare(b.name));
+    thumbGroups = buildThumbGroups(alphabet);
     $('class-stat').textContent=atlas.classes.length;
     $('group-stat').textContent=atlas.cohort.length;
     $('checked-stat').textContent=atlas.meta.sourceRecords;
+    window.Paper?.coverReady();
     $('snapshot-caption').textContent=`${formatDate(atlas.meta.snapshotDate)} · All ${atlas.meta.checkedClasses} histories collected. ${atlas.meta.supportCounts.documented} documented · ${atlas.meta.supportCounts.inferred_from_source_observation} inferred · ${atlas.meta.supportCounts.not_reported} unclear.`;
     $('footer-snapshot').textContent=`Snapshot ${formatDate(atlas.meta.snapshotDate)} · ${atlas.meta.checkedClasses} histories · ${atlas.meta.sourceRecords} linked source records.`;
     $('cohort-sources').innerHTML=atlas.meta.cohortSources.map(source=>`<a href="${escapeHTML(source.url)}" target="_blank" rel="noopener">${escapeHTML(source.title)} ↗</a>`).join('');

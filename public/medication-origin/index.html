@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="dark" data-volume="tome" data-cover-title="MEDICINE ORIGINS ATLAS" data-cover-label="Field notebook" data-cover-author="Minh-Ha Nguyen">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -20,8 +20,9 @@
   </script>
   <link rel="stylesheet" href="/paper/paper.css">
   <link rel="stylesheet" href="/medication-origin/styles.css">
+  <link rel="expect" href="#explore" blocking="render">
   <link rel="alternate" type="text/plain" title="Data access and related research for agents" href="/medication-origin/llms.txt">
-  <script src="/paper/paper.js" defer></script>
+  <script src="/paper/paper.js"></script>
   <script src="/medication-origin/app.js" defer></script>
 </head>
 <body>
@@ -131,7 +132,13 @@
           </form>
           <div class="results-toolbar"><p id="result-count" role="status" aria-live="polite">Loading classes…</p><div class="choices view-switch" aria-label="Results layout"><button id="view-cards" class="active" aria-pressed="true" title="Card view">Cards</button><button id="view-index" aria-pressed="false" title="Compact index">Index</button></div></div>
           <p class="excluded-note" id="excluded-note" hidden></p>
-          <div id="results" class="results" aria-label="Drug class results"></div>
+          <div class="catalogue-pages" id="catalogue-pages">
+            <nav class="thumb-index" id="thumb-index" aria-label="Class name index"></nav>
+            <div class="catalogue-leaves">
+              <div class="catalogue-guide" id="catalogue-guide" aria-hidden="true"><span></span><span></span></div>
+              <div id="results" class="results" aria-label="Drug class results"></div>
+            </div>
+          </div>
           <div class="more-row"><button class="link-ink" id="show-more" hidden>Show more classes <span aria-hidden="true">↓</span></button><p id="shown-count"></p></div>
           <p class="filter-note">Starting clues can overlap. “Planned” and “unexpected” describe the discovery circumstances, separately from the origin of the clue.</p>
         </div>

@@ -2,6 +2,10 @@
 :root { --serif-vi: 'Newsreader', Georgia, 'Times New Roman', serif; }
 :lang(vi) { --serif: var(--serif-vi); }
 
+/* The small book stays on the desk. Only its separate cover can turn. */
+[data-volume="booklet"] .reveal { transform: none !important; transition: opacity .35s ease; }
+[data-volume="booklet"].static .reveal { transition: none; }
+
 /* Keep complete Vietnamese words in one display face, including mixed-language titles. */
 :lang(vi) :is(.paper-name, .paper-project, .h1, .h2, .margin, .evidence-ledger dt, .publication h3, .case-header h3, .boundary-columns h3, .footer-title) {
   font-family: var(--serif-vi);

@@ -250,3 +250,72 @@ summary{cursor:pointer}
 @media(prefers-reduced-motion:reduce){
   .specimen-art{clip-path:none!important;transition:none!important}
 }
+
+/* Encyclopedia furniture belongs to the catalogue, so it leaves with that page. */
+.catalogue-pages{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 44px;gap:16px;margin-right:-32px}
+.catalogue-leaves{grid-column:1;grid-row:1;min-width:0}
+.thumb-index{grid-column:2;grid-row:1;position:sticky;top:56px;align-self:start;display:grid;gap:2px;z-index:5}
+.thumb-index button{min-width:28px;min-height:28px;padding:3px 4px;border:1px solid var(--mline);border-right:0;border-radius:9px 0 0 9px;background:var(--paper);color:var(--print);font:400 10px/20px var(--sans);letter-spacing:.02em;cursor:pointer}
+.thumb-index button:hover,.thumb-index button:focus-visible{border-color:var(--gold);color:var(--ink-text)}
+.thumb-index button:disabled{opacity:.32;cursor:default}
+.catalogue-guide{position:sticky;top:0;z-index:4;display:flex;justify-content:space-between;gap:28px;padding-block:7px;min-height:42px;background:var(--paper);border-block:1px solid var(--head-rule);font:400 10.5px/14px var(--sans);color:var(--print);margin-bottom:var(--R)}
+.catalogue-guide span{max-width:48%;overflow-wrap:anywhere}
+.catalogue-guide span:last-child{text-align:right}
+.catalogue-folio{padding-block:13px 14px;border-top:1px solid var(--mline);color:var(--print);font:400 12px/28px var(--serif);text-align:right;font-variant-numeric:tabular-nums}
+.class-card{scroll-margin-top:70px}
+.catalogue-pages::before,.catalogue-pages::after{content:'';position:absolute;right:44px;top:42px;width:12px;height:112px;border-right:double 3px var(--print);background:var(--paper);opacity:0;pointer-events:none;transform-origin:0 50%;z-index:6}
+.catalogue-pages.is-riffling::before{animation:atlas-riffle 200ms ease-out both}
+.catalogue-pages.is-riffling::after{animation:atlas-riffle 200ms ease-out 40ms both}
+@keyframes atlas-riffle{0%{opacity:0;transform:perspective(200px) rotateY(0)}20%{opacity:1}100%{opacity:0;transform:perspective(200px) rotateY(-80deg)}}
+html.static .catalogue-pages::before,html.static .catalogue-pages::after{animation:none!important;opacity:0!important}
+
+.entry-neighbours{display:flex;justify-content:space-between;align-items:baseline;gap:28px;font:400 12px/28px var(--sans);padding:0 32px 14px calc(var(--lx) + 20px);margin-bottom:var(--R);border-bottom:1px solid var(--mline)}
+.entry-neighbours > *{max-width:48%;overflow-wrap:anywhere}
+.entry-neighbours > :last-child{text-align:right}
+.history-navigation .entry-neighbours{padding:0 0 14px}
+.entry-plate{margin-bottom:calc(var(--R)*2)}
+.entry-plate .row + .row{margin-top:var(--R)}
+.entry-plate .node::before{display:none}
+.entry-folio,.entry-specimen{margin:var(--R) 32px 0 calc(var(--lx) + 20px)!important}
+.entry-folio{color:var(--print);font:400 12px/28px var(--sans);font-variant-numeric:tabular-nums;border-top:1px solid var(--mline);padding-top:13px}
+.entry-specimen{padding:14px 0;border-top:1px solid var(--mline)}
+.entry-specimen .drawing{height:auto;margin:0}
+.entry-specimen .specimen-art{clip-path:none}
+.entry-article .statement-text,.entry-article .history-footnote{max-width:60ch}
+
+/* 60ch of article + 120px of stage margin must fit before a second page opens.
+   The margin column fits the widest stage word, "Circumstances" (90px at 17px). */
+@media(min-width:1280px){
+  .reading .atlas-sheet{--lx:40px}
+  .entry-spread{display:grid;grid-template-columns:minmax(0,1fr) calc(60ch + 120px);gap:28px;padding:0 32px 0 64px}
+  .entry-plate{position:sticky;top:28px;align-self:start;margin:0;padding-right:27px;border-right:double 3px var(--head-rule)}
+  .entry-plate:has(details[open]){position:static}
+  .entry-plate .row{display:block;padding:0}
+  .entry-plate .margin{text-align:left}
+  .entry-plate .history-intro h1{font-size:40px;line-height:56px}
+  .entry-plate .history-tags{display:block}
+  .entry-plate .history-tags > span{display:block}
+  .entry-plate .clinical-note{font-size:13.5px}
+  .entry-folio,.entry-specimen{margin:var(--R) 0 0!important}
+  .entry-article{min-width:0}
+  .entry-article .row{grid-template-columns:96px minmax(0,1fr);gap:24px;padding:0}
+  .entry-article .span-2{grid-column:2}
+  .entry-article .node::before{display:none}
+  .entry-article .margin{font-size:17px}
+  .entry-article .history-row h3{font-size:30px}
+}
+@media(max-width:700px){
+  .catalogue-pages{display:flex;flex-direction:column;gap:0;margin-right:0}
+  .thumb-index{display:flex;flex-wrap:wrap;gap:2px;top:0;align-self:stretch;padding-block:4px;background:var(--paper)}
+  .thumb-index button{flex:0 0 auto;min-width:32px;padding-inline:6px;border:1px solid var(--mline);border-radius:0 0 6px 6px}
+  .catalogue-guide{top:var(--thumb-height,64px);gap:12px;font-size:10px}
+  .class-card{scroll-margin-top:calc(var(--thumb-height,64px) + 56px)}
+  .catalogue-pages::before,.catalogue-pages::after{right:0;top:calc(var(--thumb-height,64px) + 42px)}
+  .entry-neighbours{padding-left:58px;padding-right:16px;font-size:11px;gap:16px}
+  .entry-folio,.entry-specimen{margin-left:58px!important;margin-right:16px!important}
+}
+@media(prefers-reduced-motion:reduce){
+  .catalogue-pages::before,.catalogue-pages::after{animation:none!important;opacity:0!important}
+}
+/* The kit underline runs 2% past each end of its words; on the narrowest phones the hero line already fills the sheet. */
+@media(max-width:380px){#hero-title .ul svg{left:0;width:100%}}

@@ -232,3 +232,117 @@ html.static .circ path,html.static .ul path{animation:none;stroke-dashoffset:0}
   html{scroll-behavior:auto}
   *,::before,::after{transition:none!important}
 }
+
+/* Notebook motion. These tokens and transient surfaces do nothing at rest. */
+@view-transition{navigation:auto;types:paper-back}
+:root,[data-volume="tome"],[data-paper-weight="tome"]{
+  --paper-duration:960ms;--paper-ease:cubic-bezier(.42,.02,.18,1);
+  --paper-leaves:3;--paper-leaf-step:40ms;
+}
+[data-volume="booklet"],[data-paper-weight="booklet"]{
+  --paper-duration:480ms;--paper-ease:cubic-bezier(.2,.65,.25,1);
+  --paper-leaves:0;--paper-leaf-step:0ms;
+}
+/* Naming the front sheet only during capture avoids a new stacking context at rest.
+   The default back type also covers a cold return before the home script runs. */
+:root.js:not([data-volume]):active-view-transition-type(paper-back) .sheet,
+:root.js:not([data-volume]):active-view-transition-type(paper-forward) .sheet,
+:root:not([data-volume])[data-paper-motion] .sheet{view-transition-name:paper-front}
+/* Inside a volume the page before and the page after carry separate names, so each snapshot keeps
+   its own place: a catalogue scrolled far down and an entry at its top are different geometries. */
+:root[data-volume="tome"][data-paper-local][data-paper-phase="old"] .sheet{view-transition-name:paper-turn-old}
+:root[data-volume="tome"][data-paper-local][data-paper-phase="new"] .sheet{view-transition-name:paper-turn-new}
+::view-transition{pointer-events:none}
+::view-transition-group(root){animation:none;transform:none}
+::view-transition-old(root),::view-transition-new(root){animation:none;transform:none;mix-blend-mode:normal}
+::view-transition-old(root){opacity:0}
+::view-transition-new(root){opacity:1}
+::view-transition-group(paper-front){animation:none;z-index:10}
+/* The still page lies under the trailing leaves (z-index 5); the turning page lies over them. */
+::view-transition-group(paper-turn-old),::view-transition-group(paper-turn-new){animation:none;z-index:1}
+:root[data-paper-motion="forward"]::view-transition-group(paper-turn-old),
+:root[data-paper-motion="back"]::view-transition-group(paper-turn-new){z-index:10}
+::view-transition-image-pair(paper-front){isolation:auto}
+::view-transition-old(paper-front),::view-transition-new(paper-front),
+::view-transition-old(paper-turn-old),::view-transition-new(paper-turn-new){
+  animation:none;mix-blend-mode:normal;transform-origin:0 50%;backface-visibility:hidden;
+}
+::view-transition-old(paper-front),::view-transition-old(paper-turn-old){transform-origin:0 var(--paper-old-hinge,50%)}
+::view-transition-new(paper-front),::view-transition-new(paper-turn-new){transform-origin:0 var(--paper-new-hinge,50%)}
+:root:active-view-transition-type(paper-forward)::view-transition-old(paper-front),
+:root[data-paper-motion="forward"]::view-transition-old(paper-front),
+:root[data-paper-motion="forward"]::view-transition-old(paper-turn-old){
+  z-index:2;animation:paper-turn-away var(--paper-duration) var(--paper-ease) both;
+}
+:root:active-view-transition-type(paper-back)::view-transition-new(paper-front),
+:root[data-paper-motion="back"]::view-transition-new(paper-front),
+:root[data-paper-motion="back"]::view-transition-new(paper-turn-new){
+  z-index:2;animation:paper-turn-in var(--paper-duration) var(--paper-ease) both;
+}
+/* Only the front sheet turns over a volume. Its photographs remain in root. */
+:root[data-paper-motion="back"]::view-transition-old(root){opacity:1}
+:root[data-paper-motion="back"]::view-transition-new(root){opacity:0}
+:root.js:not([data-volume]):active-view-transition-type(paper-back)::view-transition-old(root){opacity:1}
+:root.js:not([data-volume]):active-view-transition-type(paper-back)::view-transition-new(root){opacity:0}
+:root[data-volume="tome"][data-paper-motion="back"]::view-transition-new(root){opacity:1}
+/* Language editions occupy the same plane, with no geometric interpolation. */
+:root[data-paper-motion="language"]::view-transition-old(root){opacity:1;animation:paper-fade-out 220ms ease both}
+:root[data-paper-motion="language"]::view-transition-new(root){opacity:1;animation:paper-fade-in 220ms ease both}
+@keyframes paper-turn-away{
+  0%{transform:perspective(1800px) rotateY(0);opacity:1}
+  75%{opacity:1}
+  100%{transform:perspective(1800px) rotateY(-108deg);opacity:0}
+}
+@keyframes paper-turn-in{
+  0%{transform:perspective(1800px) rotateY(-108deg);opacity:0}
+  25%{opacity:1}
+  100%{transform:perspective(1800px) rotateY(0);opacity:1}
+}
+@keyframes paper-fade-out{to{opacity:0}}
+@keyframes paper-fade-in{from{opacity:0}}
+
+.paper-opening,.paper-leaves{position:fixed;inset:0;z-index:1000;pointer-events:none}
+.paper-cover,.paper-leaf{
+  position:absolute;top:var(--paper-top,0px);bottom:0;
+  left:var(--paper-left,max(0px,calc((100vw - 1160px)/2)));
+  width:var(--paper-width,min(100vw,1160px));
+  background:var(--paper);border:1px solid var(--head-rule);
+  transform-origin:0 50%;backface-visibility:hidden;
+}
+.paper-cover{
+  z-index:4;display:flex;flex-direction:column;justify-content:center;gap:var(--R);
+  padding:clamp(28px,8vw,112px);border-left:double 5px var(--print);
+  color:var(--ink-text);background-image:var(--grain);
+}
+.paper-cover-title{font:400 clamp(38px,6vw,76px)/1.08 var(--serif);max-width:16ch;text-wrap:balance}
+.paper-cover-label,.paper-cover-author{font:400 12px/28px var(--sans);letter-spacing:.12em}
+.paper-cover-label{color:var(--print)}
+.paper-cover-counts{display:grid;gap:0;font:400 12px/28px var(--sans);color:var(--muted)}
+.paper-cover-counts span{display:flex;gap:14px;align-items:baseline}
+.paper-cover-counts b{font:italic 400 24px/28px var(--serif);color:var(--ink-text)}
+.paper-leaf{background-image:repeating-linear-gradient(180deg,transparent 0 20px,var(--rule) 20px 21px,transparent 21px var(--R));border-right:double 3px var(--print)}
+[data-volume="booklet"] .paper-cover{border-left-width:3px;gap:14px}
+[data-volume="booklet"] .paper-cover-title{font-size:clamp(34px,5vw,60px);max-width:20ch}
+.paper-opening.is-opening .paper-cover,.paper-opening.is-opening .paper-leaf{
+  animation:paper-turn-away var(--paper-duration) var(--paper-ease) both;
+  animation-delay:calc(var(--paper-leaf,0) * var(--paper-leaf-step));
+}
+::view-transition-group(paper-leaf-1),::view-transition-group(paper-leaf-2),::view-transition-group(paper-leaf-3){animation:none;z-index:5}
+::view-transition-old(paper-leaf-1),::view-transition-old(paper-leaf-2),::view-transition-old(paper-leaf-3){display:none}
+::view-transition-new(paper-leaf-1),::view-transition-new(paper-leaf-2),::view-transition-new(paper-leaf-3){
+  mix-blend-mode:normal;transform-origin:0 50%;backface-visibility:hidden;
+  animation:paper-turn-away var(--paper-duration) var(--paper-ease) both;
+}
+::view-transition-new(paper-leaf-1){animation-delay:var(--paper-leaf-step)}
+::view-transition-new(paper-leaf-2){animation-delay:calc(2 * var(--paper-leaf-step))}
+::view-transition-new(paper-leaf-3){animation-delay:calc(3 * var(--paper-leaf-step))}
+:root[data-paper-motion="back"]::view-transition-new(paper-leaf-1),
+:root[data-paper-motion="back"]::view-transition-new(paper-leaf-2),
+:root[data-paper-motion="back"]::view-transition-new(paper-leaf-3){animation-name:paper-turn-in}
+html.static .paper-opening,html.static .paper-leaves{display:none!important}
+html.static::view-transition-group(*),html.static::view-transition-old(*),html.static::view-transition-new(*){animation:none!important}
+@media(prefers-reduced-motion:reduce){
+  @view-transition{navigation:none}
+  .paper-opening,.paper-leaves{display:none!important}
+  ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}
+}
