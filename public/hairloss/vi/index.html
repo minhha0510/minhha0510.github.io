@@ -7,28 +7,39 @@
       name="description"
       content="Dự án tổng hợp nghiên cứu về độ an toàn của thuốc ức chế men 5-alpha reductase cùng với một số trường hợp điều trị rụng tóc thực tế."
     />
-    <meta name="theme-color" content="#102f4d" />
+    <meta name="theme-color" content="#0f1c3f" />
     <title>Bằng chứng về điều trị rụng tóc</title>
     <link rel="canonical" href="https://mh-nguyen.cv/hairloss/vi/" />
     <link rel="alternate" hreflang="en" href="https://mh-nguyen.cv/hairloss/" />
     <link rel="alternate" hreflang="vi" href="https://mh-nguyen.cv/hairloss/vi/" />
     <link rel="alternate" hreflang="x-default" href="https://mh-nguyen.cv/hairloss/" />
-    <script src="/theme.js"></script>
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme') ||
+          (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/paper/paper.css" />
     <link rel="stylesheet" href="../assets/styles.css" />
+    <script src="/paper/paper.js" defer></script>
     <script src="../assets/site.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Chuyển đến nội dung chính</a>
 
-    <header class="site-header" data-header>
+    <header class="paper-head">
       <div class="site-identity">
-        <a class="wordmark" href="/">← Minh-Ha Nguyen</a>
-        <span class="project-label">Bằng chứng về điều trị rụng tóc</span>
+        <a class="paper-name wordmark" href="/"><span class="back-arrow" aria-hidden="true">←</span> Minh-Ha Nguyen</a>
+        <span class="paper-project">Bằng chứng về điều trị rụng tóc</span>
       </div>
 
       <div class="header-controls">
-        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">☾</button>
+        <button class="theme-toggle" type="button" aria-label="Đổi giao diện">
+          <span class="moon" aria-hidden="true">☾</span>
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        </button>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="sr-only">Mở hoặc đóng mục lục</span>
         <span aria-hidden="true"></span>
@@ -42,18 +53,22 @@
         <a href="#research">Nghiên cứu</a>
         <a href="#outcomes">Trường hợp điều trị</a>
         <a href="#boundaries">Cách đọc</a>
-        <div class="language-toggle" role="group" aria-label="Ngôn ngữ">
+        <div class="choices language-toggle" role="group" aria-label="Ngôn ngữ">
           <a class="language-option" href="../" lang="en" hreflang="en">EN</a>
           <a class="language-option is-active" href="./" lang="vi" hreflang="vi" aria-current="page">VI</a>
         </div>
       </nav>
     </header>
 
-    <main id="main-content">
-      <section id="top" class="hero section-shell">
-        <div class="hero-copy" data-reveal>
+    <main class="sheet" id="main-content" tabindex="-1">
+      <div class="holes" aria-hidden="true"></div>
+      <div class="mline" aria-hidden="true"><i class="ink"></i></div>
+      <i class="nib" aria-hidden="true"></i>
+      <div class="stationery"><span>Hồ sơ ca</span><span>EN · VI</span></div>
+      <section id="top" class="row hero">
+        <div class="hero-copy span-2 reveal">
           <p class="eyebrow"><span>Một dự án vì lợi ích cộng đồng</span><span>2026</span></p>
-          <h1>Hiểu rõ hơn về những phương pháp điều trị đã được sử dụng và nghiên cứu.</h1>
+          <h1 class="h1">Hiểu rõ hơn về những phương pháp điều trị đã được sử dụng và nghiên cứu.</h1>
           <p class="hero-lede">
             Dự án này tổng hợp nghiên cứu về độ an toàn của thuốc ức chế men 5-alpha reductase cùng
             với một số trường hợp điều trị rụng tóc thực tế. Mục tiêu là giúp người đọc dễ hiểu hơn
@@ -61,17 +76,14 @@
             về lợi ích, nguy cơ và những điều bằng chứng hiện chưa thể khẳng định chắc chắn.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#outcomes">Xem các trường hợp điều trị</a>
-            <a class="text-link" href="#research">Đọc các nghiên cứu <span aria-hidden="true">↘</span></a>
+            <a class="link-ink" href="#outcomes">Xem các trường hợp điều trị</a>
+            <a class="link-ink" href="#research">Đọc các nghiên cứu <span aria-hidden="true">↘</span></a>
           </div>
         </div>
 
-        <aside class="hero-index" aria-label="Tổng quan dự án" data-reveal>
-          <div class="contour" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <p class="index-label">Tổng quan bằng chứng</p>
-          <dl>
+        <aside class="hero-index span-2 reveal" aria-label="Tổng quan dự án">
+          <p class="index-label eyebrow">Tổng quan bằng chứng</p>
+          <dl class="ledger evidence-ledger">
             <div>
               <dt>03</dt>
               <dd>công trình<br />đã qua bình duyệt</dd>
@@ -89,13 +101,14 @@
         </aside>
       </section>
 
-      <section id="purpose" class="purpose section-shell section-rule">
-        <div class="section-number" aria-hidden="true">01</div>
-        <div class="section-intro" data-reveal>
+      <section id="purpose" class="row node purpose">
+        <div class="margin" aria-hidden="true">01</div>
+        <div class="section-body span-2">
+        <div class="section-intro reveal">
           <p class="eyebrow">Vì sao có dự án này?</p>
-          <h2>Giữa nhiều thông tin trái chiều, những điều thực sự hữu ích đôi khi lại khó nhìn thấy.</h2>
+          <h2 class="h2">Giữa nhiều thông tin trái chiều, những điều thực sự hữu ích đôi khi lại khó nhìn thấy.</h2>
         </div>
-        <div class="purpose-body" data-reveal>
+        <div class="purpose-body reveal">
           <p class="purpose-lead">
             Finasteride và minoxidil đã được sử dụng trong lâm sàng nhiều thập kỷ. Tuy nhiên, nhiều
             người biết đến các thuốc này chủ yếu qua những thông tin rời rạc, đặc biệt về hiệu quả
@@ -106,21 +119,24 @@
             có thể ảnh hưởng như thế nào đến nguy cơ của thuốc mà chúng ta quan sát được?
           </p>
         </div>
+        </div>
       </section>
 
-      <section id="research" class="research-panel">
-        <div class="section-shell">
-          <div class="research-heading" data-reveal>
+      <section id="research" class="row node research-panel">
+        <div class="margin" aria-hidden="true"><small>Nguồn</small></div>
+        <div class="section-body span-2">
+          <div class="research-heading reveal">
             <div>
               <p class="eyebrow eyebrow-light">Nghiên cứu về độ an toàn</p>
-              <h2>Chúng tôi nghiên cứu nguy cơ trầm cảm và các vấn đề chuyển hóa trên những quần thể lớn.</h2>
+              <h2 class="h2">Chúng tôi nghiên cứu nguy cơ trầm cảm và các vấn đề chuyển hóa trên những quần thể lớn.</h2>
               <p class="section-note section-note-light">Các nghiên cứu dưới đây đánh giá độ an toàn của thuốc trong điều trị bệnh tuyến tiền liệt. Đây là nguồn bằng chứng riêng biệt với các trường hợp điều trị rụng tóc được trình bày ở phần sau.</p>
             </div>
           </div>
 
-          <div class="publication-list">
-            <article class="publication" data-reveal>
-              <div class="publication-order">01</div>
+          <ol class="sources publication-list">
+            <li class="publication reveal">
+              <span class="publication-order">01</span>
+              <div>
               <div class="publication-content">
                 <div class="publication-meta">
                   <span>Phân tích gộp</span>
@@ -147,10 +163,12 @@
                 <a href="https://doi.org/10.1080/00325481.2026.2633464">Tạp chí <span aria-hidden="true">↗</span></a>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/41725117/">PubMed <span aria-hidden="true">↗</span></a>
               </div>
-            </article>
+              </div>
+            </li>
 
-            <article class="publication" data-reveal>
-              <div class="publication-order">02</div>
+            <li class="publication reveal">
+              <span class="publication-order">02</span>
+              <div>
               <div class="publication-content">
                 <div class="publication-meta">
                   <span>Nghiên cứu đoàn hệ toàn quốc</span>
@@ -177,10 +195,12 @@
                 <a href="https://doi.org/10.3349/ymj.2025.0056">Toàn văn <span aria-hidden="true">↗</span></a>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/41914321/">PubMed <span aria-hidden="true">↗</span></a>
               </div>
-            </article>
+              </div>
+            </li>
 
-            <article class="publication" data-reveal>
-              <div class="publication-order">03</div>
+            <li class="publication reveal">
+              <span class="publication-order">03</span>
+              <div>
               <div class="publication-content">
                 <div class="publication-meta">
                   <span>Nghiên cứu đoàn hệ toàn quốc</span>
@@ -207,54 +227,63 @@
                 <a href="https://doi.org/10.1016/j.heliyon.2025.e41768">Toàn văn <span aria-hidden="true">↗</span></a>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39944326/">PubMed <span aria-hidden="true">↗</span></a>
               </div>
-            </article>
-          </div>
+              </div>
+            </li>
+          </ol>
         </div>
       </section>
 
-      <section id="outcomes" class="outcomes section-shell">
-        <div class="outcomes-heading section-rule" data-reveal>
-          <div class="section-number" aria-hidden="true">02</div>
+      <section id="outcomes" class="row node outcomes">
+        <div class="margin" aria-hidden="true">02</div>
+        <div class="section-body span-2">
+        <div class="outcomes-heading">
           <div>
             <p class="eyebrow">Một số trường hợp điều trị</p>
-            <h2>Theo dõi sự thay đổi ở từng người qua hình ảnh.</h2>
+            <h2 class="h2">Theo dõi sự thay đổi ở từng người qua hình ảnh.</h2>
             <p class="section-note">Đây là các trường hợp được chọn để minh họa, không phải tỷ lệ đáp ứng chung của tất cả bệnh nhân.</p>
           </div>
         </div>
 
         <section class="condition-block" aria-labelledby="aga-heading">
-          <header class="condition-heading" data-reveal>
+          <header class="condition-heading">
             <div>
               <p class="condition-kicker">Nhóm A · 4 trường hợp</p>
-              <h2 id="aga-heading">Rụng tóc kiểu nam/nữ <span lang="en">Androgenetic alopecia</span></h2>
+              <h2 class="h2" id="aga-heading">Rụng tóc kiểu nam/nữ <span lang="en">Androgenetic alopecia</span></h2>
             </div>
             <p>
               Đây là dạng rụng tóc thường gặp, biểu hiện theo kiểu rụng tóc nam hoặc nữ.
             </p>
           </header>
 
-          <article class="case case-featured" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-005</p>
-                <h3>Rụng tóc kiểu nam</h3>
+          <article class="case case-featured case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Mã ca</p>
+                <p class="case-code field-value">HLS-005</p>
               </div>
-              <p class="case-interval">Theo dõi: 3 tháng</p>
+              <div class="field">
+                <p class="field-label">Tình trạng</p>
+                <h3 class="field-value">Rụng tóc kiểu nam</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Thời gian</p>
+                <p class="case-interval field-value">Theo dõi: 3 tháng</p>
+              </div>
             </header>
-            <div class="comparison comparison-double">
+            <div class="comparison comparison-double snap">
               <figure class="timepoint">
-                <figcaption><span>Trước điều trị</span><span>Vùng trán + đỉnh đầu</span></figcaption>
                 <div class="photo-pair">
                   <img src="../assets/images/hls-005-baseline-frontal.webp?v=3" alt="Hình vùng da đầu phía trước của trường hợp HLS-005 trước điều trị" width="1200" height="1600" />
                   <img src="../assets/images/hls-005-baseline-crown.webp" alt="Hình vùng đỉnh đầu của trường hợp HLS-005 trước điều trị" width="1200" height="1600" />
                 </div>
+                <figcaption><span>Trước điều trị</span><span>Vùng trán + đỉnh đầu</span></figcaption>
               </figure>
               <figure class="timepoint">
-                <figcaption><span>Sau 3 tháng</span><span>Vùng trán + đỉnh đầu</span></figcaption>
                 <div class="photo-pair">
                   <img src="../assets/images/hls-005-month-3-frontal.webp?v=2" alt="Hình vùng da đầu phía trước của trường hợp HLS-005 ở tháng thứ 3" width="1200" height="1226" />
                   <img src="../assets/images/hls-005-month-3-crown.webp" alt="Hình vùng đỉnh đầu của trường hợp HLS-005 ở tháng thứ 3" width="1200" height="1600" />
                 </div>
+                <figcaption><span>Sau 3 tháng</span><span>Vùng trán + đỉnh đầu</span></figcaption>
               </figure>
             </div>
             <div class="case-copy">
@@ -266,22 +295,33 @@
             </div>
           </article>
 
-          <article class="case" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-002</p>
-                <h3>Rụng tóc kiểu nữ</h3>
+          <article class="case case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Mã ca</p>
+                <p class="case-code field-value">HLS-002</p>
               </div>
-              <p class="case-interval">Tháng 4 → tháng 12 năm 2024</p>
+              <div class="field">
+                <p class="field-label">Tình trạng</p>
+                <h3 class="field-value">Rụng tóc kiểu nữ</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Thời gian</p>
+                <p class="case-interval field-value">Tháng 4 → tháng 12 năm 2024</p>
+              </div>
             </header>
-            <div class="comparison">
+            <div class="comparison snap">
               <figure class="timepoint">
+                <div class="photo-mount">
+                  <img src="../assets/images/hls-002-april-2024.webp" alt="Hình đường ngôi giữa của trường hợp HLS-002 vào tháng 4 năm 2024" width="1200" height="1387" loading="lazy" />
+                </div>
                 <figcaption><span>Tháng 4/2024</span><span>Đường ngôi giữa</span></figcaption>
-                <img src="../assets/images/hls-002-april-2024.webp" alt="Hình đường ngôi giữa của trường hợp HLS-002 vào tháng 4 năm 2024" width="1200" height="1387" loading="lazy" />
               </figure>
               <figure class="timepoint">
+                <div class="photo-mount">
+                  <img src="../assets/images/hls-002-december-2024.webp" alt="Hình đường ngôi giữa của trường hợp HLS-002 vào tháng 12 năm 2024" width="1200" height="1600" loading="lazy" />
+                </div>
                 <figcaption><span>Tháng 12/2024</span><span>Đường ngôi giữa</span></figcaption>
-                <img src="../assets/images/hls-002-december-2024.webp" alt="Hình đường ngôi giữa của trường hợp HLS-002 vào tháng 12 năm 2024" width="1200" height="1600" loading="lazy" />
               </figure>
             </div>
             <div class="case-copy">
@@ -292,28 +332,35 @@
             </div>
           </article>
 
-          <article class="case" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-001</p>
-                <h3>Rụng tóc kiểu nam</h3>
+          <article class="case case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Mã ca</p>
+                <p class="case-code field-value">HLS-001</p>
               </div>
-              <p class="case-interval">Lần theo dõi cuối được trình bày</p>
+              <div class="field">
+                <p class="field-label">Tình trạng</p>
+                <h3 class="field-value">Rụng tóc kiểu nam</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Thời gian</p>
+                <p class="case-interval field-value">Lần theo dõi cuối được trình bày</p>
+              </div>
             </header>
-            <div class="comparison comparison-double">
+            <div class="comparison comparison-double snap">
               <figure class="timepoint">
-                <figcaption><span>Trước điều trị</span><span>Vùng xoáy + giữa da đầu</span></figcaption>
                 <div class="photo-pair">
                   <img src="../assets/images/hls-001-baseline-crown.webp" alt="Hình vùng đỉnh đầu của trường hợp HLS-001 trước điều trị" width="1200" height="1600" loading="lazy" />
                   <img src="../assets/images/hls-001-baseline-vertex.webp" alt="Hình vùng xoáy tóc của trường hợp HLS-001 trước điều trị" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>Trước điều trị</span><span>Vùng xoáy + giữa da đầu</span></figcaption>
               </figure>
               <figure class="timepoint">
-                <figcaption><span>Lần theo dõi cuối được trình bày</span><span>Vùng xoáy + giữa da đầu</span></figcaption>
                 <div class="photo-pair">
                   <img src="../assets/images/hls-001-follow-up-crown.webp" alt="Hình vùng đỉnh đầu ở lần theo dõi cuối đã chọn của trường hợp HLS-001" width="1200" height="1600" loading="lazy" />
                   <img src="../assets/images/hls-001-follow-up-vertex.webp" alt="Hình vùng xoáy tóc ở lần theo dõi cuối đã chọn của trường hợp HLS-001" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>Lần theo dõi cuối được trình bày</span><span>Vùng xoáy + giữa da đầu</span></figcaption>
               </figure>
             </div>
             <div class="case-copy">
@@ -325,28 +372,35 @@
             </div>
           </article>
 
-          <article class="case" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-003</p>
-                <h3>Rụng tóc kiểu nam · 17 tuổi</h3>
+          <article class="case case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Mã ca</p>
+                <p class="case-code field-value">HLS-003</p>
               </div>
-              <p class="case-interval">Tháng 5 → tháng 12 năm 2024</p>
+              <div class="field">
+                <p class="field-label">Tình trạng</p>
+                <h3 class="field-value">Rụng tóc kiểu nam · 17 tuổi</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Thời gian</p>
+                <p class="case-interval field-value">Tháng 5 → tháng 12 năm 2024</p>
+              </div>
             </header>
-            <div class="comparison comparison-double">
+            <div class="comparison comparison-double snap">
               <figure class="timepoint">
-                <figcaption><span>Tháng 5/2024</span><span>Đỉnh đầu + giữa da đầu</span></figcaption>
                 <div class="photo-pair">
                   <img src="../assets/images/hls-003-may-2024-crown.webp" alt="Hình vùng đỉnh đầu của trường hợp HLS-003 vào tháng 5 năm 2024" width="1200" height="1600" loading="lazy" />
                   <img src="../assets/images/hls-003-may-2024-part.webp" alt="Hình vùng giữa da đầu của trường hợp HLS-003 vào tháng 5 năm 2024" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>Tháng 5/2024</span><span>Đỉnh đầu + giữa da đầu</span></figcaption>
               </figure>
               <figure class="timepoint">
-                <figcaption><span>Tháng 12/2024</span><span>Đỉnh đầu + giữa da đầu</span></figcaption>
                 <div class="photo-pair">
                   <img src="../assets/images/hls-003-december-2024-crown.webp" alt="Hình vùng đỉnh đầu của trường hợp HLS-003 vào tháng 12 năm 2024" width="1200" height="1600" loading="lazy" />
                   <img src="../assets/images/hls-003-december-2024-part.webp" alt="Hình vùng giữa da đầu của trường hợp HLS-003 vào tháng 12 năm 2024" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>Tháng 12/2024</span><span>Đỉnh đầu + giữa da đầu</span></figcaption>
               </figure>
             </div>
             <div class="case-copy">
@@ -360,10 +414,10 @@
         </section>
 
         <section class="condition-block condition-aa" aria-labelledby="aa-heading">
-          <header class="condition-heading" data-reveal>
+          <header class="condition-heading">
             <div>
               <p class="condition-kicker">Nhóm B · 2 trường hợp</p>
-              <h2 id="aa-heading">Rụng tóc từng mảng · Alopecia areata</h2>
+              <h2 class="h2" id="aa-heading">Rụng tóc từng mảng · Alopecia areata</h2>
             </div>
             <p>
               Đây là bệnh rụng tóc do cơ chế tự miễn. Bệnh có thể chỉ xuất hiện thành từng mảng
@@ -371,28 +425,35 @@
             </p>
           </header>
 
-          <article class="case" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-008</p>
-                <h3>Rụng tóc từng mảng</h3>
+          <article class="case case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Mã ca</p>
+                <p class="case-code field-value">HLS-008</p>
               </div>
-              <p class="case-interval">Khoảng 2 tháng</p>
+              <div class="field">
+                <p class="field-label">Tình trạng</p>
+                <h3 class="field-value">Rụng tóc từng mảng</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Thời gian</p>
+                <p class="case-interval field-value">Khoảng 2 tháng</p>
+              </div>
             </header>
-            <div class="comparison comparison-double">
+            <div class="comparison comparison-double snap">
               <figure class="timepoint">
-                <figcaption><span>Tháng 4/2025</span><span>Đỉnh đầu + giữa da đầu</span></figcaption>
                 <div class="photo-pair">
                   <img src="../assets/images/hls-008-april-2025-crown.webp" alt="Hình vùng đỉnh đầu của trường hợp HLS-008 vào tháng 4 năm 2025" width="1200" height="1589" loading="lazy" />
                   <img src="../assets/images/hls-008-april-2025-central.webp" alt="Hình vùng giữa da đầu của trường hợp HLS-008 vào tháng 4 năm 2025" width="1200" height="1594" loading="lazy" />
                 </div>
+                <figcaption><span>Tháng 4/2025</span><span>Đỉnh đầu + giữa da đầu</span></figcaption>
               </figure>
               <figure class="timepoint">
-                <figcaption><span>Tháng 6/2025</span><span>Đỉnh đầu + giữa da đầu</span></figcaption>
                 <div class="photo-pair">
                   <img src="../assets/images/hls-008-june-2025-crown.webp" alt="Hình vùng đỉnh đầu của trường hợp HLS-008 vào tháng 6 năm 2025" width="1200" height="1600" loading="lazy" />
                   <img src="../assets/images/hls-008-june-2025-central.webp" alt="Hình vùng giữa da đầu của trường hợp HLS-008 vào tháng 6 năm 2025" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>Tháng 6/2025</span><span>Đỉnh đầu + giữa da đầu</span></figcaption>
               </figure>
             </div>
             <div class="case-copy">
@@ -403,22 +464,33 @@
             </div>
           </article>
 
-          <article class="case case-history" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-004</p>
-                <h3>Rụng tóc toàn bộ da đầu</h3>
+          <article class="case case-history case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Mã ca</p>
+                <p class="case-code field-value">HLS-004</p>
               </div>
-              <p class="case-interval">Alopecia totalis</p>
+              <div class="field">
+                <p class="field-label">Tình trạng</p>
+                <h3 class="field-value">Rụng tóc toàn bộ da đầu</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Tình trạng</p>
+                <p class="case-interval field-value">Alopecia totalis</p>
+              </div>
             </header>
-            <div class="comparison">
+            <div class="comparison snap">
               <figure class="timepoint">
+                <div class="photo-mount">
+                  <img src="../assets/images/hls-004-baseline.webp" alt="Hình phía sau da đầu của trường hợp HLS-004 trước điều trị" width="1200" height="1725" loading="lazy" />
+                </div>
                 <figcaption><span>Trước điều trị</span><span>Phía sau da đầu</span></figcaption>
-                <img src="../assets/images/hls-004-baseline.webp" alt="Hình phía sau da đầu của trường hợp HLS-004 trước điều trị" width="1200" height="1725" loading="lazy" />
               </figure>
               <figure class="timepoint">
+                <div class="photo-mount">
+                  <img src="../assets/images/hls-004-follow-up.webp" alt="Hình phía sau da đầu ở lần theo dõi đã chọn của trường hợp HLS-004" width="1200" height="1303" loading="lazy" />
+                </div>
                 <figcaption><span>Lần theo dõi được trình bày</span><span>Phía sau da đầu</span></figcaption>
-                <img src="../assets/images/hls-004-follow-up.webp" alt="Hình phía sau da đầu ở lần theo dõi đã chọn của trường hợp HLS-004" width="1200" height="1303" loading="lazy" />
               </figure>
             </div>
             <div class="case-copy">
@@ -432,16 +504,18 @@
             </div>
           </article>
         </section>
+        </div>
       </section>
 
-      <section id="boundaries" class="boundary-panel">
-        <div class="section-shell boundary-grid">
-          <div data-reveal>
-            <p class="eyebrow eyebrow-light">Cách đọc thông tin trên trang này</p>
-            <h2>Mỗi loại bằng chứng giúp trả lời một câu hỏi khác nhau.</h2>
+      <section id="boundaries" class="row node boundary-panel">
+        <div class="margin" aria-hidden="true">03</div>
+        <div class="section-body span-2 boundary-grid">
+          <div class="reveal">
+            <p class="stamp boundary-stamp snap">Cách đọc thông tin trên trang này</p>
+            <h2 class="h2">Mỗi loại bằng chứng giúp trả lời một câu hỏi khác nhau.</h2>
           </div>
           <div class="boundary-columns">
-            <article data-reveal>
+            <article class="reveal">
               <p class="boundary-number">01</p>
               <h3>Nghiên cứu khoa học</h3>
               <p>
@@ -450,7 +524,7 @@
                 cảnh của thiết kế nghiên cứu, nhóm dùng để so sánh và mức độ chắc chắn của bằng chứng.
               </p>
             </article>
-            <article data-reveal>
+            <article class="reveal">
               <p class="boundary-number">02</p>
               <h3>Các trường hợp được trình bày</h3>
               <p>
@@ -459,7 +533,7 @@
                 phần trăm bệnh nhân nói chung sẽ có kết quả tương tự.
               </p>
             </article>
-            <article data-reveal>
+            <article class="reveal">
               <p class="boundary-number">03</p>
               <h3>Quyết định điều trị</h3>
               <p>
@@ -472,11 +546,12 @@
         </div>
       </section>
 
-      <section class="next-section section-shell">
-        <div class="next-card" data-reveal>
+      <section class="row node next-section">
+        <div class="margin" aria-hidden="true">04</div>
+        <div class="section-body span-2 next-note reveal">
           <div>
             <p class="eyebrow">Bước tiếp theo</p>
-            <h2>Hướng dẫn thực tế về điều trị rụng tóc đang được xây dựng.</h2>
+            <h2 class="h2">Hướng dẫn thực tế về điều trị rụng tóc đang được xây dựng.</h2>
           </div>
           <p>
             Giai đoạn tiếp theo của dự án sẽ chuyển những bằng chứng hiện có thành một nguồn thông
@@ -488,8 +563,8 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="section-shell footer-grid">
+    <footer class="paper-foot">
+      <div class="footer-grid">
         <div>
           <p class="footer-title">Bằng chứng và tiếp cận<br />điều trị rụng tóc</p>
           <p>Nghiên cứu và truyền thông khoa học cộng đồng do Nguyễn Minh Hà phụ trách.</p>
@@ -499,7 +574,7 @@
           <a href="#research">Nghiên cứu khoa học</a>
           <a href="#outcomes">Trường hợp điều trị</a>
           <a href="#boundaries">Cách đọc thông tin</a>
-          <div class="language-toggle language-toggle-footer" role="group" aria-label="Ngôn ngữ">
+          <div class="choices language-toggle language-toggle-footer" role="group" aria-label="Ngôn ngữ">
             <a class="language-option" href="../" lang="en" hreflang="en">EN</a>
             <a class="language-option is-active" href="./" lang="vi" hreflang="vi" aria-current="page">VI</a>
           </div>
@@ -509,7 +584,7 @@
           <p>Trang này cung cấp thông tin giáo dục nhằm hỗ trợ hiểu biết của cộng đồng, không thay thế cho đánh giá hoặc tư vấn y khoa dành cho từng cá nhân.</p>
         </div>
       </div>
-      <div class="section-shell footer-bottom">
+      <div class="footer-bottom">
         <span>© <span data-year>2026</span> Minh-Ha Nguyen</span>
         <a href="/">Trang chủ</a>
         <a href="#top">Về đầu trang ↑</a>

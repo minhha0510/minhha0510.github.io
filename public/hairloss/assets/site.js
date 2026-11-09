@@ -1,51 +1,32 @@
-document.documentElement.classList.add("js");
+/* The paper kit owns theme, ink, reveals, and rule measurement. */
+(() => {
+  const navToggle = document.querySelector('.nav-toggle');
+  const navigation = document.querySelector('.site-nav');
+  const closeNavigation = () => {
+    navToggle?.setAttribute('aria-expanded', 'false');
+    navigation?.classList.remove('is-open');
+    window.Paper?.measure();
+  };
 
-const header = document.querySelector("[data-header]");
-const wordmark = document.querySelector(".wordmark");
-const navToggle = document.querySelector(".nav-toggle");
-const navigation = document.querySelector(".site-nav");
-const navLinks = document.querySelectorAll(".site-nav a");
+  if (navToggle && navigation) {
+    navToggle.addEventListener('click', () => {
+      const open = navToggle.getAttribute('aria-expanded') !== 'true';
+      navToggle.setAttribute('aria-expanded', String(open));
+      navigation.classList.toggle('is-open', open);
+      window.Paper?.measure();
+    });
+    navigation.querySelectorAll('a').forEach(link => link.addEventListener('click', closeNavigation));
+    document.querySelector('.wordmark')?.addEventListener('click', closeNavigation);
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && navToggle.getAttribute('aria-expanded') === 'true') {
+        closeNavigation();
+        navToggle.focus();
+      }
+    });
+    document.documentElement.classList.add('nav-ready');
+    window.Paper?.measure();
+  }
 
-const updateHeader = () => {
-  header?.classList.toggle("is-scrolled", window.scrollY > 12);
-};
-
-const closeNavigation = () => {
-  navToggle?.setAttribute("aria-expanded", "false");
-  navigation?.classList.remove("is-open");
-};
-
-navToggle?.addEventListener("click", () => {
-  const isOpen = navToggle.getAttribute("aria-expanded") === "true";
-  navToggle.setAttribute("aria-expanded", String(!isOpen));
-  navigation?.classList.toggle("is-open", !isOpen);
-});
-
-navLinks.forEach((link) => link.addEventListener("click", closeNavigation));
-wordmark?.addEventListener("click", closeNavigation);
-
-window.addEventListener("scroll", updateHeader, { passive: true });
-updateHeader();
-
-const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-const revealTargets = document.querySelectorAll("[data-reveal]");
-
-if (reducedMotion || !("IntersectionObserver" in window)) {
-  revealTargets.forEach((target) => target.classList.add("is-visible"));
-} else {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.add("is-visible");
-        observer.unobserve(entry.target);
-      });
-    },
-    { rootMargin: "0px 0px -8% 0px", threshold: 0.08 },
-  );
-
-  revealTargets.forEach((target) => observer.observe(target));
-}
-
-const year = document.querySelector("[data-year]");
-if (year) year.textContent = String(new Date().getFullYear());
+  const year = document.querySelector('[data-year]');
+  if (year) year.textContent = String(new Date().getFullYear());
+})();

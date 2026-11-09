@@ -66,18 +66,36 @@ function restoreFilters() {
   setLayout(params.get('view') === 'index' ? 'index' : 'cards',false);
 }
 
-function renderContributionRing(data) {
+function measurePaper() {
+  // Only visible page nodes participate in the kit's reading-order calculation.
+  document.querySelectorAll('.node, [data-paper-node]').forEach(node => {
+    node.dataset.paperNode = '';
+    node.classList.toggle('node', !node.closest('[hidden]'));
+  });
+  window.Paper?.measure();
+}
+function renderContributionTally(data) {
   const counts = Object.fromEntries(Object.keys(contributionLabels).map(key=>[key,data.classes.filter(row=>row.group===key).length]));
   if (data.classes.length!==atlas.classes.length || new Set(data.classes.map(row=>row.id)).size!==atlas.classes.length || data.classes.some(row=>!classById.has(row.id))) throw new Error('Contribution membership does not match the atlas.');
-  if (counts.documented!==69 || counts.not_established!==40 || counts.unresolved!==6) throw new Error('Contribution figures require a content update.');
+  if (Object.values(counts).reduce((sum,count)=>sum+count,0)!==data.classes.length) throw new Error('Contribution group not recognized.');
   clinicalById = new Map(data.classes.map(row=>[row.id,row]));
-  let angle = -90;
-  const point = degrees=>[180+146*Math.cos(degrees*Math.PI/180),180+146*Math.sin(degrees*Math.PI/180)].map(value=>value.toFixed(4)).join(' ');
-  $('contribution-arcs').innerHTML = Object.keys(contributionLabels).map(group=>{
-    const sweep=counts[group]/data.classes.length*360, start=point(angle), end=point(angle+sweep);
-    angle+=sweep;
-    return `<a class="ring-segment" href="#explore" data-contribution="${group}" aria-label="${escapeHTML(contributionLabels[group])}: ${counts[group]} of 115 histories"><path class="ring-arc ${group}" d="M ${start} A 146 146 0 ${sweep>180?1:0} 1 ${end}"/></a>`;
-  }).join('');
+  const total = data.classes.length, percent = counts.documented / total * 100;
+  const markClasses = {documented:'is-filled',not_established:'is-open',unresolved:'is-half'};
+  $('contribution-tally').innerHTML = Object.keys(contributionLabels).flatMap(group => data.classes.filter(row=>row.group===group).map(row => {
+    const label = `${classById.get(row.id).name}: ${contributionLabels[group]}`;
+    return `<a class="${markClasses[group]}" data-group="${group}" href="#class/${encodeURIComponent(row.id)}" data-class="${escapeHTML(row.id)}" aria-label="${escapeHTML(label)}" title="${escapeHTML(label)}"></a>`;
+  })).join('');
+  $('contribution-tally').setAttribute('aria-label',`Clinical or population contributions appear in ${counts.documented} of ${total} class histories (${Math.round(percent)}%)`);
+  $('tally-share').textContent = `${counts.documented} of ${total}`;
+  $('tally-percent').textContent = `${Math.round(percent)}%`;
+  $('tally-denominator').textContent = `of ${total} class histories`;
+  $('hero-share').textContent = `${counts.documented} of ${total}`;
+  $('explore-contributions').textContent = `Explore the ${counts.documented} histories`;
+  for (const group of Object.keys(counts)) {
+    document.querySelector(`[data-count="${group}"]`).textContent = counts[group];
+    document.querySelector(`[data-percent="${group}"]`).textContent = `${(counts[group]/total*100).toFixed(1)}%`;
+  }
+  measurePaper();
 }
 function updateContributionFilter() {
   const selected=contributionFilter!=='all';
@@ -106,13 +124,13 @@ function primaryClue(entry) {
 function cardMarkup(entry) {
   const names = entry.medicines.length ? entry.medicines.join(' · ') : entry.cohortEntries.map(item=>item.name).join(' · ');
   const checked = entry.checked;
-  return `<button class="class-card ${checked ? '' : 'pending'}" data-class="${entry.id}" aria-label="Read ${escapeHTML(entry.name)}${checked ? '' : ', history not yet checked'}">
+  const starting = checked ? entry.starting.description : 'In the cohort. Its founding history is still being traced and checked.';
+  return `<button class="class-card snap ${checked ? '' : 'pending'}" data-class="${entry.id}" aria-label="Read ${escapeHTML(entry.name)}${checked ? '' : ', history not yet checked'}" aria-describedby="starting-${entry.id}">
     <div class="card-top"><span class="card-kind" title="${escapeHTML(entry.checked?entry.inspirations.map(key=>clueLabels[key]).join(' · '):'History not yet checked')}">${escapeHTML(primaryClue(entry))}</span><span class="card-arrow" aria-hidden="true">↗</span></div>
-    <h3>${escapeHTML(entry.name)}</h3>
-    <p class="medicine-names">${escapeHTML(names)}</p>
-    <p class="card-summary">${checked ? escapeHTML(entry.starting.description) : 'In the cohort. Its founding history is still being traced and checked.'}</p>
-    ${entry.scopeNote ? `<p class="card-summary">${escapeHTML(entry.scopeNote)}</p>` : ''}
-    <div class="card-bottom"><span class="circumstance-label">${checked ? escapeHTML(basisLabels[entry.basis]) + ' · ' + escapeHTML(circumstanceLabels[entry.circumstances.value] || 'Not reported') : 'Cohort entry'}${checked && entry.basisSupport !== 'documented' ? `<span class="inference-label">${escapeHTML(basisSupportLabel(entry.basisSupport))}</span>` : ''}${entry.scopeNote ? '<span class="inference-label">Lineage-specific finding</span>' : ''}</span><span class="source-label">${checked ? entry.sources.length+' source records<br>Author checked' : 'History not yet checked'}</span></div>
+    <div class="catalogue-heading"><h3>${escapeHTML(entry.name)}</h3><p class="medicine-names">${escapeHTML(names)}</p></div>
+    <div class="catalogue-description"><p id="starting-${entry.id}" class="card-summary catalogue-starting" title="${escapeHTML(starting)}">${escapeHTML(starting)}</p>
+    ${entry.scopeNote ? `<p class="card-summary">${escapeHTML(entry.scopeNote)}</p>` : ''}</div>
+    <div class="card-bottom"><span class="circumstance-label"><span class="print-label">Path</span>${checked ? escapeHTML(basisLabels[entry.basis]) + ' · ' + escapeHTML(circumstanceLabels[entry.circumstances.value] || 'Not reported') : 'Cohort entry'}${checked && entry.basisSupport !== 'documented' ? `<span class="inference-label">${escapeHTML(basisSupportLabel(entry.basisSupport))}</span>` : ''}${entry.scopeNote ? '<span class="inference-label">Lineage-specific finding</span>' : ''}</span><span class="source-label">${checked ? entry.sources.length+' <span class="print-label">source records</span><span class="stamp">Author checked</span>' : 'History not yet checked'}</span></div>
   </button>`;
 }
 function applyFilters(resetCount = true, updateURL = true) {
@@ -142,6 +160,7 @@ function renderResults() {
   $('results').innerHTML = visible.length ? visible.map(cardMarkup).join('') : `<div class="empty-state"><h3>No classes in this view.</h3><p>Try a generic medicine name or broaden the filters. This atlas covers 115 classes in a selected cohort of 226 medication groups. The complete medicine inventory appears below.</p><button data-reset>Clear the search and filters ↗</button></div>`;
   $('show-more').hidden = filtered.length <= visibleCount;
   $('shown-count').textContent = filtered.length ? `${visible.length} of ${filtered.length} classes shown` : '';
+  measurePaper();
 }
 function setLayout(value, updateURL = true) {
   layout = value;
@@ -151,6 +170,7 @@ function setLayout(value, updateURL = true) {
   $('view-index').classList.toggle('active',value==='index');
   $('view-index').setAttribute('aria-pressed',String(value==='index'));
   if (atlas && updateURL) syncURL();
+  measurePaper();
 }
 function resetFilters() {
   contributionFilter = 'all';
@@ -159,6 +179,10 @@ function resetFilters() {
   applyFilters();
 }
 
+function orderedSources(entry) {
+  const originals = new Set(entry.originalAccounts.map(item=>item.source_id));
+  return [...entry.sources].sort((a,b)=>Number(originals.has(b.source_id))-Number(originals.has(a.source_id)));
+}
 function citations(entry, ids = []) {
   const groups = new Map();
   for (const id of ids) {
@@ -168,21 +192,25 @@ function citations(entry, ids = []) {
     groups.get(evidence.source_id).push(id);
   }
   if (!groups.size) return '';
-  return `<div class="evidence-buttons">${[...groups].map(([sid,eids])=>`<button class="evidence-link" data-source="${sid}" data-evidence="${eids.join(',')}" aria-label="See source ${sid.slice(1)} and evidence locators">[${sid.slice(1)}] Source &amp; locator</button>`).join('')}</div>`;
+  const sources = orderedSources(entry);
+  return [...groups].map(([sid,eids])=>{
+    const number = sources.findIndex(source=>source.source_id===sid)+1;
+    return `<sup class="source-ref"><a href="#class/${encodeURIComponent(entry.id)}/source/${encodeURIComponent(sid)}?evidence=${eids.join(',')}" data-source="${sid}" data-evidence="${eids.join(',')}" aria-label="See source ${number} and evidence locators" title="${escapeHTML(eids.join(', '))}">${number}</a></sup>`;
+  }).join('');
 }
 function statement(entry, item, className = '') {
-  return `<p class="statement-text ${className}">${escapeHTML(item.description)}</p>${item.support !== 'documented' ? `<p class="inferred-note">${escapeHTML(supportLabel(item.support))}</p>` : ''}${citations(entry,item.evidence_ids)}`;
+  return `<p class="statement-text ${className}">${escapeHTML(item.description)}${citations(entry,item.evidence_ids)}</p><p class="support-label">Support · ${escapeHTML(supportLabel(item.support))}</p>`;
 }
 function sourceMarkup(entry, source) {
   const original = entry.originalAccounts.find(item=>item.source_id===source.source_id);
   const evidence = entry.evidence.filter(item=>item.source_id===source.source_id);
   const readingLimited = !['full_text','relevant_full_text_sections'].includes(source.read_extent);
-  return `<section id="source-${source.source_id}" class="source-item">
-    <div class="source-heading"><span class="source-id">[${escapeHTML(source.source_id.slice(1))}]</span><span class="read-badge ${readingLimited?'limited':''}">${escapeHTML(readLabels[source.read_extent]||source.read_extent)}</span></div>
+  return `<li id="source-${source.source_id}" class="source-item" tabindex="-1"><div>
+    <div class="source-heading"><span class="source-id">${escapeHTML(source.source_id)}</span><span class="read-badge ${readingLimited?'limited':''}">${escapeHTML(readLabels[source.read_extent]||source.read_extent)}</span></div>
     <a class="source-citation" href="${escapeHTML(source.url)}" target="_blank" rel="noopener">${escapeHTML(source.citation)} <span aria-hidden="true">↗</span></a>
     <p class="source-meta">${escapeHTML(roleLabels[source.role]||source.role)}${original ? ' · '+(original.account_kind==='original_report'?'Original report':'Discoverer’s retrospective') : ''}</p>
-    ${evidence.length ? `<details class="source-locators"><summary>Evidence locators (${evidence.length}) +</summary><ul>${evidence.map(item=>`<li data-eid="${item.evidence_id}"><strong>${escapeHTML(item.evidence_id)}</strong> · ${escapeHTML(item.locator)}</li>`).join('')}</ul></details>` : ''}
-  </section>`;
+    ${evidence.length ? `<details class="source-locators" open><summary>Evidence locators (${evidence.length}) +</summary><ul>${evidence.map(item=>`<li data-eid="${item.evidence_id}"><strong>${escapeHTML(item.evidence_id)}</strong> · ${escapeHTML(item.locator)}</li>`).join('')}</ul></details>` : ''}
+  </div></li>`;
 }
 function cohortTable(entry) {
   return `<table class="cohort-entry-table"><thead><tr><th>MEDICATION GROUP</th><th>US RANK · 2024</th><th>ENGLAND RANK · 2025/26</th></tr></thead><tbody>${entry.cohortEntries.map(med=>`<tr><td>${escapeHTML(med.name)}</td><td>${med.usRank||'Outside selected 150'}</td><td>${med.englandRank||'Outside selected 150'}</td></tr>`).join('')}</tbody></table>`;
@@ -201,22 +229,27 @@ function clinicalContributionMarkup(entry) {
   if (!record) return '';
   return `<details class="clinical-note"><summary>${escapeHTML(contributionLabels[record.group])}<span aria-hidden="true">+</span></summary><p>${escapeHTML(record.summary)}</p><p class="clinical-scope">${escapeHTML(record.scope)}</p><p class="clinical-scope">Human-observation interpretation · 8 November 2026. Independent historical review of this additional classification is pending.</p>${record.references.length?`<ul>${record.references.map(ref=>`<li><a href="${escapeHTML(ref.url)}" target="_blank" rel="noopener">${escapeHTML(ref.citation)} ↗</a><span>${escapeHTML(ref.locator)} · ${escapeHTML(readLabels[ref.readExtent]||ref.readExtent)}</span></li>`).join('')}</ul>`:''}</details>`;
 }
+function historyRow(stage, content, className = '') {
+  return `<section class="row node history-row reveal ${className}" aria-label="${escapeHTML(stage)}"><div class="margin">${escapeHTML(stage)}</div><div class="span-2">${content}</div></section>`;
+}
 function buildHistory(entry) {
   const names = entry.medicines.join(' · ');
-  const introduction = `<header class="history-intro"><p class="history-eyebrow"><span class="checked-tag">${entry.checked?'Author checked · complete collection':'History not yet checked'}</span><span>${entry.countries.join(' + ')} cohort</span></p><h1 id="history-title" tabindex="-1">${escapeHTML(entry.name)}</h1><p class="medicine-names"><strong>In this cohort:</strong> ${escapeHTML(names)}</p>${entry.checked ? `<div class="history-tags"><span>${escapeHTML(basisLabels[entry.basis])}</span><span>${escapeHTML(basisSupportLabel(entry.basisSupport))}</span><span>${escapeHTML(circumstanceLabels[entry.circumstances.value]||'Not reported')}</span></div><p class="history-clues">${escapeHTML(entry.inspirations.map(key=>clueLabels[key]).join(' · '))}</p>` : ''}</header>`;
-  if (!entry.checked) return introduction+`<div class="history-main"><section class="pending-history"><p class="section-label">IN THE ATLAS · STILL BEING TRACED</p><h3>A history still to reconstruct.</h3><p>This class belongs to the selected cohort. Its founding history has not been source checked for this snapshot. A classification will appear after its evidence has been examined.</p></section><section class="history-section"><h3>The cohort entries</h3>${cohortTable(entry)}</section><p class="history-footnote">This page makes no historical-origin claim. Snapshot ${formatDate(atlas.meta.snapshotDate)}.</p></div>`;
-  const originals = new Set(entry.originalAccounts.map(item=>item.source_id));
-  const sources = [...entry.sources].sort((a,b)=>Number(originals.has(b.source_id))-Number(originals.has(a.source_id)));
-  return introduction+`<div class="history-main">${clinicalContributionMarkup(entry)}
-    <section class="opening-observation"><p class="section-label">01 / WHAT OPENED THE PATH?</p>${statement(entry,entry.starting)}<p class="origin-support">${escapeHTML(basisLabels[entry.basis])} · ${escapeHTML(basisSupportLabel(entry.basisSupport))}</p>${entry.scopeNote ? `<aside class="basis-note"><p class="section-label">SCOPE OF THIS FINDING</p><p>${escapeHTML(entry.scopeNote)}</p></aside>` : ''}<button class="scope-jump" data-uncertainty>Class-level account · read the scope and open questions ↘</button></section>
-    <div class="history-route"><section class="history-section"><p class="section-label">02 / HOW IT UNFOLDED</p><h3>From clue to medicine.</h3><ol class="timeline">${entry.steps.map(step=>`<li class="${step.support==='inferred_from_source_observation'?'inferred-step':''}">${statement(entry,step)}</li>`).join('')}</ol></section>
-    <aside class="history-aside"><section class="history-section design-section"><p class="section-label">03 / WHAT WAS DESIGNED?</p><h3>The human contribution.</h3>${statement(entry,entry.design)}</section><section class="history-section"><p class="section-label">PLANNED OR UNEXPECTED?</p>${statement(entry,entry.circumstances)}</section><div class="basis-note"><p class="section-label">KEEP THE QUESTIONS SEPARATE</p><p>An observation-led path can involve deliberate experiments and substantial molecular design. A synthetic medicine can have an observed biological starting point.</p></div></aside></div>
-    <section class="history-section source-section"><p class="section-label">04 / READ THE ACCOUNTS</p><h3>Go back to the evidence.</h3><p class="source-explainer">${entry.sources.length} source records · ${entry.originalAccounts.length} original-account links. Original experiments and discoverer accounts appear first. Reading labels state how much of each source was accessed for collection; they do not imply every passage was independently verified.</p><div class="source-list">${sources.map(source=>sourceMarkup(entry,source)).join('')}</div></section>
-    ${uncertaintyMarkup(entry)}
-    <details class="uncertainty"><summary>The medicines in this cohort <span>+</span></summary><div>${cohortTable(entry)}<p class="history-footnote">Class-level ancestry does not mean every member has the same structure or individual development history. Combination entries can appear under more than one class.</p></div></details>
-    <p class="history-footnote">Snapshot ${formatDate(atlas.meta.snapshotDate)}. ${escapeHTML(atlas.meta.reviewBoundary)} The retained limitations bound the class-level finding.</p>
-    <div class="history-navigation">${neighborLinks(entry)}<button class="text-link" data-back>Back to the discovery index ←</button></div>
-  </div>`;
+  const introduction = historyRow('Class history', `<header class="history-intro"><p class="history-eyebrow"><span class="checked-tag">${entry.checked?'Author checked · complete collection':'History not yet checked'}</span><span>${entry.countries.join(' + ')} cohort</span></p><h1 id="history-title" tabindex="-1">${escapeHTML(entry.name)}</h1><p class="medicine-names"><strong>In this cohort:</strong> ${escapeHTML(names)}</p>${entry.checked ? `<div class="history-tags"><span>${escapeHTML(basisLabels[entry.basis])}</span><span>${escapeHTML(basisSupportLabel(entry.basisSupport))}</span><span>${escapeHTML(circumstanceLabels[entry.circumstances.value]||'Not reported')}</span></div><p class="history-clues">${escapeHTML(entry.inspirations.map(key=>clueLabels[key]).join(' · '))}</p>` : ''}</header>`);
+  if (!entry.checked) return introduction
+    + historyRow('Starting point', `<p class="section-label">IN THE ATLAS · STILL BEING TRACED</p><h3>A history still to reconstruct.</h3><p>This class belongs to the selected cohort. Its founding history has not been source checked for this snapshot. A classification will appear after its evidence has been examined.</p>`)
+    + historyRow('Cohort', `<h3>The cohort entries</h3>${cohortTable(entry)}<p class="history-footnote">This page makes no historical-origin claim. Snapshot ${formatDate(atlas.meta.snapshotDate)}.</p>`);
+  const sources = orderedSources(entry);
+  return introduction
+    + historyRow('Human link', clinicalContributionMarkup(entry))
+    + historyRow('Starting point', `<p class="section-label">01 / WHAT OPENED THE PATH?</p>${statement(entry,entry.starting)}<p class="origin-support">${escapeHTML(basisLabels[entry.basis])} · ${escapeHTML(basisSupportLabel(entry.basisSupport))}</p>${entry.scopeNote ? `<aside class="basis-note"><p class="section-label">SCOPE OF THIS FINDING</p><p>${escapeHTML(entry.scopeNote)}</p></aside>` : ''}<button class="link-ink scope-jump" data-uncertainty>Class-level account · read the scope and open questions ↘</button>`)
+    + historyRow('Steps', '<p class="section-label">02 / HOW IT UNFOLDED</p><h3>From clue to medicine.</h3>')
+    + entry.steps.map((step,index)=>historyRow(`Step ${step.step || index+1}`, statement(entry,step), 'tight')).join('')
+    + historyRow('Design', `<p class="section-label">03 / WHAT WAS DESIGNED?</p><h3>The human contribution.</h3>${statement(entry,entry.design)}`)
+    + historyRow('Circumstances', `<p class="section-label">PLANNED OR UNEXPECTED?</p>${statement(entry,entry.circumstances)}<div class="basis-note"><p class="section-label">KEEP THE QUESTIONS SEPARATE</p><p>An observation-led path can involve deliberate experiments and substantial molecular design. A synthetic medicine can have an observed biological starting point.</p></div>`)
+    + historyRow('Sources', `<p class="section-label">04 / READ THE ACCOUNTS</p><h3>Go back to the evidence.</h3><p class="source-explainer">${entry.sources.length} source records · ${entry.originalAccounts.length} original-account links. Original experiments and discoverer accounts appear first. Reading labels state how much of each source was accessed for collection; they do not imply every passage was independently verified.</p><ol class="sources">${sources.map(source=>sourceMarkup(entry,source)).join('')}</ol>`)
+    + historyRow('Limits', uncertaintyMarkup(entry))
+    + historyRow('Cohort', `<details class="uncertainty"><summary>The medicines in this cohort <span>+</span></summary><div>${cohortTable(entry)}<p class="history-footnote">Class-level ancestry does not mean every member has the same structure or individual development history. Combination entries can appear under more than one class.</p></div></details><p class="history-footnote">Snapshot ${formatDate(atlas.meta.snapshotDate)}. ${escapeHTML(atlas.meta.reviewBoundary)} The retained limitations bound the class-level finding.</p>`)
+    + historyRow('Catalogue', `<div class="history-navigation">${neighborLinks(entry)}<button class="link-ink" data-back>Back to the discovery index ←</button></div>`);
 }
 function neighborLinks(entry) {
   const index = filtered.findIndex(item=>item.id===entry.id);
@@ -239,21 +272,25 @@ function route() {
     if (!entry) {showToast('That class is not in this atlas.');return;}
     activeClass=cid;
     $('atlas-home').hidden=true;
-    document.querySelector('.site-footer').hidden=true;
+    document.querySelector('.paper-foot').hidden=true;
     $('history-page').hidden=false;
     $('history-content').innerHTML=buildHistory(entry);
     document.body.classList.add('reading');
     document.title=`${entry.name} — Medicine Origins Atlas`;
+    measurePaper();
     window.scrollTo({top:0,behavior:'instant'});
     $('history-title').focus({preventScroll:true});
+    const sourceMatch = location.hash.match(/\/source\/([^/?]+)(?:\?evidence=([^#]+))?$/);
+    if (sourceMatch) focusSource(sourceMatch[1],sourceMatch[2] || '');
   } else {
     const wasReading=!!activeClass;
     activeClass=null;
     $('atlas-home').hidden=false;
-    document.querySelector('.site-footer').hidden=false;
+    document.querySelector('.paper-foot').hidden=false;
     $('history-page').hidden=true;
     document.body.classList.remove('reading');
     document.title='Where Medicines Begin — The Medicine Origins Atlas';
+    measurePaper();
     if (wasReading) requestAnimationFrame(()=>{
       if(location.hash===lastOriginHash&&homeScroll>0)window.scrollTo({top:homeScroll,behavior:'instant'});
       else {const section=document.getElementById(location.hash.slice(1)||'atlas-home');section?.scrollIntoView({behavior:'instant'});}
@@ -267,6 +304,8 @@ function focusSource(sourceId,evidenceIds) {
   document.querySelectorAll('.source-highlight,.locator-highlight').forEach(element=>element.classList.remove('source-highlight','locator-highlight'));
   section.classList.add('source-highlight');
   for(const id of evidenceIds.split(','))section.querySelector(`[data-eid="${id}"]`)?.classList.add('locator-highlight');
+  measurePaper();
+  section.focus({preventScroll:true});
   section.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'center'});
 }
 function showToast(message) {
@@ -279,12 +318,13 @@ document.addEventListener('click',event=>{
   const contributionButton=event.target.closest('[data-contribution]');if(contributionButton){event.preventDefault();selectContribution(contributionButton.dataset.contribution);return;}
   if(event.target.closest('[data-clear-contribution]')){contributionFilter='all';applyFilters();return;}
   if(event.target.closest('[data-method]'))$('clinical-method').open=true;
-  const classButton=event.target.closest('[data-class]');if(classButton){openHistory(classButton.dataset.class);return;}
-  const sourceButton=event.target.closest('[data-source]');if(sourceButton){focusSource(sourceButton.dataset.source,sourceButton.dataset.evidence);return;}
+  const classButton=event.target.closest('[data-class]');if(classButton){if(classButton.tagName==='A'&&(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey))return;event.preventDefault();openHistory(classButton.dataset.class);return;}
+  const sourceButton=event.target.closest('[data-source]');if(sourceButton){if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;event.preventDefault();focusSource(sourceButton.dataset.source,sourceButton.dataset.evidence);return;}
   if(event.target.closest('[data-reset]'))resetFilters();
   if(event.target.closest('[data-back]'))closeHistory();
-  if(event.target.closest('[data-uncertainty]')){const note=document.querySelector('.uncertainty');if(note){note.open=true;note.scrollIntoView({behavior:'smooth',block:'start'});}}
+  if(event.target.closest('[data-uncertainty]')){const note=document.querySelector('.uncertainty');if(note){note.open=true;measurePaper();note.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});}}
 });
+document.addEventListener('toggle',measurePaper,true);
 $('close-history').addEventListener('click',closeHistory);
 $('copy-link').addEventListener('click',async()=>{try{await navigator.clipboard.writeText(location.href);showToast('History link copied.');}catch{showToast('Copy the address from your browser to share this history.');}});
 $('search').addEventListener('input',()=>applyFilters());
@@ -307,6 +347,8 @@ async function start() {
   try {
     const response=await fetch('/medication-origin/atlas.json');if(!response.ok)throw new Error('Snapshot could not be loaded.');
     atlas=await response.json();classById=new Map(atlas.classes.map(entry=>[entry.id,entry]));
+    $('class-stat').textContent=atlas.classes.length;
+    $('group-stat').textContent=atlas.cohort.length;
     $('checked-stat').textContent=atlas.meta.sourceRecords;
     $('snapshot-caption').textContent=`${formatDate(atlas.meta.snapshotDate)} · All ${atlas.meta.checkedClasses} histories collected. ${atlas.meta.supportCounts.documented} documented · ${atlas.meta.supportCounts.inferred_from_source_observation} inferred · ${atlas.meta.supportCounts.not_reported} unclear.`;
     $('footer-snapshot').textContent=`Snapshot ${formatDate(atlas.meta.snapshotDate)} · ${atlas.meta.checkedClasses} histories · ${atlas.meta.sourceRecords} linked source records.`;
@@ -314,9 +356,9 @@ async function start() {
     try {
       const clinicalResponse=await fetch('/medication-origin/clinical-contributions.json');
       if(!clinicalResponse.ok)throw new Error('Contribution data unavailable.');
-      renderContributionRing(await clinicalResponse.json());
+      renderContributionTally(await clinicalResponse.json());
     }catch(error){
-      document.querySelector('.contribution-figure').insertAdjacentHTML('beforeend','<p role="status" class="ring-footnote">The contribution graphic could not be loaded. Reload to explore its categories.</p>');
+      document.querySelector('.contribution-figure').insertAdjacentHTML('beforeend','<p role="status" class="tally-footnote">The contribution graphic could not be loaded. Reload to explore its categories.</p>');
       document.querySelectorAll('[data-contribution]').forEach(button=>{button.disabled=true;});
     }
     try {

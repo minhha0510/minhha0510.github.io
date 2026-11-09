@@ -7,28 +7,39 @@
       name="description"
       content="A public-interest project connecting research on 5-alpha reductase inhibitor safety with selected outcomes in androgenetic alopecia and alopecia areata."
     />
-    <meta name="theme-color" content="#102f4d" />
+    <meta name="theme-color" content="#0f1c3f" />
     <title>Hair-loss evidence and access initiative</title>
     <link rel="canonical" href="https://mh-nguyen.cv/hairloss/" />
     <link rel="alternate" hreflang="en" href="https://mh-nguyen.cv/hairloss/" />
     <link rel="alternate" hreflang="vi" href="https://mh-nguyen.cv/hairloss/vi/" />
     <link rel="alternate" hreflang="x-default" href="https://mh-nguyen.cv/hairloss/" />
-    <script src="/theme.js"></script>
+    <script>
+      (function() {
+        const theme = localStorage.getItem('theme') ||
+          (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/paper/paper.css" />
     <link rel="stylesheet" href="assets/styles.css" />
+    <script src="/paper/paper.js" defer></script>
     <script src="assets/site.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
 
-    <header class="site-header" data-header>
+    <header class="paper-head">
       <div class="site-identity">
-        <a class="wordmark" href="/">← Minh-Ha Nguyen</a>
-        <span class="project-label">Hair-loss evidence + access</span>
+        <a class="paper-name wordmark" href="/"><span class="back-arrow" aria-hidden="true">←</span> Minh-Ha Nguyen</a>
+        <span class="paper-project">Hair-loss evidence + access</span>
       </div>
 
       <div class="header-controls">
-        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark theme" aria-pressed="false">☾</button>
+        <button class="theme-toggle" type="button" aria-label="Toggle theme">
+          <span class="moon" aria-hidden="true">☾</span>
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg>
+        </button>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="sr-only">Toggle navigation</span>
         <span aria-hidden="true"></span>
@@ -42,18 +53,22 @@
         <a href="#research">Research</a>
         <a href="#outcomes">Outcomes</a>
         <a href="#boundaries">Evidence boundary</a>
-        <div class="language-toggle" role="group" aria-label="Language">
+        <div class="choices language-toggle" role="group" aria-label="Language">
           <a class="language-option is-active" href="./" lang="en" hreflang="en" aria-current="page">EN</a>
           <a class="language-option" href="vi/" lang="vi" hreflang="vi">VI</a>
         </div>
       </nav>
     </header>
 
-    <main id="main-content">
-      <section id="top" class="hero section-shell">
-        <div class="hero-copy" data-reveal>
+    <main class="sheet" id="main-content" tabindex="-1">
+      <div class="holes" aria-hidden="true"></div>
+      <div class="mline" aria-hidden="true"><i class="ink"></i></div>
+      <i class="nib" aria-hidden="true"></i>
+      <div class="stationery"><span>Case file</span><span>EN · VI</span></div>
+      <section id="top" class="row hero">
+        <div class="hero-copy span-2 reveal">
           <p class="eyebrow"><span>Public-interest initiative</span><span>2026</span></p>
-          <h1>Established treatment, made easier to understand.</h1>
+          <h1 class="h1">Established treatment, made easier to understand.</h1>
           <p class="hero-lede">
             This project brings together research on the safety of 5-alpha reductase inhibitors
             and selected clinical outcomes in hair loss. The aim is practical: help more people
@@ -61,17 +76,14 @@
             risks, and uncertainty in view.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#outcomes">View selected outcomes</a>
-            <a class="text-link" href="#research">Read the research <span aria-hidden="true">↘</span></a>
+            <a class="link-ink" href="#outcomes">View selected outcomes</a>
+            <a class="link-ink" href="#research">Read the research <span aria-hidden="true">↘</span></a>
           </div>
         </div>
 
-        <aside class="hero-index" aria-label="Project overview" data-reveal>
-          <div class="contour" aria-hidden="true">
-            <span></span><span></span><span></span><span></span><span></span>
-          </div>
-          <p class="index-label">Evidence index</p>
-          <dl>
+        <aside class="hero-index span-2 reveal" aria-label="Project overview">
+          <p class="index-label eyebrow">Evidence index</p>
+          <dl class="ledger evidence-ledger">
             <div>
               <dt>03</dt>
               <dd>peer-reviewed<br />publications</dd>
@@ -89,13 +101,14 @@
         </aside>
       </section>
 
-      <section id="purpose" class="purpose section-shell section-rule">
-        <div class="section-number" aria-hidden="true">01</div>
-        <div class="section-intro" data-reveal>
+      <section id="purpose" class="row node purpose">
+        <div class="margin" aria-hidden="true">01</div>
+        <div class="section-body span-2">
+        <div class="section-intro reveal">
           <p class="eyebrow">Why this exists</p>
-          <h2>Useful information can disappear behind conflicting claims.</h2>
+          <h2 class="h2">Useful information can disappear behind conflicting claims.</h2>
         </div>
-        <div class="purpose-body" data-reveal>
+        <div class="purpose-body reveal">
           <p class="purpose-lead">
             Finasteride and minoxidil have decades of clinical use, yet people often meet them
             through fragmented claims about efficacy and harm.
@@ -104,21 +117,24 @@
             Our safety research asks how study design changes what appears to be a medication risk.
           </p>
         </div>
+        </div>
       </section>
 
-      <section id="research" class="research-panel">
-        <div class="section-shell">
-          <div class="research-heading" data-reveal>
+      <section id="research" class="row node research-panel">
+        <div class="margin" aria-hidden="true"><small>Sources</small></div>
+        <div class="section-body span-2">
+          <div class="research-heading reveal">
             <div>
               <p class="eyebrow eyebrow-light">The safety work</p>
-              <h2>We study depression and metabolic safety in large populations.</h2>
+              <h2 class="h2">We study depression and metabolic safety in large populations.</h2>
               <p class="section-note section-note-light">Prostate-treatment safety evidence · separate from hair-loss outcomes</p>
             </div>
           </div>
 
-          <div class="publication-list">
-            <article class="publication" data-reveal>
-              <div class="publication-order">01</div>
+          <ol class="sources publication-list">
+            <li class="publication reveal">
+              <span class="publication-order">01</span>
+              <div>
               <div class="publication-content">
                 <div class="publication-meta">
                   <span>Meta-analysis</span>
@@ -145,10 +161,12 @@
                 <a href="https://doi.org/10.1080/00325481.2026.2633464">Journal <span aria-hidden="true">↗</span></a>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/41725117/">PubMed <span aria-hidden="true">↗</span></a>
               </div>
-            </article>
+              </div>
+            </li>
 
-            <article class="publication" data-reveal>
-              <div class="publication-order">02</div>
+            <li class="publication reveal">
+              <span class="publication-order">02</span>
+              <div>
               <div class="publication-content">
                 <div class="publication-meta">
                   <span>Nationwide cohort</span>
@@ -175,10 +193,12 @@
                 <a href="https://doi.org/10.3349/ymj.2025.0056">Full text <span aria-hidden="true">↗</span></a>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/41914321/">PubMed <span aria-hidden="true">↗</span></a>
               </div>
-            </article>
+              </div>
+            </li>
 
-            <article class="publication" data-reveal>
-              <div class="publication-order">03</div>
+            <li class="publication reveal">
+              <span class="publication-order">03</span>
+              <div>
               <div class="publication-content">
                 <div class="publication-meta">
                   <span>Nationwide cohort</span>
@@ -205,54 +225,63 @@
                 <a href="https://doi.org/10.1016/j.heliyon.2025.e41768">Full text <span aria-hidden="true">↗</span></a>
                 <a href="https://pubmed.ncbi.nlm.nih.gov/39944326/">PubMed <span aria-hidden="true">↗</span></a>
               </div>
-            </article>
-          </div>
+              </div>
+            </li>
+          </ol>
         </div>
       </section>
 
-      <section id="outcomes" class="outcomes section-shell">
-        <div class="outcomes-heading section-rule" data-reveal>
-          <div class="section-number" aria-hidden="true">02</div>
+      <section id="outcomes" class="row node outcomes">
+        <div class="margin" aria-hidden="true">02</div>
+        <div class="section-body span-2">
+        <div class="outcomes-heading">
           <div>
             <p class="eyebrow">Selected outcomes</p>
-            <h2>Individual change, shown plainly.</h2>
+            <h2 class="h2">Individual change, shown plainly.</h2>
             <p class="section-note">Selected cases · not a response rate</p>
           </div>
         </div>
 
         <section class="condition-block" aria-labelledby="aga-heading">
-          <header class="condition-heading" data-reveal>
+          <header class="condition-heading">
             <div>
               <p class="condition-kicker">Group A · 4 cases</p>
-              <h2 id="aga-heading"><span lang="en">Androgenetic alopecia</span></h2>
+              <h2 class="h2" id="aga-heading"><span lang="en">Androgenetic alopecia</span></h2>
             </div>
             <p>
               Pattern hair loss, including male-pattern and female-pattern presentations.
             </p>
           </header>
 
-          <article class="case case-featured" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-005</p>
-                <h3>Male-pattern hair loss</h3>
+          <article class="case case-featured case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Case</p>
+                <p class="case-code field-value">HLS-005</p>
               </div>
-              <p class="case-interval">3 months</p>
+              <div class="field">
+                <p class="field-label">Condition</p>
+                <h3 class="field-value">Male-pattern hair loss</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Period</p>
+                <p class="case-interval field-value">3 months</p>
+              </div>
             </header>
-            <div class="comparison comparison-double">
+            <div class="comparison comparison-double snap">
               <figure class="timepoint">
-                <figcaption><span>Baseline</span><span>Frontal + crown</span></figcaption>
                 <div class="photo-pair">
                   <img src="assets/images/hls-005-baseline-frontal.webp?v=3" alt="Baseline frontal scalp view for case HLS-005" width="1200" height="1600" />
                   <img src="assets/images/hls-005-baseline-crown.webp" alt="Baseline crown view for case HLS-005" width="1200" height="1600" />
                 </div>
+                <figcaption><span>Baseline</span><span>Frontal + crown</span></figcaption>
               </figure>
               <figure class="timepoint">
-                <figcaption><span>Month 3</span><span>Frontal + crown</span></figcaption>
                 <div class="photo-pair">
                   <img src="assets/images/hls-005-month-3-frontal.webp?v=2" alt="Three-month frontal scalp view for case HLS-005" width="1200" height="1226" />
                   <img src="assets/images/hls-005-month-3-crown.webp" alt="Three-month crown view for case HLS-005" width="1200" height="1600" />
                 </div>
+                <figcaption><span>Month 3</span><span>Frontal + crown</span></figcaption>
               </figure>
             </div>
             <div class="case-copy">
@@ -264,22 +293,33 @@
             </div>
           </article>
 
-          <article class="case" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-002</p>
-                <h3>Female-pattern hair loss</h3>
+          <article class="case case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Case</p>
+                <p class="case-code field-value">HLS-002</p>
               </div>
-              <p class="case-interval">Apr → Dec 2024</p>
+              <div class="field">
+                <p class="field-label">Condition</p>
+                <h3 class="field-value">Female-pattern hair loss</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Period</p>
+                <p class="case-interval field-value">Apr → Dec 2024</p>
+              </div>
             </header>
-            <div class="comparison">
+            <div class="comparison snap">
               <figure class="timepoint">
+                <div class="photo-mount">
+                  <img src="assets/images/hls-002-april-2024.webp" alt="April 2024 central part view for case HLS-002" width="1200" height="1387" loading="lazy" />
+                </div>
                 <figcaption><span>April 2024</span><span>Central part</span></figcaption>
-                <img src="assets/images/hls-002-april-2024.webp" alt="April 2024 central part view for case HLS-002" width="1200" height="1387" loading="lazy" />
               </figure>
               <figure class="timepoint">
+                <div class="photo-mount">
+                  <img src="assets/images/hls-002-december-2024.webp" alt="December 2024 central part view for case HLS-002" width="1200" height="1600" loading="lazy" />
+                </div>
                 <figcaption><span>December 2024</span><span>Central part</span></figcaption>
-                <img src="assets/images/hls-002-december-2024.webp" alt="December 2024 central part view for case HLS-002" width="1200" height="1600" loading="lazy" />
               </figure>
             </div>
             <div class="case-copy">
@@ -290,28 +330,35 @@
             </div>
           </article>
 
-          <article class="case" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-001</p>
-                <h3>Male-pattern hair loss</h3>
+          <article class="case case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Case</p>
+                <p class="case-code field-value">HLS-001</p>
               </div>
-              <p class="case-interval">Selected follow-up</p>
+              <div class="field">
+                <p class="field-label">Condition</p>
+                <h3 class="field-value">Male-pattern hair loss</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Period</p>
+                <p class="case-interval field-value">Selected follow-up</p>
+              </div>
             </header>
-            <div class="comparison comparison-double">
+            <div class="comparison comparison-double snap">
               <figure class="timepoint">
-                <figcaption><span>Baseline</span><span>Vertex + mid-scalp</span></figcaption>
                 <div class="photo-pair">
                   <img src="assets/images/hls-001-baseline-crown.webp" alt="Baseline crown view for case HLS-001" width="1200" height="1600" loading="lazy" />
                   <img src="assets/images/hls-001-baseline-vertex.webp" alt="Baseline vertex view for case HLS-001" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>Baseline</span><span>Vertex + mid-scalp</span></figcaption>
               </figure>
               <figure class="timepoint">
-                <figcaption><span>Selected final follow-up</span><span>Vertex + mid-scalp</span></figcaption>
                 <div class="photo-pair">
                   <img src="assets/images/hls-001-follow-up-crown.webp" alt="Selected final crown view for case HLS-001" width="1200" height="1600" loading="lazy" />
                   <img src="assets/images/hls-001-follow-up-vertex.webp" alt="Selected final vertex view for case HLS-001" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>Selected final follow-up</span><span>Vertex + mid-scalp</span></figcaption>
               </figure>
             </div>
             <div class="case-copy">
@@ -323,28 +370,35 @@
             </div>
           </article>
 
-          <article class="case" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-003</p>
-                <h3>Male-pattern hair loss · age 17</h3>
+          <article class="case case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Case</p>
+                <p class="case-code field-value">HLS-003</p>
               </div>
-              <p class="case-interval">May → Dec 2024</p>
+              <div class="field">
+                <p class="field-label">Condition</p>
+                <h3 class="field-value">Male-pattern hair loss · age 17</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Period</p>
+                <p class="case-interval field-value">May → Dec 2024</p>
+              </div>
             </header>
-            <div class="comparison comparison-double">
+            <div class="comparison comparison-double snap">
               <figure class="timepoint">
-                <figcaption><span>May 2024</span><span>Crown + central scalp</span></figcaption>
                 <div class="photo-pair">
                   <img src="assets/images/hls-003-may-2024-crown.webp" alt="May 2024 crown view for case HLS-003" width="1200" height="1600" loading="lazy" />
                   <img src="assets/images/hls-003-may-2024-part.webp" alt="May 2024 central scalp view for case HLS-003" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>May 2024</span><span>Crown + central scalp</span></figcaption>
               </figure>
               <figure class="timepoint">
-                <figcaption><span>December 2024</span><span>Crown + central scalp</span></figcaption>
                 <div class="photo-pair">
                   <img src="assets/images/hls-003-december-2024-crown.webp" alt="December 2024 crown view for case HLS-003" width="1200" height="1600" loading="lazy" />
                   <img src="assets/images/hls-003-december-2024-part.webp" alt="December 2024 central scalp view for case HLS-003" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>December 2024</span><span>Crown + central scalp</span></figcaption>
               </figure>
             </div>
             <div class="case-copy">
@@ -358,38 +412,45 @@
         </section>
 
         <section class="condition-block condition-aa" aria-labelledby="aa-heading">
-          <header class="condition-heading" data-reveal>
+          <header class="condition-heading">
             <div>
               <p class="condition-kicker">Group B · 2 cases</p>
-              <h2 id="aa-heading">Alopecia areata</h2>
+              <h2 class="h2" id="aa-heading">Alopecia areata</h2>
             </div>
             <p>
               Autoimmune hair loss, including patchy disease and alopecia totalis.
             </p>
           </header>
 
-          <article class="case" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-008</p>
-                <h3>Alopecia areata</h3>
+          <article class="case case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Case</p>
+                <p class="case-code field-value">HLS-008</p>
               </div>
-              <p class="case-interval">Approx. 2 months</p>
+              <div class="field">
+                <p class="field-label">Condition</p>
+                <h3 class="field-value">Alopecia areata</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Period</p>
+                <p class="case-interval field-value">Approx. 2 months</p>
+              </div>
             </header>
-            <div class="comparison comparison-double">
+            <div class="comparison comparison-double snap">
               <figure class="timepoint">
-                <figcaption><span>April 2025</span><span>Crown + central scalp</span></figcaption>
                 <div class="photo-pair">
                   <img src="assets/images/hls-008-april-2025-crown.webp" alt="April 2025 crown view for case HLS-008" width="1200" height="1589" loading="lazy" />
                   <img src="assets/images/hls-008-april-2025-central.webp" alt="April 2025 central scalp view for case HLS-008" width="1200" height="1594" loading="lazy" />
                 </div>
+                <figcaption><span>April 2025</span><span>Crown + central scalp</span></figcaption>
               </figure>
               <figure class="timepoint">
-                <figcaption><span>June 2025</span><span>Crown + central scalp</span></figcaption>
                 <div class="photo-pair">
                   <img src="assets/images/hls-008-june-2025-crown.webp" alt="June 2025 crown view for case HLS-008" width="1200" height="1600" loading="lazy" />
                   <img src="assets/images/hls-008-june-2025-central.webp" alt="June 2025 central scalp view for case HLS-008" width="1200" height="1600" loading="lazy" />
                 </div>
+                <figcaption><span>June 2025</span><span>Crown + central scalp</span></figcaption>
               </figure>
             </div>
             <div class="case-copy">
@@ -400,22 +461,33 @@
             </div>
           </article>
 
-          <article class="case case-history" data-reveal>
-            <header class="case-header">
-              <div>
-                <p class="case-code">HLS-004</p>
-                <h3>Alopecia totalis</h3>
+          <article class="case case-history case-sheet">
+            <header class="case-header field-row">
+              <div class="field">
+                <p class="field-label">Case</p>
+                <p class="case-code field-value">HLS-004</p>
               </div>
-              <p class="case-interval">Selected follow-up</p>
+              <div class="field">
+                <p class="field-label">Condition</p>
+                <h3 class="field-value">Alopecia totalis</h3>
+              </div>
+              <div class="field">
+                <p class="field-label">Period</p>
+                <p class="case-interval field-value">Selected follow-up</p>
+              </div>
             </header>
-            <div class="comparison">
+            <div class="comparison snap">
               <figure class="timepoint">
+                <div class="photo-mount">
+                  <img src="assets/images/hls-004-baseline.webp" alt="Baseline posterior scalp view for case HLS-004" width="1200" height="1725" loading="lazy" />
+                </div>
                 <figcaption><span>Baseline</span><span>Posterior scalp</span></figcaption>
-                <img src="assets/images/hls-004-baseline.webp" alt="Baseline posterior scalp view for case HLS-004" width="1200" height="1725" loading="lazy" />
               </figure>
               <figure class="timepoint">
+                <div class="photo-mount">
+                  <img src="assets/images/hls-004-follow-up.webp" alt="Selected follow-up posterior scalp view for case HLS-004" width="1200" height="1303" loading="lazy" />
+                </div>
                 <figcaption><span>Selected follow-up</span><span>Posterior scalp</span></figcaption>
-                <img src="assets/images/hls-004-follow-up.webp" alt="Selected follow-up posterior scalp view for case HLS-004" width="1200" height="1303" loading="lazy" />
               </figure>
             </div>
             <div class="case-copy">
@@ -430,16 +502,18 @@
             </div>
           </article>
         </section>
+        </div>
       </section>
 
-      <section id="boundaries" class="boundary-panel">
-        <div class="section-shell boundary-grid">
-          <div data-reveal>
-            <p class="eyebrow eyebrow-light">How to read this page</p>
-            <h2>Different evidence answers different questions.</h2>
+      <section id="boundaries" class="row node boundary-panel">
+        <div class="margin" aria-hidden="true">03</div>
+        <div class="section-body span-2 boundary-grid">
+          <div class="reveal">
+            <p class="stamp boundary-stamp snap">How to read this page</p>
+            <h2 class="h2">Different evidence answers different questions.</h2>
           </div>
           <div class="boundary-columns">
-            <article data-reveal>
+            <article class="reveal">
               <p class="boundary-number">01</p>
               <h3>Publications</h3>
               <p>
@@ -447,7 +521,7 @@
                 Their design, comparator, and uncertainty determine how far the findings travel.
               </p>
             </article>
-            <article data-reveal>
+            <article class="reveal">
               <p class="boundary-number">02</p>
               <h3>Selected outcomes</h3>
               <p>
@@ -455,7 +529,7 @@
                 possible change and provide no population response rate.
               </p>
             </article>
-            <article data-reveal>
+            <article class="reveal">
               <p class="boundary-number">03</p>
               <h3>Clinical decisions</h3>
               <p>
@@ -467,11 +541,12 @@
         </div>
       </section>
 
-      <section class="next-section section-shell">
-        <div class="next-card" data-reveal>
+      <section class="row node next-section">
+        <div class="margin" aria-hidden="true">04</div>
+        <div class="section-body span-2 next-note reveal">
           <div>
             <p class="eyebrow">What comes next</p>
-            <h2>A practical treatment guide is in development.</h2>
+            <h2 class="h2">A practical treatment guide is in development.</h2>
           </div>
           <p>
             The next phase will translate the evidence into an accessible framework for treatment,
@@ -482,8 +557,8 @@
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="section-shell footer-grid">
+    <footer class="paper-foot">
+      <div class="footer-grid">
         <div>
           <p class="footer-title">Hair-loss evidence<br />and access initiative</p>
           <p>Research and public translation led by Minh-Ha Nguyen.</p>
@@ -493,7 +568,7 @@
           <a href="#research">Publications</a>
           <a href="#outcomes">Selected outcomes</a>
           <a href="#boundaries">Evidence boundary</a>
-          <div class="language-toggle language-toggle-footer" role="group" aria-label="Language">
+          <div class="choices language-toggle language-toggle-footer" role="group" aria-label="Language">
             <a class="language-option is-active" href="./" lang="en" hreflang="en" aria-current="page">EN</a>
             <a class="language-option" href="vi/" lang="vi" hreflang="vi">VI</a>
           </div>
@@ -503,7 +578,7 @@
           <p>Educational information for public understanding. Individual care requires clinical assessment.</p>
         </div>
       </div>
-      <div class="section-shell footer-bottom">
+      <div class="footer-bottom">
         <span>© <span data-year>2026</span> Minh-Ha Nguyen</span>
         <a href="/">Home</a>
         <a href="#top">Back to top ↑</a>

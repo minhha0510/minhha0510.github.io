@@ -1,40 +1,14 @@
-/* Homepage: the café paper. */
-/* Palette: deep warm blue with lamplight gold, after Café Terrace at Night.
-   Printed stationery is blue, handwriting and light are gold, typed text is cream.
-   Every text line sits on a rule: rules are R apart, blocks start on multiples of R,
-   and each type size is nudged so its baseline lands on the rule (hhea metrics). */
-:root,:root[data-theme="dark"]{color-scheme:dark;
-  --serif:var(--font-display);--sans:var(--font-sans);
-  --R:28px;--lx:210px;
-  --mono:ui-monospace,'SF Mono',Menlo,Consolas,monospace;
-  --desk:#050a18;--paper:#0f1c3f;--card:#16285a;
-  --text:#f3ead7;--muted:#cbc5b4;--faint:#8e9cc6;
-  --gold:#f2bd52;--gold-soft:#ffd88c;--print:#7fb4f5;
-  --rule:rgba(127,170,245,.11);--head-rule:rgba(127,180,245,.4);--mline:rgba(127,170,245,.3);
-  --tape:rgba(243,232,205,.17);--hole:#050a18;--line-soft:rgba(127,170,245,.16);
-  --sheet-shadow:0 40px 90px -40px rgba(0,0,0,.9),0 0 0 1px rgba(255,255,255,.04);
-  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 .95 0 0 0 0 .85 0 0 0 .09 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-  /* café scene */
+/* Homepage: layout bridge, hero, cafe window, invitation cases. */
+:root,:root[data-theme="dark"]{
   --c-b:#e8b960;--c-n2:#a9cbca;--c-sh:#73bb9c;--c-a:#f08c4c;--c-n:#7fb4f5;--c-d:#c9a36a;
   --c-t:#b3d06a;--c-r:#cf9763;--c-s:#ffd36a;--c-w:rgba(170,188,235,.6);--c-p:rgba(170,188,235,.75);
   --c-f:rgba(170,188,235,.5);--c-c:#c08353;--c-k:#f4e4c4;--c-m:#c3cbe0;--c-g:rgba(220,230,255,.55);--c-v:#ee6a5f;
 }
-:root[data-theme="light"]{color-scheme:light;
-  --desk:#d8d1c1;--paper:#fbf6ea;--card:#fffdf7;
-  --text:#1b2233;--muted:#474d5b;--faint:#69728c;
-  --gold:#a8650a;--gold-soft:#7d4a00;--print:#2747a8;
-  --rule:rgba(39,71,168,.17);--head-rule:rgba(39,71,168,.45);--mline:rgba(39,71,168,.3);
-  --tape:rgba(226,206,140,.62);--hole:#d8d1c1;--line-soft:rgba(0,0,0,.09);
-  --sheet-shadow:0 30px 70px -36px rgba(60,48,20,.45),0 0 0 1px rgba(0,0,0,.05);
-  --grain:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .3 0 0 0 0 .25 0 0 0 0 .15 0 0 0 .11 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+:root[data-theme="light"]{
   --c-b:#b07812;--c-n2:#3f8189;--c-sh:#2f7d5a;--c-a:#c4561d;--c-n:#2453b8;--c-d:#8a6a3a;
   --c-t:#4f8a2b;--c-r:#8a5a2e;--c-s:#c98a00;--c-w:rgba(40,60,120,.5);--c-p:rgba(40,60,120,.65);
   --c-f:rgba(40,60,120,.45);--c-c:#7a4a24;--c-k:#a88d62;--c-m:#6d7790;--c-g:rgba(40,60,120,.5);--c-v:#b5382e;
 }
-body{background:var(--desk);color:var(--text)}
-a{color:var(--text)}
-
-/* the site's header and footer sit on the desk and take the paper's palette */
 :root[data-theme]{--bg:var(--desk);--text-muted:var(--muted);--text-light:var(--faint);--accent:var(--gold);--accent-hover:var(--gold-soft);--border:var(--line-soft)}
 .reading-progress,.section-name{display:none}
 .site-header{border-bottom:0;background:transparent}
@@ -45,60 +19,13 @@ a{color:var(--text)}
 .site-footer a{color:var(--muted)}.site-footer a:hover{color:var(--gold)}
 #main-content{padding:8px 0 0;min-height:0}
 #main-content > .container{max-width:none;padding:0}
-
-/* global element styles reset inside the sheet */
-.sheet :where(h1,h2,h3,p,ul,li,figure,pre){margin:0}
-.sheet pre{background:none;border:0;border-radius:0;padding:0;overflow:visible}
-.sheet em{font-style:italic}
 .hy{margin:0 -.07em}
 
-/* the sheet */
-.sheet{position:relative;max-width:1160px;margin:0 auto;padding:calc(var(--R)*4) 0 calc(var(--R)*2);
-  font-size:16px;line-height:var(--R);
-  background-color:var(--paper);
-  background-image:var(--grain),repeating-linear-gradient(180deg,transparent 0 20px,var(--rule) 20px 21px,transparent 21px var(--R));
-  border-radius:2px 5px 5px 2px;box-shadow:var(--sheet-shadow)}
-.sheet::after{content:'';position:absolute;inset:7px -6px -7px 5px;z-index:-1;background:var(--paper);filter:brightness(.78);border-radius:inherit;box-shadow:var(--sheet-shadow)}
-.sheet a{text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:4px}
-.sheet a:hover{color:var(--gold)}
-.holes{position:absolute;left:0;top:0;bottom:0;width:40px;pointer-events:none;
-  background:radial-gradient(circle at 20px 14px,var(--hole) 0 5px,rgba(0,0,0,.42) 5.6px,transparent 7px) 0 0/40px var(--R) repeat-y}
-.stationery{position:absolute;top:0;left:var(--lx);right:32px;height:76px;border-bottom:1px solid var(--head-rule);
-  display:flex;justify-content:flex-end;align-items:flex-start;gap:40px;padding-top:27px;pointer-events:none}
-.stationery span{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--print)}
-.stationery b{font-family:var(--serif);font-style:italic;font-weight:400;font-size:19px;letter-spacing:0;text-transform:none;color:var(--gold);
-  display:inline-block;min-width:4.6em;margin-left:.5em;border-bottom:1px dotted var(--mline)}
-
-/* the margin line, inked in gold as you read */
-.mline{position:absolute;top:0;bottom:0;left:var(--lx);width:1px;background:var(--mline);z-index:1;pointer-events:none}
-.ink{position:absolute;left:-.5px;top:0;width:2px;height:100%;background:var(--gold);transform-origin:50% 0;transform:scaleY(0)}
-.nib{position:absolute;top:-4px;left:calc(var(--lx) - 3.5px);width:8px;height:8px;border-radius:50%;background:var(--gold);z-index:3;pointer-events:none;
-  box-shadow:0 0 0 3px var(--paper),0 0 0 4.5px var(--gold)}
-.settle{transition:transform 1.1s cubic-bezier(.3,.7,.2,1)}
-
-/* rows on the grid */
-.row{position:relative;display:grid;grid-template-columns:150px minmax(0,1fr) 220px;column-gap:40px;align-items:start;padding:0 32px 0 40px}
-.row + .row{margin-top:calc(var(--R)*2)}
-.row.tight{margin-top:var(--R)}
-.node::before{content:'';position:absolute;left:calc(var(--lx) - 4.5px);top:9.5px;width:9px;height:9px;border-radius:50%;z-index:2;
-  background:var(--paper);box-shadow:inset 0 0 0 1.5px var(--mline);transition:background .35s,box-shadow .35s}
-.node.reached::before{background:var(--gold);box-shadow:inset 0 0 0 1.5px var(--gold)}
-.margin{font-family:var(--serif);font-style:italic;font-size:19px;color:var(--faint);text-align:right;transition:color .45s}
-.margin small{display:block;font-family:var(--sans);font-style:normal;font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--print);position:relative;top:2px}
-.node.reached .margin{color:var(--gold)}
-.span-2{grid-column:2 / -1}
-
 .hero{grid-template-columns:150px minmax(0,1fr) 300px}
-.eyebrow{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--print);position:relative;top:2px}
-.h1{font:400 86px/84px var(--serif);letter-spacing:-.02em;position:relative;top:5px}
-.lead{font:400 40px/56px var(--serif);position:relative;top:6px;text-wrap:balance;max-width:16em}
-.lead em,.h2 em,.pull em{color:var(--gold)}
 .sub{color:var(--muted);max-width:46ch;margin-top:var(--R)}
 .cue{margin-top:var(--R);font-family:var(--mono);font-size:12px;color:var(--faint);position:relative;top:2px}
 .cue b{color:var(--gold);font-weight:400;display:inline-block;animation:nudge 1.8s ease-in-out infinite;margin-right:.5em}
 @keyframes nudge{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
-
-/* the café window */
 .cafe{margin:0}
 .cafe pre{margin:0;font-family:var(--mono);font-size:10.8px;line-height:13px;white-space:pre;color:var(--c-f)}
 .cafe .f{color:var(--c-f)}.cafe .s{color:var(--c-s)}.cafe .w{color:var(--c-w)}.cafe .p{color:var(--c-p)}
@@ -108,94 +35,25 @@ a{color:var(--text)}
 .cafe figcaption{font-family:var(--serif);font-style:italic;font-size:17px;color:var(--faint);position:relative;top:0;margin-top:var(--R)}
 .js .cafe pre{clip-path:inset(0 0 100% 0);animation:paint 1.6s steps(21) .35s forwards}
 @keyframes paint{to{clip-path:inset(0 0 0 0)}}
-
-/* hand marks: an ink circle and an ink underline, both in gold */
-.circ{position:relative;white-space:nowrap}
-.circ svg{position:absolute;left:-5%;top:-14%;width:112%;height:128%;overflow:visible;pointer-events:none}
-.circ path,.ul path{fill:none;stroke:var(--gold);stroke-width:2.2;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1}
-.circ path{animation:draw 1.15s cubic-bezier(.5,.1,.3,1) .9s forwards}
-@keyframes draw{to{stroke-dashoffset:0}}
-.ul{position:relative;white-space:nowrap}
-.ul svg{position:absolute;left:-2%;bottom:-.2em;width:104%;height:.36em;overflow:visible;pointer-events:none}
-.ul path{transition:stroke-dashoffset 1s cubic-bezier(.5,.1,.3,1) .5s}
-.in .ul path{stroke-dashoffset:0}
-
-.h2{font:400 44px/56px var(--serif);position:relative;top:5px;text-wrap:balance}
-.entry h3{font:italic 400 34px/56px var(--serif);position:relative;top:8px}
-.entry p{max-width:50ch}
-.pull{font:400 40px/56px var(--serif);position:relative;top:6px;text-wrap:balance}
-.muted{color:var(--muted)}
-.pull + .muted{margin-top:var(--R)}
-
-.side{font-size:13.5px}
-.side a,.side b{display:block;font-weight:600;position:relative;top:1px;width:fit-content}
-.side b{color:var(--text)}
-.side span{display:block;font-size:12px;color:var(--faint);position:relative;top:2px}
-
-/* things taped onto the page */
-.snap{margin-top:var(--R)}
-.card{position:relative;display:inline-block;background:var(--card);padding:16px 20px 14px;transform:rotate(var(--rot,-.8deg));
-  box-shadow:0 10px 18px -12px rgba(0,0,0,.7),0 0 0 1px var(--line-soft)}
-.card::before{content:'';position:absolute;top:-10px;left:50%;width:78px;height:20px;margin-left:-39px;background:var(--tape);transform:rotate(-3deg)}
-.card pre{margin:0;font-family:var(--mono);font-size:12px;line-height:15px;color:var(--text);white-space:pre}
-.card pre i{font-style:normal;color:var(--faint)}
-.card pre b{font-weight:400;color:var(--gold)}
 .cases{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .case{font-family:var(--mono);font-size:12px;line-height:18px;color:var(--muted);width:100%;padding:16px 14px 14px}
 .case b{display:block;color:var(--gold);font-weight:400;margin-bottom:4px}
 .case:nth-child(2){--rot:.9deg}.case:nth-child(3){--rot:-.4deg}
-.stamp{display:inline-block;margin-top:var(--R);border:1.5px solid var(--gold);color:var(--gold);border-radius:4px;padding:3px 10px;font-size:10.5px;line-height:16px;letter-spacing:.16em;text-transform:uppercase;transform:rotate(-3deg)}
-.now{list-style:none;margin:0;padding:0}
-.now li{position:relative;padding-left:1.2em;max-width:52ch}
-.now li::before{content:"\2013";position:absolute;left:0;color:var(--gold)}
-/* funders: a printed ledger, one funder per rule */
-.funders{list-style:none;margin:0;padding:0}
-.funders li{display:grid;grid-template-columns:6.5rem minmax(0,1fr);column-gap:20px}
-.funders b{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--print);position:relative;top:2px}
-
-/* scroll reveals: opacity, transform and clip-path only */
-.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
-.js .reveal.in{opacity:1;transform:none}
-.js .reveal .card{opacity:0;transform:translateY(-12px) rotate(-5deg) scale(1.04);transition:opacity .4s ease .2s,transform .65s cubic-bezier(.2,.9,.25,1.2) .2s}
-.js .reveal.in .card{opacity:1;transform:rotate(var(--rot,-.8deg))}
-.js .reveal .card pre{clip-path:inset(0 100% 0 0);transition:clip-path 1.2s steps(30) .75s}
-.js .reveal.in .card pre{clip-path:inset(0)}
-html.static .reveal,html.static .reveal .card{opacity:1!important;transform:none!important}
-html.static .reveal .card{transform:rotate(var(--rot,-.8deg))!important}
-html.static .reveal .card pre,html.static .cafe pre{clip-path:none!important;animation:none!important}
-html.static .circ path,html.static .ul path{animation:none;stroke-dashoffset:0}
+html.static .cafe pre{clip-path:none!important;animation:none!important}
 
 @media(max-width:1000px){
-  :root,:root[data-theme]{--lx:170px}
-  .row,.hero{grid-template-columns:110px minmax(0,1fr)}
-  .row > .side,.row > .cafe{grid-column:2;margin-top:var(--R)}
-  .span-2{grid-column:2}
+  .hero{grid-template-columns:110px minmax(0,1fr)}
+  .row > .cafe{grid-column:2;margin-top:var(--R)}
   .cases{grid-template-columns:1fr;max-width:420px}
 }
 @media(max-width:700px){
-  :root,:root[data-theme]{--lx:38px}
   .site-header .container,.site-footer .container{padding-left:16px;padding-right:16px}
-  .sheet{border-radius:0}
-  .sheet::after{display:none}
-  .holes{width:22px;background:radial-gradient(circle at 11px 14px,var(--hole) 0 3.4px,rgba(0,0,0,.4) 4px,transparent 5px) 0 0/22px var(--R) repeat-y}
-  .stationery{left:58px;right:16px;gap:18px;justify-content:flex-start}
-  .stationery b{min-width:0}
-  .row,.hero{grid-template-columns:minmax(0,1fr);padding:0 16px 0 58px}
-  .row > .side,.row > .cafe,.span-2{grid-column:1}
-  .margin{text-align:left;font-size:18px;display:flex;gap:.6em;align-items:baseline}
-  .margin small{display:inline;top:0}
-  .h1{font-size:52px;line-height:56px;top:3px}
-  .lead{font-size:26px;line-height:var(--R);top:-3px;margin-top:var(--R)}
-  .h2,.pull{font-size:26px;line-height:var(--R);top:-3px}
-  .entry h3{font-size:28px;line-height:var(--R);top:-3px}
-  .funders li{grid-template-columns:5.6rem minmax(0,1fr);column-gap:12px}
-  .card{padding:14px 14px 12px}
-  .card pre{font-size:10px;line-height:13px}
+  .hero{grid-template-columns:minmax(0,1fr);padding:0 16px 0 58px}
+  .row > .cafe{grid-column:1}
+  /* Keep the shared card's phone padding after the home-only case rule. */
+  .case{padding:14px 14px 12px}
   .cafe pre{font-size:min(10.8px,calc((100vw - 78px) / 27.8));line-height:1.2}
 }
 @media(prefers-reduced-motion:reduce){
-  .js .reveal,.js .reveal .card{opacity:1;transform:none}
-  .js .reveal .card{transform:rotate(var(--rot,-.8deg))}
-  .js .reveal .card pre,.js .cafe pre{clip-path:none;animation:none}
-  .circ path,.ul path{stroke-dashoffset:0}
+  .js .cafe pre{clip-path:none;animation:none}
 }

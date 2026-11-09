@@ -1,9 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import '../styles/home-paper.css';
+import homePaperUrl from '../styles/home-paper.css?url';
 import cafe from '../assets/cafe-window.html?raw';
 ---
 <Layout title="Minh-Ha Nguyen" description="Minh-Ha Nguyen: a pharmacist turned epidemiologist at Vanderbilt, designing observational studies of medicines in large-scale health data.">
+  <link rel="stylesheet" href="/paper/paper.css" />
+  <link rel="stylesheet" href={homePaperUrl} />
   <script is:inline>document.documentElement.classList.add('js');if(location.search.includes('static'))document.documentElement.classList.add('static');</script>
   <div class="sheet" id="sheet">
     <div class="holes" aria-hidden="true"></div>
@@ -86,7 +88,7 @@ import cafe from '../assets/cafe-window.html?raw';
     <section class="row node entry reveal" id="funders">
       <div class="margin">Funders<small>with thanks</small></div>
       <div>
-        <ul class="funders">
+        <ul class="ledger">
           <li><b>KOICA</b><span>MEF Fellowship, 2023</span></li>
           <li><b>NASA</b><span>Doctoral research on low-dose radiation and Parkinson’s disease</span></li>
           <li><b>Anthropic</b><span>AI for Science program, for our rare-disease diagnosis research</span></li>
@@ -112,60 +114,5 @@ import cafe from '../assets/cafe-window.html?raw';
       <div><p class="pull">Health is rarely lost all at once. It goes in <em>small chips that compound.</em></p><p class="muted">Common conditions deserve more care than they get. That is the longer road I am on.</p></div>
     </section>
   </div>
+  <script is:inline src="/paper/paper.js" defer></script>
 </Layout>
-
-<script>
-  const R = 28;
-  const root = document.documentElement;
-  const still = root.classList.contains('static') || matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const sheet = document.getElementById('sheet')!;
-  const ink = document.getElementById('ink')!;
-  const nib = document.getElementById('nib')!;
-  const nodes = [...document.querySelectorAll<HTMLElement>('.node')];
-
-  // Keep the rhythm: anything of free height (cards, the drawing) is padded to whole rules.
-  function snap(sel: string) {
-    const els = [...document.querySelectorAll<HTMLElement>(sel)];
-    els.forEach(el => { el.style.minHeight = ''; });
-    const hs = els.map(el => el.offsetHeight);
-    els.forEach((el, i) => { el.style.minHeight = Math.ceil(hs[i] / R - 0.02) * R + 'px'; });
-  }
-
-  let sheetTop = 0, sheetH = 0, nodeY: number[] = [], maxScroll = 0, tipAtMax = 0;
-  function measure() {
-    snap('.snap');
-    snap('.row > *');
-    sheetTop = sheet.getBoundingClientRect().top + scrollY;
-    sheetH = sheet.offsetHeight;
-    nodeY = nodes.map(n => n.offsetTop + 14);
-    maxScroll = Math.max(1, root.scrollHeight - innerHeight);
-    tipAtMax = maxScroll + innerHeight * 0.62 - sheetTop;
-  }
-
-  let ticking = false, reached = -1;
-  function frame() {
-    ticking = false;
-    let tip = sheetH;
-    if (!still) {
-      tip = scrollY + innerHeight * 0.62 - sheetTop;
-      const tail = Math.max(0, scrollY - (maxScroll - innerHeight * 0.5)) / (innerHeight * 0.5);
-      tip += Math.min(1, tail) * Math.max(0, sheetH - tipAtMax);
-      tip = Math.min(sheetH, Math.max(0, tip));
-    }
-    ink.style.transform = `scaleY(${tip / sheetH})`;
-    nib.style.transform = `translateY(${tip}px)`;
-    const n = nodeY.filter(y => y <= tip).length;
-    if (n !== reached) { reached = n; nodes.forEach((el, i) => el.classList.toggle('reached', i < n)); }
-  }
-  const request = () => { if (!ticking) { ticking = true; requestAnimationFrame(frame); } };
-
-  measure();
-  if (!still) { ink.classList.add('settle'); nib.classList.add('settle'); setTimeout(() => { ink.classList.remove('settle'); nib.classList.remove('settle'); }, 1200); }
-  requestAnimationFrame(frame);
-  document.fonts && document.fonts.ready.then(() => { measure(); request(); });
-  addEventListener('scroll', request, { passive: true });
-  let rt: ReturnType<typeof setTimeout>; addEventListener('resize', () => { clearTimeout(rt); rt = setTimeout(() => { measure(); request(); }, 120); });
-
-  const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -12% 0px' });
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-</script>
