@@ -68,3 +68,6 @@ playwright.config.ts
 
 # Reflection blog (internal dev notes)
 Reflection_blog/
+
+# Archived site sections (kept locally, never deleted)
+.archive/
