@@ -29,5 +29,28 @@
 
   const year = document.querySelector('[data-year]');
   if (year) year.textContent = String(new Date().getFullYear());
+
+  // Photographs stay lazy in the markup so the first screen paints first. Safari only fetches a lazy
+  // image once it is about one screen away, so a jump to the cases met empty mounts: anything within
+  // two screens is fetched at once, and after the page has loaded the rest follow in reading order.
+  const photos = [...document.querySelectorAll('img[loading="lazy"]')];
+  const fetchNow = img => { img.loading = 'eager'; };
+  if ('IntersectionObserver' in window) {
+    const near = new IntersectionObserver(entries => entries.forEach(entry => {
+      if (entry.isIntersecting) { fetchNow(entry.target); near.unobserve(entry.target); }
+    }), { rootMargin: '200% 0px' });
+    photos.forEach(img => near.observe(img));
+  }
+  const queue = photos.slice();
+  const fetchNext = () => {
+    const img = queue.shift();
+    if (!img) return;
+    if (img.complete) { fetchNext(); return; }
+    img.addEventListener('load', fetchNext, { once: true });
+    img.addEventListener('error', fetchNext, { once: true });
+    fetchNow(img);
+  };
+  const fetchRest = () => { if (!navigator.connection?.saveData) for (let i = 0; i < 3; i++) fetchNext(); };
+  if (document.readyState === 'complete') fetchRest(); else addEventListener('load', fetchRest, { once: true });
   window.Paper?.coverReady();
 })();
