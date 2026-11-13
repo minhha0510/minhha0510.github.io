@@ -45,11 +45,13 @@ a{color:var(--text)}
 .sheet{position:relative;max-width:1160px;margin:0 auto;padding:calc(var(--R)*4) 0 calc(var(--R)*2);
   font-size:16px;line-height:var(--R);
   background-color:var(--paper);
-  background-image:var(--grain),repeating-linear-gradient(180deg,transparent 0 20px,var(--rule) 20px 21px,transparent 21px var(--R));
+  background-image:var(--grain),linear-gradient(180deg,transparent 20px,var(--rule) 20px 21px,transparent 21px);
+  background-size:auto,100% var(--R);
   border-radius:2px 5px 5px 2px;box-shadow:var(--sheet-shadow)}
-/* The sheet beneath is the paper at brightness(.78), precomputed, and the grain is a bitmap of an
-   feTurbulence tile: WebKit repaints a filter over the page's whole length on the CPU, and Safari
-   scrolled and loaded with lag. */
+/* One rule is drawn and tiled: WebKit drops lines from a repeating gradient that spans a long sheet
+   (as few as 13 of 30 in a screen of the Vietnamese hair-loss page). The sheet beneath is the paper
+   at brightness(.78), precomputed, and the grain is a bitmap of an feTurbulence tile: WebKit
+   repaints a filter over the page's whole length on the CPU, and Safari scrolled and loaded with lag. */
 .sheet::after{content:'';position:absolute;inset:7px -6px -7px 5px;z-index:-1;background:var(--paper-under);border-radius:inherit;box-shadow:var(--sheet-shadow-under)}
 .sheet a{text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:4px}
 .sheet a:hover{color:var(--gold)}
